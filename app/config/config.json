@@ -1,0 +1,162 @@
+{
+    "indexTitle":"Epistolario Canneti Fiacchi",
+    "webSite":"",
+    "logoUrl":"",
+    "dataUrl":"data/epistolario-canneti-fiacchi.xml",
+    "sourcesUrl":"",
+    "analoguesUrl":"",
+    "sourcesTextsUrl":"",
+    "defaultViewMode":"readingTxt",
+    "availableViewModes":[
+        {
+            "label":"READING_TEXT",
+            "icon":"reading-txt",
+            "viewMode":"readingTxt",
+            "visible":true
+        },
+        {
+            "label":"MULTIPLE_RECENSIONS",
+            "icon":"mode-versions",
+            "viewMode":"versions",
+            "visible":false
+        },
+        {
+            "label":"IMAGE_TEXT",
+            "icon":"mode-imgTxt",
+            "viewMode":"imgTxt",
+            "visible":true
+        },
+        {
+            "label":"TEXT_TEXT",
+            "icon":"mode-txtTxt",
+            "viewMode":"txtTxt",
+            "visible":true
+        },
+        {
+            "label":"COLLATION",
+            "icon":"mode-collation",
+            "viewMode":"collation",
+            "visible":false
+        },
+        {
+            "label":"SOURCE_TEXT",
+            "icon":"mode-srcTxt",
+            "viewMode":"srcTxt",
+            "visible":false
+        },
+        {
+            "label":"BOOKREADER",
+            "icon":"bookreader","viewMode":"bookreader","visible":true
+        }
+    ],
+    "editionType":"interpretative",
+    "defaultEdition":"interpretative",
+    "showEditionLevelSelector":true,
+    "availableEditionLevel":
+        [
+            {
+                "value":"critical",
+                "label":"Critical",
+                "title":"Critical edition",
+                "visible":false
+            },
+            {
+                "value":"diplomatic",
+                "label":"Diplomatic",
+                "title":"Diplomatic edition",
+                "visible":false
+            },
+            {
+                "value":"interpretative",
+                "label":"Interpretative",
+                "title":"Interpretative edition",
+                "visible":true
+            }
+        ],
+        "enableXMLdownload":true,
+        "toolPinAppEntries":true,
+        "toolImageTextLinking":false,
+        "namedEntitiesSelector":true,
+        "namedEntitiesToHandle":
+            [
+                {
+                    "tagName":"persName",
+                    "label":"Persone",
+                    "available":true
+                },
+                {
+                    "tagName":"placeName",
+                    "label":"Luoghi",
+                    "available":true
+                },
+                {
+                    "tagName":"orgName",
+                    "label":"Organizzazioni",
+                    "available":true
+                }
+            ],
+        "otherEntitiesToHandle":
+            [
+                {
+                    "tagName":"rs",
+                    "label":"Persone (Indirette)",
+                    "available":true,
+                    "color":"rgb(255,255,204)"
+                },
+                {
+                    "tagName":"bibl[type='manuscript']",
+                    "label":"Manoscritti",
+                    "available":true,
+                    "color":"rgb(255,204,249)"
+                },
+                {
+                    "tagName":"",
+                    "label":"",
+                    "available":true,
+                    "color":"rgb(255,255,204)"
+                }
+            ],
+        "toolHeatMap":false,
+        "preferredWitness":"",
+        "skipWitnesses":"",
+        "listDef":"<listWit>, <listChange>",
+        "versionDef":"<witness>, <change>",
+        "fragmentMilestone":"<witStart>, <witEnd>",
+        "lacunaMilestone":"<lacunaStart>, <lacunaEnd>",
+        "possibleVariantFilters":"type, cause, hand",
+        "possibleLemmaFilters":"resp, cert",
+        "notSignificantVariant":"<orig>, <sic>, [type=orthographic]",
+        "quoteDef":"<quote>",
+        "analogueDef":"<seg>,<ref[type=parallelPassage]>",
+        "maxWitsLoadTogether":5,
+        "versions":[],
+        "witnessesGroups":[],
+        "showReadingExponent":true,
+        "showInlineCriticalApparatus":false,
+        "showInlineSources":false,
+        "showInlineAnalogues":false,
+        "variantColors":{},
+        "variantColorLight":"rgb(208, 220, 255)",
+        "variantColorDark":"rgb(101, 138, 255)",
+        "heatmapColor":"rgb(255, 108, 63)",
+        "defaultBibliographicStyle":"",
+        "allowedBibliographicStyles":
+            {
+                "Chicago":
+                    {
+                        "label":"Chicago",
+                        "enabled":true
+                    },
+                "APA":
+                    {
+                        "label":"APA",
+                        "enabled":false
+                    },
+                "MLA":
+                    {
+                        "label":"MLA",
+                        "enabled":true
+                    }
+            },
+            "languages":["en","it"]
+        }

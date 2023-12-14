@@ -1,0 +1,70 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10004">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Ribano, 19 Ottobre 1712)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt><ab></ab></publicationStmt>
+         <seriesStmt>
+            <title type="main">Epistolario Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">4</biblScope>
+            <editor></editor>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
+                     <idno></idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1712-10-19"/>
+               <placeName ref="#DLCL_CF_L0006" key="DLCL_CF_L0006">Ribano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2023-11-14" who="#DLCL_CF_PS001">creato</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile sameAs="https://classense.unibo.it/iiif/20636/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/files/large/20636/DSC_5589.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/files/large/20636/DSC_5590.jpg"/>
+   </facsimile>
+   <text type="letter">
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10004_C1R" n="1r"/>
+            <pb xml:id="DLCL_CF_E10004_C1V" n="1v"/>
+         </div>
+      </body>
+   </text>
+</TEI>
