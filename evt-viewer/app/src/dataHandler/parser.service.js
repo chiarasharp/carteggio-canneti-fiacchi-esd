@@ -820,7 +820,7 @@ angular.module('evtviewer.dataHandler')
 				} else {
 					newPage.value = element.getAttribute('xml:id') || 'page_' + (parsedData.getPages().length + 1);
 				}
-				newPage.image = element.getAttribute('src') || config.singleImagesUrl + newPage.value + '.jpg';
+				newPage.image = element.getAttribute('facs') || config.singleImagesUrl + newPage.value + '.jpg';
 				newPage.svgId = element.getAttribute('svg:id') || (parsedData.getPages().length + 1);
 				newPage.label = element.getAttribute('n') || 'Page ' + (parsedData.getPages().length + 1);
 				newPage.title = element.getAttribute('n') || 'Page ' + (parsedData.getPages().length + 1);
@@ -830,14 +830,14 @@ angular.module('evtviewer.dataHandler')
 						newPage[attrib.name.replace(':', '-')] = attrib.value;
 					}
 				}
-				// Get image source URL
-				if (element.getAttribute('facs')) {
+				/* // Get image source URL
+				if (element.getAttribute('facs')) { */
 					newPage.source = element.getAttribute('facs');
-				} else {
+				/* } else {
 					// TODO: handle other cases (e.g. <surface>)
 					// handle image source from singleImagesUrl
 					newPage.source = config.singleImagesUrl + newPage.value + '.jpg';
-				}
+				} */
 				parsedData.addPage(newPage, docId);
 			});
 			//console.log('## Pages ##', parsedData.getPages());

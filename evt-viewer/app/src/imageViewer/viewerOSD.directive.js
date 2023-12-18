@@ -3,8 +3,6 @@
 var OpenSeadragon = require('openseadragon');
 
 var module = angular.module("evtviewer.openseadragon", ["evtviewer.imageViewer",'evtviewer.openseadragonService', "evtviewer.interface"]);
-  
-
 
 module.directive("osd", ['$timeout', 'imageViewerHandler', "evtInterface", "osd", function ($timeout, imageViewerHandler, evtInterface, osd) {
   return {
@@ -18,7 +16,6 @@ module.directive("osd", ['$timeout', 'imageViewerHandler', "evtInterface", "osd"
       prefixUrl: "=",
     },
 
-
     controller: "imageViewerCtrl",
 
     template: "<div id='osd-img' class='box-image Edition'></div>",
@@ -28,16 +25,17 @@ module.directive("osd", ['$timeout', 'imageViewerHandler', "evtInterface", "osd"
     link: function (scope, element, attrs) {
 
       $timeout(function () {
+        
         var _options = osd.build(attrs.name);
+
+        console.log(_options);
         var viewer = null;
-        try {
+        // try {
           viewer = new OpenSeadragon.Viewer(_options);
-        }
+        /* }
         catch (err) {
-
           console.error("viewer in timeout osd directive errore", err);
-
-        }
+        } */
         scope.osd = viewer;
         scope.$parent[attrs.name] = viewer;
         var coeff = osd.imgCoeff();

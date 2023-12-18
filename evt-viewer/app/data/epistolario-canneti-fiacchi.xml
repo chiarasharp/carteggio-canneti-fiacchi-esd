@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/epist-cannetifiacchi-rng.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schema/epist-cannetifiacchi-rng.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus version="3.3.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xmlns="http://www.tei-c.org/ns/1.0" xml:id="DLCL_CF">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Epistolario Canneti Fiacchi</title>
+            <author ref="#DLCL_CF_PC0001">Pietro Canneti</author>
+            <author ref="#DLCL_CF_PC0002">Mariangelo Fiacchi</author>
+            <respStmt>
+               <resp>Transcription</resp>
+               <persName></persName>
+               <persName></persName>
+               <persName></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Marking</resp>
+               <persName ref="#DLCL_CF_PS001">Chiara Manca</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Edited</resp>
+               <persName></persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher></publisher>
+            <pubPlace ref="#DLCL_CF_L002">Ravenna</pubPlace>
+            <date></date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Epistolario Canneti Fiacchi</title>
+            <title type="genre">Lettere</title>
+            <idno type="ISSN"></idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
+                     <idno></idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <xi:include href="entities/people/cited-people.xml"/>
+            <xi:include href="entities/people/staff.xml"/>
+            <xi:include href="entities/orgs.xml"/>
+            <xi:include href="entities/places.xml"/>
+            <!--<xi:include href="../entities/works.xml"/>-->
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Raccolta di lettere fra Pietro Canneti e Mariangelo Fiacchi, conservate alla Biblioteca Classense di Ravenna.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p></p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="IT"/>
+         </langUsage>
+         <settingDesc>
+            
+         </settingDesc>
+         <particDesc>
+            
+
+            
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="unfinished">
+         <change when-iso="2023-11-07" who="#DLCL_CF_PS001">created</change>
+      </revisionDesc>
+   </teiHeader>
+   <milestone xml:id="DLCL_CF_E10" unit="busta" n="10"/>
+   <xi:include href="busta-10/DLCL_CF_E10001.xml"/>
+   <!-- <xi:include href="busta-10/DLCL_CF_E10002.xml"/>
+   <xi:include href="busta-10/DLCL_CF_E10003.xml"/>
+   <xi:include href="busta-10/DLCL_CF_E10004.xml"/> -->
+</teiCorpus>
+
+
+
+
+
+
+
+
+
+
+

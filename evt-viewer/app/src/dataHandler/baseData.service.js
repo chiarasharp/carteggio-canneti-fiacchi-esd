@@ -332,8 +332,14 @@ angular.module('evtviewer.dataHandler')
                             var dom = angular.element(includedDoc)[0];
                             findXPointerElem(fileXpointer, dom);
                             includedTextElem = XPointersElem[fileXpointer];
+                            
                         } else {
-                            includedTextElem = includedDoc.getElementsByTagName('text')[0];
+                            if (includedDoc.getElementsByTagName('text')[0]) {
+                                includedTextElem = includedDoc.getElementsByTagName('text')[0];
+                            }
+                            else {
+                                includedTextElem = includedDoc.documentElement;
+                            }                 
                         }
                         element.parentNode.replaceChild(includedTextElem, element);
                         if (includedFilesLoaded === totFilesToInclude) {

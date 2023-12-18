@@ -6,7 +6,7 @@
     "sourcesUrl":"",
     "analoguesUrl":"",
     "sourcesTextsUrl":"",
-    "defaultViewMode":"readingTxt",
+    "defaultViewMode":"imgTxt",
     "availableViewModes":[
         {
             "label":"READING_TEXT",
@@ -73,9 +73,13 @@
                 "visible":true
             }
         ],
-        "enableXMLdownload":true,
-        "toolPinAppEntries":true,
-        "toolImageTextLinking":false,
+    "showDocumentSelector": true,
+    "enableNavBar": true,
+    "initNavBarOpened": true,
+    "thumbnailsButton": true,
+    "enableXMLdownload":true,
+    "toolPinAppEntries":true,
+    "toolImageTextLinking":true,
         "namedEntitiesSelector":true,
         "namedEntitiesToHandle":
             [
@@ -116,18 +120,19 @@
                     "color":"rgb(255,255,204)"
                 }
             ],
+        "imageViewerOptions" : {},
         "toolHeatMap":false,
         "preferredWitness":"",
         "skipWitnesses":"",
-        "listDef":"<listWit>, <listChange>",
-        "versionDef":"<witness>, <change>",
-        "fragmentMilestone":"<witStart>, <witEnd>",
-        "lacunaMilestone":"<lacunaStart>, <lacunaEnd>",
-        "possibleVariantFilters":"type, cause, hand",
-        "possibleLemmaFilters":"resp, cert",
-        "notSignificantVariant":"<orig>, <sic>, [type=orthographic]",
-        "quoteDef":"<quote>",
-        "analogueDef":"<seg>,<ref[type=parallelPassage]>",
+        "listDef":"",
+        "versionDef":"",
+        "fragmentMilestone":"",
+        "lacunaMilestone":"",
+        "possibleVariantFilters":"",
+        "possibleLemmaFilters":"",
+        "notSignificantVariant":"",
+        "quoteDef":"",
+        "analogueDef":"",
         "maxWitsLoadTogether":5,
         "versions":[],
         "witnessesGroups":[],
