@@ -86,7 +86,8 @@
    </teiHeader>
    <milestone xml:id="DLCL_CF_E10" unit="busta" n="10"/>
    <xi:include href="busta-10/DLCL_CF_E10001.xml"/>
-   <!-- <xi:include href="busta-10/DLCL_CF_E10002.xml"/>
+   <xi:include href="busta-10/DLCL_CF_E10002.xml"/>
+   <!-- 
    <xi:include href="busta-10/DLCL_CF_E10003.xml"/>
    <xi:include href="busta-10/DLCL_CF_E10004.xml"/> -->
 </teiCorpus>

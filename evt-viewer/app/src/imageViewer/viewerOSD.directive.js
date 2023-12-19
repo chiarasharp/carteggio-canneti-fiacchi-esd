@@ -28,14 +28,13 @@ module.directive("osd", ['$timeout', 'imageViewerHandler', "evtInterface", "osd"
         
         var _options = osd.build(attrs.name);
 
-        console.log(_options);
         var viewer = null;
-        // try {
+        try {
           viewer = new OpenSeadragon.Viewer(_options);
-        /* }
+        }
         catch (err) {
           console.error("viewer in timeout osd directive errore", err);
-        } */
+        }
         scope.osd = viewer;
         scope.$parent[attrs.name] = viewer;
         var coeff = osd.imgCoeff();

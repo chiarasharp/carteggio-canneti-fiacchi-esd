@@ -1,72 +1,72 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
    xmlns:xi="http://www.w3.org/2001/XInclude">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title xml:lang="it">Canneti a Fiacchi (Ribano, 31 Ottobre 1711)</title>
-            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
-         </titleStmt>
-         <publicationStmt>
-            <ab></ab>
-         </publicationStmt>
-         <seriesStmt>
-            <title type="main">Epistolario Canneti Fiacchi</title>
-            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
-            <biblScope unit="letter">1</biblScope>
-         </seriesStmt>
-         <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <country key="IT">Italia</country>
-                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
-                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                  <repository></repository>
-                  <collection></collection>
-                  <idno></idno>
-                  <altIdentifier>
-                     <idno></idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <msContents>
-                  <msItem>
-                     <incipit>Con la gratissima lettera di V.P. ricevo la nota de' libri di Faenza e insieme la certa notizia...</incipit>
-                  </msItem>
-               </msContents>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <correspDesc>
-            <correspAction type="sent">
-               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
-               <date when-iso="1711-10-31"/>
-               <placeName ref="#DLCL_CF_L0006" key="DLCL_CF_L0006">Ribano</placeName>
-            </correspAction>
-            <correspAction type="received">
-               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
-            </correspAction>
-         </correspDesc>
-         <langUsage>
-            <language ident="it"/>
-         </langUsage>
-         <settingDesc>
-            <xi:include href="../entities/places.xml"/>
-         </settingDesc>
-         <particDesc>
-            
-            <xi:include href="../entities/people/staff.xml"/>
-            <xi:include href="../entities/orgs.xml"/>
-         </particDesc>
-      </profileDesc>
-      <revisionDesc status="created">
-         <change when-iso="2023-11-14" who="#DLCL_CF_PS001">creato</change>
-      </revisionDesc>
-   </teiHeader>
    <facsimile sameAs="https://classense.unibo.it/iiif/2/20633/manifest">
       <graphic n="1r" url="https://classense.unibo.it/iiif/2/20815/full/605,800/0/default.jpg"/>
       <graphic n="1v" url="https://classense.unibo.it/iiif/2/20816/full/566,800/0/default.jpg"/>
    </facsimile>
    <text type="letter" xml:id="DLCL_CF_E10001" n="Canneti a Fiacchi (Ribano, 31 Ottobre 1711)">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Ribano, 31 Ottobre 1711)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <ab></ab>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">1</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <incipit>Con la gratissima lettera di V.P. ricevo la nota de' libri di Faenza e insieme la certa notizia...</incipit>
+                     </msItem>
+                  </msContents>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1711-10-31"/>
+                  <placeName ref="#DLCL_CF_L0006" key="DLCL_CF_L0006">Ribano</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+
+               <xi:include href="../entities/people/staff.xml"/>
+               <xi:include href="../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2023-11-14" who="#DLCL_CF_PS001">creato</change>
+         </revisionDesc>
+      </front>
       <body>
          <div type="transcription">
             <pb xml:id="DLCL_CF_E10001_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20815/full/605,800/0/default.jpg"/>

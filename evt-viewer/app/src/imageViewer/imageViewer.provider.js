@@ -13,7 +13,7 @@ angular.module('evtviewer.openseadragon')
                 return config.imageNormalizationCoefficient;
             }
 
-             imageViewer.build = function(name){
+            imageViewer.build = function(name){
                  var options = config.imageViewerOptions;
 
                  var pages = parsedData.getPages();
@@ -27,7 +27,6 @@ angular.module('evtviewer.openseadragon')
                      p = pages[i];
                      pp = parsedData.getPage(p);
                      source = pp.source;
-                     console.log(source);
                      if(source!==undefined && source!=='' && source!==' ' && source!==null){
                         imgobj.url = source;
                         options.tileSources.push(imgobj);
@@ -36,7 +35,7 @@ angular.module('evtviewer.openseadragon')
                  }
                  options.id = "osd-img";
                  return options;
-             }
+            }
 
             return imageViewer;
 

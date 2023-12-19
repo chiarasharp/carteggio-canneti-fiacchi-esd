@@ -25,7 +25,10 @@ angular.module('evtviewer.dataHandler')
 
     var skipElementsFromParser = '<evtNote>',
         skipElementsFromInfo   = '<listBibl>, <listWit>';
-    parser.parseProjectInfo = function(doc){
+    
+    
+    
+    parser.parseProjectInfo = function(doc) {
         var currentDocument = angular.element(doc);
         angular.forEach(currentDocument.find(projectInfoDef.replace(/[<>]/g, '')),
             function(element) {
@@ -62,7 +65,7 @@ angular.module('evtviewer.dataHandler')
      *
      * @author CDP
      */
-    parser.parseEditionReference = function(teiHeader){
+    parser.parseEditionReference = function(teiHeader) {
         var currentDocument = angular.element(teiHeader);
         var title = currentDocument.find(titleStmt.replace(/[<>]/g, '')+ ' title')[0],
             author = currentDocument.find(titleStmt.replace(/[<>]/g, '')+ ' author')[0],
