@@ -107,7 +107,7 @@ angular.module('evtviewer.dataHandler')
 										NEparser.parseDirectSubList(child, listsToParse[i], defCollection);
 									} else if (contentDef.indexOf(child.tagName) >= 0) { 
 										el = parseEntity(child, listsToParse[i]);
-										parsedData.addNamedEntityInCollection(collection, el, el.id.substr(0, 1).toLowerCase());
+										parsedData.addNamedEntityInCollection(collection, el, el._listPos);
 									}
 								}
 							});
@@ -448,6 +448,19 @@ angular.module('evtviewer.dataHandler')
 		if (elementForLabel && elementForLabel.length > 0) {
 			var parsedLabel = evtParser.parseXMLElement(elementForLabel[0], elementForLabel[0], {skip: '<evtNote>'});
 			el.label = parsedLabel ? parsedLabel.innerHTML : elId;
+			if(contentForLabelDef === '<persName>') {
+				var surname = nodeElem.getElementsByTagName("surname")[0];
+				if (surname && typeof surname !== "undefined") {
+					console.log(surname);
+					el._listPos = surname.innerHTML.substr(0, 1).toLowerCase();
+				}
+				else {
+					el._listPos = nodeElem.getElementsByTagName("forename")[0].innerHTML.substr(0, 1).toLowerCase();
+				}
+			}
+			else {
+				el._listPos = el.label.substr(0, 1).toLowerCase();
+			}
 		} else {
 			el.label = elId;
 		}

@@ -309,7 +309,7 @@ div.div {
 	}
 }
 
-.msDesc {
+.msDesc, .msdesc {
 	::before {
 		font-weight: bold;
 	}
@@ -332,7 +332,7 @@ div.div {
 		}
 	}
 
-	.msIdentifier {
+	.msIdentifier, .msidentifier {
 		display: block;
 		margin-bottom: 8px;
 
@@ -349,8 +349,8 @@ div.div {
 		}
 	}
 
-	.msContents {
-		.msItem {
+	.msContents, .mscontents {
+		.msItem, .msitem {
 
 			.author,
 			.title,
@@ -468,7 +468,7 @@ div.div {
 	font-size: 90%;
 }
 
-.encodingdesc {
+.encodingdesc, .encodingDesc {
 	.editorialdecl {
 		display: block;
 
@@ -491,14 +491,14 @@ div.div {
 		}
 	}
 
-	.projectDesc,
+	.projectDesc, .projectdesc,
 	.refsDecl {
 		display: block;
 		margin-top: 14px;
 	}
 }
 
-.fileDesc {
+.fileDesc, .filedesc {
 	*:before {
 		font-variant: small-caps;
 		color: #666;
@@ -517,7 +517,7 @@ div.div {
 		display: block;
 	}
 
-	.notesStmt {
+	.notesStmt, .notesstmt {
 		display: block;
 
 		.note {
@@ -526,7 +526,7 @@ div.div {
 		}
 	}
 
-	.publicationStmt {
+	.publicationStmt, .publicationstmt {
 		display: block;
 
 		>* {
@@ -547,11 +547,15 @@ div.div {
 	}
 
 	.respStmt,
-	.seriesStmt {
+	.seriesStmt, .seriesstmt {
 		display: block;
 	}
 
-	.sourceDesc {
+	.correspdesc {
+		display: block;
+	}
+
+	.sourceDesc, .sourcedesc {
 		display: block;
 
 		.listwit,
@@ -562,7 +566,7 @@ div.div {
 
 
 	//TODO : gestione titoli
-	.titleStmt {
+	.titleStmt, .titlestmt {
 		margin-bottom: 10px;
 		margin-left: 25%;
 
@@ -682,7 +686,7 @@ div.div {
 	}
 }
 
-.revisionDesc {
+.revisionDesc, .revisiondesc {
 	.change {
 		display: list-item;
 		margin-bottom: 10px;
