@@ -1,4 +1,4 @@
-<listOrg xml:id="DLCL_CF_O" xmlns="http://www.tei-c.org/ns/1.0">
+<listOrg type="organizations" xmlns="http://www.tei-c.org/ns/1.0">
    <org xml:id="DLCL_CF_O0001" type="library" sameAs="http://viaf.org/viaf/122822452">
       <orgName notBefore-iso="1803" xml:lang="it">Istituzione Biblioteca Classense</orgName>
       <orgName notBefore-iso="1803" xml:lang="it">Biblioteca comunale Classense</orgName>
@@ -17,9 +17,6 @@
             <settlement ref="#DLCL_CF_L0002">Ravenna</settlement>
          </address>
       </location>
-      <event when-iso="1512">
-         <label>founded</label>
-      </event>
    </org>
    <org xml:id="DLCL_CF_O0002" type="abbey" sameAs="https://explore.gnd.network/en/gnd/7628005-6">
       <orgName xml:lang="it">Abbazia di S. Salvatore in Valdicastro</orgName>

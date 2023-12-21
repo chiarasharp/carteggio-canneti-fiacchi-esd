@@ -1,4 +1,4 @@
-<listPlace xml:id="DLCL_CF_L" xmlns="http://www.tei-c.org/ns/1.0">
+<listPlace xml:id="DLCL_CF_L" type="places" xmlns="http://www.tei-c.org/ns/1.0">
    <place xml:id="DLCL_CF_L0001" type="settlement" sameAs="https://www.geonames.org/3177838/">
       <placeName>Cremona</placeName>
       <location>

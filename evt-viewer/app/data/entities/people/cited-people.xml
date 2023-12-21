@@ -1,4 +1,4 @@
-<listPerson xml:id="DLCL_CF_PC" type="cited-people" xmlns="http://www.tei-c.org/ns/1.0">
+<listPerson type="cited-people" xmlns="http://www.tei-c.org/ns/1.0">
    <person xml:id="DLCL_CF_PC0001" sameAs="http://viaf.org/viaf/88842923">
       <persName xml:lang="it">
          <forename type="religious">Pietro</forename>
