@@ -1,10 +1,10 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10002">
    <facsimile sameAs="https://classense.unibo.it/iiif/20634/manifest">
-      <graphic n="1r" url="https://classense.unibo.it/files/large/20634/DSC_5581.jpg"/>
-      <graphic n="1v" url="https://classense.unibo.it/files/large/20634/DSC_5582.jpg"/>
-      <graphic n="2r" url="https://classense.unibo.it/files/large/20634/DSC_5581.jpg"/>
-      <graphic n="2v" url="https://classense.unibo.it/files/large/20634/DSC_5582.jpg"/>
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/20817/full/598,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/20818/full/579,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/20817/full/598,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/20818/full/579,800/0/default.jpg"/>
    </facsimile>
    <text type="letter" n="Canneti a Fiacchi (Ribano, 3 Novembre 1711)" xml:id="DLCL_CF_E10002">
       <front>
@@ -66,13 +66,11 @@
       </front>
       <body>
          <div type="transcription">
-
+            
             <pb xml:id="DLCL_CF_E10002_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20817/full/598,800/0/default.jpg"/>
 
             <opener>
-               <salute>
-                  <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo.</rs>
-               </salute>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
             </opener>
 
             <p>
@@ -80,54 +78,52 @@
                Se il prezzo o è inalterabile, o stabilito in 22 scudi, non accade altro discorrerne. 
                Se v’ha luogo ad alterarlo con vantaggio, mi rimetto al nostro <persName ref="#DLCL_CF_PC0004" key="DLCL_CF_PC0004">Marozzi</persName>, che di cuore saluto. 
                Ricevo il <persName ref="#DLCL_CF_PC0008" key="DLCL_CF_PC0008">Martello</persName> legato approposito per una Libreria. 
-               Quando non possa aversi sciolto, si avrà questa copia che mi piace, e questa basterà, non volendone che una per la Libreria.
-               Aspetteremo che da <placeName ref="#DLCL_CF_L0007" key="DLCL_CF_L0007">Bologna</placeName> ritorni la copia delle Ipercrisi a <placeName ref="#DLCL_CF_L0009" key="DLCL_CF_L0009">Cesena</placeName>; e poi manderò la nostra a far emendare. 
+               Quando non possa aversi sciolto, si avrà questa copia che mi piace, e questa basterà, non volendone che una per la Libreria. 
+               Aspetteremo che da <placeName ref="#DLCL_CF_L0007" key="DLCL_CF_L0007">Bologna</placeName> ritorni la <bibl>copia delle Ipercrisi</bibl> a <placeName ref="#DLCL_CF_L0009" key="DLCL_CF_L0009">Cesena</placeName>; e poi manderò la nostra a far emendare. 
                Saluti caramente il <persName ref="#DLCL_CF_PC0012" key="DLCL_CF_PC0012">Padre Don Venanzio</persName>, dalla cui attenzione godo che sia stata fatta condurre a fine l’una, e l’altra copia. 
-               Con che di tutto cuore mi confermo, pregandole dal Signore Iddio la pienezza della vera felicità.
+               Con che di tutto cuore mi confermo, pregandole dal Signore Iddio la pienezza delle vere felicità. 
             </p>
+            
             <closer>
                <salute>DVP</salute>.
-               <dateline>
-                  <placeName ref="#DLCL_CF_L0006" key="DLCL_CF_L0006">Ribano</placeName>
-                  <date when-iso="1711-11-03">3 Novembre 1711</date>
-               </dateline>
+               <dateline><placeName ref="#DLCL_CF_L0006" key="DLCL_CF_L0006">Ribano</placeName> <date when-iso="1711-11-03">3 Novembre 1711</date></dateline>
             </closer>
 
             <postscript>
                <p>
-                  Il <persName ref="#DLCL_CF_PC0013" key="DLCL_CF_PC0013">Signore Muratori</persName> mi scrive non so che di cinque Copie del <persName ref="#DLCL_CF_PC0025" key="DLCL_CF_PC0025">Petrarca</persName> mandate al nostro Libraio. 
+                  Il <persName ref="#DLCL_CF_PC0013" key="DLCL_CF_PC0013">Signore Muratori</persName> mi scrive non so che di <bibl>cinque Copie del <persName ref="#DLCL_CF_PC0025" key="DLCL_CF_PC0025">Petrarca</persName></bibl> mandate al nostro Libraio. 
                   Suppongo abbia rimesso il dinaro al <persName>Soliani</persName>. 
-                  Un <rs type="person">Amico</rs> mi scrive che gli proveda un’Istoria di <placeName ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</placeName> del <persName ref="#DLCL_CF_PC0014" key="DLCL_CF_PC0014">Rossi</persName> della 2a edizione. 
-                  Il Libraio faccia diligenza se può averne una ben conservata a prezzo giusto. 
-                  Suol vendersi al più tre scudi. 
                </p>
                <p>
-                  So che <rs type="person">Monsignore Vicario</rs> ne ha, o aveva due copie; ma ne pretendeva cinque, o sei scudi.
+                  Un <rs type="person">Amico</rs> mi scrive che gli proveda <bibl>un’Istoria di <placeName ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</placeName> del <persName ref="#DLCL_CF_PC0014" key="DLCL_CF_PC0014">Rossi</persName> della 2a edizione</bibl>. 
+                  Il <rs type="person">Libraro</rs> faccia diligenza se può aversene una ben conservata a prezzo giusto. 
+                  Suol vendersi al più tre scudi.  
+               </p>
+               <p>
+                  So che <rs type="person">Monsignore Vicario</rs> ne ha, o aveva due copie; ma ne pretendeva cinque, o sei scudi
                </p>
             </postscript>
 
             <closer>
-               <salute>Affettuosissimo Cordialissimo Padre nel Signore.</salute>
-               <signed>
-                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName>.
-               </signed>
+               <salute>Affettuosissimo Cordialissimo Padre nel Signore</salute>
+               <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
             </closer>
 
             <pb xml:id="DLCL_CF_E10002_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20818/full/579,800/0/default.jpg"/>
 
             <pb xml:id="DLCL_CF_E10002_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/20817/full/598,800/0/default.jpg"/>
+            
+            <pb xml:id="DLCL_CF_E10002_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/20818/full/579,800/0/default.jpg"/>
 
             <closer>
                <salute>
                   Al <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">molto reverendo Padre mio Osservandissimo</rs> il <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName>
                </salute>
                <dateline>
-                  <orgName ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Monastero Camaldolese Classe <placeName ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</placeName>
-                  </orgName>
+                  <orgName ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Monastero Camaldolese</orgName> Classe <placeName ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</placeName>
                </dateline>
             </closer>
 
-            <pb xml:id="DLCL_CF_E10002_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/20818/full/579,800/0/default.jpg"/>
          </div>
       </body>
    </text>

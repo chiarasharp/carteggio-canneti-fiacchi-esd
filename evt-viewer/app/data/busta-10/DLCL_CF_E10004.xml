@@ -1,69 +1,118 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10004">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title xml:lang="it">Canneti a Fiacchi (Ribano, 19 Ottobre 1712)</title>
-            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
-         </titleStmt>
-         <publicationStmt><ab></ab></publicationStmt>
-         <seriesStmt>
-            <title type="main">Epistolario Canneti Fiacchi</title>
-            <title type="subseries" ref="#DLCL_CF_E10">Busta 10</title>
-            <biblScope unit="letter">4</biblScope>
-            <editor></editor>
-         </seriesStmt>
-         <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <country key="IT">Italia</country>
-                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
-                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                  <repository></repository>
-                  <collection></collection>
-                  <idno></idno>
-                  <altIdentifier>
-                     <idno></idno>
-                  </altIdentifier>
-               </msIdentifier>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <correspDesc>
-            <correspAction type="sent">
-               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
-               <date when-iso="1712-10-19"/>
-               <placeName ref="#DLCL_CF_L0006" key="DLCL_CF_L0006">Ribano</placeName>
-            </correspAction>
-            <correspAction type="received">
-               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
-            </correspAction>
-         </correspDesc>
-         <langUsage>
-            <language ident="it"/>
-         </langUsage>
-         <settingDesc>
-            <xi:include href="../../entities/places.xml"/>
-         </settingDesc>
-         <particDesc>
-            <xi:include href="../../entities/people/cited-people.xml"/>
-            <xi:include href="../../entities/people/staff.xml"/>
-            <xi:include href="../../entities/orgs.xml"/>
-         </particDesc>
-      </profileDesc>
-      <revisionDesc status="created">
-         <change when-iso="2023-11-14" who="#DLCL_CF_PS001">creato</change>
-      </revisionDesc>
-   </teiHeader>
    <facsimile sameAs="https://classense.unibo.it/iiif/20636/manifest">
       <graphic n="1r" url="https://classense.unibo.it/files/large/20636/DSC_5589.jpg"/>
       <graphic n="1v" url="https://classense.unibo.it/files/large/20636/DSC_5590.jpg"/>
    </facsimile>
-   <text type="letter">
+   <text type="letter" xml:id="DLCL_CF_E10004" n="Canneti a Fiacchi (Ribano, 19 Ottobre 1712)">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Ribano, 19 Ottobre 1712)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt><ab></ab></publicationStmt>
+            <seriesStmt>
+               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">4</biblScope>
+               <editor></editor>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1712-10-19"/>
+                  <placeName ref="#DLCL_CF_L0006" key="DLCL_CF_L0006">Ribano</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2023-11-14" who="#DLCL_CF_PS001">creato</change>
+         </revisionDesc>
+      </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10004_C1R" n="1r"/>
-            <pb xml:id="DLCL_CF_E10004_C1V" n="1v"/>
+            <pb xml:id="DLCL_CF_E10004_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20821/full/584,800/0/default.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>   
+               Rimando la descrizione della libreria del <persName ref="#DLCL_CF_PC0016" key="DLCL_CF_PC0016">Padre Abate Pasolini</persName>, ch’è troppo digiuna, e l’altra del <persName>Padre Don Romualdo</persName>, la quale sfolgoreggia con un lusso troppo superiore a’ <bibl type="print">Lustri Ravennati</bibl>. 
+               La lettura di queste seconda mi ha fatto intendere quanto starebbe bene la pubblicazione del nostro Indice; colla descrizione della Libreria. 
+               Quanto alla prima, rimetterò la descrizione al caso, non sapendo a chi più giustamente raccomandare i voli di quella penna istorica. 
+               Solo accennerò che possibile aggiungersi il Coretto della notte, che nel genere suo non è cosa dispreggevole, e la Cassina ora fabbricata vicino al <placeName ref="#DLCL_CF_L0014" key="DLCL_CF_L0014">Cesenatico</placeName>, e la <orgName>chiesa di S. Michele</orgName> da fondamenti eretta tra <placeName ref="#DLCL_CF_L0015">Montiano</placeName>, e <placeName ref="#DLCL_CF_L0009">Cesena</placeName>, e l’altra similmente fatta in <placeName>Pigneta</placeName>. 
+               Ma di ciò meglio saprà informare il <rs type="person">Padre Camerlingo</rs>.
+            </p>
+            
+            <p>   
+               Il nuovo Decreto per la Sequenza del <persName ref="#DLCL_CF_PC0017" key="DLCL_CF_PC0017">Padre S. Romualdo</persName> è stato pubblicato con lettera circolare agli Abati dal <rs type="person">Padre Reverendissimo Generale</rs>. 
+               Però non è necessario inserirlo nelle nostre stampe del Calendario. 
+               Pure, se vuole <rs type="person">Vostra Paternità</rs> metterlo in fine, ove vi avvanzi luogo, a lei ne lascio la libertà. 
+               Della Sequenza ne avrà copia il <rs type="person">Padre Priore</rs>. 
+               Se vi rimane carta bianca, ancor essa può aggiungersi dopo il Decreto.     
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10004_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20822/full/570,800/0/default.jpg"/>
+            
+            <p>
+               Riceva il viaggio di <rs type="person">Vostra Paternità</rs> a <placeName ref="#DLCL_CF_L0016">Bagnacavallo</placeName> il merito della santa ubbidienza, col quale vada pure ad accompagnare <persName>Don Germano</persName>, al quale senza tal compagnia non gliene darei la licenza. 
+               Goderò in somma che tal mossa sia fruttuosa al desiderio della sua Sorella. 
+               Si ricordi ritornare prima dell’Avvento.
+               Avanti di partire, trovi nel nostro Camerone il <bibl type="print">Castellano in 4to</bibl>, che mi mando da supplire il <persName ref="#DLCL_CF_PC0018" key="DLCL_CF_PC0018">Signore Canonico Teologo Filippo Rondinini</persName>; e lo mandi al detto Signore a <placeName ref="#DLCL_CF_L0005" key="DLCL_CF_L0005">Faenza</placeName>, accompagnandolo con breve lettera, nella quale esprima dove sia il <orgName ref="#DLCL_CF_O0004" key="DLCL_CF_O0004">Vescovato Cariatense</orgName> in Italia; al quale esso <persName ref="#DLCL_CF_PC0019" key="DLCL_CF_PC0019">Castellani</persName> fu eletto. 
+               Lo troverà nel <bibl type="print"><persName ref="#DLCL_CF_PC0020" key="DLCL_CF_PC0020">Baudrand</persName></bibl>, e sarà nell’<bibl type="print"><persName ref="#DLCL_CF_PC0021" key="DLCL_CF_PC0021">Ughelli</persName></bibl> il quale forse non ne farà menzione, perché stimo non ne andasse in possesso. 
+               Resto di vero cuore confermandomi. 
+            </p>
+            
+            <closer>
+               <dateline><placeName ref="#DLCL_CF_L0006" key="DLCL_CF_L0006">Ribano</placeName> <date when-iso="1712-11-19"> 19 novembre 1712</date></dateline>. 
+               <salute>DVP, che saluti caramente <persName>Don Bonifazio</persName>, cui mando la <bibl type="print">Copia del Quadriregio</bibl>. </salute>
+               Potrà impiegarvi intorno qualche ora alla <placeName>Ragazina</placeName>. 
+               <salute>Un cordialissimo saluto al <persName>Padre Don Romualdo</persName>, cui risponderò per la posta. </salute>
+               Mando la sua Relazione. 
+               <salute>Affettuosissimo Padre nel Signore </salute>
+               <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>. 
+            </closer>
+            
+            <postscript>
+               <p>
+                  Per gli abiti degl’Imperadori, e Imperatrici d’Oriente si può veder certa raccolta di rami sul principio del <bibl type="print">primo tomo del Glossario del <persName ref="#DLCL_CF_PC0022" key="DLCL_CF_PC0022">Du-Cange</persName></bibl>, e forse la <bibl type="print">storia Bizantina dello stesso <rs type="person">Autore</rs></bibl>. 
+                  Per gli vescovi greci si [vedano] i <bibl type="print">tomi di <persName ref="#DLCL_CF_PC0023" key="DLCL_CF_PC0023">S. Epifanio</persName></bibl> e di <bibl type="print"><persName ref="#DLCL_CF_PC0024" key="DLCL_CF_PC0024">S. Atanasio</persName></bibl>. 
+                  Per la <bibl type="print">Sibilla Tiburtina</bibl>, i Rami delle St[…]. 
+               </p>
+            </postscript>
+            
          </div>
       </body>
    </text>
