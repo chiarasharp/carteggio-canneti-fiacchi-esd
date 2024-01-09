@@ -1,0 +1,27 @@
+<listBibl xml:id="DLCL_CF_BM" type="manuscripts"
+    xmlns="http://www.tei-c.org/ns/1.0">
+    <msDesc>
+        <msIdentifier>
+            <settlement>Oxford</settlement>
+            <repository>Bodleian Library</repository>
+            <idno type="Bod">MS Poet. Rawl. D. 169.</idno>
+        </msIdentifier>
+        <msContents>
+            <msItem>
+                <author>Geoffrey Chaucer</author>
+                <title>The Canterbury Tales</title>
+            </msItem>
+        </msContents>
+        <physDesc>
+            <objectDesc>
+                <p>A parchment codex of 136 folios, measuring approx
+       28 by 19 inches, and containing 24 quires.</p>
+                <p>The pages are margined and ruled throughout.</p>
+                <p>Four hands have been identified in the manuscript: the first 44
+       folios being written in two cursive anglicana scripts, while the
+       remainder is for the most part in a mixed secretary hand.</p>
+            </objectDesc>
+        </physDesc>
+    </msDesc>
+
+</listBibl>

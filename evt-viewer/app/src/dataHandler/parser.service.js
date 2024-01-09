@@ -1037,12 +1037,7 @@ angular.module('evtviewer.dataHandler')
 
 			angular.forEach(currentDocument.find(defDocElement),
 				function (element) {
-					console.log(element);
 					parser.parseDocument(element, doc);
-				});
-			angular.forEach(currentDocument.find(defTeiHeader),
-				function (element) {
-					console.log(element);
 				});
 			console.log('## PAGES ##', parsedData.getPages());
 			console.log('## Documents ##', parsedData.getDocuments());

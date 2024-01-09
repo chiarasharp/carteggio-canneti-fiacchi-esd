@@ -76,15 +76,15 @@
             </opener> 
             
             <p>
-               Desidero aver meco il <bibl type="print">Libro Stampato</bibl>, e i <bibl type="manuscript">due Manoscritti del Quadriregio</bibl> con tutte le lettere del <persName ref="#DLCL_CF_PC0015" key="DLCL_CF_PC0015">Pagliarini</persName>, che vi sono appresso. 
+               Desidero aver meco il <bibl type="print">Libro Stampato,</bibl> e i <bibl type="manuscript">due Manoscritti del Quadriregio</bibl> con tutte le lettere del <persName ref="#DLCL_CF_PC0015" key="DLCL_CF_PC0015">Pagliarini,</persName> che vi sono appresso. 
                Li troverà su uno de’ tavolini vicino alla porta dell’ingresso della Camera, ove dormo. 
-               Per entrarvi in compagnia di <persName>Frate Natale</persName>, gli mostri la lettera presente; e vi unisca ancora la <bibl>Cronica Manoscritta di <placeName ref="#DLCL_CF_L0013">Ferrara</placeName></bibl> in un grosso tomo legato a modo de’ libri da Conti. 
+               Per entrarvi in compagnia di <persName>Frate Natale,</persName> gli mostri la lettera presente; e vi unisca ancora la <bibl>Cronica Manoscritta di <placeName ref="#DLCL_CF_L0013">Ferrara</placeName></bibl> in un grosso tomo legato a modo de’ libri da Conti. 
                Unisca tutto insieme in un’involto ben custodito dalla pioggia, e lo mandi al ritorno dell’Uomo, al quale faccia consegnare anco due sigilli, cioè il piccolino, e il mezzano, che stanno nel Camerino, alla Colonnella, dove si battono. 
                Preghi il Signore Iddio per me, che di tutto cuore resto. 
             </p>
             
             <closer>
-               <dateline><placeName ref="#DLCL_CF_L0011">Sala</placeName> <date when-iso="1712-06-02"></date>2 Giugno 1712</dateline>. 
+               <dateline><placeName ref="#DLCL_CF_L0011">Sala</placeName> <date when-iso="1712-06-02">2 Giugno 1712</date></dateline>. 
                <salute>DVP</salute>. 
                <salute>Affettuosissimo Padre nel Signore</salute> 
                <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>

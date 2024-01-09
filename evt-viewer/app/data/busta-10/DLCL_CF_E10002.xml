@@ -74,13 +74,13 @@
             </opener>
 
             <p>
-               Al mio ritorno dunque troverò i libri da spedirsi dal <persName ref="#DLCL_CF_PC0005" key="DLCL_CF_PC0005">Ruinetti</persName>. 
+               Al mio ritorno dunque troverò i libri da spedirsi dal <persName ref="#DLCL_CF_PC0005" key="DLCL_CF_PC0005">Ruinetti.</persName> 
                Se il prezzo o è inalterabile, o stabilito in 22 scudi, non accade altro discorrerne. 
-               Se v’ha luogo ad alterarlo con vantaggio, mi rimetto al nostro <persName ref="#DLCL_CF_PC0004" key="DLCL_CF_PC0004">Marozzi</persName>, che di cuore saluto. 
+               Se v’ha luogo ad alterarlo con vantaggio, mi rimetto al nostro <persName ref="#DLCL_CF_PC0004" key="DLCL_CF_PC0004">Marozzi,</persName> che di cuore saluto. 
                Ricevo il <persName ref="#DLCL_CF_PC0008" key="DLCL_CF_PC0008">Martello</persName> legato approposito per una Libreria. 
                Quando non possa aversi sciolto, si avrà questa copia che mi piace, e questa basterà, non volendone che una per la Libreria. 
-               Aspetteremo che da <placeName ref="#DLCL_CF_L0007" key="DLCL_CF_L0007">Bologna</placeName> ritorni la <bibl>copia delle Ipercrisi</bibl> a <placeName ref="#DLCL_CF_L0009" key="DLCL_CF_L0009">Cesena</placeName>; e poi manderò la nostra a far emendare. 
-               Saluti caramente il <persName ref="#DLCL_CF_PC0012" key="DLCL_CF_PC0012">Padre Don Venanzio</persName>, dalla cui attenzione godo che sia stata fatta condurre a fine l’una, e l’altra copia. 
+               Aspetteremo che da <placeName ref="#DLCL_CF_L0007" key="DLCL_CF_L0007">Bologna</placeName> ritorni la <bibl>copia delle Ipercrisi</bibl> a <placeName ref="#DLCL_CF_L0009" key="DLCL_CF_L0009">Cesena;</placeName> e poi manderò la nostra a far emendare. 
+               Saluti caramente il <persName ref="#DLCL_CF_PC0012" key="DLCL_CF_PC0012">Padre Don Venanzio,</persName> dalla cui attenzione godo che sia stata fatta condurre a fine l’una, e l’altra copia. 
                Con che di tutto cuore mi confermo, pregandole dal Signore Iddio la pienezza delle vere felicità. 
             </p>
             
@@ -92,10 +92,10 @@
             <postscript>
                <p>
                   Il <persName ref="#DLCL_CF_PC0013" key="DLCL_CF_PC0013">Signore Muratori</persName> mi scrive non so che di <bibl>cinque Copie del <persName ref="#DLCL_CF_PC0025" key="DLCL_CF_PC0025">Petrarca</persName></bibl> mandate al nostro Libraio. 
-                  Suppongo abbia rimesso il dinaro al <persName>Soliani</persName>. 
+                  Suppongo abbia rimesso il dinaro al <persName>Soliani.</persName> 
                </p>
                <p>
-                  Un <rs type="person">Amico</rs> mi scrive che gli proveda <bibl>un’Istoria di <placeName ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</placeName> del <persName ref="#DLCL_CF_PC0014" key="DLCL_CF_PC0014">Rossi</persName> della 2a edizione</bibl>. 
+                  Un <rs type="person">Amico</rs> mi scrive che gli proveda <bibl>un’Istoria di <placeName ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</placeName> del <persName ref="#DLCL_CF_PC0014" key="DLCL_CF_PC0014">Rossi</persName> della 2a edizione.</bibl> 
                   Il <rs type="person">Libraro</rs> faccia diligenza se può aversene una ben conservata a prezzo giusto. 
                   Suol vendersi al più tre scudi.  
                </p>
@@ -113,8 +113,6 @@
 
             <pb xml:id="DLCL_CF_E10002_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/20817/full/598,800/0/default.jpg"/>
             
-            <pb xml:id="DLCL_CF_E10002_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/20818/full/579,800/0/default.jpg"/>
-
             <closer>
                <salute>
                   Al <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">molto reverendo Padre mio Osservandissimo</rs> il <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName>
@@ -123,6 +121,8 @@
                   <orgName ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Monastero Camaldolese</orgName> Classe <placeName ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</placeName>
                </dateline>
             </closer>
+
+            <pb xml:id="DLCL_CF_E10002_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/20818/full/579,800/0/default.jpg"/>
 
          </div>
       </body>

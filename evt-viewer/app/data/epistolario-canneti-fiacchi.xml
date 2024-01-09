@@ -56,7 +56,8 @@
             <xi:include href="entities/people/staff.xml"/>
             <xi:include href="entities/orgs.xml"/>
             <xi:include href="entities/places.xml"/>
-            <!--<xi:include href="../entities/works.xml"/>-->
+            <xi:include href="entities/manuscripts.xml"/>
+            <xi:include href="entities/prints.xml"/>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -79,9 +80,8 @@
    <milestone xml:id="DLCL_CF_E10" unit="busta" n="10"/>
    <xi:include href="busta-10/DLCL_CF_E10001.xml"/>
    <xi:include href="busta-10/DLCL_CF_E10002.xml"/>
-   <!-- 
    <xi:include href="busta-10/DLCL_CF_E10003.xml"/>
-   <xi:include href="busta-10/DLCL_CF_E10004.xml"/> -->
+   <xi:include href="busta-10/DLCL_CF_E10004.xml"/>
 </teiCorpus>
 
 

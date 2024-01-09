@@ -108,7 +108,7 @@
                     "color":"rgb(255,255,204)"
                 },
                 {
-                    "tagName":"bibl[type='manuscript']",
+                    "tagName":"bibl",
                     "label":"Manoscritti",
                     "available":true,
                     "color":"rgb(255,204,249)"
@@ -116,7 +116,7 @@
                 {
                     "tagName":"",
                     "label":"",
-                    "available":true,
+                    "available":false,
                     "color":"rgb(255,255,204)"
                 }
             ],

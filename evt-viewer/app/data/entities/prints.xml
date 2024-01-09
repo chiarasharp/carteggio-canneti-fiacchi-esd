@@ -1,0 +1,13 @@
+<listBibl xml:id="DLCL_CF_BS" type="prints" xmlns="http://www.tei-c.org/ns/1.0">
+    <biblStruct>
+        <monogr>
+            <author key=""></author>
+            <title level="m">ciao</title>
+            <idno type="GND"></idno>
+            <imprint>
+                <pubPlace key=""></pubPlace>
+                <date when-iso="1824-05-07"/>
+            </imprint>
+        </monogr>
+    </biblStruct>
+</listBibl>
