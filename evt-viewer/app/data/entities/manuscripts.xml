@@ -1,6 +1,6 @@
 <listBibl xml:id="DLCL_CF_BM" type="manuscripts"
     xmlns="http://www.tei-c.org/ns/1.0">
-    <msDesc>
+    <msDesc xml:id="DLCL_CF_BM0001">
         <msIdentifier>
             <settlement>Oxford</settlement>
             <repository>Bodleian Library</repository>

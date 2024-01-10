@@ -78,10 +78,10 @@
             <p>
                Con la gratissima lettera di <rs type="person">Vostra Paternità</rs> ricevo la nota de' libri di <placeName ref="#DLCL_CF_L0005" key="DLCL_CF_L0005">Faenza</placeName> e insieme la certa notizia dell'offerta già fatta dal mio <persName ref="#DLCL_CF_PC0004" key="DLCL_CF_PC0004">Marozzi.</persName> 
                Con questo lume ora potrò regolarmi nel rispondere alla richiesta di dieci scudi. 
-               Mi spiace che ancora non siano giunti i <bibl type="manuscript">due Manoscritti del Quadriregio</bibl>; perché non avrò costì l’ozio, che qui posso godere, per collazionarli con lo stampato. 
+               Mi spiace che ancora non siano giunti i <bibl type="manuscript">due Manoscritti del Quadriregio;</bibl> perché non avrò costì l’ozio, che qui posso godere, per collazionarli con lo stampato. 
                Avrò caro che presto arrivino i libri del <persName ref="#DLCL_CF_PC0005" key="DLCL_CF_PC0005">Ruinetti.</persName> 
                Raccomando a <rs type="person">Vostra Paternità</rs> sollecitare la <bibl>copia del Calendario;</bibl> la qual fatta consegni subito al <rs type="person">Padre Camerlingo</rs> per la stampa. 
-               Indi converrà ch’ella applichi a fare il <bibl type="manuscript">Catalogo della Libreria Vecchia.</bibl> 
+               Indi converrà ch’ella applichi a fare il <bibl type="manuscript" ref="#DLCL_CF_BM0001" key="DLCL_CF_BM0001">Catalogo della Libreria Vecchia.</bibl> 
                Con che raccomandandomi a suoi santi sagrifici, ed alle orazioni sue, mi confermo.
             </p>
      

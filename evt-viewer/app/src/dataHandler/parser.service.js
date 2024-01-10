@@ -22,8 +22,8 @@ angular.module('evtviewer.dataHandler')
 		var defPageElement = 'pb',
 			defLineBreak = '<lb>',
 			defLine = '<l>',
-			possibleNamedEntitiesDef = '<placeName>, <geogName>, <persName>, <orgName>',
-			possibleNamedEntitiesListsDef = '<listPlace>, <listPerson>, <listOrg>, <list>',
+			possibleNamedEntitiesDef = '<placeName>, <geogName>, <persName>, <orgName>, <rs>, <bibl>',
+			possibleNamedEntitiesListsDef = '<listPlace>, <listPerson>, <listOrg>, <list>, <listBibl>',
 			defImageList = 'image';
 		var viscollDefs = {
 			leaf: 'leaf',

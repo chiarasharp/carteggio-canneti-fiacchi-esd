@@ -97,11 +97,7 @@
                     "tagName":"orgName",
                     "label":"Organizzazioni",
                     "available":true
-                }
-            ],
-        "otherEntitiesToHandle":
-            [
-                {
+                },{
                     "tagName":"rs",
                     "label":"Persone (Indirette)",
                     "available":true,
@@ -114,11 +110,15 @@
                     "color":"rgb(255,204,249)"
                 },
                 {
-                    "tagName":"",
-                    "label":"",
+                    "tagName":"bibl[type='print']",
+                    "label":"Opere a stampa",
                     "available":false,
                     "color":"rgb(255,255,204)"
                 }
+            ],
+        "otherEntitiesToHandle":
+            [
+                
             ],
         "imageViewerOptions" : {},
         "toolHeatMap":false,

@@ -330,6 +330,15 @@ $placeColor-darker: #c8e6c9;
 $orgColor: #FFE9C9;
 $orgColor-darker: #ffb74d;
 
+$rsPersonColor: #ffffcc;
+$rsPersonColor-darker: #f3f3a0;
+
+$biblManuscriptColor: #ffccf9;
+$biblManuscriptColor-darker: #eeb1e7;
+
+$biblPrintColor: #FFE9C9;
+$biblPrintColor-darker: #ffb74d;
+
 @mixin namedEntityColors($color-base, $color-darker) {
 
     &.location-mainText,
@@ -489,6 +498,28 @@ $orgColor-darker: #ffb74d;
         }
     }
 
+    &-rs {
+        &:hover {
+            background-color: $rsPersonColor;
+        }
+
+        &.active {
+            background-color: $rsPersonColor;
+            border-bottom-color: $rsPersonColor;
+        }
+    }
+
+    &-bibl {
+        &:hover {
+            background-color: $biblManuscriptColor;
+        }
+
+        &.active {
+            background-color: $biblManuscriptColor;
+            border-bottom-color: $biblManuscriptColor;
+        }
+    }
+
     &__details {
         font-size: 90%;
         position: absolute;
@@ -573,6 +604,32 @@ $orgColor-darker: #ffb74d;
 
             &:hover:not(.active) {
                 background-color: $orgColor;
+            }
+        }
+    }
+}
+
+.rs-active {
+    .namedEntityRef {
+
+        &-rs {
+            background-color: $rsPersonColor-darker;
+
+            &:hover:not(.active) {
+                background-color: $rsPersonColor;
+            }
+        }
+    }
+}
+
+.bibl-active {
+    .namedEntityRef {
+
+        &-bibl {
+            background-color: $biblManuscriptColor-darker;
+
+            &:hover:not(.active) {
+                background-color: $biblManuscriptColor;
             }
         }
     }
