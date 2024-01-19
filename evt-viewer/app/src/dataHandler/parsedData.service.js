@@ -613,11 +613,17 @@ angular.module('evtviewer.dataHandler')
 				case 'person':
 				case 'pers':
 				case 'persName':
+				case 'rs':
 					icon = 'fa-user';
 					break;
 				case 'org':
 				case 'orgName':
 					icon = 'fa-users';
+					break;
+				case 'bibl':
+				case 'msDesc':
+				case 'biblStruct':
+					icon = 'fa-book';
 					break;
 				case 'relation':
 					icon = 'fa-share-alt';

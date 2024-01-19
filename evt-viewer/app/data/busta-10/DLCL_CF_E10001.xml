@@ -76,12 +76,12 @@
             </opener>
             
             <p>
-               Con la gratissima lettera di <rs type="person">Vostra Paternità</rs> ricevo la nota de' libri di <placeName ref="#DLCL_CF_L0005" key="DLCL_CF_L0005">Faenza</placeName> e insieme la certa notizia dell'offerta già fatta dal mio <persName ref="#DLCL_CF_PC0004" key="DLCL_CF_PC0004">Marozzi.</persName> 
+               Con la gratissima lettera di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> ricevo la nota de' libri di <placeName ref="#DLCL_CF_L0005" key="DLCL_CF_L0005">Faenza</placeName> e insieme la certa notizia dell'offerta già fatta dal mio <persName ref="#DLCL_CF_PC0004" key="DLCL_CF_PC0004">Marozzi.</persName> 
                Con questo lume ora potrò regolarmi nel rispondere alla richiesta di dieci scudi. 
-               Mi spiace che ancora non siano giunti i <bibl type="manuscript">due Manoscritti del Quadriregio;</bibl> perché non avrò costì l’ozio, che qui posso godere, per collazionarli con lo stampato. 
+               Mi spiace che ancora non siano giunti i <bibl ref="#DLCL_CF_BM0001" type="manuscript">due Manoscritti</bibl><bibl ref="#DLCL_CF_BM0002" type="manuscript"> del Quadriregio;</bibl> perché non avrò costì l’ozio, che qui posso godere, per collazionarli con lo stampato. 
                Avrò caro che presto arrivino i libri del <persName ref="#DLCL_CF_PC0005" key="DLCL_CF_PC0005">Ruinetti.</persName> 
-               Raccomando a <rs type="person">Vostra Paternità</rs> sollecitare la <bibl>copia del Calendario;</bibl> la qual fatta consegni subito al <rs type="person">Padre Camerlingo</rs> per la stampa. 
-               Indi converrà ch’ella applichi a fare il <bibl type="manuscript" ref="#DLCL_CF_BM0001" key="DLCL_CF_BM0001">Catalogo della Libreria Vecchia.</bibl> 
+               Raccomando a <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> sollecitare la copia del <bibl>Calendario;</bibl> la qual fatta consegni subito al <rs type="person">Padre Camerlingo</rs> per la stampa. 
+               Indi converrà ch’ella applichi a fare il <bibl type="manuscript">Catalogo della Libreria Vecchia.</bibl> 
                Con che raccomandandomi a suoi santi sagrifici, ed alle orazioni sue, mi confermo.
             </p>
      
@@ -92,8 +92,9 @@
             
             <postscript>
                <p>
-                  Mi scrive il <persName ref="#DLCL_CF_PC0006" key="DLCL_CF_PC0006">Padre Amici</persName> che siano giunte a <persName ref="#DLCL_CF_PC0007" key="DLCL_CF_PC0007">Don Bonifacio</persName> le <bibl type="print">tre copie del <persName ref="#DLCL_CF_PC0008" key="DLCL_CF_PC0008">Martelli.</persName></bibl> Faccia sapere a lui che si faccia venire da <rs type="person">quel Padre</rs> del <orgName ref="#DLCL_CF_O0003" key="DLCL_CF_O0003">Monte di Cesena</orgName> la <bibl>Copia delle Ipercrisi</bibl> del <persName ref="#DLCL_CF_PC0009" key="DLCL_CF_PC0009">Bacchini.</persName> 
-                  Veda col <rs type="person">Padre Camerlengo,</rs> che ha la chiave, trovare delle nostre camere <bibl type="print">due copie del <persName ref="#DLCL_CF_PC0010" key="DLCL_CF_PC0010">Catullo</persName> del <persName ref="#DLCL_CF_PC0011" key="DLCL_CF_PC0011">Volpi</persName> legato alla rustica;</bibl> e le mandi al <persName ref="#DLCL_CF_PC0006" key="DLCL_CF_PC0006">Padre Amici.</persName>  
+                  Mi scrive il <persName ref="#DLCL_CF_PC0006" key="DLCL_CF_PC0006">Padre Amici</persName> che siano giunte a <persName ref="#DLCL_CF_PC0007" key="DLCL_CF_PC0007">Don Bonifacio</persName> le  <bibl type="print">tre copie</bibl> del <persName ref="#DLCL_CF_PC0008" key="DLCL_CF_PC0008">Martelli.</persName>
+                  Faccia sapere a lui che si faccia venire da <rs type="person">quel Padre</rs> del <orgName ref="#DLCL_CF_O0003" key="DLCL_CF_O0003">Monte di Cesena</orgName> la Copia delle <bibl ref="#DLCL_CF_BM0003" type="manuscript">Ipercrisi</bibl> del <persName ref="#DLCL_CF_PC0009" key="DLCL_CF_PC0009">Bacchini.</persName> 
+                  Veda col <rs type="person">Padre Camerlengo,</rs> che ha la chiave, trovare delle nostre camere <bibl type="print">due copie</bibl> del <persName ref="#DLCL_CF_PC0010" key="DLCL_CF_PC0010">Catullo</persName> del <persName ref="#DLCL_CF_PC0011" key="DLCL_CF_PC0011">Volpi</persName> legato alla rustica; e le mandi al <persName ref="#DLCL_CF_PC0006" key="DLCL_CF_PC0006">Padre Amici.</persName>  
                </p>
             </postscript>
             

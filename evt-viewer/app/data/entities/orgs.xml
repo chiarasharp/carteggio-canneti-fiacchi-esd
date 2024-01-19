@@ -1,4 +1,4 @@
-<listOrg type="organizations" xmlns="http://www.tei-c.org/ns/1.0">
+<listOrg xml:id="DLCL_CF_O" xmlns="http://www.tei-c.org/ns/1.0">
    <org xml:id="DLCL_CF_O0001" type="library" sameAs="http://viaf.org/viaf/122822452">
       <orgName notBefore-iso="1803" xml:lang="it">Istituzione Biblioteca Classense</orgName>
       <orgName notBefore-iso="1803" xml:lang="it">Biblioteca comunale Classense</orgName>
@@ -7,7 +7,8 @@
       <idno type="ISNI">0000000417565075</idno>
       <idno type="VIAF">122822452</idno>
       <idno type="geonames">11951356</idno>
-      <desc>Biblioteca storica del comune di <placeName ref="#DLCL_CF_L0002">Ravenna</placeName></desc>
+      <desc>Biblioteca storica del comune di <placeName ref="#DLCL_CF_L0002"
+         >Ravenna</placeName></desc>
       <location>
          <country key="IT"/>
          <geo>44.41453, 12.19994</geo>
@@ -17,6 +18,9 @@
             <settlement ref="#DLCL_CF_L0002">Ravenna</settlement>
          </address>
       </location>
+      <event when-iso="1512">
+         <label>founded</label>
+      </event>
    </org>
    <org xml:id="DLCL_CF_O0002" type="abbey" sameAs="https://explore.gnd.network/en/gnd/7628005-6">
       <orgName xml:lang="it">Abbazia di S. Salvatore in Valdicastro</orgName>
@@ -31,11 +35,9 @@
          </address>
       </location>
       <event notBefore-iso="1005" notAfter-iso="1009">
-         <ab>
-            founded
-            <persName ref="#DLCL_CF_PC0017">S. Romualdo degli Onesti</persName>
+         <ab> founded <persName ref="#DLCL_CF_PC0017">S. Romualdo degli Onesti</persName>
          </ab>
-         
+
       </event>
    </org>
    <org xml:id="DLCL_CF_O0003" type="abbey" sameAs="https://viaf.org/viaf/139009097/">
@@ -43,7 +45,7 @@
       <idno type="GND">1019278-5</idno>
       <idno type="ISNI">0000000122014508</idno>
       <idno type="VIAF">139009097</idno>
-      <desc></desc>
+      <desc/>
       <location source="https://it.wikipedia.org/wiki/Abbazia_di_Santa_Maria_del_Monte">
          <country key="it"/>
          <geo>44.1319, 12.2551</geo>
@@ -54,10 +56,11 @@
          </address>
       </location>
    </org>
-   <org xml:id="DLCL_CF_O0004" type="archdiocese" sameAs="http://viaf.org/viaf/114159474192227661977">
+   <org xml:id="DLCL_CF_O0004" type="archdiocese"
+      sameAs="http://viaf.org/viaf/114159474192227661977">
       <orgName xml:lang="it">Arcidiocesi Di Rossano-Cariati</orgName>
       <idno type="VIAF">114159474192227661977</idno>
-      <desc></desc>
+      <desc/>
       <location source="https://it.wikipedia.org/wiki/Arcidiocesi_di_Rossano-Cariati">
          <country key="it"/>
          <address>
@@ -65,6 +68,25 @@
             <postCode>87067</postCode>
             <settlement ref="https://www.geonames.org/2523578">Rossano</settlement>
          </address>
+      </location>
+   </org>
+   <org xml:id="DLCL_CF_O0005" type="abbey"
+      sameAs="http://viaf.org/viaf/144541836">
+      <orgName xml:lang="it">Abbazia di Sant'Apollinare in Classe</orgName>
+      <idno type="VIAF">144541836</idno>
+      <idno type="geonames">3215336</idno>
+      <desc/>
+      <location>
+         <country key="it"/>
+         <geo>44.2248, 12.1359</geo>
+      </location>
+   </org>
+   <org xml:id="DLCL_CF_O0006" type="church">
+      <orgName xml:lang="it">Chiesa di San Michele</orgName>
+      <desc/>
+      <location>
+         <country key="it"/>
+         <desc source="#DLCL_CF_E10004">tra Montiano e Cesena</desc>
       </location>
    </org>
 </listOrg>

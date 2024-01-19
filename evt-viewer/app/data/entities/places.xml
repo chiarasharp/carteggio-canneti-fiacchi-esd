@@ -1,4 +1,4 @@
-<listPlace xml:id="DLCL_CF_L" type="places" xmlns="http://www.tei-c.org/ns/1.0">
+<listPlace xml:id="DLCL_CF_L" xmlns="http://www.tei-c.org/ns/1.0">
    <place xml:id="DLCL_CF_L0001" type="settlement" sameAs="https://www.geonames.org/3177838/">
       <placeName>Cremona</placeName>
       <location>
@@ -167,5 +167,55 @@
       </location>
       <idno type="GND">4002888-4</idno>
       <idno type="geonames">3182884</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0020" type="settlement" sameAs="https://www.geonames.org/3178555">
+      <placeName>Classe</placeName>
+      <location>
+         <country key="it"/>
+         <geo>44.2246, 12.1412</geo>
+      </location>
+      <idno type="geonames">3178555</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0021" type="settlement">
+      <placeName>Pineta di Classe</placeName>
+      <location source="https://it.wikipedia.org/wiki/Pineta_di_Ravenna">
+         <country key="it"/>
+         <settlement ref="#DLCL_CF_L0002">Ravenna</settlement>
+      </location>
+   </place>
+   <place xml:id="DLCL_CF_L0022" type="settlement">
+      <placeName>Ragazina</placeName>
+      <location>
+         <country key="it"/>
+      </location>
+   </place>
+   <place xml:id="DLCL_CF_L0023" type="settlement">
+      <placeName>Pineta di Classe</placeName>
+      <location source="https://it.wikipedia.org/wiki/Pineta_di_Ravenna">
+         <country key="it"/>
+         <settlement ref="#DLCL_CF_L0002">Ravenna</settlement>
+      </location>
+   </place>
+   <place xml:id="DLCL_CF_L0024" type="settlement">
+      <placeName>Pineta di Classe</placeName>
+      <location source="https://it.wikipedia.org/wiki/Pineta_di_Ravenna">
+         <country key="it"/>
+         <settlement ref="#DLCL_CF_L0002">Ravenna</settlement>
+      </location>
+   </place>
+   <place xml:id="DLCL_CF_L0025" type="settlement">
+      <placeName>Pineta di Classe</placeName>
+      <location source="https://it.wikipedia.org/wiki/Pineta_di_Ravenna">
+         <country key="it"/>
+         <settlement ref="#DLCL_CF_L0002">Ravenna</settlement>
+      </location>
+   </place>
+   <place xml:id="DLCL_CF_L0026" type="settlement" sameAs="https://www.geonames.org/3175395">
+      <placeName>Italia</placeName>
+      <location>
+         <country key="it"/>
+         <geo>42.83333, 12.83333</geo>
+      </location>
+      <idno type="geonames">3175395</idno>
    </place>
 </listPlace>

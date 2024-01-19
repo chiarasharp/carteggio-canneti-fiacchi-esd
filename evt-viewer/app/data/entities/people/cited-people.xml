@@ -1,12 +1,10 @@
-<listPerson type="cited-people" xmlns="http://www.tei-c.org/ns/1.0">
+<listPerson xml:id="DLCL_CF_PC" type="cited-people" xmlns="http://www.tei-c.org/ns/1.0">
    <person xml:id="DLCL_CF_PC0001" sameAs="http://viaf.org/viaf/88842923">
       <persName xml:lang="it">
          <forename type="religious">Pietro</forename>
          <forename type="birth">Giambattista</forename>
          <surname>Canneti</surname>
       </persName>
-      <idno type="CLASS">205</idno>
-      <idno type="POLORAV">249641</idno>
       <idno type="VIAF">88842923</idno>
       <idno type="ISNI">0000000062132368</idno>
       <idno type="GND">1057568929</idno>
@@ -22,15 +20,14 @@
       <occupation>monaco</occupation>
       <occupation>bibliotecario</occupation>
       <occupation>poeta</occupation>
-      <affiliation><orgName sameAs="http://viaf.org/viaf/8081156012419949700007">Ordine dei Camaldolesi</orgName></affiliation>
+      <affiliation><orgName sameAs="http://viaf.org/viaf/8081156012419949700007">Ordine dei
+            Camaldolesi</orgName></affiliation>
    </person>
    <person xml:id="DLCL_CF_PC0002">
       <persName xml:lang="it">
          <forename>Mariangelo</forename>
          <surname>Fiacchi</surname>
       </persName>
-      <idno type="CLASS">6872</idno>
-      <idno type="POLORAV">882127</idno>
       <birth>
          <date when-iso="1688"/>
       </birth>
@@ -40,7 +37,8 @@
       <sex value="m"/>
       <occupation>monaco</occupation>
       <occupation>bibliotecario</occupation>
-      <affiliation><orgName sameAs="http://viaf.org/viaf/8081156012419949700007">Ordine dei Camaldolesi</orgName></affiliation>
+      <affiliation><orgName sameAs="http://viaf.org/viaf/8081156012419949700007">Ordine dei
+            Camaldolesi</orgName></affiliation>
    </person>
    <person xml:id="DLCL_CF_PC0003">
       <persName xml:lang="it">
@@ -91,17 +89,20 @@
       <idno type="VIAF">37700199</idno>
       <idno type="ISNI">0000000116226803</idno>
       <idno type="GND">117696110</idno>
-      <birth source="https://www.treccani.it/enciclopedia/bonifacio-collina_(Dizionario-Biografico)/">
+      <birth
+         source="https://www.treccani.it/enciclopedia/bonifacio-collina_(Dizionario-Biografico)/">
          <date when-iso="1689"/>
          <placeName ref="#DLCL_CF_L0007">Bologna</placeName>
       </birth>
-      <death source="https://www.treccani.it/enciclopedia/bonifacio-collina_(Dizionario-Biografico)/">
+      <death
+         source="https://www.treccani.it/enciclopedia/bonifacio-collina_(Dizionario-Biografico)/">
          <date when-iso="1770"/>
          <placeName ref="#DLCL_CF_L0007">Bologna</placeName>
       </death>
       <sex value="m"/>
       <occupation>scrittore</occupation>
-      <affiliation><orgName sameAs="http://viaf.org/viaf/8081156012419949700007">Ordine dei Camaldolesi</orgName></affiliation>
+      <affiliation><orgName sameAs="http://viaf.org/viaf/8081156012419949700007">Ordine dei
+            Camaldolesi</orgName></affiliation>
    </person>
    <person xml:id="DLCL_CF_PC0008" sameAs="http://viaf.org/viaf/14841099">
       <persName xml:lang="it">
@@ -111,12 +112,14 @@
       </persName>
       <idno type="VIAF">14841099</idno>
       <idno type="ISNI">0000000108721441</idno>
-      <idno type="GND">118941968</idno>      
-      <birth source="https://www.treccani.it/enciclopedia/pier-jacopo-martello_(Dizionario-Biografico)/">
+      <idno type="GND">118941968</idno>
+      <birth
+         source="https://www.treccani.it/enciclopedia/pier-jacopo-martello_(Dizionario-Biografico)/">
          <date when-iso="1665-04-28"/>
          <placeName ref="#DLCL_CF_L0007">Bologna</placeName>
       </birth>
-      <death source="https://www.treccani.it/enciclopedia/pier-jacopo-martello_(Dizionario-Biografico)/">
+      <death
+         source="https://www.treccani.it/enciclopedia/pier-jacopo-martello_(Dizionario-Biografico)/">
          <date when-iso="1727-05-10"/>
          <placeName ref="#DLCL_CF_L0007">Bologna</placeName>
       </death>
@@ -131,17 +134,20 @@
       <idno type="VIAF">24656352</idno>
       <idno type="ISNI">0000000061234071</idno>
       <idno type="GND">104119691</idno>
-      <birth source="https://www.treccani.it/enciclopedia/benedetto-bacchini_(Dizionario-Biografico)/">
+      <birth
+         source="https://www.treccani.it/enciclopedia/benedetto-bacchini_(Dizionario-Biografico)/">
          <date when-iso="1651-08-31"/>
          <placeName ref="https://www.geonames.org/3177029">Borgo San Donnino</placeName>
       </birth>
-      <death source="https://www.treccani.it/enciclopedia/benedetto-bacchini_(Dizionario-Biografico)/">
+      <death
+         source="https://www.treccani.it/enciclopedia/benedetto-bacchini_(Dizionario-Biografico)/">
          <date when-iso="1721-09-10"/>
          <placeName ref="#DLCL_CF_L0007">Bologna</placeName>
       </death>
       <sex value="m"/>
       <occupation>teologo</occupation>
-      <affiliation><orgName sameAs="http://viaf.org/viaf/247149196253174790123">Ordine di San Benedetto</orgName></affiliation>
+      <affiliation><orgName sameAs="http://viaf.org/viaf/247149196253174790123">Ordine di San
+            Benedetto</orgName></affiliation>
    </person>
    <person xml:id="DLCL_CF_PC0010" sameAs="http://viaf.org/viaf/100218993">
       <persName xml:lang="it">
@@ -172,11 +178,13 @@
       <idno type="VIAF">66457966</idno>
       <idno type="ISNI">0000000121371319</idno>
       <idno type="GND">124501109</idno>
-      <birth source="https://www.treccani.it/enciclopedia/giovanni-antonio-volpi_(Dizionario-Biografico)/">
+      <birth
+         source="https://www.treccani.it/enciclopedia/giovanni-antonio-volpi_(Dizionario-Biografico)/">
          <date when-iso="1686-11-10"/>
          <placeName ref="#DLCL_CF_L0010">Padova</placeName>
       </birth>
-      <death source="https://www.treccani.it/enciclopedia/giovanni-antonio-volpi_(Dizionario-Biografico)/">
+      <death
+         source="https://www.treccani.it/enciclopedia/giovanni-antonio-volpi_(Dizionario-Biografico)/">
          <date when-iso="1766-10-25"/>
          <placeName ref="#DLCL_CF_L0010">Padova</placeName>
       </death>
@@ -298,7 +306,8 @@
       <sex value="m"/>
       <occupation>monaco</occupation>
       <occupation>abate</occupation>
-      <affiliation><orgName sameAs="http://viaf.org/viaf/8081156012419949700007">Ordine dei Camaldolesi</orgName></affiliation>
+      <affiliation><orgName sameAs="http://viaf.org/viaf/8081156012419949700007">Ordine dei
+            Camaldolesi</orgName></affiliation>
    </person>
    <person xml:id="DLCL_CF_PC0018" sameAs="http://viaf.org/viaf/100208380">
       <persName xml:lang="it">
@@ -326,11 +335,13 @@
       <idno type="VIAF">43056950</idno>
       <idno type="ISNI">0000000061205596</idno>
       <idno type="GND">135564042</idno>
-      <birth source="https://www.treccani.it/enciclopedia/giulio-castellani_%28Dizionario-Biografico%29/">
+      <birth
+         source="https://www.treccani.it/enciclopedia/giulio-castellani_%28Dizionario-Biografico%29/">
          <date when-iso="1528"/>
          <placeName ref="#DLCL_CF_L0005">Faenza</placeName>
       </birth>
-      <death source="https://www.treccani.it/enciclopedia/giulio-castellani_%28Dizionario-Biografico%29/">
+      <death
+         source="https://www.treccani.it/enciclopedia/giulio-castellani_%28Dizionario-Biografico%29/">
          <date when-iso="1586-10-23"/>
          <placeName ref="#DLCL_CF_L0008">Roma</placeName>
       </death>
@@ -367,11 +378,13 @@
       <idno type="VIAF">57421589</idno>
       <idno type="ISNI">0000000118674394</idno>
       <idno type="GND">119298341</idno>
-      <birth source="https://www.treccani.it/enciclopedia/ferdinando-ughelli_%28Dizionario-Biografico%29/">
+      <birth
+         source="https://www.treccani.it/enciclopedia/ferdinando-ughelli_%28Dizionario-Biografico%29/">
          <date when-iso="1596-03-19"/>
          <placeName ref="#DLCL_CF_L0018">Firenze</placeName>
       </birth>
-      <death source="https://www.treccani.it/enciclopedia/ferdinando-ughelli_%28Dizionario-Biografico%29/">
+      <death
+         source="https://www.treccani.it/enciclopedia/ferdinando-ughelli_%28Dizionario-Biografico%29/">
          <date when-iso="1670-05-19"/>
          <placeName ref="#DLCL_CF_L0008">Roma</placeName>
       </death>
@@ -389,11 +402,13 @@
       <idno type="VIAF">69017412</idno>
       <idno type="ISNI">0000000121021239</idno>
       <idno type="GND">116231882</idno>
-      <birth source="https://www.treccani.it/enciclopedia/du-cange-charles-du-fresne-sieur_%28Enciclopedia-Italiana%29/">
+      <birth
+         source="https://www.treccani.it/enciclopedia/du-cange-charles-du-fresne-sieur_%28Enciclopedia-Italiana%29/">
          <date when-iso="1610-12-18"/>
          <placeName ref="https://www.geonames.org/3037854">Amiens</placeName>
       </birth>
-      <death source="https://www.treccani.it/enciclopedia/du-cange-charles-du-fresne-sieur_%28Enciclopedia-Italiana%29/">
+      <death
+         source="https://www.treccani.it/enciclopedia/du-cange-charles-du-fresne-sieur_%28Enciclopedia-Italiana%29/">
          <date when-iso="1688-10-23"/>
          <placeName ref="#DLCL_CF_L0017">Parigi</placeName>
       </death>
@@ -461,5 +476,21 @@
       <sex value="m"/>
       <occupation>poeta</occupation>
    </person>
-   
+   <person xml:id="DLCL_CF_PC0026">
+      <persName xml:lang="it">
+         <surname>Soliani</surname>
+      </persName>
+   </person>
+   <person xml:id="DLCL_CF_PC0027">
+      <persName xml:lang="it">
+         <forename type="religious">Padre Don</forename>
+         <surname>Romualdo</surname>
+      </persName>
+   </person>
+   <person xml:id="DLCL_CF_PC0028">
+      <persName xml:lang="it">
+         <forename type="religious">Don</forename>
+         <surname>Germano</surname>
+      </persName>
+   </person>
 </listPerson>
