@@ -625,9 +625,13 @@ angular.module('evtviewer.dataHandler')
 		parser.parseNamedEntity = function (doc, entityNode, skip) {
 			var entityElem = document.createElement('evt-named-entity-ref'),
 				entityRef = entityNode.getAttribute('ref'),
+				entityType = entityNode.getAttribute('type'),
 				entityId = entityRef ? entityRef.replace('#', '') : undefined;
 			if (entityId && entityId !== '') {
 				entityElem.setAttribute('data-entity-id', entityId);
+			}
+			if(entityType !== '') {
+				entityElem.setAttribute('bibl-type', entityType);
 			}
 			var listType = entityNode.tagName ? entityNode.tagName : 'generic';
 			entityElem.setAttribute('data-entity-type', listType);

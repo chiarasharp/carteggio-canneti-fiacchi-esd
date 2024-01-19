@@ -518,6 +518,7 @@ angular.module('evtviewer.dataHandler')
 			}
 
 			angular.forEach(nodeElem.childNodes, function (child) {
+				
 				if (child.nodeType === 1) {
 					if (contentForLabelDef.indexOf('<' + child.tagName + '>') >= 0 && child.children && child.children.length > 0) {
 						angular.forEach(child.children, function (subChild) {
@@ -602,9 +603,13 @@ angular.module('evtviewer.dataHandler')
 		NEparser.parseSubEntity = function (nodeElem, contentDef, listDef) {
 			var newNodeElem = document.createElement('evt-named-entity-ref'),
 				entityRef = nodeElem.getAttribute('ref'),
-				entityId = entityRef ? entityRef.replace('#', '') : undefined;
+				entityId = entityRef ? entityRef.replace('#', '') : undefined,
+				entityType = nodeElem.getAttribute('type');
 			if (entityId && entityId !== '') {
 				newNodeElem.setAttribute('data-entity-id', entityId);
+			}
+			if(entityType !== '') {
+				newNodeElem.setAttribute('bibl-type', entityType);
 			}
 			var listType = nodeElem.tagName ? nodeElem.tagName : 'generic';
 			newNodeElem.setAttribute('data-entity-type', listType);

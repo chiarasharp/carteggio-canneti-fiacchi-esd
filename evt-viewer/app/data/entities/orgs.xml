@@ -1,4 +1,4 @@
-<listOrg xml:id="DLCL_CF_O" xmlns="http://www.tei-c.org/ns/1.0">
+<listOrg xml:id="DLCL_CF_O" type="organizations" xmlns="http://www.tei-c.org/ns/1.0">
    <org xml:id="DLCL_CF_O0001" type="library" sameAs="http://viaf.org/viaf/122822452">
       <orgName notBefore-iso="1803" xml:lang="it">Istituzione Biblioteca Classense</orgName>
       <orgName notBefore-iso="1803" xml:lang="it">Biblioteca comunale Classense</orgName>

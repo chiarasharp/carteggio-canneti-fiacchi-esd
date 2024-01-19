@@ -321,23 +321,27 @@ $named-entities-border-color : rgb(125, 125, 125);
     }
 }
 
-$personColor: #FFF0F1;
-$personColor-darker: #ffcdd2;
+$personColor: #f2b5d6;
+$personColor-darker: #f7b2d8;
 
 $placeColor: #EEF7EF;
-$placeColor-darker: #c8e6c9;
+$placeColor-darker: #abe297;
 
-$orgColor: #FFE9C9;
-$orgColor-darker: #ffb74d;
+$orgColor: #f8d9b5;
+$orgColor-darker: #f2c891;
 
 $rsPersonColor: #ffffcc;
 $rsPersonColor-darker: #f3f3a0;
 
-$biblManuscriptColor: #ffccf9;
-$biblManuscriptColor-darker: #eeb1e7;
+$biblManuscriptColor: #dfd4f9;
+$biblManuscriptColor-darker: #cebaf4;
 
-$biblPrintColor: #FFE9C9;
-$biblPrintColor-darker: #ffb74d;
+$biblPrintColor: #d9e7f9;
+$biblPrintColor-darker: #9fc9f0;
+
+$biblColor: #f9cbcb;
+$biblColor-darker: #f9aeae;
+
 
 @mixin namedEntityColors($color-base, $color-darker) {
 
@@ -410,6 +414,26 @@ $biblPrintColor-darker: #ffb74d;
     &-orgName {
         @include namedEntityColors($orgColor, $orgColor-darker);
     }
+
+    &-bibl {
+        @include namedEntityColors($biblColor, $biblColor-darker);
+    }
+
+    &-rs {
+        @include namedEntityColors($rsPersonColor, $rsPersonColor-darker);
+    }
+}
+
+[bibl-type="print"] .namedEntity {
+    &-bibl {
+        @include namedEntityColors($biblPrintColor, $biblPrintColor-darker);
+    }
+}
+
+[bibl-type="manuscript"] .namedEntity {
+    &-bibl {
+        @include namedEntityColors($biblManuscriptColor, $biblManuscriptColor-darker);
+    }
 }
 
 @mixin listColors($color) {
@@ -442,6 +466,74 @@ $biblPrintColor-darker: #ffb74d;
 
 [data-list-type=org] {
     @include listColors($orgColor-darker);
+}
+
+[data-list-type=bibl] {
+    @include listColors($biblColor-darker);
+}
+
+[bibl-type="manuscript"] {
+.namedEntityRef {
+    color: $base-color-middle;
+    cursor: pointer;
+
+    &.highlighted {
+        background: #ffc !important;
+    }
+
+    &.fakeEntity {
+        cursor: default;
+    }
+
+    &.active {
+        border: 1px solid #000;
+        border-bottom: 5px solid #fff;
+    }
+
+    &-bibl {
+        &:hover {
+            background-color: $biblManuscriptColor;
+        }
+
+        &.active {
+            background-color: $biblManuscriptColor;
+            border-bottom-color: $biblManuscriptColor;
+        }
+    }
+
+}
+}
+
+[bibl-type="print"] {
+    .namedEntityRef {
+        color: $base-color-middle;
+        cursor: pointer;
+    
+        &.highlighted {
+            background: #ffc !important;
+        }
+    
+        &.fakeEntity {
+            cursor: default;
+        }
+    
+        &.active {
+            border: 1px solid #000;
+            border-bottom: 5px solid #fff;
+        }
+    
+        &-bibl {
+            &:hover {
+                background-color: $biblPrintColor;
+            }
+    
+            &.active {
+                background-color: $biblPrintColor;
+                border-bottom-color: $biblPrintColor;
+            }
+        }
+    
+    }
 }
 
 .namedEntityRef {
@@ -511,12 +603,12 @@ $biblPrintColor-darker: #ffb74d;
 
     &-bibl {
         &:hover {
-            background-color: $biblManuscriptColor;
+            background-color: $biblColor;
         }
 
         &.active {
-            background-color: $biblManuscriptColor;
-            border-bottom-color: $biblManuscriptColor;
+            background-color: $biblColor;
+            border-bottom-color: $biblColor;
         }
     }
 
@@ -623,16 +715,42 @@ $biblPrintColor-darker: #ffb74d;
 }
 
 .bibl-active {
-    .namedEntityRef {
+    [bibl-type="manuscript"] .namedEntityRef {
 
-        &-bibl {
-            background-color: $biblManuscriptColor-darker;
+            &-bibl {
+                background-color: $biblManuscriptColor-darker;
 
-            &:hover:not(.active) {
-                background-color: $biblManuscriptColor;
+                &:hover:not(.active) {
+                    background-color: $biblManuscriptColor;
+                }
             }
         }
-    }
+}
+
+.bibl-active {
+    [bibl-type="print"] .namedEntityRef {
+
+            &-bibl {
+                background-color: $biblPrintColor-darker;
+
+                &:hover:not(.active) {
+                    background-color: $biblPrintColor;
+                }
+            }
+        }
+}
+
+.bibl-active {
+    .namedEntityRef {
+
+            &-bibl {
+                background-color: $biblColor-darker;
+
+                &:hover:not(.active) {
+                    background-color: $biblColor;
+                }
+            }
+        }
 }
 
 [data-value="person"],
