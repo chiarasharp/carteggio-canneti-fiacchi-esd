@@ -1,0 +1,107 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10005">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20637/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/20823/full/581,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/20824/full/568,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10005" n="Canneti a Fiacchi (Ravenna, 6 Agosto 1713)">
+        <front>
+            <fileDesc>
+                <titleStmt>
+                    <title xml:lang="it">Canneti a Fiacchi (Ravenna, 6 Agosto 1713)</title>
+                    <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+                </titleStmt>
+                <publicationStmt><ab></ab></publicationStmt>
+                <seriesStmt>
+                    <title type="main">Epistolario Canneti Fiacchi</title>
+                    <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+                    <biblScope unit="letter">5</biblScope>
+                </seriesStmt>
+                <sourceDesc>
+                    <msDesc>
+                    <msIdentifier>
+                        <country key="IT">Italia</country>
+                        <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                        <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                        <repository></repository>
+                        <collection></collection>
+                        <idno></idno>
+                        <altIdentifier>
+                            <idno></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                    <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                    <date when-iso="1713-08-06"/>
+                    <placeName ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</placeName>
+                    </correspAction>
+                    <correspAction type="received">
+                    <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="it"/>
+                </langUsage>
+                <settingDesc>
+                    <xi:include href="../../entities/places.xml"/>
+                </settingDesc>
+                <particDesc>
+                    <xi:include href="../../entities/people/cited-people.xml"/>
+                    <xi:include href="../../entities/people/staff.xml"/>
+                    <xi:include href="../../entities/orgs.xml"/>
+                </particDesc>
+            </profileDesc>
+            <revisionDesc status="created">
+                <change when-iso="2024-01-19" who="#DLCL_CF_PS001">creato</change>
+                <change when-iso="2024-01-29" who="#DLCL_CF_PS001">correzioni</change>
+            </revisionDesc>
+        </front>
+        <body>
+            <div type="transcription">
+                <pb xml:id="DLCL_CF_E10005_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20823/full/581,800/0/default.jpg"/>
+                
+                <opener>
+                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+                </opener>
+                
+                <p>
+                Se l’aria, che và dolcemente ventilandosi intorno all’inclita <orgName ref="#DLCL_CF_O0007">Torre degli Asinelli,</orgName> non basta a superar le doglie, e i magoni del fiacchissimo <persName ref="#DLCL_CF_PC0002">Padre Fiacchi;</persName> e che ne faremo? 
+                egli vorrebbe prolongar costì la sua dimora; io l’intendo; e perciò s’infinge languido, svenevole, e tristanzuolo. 
+                Ma non basterà, né gioverà tal’arte contro alla sollecitudine di <persName ref="#DLCL_CF_PC0029">Frate Ferdinando,</persName> che ogni dì interroga quando dee rimandar la sedia a levarlo di <placeName ref="#DLCL_CF_L0007">Bologna.</placeName> 
+                Sbrighi dunque il rassettamento dello <orgName ref="#DLCL_CF_O0008">Studio Sbaraglia,</orgName> e non perda tempo in complimentar colle doglie, coll’ inabilità, col non sapere, col non esser buono, e che sò io. 
+                Suppongo per indubitato che nello <orgName ref="#DLCL_CF_O0008">Studio</orgName> vi sian libri di Matematica. 
+                Veda di studiare da se qualche cosa, e tanto in somma che basti al suo ritorno per sapermi dire qual proporzione corra tra il <persName ref="#DLCL_CF_PC0030">Padre Lettore Corazza,</persName> e il nostro <persName ref="#DLCL_CF_PC0007">Padre Don Bonifazio.</persName> 
+                </p>
+                
+                <p>
+                Mi preme intendere buone nuove dell’interesse, per cui <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> principalmente si è mossa. 
+                Anco per questo motivo è stato bene ch’ella, trascurato ogni altro invito, siasi fermata appresso il <persName ref="#DLCL_CF_PC0007">Padre Don Bonifazio.</persName>            
+                Ne ho avuto somma consolazione. 
+                E, per dirla, non mi piaceva che ella andasse altrove. 
+                Quando potrà andare alla <orgName ref="#DLCL_CF_O0009">Libreria di S. Salvatore,</orgName> si ricordi vedere nell’<bibl type="manuscript">Epistole manoscritte</bibl> del <persName ref="#DLCL_CF_PC0031">Candido</persName> se vi è menzione del nostro <persName ref="#DLCL_CF_PC0032">Ambrogio.</persName> 
+                Mi riverisca il <persName ref="DLCL_CF_PC0006">Padre Amici;</persName> e gli dica che in quest’ordinario mando a <placeName ref="#DLCL_CF_L0008">Roma</placeName> al <persName ref="#DLCL_CF_PC0033">Signore Crescimbeni</persName> un’esemplare del <bibl type="print">Sonetto di San Filippo</bibl> nobilissimamente stampato costì, essendomi stato chiesto con grande istanza. 
+                Son’ arrivati i libri di <placeName ref="#DLCL_CF_L0023">Foligno;</placeName> e vi ho trovate di belle cose. 
+                </p>
+                
+                <pb xml:id="DLCL_CF_E10005_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20824/full/568,800/0/default.jpg"/>
+                
+                <p>
+                Ieri, dovendosi consegnare al <persName ref="#DLCL_CF_PC0034">Signor Veratti</persName> la sua porzione de’ libri del fu <persName ref="#DLCL_CF_PC0013">Dottore Muratori,</persName> non fu possibile trovar in verun luogo la nota fatta di tutti, con la dovuta distribuzione, 
+                da <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> che però dopo replicate inutilmente le ricerche, convenne a me, e al <persName ref="#DLCL_CF_PC0035">Padre Buti</persName> con una flemma sforzata rifare la nota smarrita. 
+                Preghi il Signor Iddio per me, che caramente l’abbraccio. 
+                </p>
+                
+                <closer>
+                <salute>DVP</salute>.
+                <dateline><placeName ref="#DLCL_CF_L0002">Ravenna</placeName> <date when-iso="1713-08-06">6 agosto 1713</date></dateline> 
+                <salute>Affettuosissimo Padre nel Signore</salute> 
+                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+                </closer>
+            </div>
+        </body>
+   </text>
+</TEI>

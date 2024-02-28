@@ -7,33 +7,31 @@
    <text type="letter" n="Canneti a Fiacchi (Sala, 2 Giugno 1712)" xml:id="DLCL_CF_E10003">
       <front>
          <fileDesc>
-            <titleStmt>
-               <title xml:lang="it">Canneti a Fiacchi (Sala, 2 Giugno 1712)</title>
-               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
-            </titleStmt>
-            <publicationStmt>
-               <ab></ab>
-            </publicationStmt>
-            <seriesStmt>
-               <title type="main">Epistolario Canneti Fiacchi</title>
-               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
-               <biblScope unit="letter">3</biblScope>
-            </seriesStmt>
-            <sourceDesc>
-               <msDesc>
-                  <msIdentifier>
-                     <country key="IT">Italia</country>
-                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
-                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                     <repository></repository>
-                     <collection></collection>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Sala, 2 Giugno 1712)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt><ab></ab></publicationStmt>
+         <seriesStmt>
+            <title type="main">Epistolario Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">3</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
                      <idno></idno>
-                     <altIdentifier>
-                        <idno></idno>
-                     </altIdentifier>
-                  </msIdentifier>
-               </msDesc>
-            </sourceDesc>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
          </fileDesc>
          <profileDesc>
             <correspDesc>
@@ -42,7 +40,7 @@
                   <date when-iso="1712-06-02"/>
                   <placeName xml:id="DLCL_CF_E10003_N001" ref="#DLCL_CF_L0011" key="DLCL_CF_L0011">Sala 
                      <note type="certainty" resp="#DLCL_CF_PS001" target="#DLCL_CF_E10003_N001">
-                     Non si è sicuri che con Sala si riferisca a Sala Bolognese. -<name ref="#DLCL_CF_PS001">Chiara</name>
+                        Non si è sicuri che con Sala si riferisca a Sala Bolognese. -<name ref="#DLCL_CF_PS001">Chiara</name>
                      </note>
                   </placeName>
                </correspAction>
@@ -53,17 +51,10 @@
             <langUsage>
                <language ident="it"/>
             </langUsage>
-            <settingDesc>
-               <xi:include href="../../entities/places.xml"/>
-            </settingDesc>
-            <particDesc>
-               <xi:include href="../../entities/people/cited-people.xml"/>
-               <xi:include href="../../entities/people/staff.xml"/>
-               <xi:include href="../../entities/orgs.xml"/>
-            </particDesc>
          </profileDesc>
          <revisionDesc status="created">
-            <change when-iso="2023-11-14" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-01-02" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-01-29" who="#DLCL_CF_PS001">correzioni</change>
          </revisionDesc>
       </front>
       <body>
@@ -76,9 +67,9 @@
             </opener> 
             
             <p>
-               Desidero aver meco il <bibl type="print">Libro Stampato,</bibl> e i due <bibl ref="#DLCL_CF_BM0001" type="manuscript">Manoscritti</bibl><bibl ref="#DLCL_CF_BM0002" type="manuscript"> del Quadriregio</bibl> con tutte le lettere del <persName ref="#DLCL_CF_PC0015" key="DLCL_CF_PC0015">Pagliarini,</persName> che vi sono appresso. 
+               Desidero aver meco il <bibl type="print">Libro Stampato,</bibl> e i due <bibl source="#DLCL_CF_BM0001 #DLCL_CF_BM0002" type="manuscript">Manoscritti del Quadriregio</bibl> con tutte le lettere del <persName ref="#DLCL_CF_PC0015" key="DLCL_CF_PC0015">Pagliarini,</persName> che vi sono appresso. 
                Li troverà su uno de’ tavolini vicino alla porta dell’ingresso della Camera, ove dormo. 
-               Per entrarvi in compagnia di <rs type="person">Frate Natale,</rs> gli mostri la lettera presente; e vi unisca ancora la <bibl type="manuscript" ref="#DLCL_CF_BM0004">Cronica Manoscritta di <placeName ref="#DLCL_CF_L0013">Ferrara</placeName></bibl> in un grosso tomo legato a modo de’ libri da Conti. 
+               Per entrarvi in compagnia di <rs type="person">Frate Natale,</rs> gli mostri la lettera presente; e vi unisca ancora la <bibl type="manuscript" ref="#DLCL_CF_BM0004">Cronica Manoscritta di Ferrara</bibl> in un grosso tomo legato a modo de’ libri da Conti. 
                Unisca tutto insieme in un’involto ben custodito dalla pioggia, e lo mandi al ritorno dell’<rs type="person">Uomo,</rs> al quale faccia consegnare anco due sigilli, cioè il piccolino, e il mezzano, che stanno nel Camerino, alla Colonnella, dove si battono. 
                Preghi il Signore Iddio per me, che di tutto cuore resto. 
             </p>

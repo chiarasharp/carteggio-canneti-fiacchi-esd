@@ -51,17 +51,10 @@
             <langUsage>
                <language ident="it"/>
             </langUsage>
-            <settingDesc>
-               <xi:include href="../entities/places.xml"/>
-            </settingDesc>
-            <particDesc>
-               <xi:include href="../entities/people/cited-people.xml"/>
-               <xi:include href="../entities/people/staff.xml"/>
-               <xi:include href="../entities/orgs.xml"/>
-            </particDesc>
          </profileDesc>
          <revisionDesc status="created">
-            <change when-iso="2023-11-14" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-01-02" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-01-29" who="#DLCL_CF_PS001">correzioni</change>
          </revisionDesc>
       </front>
       <body>
@@ -77,7 +70,7 @@
                Al mio ritorno dunque troverò i libri da spedirsi dal <persName ref="#DLCL_CF_PC0005" key="DLCL_CF_PC0005">Ruinetti.</persName> 
                Se il prezzo o è inalterabile, o stabilito in 22 scudi, non accade altro discorrerne. 
                Se v’ha luogo ad alterarlo con vantaggio, mi rimetto al nostro <persName ref="#DLCL_CF_PC0004" key="DLCL_CF_PC0004">Marozzi,</persName> che di cuore saluto. 
-               Ricevo il <bibl type="print"><persName ref="#DLCL_CF_PC0008" key="DLCL_CF_PC0008">Martello</persName></bibl> legato approposito per una Libreria. 
+               Ricevo il <bibl type="print">Martello</bibl> legato approposito per una Libreria. 
                Quando non possa aversi sciolto, si avrà questa copia che mi piace, e questa basterà, non volendone che una per la <orgName key="DLCL_CF_O0001" ref="#DLCL_CF_O0001">Libreria.</orgName> 
                Aspetteremo che da <placeName ref="#DLCL_CF_L0007" key="DLCL_CF_L0007">Bologna</placeName> ritorni la copia delle <bibl type="print">Ipercrisi</bibl> a <placeName ref="#DLCL_CF_L0009" key="DLCL_CF_L0009">Cesena;</placeName> e poi manderò la nostra a far emendare. 
                Saluti caramente il <persName ref="#DLCL_CF_PC0012" key="DLCL_CF_PC0012">Padre Don Venanzio,</persName> dalla cui attenzione godo che sia stata fatta condurre a fine l’una, e l’altra copia. 
@@ -85,7 +78,7 @@
             </p>
             
             <closer>
-               <salute>DVP</salute>.
+               <salute>DVP</salute>. 
                <dateline><placeName ref="#DLCL_CF_L0006" key="DLCL_CF_L0006">Ribano</placeName> <date when-iso="1711-11-03">3 Novembre 1711</date></dateline>
             </closer>
 
@@ -95,9 +88,9 @@
                   Suppongo abbia rimesso il dinaro al <persName ref="#DLCL_CF_PC0026" key="DLCL_CF_PC0026">Soliani.</persName> 
                </p>
                <p>
-                  Un <rs type="person">Amico</rs> mi scrive che gli proveda un’<bibl type="print">Istoria di <placeName ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</placeName></bibl> del <persName ref="#DLCL_CF_PC0014" key="DLCL_CF_PC0014">Rossi</persName> della 2a edizione. 
+                  Un <rs type="person">Amico</rs> mi scrive che gli proveda un’<bibl type="print">Istoria di Ravenna</bibl> del <persName ref="#DLCL_CF_PC0014" key="DLCL_CF_PC0014">Rossi</persName> della 2a edizione. 
                   Il <rs type="person">Libraro</rs> faccia diligenza se può aversene una ben conservata a prezzo giusto. 
-                  Suol vendersi al più tre scudi.  
+                  Suol vendersi al più tre scudi. 
                </p>
                <p>
                   [So che <rs type="person">Monsignore Vicario</rs> ne ha, o aveva due copie; ma ne pretendeva cinque, o sei scudi]
@@ -105,7 +98,7 @@
             </postscript>
 
             <closer>
-               <salute>Affettuosissimo Cordialissimo Padre nel Signore</salute>
+               <salute>Affettuosissimo Cordialissimo Padre nel Signore</salute> 
                <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
             </closer>
 
@@ -115,10 +108,10 @@
             
             <closer>
                <salute>
-                  Al <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">molto reverendo Padre mio Osservandissimo</rs> il <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  Al molto reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
                </salute>
                <dateline>
-                  <placeName ref="#DLCL_CF_L0020" key="DLCL_CF_L0020">Classe</placeName> Ravenna
+                  <placeName ref="#DLCL_CF_L0020" key="DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
                </dateline>
             </closer>
             
@@ -126,5 +119,5 @@
 
          </div>
       </body>
-   </text>
+</text>
 </TEI>

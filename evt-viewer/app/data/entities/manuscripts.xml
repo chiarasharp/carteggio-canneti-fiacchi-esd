@@ -20,8 +20,8 @@
             <provenance>
                 <orgName>Biblioteca Estense <placeName>Modena</placeName></orgName>
             </provenance>
-            <acquisition>          
-            </acquisition>
+            <!-- <acquisition>          
+            </acquisition> -->
         </history>
     </msDesc>
     <msDesc xml:id="DLCL_CF_BM0002">
@@ -78,13 +78,13 @@
                 <title xml:lang="la">Cronica manoscritta Ferrara Ricobaldo</title>
             </msItem>
         </msContents>
-        <history>
+        <!-- <history>
             <origin>
             </origin>
             <provenance>
             </provenance>
             <acquisition>
             </acquisition>
-        </history>
+        </history> -->
     </msDesc>
 </listBibl>

@@ -82,6 +82,11 @@
    <xi:include href="busta-10/DLCL_CF_E10002.xml"/>
    <xi:include href="busta-10/DLCL_CF_E10003.xml"/>
    <xi:include href="busta-10/DLCL_CF_E10004.xml"/>
+   <xi:include href="busta-10/DLCL_CF_E10005.xml"/>
+   <xi:include href="busta-10/DLCL_CF_E10006.xml"/>
+   <xi:include href="busta-10/DLCL_CF_E10007.xml"/>
+   <xi:include href="busta-10/DLCL_CF_E10008.xml"/>
+   <xi:include href="busta-10/DLCL_CF_E10009.xml"/>
 </teiCorpus>
 
 

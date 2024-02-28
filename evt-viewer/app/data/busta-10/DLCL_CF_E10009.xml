@@ -1,0 +1,170 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10009">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20641/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/20845/full/586,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/20846/full/569,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/20847/full/578,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10009" n="Canneti a Fiacchi (Perugia, 17 Luglio 1714)">
+        <front>
+            <fileDesc>
+                <titleStmt>
+                    <title xml:lang="it">Canneti a Fiacchi (Perugia, 17 Luglio 1714)</title>
+                    <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+                </titleStmt>
+                <publicationStmt><ab></ab></publicationStmt>
+                <seriesStmt>
+                    <title type="main">Epistolario Canneti Fiacchi</title>
+                    <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+                    <biblScope unit="letter">9</biblScope>
+                </seriesStmt>
+                <sourceDesc>
+                    <msDesc>
+                    <msIdentifier>
+                        <country key="IT">Italia</country>
+                        <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                        <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                        <repository></repository>
+                        <collection></collection>
+                        <idno></idno>
+                        <altIdentifier>
+                            <idno></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                    <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                    <date when-iso="1714-07-17"/>
+                    <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+                    </correspAction>
+                    <correspAction type="received">
+                    <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="it"/>
+                </langUsage>
+                <settingDesc>
+                    <xi:include href="../../entities/places.xml"/>
+                </settingDesc>
+                <particDesc>
+                    <xi:include href="../../entities/people/cited-people.xml"/>
+                    <xi:include href="../../entities/people/staff.xml"/>
+                    <xi:include href="../../entities/orgs.xml"/>
+                </particDesc>
+            </profileDesc>
+            <revisionDesc status="created">
+                <change when-iso="2024-01-24" who="#DLCL_CF_PS001">creato</change>
+                <change when-iso="2024-01-29" who="#DLCL_CF_PS001">correzioni</change>
+            </revisionDesc>
+        </front>
+        <body>
+            <div type="transcription">
+                
+                <pb xml:id="DLCL_CF_E10009_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20845/full/586,800/0/default.jpg"/>
+                        
+                <opener>
+                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+                </opener>
+            
+                <p>
+                La provvidenza del tempo è grande, e poco men che miracolosa: 
+                Né è da farsene le maraviglie; poiché immediatamente, e con singolar disposizione dipende da Dio, il quali <hi rend="underline"><foreign xml:lang="la">posuit tempora, et momenta in sua potestate</foreign></hi>. 
+                Io adunque lascio alle contingenze del tempo il ripiego da prendersi per la distribuzione delle pochissime reliquie di <persName ref="#DLCL_CF_PC0040">San Severo.</persName> 
+                Arriverei fino a privarmi del pezetto d’osso che ho, del <persName ref="#DLCL_CF_PC0017">Padre S. Romualdo,</persName> con cui potrebbe equivalentemente soddisfarsi alla divozione del <persName ref="#DLCL_CF_PC0006">Padre Amici</persName> e del <persName ref="#DLCL_CF_PC0041">Signor Francesco Cellesi.</persName> 
+                Ma né pur ciò basterebbe ad appagare il loro intento; perché vi manca l’attestato autentico. 
+                Con un poco d’indugio si troverà forse il modo di consolare la lor pietà. 
+                Se io potessi per questa <orgName>Chiesa</orgName> (antico membro del <orgName ref="#DLCL_CF_O0005">Monistero di Classe)</orgName> aver qui il pezzetto che restò, dopo segato l’altro, che s’inchiuse nell’ostensorio d’argento, cesserebbe ogni scrupolo, e difficoltà.  
+                </p>
+                
+                <p>
+                Con godimento singolare ricevo la sospirata nuova della <bibl type="print">Risposta del Gran Pandolfo già finita contro al Cecchini.</bibl> 
+                Mi lusingo che non siano per incontrarsi opposizioni nella stampa; non ostante che certo Ser faccenda abbia scritto di costà a <placeName ref="#DLCL_CF_L0031">Comacchio,</placeName> non ha molto, potersi attraversare qualche ostacolo per l’approvazione; 
+                d’onde il <rs type="person">Boccaccinevole Contradittore</rs> argomentava non essere l’operetta senza la sua acredine. 
+                Esca pure a gloria di <placeName ref="#DLCL_CF_L0002">Ravenna.</placeName> 
+                Ma e che si fa dell’Opera grande in prosa, e in verso tanto agitata, e combattuta? 
+                Al vero <persName cert="unknown">Pandolfo,</persName> non alla maschera, mille riproteste del mio sincero e inalterabile rispetto. 
+                Quando si prevegga non essere per seguir la ristampa della <bibl type="print">Cilauda,</bibl> si potrebbe 
+                </p>
+                
+                <pb xml:id="DLCL_CF_E10009_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20846/full/569,800/0/default.jpg"/>
+                
+                <p>
+                fare a penna un’aggiunta de’ sonetti, e de’ giudicii favorevoli ottenuti nelle lettere; ed unito il Manoscritto alla stampa conservarlo in <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
+                Il <persName ref="#DLCL_CF_PC0055">signor Abate Gambi</persName> ha luogo tra primi Arcadi di <placeName ref="#DLCL_CF_L0008">Roma.</placeName> 
+                Molti sono i luoghi, ne’quali il <persName ref="#DLCL_CF_PC0033">Crescimbeni</persName> mi onora per entro la <bibl type="print">Istoria Ristampata;</bibl> 
+                né tutti son riportati nell’Indice, dove troppo sarebbesi stesa la faccenda. 
+                Né sempre riferisce, come da me riportate, le notizie. 
+                Riceverò l’involto de libri speditimi dalla diligenza di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità,</rs> medianti i favori del <rs type="person">Padre Camerlingo,</rs> cui ho scritto sopra ‘l pagamento de’ <bibl type="print">Giornali.</bibl> 
+                Il <persName ref="#DLCL_CF_PC0056">Signor Sancassani</persName> mi scrive essere uscito il <bibl type="print">Tomo XVII;</bibl> e che l’aspettava, e presto l’avrebbe mandato in quattro copie a <placeName ref="#DLCL_CF_L0020">Classe.</placeName> 
+                Male io avea inteso, figurandomi che il <bibl type="print">Tomai</bibl> venuto da <placeName ref="#DLCL_CF_L0010">Padova</placeName> fosse quel, che va congiunto allo <bibl type="print">Spreti.</bibl> 
+                Veramente quello è raro. 
+                Le due edizioni son diversissime tra loro; come lo sono quelle del <bibl type="print">Rossi.</bibl> 
+                Lo che ad ambe sarà bene notar nell’<bibl type="manuscript">Indice.</bibl> 
+                Un cordialissimo saluto al signor <persName ref="#DLCL_CF_PC0057">Giacomo Tassinari,</persName> il quale godo conservi appresso di se la <bibl type="print">Geografia</bibl> del <persName ref="#DLCL_CF_PC0048">Berlinghieri,</persName> per cui farei un baratto se tra nostri libri vi fosse cosa approposito. 
+                Può <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> stare sicura in coscienza tenendo in sua stanza i nostri libri per mera custodia, come tiene in custodia quei della <orgName ref="#DLCL_CF_O0001">libreria.</orgName> 
+                Contuttociò procurerò la licenza; ma non so dentro a quali limiti verrà essa ristretta. 
+                Ho trovato il secondo Tomo degli <bibl type="print">Avvertimenti</bibl> del <persName ref="#DLCL_CF_PC0058">Salviati;</persName> onde l’opera è compita. 
+                Mi è capitato il <bibl type="print">Martirologio</bibl> con le note del <persName ref="#DLCL_CF_PC0059">Baronio,</persName> e le postille marginali, che si riferiscono agli <bibl type="print">Annali</bibl> del <persName ref="#DLCL_CF_PC0059">Baronio</persName> stesso, <foreign xml:lang="la">Typis Vaticanis fol.</foreign> edizione ottima, e incomparabilmente migliore di <bibl type="print">cotesta</bibl> d’<placeName ref="#DLCL_CF_L0032">Anversa.</placeName> 
+                Una volta servirà per cotesta <orgName ref="#DLCL_CF_O0001">Biblioteca.</orgName> 
+                È morto in età di ottant’anni 
+                </p>
+                
+                <pb xml:id="DLCL_CF_E10009_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/20847/full/578,800/0/default.jpg"/>
+                
+                <p>
+                l’incomparabile <persName ref="#DLCL_CF_PC0060">Magliabechi</persName> lasciando i suoi libri da farsene una Libreria pubblica, e cinquemila scudi di fondo per accrescerla, e due lo stipendio al Custode della medesima. 
+                </p>
+                
+                <p>
+                Mi si conferma la conghiettura che il Musaico della <orgName ref="#DLCL_CF_O0005">nostra antica Basilica</orgName> fosse fatto intorno a tempi di <persName ref="#DLCL_CF_PC0061">S. Ecclesio;</persName> 
+                onde a lui, e a <persName ref="#DLCL_CF_PC0062">S. Ursicino</persName> mancano i titoli di Santo dati a due più antichi Arcivescovi <persName ref="#DLCL_CF_PC0040">Severo,</persName> e <persName ref="#DLCL_CF_PC0063">Orso.</persName> 
+                </p>
+                
+                <p>
+                E nel <bibl type="print">Cave,</bibl> e in altri, che han trattato la Storia Letteraria mancano le notizie di <persName ref="#DLCL_CF_PC0053">Ricardo di San Lorenzo,</persName> delle quali un <rs type="person">Prete</rs> di <orgName ref="#DLCL_CF_O0015">San Filippo</orgName> mio Amico qui è curiosissimo. 
+                Io mi credeva rinvenirle appresso il <bibl type="print">Dupin.</bibl> 
+                Forse qualche cosa ce ne dirà il <persName ref="#DLCL_CF_PC0064">Marracci</persName> nella <bibl type="print">Biblioteca Mariana;</bibl> 
+                poiché divotissimo della Vergine Madre fu <rs type="person">quello Scrittore,</rs> e le lodi di lei ebbe per argumento delle sue opere. 
+                </p>
+                
+                <p>
+                Aspetto i dubbi sopra i <bibl>Riti,</bibl> e presto, perché l’economia vuole che presto si componga, e stampisti il <bibl>Calendario.</bibl> 
+                Insieme <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> mi mandi l’elogio, con cui la <orgName ref="#DLCL_CF_O0011">Sacra Congregazione</orgName> ha approvato s’inserisca nel <bibl>Martirologio</bibl> la memoria di <persName ref="#DLCL_CF_PC0065">S. Pio Quinto.</persName> 
+                Ora con molta nostra soddisfazione se ne legge, a mensa, la <bibl type="print">Vita scritta</bibl> dal <persName ref="#DLCL_CF_PC0066">Can. Maffei di Volterra.</persName> 
+                Ed io in camera mi trattengo nella <bibl type="print">Vita</bibl> del <persName ref="#DLCL_CF_PC0067">Padre Arrighetti</persName> Servita, da me conosciuto, mentre viveva; 
+                ch’è stato in vero un gran Servo di Dio, ed ha lasciati ammirabili esempi di sante virtù. 
+                Ho sul tavolino la <bibl type="print">Merope Tragedia</bibl> del <persName ref="#DLCL_CF_PC0068">Marchese Scipione Maffei,</persName> ch’è un gran Capo d’opera. 
+                È bella bellissima, degna di lode, e d’immitazione. 
+                </p>
+                
+                <closer>
+                <salute>Addio. Non si scordi di me al Santo Altare, Caro <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo.</persName> Addio.</salute>            
+                <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1714-07-17">17 luglio 1714</date></dateline>  
+                <salute>DVPMR</salute> 
+                <salute>Affettuosissimo Servo e Padre nel Signore</salute> 
+                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+                </closer>
+                    
+                <postscript>
+                <p>
+                    Abbiamo qui il nostro <persName ref="#DLCL_CF_PC0069">Padre Don Aurelio</persName> Maestro de’ Novizzi di passaggio. 
+                </p>
+                </postscript>
+                
+                <pb xml:id="DLCL_CF_E10009_C2V" n="2 - Verso"/>
+                
+                <postscript>
+                <p>
+                    Al molto reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                    <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName> 
+                </p>
+                </postscript>
+                
+            </div>
+      </body>
+   </text>
+</TEI>
