@@ -1,9 +1,36 @@
 # Epistolario Canneti Fiacchi - DigiLet Class (Digitizing Letters of Classense Library)
 
-nvm --version 0.39.1
-nvm use 14
-npm i 
-npm run start
+## Starting the application
+
+1. Move into evt-viewer folder
+    ```bash
+    cd evt-viewer
+    ```
+2. Check the `nvm` version (it should be `0.39.1`):
+   ```bash
+   nvm --version
+   ```
+   **Expected output:**
+   ```plaintext
+   0.39.1
+   ```
+2. Set Node.js to version 14:
+   ```bash
+   nvm use 14
+   ```
+   **Expected output:**
+   ```plaintext
+   Now using node v14.x.x (npm v6.x.x)
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   npm install --only=dev
+   ```
+4. Start the project:
+   ```bash
+   npm run start
+   ```
 
 Repository del codice basato su [EVT Viewer 2](https://github.com/evt-project/evt-viewer) per l'edizione critica digitale dell’epistolario intercorso negli anni 1711-1730 tra i bibliotecari Pietro Canneti (1659-1730) e Mariangelo Fiacchi (1688-1777), oggi conservato presso la Biblioteca Classense di Ravenna. 
 
