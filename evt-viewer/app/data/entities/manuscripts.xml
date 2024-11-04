@@ -1,4 +1,4 @@
-<listBibl xml:id="DLCL_CF_BM" type="manuscripts" xmlns="http://www.tei-c.org/ns/1.0">
+<listBibl type="manuscripts" xmlns="http://www.tei-c.org/ns/1.0">
     <msDesc xml:id="DLCL_CF_BM0001">
         <msIdentifier>
             <settlement>Ravenna</settlement>
@@ -20,8 +20,8 @@
             <provenance>
                 <orgName>Biblioteca Estense <placeName>Modena</placeName></orgName>
             </provenance>
-            <!-- <acquisition>          
-            </acquisition> -->
+            <acquisition>          
+            </acquisition>
         </history>
     </msDesc>
     <msDesc xml:id="DLCL_CF_BM0002">
@@ -78,13 +78,13 @@
                 <title xml:lang="la">Cronica manoscritta Ferrara Ricobaldo</title>
             </msItem>
         </msContents>
-        <!-- <history>
+        <history>
             <origin>
             </origin>
             <provenance>
             </provenance>
             <acquisition>
             </acquisition>
-        </history> -->
+        </history>
     </msDesc>
 </listBibl>

@@ -1020,29 +1020,36 @@ angular.module('evtviewer.dataHandler')
 		 */
 		parser.parseDocuments = function (doc) {
 			var currentDocument = angular.element(doc),
-				defDocElement,
+				defDocElement = null,
 				defContentEdition = 'body',
 				defTeiHeader = 'teiHeader*';
 
-			if (currentDocument.find('text group text').length > 0) {
+			if (currentDocument.find('text group text').length > 0 && currentDocument.find('text').length > 0) {
 				//defDocElement = 'text group text';
-				defDocElement = 'text group text';
-			} else if (currentDocument.find('text').length > 0) {
-				defDocElement = 'text';
+				defDocElement = 'text group text' && 'text';
 			} else if (currentDocument.find('div[subtype="edition_text"]').length > 0) {
 				defDocElement = 'div[subtype="edition_text"]';
 				defContentEdition = 'div';
 			}
 
-			parser.parserProperties['defDocElement'] = defDocElement;
+			if (!defDocElement) {
+				parser.parserProperties['defDocElement'] = defDocElement;
+			} else {		
+				parser.parserProperties['defDocElement'] = 'text';
+			}
 			parser.parserProperties['defContentEdition'] = defContentEdition;
 
 			parsedData.setCriticalEditionAvailability(currentDocument.find(config.listDef.replace(/[<>]/g, '')).length > 0);
 
 			angular.forEach(currentDocument.find(defDocElement),
 				function (element) {
-					parser.parseDocument(element, doc);
-				});
+					var currEl = angular.element(element);
+
+					if(currEl.children('group').length === 0) { 
+						parser.parseDocument(element, doc); 
+					}
+			});
+
 			console.log('## PAGES ##', parsedData.getPages());
 			console.log('## Documents ##', parsedData.getDocuments());
 			console.log('## DIVS ##', parsedData.getDivs());

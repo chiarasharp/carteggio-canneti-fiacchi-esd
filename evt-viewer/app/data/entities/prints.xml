@@ -1,3 +1,369 @@
-<listBibl xml:id="DLCL_CF_BS" type="prints" xmlns="http://www.tei-c.org/ns/1.0">
-    
+<listBibl type="prints" xmlns="http://www.tei-c.org/ns/1.0">
+    <biblStruct xml:id="DLCL_CF_BS0001" sameAs="http://id.sbn.it/bid/RAVE003869">
+        <monogr>
+            <author ref="#DLCL_CF_PC0008">
+                <persName>
+                    <forename>Pier</forename>
+                    <forename>Jacopo</forename>
+                    <surname>Martello</surname>
+                </persName>
+            </author>
+            <title level="m">Della poetica Sermoni di Pier Jacopo Martello. Al reverendissimo signore il p. d. Pietro Canneti camaldolese abate di Classe fra gli arcadi Cariteo Nesio</title>
+            <idno type="SBN">RAVE003869</idno>
+            <imprint>
+                <pubPlace ref="#DLCL_CF_L0007">Bologna</pubPlace>
+                <date when-iso="1713"/>
+                <publisher>
+                    <persName>
+                        <forename>Costantino</forename> 
+                        <surname>Pisarri</surname>
+                    </persName>
+                </publisher>
+            </imprint>
+        </monogr>
+    </biblStruct>
+    <biblStruct xml:id="DLCL_CF_BS0002" sameAs="http://id.sbn.it/bid/UBOE042686">
+        <monogr>
+            <author ref="#DLCL_CF_PC0010">
+                <persName xml:lang="la">
+                    <forename>Gaius</forename>
+                    <forename>Valerius</forename>
+                    <surname>Catullus</surname>
+                </persName>
+            </author>
+            <title level="m" xml:lang="la">C. Valerius Catullus, Albius Tibullus e.R. Sex. Aurelius Propertius ex recensione Jo. Antonii Vulpii Bergomensis j.u.d. Cum ejusdem observationibus, atque indice locupletissimo...</title>
+            <idno type="SBN">UBOE042686</idno>
+            <imprint>
+                <pubPlace ref="#DLCL_CF_L0010" xml:lang="la">Patavii</pubPlace>
+                <date when-iso="1710"/>
+                <publisher>
+                    <persName>
+                        <forename>Giovanni</forename> 
+                        <forename>Antonio</forename>
+                        <surname>Volpi</surname>
+                    </persName>
+                </publisher>
+            </imprint>
+        </monogr>
+    </biblStruct>
+    <biblStruct xml:id="DLCL_CF_BS0003" sameAs="http://id.sbn.it/bid/BVEE010926">
+        <monogr>
+            <author ref="#DLCL_CF_PC0014">
+                <persName>
+                    <forename>Girolamo</forename>
+                    <surname>Rossi</surname>
+                </persName>
+            </author>
+            <title level="m" xml:lang="la">Hieronymi Rubei Historiarum Rauennatum libri. decem</title>
+            <idno type="SBN">BVEE010926</idno>
+            <imprint>
+                <pubPlace ref="#DLCL_CF_L0024" xml:lang="la">Venetiis</pubPlace>
+                <date when-iso="1589"/>
+                <publisher xml:lang="la">ex Typ. Guerraea (Guerra, Domenico &amp; Guerra, Giovanni Battista)</publisher>
+            </imprint>
+        </monogr>
+    </biblStruct>
+    <biblStruct xml:id="DLCL_CF_BS0004" sameAs="http://id.sbn.it/bid/FERE001270">
+        <monogr>
+            <author ref="DLCL_CF_PC0016">
+                <persName>
+                    <forename>Serafino</forename>
+                    <surname>Pasolini</surname>
+                </persName>
+            </author>
+            <title level="m" xml:lang="la">Lustri rauennati dall'anno seicento doppo l'vniuersal diluuio \-sino all'anno mille, e cinquecento ottantaotto! breuemente descritti da d. Serafino Pasolino rauennate ... Parte prima [-quarta]</title>
+            <idno type="SBN">FERE001270</idno>
+            <imprint>
+                <pubPlace ref="#DLCL_CF_L0007">Bologna</pubPlace>
+                <date from-iso="1678" to-iso="1682"/>
+                <publisher>
+                    <persName>
+                        <forename>Giacomo</forename> 
+                        <surname>Monti</surname>
+                    </persName>
+                </publisher>
+            </imprint>
+        </monogr>
+    </biblStruct>
+    <biblStruct xml:id="DLCL_CF_BS0005" sameAs="http://id.sbn.it/bid/SBLE019409">
+        <monogr>
+            <author ref="#DLCL_CF_PC0021">
+                <persName>
+                    <forename>Ferdinando</forename>
+                    <surname>Ughelli</surname>
+                </persName>
+            </author>
+            <title level="m" xml:lang="la">Italia sacra siue De episcopis Italiæ et insularum adiacentium, rebusque ab iis praeclare gestis, deducta serie ad nostram vsque ætatem. Opus singulare prouincijs 20. distinctum. In quo ecclesiarum origines, urbium conditiones, principum donationes, recondita monumenta in lucem proferuntur. Tomus primus [-nonus] ... Authore D. Ferdinando Vghello Florentino abbate SS. Vincentij, &amp; Anastasij ad Aquas Saluias Ordinis Cisterciensis</title>
+            <idno type="SBN">SBLE019409</idno>
+            <imprint>
+                <pubPlace ref="#DLCL_CF_L0008" xml:lang="la">Romae</pubPlace>
+                <date from-iso="1644" to-iso="1662"/>
+                <publisher>
+                    <persName>
+                        <forename>Bernardino</forename>
+                        <surname>Tani</surname>
+                    </persName>
+                </publisher>
+            </imprint>
+        </monogr>
+    </biblStruct>
+    <biblStruct xml:id="DLCL_CF_BS0006" sameAs="http://id.sbn.it/bid/USME033649">
+        <monogr>
+            <author ref="#DLCL_CF_PC0022">
+                <persName>
+                    <forename>Charles</forename>
+                    <surname>Du Cange</surname>
+                </persName>
+            </author>
+            <title level="m" xml:lang="la">Glossarium ad scriptores mediae &amp; infimae graecitatis in quo graeca vocabulanovatae significationis, aut usus rarioris, barbara, exotica, ecclesiastica,liturgica, ... eorum notiones &amp; originationes reteguntur: complures aevi mediiritus&amp; mores; dignitates ecclesiasticae ... &amp; ad Historia Byzantinam praesertimspectantia, recensentur et enucleantur. E libris editis, ineditis, veteribusquemonumentis. Accedit Appendix ad Glossarium mediae &amp; infimae Latinitatis, una cum brevi etymologico linguae gallicae ex utroque glossario. Auctore Carolo Du Fresne, domino du Cange ... Tomus primus [- secundus]</title>
+            <idno type="SBN">USME033649</idno>
+            <imprint>
+                <pubPlace ref="#DLCL_CF_L0044" xml:lang="la">Lugduni</pubPlace>
+                <date when-iso="1688"/>
+                <publisher>Anisson, Jean &amp; Anisson, Jacques &amp; Posuel, Jean &amp; Rigaud, Claude</publisher>
+            </imprint>
+        </monogr>
+    </biblStruct>
+    <biblStruct xml:id="DLCL_CF_BS0007" sameAs="http://id.sbn.it/bid/TO0E114115">
+        <monogr>
+            <author ref="#DLCL_CF_PC0022">
+                <persName>
+                    <forename>Charles</forename>
+                    <surname>Du Cange</surname>
+                </persName>
+            </author>
+            <title level="m" xml:lang="la">Historia byzantina duplici commentario illustrata. Prior familias ac stemmata imperatorum Constantinopolitarum , cum eorumdem Augustorum nomismatibus, &amp; aliquot iconibus ... complectitur: Alter descriptionem urbis Constantinopolitanæ, qualis exstitit sub imperatoris christianis. Auctore Carolo Du Fresne ...</title>
+            <idno type="SBN">TO0E114115</idno>
+            <imprint>
+                <pubPlace xml:lang="la">Lutetiae Parisiorum</pubPlace>
+                <date when-iso="1682"/>
+                <publisher>
+                    <persName>
+                        <forename>Thomas</forename>
+                        <surname>Moette</surname>
+                    </persName>
+                </publisher>
+            </imprint>
+        </monogr>
+    </biblStruct>
+    <biblStruct xml:id="DLCL_CF_BS0008" sameAs="http://id.sbn.it/bid/PUVE022072">
+        <monogr>
+            <author ref="#DLCL_CF_PC0022">
+                <persName>
+                    <forename>Charles</forename>
+                    <surname>Du Cange</surname>
+                </persName>
+            </author>
+            <title level="m" xml:lang="la">Historia byzantina duplici commentario illustrata. Prior familias ac stemmata imperatorum Constantinopolitanorum, cum eorundem augustorum nomismatibus, et aliquot iconibus; praeterea familias Dalmaticas et Turcicas complectitur: alter descriptionem urbis Constantinopolitanae, qualis extitit sub imperatoribus christianis. Auctore Carolo du Fresne domino Du Cange ...</title>
+            <idno type="SBN">PUVE022072</idno>
+            <imprint>
+                <pubPlace xml:lang="la">Lutetiae Parisiorum</pubPlace>
+                <date when-iso="1680"/>
+                <publisher>
+                    <persName>
+                        <forename>Louis</forename>
+                        <surname>Billaine</surname>
+                    </persName>
+                </publisher>
+            </imprint>
+        </monogr>
+    </biblStruct>
+    <biblStruct xml:id="DLCL_CF_BS0009" sameAs="http://id.sbn.it/bid/RMLE017735">
+        <monogr>
+            <author>Concilio di Firenze</author>
+            <title level="m" xml:lang="el">Ē agia kai oikoumenikē en Phlorentia synodos. Tomos protos -deuteros!. Sancta generalis Florentina synodus. Tomus primus [-secundus]</title>
+            <idno type="SBN">RMLE017735</idno>
+            <imprint>
+                <pubPlace ref="#DLCL_CF_L0008">Roma</pubPlace>
+                <date when-iso="1636" cert="unknown"/>
+                <publisher>
+                    <persName>
+                        <forename>Stefano</forename>
+                        <surname>Paolini</surname>
+                    </persName>
+                </publisher>
+            </imprint>
+        </monogr>
+    </biblStruct>
+    <biblStruct xml:id="DLCL_CF_BS0010" sameAs="http://id.sbn.it/bid/RAVE069778">
+        <monogr>
+            <title level="m">Cilauda Olimia Ninfa del Viti</title>
+            <idno type="SBN">RAVE069778</idno>
+            <imprint>
+                <pubPlace ref="#DLCL_CF_L0002">Ravenna</pubPlace>
+                <date when-iso="1713"/>
+                <publisher>
+                    <persName>
+                        <forename>Anton</forename> 
+                        <forename>Maria</forename>
+                        <surname>Landi</surname>
+                    </persName>
+                </publisher>
+            </imprint>
+        </monogr>
+    </biblStruct>
+    <biblStruct xml:id="DLCL_CF_BS0011" sameAs="http://id.sbn.it/bid/TSAE019780">
+        <monogr>
+            <author ref="#DLCL_CF_PC0038">
+                <persName>
+                    <forename>Giovanni</forename>
+                    <surname>Calvoli</surname>
+                    <surname>Cinelli</surname>
+                </persName>
+            </author>
+            <title level="m">Della biblioteca volante di Giovanni Cinelli. Scanzia prima [-23.]</title>
+            <idno type="SBN">TSAE019780</idno>
+            <imprint>
+                <date from-iso="1677" to-iso="1739"/>
+            </imprint>
+        </monogr>
+    </biblStruct>
+    <biblStruct xml:id="DLCL_CF_BS0012" sameAs="http://id.sbn.it/bid/RLZE009946">
+        <monogr>
+            <title level="m">Giornale de' letterati d'Italia. Tomo decimosesto. Anno 1713</title>
+            <idno type="SBN">RLZE009946</idno>
+            <imprint>
+                <pubPlace ref="#DLCL_CF_L0024">Venezia</pubPlace>
+                <date when-iso="1713"/>
+                <publisher>
+                    <persName>
+                        <forename>Giovanni</forename> 
+                        <forename>Gabriele</forename>
+                        <surname>Hertz</surname>
+                    </persName>
+                </publisher>
+            </imprint>
+        </monogr>
+    </biblStruct>
+    <biblStruct xml:id="DLCL_CF_BS0013" sameAs="http://id.sbn.it/bid/VEAE002424">
+        <monogr>
+            <author ref="#DLCL_CF_PC0064">
+                <persName>
+                    <forename>Ippolito</forename>
+                    <surname>Marracci</surname>
+                </persName>
+            </author>
+            <title level="m" xml:lang="la">Bibliotheca Mariana alphabetico ordine digesta, &amp; in duas partes diuisa, qua auctores, qui de Maria Deiparente Virgine scripsere. Cum recensione operum, continentur. Adiecto quintuplici indice, scilicet, cognominum, dignitatum, religionum, nationum, &amp; sæculorum, scriptorum Marianorum. Auctore p. Hippolyto Marraccio ...</title>
+            <idno type="SBN">VEAE002424</idno>
+            <imprint>
+                <pubPlace ref="#DLCL_CF_L0008" xml:lang="la">Romae</pubPlace>
+                <date when-iso="1648"/>
+                <publisher>
+                    <persName>
+                        <forename>Francesco</forename>
+                        <surname>Cavalli</surname>
+                    </persName>
+                </publisher>
+            </imprint>
+        </monogr>
+    </biblStruct>
+    <biblStruct xml:id="DLCL_CF_BS0014" sameAs="http://id.sbn.it/bid/RLZE006192">
+        <monogr>
+            <author>
+                <persName>
+                    <forename>Francesco</forename>
+                    <surname>Sansovino</surname>
+                </persName>
+            </author>
+            <title level="m">La Historia delle cose fatte in diuersi tempi da' signori di casa Orsina di m. Francesco Sansovino nella quale, oltre alla origine della predetta famiglia, si contengono molte altre notabili imprese, successe in Italia &amp; in divers' altre provincie per spatio di mille &amp; cento anni fino a tempi nostri</title>
+            <idno type="SBN">RLZE006192</idno>
+            <imprint>
+                <pubPlace ref="#DLCL_CF_L0024" xml:lang="la">Venetia</pubPlace>
+                <date when-iso="1564"/>
+                <publisher>
+                    <persName>
+                        <forename>Niccolò</forename>
+                        <surname>Bevilacqua</surname>
+                    </persName>
+                </publisher>
+            </imprint>
+        </monogr>
+    </biblStruct>
+    <biblStruct xml:id="DLCL_CF_BS0015" sameAs="http://id.sbn.it/bid/BVEE018919">
+        <monogr>
+            <author>
+                <persName>
+                    <forename>Francesco</forename>
+                    <surname>Sansovino</surname>
+                </persName>
+            </author>
+            <title level="m">L'historia di casa Orsina di Francesco Sansouino nella quale oltre all'origine sua, si contengono molte nobili imprese ... Con quattro libri de gli huomini illustri della famiglia, ...</title>
+            <idno type="SBN">BVEE018919</idno>
+            <imprint>
+                <pubPlace ref="#DLCL_CF_L0024" xml:lang="la">Venetia</pubPlace>
+                <date when-iso="1565"/>
+                <publisher>Bevilacqua, Niccolò Nicolini da Sabbio, Domenico Stagnino, Bernardino &lt;2.&gt; &amp; Stagnino Filippo</publisher>
+            </imprint>
+        </monogr>
+    </biblStruct>
+    <biblStruct xml:id="DLCL_CF_BS0016" sameAs="http://id.sbn.it/bid/LO1E008680">
+        <monogr>
+            <author>
+                <persName>
+                    <forename>Anton</forename>
+                    <forename>Francesco</forename>
+                    <surname>Doni</surname>
+                </persName>
+            </author>
+            <title level="m">I Marmi del Doni, Academico Peregrino. …</title>
+            <idno type="SBN">LO1E008680</idno>
+            <imprint>
+                <pubPlace ref="#DLCL_CF_L0024">Vinegia</pubPlace>
+                <date notBefore-iso="1552" notAfter-iso="1553"/>
+                <publisher>
+                    <persName>
+                        <forename>Francesco</forename>
+                        <surname>Marcolini</surname>
+                    </persName>
+                </publisher>
+            </imprint>
+        </monogr>
+    </biblStruct>
+    <biblStruct xml:id="DLCL_CF_BS0017" sameAs="http://id.sbn.it/bid/TO0E003006">
+        <monogr>
+            <author>
+                <persName>
+                    <forename>Anton</forename>
+                    <forename>Francesco</forename>
+                    <surname>Doni</surname>
+                </persName>
+            </author>
+            <title level="m">I marmi del Doni academico peregrino, cioè ragionamenti introdotti à farsi da varie conditioni d'huomini, à luoghi di honesto piacere in Firenze ... Diuiso in quattro libri. ...</title>
+            <idno type="SBN">TO0E003006</idno>
+            <imprint>
+                <pubPlace ref="#DLCL_CF_L0024">Venetia</pubPlace>
+                <date when-iso="1609"/>
+                <publisher>
+                    <persName>
+                        <forename>Giovanni</forename> 
+                        <forename>Battista</forename>
+                        <surname>Bertoni</surname>
+                    </persName>
+                </publisher>
+            </imprint>
+        </monogr>
+    </biblStruct>
+    <biblStruct xml:id="DLCL_CF_BS0018" sameAs="http://id.sbn.it/bid/TO0E003861">
+        <monogr>
+            <author>
+                <persName>
+                    <forename>Giovanni</forename>
+                    <forename>Battista</forename>
+                    <surname>Fontei</surname>
+                </persName>
+            </author>
+            <title level="m" xml:lang="la">De prisca Caesiorum gente Io. Baptistae Fonteii primionis commentariorum libri duo. Cum Iulii Iacobonii appendice</title>
+            <idno type="SBN">TO0E003861</idno>
+            <imprint>
+                <pubPlace ref="#DLCL_CF_L0007" xml:lang="la">Bononiae</pubPlace>
+                <date notBefore-iso="1582" notAfter-iso="1583"/>
+                <publisher>
+                    <persName>
+                        <forename>Giovanni</forename>
+                        <surname>Rossi</surname>
+                    </persName>
+                </publisher>
+            </imprint>
+        </monogr>
+    </biblStruct>
 </listBibl>

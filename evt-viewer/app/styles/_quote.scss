@@ -54,6 +54,19 @@
 evt-quote span.quote {
    display: inline !important;
 }
-span.quote {
+/* span.quote {
    display: none !important;
+} */
+
+span.cit>span.quote {
+    font-style: italic;
+
+    &::before {
+        content: '«';
+        font-weight: normal;
+    }
+
+    &::after {
+        content: '»';
+    }
 }

@@ -1,4 +1,4 @@
-<listPerson type="staff" xmlns="http://www.tei-c.org/ns/1.0">
+<listPerson xml:id="DLCL_CF_PS" type="staff" xmlns="http://www.tei-c.org/ns/1.0">
    <person xml:id="DLCL_CF_PS001" sameAs="https://orcid.org/0000-0003-4037-1175">
       <persName xml:lang="it">
          <forename>Chiara</forename>
@@ -8,5 +8,17 @@
       <birth>
          <date when-iso="1998-09-21"/>
       </birth>
+   </person>
+   <person xml:id="DLCL_CF_PS002">
+      <persName xml:lang="it">
+         <forename>Silvia</forename>
+         <surname>Tripodi</surname>
+      </persName>
+   </person>
+   <person xml:id="DLCL_CF_PS003">
+      <persName xml:lang="it">
+         <forename>Bianca</forename>
+         <surname>Sorbara</surname>
+      </persName>
    </person>
 </listPerson>
