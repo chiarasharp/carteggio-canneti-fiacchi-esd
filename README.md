@@ -2,7 +2,7 @@
 
 ## Starting the application
 
-1. Move into evt-viewer folder
+1. Move into `evt-viewer` folder
     ```bash
     cd evt-viewer
     ```
