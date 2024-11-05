@@ -17,14 +17,17 @@ angular.module('evtviewer.dataHandler')
 		var parser = {};
 		var idx = 0;
 		var svgs = config.visCollSvg;
+
 		// TODO: create module provider and add default configuration
 		// var defAttributes = ['n', 'n', 'n'];
+
 		var defPageElement = 'pb',
 			defLineBreak = '<lb>',
 			defLine = '<l>',
 			possibleNamedEntitiesDef = '<placeName>, <geogName>, <persName>, <orgName>, <rs>, <bibl>',
 			possibleNamedEntitiesListsDef = '<listPlace>, <listPerson>, <listOrg>, <list>, <listBibl>',
 			defImageList = 'image';
+
 		var viscollDefs = {
 			leaf: 'leaf',
 			leafMode: 'mode',
@@ -34,6 +37,7 @@ angular.module('evtviewer.dataHandler')
 			imageList: 'image',
 			svgElements: 'g'
 		};
+
 		var projectInfoDefs = {
 			sectionHeaders: '<sourceDesc>, ',
 			sectionSubHeaders: '',
@@ -43,11 +47,23 @@ angular.module('evtviewer.dataHandler')
 			changeWhenDef: '[when]',
 			changeByDef: '[who]'
 		};
+
+
+		var frontDef      = '<front>',
+			biblDef       = '<biblStruct>',
+			titleStmt     = '<titleStmt>',
+			seriesStmt    = '<seriesStmt>',
+			sourceDesc    = '<sourceDesc>',
+			correspDesc   = '<correspDesc>',
+			languageInfo = '<langUsage>',
+			revisionDesc  = '<revisionDesc>';
+
 		projectInfoDefs.sectionSubHeaders += '<projectDesc>, <refsDecl>, <notesStmt>, <seriesStmt>, <publicationStmt>, <respStmt>, <funder>, <sponsor>, <msContents>, <revisionDesc>, ';
 		projectInfoDefs.sectionSubHeaders += '<principal>, <langUsage>, <particDesc>, <textClass>, <variantEncoding>, <editorialDecl>, <msIdentifier>, <physDesc>, <history>, <extent>, <editionStmt>';
 		projectInfoDefs.blockLabels += '<edition>, <correction>, <hyphenation>, <interpretation>, <normalization>, <punctuation>, <interpGrp>';
 		projectInfoDefs.blockLabels += '<quotation>, <segmentation>, <stdVals>, <colophon>, <handDesc>, <decoDesc>, <supportDesc>, <origin>';
 		parser.parserProperties = {};
+
 		// ///////// //
 		// UTILITIES //
 		// ///////// //
@@ -94,6 +110,7 @@ angular.module('evtviewer.dataHandler')
 		parser.camelToUnderscore = function (str) {
 			return (!!str) ? str.replace(/\W+/g, ' ').replace(/([a-z\d])([A-Z])/g, '$1_$2') : '';
 		};
+
 		/**
 		 * @ngdoc method
 		 * @name evtviewer.dataHandler.evtParser#isInMainVersion
@@ -131,6 +148,7 @@ angular.module('evtviewer.dataHandler')
 				}
 			}
 		};
+
 		/**
 		 * @ngdoc method
 		 * @name evtviewer.dataHandler.evtParser#parseXMLElement
@@ -1096,6 +1114,7 @@ angular.module('evtviewer.dataHandler')
 
 			parser.parseFront(newDoc, element);
 
+			
 			parsedData.addDocument(newDoc);
 
 			parser.parsePages(element, newDoc.value);
@@ -1295,10 +1314,12 @@ angular.module('evtviewer.dataHandler')
 		 *
 		 * @author CM
 		 */
-		parser.parseFront = function (newDoc, element) {
+		/*parser.parseFront = function (newDoc, element) {
 			var frontDef = '<front>',
 				biblDef = '<biblStruct>';
+
 			var docFront = element.querySelectorAll(frontDef.replace(/[<\/>]/ig, ''));
+			
 			if (docFront && docFront[0]) {
 				var frontElem = docFront[0].cloneNode(true),
 					biblRefs = frontElem.querySelectorAll(biblDef.replace(/[<\/>]/ig, ''));
@@ -1312,6 +1333,7 @@ angular.module('evtviewer.dataHandler')
 						biblElem.parentNode.replaceChild(evtBiblElem, biblElem);
 					}
 				}
+
 				var parsedContent = parser.parseXMLElement(element, frontElem, {
 					skip: biblDef + '<evt-bibl-elem>'
 				}),
@@ -1322,7 +1344,186 @@ angular.module('evtviewer.dataHandler')
 					originalContent: frontElem.outerHTML
 				};
 			}
-		}
+		}*/
+
+
+		parser.parseFront = function(newDoc, element) {
+			var docFront = element.querySelectorAll(frontDef.replace(/[<\/>]/ig, ''));
+			
+			// Only parse if <front> element exists
+			if (docFront && docFront[0]) {
+				var frontElem = docFront[0].cloneNode(true);
+				var parsedContent = `
+					<div class="document-Info">
+						${parser.parseTitleStatement(frontElem)}
+						${parser.parseSeriesStatement(frontElem)}
+						${parser.parseSourceDescription(frontElem)}
+						${parser.parseCorrespondenceDescription(frontElem)}
+						${parser.parseLanguages(frontElem)}
+						${parser.parseRevisionHistory(frontElem)}
+					</div>
+				`;
+
+				var frontAttributes = parser.parseElementAttributes(frontElem);
+				newDoc.front = {
+					attributes: frontAttributes,
+					parsedContent: parsedContent.trim(),
+					originalContent: frontElem.outerHTML
+				};
+			}
+		};
+
+		/**
+		 * Parse the title statement section 
+		 */
+		parser.parseTitleStatement = function(front) {
+			var currentElement = angular.element(front);
+			var title = currentElement.find(titleStmt.replace(/[<>]/g, '') + ' title')[0],
+				author = currentElement.find(titleStmt.replace(/[<>]/g, '') + ' author')[0];
+
+			return `
+				<div class="titleStatement">
+					<h2>${title ? title.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</h2>
+					<span class="title">
+						<span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.AUTHOR' | translate }}:</span> ${author ? author.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}
+					</span>
+				</div>
+			`;
+		};
+
+		/**
+		 * Parse the series statement section
+		 */
+		parser.parseSeriesStatement = function(front) {
+			var currentElement = angular.element(front);
+
+			var seriesTitles = currentElement.find(seriesStmt.replace(/[<>]/g, '') + ' title[type="main"]'),
+				subSeriesTitle = currentElement.find(seriesStmt.replace(/[<>]/g, '') + ' title[type="subseries"]'),
+				units = currentElement.find(seriesStmt.replace(/[<>]/g, '') + ' biblScope');
+
+			var content = '<div class="seriesStatement"><span class="projectInfo-sectionSubHeader">{{ \'PROJECT_INFO.SERIES_STMT\' | translate }}</span>';
+			angular.forEach(seriesTitles, function(title) {
+				content += `<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.SERIES_MAIN_TITLE' | translate }}:</span> ${title.textContent}</span>`;
+			});
+			angular.forEach(subSeriesTitle, function(title) {
+				content += `<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.SERIES_SUB_TITLE' | translate }}:</span> ${title.textContent}</span>`;
+			});
+			angular.forEach(units, function(unit) {
+				content += `<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.SERIES_UNIT' | translate }}:</span> ${unit.textContent}</span>`;
+			});
+			content += '</div>';
+			
+			return content;
+		};
+
+		/**
+		 * Parse the source description section 
+		 */
+		parser.parseSourceDescription = function(front) {
+			var currentElement = angular.element(front);
+			var country = currentElement.find(sourceDesc.replace(/[<>]/g, '') + ' country')[0],
+				settlement = currentElement.find(sourceDesc.replace(/[<>]/g, '') + ' settlement')[0],
+				institution = currentElement.find(sourceDesc.replace(/[<>]/g, '') + ' institution')[0];
+
+			return `
+				<div class="sourceDesc"><span class="projectInfo-sectionSubHeader">{{ 'PROJECT_INFO.SOURCE_DESC' | translate }}</span>
+					<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.COUNTRY' | translate }}:</span> ${country ? country.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>
+					<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.SETTLEMENT' | translate }}:</span> ${settlement ? settlement.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>
+					<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.INSTITUTION' | translate }}:</span> ${institution ? institution.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>
+				</div>
+			`;
+		};
+
+		/**
+		 * Parse the correspondence description and label sender and receiver
+		 */
+		parser.parseCorrespondenceDescription = function(front) {
+			var currentElement = angular.element(front);
+			var sender = currentElement.find(correspDesc.replace(/[<>]/g, '') + ' correspAction[type="sent"] persName')[0],
+				receiver = currentElement.find(correspDesc.replace(/[<>]/g, '') + ' correspAction[type="received"] persName')[0];
+			
+			var	dateSent = currentElement.find(correspDesc.replace(/[<>]/g, '') + ' correspAction[type="sent"] date')[0],
+				dateReceived = currentElement.find(correspDesc.replace(/[<>]/g, '') + ' correspAction[type="received"] date')[0];
+
+			if (dateSent) {
+				if(dateSent.getAttribute('from-iso') && dateSent.getAttribute('to-iso')) {
+				dateSent = `{{ 'PROJECT_INFO.FROM_DATE' | translate }}: ${dateSent.getAttribute('from-iso')} {{ 'PROJECT_INFO.TO_DATE' | translate }}: ${dateSent.getAttribute('to-iso')}`;
+				} else if (dateSent.getAttribute('from-iso')){
+					dateSent = `{{ 'PROJECT_INFO.FROM_DATE' | translate }}: ${dateSent.getAttribute('from-iso')}`;
+				} else if (dateSent.getAttribute('to-iso')){
+				dateSent = `{{ 'PROJECT_INFO.TO_DATE' | translate }}: ${dateSent.getAttribute('to-iso')}`;
+				} else if (dateSent.getAttribute('when-iso')){
+					dateSent = `${dateSent.getAttribute('when-iso')}`;
+				}
+			} else {
+				dateSent = `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
+			}
+
+			if (dateReceived) {
+				if (dateReceived.getAttribute('from-iso') && dateReceived.getAttribute('to-iso')) {
+					dateReceived = `{{ 'PROJECT_INFO.FROM_DATE' | translate }}: ${dateReceived.getAttribute('from-iso')} {{ 'PROJECT_INFO.TO_DATE' | translate }}: ${dateReceived.getAttribute('to-iso')}`;
+				} else if (dateReceived.getAttribute('from-iso')){
+					dateReceived = `{{ 'PROJECT_INFO.FROM_DATE' | translate }}: ${dateReceived.getAttribute('from-iso')}`;
+				} else if (dateReceived.getAttribute('to-iso')){
+					dateReceived = `{{ 'PROJECT_INFO.TO_DATE' | translate }}: ${dateReceived.getAttribute('to-iso')}`;
+				} else if (dateSent.getAttribute('when-iso')){
+					dateReceived = `${dateReceived.getAttribute('when-iso')}`;
+				}
+			} else {
+				dateReceived = `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
+			}
+
+			return `
+				<div class="correspDesc">
+					<span class="projectInfo-sectionSubHeader">{{ 'PROJECT_INFO.CORRESP_DESC' | translate }}</span>
+					<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.SENDER' | translate }}:</span> ${sender ? sender.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>
+					<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.DATE_SENT' | translate }}:</span> ${dateSent}</span>
+					<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.RECEIVER' | translate }}:</span> ${receiver ? receiver.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>
+					<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.DATE_RECEIVED' | translate }}:</span> ${dateReceived}</span>
+				</div>
+			`;
+		};
+
+		/**
+		 * Parse the revision history section
+		 */
+		parser.parseRevisionHistory = function(front) {
+			var currentElement = angular.element(front);
+			var changes = currentElement.find(revisionDesc.replace(/[<>]/g, '') + ' change');
+
+			var content = '<div class="revisionDesc"><span class="projectInfo-sectionSubHeader">{{ \'PROJECT_INFO.REVISION_HISTORY\' | translate }}</span><ul class="projectInfo-list">';
+			angular.forEach(changes, function(change) {
+				content += `<li class="projectInfo-listItem"><span class="projectInfo-blockLabel">${change.getAttribute('when-iso') || `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}, ${change.textContent || `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span></li>`;
+			});
+			content += '</ul></div>';
+
+			return content;
+		};
+
+		parser.parseLanguages = function(front) {
+			var currentElement = angular.element(front);
+			var langUsageElements = currentElement.find(languageInfo.replace(/[<>]/g, ''));
+		
+			var content = `<div class="langUsage">
+							 <span class="projectInfo-sectionSubHeader">{{ 'PROJECT_INFO.LANG_USAGE' | translate }}</span>
+							 <ul class="projectInfo-list">`;
+		
+			angular.forEach(langUsageElements, function(langUsage) {
+				var languages = langUsage.querySelectorAll('language');
+		
+				angular.forEach(languages, function(language) {
+					var langIdent = language.getAttribute('ident') || `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
+					content += `<li class="projectInfo-listItem">
+								   <span class="projectInfo-blockLabel">${langIdent}</span>
+								</li>`;
+				});
+			});
+		
+			content += '</ul></div>';
+		
+			return content;
+		};		
+
 		/**
 		 * @ngdoc method
 		 * @name evtviewer.dataHandler.evtParser#splitLineBreaks

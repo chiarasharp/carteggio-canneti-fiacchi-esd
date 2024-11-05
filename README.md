@@ -3,31 +3,38 @@
 ## Starting the application
 
 1. Move into `evt-viewer` folder
+
     ```bash
     cd evt-viewer
     ```
 2. Check the `nvm` version (it should be `0.39.1`):
+
    ```bash
    nvm --version
    ```
    **Expected output:**
+
    ```plaintext
    0.39.1
    ```
 2. Set Node.js to version 14:
+
    ```bash
    nvm use 14
    ```
    **Expected output:**
+
    ```plaintext
    Now using node v14.x.x (npm v6.x.x)
    ```
 3. Install the dependencies:
+
    ```bash
    npm install
    npm install --only=dev
    ```
 4. Start the project:
+
    ```bash
    npm run start
    ```
