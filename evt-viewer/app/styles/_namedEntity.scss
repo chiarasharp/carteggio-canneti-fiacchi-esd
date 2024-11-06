@@ -419,12 +419,22 @@ $biblColor-darker: #f9aeae;
         @include namedEntityColors($biblColor, $biblColor-darker);
     }
 
+    &-print,
+    &-prints {
+        @include namedEntityColors($biblPrintColor, $biblPrintColor-darker);
+    }
+
+    &-manuscript,
+    &-manuscripts {
+        @include namedEntityColors($biblManuscriptColor, $biblManuscriptColor-darker);
+    }
+
     &-rs {
         @include namedEntityColors($rsPersonColor, $rsPersonColor-darker);
     }
 }
 
-[bibl-type="print"] .namedEntity {
+/* [bibl-type="print"] .namedEntity {
     &-bibl {
         @include namedEntityColors($biblPrintColor, $biblPrintColor-darker);
     }
@@ -434,7 +444,7 @@ $biblColor-darker: #f9aeae;
     &-bibl {
         @include namedEntityColors($biblManuscriptColor, $biblManuscriptColor-darker);
     }
-}
+} */
 
 @mixin listColors($color) {
     .evt-list__content {
@@ -472,7 +482,15 @@ $biblColor-darker: #f9aeae;
     @include listColors($biblColor-darker);
 }
 
-[bibl-type="manuscript"] {
+[data-list-type=manuscripts] {
+    @include listColors($biblManuscriptColor-darker);
+}
+
+[data-list-type=prints] {
+    @include listColors($biblPrintColor-darker);
+}
+
+/* [bibl-type="manuscript"] {
 .namedEntityRef {
     color: $base-color-middle;
     cursor: pointer;
@@ -534,7 +552,7 @@ $biblColor-darker: #f9aeae;
         }
     
     }
-}
+} */
 
 .namedEntityRef {
     color: $base-color-middle;
@@ -609,6 +627,28 @@ $biblColor-darker: #f9aeae;
         &.active {
             background-color: $biblColor;
             border-bottom-color: $biblColor;
+        }
+    }
+
+    &-print, &-prints {
+        &:hover {
+            background-color: $biblPrintColor;
+        }
+
+        &.active {
+            background-color: $biblPrintColor;
+            border-bottom-color: $biblPrintColor;
+        }
+    }
+
+    &-manuscript, &-manuscripts {
+        &:hover {
+            background-color: $biblManuscriptColor;
+        }
+
+        &.active {
+            background-color: $biblManuscriptColor;
+            border-bottom-color: $biblManuscriptColor;
         }
     }
 
@@ -714,7 +754,7 @@ $biblColor-darker: #f9aeae;
     }
 }
 
-.bibl-active {
+/* .bibl-active {
     [bibl-type="manuscript"] .namedEntityRef {
 
             &-bibl {
@@ -725,12 +765,37 @@ $biblColor-darker: #f9aeae;
                 }
             }
         }
+} */
+
+.manuscript-active {
+    .namedEntityRef {
+
+            &-manuscript {
+                background-color: $biblManuscriptColor-darker;
+
+                &:hover:not(.active) {
+                    background-color: $biblManuscriptColor;
+                }
+            }
+        }
 }
 
-.bibl-active {
+/* .bibl-active {
     [bibl-type="print"] .namedEntityRef {
 
             &-bibl {
+                background-color: $biblPrintColor-darker;
+
+                &:hover:not(.active) {
+                    background-color: $biblPrintColor;
+                }
+            }
+        }
+} */
+.print-active {
+    .namedEntityRef {
+
+            &-print {
                 background-color: $biblPrintColor-darker;
 
                 &:hover:not(.active) {
@@ -772,6 +837,24 @@ $biblColor-darker: #f9aeae;
 [data-value="orgName"] {
     .option-icon-label {
         color: $orgColor-darker;
+    }
+}
+
+[data-value="bibl"] {
+    .option-icon-label {
+        color: $biblColor-darker;
+    }
+}
+
+[data-value="print"] {
+    .option-icon-label {
+        color: $biblPrintColor-darker;
+    }
+}
+
+[data-value="manuscript"] {
+    .option-icon-label {
+        color: $biblManuscriptColor-darker;
     }
 }
 

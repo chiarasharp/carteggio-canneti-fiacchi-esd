@@ -623,6 +623,10 @@ angular.module('evtviewer.dataHandler')
 				case 'bibl':
 				case 'msDesc':
 				case 'biblStruct':
+				case 'manuscript':
+				case 'print':
+				case 'prints':
+				case 'manuscripts':
 					icon = 'fa-book';
 					break;
 				case 'relation':

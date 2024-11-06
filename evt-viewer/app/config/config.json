@@ -104,16 +104,22 @@
                     "color":"rgb(255,255,204)"
                 },
                 {
-                    "tagName":"bibl",
-                    "label":"Opere",
+                    "tagName":"print",
+                    "label":"Opere a Stampa",
                     "available":true,
-                    "color":"rgb(255,204,249)"
+                    "color":"rgb(217, 231, 249)"
                 },
                 {
-                    "tagName":"bibl[type='print']",
-                    "label":"Opere a stampa",
-                    "available":false,
-                    "color":"rgb(255,255,204)"
+                    "tagName":"manuscript",
+                    "label":"Manoscritti",
+                    "available":true,
+                    "color":"rgb(223, 212, 249)"
+                },
+                {
+                    "tagName":"bibl",
+                    "label":"Altre Opere",
+                    "available":true,
+                    "color":"rgb(249, 203, 203)"
                 }
             ],
         "otherEntitiesToHandle":

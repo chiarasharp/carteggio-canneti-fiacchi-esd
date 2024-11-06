@@ -237,6 +237,9 @@ angular.module('evtviewer.dataHandler')
 					} else if (config.namedEntitiesSelector &&
 						possibleNamedEntitiesDef.toLowerCase().indexOf('<' + tagName + '>') >= 0 &&
 						element.getAttribute('ref') !== undefined) { //TODO: Rivedere
+							if(tagName === 'bibl') {
+								tagName = tagName;
+							}
 						newElement = parser.parseNamedEntity(doc, element, skip);
 					} else {
 						if (element.tagName === 'div') {
@@ -644,14 +647,20 @@ angular.module('evtviewer.dataHandler')
 			var entityElem = document.createElement('evt-named-entity-ref'),
 				entityRef = entityNode.getAttribute('ref'),
 				entityType = entityNode.getAttribute('type'),
-				entityId = entityRef ? entityRef.replace('#', '') : undefined;
+				entityId = entityRef ? entityRef.replace('#', '') : undefined
+				listType = null;
+
 			if (entityId && entityId !== '') {
 				entityElem.setAttribute('data-entity-id', entityId);
 			}
-			if(entityType !== '') {
+			if(entityType != null && entityType != "religious" && entityType != "person") { 
 				entityElem.setAttribute('bibl-type', entityType);
+				listType = entityType;
 			}
-			var listType = entityNode.tagName ? entityNode.tagName : 'generic';
+			else {
+				listType = entityNode.tagName ? entityNode.tagName : 'generic';
+			}
+			
 			entityElem.setAttribute('data-entity-type', listType);
 
 			var entityContent = '';
@@ -1378,17 +1387,30 @@ angular.module('evtviewer.dataHandler')
 		 */
 		parser.parseTitleStatement = function(front) {
 			var currentElement = angular.element(front);
-			var title = currentElement.find(titleStmt.replace(/[<>]/g, '') + ' title')[0],
-				author = currentElement.find(titleStmt.replace(/[<>]/g, '') + ' author')[0];
+			var authors = currentElement.find(titleStmt.replace(/[<>]/g, '') + ' author');
+			
+			var titles = Array.from(currentElement.find(titleStmt.replace(/[<>]/g, '') + ' title'));
 
-			return `
-				<div class="titleStatement">
-					<h2>${title ? title.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</h2>
-					<span class="title">
-						<span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.AUTHOR' | translate }}:</span> ${author ? author.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}
-					</span>
-				</div>
-			`;
+			var content = `<div class="titleStatement">`;
+
+			if (titles.length > 0) {
+				var bigTitle = titles.shift();
+				content += `<span class="projectInfo-sectionHeader">${bigTitle ? bigTitle.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>`;
+
+				angular.forEach(titles, function(title) {
+					content += `<span class="projectInfo-sectionSubHeader">${title ? title.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>`;
+				});
+			}
+
+			if (authors.length > 0) {
+				angular.forEach(authors, function(author) {
+					content += `<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.AUTHOR' | translate }}:</span> ${author ? author.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>`;
+				});
+			}
+			
+			content += '</div>';
+
+			return content;
 		};
 
 		/**
@@ -1402,14 +1424,15 @@ angular.module('evtviewer.dataHandler')
 				units = currentElement.find(seriesStmt.replace(/[<>]/g, '') + ' biblScope');
 
 			var content = '<div class="seriesStatement"><span class="projectInfo-sectionSubHeader">{{ \'PROJECT_INFO.SERIES_STMT\' | translate }}</span>';
+
 			angular.forEach(seriesTitles, function(title) {
-				content += `<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.SERIES_MAIN_TITLE' | translate }}:</span> ${title.textContent}</span>`;
+				content += `<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.SERIES_MAIN_TITLE' | translate }}:</span> ${title ? title.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>`;
 			});
 			angular.forEach(subSeriesTitle, function(title) {
-				content += `<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.SERIES_SUB_TITLE' | translate }}:</span> ${title.textContent}</span>`;
+				content += `<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.SERIES_SUB_TITLE' | translate }}:</span> ${title ? title.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>`;
 			});
 			angular.forEach(units, function(unit) {
-				content += `<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.SERIES_UNIT' | translate }}:</span> ${unit.textContent}</span>`;
+				content += `<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.SERIES_UNIT' | translate }}:</span> ${unit ? unit.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>`;
 			});
 			content += '</div>';
 			
@@ -1421,17 +1444,25 @@ angular.module('evtviewer.dataHandler')
 		 */
 		parser.parseSourceDescription = function(front) {
 			var currentElement = angular.element(front);
-			var country = currentElement.find(sourceDesc.replace(/[<>]/g, '') + ' country')[0],
-				settlement = currentElement.find(sourceDesc.replace(/[<>]/g, '') + ' settlement')[0],
-				institution = currentElement.find(sourceDesc.replace(/[<>]/g, '') + ' institution')[0];
 
-			return `
-				<div class="sourceDesc"><span class="projectInfo-sectionSubHeader">{{ 'PROJECT_INFO.SOURCE_DESC' | translate }}</span>
-					<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.COUNTRY' | translate }}:</span> ${country ? country.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>
-					<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.SETTLEMENT' | translate }}:</span> ${settlement ? settlement.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>
-					<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.INSTITUTION' | translate }}:</span> ${institution ? institution.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>
-				</div>
-			`;
+			var countries = currentElement.find(sourceDesc.replace(/[<>]/g, '') + ' country'),
+				settlements = currentElement.find(sourceDesc.replace(/[<>]/g, '') + ' settlement'),
+				institutions = currentElement.find(sourceDesc.replace(/[<>]/g, '') + ' institution');
+
+			var content = '<div class="sourceDesc"><span class="projectInfo-sectionSubHeader">{{ \'PROJECT_INFO.SOURCE_DESC\' | translate }}</span>';
+
+			angular.forEach(countries, function(country) {
+				content += `<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.COUNTRY' | translate }}:</span> ${country ? country.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>`;
+			});
+			angular.forEach(settlements, function(settlement) {
+				content += `<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.SETTLEMENT' | translate }}:</span> ${settlement ? settlement.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>`;
+			});
+			angular.forEach(institutions, function(institution) {
+				content += `<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.INSTITUTION' | translate }}:</span> ${institution ? institution.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>`;
+			});
+			content += '</div>';
+			
+			return content;
 		};
 
 		/**
@@ -1439,49 +1470,56 @@ angular.module('evtviewer.dataHandler')
 		 */
 		parser.parseCorrespondenceDescription = function(front) {
 			var currentElement = angular.element(front);
-			var sender = currentElement.find(correspDesc.replace(/[<>]/g, '') + ' correspAction[type="sent"] persName')[0],
-				receiver = currentElement.find(correspDesc.replace(/[<>]/g, '') + ' correspAction[type="received"] persName')[0];
+			var senders = currentElement.find(correspDesc.replace(/[<>]/g, '') + ' correspAction[type="sent"] persName'),
+				receivers = currentElement.find(correspDesc.replace(/[<>]/g, '') + ' correspAction[type="received"] persName');
 			
-			var	dateSent = currentElement.find(correspDesc.replace(/[<>]/g, '') + ' correspAction[type="sent"] date')[0],
-				dateReceived = currentElement.find(correspDesc.replace(/[<>]/g, '') + ' correspAction[type="received"] date')[0];
+			var	datesSent = currentElement.find(correspDesc.replace(/[<>]/g, '') + ' correspAction[type="sent"] date'),
+				datesReceived = currentElement.find(correspDesc.replace(/[<>]/g, '') + ' correspAction[type="received"] date');
+			
+			var content = `<div class="correspDesc"><span class="projectInfo-sectionSubHeader">{{ 'PROJECT_INFO.CORRESP_DESC' | translate }}</span>`;
 
-			if (dateSent) {
-				if(dateSent.getAttribute('from-iso') && dateSent.getAttribute('to-iso')) {
-				dateSent = `{{ 'PROJECT_INFO.FROM_DATE' | translate }}: ${dateSent.getAttribute('from-iso')} {{ 'PROJECT_INFO.TO_DATE' | translate }}: ${dateSent.getAttribute('to-iso')}`;
-				} else if (dateSent.getAttribute('from-iso')){
-					dateSent = `{{ 'PROJECT_INFO.FROM_DATE' | translate }}: ${dateSent.getAttribute('from-iso')}`;
-				} else if (dateSent.getAttribute('to-iso')){
-				dateSent = `{{ 'PROJECT_INFO.TO_DATE' | translate }}: ${dateSent.getAttribute('to-iso')}`;
-				} else if (dateSent.getAttribute('when-iso')){
-					dateSent = `${dateSent.getAttribute('when-iso')}`;
-				}
-			} else {
-				dateSent = `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
+			angular.forEach(senders, function(sender) {
+				content += `<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.SENDER' | translate }}:</span> ${sender ? sender.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>`;
+			});
+
+			if (datesSent.length > 0) {
+				angular.forEach(datesSent, function(date) {
+
+					if(date.getAttribute('from-iso') && date.getAttribute('to-iso')) {
+						date = `{{ 'PROJECT_INFO.FROM_DATE' | translate }}: ${date.getAttribute('from-iso')} {{ 'PROJECT_INFO.TO_DATE' | translate }}: ${date.getAttribute('to-iso')}`;
+					} else if (date.getAttribute('from-iso')){
+						date = `{{ 'PROJECT_INFO.FROM_DATE' | translate }}: ${date.getAttribute('from-iso')}`;
+					} else if (date.getAttribute('to-iso')){
+						date = `{{ 'PROJECT_INFO.TO_DATE' | translate }}: ${date.getAttribute('to-iso')}`;
+					} else if (date.getAttribute('when-iso')){
+						date = `${date.getAttribute('when-iso')}`;
+					}
+
+					content += `<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.DATE_SENT' | translate }}:</span> ${date}</span>`;
+				});
 			}
 
-			if (dateReceived) {
-				if (dateReceived.getAttribute('from-iso') && dateReceived.getAttribute('to-iso')) {
-					dateReceived = `{{ 'PROJECT_INFO.FROM_DATE' | translate }}: ${dateReceived.getAttribute('from-iso')} {{ 'PROJECT_INFO.TO_DATE' | translate }}: ${dateReceived.getAttribute('to-iso')}`;
-				} else if (dateReceived.getAttribute('from-iso')){
-					dateReceived = `{{ 'PROJECT_INFO.FROM_DATE' | translate }}: ${dateReceived.getAttribute('from-iso')}`;
-				} else if (dateReceived.getAttribute('to-iso')){
-					dateReceived = `{{ 'PROJECT_INFO.TO_DATE' | translate }}: ${dateReceived.getAttribute('to-iso')}`;
-				} else if (dateSent.getAttribute('when-iso')){
-					dateReceived = `${dateReceived.getAttribute('when-iso')}`;
-				}
-			} else {
-				dateReceived = `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
-			}
+			angular.forEach(receivers, function(receiver) {
+				content += `<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.RECEIVER' | translate }}:</span> ${receiver ? receiver.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>`;
+			});
 
-			return `
-				<div class="correspDesc">
-					<span class="projectInfo-sectionSubHeader">{{ 'PROJECT_INFO.CORRESP_DESC' | translate }}</span>
-					<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.SENDER' | translate }}:</span> ${sender ? sender.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>
-					<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.DATE_SENT' | translate }}:</span> ${dateSent}</span>
-					<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.RECEIVER' | translate }}:</span> ${receiver ? receiver.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>
-					<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.DATE_RECEIVED' | translate }}:</span> ${dateReceived}</span>
-				</div>
-			`;
+			if (datesReceived.length > 0) {
+				angular.forEach(datesReceived, function(dateReceived) {
+					if (dateReceived.getAttribute('from-iso') && dateReceived.getAttribute('to-iso')) {
+						dateReceived = `{{ 'PROJECT_INFO.FROM_DATE' | translate }}: ${dateReceived.getAttribute('from-iso')} {{ 'PROJECT_INFO.TO_DATE' | translate }}: ${dateReceived.getAttribute('to-iso')}`;
+					} else if (dateReceived.getAttribute('from-iso')){
+						dateReceived = `{{ 'PROJECT_INFO.FROM_DATE' | translate }}: ${dateReceived.getAttribute('from-iso')}`;
+					} else if (dateReceived.getAttribute('to-iso')){
+						dateReceived = `{{ 'PROJECT_INFO.TO_DATE' | translate }}: ${dateReceived.getAttribute('to-iso')}`;
+					} else if (dateReceived.getAttribute('when-iso')){
+						dateReceived = `${dateReceived.getAttribute('when-iso')}`;
+					}
+					content += `<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.DATE_RECEIVED' | translate }}:</span> ${dateReceived}</span>`;
+				});
+			}
+			content += '</div>';
+			return content;
+			
 		};
 
 		/**
