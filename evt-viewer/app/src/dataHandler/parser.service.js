@@ -55,6 +55,8 @@ angular.module('evtviewer.dataHandler')
 			respStmt     = '<respStmt>',
 			resp = '<resp>',
 			persName = '<persName>',
+			availability = '<availability>',
+			publisher = '<publisher>',
 			seriesStmt    = '<seriesStmt>',
 			sourceDesc    = '<sourceDesc>',
 			correspDesc   = '<correspDesc>',
@@ -1389,6 +1391,8 @@ angular.module('evtviewer.dataHandler')
 
 			fileDescContent += `${parser.parseTitleStatement(front)}`;
 
+			fileDescContent += `${parser.parsePublStatement(front)}`;
+
             fileDescContent += `${parser.parseSeriesStatement(front)}`;
 
             fileDescContent += `${parser.parseSourceDescription(front)}`;
@@ -1439,8 +1443,6 @@ angular.module('evtviewer.dataHandler')
 
 					var people = respStmtEl.find(persName.replace(/[<>]/g, ''));
 					
-					console.log(respType);
-
 					content += `<span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.RESP_${respType}' | translate }}:</span>
 										<ul class="projectInfo-list">`;
 
@@ -1461,6 +1463,31 @@ angular.module('evtviewer.dataHandler')
 
 			return content;
 		};
+
+		parser.parsePublStatement = function(front) {
+			var currentElement = angular.element(front);
+
+			var publishers = currentElement.find(publisher.replace(/[<>]/g, ''));
+			var licenceEl = currentElement.find(availability.replace(/[<>]/g, '') + ' licence');
+
+			var content = '<div class="publStatement"><span class="projectInfo-sectionSubHeader">{{ \'PROJECT_INFO.PUBLICATION_STMT\' | translate }}</span>';
+			
+			if(publishers.length > 0) {
+				angular.forEach(publishers, function(publisher) {
+					content += `<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.PUBLISHER' | translate }}:</span> ${publisher ? publisher.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>`;
+				});
+			}
+
+			if (licenceEl.length > 0) {
+				angular.forEach(licenceEl, function(licence) {
+					content += `<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.LICENCE' | translate }}:</span> ${licence ? licence.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>`;
+				});
+			}
+
+			content += '</div>';
+
+			return content;
+		}
 
 		/**
 		 * Parse the series statement section
