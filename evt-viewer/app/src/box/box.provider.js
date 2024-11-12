@@ -603,11 +603,11 @@ angular.module('evtviewer.box')
 									type: 'hts'
 								});
 							}
-							topMenuList.buttons.push({
+							/*topMenuList.buttons.push({
 								title: 'BUTTONS.MS',
 								label: 'BUTTONS.MSD',
 								type: 'msDesc'
-							});
+							});*/
 
 							if (!config.enableNavBar) {
 								if (config.thumbnailsButton) {

@@ -52,6 +52,9 @@ angular.module('evtviewer.dataHandler')
 		var frontDef      = '<front>',
 			biblDef       = '<biblStruct>',
 			titleStmt     = '<titleStmt>',
+			respStmt     = '<respStmt>',
+			resp = '<resp>',
+			persName = '<persName>',
 			seriesStmt    = '<seriesStmt>',
 			sourceDesc    = '<sourceDesc>',
 			correspDesc   = '<correspDesc>',
@@ -1364,9 +1367,7 @@ angular.module('evtviewer.dataHandler')
 				var frontElem = docFront[0].cloneNode(true);
 				var parsedContent = `
 					<div class="document-Info">
-						${parser.parseTitleStatement(frontElem)}
-						${parser.parseSeriesStatement(frontElem)}
-						${parser.parseSourceDescription(frontElem)}
+						${parser.parseFileDesc(frontElem)}
 						${parser.parseCorrespondenceDescription(frontElem)}
 						${parser.parseLanguages(frontElem)}
 						${parser.parseRevisionHistory(frontElem)}
@@ -1382,12 +1383,28 @@ angular.module('evtviewer.dataHandler')
 			}
 		};
 
+		parser.parseFileDesc = function(front) {
+
+			var fileDescContent = `<div class="fileDesc">`;
+
+			fileDescContent += `${parser.parseTitleStatement(front)}`;
+
+            fileDescContent += `${parser.parseSeriesStatement(front)}`;
+
+            fileDescContent += `${parser.parseSourceDescription(front)}`;
+			
+			fileDescContent += '</div>';
+
+			return fileDescContent;
+		};
+
 		/**
 		 * Parse the title statement section 
 		 */
 		parser.parseTitleStatement = function(front) {
 			var currentElement = angular.element(front);
 			var authors = currentElement.find(titleStmt.replace(/[<>]/g, '') + ' author');
+			var respStmts = currentElement.find(respStmt.replace(/[<>]/g, ''));
 			
 			var titles = Array.from(currentElement.find(titleStmt.replace(/[<>]/g, '') + ' title'));
 
@@ -1395,7 +1412,9 @@ angular.module('evtviewer.dataHandler')
 
 			if (titles.length > 0) {
 				var bigTitle = titles.shift();
+				
 				content += `<span class="projectInfo-sectionHeader">${bigTitle ? bigTitle.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>`;
+				
 
 				angular.forEach(titles, function(title) {
 					content += `<span class="projectInfo-sectionSubHeader">${title ? title.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>`;
@@ -1406,6 +1425,36 @@ angular.module('evtviewer.dataHandler')
 				angular.forEach(authors, function(author) {
 					content += `<span class="projectInfo-blockLabel"><span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.AUTHOR' | translate }}:</span> ${author ? author.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}</span>`;
 				});
+			}
+
+			 if (respStmts.length > 0) {
+
+				content += `<div class="respStatement"><span class="projectInfo-sectionSubHeader">{{ \'PROJECT_INFO.RESP_STMT\' | translate }}</span>`;
+
+				angular.forEach(respStmts, function(respStmt) {
+					var respStmtEl = angular.element(respStmt);
+
+					var respEl = respStmtEl.find(resp.replace(/[<>]/g, ''))[0];
+					var respType = respEl.textContent.toUpperCase();
+
+					var people = respStmtEl.find(persName.replace(/[<>]/g, ''));
+					
+					console.log(respType);
+
+					content += `<span class="projectInfo-inlineLabel">{{ 'PROJECT_INFO.RESP_${respType}' | translate }}:</span>
+										<ul class="projectInfo-list">`;
+
+					angular.forEach(people, function(person) {
+						content += `<li class="projectInfo-listItem">
+										${person ? person.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}
+									</li>`;
+					});
+					
+					content += '</ul></div>';
+				});
+
+				content += '</div>';	
+				
 			}
 			
 			content += '</div>';

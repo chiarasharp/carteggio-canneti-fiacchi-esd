@@ -70,7 +70,7 @@
                 "value":"interpretative",
                 "label":"Interpretative",
                 "title":"Interpretative edition",
-                "visible":true
+                "visible":false
             }
         ],
     "showDocumentSelector": true,
