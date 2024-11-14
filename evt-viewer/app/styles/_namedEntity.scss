@@ -324,7 +324,7 @@ $named-entities-border-color : rgb(125, 125, 125);
 $personColor: #f2b5d6;
 $personColor-darker: #f7b2d8;
 
-$placeColor: #EEF7EF;
+$placeColor: #cef7d3;
 $placeColor-darker: #abe297;
 
 $orgColor: #f8d9b5;
@@ -401,17 +401,20 @@ $biblColor-darker: #f9aeae;
 
     &-person,
     &-pers,
-    &-persName {
+    &-persName,
+    &-author {
         @include namedEntityColors($personColor, $personColor-darker);
     }
 
     &-place,
-    &-placeName {
+    &-placeName,
+    &-settlement {
         @include namedEntityColors($placeColor, $placeColor-darker);
     }
 
     &-org,
-    &-orgName {
+    &-orgName,
+    &-institution {
         @include namedEntityColors($orgColor, $orgColor-darker);
     }
 
@@ -573,7 +576,8 @@ $biblColor-darker: #f9aeae;
 
     &-person,
     &-pers,
-    &-persName {
+    &-persName,
+    &-author {
         &:hover {
             background-color: $personColor;
         }
@@ -585,7 +589,8 @@ $biblColor-darker: #f9aeae;
     }
 
     &-place,
-    &-placeName {
+    &-placeName,
+    &-settlement {
         &:hover {
             background-color: $placeColor;
         }
@@ -597,7 +602,8 @@ $biblColor-darker: #f9aeae;
     }
 
     &-org,
-    &-orgName {
+    &-orgName,
+    &-institution {
         &:hover {
             background-color: $orgColor;
         }
@@ -696,7 +702,8 @@ $biblColor-darker: #f9aeae;
 
 .person-active,
 .pers-active,
-.persName-active {
+.persName-active,
+.author-active {
     .namedEntityRef {
 
         &-person,
@@ -712,7 +719,8 @@ $biblColor-darker: #f9aeae;
 }
 
 .place-active,
-.placeName-active {
+.placeName-active,
+.settlement-active {
     .namedEntityRef {
 
         &-place,
@@ -727,7 +735,8 @@ $biblColor-darker: #f9aeae;
 }
 
 .org-active,
-.orgName-active {
+.orgName-active,
+.institution-active {
     .namedEntityRef {
 
         &-org,
@@ -820,21 +829,24 @@ $biblColor-darker: #f9aeae;
 
 [data-value="person"],
 [data-value="pers"],
-[data-value="persName"] {
+[data-value="persName"],
+[data-value="author"] {
     .option-icon-label {
         color: $personColor-darker;
     }
 }
 
 [data-value="place"],
-[data-value="placeName"] {
+[data-value="placeName"],
+[data-value="settlement"] {
     .option-icon-label {
         color: $placeColor-darker;
     }
 }
 
 [data-value="org"],
-[data-value="orgName"] {
+[data-value="orgName"],
+[data-value="institution"] {
     .option-icon-label {
         color: $orgColor-darker;
     }

@@ -574,16 +574,16 @@ angular.module('evtviewer.dataHandler')
 	
 			blockLabel.appendChild(inlineLabel);
 
-			if(link) {
+			if (link && typeof value === 'string') {
 				const linkElement = document.createElement('a');
 				linkElement.href = link;
 				linkElement.target = '_blank';
 				linkElement.textContent = value;
-
 				blockLabel.appendChild(linkElement);
-			}
-			else {
+			} else if (typeof value === 'string') {
 				blockLabel.appendChild(document.createTextNode(value));
+			} else if (value instanceof Node) {
+				blockLabel.appendChild(value);
 			}
 
 			return blockLabel;
@@ -1529,8 +1529,11 @@ angular.module('evtviewer.dataHandler')
 			}
 			
 			angular.forEach(authors, function(author) {
-				const authorContent = author ? author.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
-				titleStmtDiv.appendChild(createLabeledBlock('PROJECT_INFO.AUTHOR', authorContent));			
+				//const authorContent = author ? author.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
+				const authorEntity = parser.parseNamedEntity(document, author);
+
+				//titleStmtDiv.appendChild(authorEntity);
+				titleStmtDiv.appendChild(createLabeledBlock('PROJECT_INFO.AUTHOR', authorEntity));			
 			});
 
 			if (respStmts.length > 0) {
@@ -1560,10 +1563,15 @@ angular.module('evtviewer.dataHandler')
 					personList.className = 'projectInfo-list';
 
 					angular.forEach(people, function(person) {
-						var personText = `${person ? person.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}`;
+						//var personText = `${person ? person.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}`;
+						var personElement = person ? parser.parseNamedEntity(document, person) : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
+
 						const listPersonItem = document.createElement('li');
 						listPersonItem.className = 'projectInfo-listItem';
-						listPersonItem.innerHTML = personText;
+						listPersonItem.appendChild(personElement);
+
+						//listPersonItem.innerHTML = personText;
+
 						personList.appendChild(listPersonItem);
 					});
 					
@@ -1592,6 +1600,7 @@ angular.module('evtviewer.dataHandler')
 
 			angular.forEach(publishers, (publisher) => {
 				const publisherContent = publisher ? publisher.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
+				//const publisherRef = publisher.getAttribute("ref") || undefined;
 				publStmtDiv.appendChild(createLabeledBlock('PROJECT_INFO.PUBLISHER', publisherContent));
 			});
 
@@ -1671,19 +1680,26 @@ angular.module('evtviewer.dataHandler')
 			// process countries
 			angular.forEach(countries, (country) => {
 				const countryContent = country ? country.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
+				//const countryElement = country ? parser.parseNamedEntity(document, country) : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
+				//const countryTag = country.getAttribute("key") || undefined;
 				sourceDescDiv.appendChild(createLabeledBlock('PROJECT_INFO.COUNTRY', countryContent));
 			});
 
 			// process settlements
 			angular.forEach(settlements, (settlement) => {
-				const settlementContent = settlement ? settlement.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
-				sourceDescDiv.appendChild(createLabeledBlock('PROJECT_INFO.SETTLEMENT', settlementContent));
+				//const settlementContent = settlement ? settlement.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
+				const settlementElement = settlement ? parser.parseNamedEntity(document, settlement) : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
+
+				//const settlementRef = settlement.getAttribute("ref") || undefined;
+				sourceDescDiv.appendChild(createLabeledBlock('PROJECT_INFO.SETTLEMENT', settlementElement));
 			});
 
 			// process institutions
 			angular.forEach(institutions, (institution) => {
-				const institutionContent = institution ? institution.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
-				sourceDescDiv.appendChild(createLabeledBlock('PROJECT_INFO.INSTITUTION', institutionContent));
+				//const institutionContent = institution ? institution.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
+				const institutionElement = institution ? parser.parseNamedEntity(document, institution) : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
+
+				sourceDescDiv.appendChild(createLabeledBlock('PROJECT_INFO.INSTITUTION', institutionElement));
 			});
 			
 			return sourceDescDiv;
@@ -1703,45 +1719,46 @@ angular.module('evtviewer.dataHandler')
 			var	datesSent = currentElement.find(correspDesc.replace(/[<>]/g, '') + ' correspAction[type="sent"] date'),
 				datesReceived = currentElement.find(correspDesc.replace(/[<>]/g, '') + ' correspAction[type="received"] date');
 
-			// if there is no correspondence element, return an empty string
-			if (correspDescEl.length === 0) {
-				return '';
-			}
+			var correspDescDiv;
 
-			// main div for correspDesc data
-			const correspDescDiv = document.createElement('div');
-    		correspDescDiv.className = 'correspDesc';
+			if (correspDescEl.length > 0) {
+				// main div for correspDesc data
+				correspDescDiv = document.createElement('div');
+				correspDescDiv.className = 'correspDesc';
 
-			// main header
-			const sectionHeader = document.createElement('span');
-			sectionHeader.className = 'projectInfo-sectionSubHeader';
-			sectionHeader.innerHTML = `{{ 'PROJECT_INFO.CORRESP_DESC' | translate }}`;
-			correspDescDiv.appendChild(sectionHeader);
+				// main header
+				const sectionHeader = document.createElement('span');
+				sectionHeader.className = 'projectInfo-sectionSubHeader';
+				sectionHeader.innerHTML = `{{ 'PROJECT_INFO.CORRESP_DESC' | translate }}`;
+				correspDescDiv.appendChild(sectionHeader);
 
-			// process senders
-			angular.forEach(senders, (sender) => {
-				const senderContent = sender ? sender.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
-				correspDescDiv.appendChild(createLabeledBlock('PROJECT_INFO.SENDER', senderContent));
-			});
+				// process senders
+				angular.forEach(senders, (sender) => {
+					//const senderContent = sender ? sender.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
+					const senderElement = sender ? parser.parseNamedEntity(document, sender) : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
+					correspDescDiv.appendChild(createLabeledBlock('PROJECT_INFO.SENDER', senderElement));
+				});
 
-			// process each sent date
-			angular.forEach(datesSent, (date) => {
-				const parsedDate = parser.parseDateElement(date);
-				correspDescDiv.appendChild(createLabeledBlock('PROJECT_INFO.DATE_SENT', parsedDate.textContent));
-			});
+				// process each sent date
+				angular.forEach(datesSent, (date) => {
+					const parsedDate = parser.parseDateElement(date);
+					correspDescDiv.appendChild(createLabeledBlock('PROJECT_INFO.DATE_SENT', parsedDate.textContent));
+				});
 
-			// Process each receiver
-			angular.forEach(receivers, (receiver) => {
-				const receiverContent = receiver ? receiver.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
-				correspDescDiv.appendChild(createLabeledBlock('PROJECT_INFO.RECEIVER', receiverContent));
-			});
-		
-			// Process each received date
-			angular.forEach(datesReceived, (dateReceived) => {
-				const parsedDateReceived = parser.parseDateElement(dateReceived);
-				correspDescDiv.appendChild(createLabeledBlock('PROJECT_INFO.DATE_RECEIVED', parsedDateReceived.textContent));
-			});
-		
+				// Process each receiver
+				angular.forEach(receivers, (receiver) => {
+					//const receiverContent = receiver ? receiver.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
+					const receiverElement = receiver ? parser.parseNamedEntity(document, receiver) : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
+
+					correspDescDiv.appendChild(createLabeledBlock('PROJECT_INFO.RECEIVER', receiverElement));
+				});
+			
+				// Process each received date
+				angular.forEach(datesReceived, (dateReceived) => {
+					const parsedDateReceived = parser.parseDateElement(dateReceived);
+					correspDescDiv.appendChild(createLabeledBlock('PROJECT_INFO.DATE_RECEIVED', parsedDateReceived.textContent));
+				});
+			} 
 			//return correspDescDiv.outerHTML;
 			return correspDescDiv;
 		};
