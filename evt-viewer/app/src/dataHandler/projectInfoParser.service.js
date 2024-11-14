@@ -101,14 +101,8 @@ angular.module('evtviewer.dataHandler')
         angular.forEach(currentDocument.find(fileDescriptionDef.replace(/[<>]/g, '')),
             function(element) {
                 if (element.children.length > 0){
-                    /*
-                    ${parser.parseTitleStatement(frontElem)}
-						${parser.parseSeriesStatement(frontElem)}
-						${parser.parseSourceDescription(frontElem)}*/
                          
-                    var fileDescContent = evtParser.parseFileDesc(element);
-
-                    
+                    var fileDescContent = evtParser.parseFileDesc(element).outerHTML;
 
                     //var fileDescContent = evtParser.parseXMLElement(teiHeader, element, { skip: skipElementsFromParser, exclude: skipElementsFromInfo, context:'projectInfo' }).outerHTML;
                     parsedData.updateProjectInfoContent(fileDescContent, 'fileDescription');
@@ -190,7 +184,7 @@ angular.module('evtviewer.dataHandler')
         angular.forEach(currentDocument.find(textProfileDef.replace(/[<>]/g, '')),
             function(element) {
                 if (element.children.length > 0){
-                    var textProfileContent = evtParser.parseLanguages(element);
+                    var textProfileContent = evtParser.parseProfileDesc(element).outerHTML;
                     //var textProfileContent = evtParser.parseXMLElement(teiHeader, element, { skip: skipElementsFromParser, exclude: skipElementsFromInfo, context:'projectInfo' }).outerHTML;
                     parsedData.updateProjectInfoContent(textProfileContent, 'textProfile');
                 }
@@ -242,7 +236,7 @@ angular.module('evtviewer.dataHandler')
         var currentDocument = angular.element(teiHeader);
         angular.forEach(currentDocument.find(revisionHistoryDef.replace(/[<>]/g, '')),
             function(element) {
-                var revisionHistoryContent = evtParser.parseRevisionHistory(element);
+                var revisionHistoryContent = evtParser.parseRevisionHistory(element).outerHTML;
                 //var revisionHistoryContent = evtParser.parseXMLElement(teiHeader, element, { skip: skipElementsFromParser, exclude: skipElementsFromInfo, context:'projectInfo' }).outerHTML;
                 parsedData.updateProjectInfoContent(revisionHistoryContent, 'revisionHistory');
         });

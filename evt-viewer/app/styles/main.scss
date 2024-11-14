@@ -529,6 +529,8 @@ pre {
         }
     }
 
+    
+
     img.flag {
         height: 18px;
         width: 18px;
@@ -577,11 +579,23 @@ pre {
         font-variant: small-caps;
         color: #666;
         font-size: 90%;
+
+        
     }
 
+    
     &-blockLabel {
         display: block;
         margin-bottom: 2px;
+
+        a {
+            color: #404564;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #000000;
+        }
     }
 
     &-inlineLabel {
