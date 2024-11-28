@@ -1,0 +1,625 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10061">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20693/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21147/full/594,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21148/full/625,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21149/full/583,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25087/full/623,800/0/default.jpg"/>
+   </facsimile>
+   <facsimile sameAs="https://classense.unibo.it/iiif/20694/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21150/full/594,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21151/full/627,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21152/full/592,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/21153/full/618,800/0/default.jpg"/>
+   </facsimile>
+   <facsimile sameAs="https://classense.unibo.it/iiif/20695/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21154/full/601,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21155/full/631,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21156/full/596,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/21157/full/636,800/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <group>
+         <text type="letter" xml:id="DLCL_CF_E10061_L" n="Canneti a Fiacchi (Perugia, 12 Settembre 1717) - Lettera">
+            <front>
+               <fileDesc>
+                  <titleStmt>
+                     <title xml:lang="it">Canneti a Fiacchi (Perugia, 12 Settembre 1717)</title>
+                     <author role="main-author" ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+                     <author role="attachment-2-copyist" ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+                     <author role="attachment-2-og-author" ref="#DLCL_CF_PC0512">Giovanni Maria Lancisi</author>
+                  </titleStmt>
+                  <publicationStmt>
+                     <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+                     <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                     </availability>
+                  </publicationStmt>
+                  <seriesStmt>
+                     <title type="main">Epistolario Canneti Fiacchi</title>
+                     <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+                     <biblScope unit="letter">61</biblScope>
+                  </seriesStmt>
+                  <sourceDesc>
+                     <msDesc>
+                        <msIdentifier>
+                           <country key="IT">Italia</country>
+                           <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                           <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                           <repository></repository>
+                           <collection>                  
+                           </collection>
+                           <idno>                  
+                           </idno>
+                           <altIdentifier>
+                              <idno></idno>
+                           </altIdentifier>
+                        </msIdentifier>
+                     </msDesc>
+                  </sourceDesc>
+               </fileDesc>
+               <profileDesc>
+                  <correspDesc>
+                     <correspAction type="sent">
+                        <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                        <date when-iso="1717-09-12"/>
+                        <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+                     </correspAction>
+                     <correspAction type="received">
+                        <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+                     </correspAction>
+                  </correspDesc>
+                  <langUsage>
+                     <language ident="it"/>
+                     <language ident="la"/>
+                  </langUsage>
+                  <settingDesc>
+                     <xi:include href="../../entities/places.xml"/>
+                  </settingDesc>
+                  <particDesc>
+                     <xi:include href="../../entities/people/cited-people.xml"/>
+                     <xi:include href="../../entities/people/staff.xml"/>
+                     <xi:include href="../../entities/orgs.xml"/>
+                  </particDesc>
+               </profileDesc>
+               <revisionDesc status="created">
+                  <change when-iso="2024-05-08" who="#DLCL_CF_PS001">creato</change>
+                  <change when-iso="2024-09-11" who="#DLCL_CF_PS001">correzioni</change>
+                  <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
+               </revisionDesc>
+            </front>
+            <body>
+               <div type="transcription">
+                  <pb xml:id="DLCL_CF_E10061_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/21147/full/594,800/0/default.jpg"/>
+                  
+                  <opener>
+                     <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+                  </opener>
+                  
+                  <p>
+                     Copiosissime grazie rendo dell’amorosa cordialità della <rs type="person" ref="#DLCL_CF_PC0002">Paternità Vostra</rs> 
+                     [per] le notizie tutte dalla <bibl type="print">Miscellanea,</bibl> 
+                     di cui mi ha favo<gap reason="illegible"/>[...] <gap reason="illegible"/>[...]vono per adornare 
+                     il voto del Reverendissimo <persName ref="#DLCL_CF_PC0132">Padre Abate Grandi</persName> da lui fatte in approvazione 
+                     della <bibl type="print">Vita di Monsignore Ruota</bibl> scritta dal <persName ref="#DLCL_CF_PC0244">Signor Dottor Francesco Arisi,</persName> 
+                     la qual comparirà nel 4° Tomo delle <bibl type="print">Vite degli Arcadi.</bibl> 
+                  </p>
+                  
+                  <p>
+                     Il <bibl type="print">Martello</bibl> colla <bibl type="print">Scanzia XIX</bibl> potrà consegnare al mio <rs type="person">Padre Priore,</rs> 
+                     che lunedì s’incammina verso <placeName ref="#DLCL_CF_L0108">Urbino</placeName> col <persName ref="#DLCL_CF_PC0282">Signor Abate Diamante Montemellini,</persName> 
+                     per di là passare in <placeName ref="#DLCL_CF_L0063">Romagna.</placeName> 
+                     Avrei molto a caro ch’ella potesse trovarsi in <placeName ref="#DLCL_CF_L0002">Ravenna</placeName> 
+                     a servire il detto <rs type="person" ref="#DLCL_CF_PC0282">Signor Abate,</rs> il quale si diletta e di libri, 
+                     e di antichità, mostrandogli a parte a parte la <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> 
+                     e molto più le antichità di <placeName ref="#DLCL_CF_L0002">Ravenna,</placeName> i marmi, i musaici, le iscrizioni, 
+                     e tutto quel, che spetta all’erudizione sagra, e profana. 
+                  </p>
+                  
+                  <p>
+                     Scrivendo al <persName ref="#DLCL_CF_PC0056">Signor Dottor Sancassani,</persName> la preghi, come da se, 
+                     che voglia comunicarle pienamente la notizia di quell’<rs type="person">Onorato Vescovo</rs> di <placeName ref="#DLCL_CF_L0031">Comacchio</placeName> Monaco Camaldolese, 
+                     che io partecipai ad esso, col documento avuto dal Sagro Eremo. 
+                     Ne ho bisogno, e in tanta confusione di carte non sò come trovarlo. 
+                  </p>
+                  
+                  <p>
+                     Respiro per consolazione all’intendere che si trascriva il <bibl type="manuscript">Carrari</bibl> 
+                  </p>
+                  
+                  <pb xml:id="DLCL_CF_E10061_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/21148/full/625,800/0/default.jpg"/>
+                  
+                  <p>
+                     sarà forse un giorno l’unico esemplare il nostro, nulla essendo più facile, che perire i Manoscritti nelle case particolari. 
+                     Molte cose vado ancor’io facendo trascrivere. 
+                     Di proprio pugno metto insieme una <bibl type="print">Raccolta delle opere</bibl> di <persName ref="#DLCL_CF_PC0443">Grigorio Corraro</persName> 
+                     Patriarca di <placeName ref="#DLCL_CF_L0024">Venezia,</placeName> gran Letterato del secolo XV. 
+                     Il <persName ref="#DLCL_CF_PC0006">Padre Amici</persName> nostro mi ha ajutato con gran cortesia. 
+                     Un’altro libro fò copiare con buon numero di miniature, e ritratti. 
+                     L’originale và mancando per l’antichità. 
+                  </p>
+                  
+                  <p>
+                     Dall’<orgName ref="#DLCL_CF_O0077">Archivio Segreto Vaticano,</orgName> per grazia Singolare di Nostro Signore, ho avuta copia d’alcune lettere, 
+                     che accrescono la <bibl type="print">Raccolta Ambrosiana:</bibl> e perché gravissima è la spesa, che vi và, né può reggervi la mia povertà, 
+                     Santa Beatitudine ha fatto pagar l’<rs type="person">Archivista,</rs> il <rs type="person">Custode,</rs> e il <rs type="person">Copista,</rs> a spese proprie. 
+                     Vedrà la mia lettera al <rs type="person" ref="#DLCL_CF_PC0504">Papa</rs> e una lettera, che narra il fatto, 
+                     di <persName ref="#DLCL_CF_PC0512">Monsignor Lanc<gap reason="illegible"/>[...]</persName> diretta al <persName ref="#DLCL_CF_PC0132">Padre Abate Grandi,</persName> 
+                     al quale son molto tenuto. 
+                  </p>
+                  
+                  <p>
+                     La ringrazio della notizia del <persName ref="#DLCL_CF_PC0505">Padre Giulio Negri,</persName> 
+                     che già io sapeva aver’in ordine la <bibl type="print">Storia degli Scrittori Fiorentini,</bibl> 
+                     opera cominciata, e abbozzata dal <persName ref="#DLCL_CF_PC0038">Cinelli,</persName> e finita da lui, nelle mani del quale capitarono gli scritti. 
+                     Pensava pubblicarla a spese del <persName ref="#DLCL_CF_PC0506">Principe Ferdinando</persName> di <placeName ref="#DLCL_CF_L0079">Toscana,</placeName> di cui godeva la grazia. 
+                  </p>
+                  
+                  <pb xml:id="DLCL_CF_E10061_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/21149/full/583,800/0/default.jpg"/>
+                  
+                  <p>
+                     Ma la morte gli guastò il disegno. 
+                     Un’altra copia dell’<bibl type="print">Opera</bibl> stessa di <persName ref="#DLCL_CF_PC0038">Cinelli</persName> andò in mano, due anni fa, 
+                     di <persName ref="#DLCL_CF_PC0464">Monsignor Maggi</persName> Governatore di <placeName ref="#DLCL_CF_L0029">Loreto,</placeName> 
+                     il quale fece trascrivere quanto in essa si contiene spettante al nostro <persName ref="#DLCL_CF_PC0177">Ambrogio,</persName> 
+                     e me lo mandò, per ispontaneo impulso della parziale sua benignità. 
+                     Stimai, e stimo molto il favore. 
+                     Ma e nella <bibl type="print">Vita,</bibl> e nel <bibl type="print">catalogo delle Opere</bibl> vi sono grandi strafalcioni, e molto vi manca di quel, che importa. 
+                     Laonde da una fonte torbida non potrà il <persName ref="#DLCL_CF_PC0505">Padre Negri</persName> avere attinta cosa di buono, 
+                     massime per quel, che riguarda il nostro <persName ref="#DLCL_CF_PC0177">Ambrogio.</persName> 
+                  </p>
+                  
+                  <p>
+                     Bensì il celebre <persName ref="#DLCL_CF_PC0468">Signor Abate Salvino Salvini,</persName> 
+                     com’egli mi avvisa, sta travagliando intorno alla stessa <bibl type="print">Storia.</bibl> 
+                     Ed è certo da gran Letterato, com’egli è, poterci noi promettere un’opera veramente perfetta. 
+                  </p>
+                  
+                  <p>
+                     Il <persName ref="#DLCL_CF_PC0006">Padre Amici</persName> mi significa ch’egli avea da provvedere 
+                     le <bibl type="print">Controversie</bibl> delli <persName ref="#DLCL_CF_PC0496 #DLCL_CF_PC0497">Vualeburg</persName> 
+                     e che cercava quelle d’Onorato <persName ref="#DLCL_CF_PC0205">Fabri.</persName> 
+                     Importerebbe assai alli quattro <bibl type="print">Tomi degli Annali Mabilloniani</bibl> aggiungere il 5°ove credo siano le cose Camaldolesi. 
+                  </p>
+                  
+                  <closer>
+                     <salute>Resto tutto suo.</salute> 
+                     <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1717-09-12">12 settembre 1717</date>.</dateline> 
+                     <salute>DVPMR.</salute> 
+                     <salute>Cordialissimo Servitore Affettuosissimo Padre nel Signore</salute> 
+                     <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+                  </closer>
+                  
+                  <pb xml:id="DLCL_CF_E10061_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/25087/full/623,800/0/default.jpg"/>
+                  
+                  <postscript>
+                     <p>
+                        Al Molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                        <placeName ref="#DLCL_CF_L0109">Savignano</placeName> per <orgName ref="#DLCL_CF_O0117">Ribano</orgName>
+                     </p>
+                  </postscript>
+               </div>
+            </body>
+         </text>
+         <text type="attachment" xml:id="DLCL_CF_E10061_A01" n="Canneti a Fiacchi (Perugia, 12 Settembre 1717) - Allegato 1">
+            <front>
+               <fileDesc>
+                  <titleStmt>
+                     <title xml:lang="it">Canneti a Fiacchi (Perugia, 12 Settembre 1717)</title>
+                     <author role="main-author" ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+                     <author role="attachment-2-copyist" ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+                     <author role="attachment-2-og-author" ref="#DLCL_CF_PC0512">Giovanni Maria Lancisi</author>
+                  </titleStmt>
+                  <publicationStmt>
+                     <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+                     <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                     </availability>
+                  </publicationStmt>
+                  <seriesStmt>
+                     <title type="main">Epistolario Canneti Fiacchi</title>
+                     <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+                     <biblScope unit="letter">61</biblScope>
+                  </seriesStmt>
+                  <sourceDesc>
+                     <msDesc>
+                        <msIdentifier>
+                           <country key="IT">Italia</country>
+                           <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                           <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                           <repository></repository>
+                           <collection>                  
+                           </collection>
+                           <idno>                  
+                           </idno>
+                           <altIdentifier>
+                              <idno></idno>
+                           </altIdentifier>
+                        </msIdentifier>
+                     </msDesc>
+                  </sourceDesc>
+               </fileDesc>
+               <profileDesc>
+                  <correspDesc>
+                     <correspAction type="sent">
+                        <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                        <date when-iso="1717-09-12"/>
+                        <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+                     </correspAction>
+                     <correspAction type="received">
+                        <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+                     </correspAction>
+                  </correspDesc>
+                  <langUsage>
+                     <language ident="it"/>
+                     <language ident="la"/>
+                  </langUsage>
+                  <settingDesc>
+                     <xi:include href="../../entities/places.xml"/>
+                  </settingDesc>
+                  <particDesc>
+                     <xi:include href="../../entities/people/cited-people.xml"/>
+                     <xi:include href="../../entities/people/staff.xml"/>
+                     <xi:include href="../../entities/orgs.xml"/>
+                  </particDesc>
+               </profileDesc>
+               <revisionDesc status="created">
+                  <change when-iso="2024-05-08" who="#DLCL_CF_PS001">creato</change>
+                  <change when-iso="2024-09-11" who="#DLCL_CF_PS001">correzioni</change>
+                  <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
+               </revisionDesc>
+            </front>
+            <body>
+               <div type="transcription">
+                  <pb xml:id="DLCL_CF_E10061_A01_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/21150/full/594,800/0/default.jpg"/>
+                  
+                  <opener>
+                     <salute>Beatissime <rs type="person" ref="#DLCL_CF_PC0504" key="DLCL_CF_PC0504">Pater</rs></salute>
+                  </opener>
+                  
+                  <p> 
+                     <persName ref="#DLCL_CF_PC0177">Ambrosij</persName> Camaldulensis ineditas huiusque Epistolas pluribus ab hinc annis colligere coepi, 
+                     ut eas enixis eruditorum votis iam diu expetitas in lucem aliquando proferrem. 
+                     Neque enim collectionem earum aliquam ex multis quae diversae quidem, sed exiguae omnes extant, edere cogitabam: 
+                     quemadmodum <persName ref="#DLCL_CF_PC0129">Iohannem Mabillonium,</persName> caeterosque olim, qui hanc spartam meditabantur, 
+                     de collectionibus eiusmodi conferendis, augendisque minime. 
+                     Solicitos fuisse novimus: verum quotquot varijs codicibus comprehensae, quaeque in miscellanea dispersae fuerant, 
+                     epistolis omnibus Ambrosianis in unum congerendis incumbere continuo statui. 
+                     Discussis itaque celebriorum Bibliothecarum forulis, uberem, ac laetam adeo messem, spe ipsa maiorem retuli; 
+                     ut anecdota <persName ref="#DLCL_CF_PC0177">Ambrosij</persName> alia in hominum notitiam deinceps emergere posse vix crederem. 
+                     Monebant quoque doctissimi amici, quorum opera in scrutandis codicibus usus sum, nihil iam superesse, 
+                     nisi ut quas collegi epistolas, et <bibl type="print">Orationes</bibl> insuper non nullas notis illustrare pergem, easque citius in apertum diem proferre. 
+                     Verum dum repetito labore anxius adhuc rem urgere non desino, innotuit nuper in Sanctiori Vaticano tabulario epistolas aliquos latere, 
+                     quae alibi nusquam apparent, tum <persName ref="#DLCL_CF_PC0177">Ambrosij</persName> ed <persName ref="#DLCL_CF_PC0254">Eugenium IV Pontificem Maximum</persName> aliosque, 
+                     tum Eugenij ipsius ad Ambrosium, et Camaldulenses caeteros ad comitia celebranda congregatos. 
+                     Quae monumenta nisi collectionem meam in libros XXV distributam augeant, ea profecto manca erit et mutila, minusque summae, quae viget, expectationi respondebit. 
+                     Prodidit enimvero latentes istas littera, cui patuere, <persName ref="#DLCL_CF_PC0339">Odoricus Raynaldus</persName> 
+                     <bibl type="print">Annalium Ecclesiasticorum Tomo XVIII ad annum 1432</bibl> allato epistolae fragmento, 
+                     quam <persName ref="#DLCL_CF_PC0177">Ambrosius</persName> ad <persName ref="#DLCL_CF_PC0254">Eugenium</persName> 
+                     inter ipsa Pontificatus exordia misit una cum libris <bibl type="print">Sancti Bernardi de Consideratione.</bibl> 
+                     Sed et <persName ref="#DLCL_CF_PC0254">Eugenij</persName> responsionis meminit, quae neque tamen ad <persName ref="#DLCL_CF_PC0339">Odorico</persName> producitur, 
+                     neque extra tabularij Apostolici monumenta uspiam reperire datum est. 
+                  </p>
+                  
+                  <p>
+                     Quamobrem Sanctitatis tuae pedibus provolutus etiam atque etiam supplex oro, ut ex Pontificia indulgentia liceat earum epistolarum exempla educere, 
+                  </p>
+                  
+                  <pb xml:id="DLCL_CF_E10061_A01_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/21151/full/627,800/0/default.jpg"/>
+                  
+                  <p>
+                     quae operi coronidem imponant. 
+                     Verum quum religiosa paupertas, quam solido proxime decennio <orgName ref="#DLCL_CF_O0005" cert="unknown">in Classensi Caenobio,</orgName> 
+                     sarctam tectam abdicato omni discreti peculij usu arctius servare studui, 
+                     modo sumptibus minime sufficiat in hanc rem conferendis, accedat quaeso Sanctitatis tuae munificentia, quae sumptu ipso me imparem absolvat. 
+                     Confidentius sane eiusmodi beneficium sperare audeo quod non ad forenses causas, neque ad census aut iura quaevis Camaldulensibus, 
+                     sine mortalium cuipiam vindicanda, sed ad literariam et ecclesiasticam historiam mirifice exornandam eiusmodi monumenta conferre valeant. 
+                     Nihil enim in epistolis suis affert. 
+                     Vir Deo, et literis, atque Romani Pontifici obsequio unice intentus, quod non ad promovenda bonarum literarum studia, 
+                     ad proferendos e situ, ac tenebris Graecos, Latinosque scriptores quod non ad mores, suorum maxime reformandos, 
+                     ad componendos infelicissimorum temporum aestus, atque ad tollendas dissidentium ingeniorum turbas pertineat, 
+                     quae tum in sacris, tum in politicis rebus Romani Sacerdotij iura nimium quantum convellere nitebantur. 
+                  </p>
+                  
+                  <p>
+                     <persName ref="#DLCL_CF_PC0177">Ambrosius</persName> etenim inter immortalis nominis Viros illos numeratur, 
+                     qui paullo ante Byzantini Imperij excidium invectam inde in <placeName ref="#DLCL_CF_L0026">Italiam</placeName> 
+                     a <persName ref="#DLCL_CF_PC0507">Manuele Chrysolora</persName> graecitatem excepere, 
+                     revocatisque longo veluti postliminio humaniorum facultatum studijs, eam latinis literis coniuxerunt. 
+                     Hinc quamplura ille Graecorum Patrum volumina ex <persName ref="#DLCL_CF_PC0508">Martini V</persName> 
+                     et <persName ref="#DLCL_CF_PC0254">Eugenij IV</persName> imperio latine reddidit. 
+                     Apostolicae vero sedi adversus <persName>Basileenses,</persName> quum ad factiosum illum conventum, 
+                     et ad Imperatorem Sigismundum pontificias obiret legationes, quam maxime studuit; 
+                     nihilque intentatum reliquit donec <persName ref="#DLCL_CF_PC0509">Iulianum Cardinalem Sancti Angeli,</persName> 
+                     a quo rei totius summa pendere videbatur, saviorem in partem traheret, Concilio illinc translato. 
+                     Quod ut e voto faeliciter evenit, Graecis excipiendis primum ille <placeName ref="#DLCL_CF_L0024">Venetijs</placeName> adfuit; 
+                     mox <placeName ref="#DLCL_CF_L0013">Ferrariae,</placeName> ac <placeName ref="#DLCL_CF_L0018">Florentiae</placeName> componendo componendo utriusque Ecclesiae foederi, 
+                     si quispiam alius insudavit. 
+                     Accedit etiam <persName ref="#DLCL_CF_PC0177">Ambrosij</persName> gloriae quod, quum Apostolicis alijs literis scribendis adhi 
+                  </p>
+                  
+                  <pb xml:id="DLCL_CF_E10061_A01_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/21152/full/592,800/0/default.jpg"/>
+                  
+                  <p>
+                     bitus antea fuisset, unione demum confecta, diplomatis ea de re exarandi cura illi demandata est; 
+                     quod, vel graeculi Syropuli testimonio, <hi rend="underline">eruditionis graecae palmam</hi> ea tempestate <hi rend="underline">Latinis omnibus praeriperet</hi>. 
+                     Illum tandem summo operi immortuum perculsus tristi nuncio Pontifex <persName ref="#DLCL_CF_PC0254">Eugenius,</persName> 
+                     ob ortis repente lacrymis <hi rend="underline">filium sibi ereptum</hi>, 
+                     et <hi rend="underline">Ecclesiae lumen intempestive extinctum</hi> conquestus grata animi sui, eiusque virtutis testificatione commendavit. 
+                  </p>
+                  
+                  <p>
+                     Quae prestantissimi viri merita ideo commemorare iuvat, ut gratiam a Sanctitate tua ineant, quam conatus, et preces meas nequaquam mereri probe intelligo. 
+                     Detur itaque per Sanctitatem tuam <persName ref="#DLCL_CF_PC0177">Ambrosio Camaldulensi,</persName> quod audacter petere non dubitavi, detur, 
+                     ut integra prodeat Epistolarium collectio viri genere, eruditione, doctrina, sanctimonia, rebusque gestis praeclarrissimi: 
+                     eaque apud seram posteritatem beneficiJ loco habeatur, quam boni, 
+                     ac eruditi omnes <persName ref="#DLCL_CF_PC0504">Clementis XI</persName> Pontificis Optimi Maximi literarum omnium scientissimi, 
+                     ac literatorum Maecenatis munificentissimi dono acceptam referant. 
+                     Qui vel ab extremis Barbariae oris literarias opes summa raritate commendatas <orgName ref="#DLCL_CF_O0025">Vaticanam in Bibliothecam</orgName> invexisti, 
+                     eamque ignotis antea priscorum Patrum libris bene multis, regio plane animo adornasti, 
+                     fac ut collecta <persName ref="#DLCL_CF_PC0177">Ambrosij nostri</persName> monumenta e Vaticani tabularij penetralibus tuo nutu augeantur, perficianturque. 
+                  </p>
+                  
+                  <p>
+                     Mihi, alijsque, Monachis praesertim pro studiorum nostrorum ratione animos addet sanctitas tua ad proferenda de thesauro Ecclesiae, 
+                     tuo scilicet, nova, et vetera, quibus sacra amplificetur eruditio. 
+                     Ita fiet, ut quod tanta cum gloriae usura apud exteros viget curandae anecdotorum editionis studium maiori apud Italos in pretio habeatur. 
+                     Nullus enim dubito eam Sanctitati tuae sententiam insidere, quam <persName ref="#DLCL_CF_PC0553">Clemens nonus</persName> Sanctissimus aeque, 
+                     ac eruditissimus Praedecessor tuus, teste optimo, doctissimoque <persName ref="#DLCL_CF_PC0510">Cardinali Bona,</persName> 
+                     epistola ad <persName ref="#DLCL_CF_PC0511">Lucam Dacherium</persName> protulit, satius nempe Ecclesiae utilitati eos consulere, 
+                     qui veterum scripta, quam qui sua proferunt in lucem. 
+                     Sancti<pc force="inter">-</pc> 
+                  </p>
+                  
+                  <pb xml:id="DLCL_CF_E10061_A01_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/21153/full/618,800/0/default.jpg"/>
+                  
+                  <p>
+                     <pc force="inter">-</pc>tati tuae diuturniorem, ac faustam Senectutem, 
+                     publicae totius Orbis felicitati literarumque incremento Deus Omnipotens largiatur, donetque precibus, 
+                     et curis tuis integram de immanissimo Turcarum Tyranno victoriam. 
+                     Ita ex animo precatur, qui se a Sanctitate tua ante, et post susceptum Pontificatum alijs haud vulgaribus beneficijs honestatum esse gloriatur.
+                  </p>
+                  
+                  <closer>
+                     <salute>Sanctitati Tuae</salute>
+                     <salute>Humillimus sudditus</salute>
+                     <signed><persName ref="#DLCL_CF_PC0001">Don Petrus Cannetus</persName> ex Congregatione Camaldolense</signed>
+                     <dateline><orgName ref="#DLCL_CF_O0078">Abbas Sancti Severi</orgName> <placeName ref="#DLCL_CF_L0028">Perusiae</placeName></dateline>
+                  </closer>
+                  
+               </div>
+            </body>
+         </text>
+         <text type="attachment" xml:id="DLCL_CF_E10061_A02" n="Canneti a Fiacchi (Perugia, 12 Settembre 1717) - Allegato 2">
+            <front>
+               <fileDesc>
+                  <titleStmt>
+                     <title xml:lang="it">Canneti a Fiacchi (Perugia, 12 Settembre 1717)</title>
+                     <author role="main-author" ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+                     <author role="attachment-2-copyist" ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+                     <author role="attachment-2-og-author" ref="#DLCL_CF_PC0512">Giovanni Maria Lancisi</author>
+                  </titleStmt>
+                  <publicationStmt>
+                     <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+                     <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                     </availability>
+                  </publicationStmt>
+                  <seriesStmt>
+                     <title type="main">Epistolario Canneti Fiacchi</title>
+                     <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+                     <biblScope unit="letter">61</biblScope>
+                  </seriesStmt>
+                  <sourceDesc>
+                     <msDesc>
+                        <msIdentifier>
+                           <country key="IT">Italia</country>
+                           <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                           <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                           <repository></repository>
+                           <collection>                  
+                           </collection>
+                           <idno>                  
+                           </idno>
+                           <altIdentifier>
+                              <idno></idno>
+                           </altIdentifier>
+                        </msIdentifier>
+                     </msDesc>
+                  </sourceDesc>
+               </fileDesc>
+               <profileDesc>
+                  <correspDesc>
+                     <correspAction type="sent">
+                        <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                        <date when-iso="1717-09-12"/>
+                        <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+                     </correspAction>
+                     <correspAction type="received">
+                        <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+                     </correspAction>
+                  </correspDesc>
+                  <langUsage>
+                     <language ident="it"/>
+                     <language ident="la"/>
+                  </langUsage>
+                  <settingDesc>
+                     <xi:include href="../../entities/places.xml"/>
+                  </settingDesc>
+                  <particDesc>
+                     <xi:include href="../../entities/people/cited-people.xml"/>
+                     <xi:include href="../../entities/people/staff.xml"/>
+                     <xi:include href="../../entities/orgs.xml"/>
+                  </particDesc>
+               </profileDesc>
+               <revisionDesc status="created">
+                  <change when-iso="2024-05-08" who="#DLCL_CF_PS001">creato</change>
+                  <change when-iso="2024-09-11" who="#DLCL_CF_PS001">correzioni</change>
+                  <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
+               </revisionDesc>
+            </front>
+            <body>
+               <div type="transcription">
+                  <pb xml:id="DLCL_CF_E10061_A02_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/21154/full/601,800/0/default.jpg"/>
+                  
+                  <p>
+                     Reverendissimo, Doctissimoque Viro <persName ref="#DLCL_CF_PC0132">Patri Guidoni Grandio</persName> Abbati Camaldulensi 
+                     et in Pisano Lyceo Matheseos Professori meritissimo
+                  </p>
+                  
+                  <p>
+                     <persName ref="#DLCL_CF_PC0512">Iohannes Maria Lancisius</persName> S.P.D.
+                  </p>
+                  
+                  <p>
+                     Quod non statim ad Te rescripserim, Vir Clarissime, haud quidem in causa fuerunt multae, quibus nunc praesertim impedior, occupationes: 
+                     quae enim tantae esse possunt, ut me a studio benemerendi apud Egregios, tuique similes viros unquam valeant retardare? 
+                     Sed ipsa negotij ratio postulavit, ut ad hanc usque diem responsum differrem. 
+                     Nam exoptabam non suscipere duntaxat, atque, ut ulae interdum moris est, polliceri; 
+                     sed feliciter quoque, quantum in me fuisset, exequi officium supplicandi Sanctissimo Pontifici, 
+                     ut expleret desiderium eruditissimi <persName ref="#DLCL_CF_PC0001">Patris Abbatis Canneti,</persName> 
+                     quem tu mihi vehementer commendaveras. 
+                     Itaque nudius tertius ad Sanctitatis suae pedes advolutus una cum literis <rs ref="#DLCL_CF_PC0001" type="person">eiusdem Abbatis,</rs> de’ mississimas preces, 
+                     pro describendis ex <orgName ref="#DLCL_CF_O0077">Archivo Vaticano</orgName> <persName ref="#DLCL_CF_PC0177">Ambrosij</persName> 
+                     Camaldulensis <bibl type="manuscript" ref="#DLCL_CF_BM0006" cert="unknown">epistolis,</bibl> obtuli. 
+                     Temporis autem opportunitas notis nostris mirifice obsecundavit; 
+                     quoniam adventus alterius ex Hungaria Nuncij de Alba Graeca post fusas Turcarum copias in Caesaris deditionem redacta, 
+                     iure optimo magna laetitia affecerant Summum Pontificem, quippe qui non tenuem inde fructum coepit incredibilium suarum sollicitudinum. 
+                  </p>
+                  
+                  <p>
+                     Antequam autem Pontificiae erga literatos homines, et sacra potissimum eruditione commendatos benevolentiae, ac liberalitatis argumentum Tibi Significe; 
+                     satisfaciendum mihi esse video sine querimonijs, sine suspicionibus tuis tum de expensis in Archivi scribas, 
+                     et Tabularios erogandis tum de difficili ad eiusdem pluteos accessu. 
+                     Noveris itaque, Vir Clarissime, Amanuenses, reliquosque ministros Apostolici Archivi non alia prope mercede donari, 
+                     quam quae ex laboribus suis, non tam in excribendis codicibus, quam in schedis evolvendis, quaesitisque monumentis inveniendis, obvenit: 
+                     id quod, cum rarius obtingat, necesse est, ut ad commodum honestorum virorum sustentationem ulteriori largitione compensetur. 
+                  </p>
+                  
+                  <p>
+                     Quod vero attinet ad accessus difficultatem, nusquam in sacratioribus Archivis minor est, aut esse debet: sunt enim in thesauri modum Tabularia custodienda. 
+                  </p>
+                  
+                  <pb xml:id="DLCL_CF_E10061_A02_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/21155/full/631,800/0/default.jpg"/>
+                  
+                  <p>
+                     Neque sub alijs Pontificibus facilis potuit aditus in <orgName ref="#DLCL_CF_O0077">Vaticanum Archivum.</orgName> 
+                     Et si quando celebres Scriptores <persName ref="#DLCL_CF_PC0059">Baronius,</persName> <persName ref="#DLCL_CF_PC0339">Raynaldus,</persName> 
+                     <persName ref="#DLCL_CF_PC0709">Pallavicinus,</persName> <persName ref="#DLCL_CF_PC0021">Ughellius,</persName> alijque libere admissi sunt; 
+                     illi quidem Pontificijs mandatis exequendis operam dabant, nimirum commentaria elucubraturi ab iisdem Pontificibus demandata. 
+                  </p>
+                  
+                  <p>
+                     Haec cum ita sint, Sanctissimus Pater difficultates omnes expedivit. 
+                     Et quoniam neque ministros mercede sua fraudari; neque editionem epistolarum <persName ref="#DLCL_CF_PC0177">Ambrosij</persName> Camaldulensis retardari; 
+                     neque tandem <persName ref="#DLCL_CF_PC0001">Patrem Abbatem Cannetum,</persName> praeter collectionis <gap reason="illegible"/>[...]ram et vigilias, 
+                     impensa gravari vellet, statim pecuniam Amanuensibus a Sacri Palatij Praefecto numerari iussit, Tibique a me exempla ipsa literarum iam descripta, 
+                     quod facio, mittenda mandavit. 
+                     Habes igitur non solum <gap reason="illegible"/>[...] in te, et <persName ref="#DLCL_CF_PC0001">Abbatem Cannetum</persName> observantiae testimonium; 
+                     sed expeditum quoque Sanctissimi Pontificis ad praeclara opera ponenda, et iuvanda studij et largitatis argumentum. 
+                     Vale, et <persName ref="#DLCL_CF_PC0001">Abbatem Cannetum</persName> verbis meis salvere iube. 
+                  </p>
+                  
+                  <p>
+                     Ex Museolo in Quirinali VI. Idus Septembris MDCCXVII.
+                  </p>
+                  
+                  <p>
+                     <persName ref="#DLCL_CF_PC0512">Iohanni Mariae Lancisio</persName> V. Cl.               
+                  </p>
+                  
+                  <p>
+                     Illustrissimo Reverendissimoque <persName ref="#DLCL_CF_PC0504">Sanctissimi Pontificis Clementis XI</persName> 
+                  </p>
+                  
+                  <p>
+                     Archiatro, et ab intimo cubiculo. 
+                  </p>
+                  
+                  <p>
+                     <persName ref="#DLCL_CF_PC0001">Petrus Cannetus</persName> Abbas Camaldolensis S. P. D. 
+                  </p>
+                  
+                  <p>   
+                     Quam cumulato gaudio eximia sane <persName ref="#DLCL_CF_PC0504">Sanctissimi Pontificis Clementis XI</persName> munificentia me affecerit, 
+                     Tibi, Vir Clarissime, facilius erit perspicere, quam ut ego verbis explicare valeam. 
+                     Nobile sane Pontificiae liberalitatis donum accepi, quod u[t] nostra, precesque non sperare modo, non petere, 
+                     sed nec sibi fingere potuisse Maximi autem, et incomparabilis muneris loco tum apud me habetur modo, 
+                     tum apud omnes nunquam non habebitur praeclarum adeo Doctissimi Pontificis de <persName ref="#DLCL_CF_PC0177">Ambrosij</persName> Camaldulensis eruditione, 
+                     rebusque gestis testimonium; quum adornan<gap reason="illegible"/>[...] eiusdem Epistolarum editioni nedum 
+                     ex Vaticano Tabulario earum aliquot ibi diligentissime adservatas exscribi permiserit, 
+                     verum et sumptus Archivi A<gap reason="illegible"/>[...] ministris eam in rem erogandos e sacri Palatij aerario suppeditari mandaverit. 
+                     Certe, si <persName ref="#DLCL_CF_PC0254">Eugenium IIII</persName> excipias, qui Ambrosium, dum viveret, in delicijs habuit, 
+                     nullum ab Apostolica sede luculentius de tanto viro iudicium emana<gap reason="illegible"/>[...] aut emanare unquam poterat, 
+                     quod cum hoc Amoris, atque aestimationis haud vulgaris argomento conferri valeat. 
+                     Praeclare quidem cum celeberrimi Auctoris memoria actum est, quae tria ferme post saecula nono illustris beneficii lumine 
+                  </p>
+                  
+                  <pb xml:id="DLCL_CF_E10061_A02_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/21156/full/596,800/0/default.jpg"/>
+                  
+                  <p>
+                     aucta assurget: praeclare quoque cum ipsius lucubrationibus actum, 
+                     que summi huiusce testimonij accessione doctissimorum hominum expectationem impensius acuent, 
+                     et, quum in lucem aliquando prodire dabitur, abunde adimplebunt. 
+                  </p>
+                  
+                  <p>
+                     Porro quanti liberale Summi Pontificis munus a me aestimatur; 
+                     tantum plane Tibi, Vir Clarissime, me debere intelligo. 
+                     Quum etenim ipsi reportando, nihil preces meae ponderis afferrent, pro tuo in literas, literatosque amore, totum ipso addidisti. 
+                     Quidquid itaque in <persName ref="#DLCL_CF_PC0177">Ambrosium</persName> meum, quidquid in me (si mei ratio ulla in hac re habenda est) 
+                     beneficij a Sanctissimo Pontifice collatum, 
+                     tibi acceptum refero, Tibique gratias habeo, quantas debeo maximas, et muneri amplissimo pares. 
+                     Novi nunc erit beneficij loco, si et conceptas meis verbis, meo corde gratias Sanctissimo Patri reddas, 
+                     cui turbatissimis temporibus fausta omnia, et auxilium de sancto precari non desino. 
+                     Id quidem officij et Abbas noster <persName ref="#DLCL_CF_PC0132">Guido Grandus</persName> eiusdem sacris pedibus provolutus implevit. 
+                     Verum pro immortali beneficio quis grates satis unquam redditas putet? 
+                     Et per eum quidni adhuc reddere liceat, per quem in me pontificiae liberalitatis munera derivarunt? 
+                     Vale, et ope tua valeat <persName ref="#DLCL_CF_PC0504">Beatissimus Clemens XI</persName> cum antiquis, sanctissimisque Pontificibus omnino comparandus, 
+                     quem nostris hisce diebus reservatum credere licet, ut divinae in nos irae tela precibus, 
+                     ac sollicitudinibus suis obtundat, ingentesque totius Europae aestus sapientia aliquando componat. 
+                     <placeName ref="#DLCL_CF_L0028">Perusiae</placeName> ex <orgName ref="#DLCL_CF_O0078">S. Severi</orgName> XIIII kalendas Octobris MDCCXVII. 
+                  </p>
+                  
+                  <p>   
+                     Clarissimo, Doctissimoque Viro
+                  </p>
+                  
+                  <p>
+                     <persName ref="#DLCL_CF_PC0001">Petro Canneto</persName> Abbati Camaldulensi
+                  </p>
+                  
+                  <p>
+                     <persName ref="#DLCL_CF_PC0512">Iohannes Maria Lancisius</persName> S. P. D. 
+                  </p>
+                  
+                  <p>
+                     Cum hesterno die humanissimas abs te literas, grati in me amoris plenas, accepissem, profecto, 
+                     Vir Clarissime, perspexi, me statim fructum nimis uberem reportasse pro simplici officio apud Sanctissimum Patrem Suscepto, 
+                     ut Tibi potestas fieret excribendi e <bibl type="manuscript" ref="#DLCL_CF_BM0006" cert="unknown">Vaticanis Codicibus aliquot Ambrosij Camaldulensis epistolas:</bibl> 
+                     recte enim factis ampla satis praemia nobis persolvuntur, si ipsa bene cesserint opera. 
+                  </p>
+                  
+                  <pb xml:id="DLCL_CF_E10061_A02_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/21157/full/636,800/0/default.jpg"/>
+                  
+                  <p>
+                     Quod vero Beatissimi Pontificis erga literas, literisque celebres viros patrocinium ac liberalitatem dignis praeconijs efferas, 
+                     aeternumque laudis monumentum Ambrosij tui operibus edendis pollicearis, pro consueta ingenuorum animorum tuique similium virtute facis, 
+                     qui non aliter summorum Principum benefic<gap reason="illegible"/>[...] quam grati animi significationibus possunt rependere. 
+                     Nemo tamen, Vir Doctissime, plura Pontificiae largitatis ad literas promovendas argumenta aut saepius sentire, 
+                     aut luculentius cernere unquam potuit, quam ego ipse, quippe qui eruditissimos scriptores etiam fatis functos, vindicatis, 
+                     atque illustatis eorum commentariis, munificentia tanti Principis e tenebris in sempiternam posteritatis lucem traductos saepissime vidi. 
+                     Perge itaque (<persName ref="#DLCL_CF_PC0001">Cannete</persName> humanissime) <persName ref="#DLCL_CF_PC0504">Clementis XI</persName> encomia celebrare; 
+                     et si quid studjs meis tibi commodari unquam posse intelligis, aperte significare non o<gap reason="illegible"/>[...]tas. 
+                     Vale. 
+                  </p>
+                  
+                  <p>
+                     VIII Kalendas Octobris MDCCXVII. 
+                  </p>
+                  
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

@@ -1,118 +1,150 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10007">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10007">  
    <facsimile sameAs="https://classense.unibo.it/iiif/20639/manifest">
       <graphic n="1r" url="https://classense.unibo.it/iiif/2/20827/full/564,800/0/default.jpg"/>
       <graphic n="1v" url="https://classense.unibo.it/iiif/2/20828/full/571,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/24838/full/571,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/24839/full/569,800/0/default.jpg"/>
    </facsimile>
    <text type="letter" xml:id="DLCL_CF_E10007" n="Canneti a Fiacchi (Bertinoro, 2 Maggio 1714)">
-        <front>
-            <fileDesc>
-                <titleStmt>
-                    <title xml:lang="it">Canneti a Fiacchi (Bertinoro, 2 Maggio 1714)</title>
-                    <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
-                </titleStmt>
-                <publicationStmt><ab></ab></publicationStmt>
-                <seriesStmt>
-                    <title type="main">Epistolario Canneti Fiacchi</title>
-                    <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
-                    <biblScope unit="letter">7</biblScope>
-                </seriesStmt>
-                <sourceDesc>
-                    <msDesc>
-                    <msIdentifier>
-                        <country key="IT">Italia</country>
-                        <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
-                        <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                        <repository></repository>
-                        <collection></collection>
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Bertinoro, 2 Maggio 1714)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">7</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
                         <idno></idno>
-                        <altIdentifier>
-                            <idno></idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-            <profileDesc>
-                <correspDesc>
-                    <correspAction type="sent">
-                    <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
-                    <date when-iso="1714-05-02"/>
-                    <placeName ref="#DLCL_CF_L0025" key="DLCL_CF_L0025">Bertinoro</placeName>
-                    </correspAction>
-                    <correspAction type="received">
-                    <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
-                    </correspAction>
-                </correspDesc>
-                <langUsage>
-                    <language ident="it"/>
-                </langUsage>
-                <settingDesc>
-                    <xi:include href="../../entities/places.xml"/>
-                </settingDesc>
-                <particDesc>
-                    <xi:include href="../../entities/people/cited-people.xml"/>
-                    <xi:include href="../../entities/people/staff.xml"/>
-                    <xi:include href="../../entities/orgs.xml"/>
-                </particDesc>
-            </profileDesc>
-            <revisionDesc status="created">
-                <change when-iso="2024-01-22" who="#DLCL_CF_PS001">creato</change>
-                <change when-iso="2024-01-29" who="#DLCL_CF_PS001">correzioni</change>
-            </revisionDesc>
-        </front>
-        <body>
-            <div type="transcription">
-                <pb xml:id="DLCL_CF_E10007_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20827/full/564,800/0/default.jpg"/>
-                
-                <opener>
-                <salute><persName type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Amatissimo</salute>
-                </opener>
-                
-                <p>
-                Nell’<bibl type="manuscript">Indici</bibl> ho segnato i libri, che desidero aver meco. 
-                Conviene far le Cassette; che non passino <hi rend="underline">trecento</hi> libre l’una. 
-                Se a coprire le some vi mancheranno de’ libri, <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> vi aggiunga quei, che ella giudicherà più proporzionati a’ miei studi, e più uniformi agli altri già scelti. 
-                Certo è che, per non far crescere troppo le some, molti ne ho lasciati, che mi sarebbe stato caro trasportare appresso di me. 
-                Nell’<bibl type="manuscript">Indice</bibl> vi mancano i <bibl type="print">due Tomi del Concilio Fiorentino</bibl> venuti ultimamente da <placeName ref="#DLCL_CF_L0024">Venezia.</placeName> 
-                Questi non manchi di mettergli nelle Casse. 
-                Forse vi manderanno eziandio i libri, ch’erano in mano di <persName ref="#DLCL_CF_PC0036">Frate Teodoro.</persName> 
-                Non sapendo io quali precisamente siano, non posso dire se abbiano da rimanere, o no. 
-                Sol mi ricordi che v’era da legare in cartone il volume grosso in foglio dell’<bibl type="print">epistole del Filelfo.</bibl> 
-                Questo metta nelle casse. Per gli altri a lei mi rimetto.
-                </p>
-                
-                <p>
-                Delle molte copie della <bibl type="print">Cilauda,</bibl> del <bibl type="print">Rossi</bibl> e della <bibl type="print">Scanzia...</bibl> del <persName ref="#DLCL_CF_PC0038">Cinelli,</persName> ne riponga alcune poche nelle Casse. 
-                Il resto si trattenga. 
-                Fermi costì tutta la molta quantità de’ libri Miscellanei. 
-                Se vi è luogo per la <bibl type="print">Somma di S. Tommaso,</bibl> ve la riponga. 
-                Solleciti la spedizione di questa faccenda. 
-                L’abbraccio caramente e mi confermo di tutto cuore. 
-                </p>
-                
-                <closer>
-                <dateline><placeName ref="#DLCL_CF_L0025">Bertinoro</placeName> <date when-iso="1714-05-02">2 maggio 1714</date></dateline> 
-                <salute>DVPMR</salute> 
-                </closer>
-                
-                <postscript>
-                <p>
-                    Vi metta il libro <bibl type="manuscript"><foreign xml:lang="la">Acta Translationis S. Bartholomei Apostoli</foreign>,</bibl> ch’è veramente nostro. 
-                    Servito che io me ne sia, lo cederò, con altri, in dono alla <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
-                </p>
-                <p>
-                    Con gli accennati <bibl type="print">due libri del Concilio Fiorentino</bibl> vi deve essere il <bibl type="print">Bauldry delle Cerimonie.</bibl> 
-                    Ne ho necessità.
-                </p>
-                </postscript> 
-                
-                <closer>
-                <salute>Affettuosissimo Servo e Padre nel Signore</salute>
-                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
-                </closer>
-
-                <pb xml:id="DLCL_CF_E10007_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20828/full/571,800/0/default.jpg"/>
-            </div>
-        </body>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1714-05-02"/>
+                  <placeName ref="#DLCL_CF_L0025" key="DLCL_CF_L0025">Bertinoro</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-01-22" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-01-29" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-04-16" who="#DLCL_CF_PS001">riferimenti stampe</change>
+            <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-20" who="#DLCL_CF_PS001">nuove trascrizioni buste</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10007_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20827/full/564,800/0/default.jpg"/>
+            
+            <opener>
+               <salute><persName type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Amatissimo</salute>
+            </opener>
+            
+            <p>
+               Nell’<bibl type="manuscript">Indici</bibl> ho segnato i libri, che desidero aver meco. 
+               Conviene far le Cassette; che non passino <hi rend="underline">trecento</hi> libre l’una. 
+               Se a coprire le some vi mancheranno de’ libri, <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> vi aggiunga quei, 
+               che ella giudicherà più proporzionati a’ miei studi, e più uniformi agli altri già scelti. 
+               Certo è che, per non far crescere troppo le some, molti ne ho lasciati, che mi sarebbe stato caro trasportare appresso di me. 
+               Nell’<bibl type="manuscript">Indice</bibl> vi mancano i <bibl type="print" ref="#DLCL_CF_BS0009">due Tomi del Concilio Fiorentino</bibl> 
+               venuti ultimamente da <placeName ref="#DLCL_CF_L0024">Venezia.</placeName> 
+               Questi non manchi di mettergli nelle Casse. 
+               Forse vi manderanno eziandio i libri, ch’erano in mano di <persName ref="#DLCL_CF_PC0036">Frate Teodoro.</persName> 
+               Non sapendo io quali precisamente siano, non posso dire se abbiano da rimanere, o no. 
+               Sol mi ricordi che v’era da legare in cartone il volume grosso in foglio dell’<bibl type="print">epistole del Filelfo.</bibl> 
+               Questo metta nelle casse. Per gli altri a lei mi rimetto.
+            </p>
+            
+            <p>
+               Delle molte copie della <bibl type="print" ref="#DLCL_CF_BS0010">Cilauda,</bibl> 
+               del <bibl type="print" ref="#DLCL_CF_BS0003">Rossi</bibl> e della <bibl type="print" ref="#DLCL_CF_BS0011">Scanzia...</bibl> del <persName ref="#DLCL_CF_PC0038">Cinelli,</persName> 
+               ne riponga alcune poche nelle Casse. 
+               Il resto si trattenga. 
+               Fermi costì tutta la molta quantità de’ libri Miscellanei. 
+               Se vi è luogo per la <bibl type="print">Somma di S. Tommaso,</bibl> ve la riponga. 
+               Solleciti la spedizione di questa faccenda. 
+               L’abbraccio caramente e mi confermo di tutto cuore. 
+            </p>
+            
+            <closer>
+               <dateline><placeName ref="#DLCL_CF_L0025">Bertinoro</placeName> <date when-iso="1714-05-02">2 maggio 1714</date></dateline> 
+               <salute>DVPMR</salute> 
+            </closer>
+            
+            <postscript>
+               <p>
+                  Vi metta il libro <bibl type="manuscript"><foreign xml:lang="la">Acta Translationis S. Bartholomei Apostoli</foreign>,</bibl> ch’è veramente nostro. 
+                  Servito che io me ne sia, lo cederò, con altri, in dono alla <orgName ref="#DLCL_CF_O0001">Libreria.</orgName>
+               </p>
+               <p>
+                  Con gli accennati <bibl type="print" ref="#DLCL_CF_BS0009">due libri del Concilio Fiorentino</bibl> 
+                  vi deve essere il <bibl xml:id="DLCL_CF_E10007_N001" type="print">Bauldry delle Cerimonie.</bibl> 
+                  Ne ho necessità.
+               </p>
+            </postscript> 
+            
+            <closer>
+               <salute>Affettuosissimo Servo e Padre nel Signore</salute>
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10007_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20828/full/571,800/0/default.jpg"/>
+            
+            <pb xml:id="DLCL_CF_E10007_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/24838/full/571,800/0/default.jpg"/>
+            
+            <pb xml:id="DLCL_CF_E10007_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/24839/full/569,800/0/default.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+            
+         </div>  
+         <div type="notes">
+            <note type="bibliography" resp="#DLCL_CF_PS002" target="DLCL_CF_E10007_N001">
+               Dell’opera Manuale Sacrarum Caeremoniarum di Michel Bauldry sono nove le edizioni stampate entro la data della lettera. 
+            </note>
+         </div>
+      </body>
    </text>
 </TEI>

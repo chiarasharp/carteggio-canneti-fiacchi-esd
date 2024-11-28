@@ -1,4 +1,4 @@
-<listBibl type="manuscripts" xmlns="http://www.tei-c.org/ns/1.0">
+<listBibl xml:id="DLCL_CF_BM" type="manuscripts" xmlns="http://www.tei-c.org/ns/1.0">
     <msDesc xml:id="DLCL_CF_BM0001">
         <msIdentifier>
             <settlement>Ravenna</settlement>
@@ -84,6 +84,128 @@
             <provenance>
             </provenance>
             <acquisition>
+            </acquisition>
+        </history>
+    </msDesc>
+    <msDesc xml:id="DLCL_CF_BM0005">
+        <msIdentifier>
+            <settlement>Ravenna</settlement>
+            <repository>Istituzione Biblioteca Classense</repository>
+            <idno>Ms. 367</idno>
+        </msIdentifier>
+        <msContents>
+            <msItem>
+                <author xml:lang="">
+                    <persName xml:lang="it" ref="#DLCL_CF_PC0153">
+                        <surname>Cicerone</surname>
+                    </persName>    
+                </author>
+                <title xml:lang="la">Tuscolane</title>
+            </msItem>
+        </msContents>
+        <history>
+            <origin>
+            </origin>
+            <provenance>
+            </provenance>
+            <acquisition>          
+            </acquisition>
+        </history>
+    </msDesc>
+    <msDesc xml:id="DLCL_CF_BM0006">
+        <msIdentifier>
+            <settlement>Ravenna</settlement>
+            <repository>Istituzione Biblioteca Classense</repository>
+            <idno>Ms. 476</idno>
+        </msIdentifier>
+        <msContents>
+            <msItem>
+                <author>
+                    <persName xml:lang="it" ref="#DLCL_CF_PC0001">
+                        <forename>Pietro</forename>
+                        <surname>Canneti</surname>
+                    </persName>
+                </author>
+                <author>
+                    <persName xml:lang="it" ref="#DLCL_CF_PC0177">
+                        <forename>Ambrogio</forename>
+                        <surname>Traversari</surname>
+                    </persName>
+                </author>
+                <title xml:lang="la">Epistole</title>
+            </msItem>
+        </msContents>
+        <history>
+            <origin></origin>
+            <provenance>
+            </provenance>
+            <acquisition>          
+            </acquisition>
+        </history>
+    </msDesc>
+    <msDesc xml:id="DLCL_CF_BM0007">
+        <msIdentifier>
+            <settlement>Ravenna</settlement>
+            <repository>Istituzione Biblioteca Classense</repository>
+            <idno>Ms. 6</idno>
+        </msIdentifier>
+        <msContents>
+            <msItem>
+                <author>
+                    <persName xml:lang="it" ref="#DLCL_CF_PC0233">
+                        <forename>Dante</forename>
+                        <surname>Alighieri</surname>
+                    </persName>
+                </author>
+            </msItem>
+        </msContents>
+        <history>
+            <origin>
+                <origDate when-iso="1369" cert="unknown">1369</origDate>
+            </origin>
+            <provenance>
+            </provenance>
+            <acquisition>          
+            </acquisition>
+        </history>
+    </msDesc>
+    <msDesc xml:id="DLCL_CF_BM0008">
+        <msIdentifier>
+            <settlement>Ravenna</settlement>
+            <repository>Istituzione Biblioteca Classense</repository>
+            <idno>Ms. 138</idno>
+        </msIdentifier>
+        <msContents>
+            <msItem>
+                <title xml:lang="it">Azioni viterbesi</title>
+            </msItem>
+        </msContents>
+        <history>
+            <origin>
+            </origin>
+            <provenance>
+            </provenance>
+            <acquisition>          
+            </acquisition>
+        </history>
+    </msDesc>
+    <msDesc xml:id="DLCL_CF_BM0009">
+        <msIdentifier>
+            <settlement>Ravenna</settlement>
+            <repository>Istituzione Biblioteca Classense</repository>
+            <idno>Ms. 239</idno>
+        </msIdentifier>
+        <msContents>
+            <msItem>
+                <title xml:lang="it">Il Filenico</title>
+            </msItem>
+        </msContents>
+        <history>
+            <origin>
+            </origin>
+            <provenance>
+            </provenance>
+            <acquisition>          
             </acquisition>
         </history>
     </msDesc>

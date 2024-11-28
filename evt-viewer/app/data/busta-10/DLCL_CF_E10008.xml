@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10008">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10008"> 
    <facsimile sameAs="https://classense.unibo.it/iiif/20640/manifest">
       <graphic n="1r" url="https://classense.unibo.it/iiif/2/20839/full/583,800/0/default.jpg"/>
       <graphic n="1v" url="https://classense.unibo.it/iiif/2/20840/full/573,800/0/default.jpg"/>
@@ -6,197 +6,226 @@
       <graphic n="2v" url="https://classense.unibo.it/iiif/2/20842/full/573,800/0/default.jpg"/>
    </facsimile>
    <text type="letter" xml:id="DLCL_CF_E10008" n="Canneti a Fiacchi (Perugia, 3 Luglio 1714)">
-        <front>
-            <fileDesc>
-                <titleStmt>
-                    <title xml:lang="it">Canneti a Fiacchi (Perugia, 3 Luglio 1714)</title>
-                    <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
-                </titleStmt>
-                <publicationStmt><ab></ab></publicationStmt>
-                <seriesStmt>
-                    <title type="main">Epistolario Canneti Fiacchi</title>
-                    <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
-                    <biblScope unit="letter">8</biblScope>
-                </seriesStmt>
-                <sourceDesc>
-                    <msDesc>
-                    <msIdentifier>
-                        <country key="IT">Italia</country>
-                        <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
-                        <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                        <repository></repository>
-                        <collection></collection>
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 3 Luglio 1714)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">8</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
                         <idno></idno>
-                        <altIdentifier>
-                            <idno></idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-            <profileDesc>
-                <correspDesc>
-                    <correspAction type="sent">
-                    <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
-                    <date when-iso="1714-07-03"/>
-                    <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
-                    </correspAction>
-                    <correspAction type="received">
-                    <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
-                    </correspAction>
-                </correspDesc>
-                <langUsage>
-                    <language ident="it"/>
-                </langUsage>
-                <settingDesc>
-                    <xi:include href="../../entities/places.xml"/>
-                </settingDesc>
-                <particDesc>
-                    <xi:include href="../../entities/people/cited-people.xml"/>
-                    <xi:include href="../../entities/people/staff.xml"/>
-                    <xi:include href="../../entities/orgs.xml"/>
-                </particDesc>
-            </profileDesc>
-            <revisionDesc status="created">
-                <change when-iso="2024-01-22" who="#DLCL_CF_PS001">creato</change>
-                <change when-iso="2024-01-29" who="#DLCL_CF_PS001">correzioni</change>
-            </revisionDesc>
-        </front>
-        <body>
-            <div type="transcription">
-                <pb xml:id="DLCL_CF_E10008_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20839/full/583,800/0/default.jpg"/>
-                
-                <opener>
-                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
-                </opener>
-                
-                <p>
-                Con singolare consolazione ricevo la cordialissima lettera del mio <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo,</persName> i cui caratteri, quanto più frequenti mi saranno più grati; 
-                e lo ringrazio vivissimamente del cortese officio per l’arrivo mio seguito con tutta felicità, e tra onorevoli, e geniali divertimenti, ha oggi 25 giorni. 
-                Da una non leggier sollecitudine mi ha <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> sollevato col darmi nuova del <bibl type="manuscript">Manoscritto</bibl> del <persName ref="#DLCL_CF_PC0039">Signor Cicognini</persName> consegnato al <persName ref="#DLCL_CF_PC0035">Padre Lettore Buti;</persName> 
-                insieme col <bibl type="print">Quadriregio</bibl> stampato. 
-                L’uno e l’altro libro avranno quì il loro uso. 
-                Ma non so se altrettanto sia per accadere dello scattolino del <persName ref="#DLCL_CF_PC0006">Padre Amici.</persName> 
-                Ben può ogni uomo assennato conoscere in quali impegno io mi trovi, or che mi è toccato abitare in una casa dedicata a <persName ref="#DLCL_CF_PC0040">San Severo.</persName> 
-                Anzi provo un sensibilissimo dispiacere, per non aver levata dall’Osso della tibia altrettanta reliquia, quanta ne collocai in cotesto Ostensorio d’argento; 
-                come il <persName ref="#DLCL_CF_PC0003">Revendissimo Galamini</persName> premurosamente sul fatto mi suggerì all’orecchio, esortandomi replicatamente a levar quel pezzo, che vi rimane con deformità anzi che nò, 
-                e persuadendomi a farne dono a questo <orgName ref="DLCL_CF_O0010" cert="high">Monastero,</orgName> dove né egli, né io, né altro uom dabbene pensavamo allora che io dovessi passare. 
-                La rigida gelosia, con cui feci serrare con lo stagno la cassetta, e la difficoltà di muovere i marmi dell’altar maggiore ne’ pur’ mi lascian luogo a sperare di poter’emendare il fatto. 
-                Che però il pensiero non sà dove rivolgersi, per appagare la divota convenienza, che a’ piccoli frammenti destinati al <persName ref="#DLCL_CF_PC0041">Signor Cellesi,</persName> 
-                al <persName ref="#DLCL_CF_PC0006">Padre Amici,</persName> e ad <rs type="person">un'altra riguardevole persona.</rs> 
-                Scriverò col primo ordinario al <rs type="person" ref="#DLCL_CF_PC0006">Padre suddetto,</rs> studiando di raddolcire la nuova, come meglio sarà possibile.  
-                </p>
-                
-                <pb xml:id="DLCL_CF_E1E10008_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20840/full/573,800/0/default.jpg"/>
-
-                <p>
-                Non l’ho fatto prima; perché fino ad ora qui non ho provato migliore ozio, di quello io godessi già costì; cosi sono state frequenti le visite, e i favori ricevuti in questa <placeName ref="#DLCL_CF_L0028">Città,</placeName> 
-                dove trovo diletto, e buon gusto, e raccolte di libri, studio d’iscrizioni, di cose antiche, di latinità, di lingua toscana, di lettere umane d’ogni sorta, d’istoria ecclesiastica, con disegno d’aprirne un’Accademia come si è aperta una Colonia d’Arcadi in luogo ameno, essendovisi fabbricati i sedili. 
-                Particolarmente poi mi favoriscono i <rs type="person">Medici,</rs> tra due de’ quali bolle un’aspra contesa sopra la cura de’ vaiuoli. 
-                Son corse scritture amarissime a penna, e stampate; e poco è mancato che questi fervidi ingegni non siano passati alle armi. 
-                Ma sopra tutto del fermarmi al tavolino mi ha ritirato un certo incomodo di capo cagionato dalla sottigliezza dell’aria, cui ha pagato il tributo il <placeName ref="#DLCL_CF_PC0042">Padre Don Gio. Matteo</placeName> ancor convalescente. 
-                <persName ref="#DLCL_CF_PC0043">Frate Pietro</persName> nè pur’è ben sano. 
-                Il <persName ref="#DLCL_CF_PC0044">Padre Pancaldi</persName> finora regge più degli altri.
-                </p>
-                
-                <p>
-                Si prenda pur cura <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> di ricuperare la <bibl type="print">Scanzia</bibl> del <persName ref="#DLCL_CF_PC0038">Cinelli,</persName> 
-                e la unisca alle altre, osservando se ora il Corpo sia intiero, e come possa legarsi con meno deformità possibile. 
-                Godo che i libri del <persName ref="#DLCL_CF_PC0011">Volpi</persName> siano arrivati. 
-                <bibl type="print">Le Satire</bibl> del <persName ref="#DLCL_CF_PC0045">Duca di Bracciano</persName> (se non erro) dovranno segnarsi alla lettera O; essendo l’Autor di Casa Orsini. 
-                Vegga nell’<bibl type="print">Indice Imperialense.</bibl> 
-                Quando non vi sia, mi avvisi. 
-                Troveremo il nome, e cognome. 
-                Il <bibl type="print"><foreign xml:lang="la">Tomo de Divinis Officiis</foreign></bibl> è stimato assai, per comprendere uniti i Ritualisti; ed era necessario in quella <bibl type="print">Scanzia.</bibl> 
-                Suppongo che il <bibl type="print">Rodigino</bibl> sia bellissimo. 
-                Il <bibl type="print">Cornelio Tacito</bibl> sarà diverso dall’altro antico, ch’era prima in <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
-                Ordinai per l’uso mio par<pc force="inter">-</pc> 
-                </p>
-                
-                <pb xml:id="DLCL_CF_E1E10008_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/20841/full/562,800/0/default.jpg"/>
-                
-                <p>
-                ticolare il <bibl type="print">Tomai,</bibl> anzi il <persName ref="#DLCL_CF_PC0011">Signor Volpi</persName> ne fece a me dono. 
-                Mi favorisca pertanto riporlo, com’è dovere, tra’ nostri libri. 
-                Anzi avrei caro averlo presso di me. 
-                Lo mandi dunque co’ i tre tomi del <bibl type="print">Giornale XVI,</bibl> che già lessi in <placeName ref="#DLCL_CF_L0029">Loreto.</placeName> 
-                Vi aggiunga la <bibl type="print">Biblioteca Mariana,</bibl> quando non l’abbia posta in <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
-                Se il <bibl type="print">Tomai</bibl> mandatomi è migliore dell’altro donato dal <persName ref="#DLCL_CF_PC0046">Signor Co. Ippolito,</persName> ch’era macchiato, lo tenga e faccia legare; e mandi a me l’altro difettoso. 
-                Mandi l’involto a <placeName ref="#DLCL_CF_L0030">Sinigalia</placeName> per mezzo di persona, che vada alla fiera; 
-                e lo raccomandi al <rs type="person">padre Camerlingo,</rs> il quale in ogni caso di non esser’a tempo, potrà inviarlo a <placeName ref="#DLCL_CF_L0003">Pesaro,</placeName> di dove si trova occasione per <placeName ref="#DLCL_CF_L0028">Perugia.</placeName> 
-                Gli altri libri di <placeName ref="#DLCL_CF_L0023">Foligno</placeName> venuti da <placeName ref="#DLCL_CF_L0003">Pesaro</placeName> furon colà da me osservati; ma nova avvertii che ve ne fossero degli imperfetti; trattone il <bibl type="print">Sansovino della Casa Orsina,</bibl> dal quale, e dall’altro potrà farne comporre uno Tomo intiero. 
-                L’altro <bibl type="print">esemplare del Boezio</bibl> del <persName ref="#DLCL_CF_PC0047">Tanzo</persName> (benché cosa di niun pregio) mi pare lo mettessi tra nostri. 
-                Avrei caro vi fosse. 
-                L’<bibl type="print">edizione de’ Marmi del Doni</bibl> è intiera? 
-                <bibl type="print"><foreign xml:lang="la">De prisca Caesiorum Gente</foreign></bibl> è bellissimo; e libro rarissimo è la <bibl type="print">Geografia</bibl> del <persName ref="#DLCL_CF_PC0048">Berlinghieri.</persName>
-                </p>
-                
-                <p>
-                Aspetto di <placeName ref="#DLCL_CF_L0008">Roma</placeName> la ristampa dell’<bibl type="print">Istoria</bibl> del <persName ref="#DLCL_CF_PC0033">Crescimbeni,</persName> il quale non vuol rifare i <bibl type="print">Commentarii.</bibl>
-                È necessario ritenere anco la prima edizione per confrontarla colla seconda; che io manderò a cotesta <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> insieme col 3° Tomo delle <bibl type="print">Vite degli Arcadi.</bibl> 
-                Sto leggendo la suddetta nuova <bibl type="print">Istoria,</bibl> dentro cui sono inserite le tante notizie mandate nell’estate passata, colle stesse parole. 
-                Abbia cura che si leghino bene i <bibl type="print">Tomi</bibl> del <persName ref="#DLCL_CF_PC0049">Gamurrini.</persName> 
-                A <persName ref="#DLCL_CF_PC0029">Frate Ferdinando</persName> rimetterò i nove paoli, anzi m’intenderò col <rs type="person">Padre Camerlingo.</rs> 
-                Di man’ in mano che usciranno gli altri <bibl type="print">Giornali,</bibl> ne farò costà venir quattro Copie, una per <placeName ref="#DLCL_CF_L0020">Classe,</placeName> e tre per me. 
-                </p>
-                
-                <pb xml:id="DLCL_CF_E1E10008_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/20842/full/573,800/0/default.jpg"/>
-                
-                <p>                        
-                Mi mandi ancora, oltre gli altri, il libretto della <bibl type="print">Traslazione di S. Bartolommeo,</bibl> e i due Tomi della <bibl type="print">Biblioteca Critica franzese.</bibl> 
-                Gli altri due (che goderò sian legati) sono un duplicato; e sono mezzo impegnati. 
-                Gli congiunga a’ nostri. 
-                Il <rs type="person">Padre Lettore</rs> mi scrisse intorno agl’<bibl type="manuscript">Indici:</bibl> apprendeva fosse inutile il cominciato. 
-                Sopra ciò gli risposi diffusamente. 
-                Se avrà la bontà di comunicar meco, non sarà che bene. 
-                <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> vada destreggiando; 
-                e ove si tratta di mutazion di sistema in Libreria, vada adagio; e suggerisca il conferire con me, il che gioverà a sostener la carica con decoro. 
-                In verità che in <placeName ref="#DLCL_CF_L0026">Italia</placeName> pochi sono i buoni Bibliotecari, né io ardisco di annoverarmi tra quell’ onorato numero di Persone erudite.
-                </p>
-                
-                <p>
-                Mi è cara la notizia dello sbozzo del musaico richiesto da <persName ref="#DLCL_CF_PC0050">Monsignore Bianchini,</persName> al quale scriverò. 
-                Ma prima vorrei i nomi de’ <rs type="person">quattro Arcivescovi</rs> scritto sopra i lor capi. 
-                Due (se non erro hanno il titolo di <hi rend="underline">Santo</hi>, e due no. 
-                Osservi se intorno il capo hanno altri ornamenti, fuorché le corone pendenti. 
-                Forse converrà far l’osservazione colla scala, non vedendosi ben dabasso i nomi. 
-                Penso inserire io l’emenda di <persName ref="#DLCL_CF_PC0051">Ciampini</persName> nelle Note all’epistole.
-                </p>
-                
-                <p>
-                Ho necessità di aver copia di quel che scrive il <persName ref="#DLCL_CF_PC0052">Dupin</persName> nella sua <bibl type="print">Biblioteca,</bibl> di <persName ref="#DLCL_CF_PC0053">Ricardo di San Lorenzo.</persName> 
-                Me lo mandi subito per carità. 
-                Resto e scandalizzato, e stomacato del <persName ref="#DLCL_CF_PC0004">Marozzi.</persName> 
-                Il <persName ref="#DLCL_CF_PC0007">padre Don Bonifazio</persName> (che saluto <foreign xml:lang="la">toto cordis affectu</foreign>, e cui scriverò l’ordinario appresso) operi con ogni vigore per aver li sei scudi ricavati dal <bibl type="print">Cicerone,</bibl> o un equivalente onorevole, e buono. 
-                Si faccia mandare i <bibl type="print">Canti Carnascialeschi,</bibl> e li riscontri. 
-                Forse li prenderò. 
-                Mi scriva sopra i <bibl>Riti.</bibl> 
-                </p>
-                
-                <closer>
-                <salute>Addio. L’abbraccio, e resto di vero cuore.</salute>
-                <salute>DVPMR</salute> 
-                <dateline><placeName ref="#DLCL_CF_L0028">Perugia.</placeName> <date when-iso="1714-07-03">3 luglio 1714</date></dateline> 
-                <salute>Affettuosissimo Servo e Padre nel Signore</salute> 
-                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
-                </closer>
-                    
-                <postscript>
-                <p>
-                    [Mi mandi ancora i <bibl type="print">due Tomi</bibl> del <persName ref="#DLCL_CF_PC0051">Ciampini,</persName> <bibl type="print">de’ Musaici.</bibl> 
-                    Al <persName ref="#DLCL_CF_PC0054">Padre Lettore Fiori</persName> i miei cordialissimi rispetti. 
-                    Al <persName ref="#DLCL_CF_PC0034">Signor Dottore Veratti</persName> un baciamano. 
-                    Scriverò; e si concluderà il consaputo affare] 
-                </p>
-                </postscript>
-                
-                <pb xml:id="DLCL_CF_E1E10008_C3V" n="3 - Verso"/>
-                
-                <closer>
-                Al molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
-                <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
-                </closer>
-            </div>
-        </body>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1714-07-03"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-01-22" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-01-29" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-04-16" who="#DLCL_CF_PS001">riferimenti stampe</change>
+            <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10008_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20839/full/583,800/0/default.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Con singolare consolazione ricevo la cordialissima lettera del mio <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo,</persName> 
+               i cui caratteri, quanto più frequenti mi saranno più grati; 
+               e lo ringrazio vivissimamente del cortese officio per l’arrivo mio seguito con tutta felicità, e tra onorevoli, e geniali divertimenti, ha oggi 25 giorni. 
+               Da una non leggier sollecitudine mi ha <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> 
+               sollevato col darmi nuova del <bibl type="manuscript">Manoscritto</bibl> del <persName ref="#DLCL_CF_PC0039">Signor Cicognini</persName> 
+               consegnato al <persName ref="#DLCL_CF_PC0035">Padre Lettore Buti;</persName> 
+               insieme col <bibl type="print">Quadriregio</bibl> stampato. 
+               L’uno e l’altro libro avranno quì il loro uso. 
+               Ma non so se altrettanto sia per accadere dello scattolino del <persName ref="#DLCL_CF_PC0006">Padre Amici.</persName> 
+               Ben può ogni uomo assennato conoscere in quali impegno io mi trovi, or che mi è toccato abitare in una casa dedicata a <persName ref="#DLCL_CF_PC0040">San Severo.</persName> 
+               Anzi provo un sensibilissimo dispiacere, per non aver levata dall’Osso della tibia altrettanta reliquia, quanta ne collocai in cotesto Ostensorio d’argento; 
+               come il <persName ref="#DLCL_CF_PC0003">Revendissimo Galamini</persName> premurosamente sul fatto mi suggerì all’orecchio, 
+               esortandomi replicatamente a levar quel pezzo, che vi rimane con deformità anzi che nò, 
+               e persuadendomi a farne dono a questo <orgName ref="DLCL_CF_O0010" cert="high">Monastero,</orgName> dove né egli, né io, 
+               né altro uom dabbene pensavamo allora che io dovessi passare. 
+               La rigida gelosia, con cui feci serrare con lo stagno la cassetta, e la difficoltà di muovere i marmi dell’altar maggiore 
+               ne’ pur’ mi lascian luogo a sperare di poter’emendare il fatto. 
+               Che però il pensiero non sà dove rivolgersi, per appagare la divota convenienza, 
+               che a’ piccoli frammenti destinati al <persName ref="#DLCL_CF_PC0041">Signor Cellesi,</persName> 
+               al <persName ref="#DLCL_CF_PC0006">Padre Amici,</persName> e ad <rs type="person">un'altra riguardevole persona.</rs> 
+               Scriverò col primo ordinario al <rs type="person" ref="#DLCL_CF_PC0006">Padre suddetto,</rs> studiando di raddolcire la nuova, come meglio sarà possibile.  
+            </p>
+            
+            <pb xml:id="DLCL_CF_E1E10008_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20840/full/573,800/0/default.jpg"/>
+            
+            <p>
+               Non l’ho fatto prima; perché fino ad ora qui non ho provato migliore ozio, di quello io godessi già costì; 
+               cosi sono state frequenti le visite, e i favori ricevuti in questa <placeName ref="#DLCL_CF_L0028">Città,</placeName> 
+               dove trovo diletto, e buon gusto, e raccolte di libri, studio d’iscrizioni, di cose antiche, di latinità, di lingua toscana, 
+               di lettere umane d’ogni sorta, d’istoria ecclesiastica, con disegno d’aprirne un’Accademia come si è aperta una Colonia d’Arcadi in luogo ameno, 
+               essendovisi fabbricati i sedili. 
+               Particolarmente poi mi favoriscono i <rs type="person">Medici,</rs> tra due de’ quali bolle un’aspra contesa sopra la cura de’ vaiuoli. 
+               Son corse scritture amarissime a penna, e stampate; e poco è mancato che questi fervidi ingegni non siano passati alle armi. 
+               Ma sopra tutto del fermarmi al tavolino mi ha ritirato un certo incomodo di capo cagionato dalla sottigliezza dell’aria, 
+               cui ha pagato il tributo il <placeName ref="#DLCL_CF_PC0042">Padre Don Gio. Matteo</placeName> ancor convalescente. 
+               <persName ref="#DLCL_CF_PC0043">Frate Pietro</persName> nè pur’è ben sano. 
+               Il <persName ref="#DLCL_CF_PC0044">Padre Pancaldi</persName> finora regge più degli altri.
+            </p>
+            
+            <p>
+               Si prenda pur cura <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> 
+               di ricuperare la <bibl type="print" ref="#DLCL_CF_BS0011">Scanzia</bibl> del <persName ref="#DLCL_CF_PC0038">Cinelli,</persName> 
+               e la unisca alle altre, osservando se ora il Corpo sia intiero, e come possa legarsi con meno deformità possibile. 
+               Godo che i libri del <persName ref="#DLCL_CF_PC0011">Volpi</persName> siano arrivati. 
+               <bibl type="print" ref="#DLCL_CF_BS0020">Le Satire</bibl> del <persName ref="#DLCL_CF_PC0045">Duca di Bracciano</persName> (se non erro) dovranno segnarsi alla lettera O; 
+               essendo l’Autor di Casa Orsini. 
+               Vegga nell’<bibl type="print" ref="#DLCL_CF_BS0021" cert="unknown">Indice Imperialense.</bibl> 
+               Quando non vi sia, mi avvisi. 
+               Troveremo il nome, e cognome. 
+               Il <bibl type="print"><foreign xml:lang="la">Tomo de Divinis Officiis</foreign></bibl> è stimato assai, per comprendere uniti i Ritualisti; 
+               ed era necessario in quella <bibl type="print">Scanzia.</bibl> 
+               Suppongo che il <bibl type="print">Rodigino</bibl> sia bellissimo. 
+               Il <bibl type="print">Cornelio Tacito</bibl> sarà diverso dall’altro antico, ch’era prima in <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
+               Ordinai per l’uso mio par<pc force="inter">-</pc> 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E1E10008_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/20841/full/562,800/0/default.jpg"/>
+            
+            <p>
+               ticolare il <bibl type="print">Tomai,</bibl> anzi il <persName ref="#DLCL_CF_PC0011">Signor Volpi</persName> ne fece a me dono. 
+               Mi favorisca pertanto riporlo, com’è dovere, tra’ nostri libri. 
+               Anzi avrei caro averlo presso di me. 
+               Lo mandi dunque co’ i tre tomi del <bibl type="print" ref="#DLCL_CF_BS0012">Giornale XVI,</bibl> che già lessi in <placeName ref="#DLCL_CF_L0029">Loreto.</placeName> 
+               Vi aggiunga la <bibl type="print" ref="#DLCL_CF_BS0013">Biblioteca Mariana,</bibl> quando non l’abbia posta in <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
+               Se il <bibl type="print">Tomai</bibl> mandatomi è migliore dell’altro donato dal <persName ref="#DLCL_CF_PC0046">Signor Co. Ippolito,</persName> 
+               ch’era macchiato, lo tenga e faccia legare; e mandi a me l’altro difettoso. 
+               Mandi l’involto a <placeName ref="#DLCL_CF_L0030">Sinigalia</placeName> per mezzo di persona, che vada alla fiera; 
+               e lo raccomandi al <rs type="person">padre Camerlingo,</rs> il quale in ogni caso di non esser’a tempo, potrà inviarlo a <placeName ref="#DLCL_CF_L0003">Pesaro,</placeName> 
+               di dove si trova occasione per <placeName ref="#DLCL_CF_L0028">Perugia.</placeName> 
+               Gli altri libri di <placeName ref="#DLCL_CF_L0023">Foligno</placeName> venuti da <placeName ref="#DLCL_CF_L0003">Pesaro</placeName> furon colà da me osservati; 
+               ma nova avvertii che ve ne fossero degli imperfetti; trattone il <bibl type="print" ref="#DLCL_CF_BS0014 #DLCL_CF_BS0015">Sansovino della Casa Orsina,</bibl> dal quale, 
+               e dall’altro potrà farne comporre uno Tomo intiero. 
+               L’altro <bibl type="print" xml:id="DLCL_CF_E10008_N001">esemplare del Boezio</bibl> del <persName ref="#DLCL_CF_PC0047">Tanzo</persName> 
+               (benché cosa di niun pregio) mi pare lo mettessi tra nostri. 
+               Avrei caro vi fosse. 
+               L’<bibl type="print" ref="#DLCL_CF_BS0016 #DLCL_CF_BS0017">edizione de’ Marmi del Doni</bibl> è intiera? 
+               <bibl type="print" ref="#DLCL_CF_BS0018"><foreign xml:lang="la">De prisca Caesiorum Gente</foreign></bibl> è bellissimo; 
+               e libro rarissimo è la <bibl type="print">Geografia</bibl> del <persName ref="#DLCL_CF_PC0048">Berlinghieri.</persName>
+            </p>
+            
+            <p>
+               Aspetto di <placeName ref="#DLCL_CF_L0008">Roma</placeName> la ristampa dell’<bibl type="print" ref="#DLCL_CF_BS0023">Istoria</bibl> del <persName ref="#DLCL_CF_PC0033">Crescimbeni,</persName> 
+               il quale non vuol rifare i <bibl type="print" ref="#DLCL_CF_BS0022">Commentarii.</bibl>
+               È necessario ritenere anco la prima edizione per confrontarla colla seconda; che io manderò a cotesta <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> 
+               insieme col 3° Tomo delle <bibl type="print" ref="#DLCL_CF_BS0024">Vite degli Arcadi.</bibl> 
+               Sto leggendo la suddetta nuova <bibl type="print" ref="#DLCL_CF_BS0023">Istoria,</bibl> dentro cui sono inserite le tante notizie mandate nell’estate passata, colle stesse parole. 
+               Abbia cura che si leghino bene i <bibl type="print" ref="#DLCL_CF_BS0025">Tomi</bibl> del <persName ref="#DLCL_CF_PC0049">Gamurrini.</persName> 
+               A <persName ref="#DLCL_CF_PC0029">Frate Ferdinando</persName> rimetterò i nove paoli, anzi m’intenderò col <rs type="person">Padre Camerlingo.</rs> 
+               Di man’ in mano che usciranno gli altri <bibl type="print" ref="#DLCL_CF_BS0026">Giornali,</bibl> ne farò costà venir quattro Copie, 
+               una per <placeName ref="#DLCL_CF_L0020">Classe,</placeName> e tre per me. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E1E10008_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/20842/full/573,800/0/default.jpg"/>
+            
+            <p>                        
+               Mi mandi ancora, oltre gli altri, il libretto della <bibl type="print">Traslazione di S. Bartolommeo,</bibl> e i due Tomi della <bibl type="print" ref="#DLCL_CF_BS0027">Biblioteca Critica franzese.</bibl> 
+               Gli altri due (che goderò sian legati) sono un duplicato; e sono mezzo impegnati. 
+               Gli congiunga a’ nostri. 
+               Il <rs type="person">Padre Lettore</rs> mi scrisse intorno agl’<bibl type="manuscript">Indici:</bibl> apprendeva fosse inutile il cominciato. 
+               Sopra ciò gli risposi diffusamente. 
+               Se avrà la bontà di comunicar meco, non sarà che bene. 
+               <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> vada destreggiando; 
+               e ove si tratta di mutazion di sistema in Libreria, vada adagio; e suggerisca il conferire con me, il che gioverà a sostener la carica con decoro. 
+               In verità che in <placeName ref="#DLCL_CF_L0026">Italia</placeName> pochi sono i buoni Bibliotecari, né io ardisco di annoverarmi tra quell’ onorato numero di Persone erudite.
+            </p>
+            
+            <p>
+               Mi è cara la notizia dello sbozzo del musaico richiesto da <persName ref="#DLCL_CF_PC0050">Monsignore Bianchini,</persName> al quale scriverò. 
+               Ma prima vorrei i nomi de’ <rs type="person">quattro Arcivescovi</rs> scritto sopra i lor capi. 
+               Due (se non erro hanno il titolo di <hi rend="underline">Santo</hi>, e due no. 
+               Osservi se intorno il capo hanno altri ornamenti, fuorché le corone pendenti. 
+               Forse converrà far l’osservazione colla scala, non vedendosi ben dabasso i nomi. 
+               Penso inserire io l’emenda di <persName ref="#DLCL_CF_PC0051">Ciampini</persName> nelle Note all’epistole.
+            </p>
+            
+            <p>
+               Ho necessità di aver copia di quel che scrive il <persName ref="#DLCL_CF_PC0052">Dupin</persName> nella sua <bibl type="print">Biblioteca,</bibl> di <persName ref="#DLCL_CF_PC0053">Ricardo di San Lorenzo.</persName> 
+               Me lo mandi subito per carità. 
+               Resto e scandalizzato, e stomacato del <persName ref="#DLCL_CF_PC0004">Marozzi.</persName> 
+               Il <persName ref="#DLCL_CF_PC0007">padre Don Bonifazio</persName> (che saluto <foreign xml:lang="la">toto cordis affectu</foreign>, e cui scriverò l’ordinario appresso) operi con ogni vigore per aver li sei scudi ricavati dal <bibl type="print">Cicerone,</bibl> o un equivalente onorevole, e buono. 
+               Si faccia mandare i <bibl type="print">Canti Carnascialeschi,</bibl> e li riscontri. 
+               Forse li prenderò. 
+               Mi scriva sopra i <bibl>Riti.</bibl> 
+            </p>
+            
+            <closer>
+               <salute>Addio. L’abbraccio, e resto di vero cuore.</salute>
+               <salute>DVPMR</salute> 
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia.</placeName> <date when-iso="1714-07-03">3 luglio 1714</date></dateline> 
+               <salute>Affettuosissimo Servo e Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <postscript>
+               <p>
+                  [Mi mandi ancora i <bibl type="print">due Tomi</bibl> del <persName ref="#DLCL_CF_PC0051">Ciampini,</persName> <bibl type="print">de’ Musaici.</bibl> 
+                  Al <persName ref="#DLCL_CF_PC0054">Padre Lettore Fiori</persName> i miei cordialissimi rispetti. 
+                  Al <persName ref="#DLCL_CF_PC0034">Signor Dottore Veratti</persName> un baciamano. 
+                  Scriverò; e si concluderà il consaputo affare] 
+               </p>
+            </postscript>
+            
+         </div>
+         <div type="notes">
+            <note type="bibliography" resp="#DLCL_CF_PS002" target="DLCL_CF_E10008_N001">
+               Sono cinque le edizioni stampate entro la data della lettera. 
+            </note>
+         </div>
+      </body>
    </text>
 </TEI>

@@ -1,7 +1,9 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10004">
    <facsimile sameAs="https://classense.unibo.it/iiif/20636/manifest">
-      <graphic n="1r" url="https://classense.unibo.it/files/large/20636/DSC_5589.jpg"/>
-      <graphic n="1v" url="https://classense.unibo.it/files/large/20636/DSC_5590.jpg"/>
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/20821/full/584,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/20822/full/570,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/24834/full/579,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/24835/full/567,800/0/default.jpg"/>
    </facsimile>
    <text type="letter" xml:id="DLCL_CF_E10004" n="Canneti a Fiacchi (Ribano, 19 Ottobre 1712)">
       <front>
@@ -10,7 +12,12 @@
                <title xml:lang="it">Canneti a Fiacchi (Ribano, 19 Ottobre 1712)</title>
                <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
             </titleStmt>
-            <publicationStmt><ab></ab></publicationStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
             <seriesStmt>
                <title type="main">Epistolario Canneti Fiacchi</title>
                <title type="subseries" ref="#DLCL_CF_E10">Busta 10</title>
@@ -50,33 +57,43 @@
          <revisionDesc status="created">
             <change when-iso="2024-01-02" who="#DLCL_CF_PS001">creato</change>
             <change when-iso="2024-01-29" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-04-16" who="#DLCL_CF_PS001">riferimenti stampe</change>
+            <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-20" who="#DLCL_CF_PS001">nuove trascrizioni buste</change>
          </revisionDesc>
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10004_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20821/full/584,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10004_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20821/full/584,800/0/default.jpg"/>
             
             <opener>
                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
             </opener>
             
             <p>   
-               Rimando la descrizione della <orgName>libreria</orgName> del <persName ref="#DLCL_CF_PC0016" key="DLCL_CF_PC0016">Padre Abate Pasolini,</persName> ch’è troppo digiuna, e l’altra del <persName ref="#DLCL_CF_PC0027">Padre Don Romualdo,</persName> la quale sfolgoreggia con un lusso troppo superiore a’ <bibl type="print">Lustri Ravennati.</bibl> 
-               La lettura di queste seconda mi ha fatto intendere quanto starebbe bene la pubblicazione del <bibl type="manuscript">nostro Indice;</bibl> colla descrizione della <orgName>Libreria.</orgName> 
+               Rimando la descrizione della <orgName>libreria</orgName> del <persName ref="#DLCL_CF_PC0016" key="DLCL_CF_PC0016">Padre Abate Pasolini,</persName> 
+               ch’è troppo digiuna, e l’altra del <persName ref="#DLCL_CF_PC0027">Padre Don Romualdo,</persName> 
+               la quale sfolgoreggia con un lusso troppo superiore a’ <bibl type="print" ref="#DLCL_CF_BS0004">Lustri Ravennati.</bibl> 
+               La lettura di queste seconda mi ha fatto intendere quanto starebbe bene la pubblicazione del <bibl type="manuscript">nostro Indice;</bibl> 
+               colla descrizione della <orgName>Libreria.</orgName> 
                Quanto alla prima, rimetterò la descrizione al caso, non sapendo a chi più giustamente raccomandare i voli di quella penna istorica. 
-               Solo accennerò che possibile aggiungersi il Coretto della notte, che nel genere suo non è cosa dispreggevole, e la Cassina ora fabbricata vicino al <placeName ref="#DLCL_CF_L0014" key="DLCL_CF_L0014">Cesenatico,</placeName> e la <orgName ref="#DLCL_CF_O0006">chiesa di S. Michele</orgName> da fondamenti eretta tra <placeName ref="#DLCL_CF_L0015">Montiano,</placeName> e <placeName ref="#DLCL_CF_L0009">Cesena,</placeName> e l’altra similmente fatta in <placeName ref="#DLCL_CF_L0021">Pigneta.</placeName> 
+               Solo accennerò che possibile aggiungersi il Coretto della notte, che nel genere suo non è cosa dispreggevole, 
+               e la Cassina ora fabbricata vicino al <placeName ref="#DLCL_CF_L0014" key="DLCL_CF_L0014">Cesenatico,</placeName> 
+               e la <orgName ref="#DLCL_CF_O0006">chiesa di S. Michele</orgName> da fondamenti eretta tra <placeName ref="#DLCL_CF_L0015">Montiano,</placeName> 
+               e <placeName ref="#DLCL_CF_L0009">Cesena,</placeName> e l’altra similmente fatta in <placeName ref="#DLCL_CF_L0021">Pigneta.</placeName> 
                Ma di ciò meglio saprà informare il <rs type="person">Padre Camerlingo.</rs>
             </p>
             
             <p>   
-               Il nuovo Decreto per la Sequenza del <persName ref="#DLCL_CF_PC0017" key="DLCL_CF_PC0017">Padre S. Romualdo</persName> è stato pubblicato con lettera circolare agli Abati dal <rs type="person">Padre Reverendissimo Generale.</rs> 
+               Il nuovo Decreto per la Sequenza del <persName ref="#DLCL_CF_PC0017" key="DLCL_CF_PC0017">Padre S. Romualdo</persName> 
+               è stato pubblicato con lettera circolare agli Abati dal <rs type="person">Padre Reverendissimo Generale.</rs> 
                Però non è necessario inserirlo nelle nostre stampe del <bibl type="religious">Calendario.</bibl> 
                Pure, se vuole <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> metterlo in fine, ove vi avvanzi luogo, a lei ne lascio la libertà. 
                Della Sequenza ne avrà copia il <rs type="person">Padre Priore.</rs> 
                Se vi rimane carta bianca, ancor essa può aggiungersi dopo il Decreto. 
             </p>
             
-            <pb xml:id="DLCL_CF_E10004_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20822/full/570,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10004_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20822/full/570,800/0/default.jpg"/>
             
             <p>
                Riceva il viaggio di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> a <placeName ref="#DLCL_CF_L0016">Bagnacavallo</placeName> il merito della santa ubbidienza, col quale vada pure ad accompagnare <persName ref="#DLCL_CF_PC0028">Don Germano,</persName> al quale senza tal compagnia non gliene darei la licenza. 
@@ -85,32 +102,61 @@
             </p>
             
             <p>
-               Avanti di partire, trovi nel nostro Camerone il <bibl type="print">Castellano</bibl> in 4to, che mi mando da supplire il Signore Canonico Teologo <persName ref="#DLCL_CF_PC0018" key="DLCL_CF_PC0018">Filippo Rondinini;</persName> 
+               Avanti di partire, trovi nel nostro Camerone il <bibl type="print">Castellano</bibl> in 4to, che mi mando da supplire 
+               il Signore Canonico Teologo <persName ref="#DLCL_CF_PC0018" key="DLCL_CF_PC0018">Filippo Rondinini;</persName> 
                e lo mandi al detto Signore a <placeName ref="#DLCL_CF_L0005" key="DLCL_CF_L0005">Faenza,</placeName> accompagnandolo con breve lettera, 
-               nella quale esprima dove sia il <orgName ref="#DLCL_CF_O0004" key="DLCL_CF_O0004">Vescovato <hi rend="underline">Cariatense</hi></orgName> in <placeName ref="#DLCL_CF_L0026">Italia;</placeName> 
+               nella quale esprima dove sia il <orgName ref="#DLCL_CF_O0004" key="DLCL_CF_O0004">Vescovato <hi rend="underline">Cariatense</hi></orgName> 
+               in <placeName ref="#DLCL_CF_L0026">Italia;</placeName> 
                al quale esso <persName ref="#DLCL_CF_PC0019" key="DLCL_CF_PC0019">Castellani</persName> fu eletto. 
-               Lo troverà nel <bibl type="print">Baudrand,</bibl> e sarà nell’<bibl type="print">Ughelli</bibl> il quale forse non ne farà menzione, perché stimo non ne andasse in possesso. 
+               Lo troverà nel <bibl type="print">Baudrand,</bibl> e sarà nell’<bibl type="print" ref="#DLCL_CF_BS0005">Ughelli</bibl> il quale forse non ne farà menzione, 
+               perché stimo non ne andasse in possesso. 
                Resto di vero cuore confermandomi. 
             </p>
             
             <closer>
-               <dateline><placeName ref="#DLCL_CF_L0006" key="DLCL_CF_L0006">Ribano</placeName> <date when-iso="1712-11-19"> 19 novembre 1712</date></dateline>. 
-               <salute>DVP, che saluti caramente <persName ref="#DLCL_CF_PC0007">Don Bonifazio,</persName> cui mando la Copia del <bibl type="print">Quadriregio</bibl></salute>. 
-               Potrà impiegarvi intorno qualche ora alla <placeName ref="#DLCL_CF_L0022">Ragazina.</placeName> 
-               <salute>Un cordialissimo saluto al <persName ref="#DLCL_CF_PC0027">Padre Don Romualdo,</persName> cui risponderò per la posta</salute>. 
-               Mando la sua Relazione. 
-               <salute>Affettuosissimo Padre nel Signore</salute> 
-               <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti.</persName></signed>  
+               <dateline><placeName ref="#DLCL_CF_L0006" key="DLCL_CF_L0006">Ribano</placeName> <date when-iso="1712-11-19">19 novembre 1712</date></dateline>. 
+               <salute>DVP,</salute> 
             </closer>
             
             <postscript>
                <p>
-                  Per gli abiti degl’Imperadori, e Imperatrici d’Oriente si può veder certa raccolta di rami sul principio del primo tomo del <bibl type="print">Glossario</bibl> del <persName ref="#DLCL_CF_PC0022" key="DLCL_CF_PC0022">Du-Cange,</persName> e forse la <bibl type="print">storia Bizantina</bibl> dello stesso <rs type="person">Autore.</rs> 
+                  che saluti caramente <persName ref="#DLCL_CF_PC0007">Don Bonifazio,</persName> cui mando la Copia del <bibl type="print">Quadriregio.</bibl> 
+                  Potrà impiegarvi intorno qualche ora alla <placeName ref="#DLCL_CF_L0022">Ragazina.</placeName> 
+                  Un cordialissimo saluto al <persName ref="#DLCL_CF_PC0027">Padre Don Romualdo,</persName> cui risponderò per la posta. 
+                  Mando la sua Relazione. 
+               </p>
+            </postscript>
+            
+            <closer>
+               <salute>Affettuosissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti.</persName></signed> 
+            </closer>
+            
+            <postscript>
+               <p>
+                  Per gli abiti degl’Imperadori, e Imperatrici d’Oriente si può veder certa raccolta di rami sul principio del primo tomo 
+                  del <bibl type="print" ref="#DLCL_CF_BS0006">Glossario</bibl> del <persName ref="#DLCL_CF_PC0022" key="DLCL_CF_PC0022">Du-Cange,</persName> 
+                  e forse la <bibl type="print" ref="#DLCL_CF_BS0007 #DLCL_CF_BS0008">storia Bizantina</bibl> dello stesso <rs type="person">Autore.</rs> 
                   Per gli vescovi greci si vedano i <bibl type="print">tomi di S. Epifanio e di S. Atanasio.</bibl> 
                   Per la Sibilla Tiburtina, i Rami delle St<gap reason="lost"/>[...]
                </p>
             </postscript>
             
+            <pb xml:id="DLCL_CF_E10004_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/24834/full/579,800/0/default.jpg"/>
+            
+            <pb xml:id="DLCL_CF_E10004_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/24835/full/567,800/0/default.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+               </p>
+               <p>
+                  <hi rend="underline">Con un involtino</hi>
+               </p>
+               <p>
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
          </div>
       </body>
    </text>

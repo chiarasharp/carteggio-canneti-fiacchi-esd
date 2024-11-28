@@ -993,23 +993,25 @@
       <occupation>papa</occupation>
       <occupation>vescovo</occupation>
    </person>
-   <person xml:id="DLCL_CF_PC0066" sameAs="http://viaf.org/viaf/4922159337540213150009">
+   <person xml:id="DLCL_CF_PC0066" sameAs="http://viaf.org/viaf/15617588">
       <persName xml:lang="it">
-         <forename>Mario</forename>
+         <roleName>Cavaliere</roleName>
+         <forename>Paolo</forename>
+         <forename>Alessandro</forename>
          <surname>Maffei</surname>
-         <surname>di Volterra</surname>
       </persName>
-      <idno type="VIAF">4922159337540213150009</idno>
-      <birth source="https://www.treccani.it/enciclopedia/mario-maffei_(Dizionario-Biografico)/">
-         <date when-iso="1463"/>
-         <placeName ref="#DLCL_CF_L0008">Roma</placeName>
-      </birth>
-      <death source="https://www.treccani.it/enciclopedia/mario-maffei_(Dizionario-Biografico)/">
-         <date when-iso="1537-06-24"/>
+      <idno type="VIAF">15617588</idno>
+      <birth source="https://it.wikipedia.org/wiki/Paolo_Alessandro_Maffei">
+         <date when-iso="1653-01-11"/>
          <placeName ref="https://www.geonames.org/3163962">Volterra</placeName>
+      </birth>
+      <death source="https://it.wikipedia.org/wiki/Paolo_Alessandro_Maffei">
+         <date when-iso="1716-07-26"/>
+         <placeName ref="#DLCL_CF_L0008">Roma</placeName>
       </death>
       <sex value="m"/>
-      <occupation>cardinale</occupation>
+      <occupation>antiquario</occupation>
+      <occupation>scrittore</occupation>
    </person>
    <person xml:id="DLCL_CF_PC0067" sameAs="http://viaf.org/viaf/101126782">
       <persName xml:lang="it">
@@ -2369,7 +2371,7 @@
       <sex value="m"/>
    </person>
    <person xml:id="DLCL_CF_PC0170" sameAs="http://viaf.org/viaf/34600990">
-      <persName xml:lang="fr">
+      <persName xml:lang="nl">
          <forename>Jan</forename>
          <surname>Vermeulen</surname>
          <surname type="pseudonym" xml:lang="it">Molano</surname>
@@ -2573,11 +2575,22 @@
       <sex value="m"/>
       <occupation>autore</occupation>
    </person>
-   <person xml:id="DLCL_CF_PC0189">
+   <person xml:id="DLCL_CF_PC0189" sameAs="http://viaf.org/viaf/59520702">
       <persName xml:lang="it">
+         <forename>Giuseppe</forename>
          <surname>Lanzoni</surname>
       </persName>
+      <idno type="VIAF">59520702</idno>
+      <birth source="https://www.treccani.it/enciclopedia/giuseppe-lanzoni_(Enciclopedia-Italiana)/">
+         <date when-iso="1665-10-29"/>
+         <placeName ref="#DLCL_CF_L0013">Ferrara</placeName>
+      </birth>
+      <death source="https://www.treccani.it/enciclopedia/giuseppe-lanzoni_(Enciclopedia-Italiana)/">
+         <date when-iso="1730-01-01"/>
+         <placeName ref="#DLCL_CF_L0013">Ferrara</placeName>
+      </death>
       <sex value="m"/>
+      <occupation>medico</occupation>
    </person>
    <person xml:id="DLCL_CF_PC0190" sameAs="http://viaf.org/viaf/49226033">
       <persName xml:lang="ch">
@@ -11188,5 +11201,5 @@
       </persName>
       <sex value="m"/>
       <occupation>tipografo</occupation>
-   </person> 
+   </person>
 </listPerson>

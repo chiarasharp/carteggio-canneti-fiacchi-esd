@@ -1,0 +1,320 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10067">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20699/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21165/full/595,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21166/full/618,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21167/full/595,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25091/full/614,800/0/default.jpg"/>
+   </facsimile>
+   <facsimile sameAs="https://classense.unibo.it/iiif/20700/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21168/full/590,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/24768/full/618,800/0/default.jpg"/>
+   </facsimile>
+   <text>  
+      <group>
+         <text type="letter" xml:id="DLCL_CF_E10067_L" n="Canneti a Fiacchi (31 Gennaio/1 Febbraio 1718) - Lettera">
+            <front>
+               <fileDesc>
+                  <titleStmt>
+                     <title xml:lang="it">Canneti a Fiacchi (31 Gennaio/1 Febbraio 1718)</title>
+                     <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+                  </titleStmt>
+                  <publicationStmt>
+                     <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+                     <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                     </availability>
+                  </publicationStmt>
+                  <seriesStmt>
+                     <title type="main">Epistolario Canneti Fiacchi</title>
+                     <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+                     <biblScope unit="letter">67</biblScope>
+                  </seriesStmt>
+                  <sourceDesc>
+                     <msDesc>
+                        <msIdentifier>
+                           <country key="IT">Italia</country>
+                           <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                           <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                           <repository></repository>
+                           <collection></collection>
+                           <idno></idno>
+                           <altIdentifier>
+                              <idno></idno>
+                           </altIdentifier>
+                        </msIdentifier>
+                     </msDesc>
+                  </sourceDesc>
+               </fileDesc>
+               <profileDesc>
+                  <correspDesc>
+                     <correspAction type="sent">
+                        <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                        <date from-iso="1718-01-31" to-iso="1718-02-01"/>
+                     </correspAction>
+                     <correspAction type="received">
+                        <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+                     </correspAction>
+                  </correspDesc>
+                  <langUsage>
+                     <language ident="it"/>
+                     <language ident="la"/>
+                  </langUsage>
+                  <settingDesc>
+                     <xi:include href="../../entities/places.xml"/>
+                  </settingDesc>
+                  <particDesc>
+                     <xi:include href="../../entities/people/cited-people.xml"/>
+                     <xi:include href="../../entities/people/staff.xml"/>
+                     <xi:include href="../../entities/orgs.xml"/>
+                  </particDesc>
+               </profileDesc>
+               <revisionDesc status="created">
+                  <change when-iso="2024-07-09" who="#DLCL_CF_PS001">creato</change>
+                  <change when-iso="2024-09-13" who="#DLCL_CF_PS001">correzioni</change>
+                  <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
+               </revisionDesc>
+            </front>
+            <body>
+               <div type="transcription">
+                  <pb xml:id="DLCL_CF_E10067_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/21165/full/595,800/0/default.jpg"/>
+                  
+                  <opener>
+                     <salute><persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Carissimo</salute>
+                     <dateline>[scritta sù l’ultimo di Gennajo o 'l principio di Febbrajo del 1718 <del rend="overstrike">il mezzo di Febbrajo del 1718</del>]</dateline>
+                  </opener>
+                  
+                  <p>
+                     Io non curo punto saper quel che mediti il <persName ref="#DLCL_CF_PC0436">Padre Laderchi,</persName> 
+                     e lascio bel volentieri questo pensiero al <persName ref="#DLCL_CF_PC0054">Padre Lettore Fiori.</persName> 
+                     Conferiscano essi tra loro i proprj studj, e si facciano onore colla dottrina, coll’erudizione, e con l’eloquenza. 
+                     Io scrissi intorno a ciò, ed era dispostissimo a scrivere altre lettere, finché si fosse posta al buon lume della verità la Storia dell’<persName ref="#DLCL_CF_PC0435">Argiride,</persName> 
+                     che parmi guasta sì appresso il <persName ref="#DLCL_CF_PC0342">Papebrochio,</persName> 
+                     come il <persName ref="#DLCL_CF_PC0129">Mabillone</persName> nella famosa <bibl type="print">epistola del culto de’ Santi Ignoti.</bibl> 
+                     E mio fine era che <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> si facesse onore, 
+                     e da <orgName ref="#DLCL_CF_O0005 #DLCL_CF_O0001" cert="unknown">Classe</orgName> uscissero notizie abili a reggere a cappella. 
+                     Per altro non vo’ entrarvi, né mi vo’ impicciare con certi spiriti, i quali si regolano con massime, e studiano con principj diversi dagli altri. 
+                  </p>
+                  
+                  <p>
+                     Il <persName ref="#DLCL_CF_PC0468">Signor Abate Salvino Salvini</persName> ne’ <bibl type="print">Fasti Consolari dell’Accademia Fiorentina</bibl> 
+                     alla pagina 287 all’anno 1588 ci dà piene notizie di <persName ref="#DLCL_CF_PC0261">Piero Angeli</persName> Consolo <del rend="overstrike">X</del> LXI. 
+                     Tralle altre cose, alla seguente pagina 288 scrive così = 
+                     <cit>
+                        <quote>
+                           Ma perché a dipignere al vivo un così gran Letterato non è la penna mia sufficiente, io mi servirò della sua propria; 
+                           registrando qui la sua vita, siccome fu da lui medesimo latinamente scritta; la quale servirà in questo luogo e a pascere con lauta, e non più comparsa imbandigione l’erudito Lettore, 
+                           e ad iscemare in parte lo sbigottimento, che giustamente mi nasce in dover parlare di lui. 
+                           Di una gioia così rara ne sono stato cortesemente favorito 
+                        </quote>
+                     </cit>
+                  </p>
+                  
+                  <pb xml:id="DLCL_CF_E10067_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/21166/full/618,800/0/default.jpg"/>
+                  
+                  <p>
+                     <cit>
+                        <quote>
+                           dal <persName ref="#DLCL_CF_PC0526">Cavalier Vincenzio Aulla</persName> eruditissimo Gentiluomo Pisano, e Lettore di Legge nello Studio della sua Patria, 
+                           il quale la detta <bibl type="manuscript">Vita Manoscritta</bibl> conserva, pervenutagli, 
+                           come egli mi afferma, insieme con altre Opere stampate dal <persName ref="#DLCL_CF_PC0261">Bargeo,</persName> e di sua mano postillate. 
+                           <foreign xml:lang="la">Barga opidum est</foreign>
+                        </quote>
+                     </cit>
+                     = Fin quì il <persName ref="#DLCL_CF_PC0468">Salvini</persName> più Giovane. 
+                     Onde ben vede <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> che altra copia era di questa Vita in <placeName ref="#DLCL_CF_L0075">Pisa</placeName> 
+                     donde io ebbi cotesto <bibl type="manuscript">Manoscritto</bibl> di <orgName ref="#DLCL_CF_O0005 #DLCL_CF_O0001" cert="unknown">Classe,</orgName> il quale né più né meno deesi avere in pregio, 
+                     e in conto di rara gioia, quantunque non sia unica, siccome né pure unica è quella del <persName ref="#DLCL_CF_PC0526">Signor Cavaliere Aulla.</persName> 
+                     Mi è venuto alle mani l’<bibl type="manuscript">Indice</bibl> imperfetto di cotesti Codici a penna. 
+                     Voglio che lo finiamo: ed ella lo avrà. 
+                     Frattanto mi dia più distinto, e sicuro ragguaglio de’ <bibl type="manuscript">Manoscritti</bibl> di <persName ref="#DLCL_CF_PC0261">Piero Angelio,</persName> 
+                     e di <persName>Antonio.</persName>
+                  </p>
+                  
+                  <p>
+                     Della <bibl type="print">Coltivazione</bibl> dell’<persName ref="#DLCL_CF_PC0527">Alamanni</persName> vorrei saper quante edizioni si trovano costì, e che altro vada congiunto con quell’operetta veramente egregia, 
+                     e degna della nuova vita che se le và preparando da nostri Volpi di <placeName ref="#DLCL_CF_L0010">Padova.</placeName> 
+                  </p>
+                  
+                  <p>
+                     L’involto di <placeName ref="#DLCL_CF_L0001">Cremona,</placeName> che aspetta il <persName ref="#DLCL_CF_PC0006">Padre Amici</persName> conterrà, 
+                     se non m’inganno, i <bibl type="print">due Tomi</bibl> del <persName ref="#DLCL_CF_PC0423">Capra.</persName> 
+                     Di questi Sabbato scriverò a <placeName ref="#DLCL_CF_L0001">Cremona,</placeName> 
+                     perché, se non sono già per altra via spediti, si consegnino al <persName ref="#DLCL_CF_PC0528">Padre Binda.</persName> 
+                     Ma in qualunque modo arrivino costà, e per qualunque mezzo, ella fermi costì i libri, 
+                     gli riponga tra gli altri nostri, e non li lasci passare a <placeName ref="#DLCL_CF_L0028">Perugia,</placeName> ove ad altro ho da attendere, che all’architettura. 
+                     Scriverò eziandio al <persName ref="#DLCL_CF_PC0529">Signor Conte Vincenzo Piazza</persName> per il <bibl type="print">Tomo ultimo</bibl> del <persName ref="#DLCL_CF_PC0530">Padre Pedrusi,</persName> 
+                     e per certa <bibl type="print">Operetta di difesa contra i Giornalisti.</bibl> 
+                  </p>
+                  
+                  <pb xml:id="DLCL_CF_E10067_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/21167/full/595,800/0/default.jpg"/>
+                  
+                  <p>
+                     Mi rallegro delli <bibl type="print">due Valemburch.</bibl> 
+                     Al <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina</persName> scrissi non sò che da dire a <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità.</rs> 
+                     Ne aspetto risposta. 
+                     Parmi avere scritto che di <persName ref="#DLCL_CF_PC0252">Giovanni Malpaghini</persName> Ravennate Lettore già, 
+                     e Interprete di <persName ref="#DLCL_CF_PC0233">Dante</persName> nello <orgName ref="#DLCL_CF_O0081">Studio Fiorentino</orgName> 
+                     ha fatta scoperta il <persName ref="#DLCL_CF_PC0468">Salvini</persName> medesimo nella <bibl type="print">Prefazione de’ Fasti Consolari.</bibl> 
+                     Egli s’immagina che sia lo stesso che il famoso <persName ref="#DLCL_CF_PC0251">Giovanni Gramatico</persName> Ravennate; 
+                     ma io penso diversamente e credo che s’inganni, figurandomi che siano due Dotti, e Valenti Uomini diversi. 
+                  </p>
+                  
+                  <p>
+                     [Se] rimangono costì libri duplicati da esitare, me ne dia contezza. 
+                     Caso che mi riuscisse, come vado tentando, acquistare il nobilissimo <bibl type="print">Corpo</bibl> del <persName ref="#DLCL_CF_PC0531">Lipsio</persName> 
+                     in folio <bibl type="print">Tomi 6</bibl> d’<placeName ref="#DLCL_CF_L0032">Anversa,</placeName> 
+                     si troverebbe modo di vendere a denaro contante cotesto in <bibl type="print">due Volumi</bibl> di <placeName ref="#DLCL_CF_L0044">Lione,</placeName> 
+                     e il <bibl type="print">Tomo</bibl> del <persName ref="#DLCL_CF_PC0532">Tacito,</persName> il quale sarebbe dentro al corpo accennato? 
+                     E quanto se ne potrebbe ricavare? 
+                     Io non crederei dovessero darsi per meno di sette scudi. 
+                  </p>
+                  
+                  <p>
+                     [Ve]da di fare una colletta per comprare il <bibl type="print">Tomo 5° degli Annali</bibl> del <persName ref="#DLCL_CF_PC0129">Mabillone.</persName> 
+                     Vi applichi da vero. 
+                     Col tempo non si troverà. 
+                  </p>
+                  
+                  <p>
+                     In tempo di Quaresima suol’essere proprio per lo studio de’ Casi di Coscienza. 
+                     Con tuttociò girano in questo tempo per <placeName ref="#DLCL_CF_L0028">Perugia</placeName> certi Casi, che paiono da Carnevale e in vero son peggiori d’una Satira. 
+                  </p>
+                  
+                  <closer>
+                     <salute>Resto con abbracciarla caramente.</salute>
+                     <salute>DVPMR.</salute>
+                     <salute>Cordialissimo Servitore Affettuosissimo Padre nel Signore</salute> 
+                     <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+                  </closer>            
+                  
+                  <pb xml:id="DLCL_CF_E10067_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/25091/full/614,800/0/default.jpg"/>
+                  
+                  <postscript>
+                     <p>
+                        Al Molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                        <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+                     </p>
+                  </postscript>
+               </div>
+            </body>
+         </text>
+         <text type="attachment" xml:id="DLCL_CF_E10067_A01" n="Canneti a Fiacchi (31 Gennaio/1 Febbraio 1718) - Allegato 1">
+            <front>
+               <fileDesc>
+                  <titleStmt>
+                     <title xml:lang="it">Canneti a Fiacchi (31 Gennaio/1 Febbraio 1718)</title>
+                     <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+                  </titleStmt>
+                  <publicationStmt>
+                     <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+                     <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                     </availability>
+                  </publicationStmt>
+                  <seriesStmt>
+                     <title type="main">Epistolario Canneti Fiacchi</title>
+                     <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+                     <biblScope unit="letter">67</biblScope>
+                  </seriesStmt>
+                  <sourceDesc>
+                     <msDesc>
+                        <msIdentifier>
+                           <country key="IT">Italia</country>
+                           <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                           <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                           <repository></repository>
+                           <collection></collection>
+                           <idno></idno>
+                           <altIdentifier>
+                              <idno></idno>
+                           </altIdentifier>
+                        </msIdentifier>
+                     </msDesc>
+                  </sourceDesc>
+               </fileDesc>
+               <profileDesc>
+                  <correspDesc>
+                     <correspAction type="sent">
+                        <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                        <date from-iso="1718-01-31" to-iso="1718-02-01"/>
+                     </correspAction>
+                     <correspAction type="received">
+                        <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+                     </correspAction>
+                  </correspDesc>
+                  <langUsage>
+                     <language ident="it"/>
+                     <language ident="la"/>
+                  </langUsage>
+                  <settingDesc>
+                     <xi:include href="../../entities/places.xml"/>
+                  </settingDesc>
+                  <particDesc>
+                     <xi:include href="../../entities/people/cited-people.xml"/>
+                     <xi:include href="../../entities/people/staff.xml"/>
+                     <xi:include href="../../entities/orgs.xml"/>
+                  </particDesc>
+               </profileDesc>
+               <revisionDesc status="created">
+                  <change when-iso="2024-07-09" who="#DLCL_CF_PS001">creato</change>
+                  <change when-iso="2024-09-13" who="#DLCL_CF_PS001">correzioni</change>
+                  <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
+               </revisionDesc>
+            </front>
+            <body>
+               <div type="transcription">
+                  <pb xml:id="DLCL_CF_E10067_A01_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/21168/full/590,800/0/default.jpg"/>
+                  
+                  <p>
+                     Casus resolvendi a Reverendis Patribus Theologis
+                  </p>
+                  
+                  <p>
+                     Primus Casus
+                  </p>
+                  
+                  <p>
+                     <rs type="person">Pater Vitellescus</rs> e societate Iesu in Oratione habita de Annulo <del rend="overstrike">B</del>MV 
+                     in <orgName ref="#DLCL_CF_O0082">Cathedrali Perusina,</orgName> die festo Responsationis eiusdem: 
+                     fabulas plurimas historicae veritati, ac Traditioni discordes, fuit commentus. 
+                     Quaeritur, an peccatum mortale commiserit.
+                  </p>
+                  
+                  <p>
+                     Secundus Casus
+                  </p>
+                  
+                  <p>
+                     Idem inanis gloriae vento nimium distentus: plenis buccis, atque ore rotundo, gravia mendacia in laudem Sancti Annuli, Populique auscultantis: 
+                     et è contra in Sanctae Domus Lauretanae vilitatem, procaciter, inepte, ne dicam impie, eructavit. 
+                     Quaeritur, quae, et quot peccata commiserit.
+                  </p>
+                  
+                  <p>
+                     Tertius Casus
+                  </p>
+                  
+                  <p>
+                     Idem in Oratione constanter asserendo, <rs type="person">Populum Perusinum</rs> et sacrum Annulum, spiritualem affinitatem contraxisse cum Sanctissima Triade: 
+                     adeoque eosdem Gratiae divinae thesauros assecutum, ac Deiparam. 
+                     Quaeritur, num, nota saltem temeritatis pungendus videatur. 
+                  </p>
+                  
+                  <p>
+                     Quartus Casus
+                  </p>
+                  
+                  <p>
+                     Priores, sive Administratores Societatis Annuli, qui ex Testamento expendere debent in solemnitate eiusdem Sanctae Reliquiae summam scutorum 40; 
+                     pro mercede praedictae Orationis, dimidiatam (ut fertur) pecuniae quantitatem in Jesuitam erogarunt. 
+                     Quaeritur, an contrafecerint piae Testatoris intentioni; et sua Reverentia teneatur ad restitutionem stipendij male percepti.
+                  </p>
+                  
+                  <pb xml:id="DLCL_CF_E10067_A01_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/24768/full/618,800/0/default.jpg"/>
+                  
+               </div>
+            </body>
+         </text>
+      </group>
+   </text> 
+</TEI>

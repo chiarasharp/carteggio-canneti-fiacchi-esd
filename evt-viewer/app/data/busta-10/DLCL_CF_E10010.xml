@@ -1,0 +1,124 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10010">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20642/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/20849/full/586,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/20850/full/579,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10010" n="Canneti a Fiacchi">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">10</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-01-25" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-01-29" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-21" who="#DLCL_CF_PS001">stampe</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10010_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20849/full/586,800/0/default.jpg"/>
+            
+            <opener>
+               <salute><persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Amatissimo</salute>
+            </opener>
+            
+            <p>
+               <gap reason="illegible"/>[...] l’altra dell’ordinario passato, nel rivedere i nostri libri, trovo tra essi le <bibl type="print" ref="#DLCL_CF_BS0043">Vite de’ Pittori Antichi</bibl> del <persName ref="#DLCL_CF_PC0070">Dati.</persName> 
+               Ma di due tometti in 12 delle <bibl type="print" ref="#DLCL_CF_BS0044" cert="unknown">lettere di M. Simon in franzese,</bibl> non trovo che quello legato alla franzese, un altro in rustico sarà restato costi. 
+               E se è così, me lo mandi; insieme colle <bibl type="print" ref="#DLCL_CF_BS0011">Scanzie</bibl> del <persName ref="#DLCL_CF_PC0038">Cinelli</persName> tutte; 
+               alle quali aggiunga sei copie della <bibl type="print" ref="#DLCL_CF_BS0045">Scanzia IX;</bibl> se non erro, dedicata a me; 
+               e altrettante della <bibl type="print" ref="#DLCL_CF_BS0046">VI,</bibl> o altra che sia dedicata al <persName ref="#DLCL_CF_PC0071">Cavaliere Mandosio.</persName> 
+               Vi metta altresì le <bibl type="print" ref="#DLCL_CF_BS0047">Lezioni</bibl> del <persName ref="#DLCL_CF_PC0050">Bianchini,</persName> 
+               e un libro in 12 legato alla franzese intitolato <bibl type="print" ref="#DLCL_CF_BS0048 #DLCL_CF_BS0049" cert="unknown"><foreign xml:lang="fr">Moynes empruntez</foreign></bibl> 
+               e il <bibl type="print" ref="#DLCL_CF_BS0050">Lattanzio Firmiano</bibl> del <rs type="person">Cellario</rs> in 8.
+            </p>
+            
+            <p>
+               <gap reason="illegible"/>L’altra sera ebbi da <placeName ref="#DLCL_CF_L0008">Roma</placeName> il libro del <persName ref="#DLCL_CF_PC0072" cert="medium">Cecchini</persName> scritto con maravigliosa eleganza, e colla solita protesta degl’Ignoranti, che non fan caso delle parole, ma della dottrina. 
+               Non l’ho ancora letto. 
+               Or capisco quel, che ultimamente mi fu scritto da <placeName ref="#DLCL_CF_L0031">Comacchio,</placeName> 
+               cioè il <persName ref="#DLCL_CF_PC0073">Brunori Giovane</persName> aver colà portata nuova che in <placeName ref="#DLCL_CF_L0002">Ravenna</placeName> si faceva una risposta sull’aria di quella del <persName ref="#DLCL_CF_PC0074">Bertini</persName> al <persName ref="#DLCL_CF_PC0075">Lucardesi.</persName> 
+               Cotesto Maraviglia è uomo da ciò; e <persName ref="#DLCL_CF_PC0072" cert="medium">Cecchini</persName> ne ha tutto 'l merito. Intanto            
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10010_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20850/full/579,800/0/default.jpg"/>
+            
+            <p>
+               si avverta che lo <persName ref="#DLCL_CF_PC0076">Stellato</persName> Poeta addotto dal <persName ref="#DLCL_CF_PC0072" cert="medium">Cecchini</persName> è uno scrittore degli Antipodi. 
+               <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> lo troverà tra Poeti <gap reason="illegible"/>[...] in <orgName ref="#DLCL_CF_O0001">Libreria</orgName> = <bibl type="print" ref="#DLCL_CF_BS0051"><foreign xml:lang="la">Marcelli Palingenii Stellati Zodiacus C<gap reason="illegible"/>[...] Amstelodami</foreign>,</bibl> in 16 tutto dorato, ed è proibito; 
+               e <gap reason="illegible"/>[...] si per lo più il <persName ref="#DLCL_CF_PC0076">Palingenio.</persName> 
+               Né avverta il buon M<gap reason="illegible"/>[...].
+            </p>
+            
+            <p>
+               Ho trovata un’altra lettera di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità,</rs> in ordine alla quale; <gap reason="illegible"/>[...] la <bibl type="print" ref="#DLCL_CF_BS0052" cert="unknown">Difesa</bibl> del <persName ref="#DLCL_CF_PC0077">Nigrisoli,</persName> con l’opera che vi si difende, p<gap reason="illegible"/>[…]domi non averla messa in <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
+               Ho bisogno di dar <gap reason="illegible"/>[...] 'a <rs type="person">Medici</rs> più studiosi, che qui mi favoriscono di continuo <gap reason="illegible"/>[...]vo in quest’ordinario al <persName ref="#DLCL_CF_PC0078">Padre M. Capelli.</persName> 
+               L’Orazione de <gap reason="illegible"/>[...]razza è tale, che mi ha fatto alzare affari in alto il <gap reason="illegible"/>[...] del medesimo. 
+               Aspetto l’<bibl type="print">Opuscolo dell’Imitazione</bibl><gap reason="illegible"/>[...].
+            </p>
+            
+            <p>
+               Sopra le <bibl type="religious">Rubriche;</bibl> i <bibl type="print">Decreti della Congregazione de’ Riti</bibl> fanno a’<gap reason="illegible"/>[...] tra loro. 
+               Di <persName ref="#DLCL_CF_PC0079">S. Gio. di Dio</persName> non sò qual <bibl type="religious">messa</bibl> sia assegnata. 
+               <gap reason="illegible"/>[...] <rs type="person">Olivetani</rs> han qui stampato un <bibl type="religious">Calendario</bibl> per tre <gap reason="illegible"/>[...] 
+               e han tralasciato (né so perché) <rs type="person" ref="#DLCL_CF_PC0079">questo Santo.</rs> 
+               Del co<gap reason="illegible"/>[...] paonazzo usato da’ <rs type="person">Vescovi,</rs> 
+               e altri <rs type="person">Prelati</rs> nelle M<gap reason="illegible"/>[...] di Requiem, altra ragione non può assegnarsi, 
+               che la <gap reason="illegible"/>[...]tudine, contraria alle <bibl type="religious">Rubriche,</bibl> e <bibl type="religious">Ceremoniale.</bibl> 
+            </p>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -11,32 +11,37 @@
             <author ref="#DLCL_CF_PC0001">Pietro Canneti</author>
             <author ref="#DLCL_CF_PC0002">Mariangelo Fiacchi</author>
             <respStmt>
-               <resp>Transcription</resp>
-               <persName></persName>
-               <persName></persName>
-               <persName></persName>
+               <resp xml:lang="en">Transcription</resp>
+               <persName>Bianca Sorbara</persName>
+               <persName>Dott.ssa Silvia Tripodi</persName>
+               <persName>Prof.ssa Elisa Bianchi</persName>
             </respStmt>
             <respStmt>
-               <resp>Marking</resp>
+               <resp xml:lang="en">Marking</resp>
                <persName ref="#DLCL_CF_PS001">Chiara Manca</persName>
             </respStmt>
             <respStmt>
-               <resp>Edited</resp>
-               <persName></persName>
+               <resp xml:lang="en">Editing</resp>
+               <persName>Prof.ssa Fiammetta Sabba</persName>
+            </respStmt>
+            <respStmt>
+               <resp xml:lang="en">Other</resp>
+               <persName>Vittorio Davide Bionda</persName>
+               <persName>Danilo Casiddu</persName>
+               <persName>Arianna Collari</persName>
+               <persName>Simone Lonati</persName>
+               <persName>Marco Antonio Lugnan</persName>
+               <persName>Francesca Nepori</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher></publisher>
-            <pubPlace ref="#DLCL_CF_L002">Ravenna</pubPlace>
-            <date></date>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
             <availability>
                <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
             </availability>
          </publicationStmt>
          <seriesStmt>
             <title type="main">Epistolario Canneti Fiacchi</title>
-            <title type="genre">Lettere</title>
-            <idno type="ISSN"></idno>
          </seriesStmt>
          <sourceDesc>
             <msDesc>
@@ -44,12 +49,6 @@
                   <country key="IT">Italia</country>
                   <settlement ref="#DLCL_CF_L0002">Ravenna</settlement>
                   <institution ref="#DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                  <repository></repository>
-                  <collection></collection>
-                  <idno></idno>
-                  <altIdentifier>
-                     <idno></idno>
-                  </altIdentifier>
                </msIdentifier>
             </msDesc>
             <xi:include href="entities/people/cited-people.xml"/>
@@ -70,7 +69,8 @@
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language ident="IT"/>
+            <language ident="it"/>
+            <language ident="la"/>
          </langUsage>
       </profileDesc>
       <revisionDesc status="unfinished">
@@ -78,7 +78,7 @@
       </revisionDesc>
    </teiHeader>
    <milestone xml:id="DLCL_CF_E10" unit="busta" n="10"/>
-   <xi:include href="busta-10/DLCL_CF_E10001.xml"/>
+    <xi:include href="busta-10/DLCL_CF_E10001.xml"/>
    <xi:include href="busta-10/DLCL_CF_E10002.xml"/>
    <xi:include href="busta-10/DLCL_CF_E10003.xml"/>
    <xi:include href="busta-10/DLCL_CF_E10004.xml"/>
@@ -87,6 +87,9 @@
    <xi:include href="busta-10/DLCL_CF_E10007.xml"/>
    <xi:include href="busta-10/DLCL_CF_E10008.xml"/>
    <xi:include href="busta-10/DLCL_CF_E10009.xml"/>
+   <xi:include href="busta-10/DLCL_CF_E10010.xml"/>
+   <xi:include href="busta-10/DLCL_CF_E10061.xml"/> 
+   <xi:include href="busta-10/DLCL_CF_E10067.xml"/>
 </teiCorpus>
 
 
