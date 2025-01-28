@@ -1,4 +1,4 @@
-# Carteggio Canneti Fiacchi - DigiLet Class (Digitizing Letters of Classense Library)
+# Edizione Scientifica Digitale Carteggio Canneti Fiacchi - DigiLet Class (Digitizing Letters of Classense Library)
 
 ## Starting the application
 
