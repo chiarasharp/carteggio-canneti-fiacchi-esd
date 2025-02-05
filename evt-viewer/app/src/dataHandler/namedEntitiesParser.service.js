@@ -94,6 +94,7 @@ angular.module('evtviewer.dataHandler')
 				var listDef = listsMainContentDef.replace(/[<>]/g, '') + ' > ' + listsToParse[i].listDef.replace(/[<>]/g, ''),
 					listType = listsToParse[i].type || 'generic',
 					listTitle = 'LISTS.' + listType.toUpperCase();
+				//console.log(listTitle);
 				var contentDefList = listsToParse[i].contentDef;
 				relationsInListDef += listDef + ' ' + relationDef.replace(/[<>]/g, '') + ', ';
 
@@ -113,6 +114,9 @@ angular.module('evtviewer.dataHandler')
 											type: listType,
 											title: listTitle
 										};
+										if (elemtnType === 'staff') {
+											defCollection.title = 'LISTS.STAFF';
+										} 
 										angular.forEach(element.childNodes, function (child) {
 											if (child.nodeType === 1) {
 												var collection = parseCollectionData(child, defCollection);
@@ -139,6 +143,11 @@ angular.module('evtviewer.dataHandler')
 											type: listType,
 											title: listTitle
 										};
+
+										if (elemtnType === 'staff') {
+											defCollection.title = 'LISTS.STAFF';
+										} 
+										
 										angular.forEach(element.childNodes, function (child) {
 											if (child.nodeType === 1) {
 												var collection = parseCollectionData(child, defCollection);
@@ -699,14 +708,15 @@ angular.module('evtviewer.dataHandler')
 			var collection = defCollection;
 			if (el.previousElementSibling && listHeaderDef.indexOf('<' + el.previousElementSibling.tagName + '>') >= 0) {
 				collection.id = el.previousElementSibling.textContent.trim().replace(/\s/g, '');
-				collection.title = el.previousElementSibling.textContent.trim();
+				//collection.title = el.previousElementSibling.textContent.trim();
+				//collection.title = defCollection.
 			} else {
 				var parentNode = el.parentNode,
 					listId;
 				if (parentNode && parentNode.getAttribute(idAttributeDef)) {
 					listId = parentNode.getAttribute(idAttributeDef).trim().replace(/\s/g, '');
 					collection.id = listId;
-					collection.title = listId;
+					//collection.title = listId;
 				}
 				if (parentNode && parentNode.getAttribute(typeAttributeDef)) {
 					var listTitle = parentNode.getAttribute(typeAttributeDef).trim();
@@ -714,7 +724,7 @@ angular.module('evtviewer.dataHandler')
 						collection.id = listTitle;
 					}
 					listTitle = evtParser.camelToSpace(listTitle);
-					collection.title = (listTitle.substr(0, 1).toUpperCase() + listTitle.substr(1));
+					//collection.title = (listTitle.substr(0, 1).toUpperCase() + listTitle.substr(1));
 				}
 			}
 			return collection;
