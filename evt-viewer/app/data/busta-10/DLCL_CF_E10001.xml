@@ -5,7 +5,7 @@
       <graphic n="2r" url="https://classense.unibo.it/iiif/2/24832/full/594,800/0/default.jpg"/>
       <graphic n="2v" url="https://classense.unibo.it/iiif/2/24833/full/580,800/0/default.jpg"/>
    </facsimile>
-   <text type="letter" xml:id="DLCL_CF_E10001" n="Canneti a Fiacchi (Ribano, 31 Ottobre 1711)">
+   <text type="letter" xml:id="DLCL_CF_E10001">
       <front>
          <fileDesc>
             <titleStmt>
@@ -19,7 +19,7 @@
                </availability>
             </publicationStmt>
             <seriesStmt>
-               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="main">Carteggio Canneti Fiacchi</title>
                <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
                <biblScope unit="letter">1</biblScope>
             </seriesStmt>

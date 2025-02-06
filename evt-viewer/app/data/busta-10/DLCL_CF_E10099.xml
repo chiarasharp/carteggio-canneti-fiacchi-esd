@@ -1,0 +1,136 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10099">
+    <facsimile sameAs="https://classense.unibo.it/iiif/20731/manifest">
+        <graphic n="1r" url="https://classense.unibo.it/iiif/2/21240/full/567,800/0/default.jpg"/>
+        <graphic n="1v" url="https://classense.unibo.it/iiif/2/21241/full/610,800/0/default.jpg"/>
+        <graphic n="2r" url="https://classense.unibo.it/iiif/2/25192/full/572,800/0/default.jpg"/>
+        <graphic n="2v" url="https://classense.unibo.it/iiif/2/25193/full/618,800/0/default.jpg"/>
+    </facsimile>
+    <text type="letter" xml:id="DLCL_CF_E10099" n="Canneti a Fiacchi (Fabriano, 16 Giugno 1719)">
+        <front>
+            <fileDesc>
+                <titleStmt>
+                    <title xml:lang="it">Canneti a Fiacchi (Fabriano, 16 Giugno 1719)</title>
+                    <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+                    <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                    </availability>
+                </publicationStmt>
+                <seriesStmt>
+                    <title type="main">Carteggio Canneti Fiacchi</title>
+                    <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+                    <biblScope unit="letter">99</biblScope>
+                </seriesStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <country key="IT">Italia</country>
+                            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                            <repository></repository>
+                            <collection></collection>
+                            <idno></idno>
+                            <altIdentifier>
+                                <idno></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                        <date when-iso="1719-06-17"/>
+                        <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="it"/>
+                </langUsage>
+                <settingDesc>
+                    <xi:include href="../../entities/places.xml"/>
+                </settingDesc>
+                <particDesc>
+                    <xi:include href="../../entities/people/cited-people.xml"/>
+                    <xi:include href="../../entities/people/staff.xml"/>
+                    <xi:include href="../../entities/orgs.xml"/>
+                </particDesc>
+            </profileDesc>
+            <revisionDesc status="created">
+                <change when-iso="2024-07-23" who="#DLCL_CF_PS001">creato</change>
+                <change when-iso="2024-09-17" who="#DLCL_CF_PS001">correzioni</change>
+                <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+            </revisionDesc>
+        </front>
+        <body>
+            <div type="transcription">
+                <pb xml:id="DLCL_CF_E10099_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/21240/full/567,800/0/default.jpg"/>
+                
+                <opener>
+                    <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+                </opener>
+                
+                <p>
+                    Godo sommamente che allo spuntar del luminare maggiore siansi dileguate le nebbie delle apprensioni. 
+                    Giova sperare che a sì bell’aurora corrisponderà il corso, che verrà appresso. 
+                    Il Signor Iddio feliciti il viaggio a <placeName ref="#DLCL_CF_L0008">Roma</placeName> de’ <persName ref="#DLCL_CF_PC0093">Padri Lettori Onestini,</persName> 
+                    e <persName ref="#DLCL_CF_PC0675">Bellotti.</persName> 
+                    Per il <persName ref="#DLCL_CF_PC0246">Padre Don Abondio</persName> pare stabilita la mutazione 
+                    da <placeName ref="#DLCL_CF_L0020">Classe</placeName> a <placeName ref="#DLCL_CF_L0075">Pisa,</placeName> 
+                    poiché resta superata la difficoltà, che si è creduta sempre, se non l’unica, certamente la maggiore. 
+                    Quanto al <persName ref="#DLCL_CF_PC0676">Padre Grilli,</persName> 
+                    non saprei dire precisamente da chi mi sia stato suggerito esser bene proccurarne la mutazione, e riceverlo meco di stanza: 
+                    di certo sò che non è spontaneamente nato nella mia idea questo pensiero: 
+                    e intanto l’ho proposto, in quanto ho supposto ch’egli avesse finito gli scudi, e non avesse impiego di lettura, 
+                    per la quale non gli sarebbe stato improprio quì alcun trattenimento, insegnando, come altre volte si è praticato, a’ secolari. 
+                    Ma, essendo in altra positura le cose, io più non ne scrivo. 
+                    Mi sarà opportuno ricevere per la fiera di <placeName ref="#DLCL_CF_L0030">Sinigaglia</placeName> 
+                </p>
+                
+                <pb xml:id="DLCL_CF_E10099_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/21241/full/610,800/0/default.jpg"/>
+                
+                <p>
+                    il <bibl type="print">Giornale XXXI.</bibl> 
+                    Attendo l’avviso dell’acquisto che mi figuro sia di qualche rarissimo libro. 
+                    Io averò il modo di contraccambiare la notizia, con ragguagliarla della compra di due Tomi, 
+                    de’ quali mi furono chiesti da principio <gap reason="illegible"/>[...]quanta scudi, 
+                    e si è poi stabilito il prezzo di ventuno auguro la consolazione di farglieli poi qui vedere con rarità, dentro quest’anno. 
+                </p>
+                
+                <closer>
+                    <salute>E caramente abbracciandola resto.</salute>
+                    <salute>DVPMR.</salute>
+                    <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1719-06-17">16 Giugno 1719</date></dateline>
+                </closer>
+                
+                <postscript>
+                    <p>
+                        Un caro saluto a <persName ref="#DLCL_CF_PC0009" cert="unknown">Padre Benedetto,</persName> quando lo vedrà.
+                    </p>
+                </postscript>
+                
+                <closer>
+                    <salute>Affettuosissimo Servitore e Padre Cordialissimo nel Signore</salute> 
+                    <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+                </closer>
+                
+                <pb xml:id="DLCL_CF_E10099_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/25192/full/572,800/0/default.jpg"/>
+                
+                <pb xml:id="DLCL_CF_E10099_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/25193/full/618,800/0/default.jpg"/>
+                
+                <postscript>
+                    <p>
+                        Al Molto Reverendo Padre Mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> 
+                        <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

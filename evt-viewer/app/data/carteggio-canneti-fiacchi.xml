@@ -41,7 +41,7 @@
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title type="main">Epistolario Canneti Fiacchi</title>
+            <title type="main">Carteggio Canneti Fiacchi</title>
          </seriesStmt>
          <sourceDesc>
             <msDesc>
@@ -90,6 +90,8 @@
    <xi:include href="busta-10/DLCL_CF_E10010.xml"/>
    <xi:include href="busta-10/DLCL_CF_E10061.xml"/> 
    <xi:include href="busta-10/DLCL_CF_E10067.xml"/>
+   <xi:include href="busta-10/DLCL_CF_E10099.xml"/>
+   <xi:include href="busta-10/DLCL_CF_E10106.xml"/>
 </teiCorpus>
 
 
