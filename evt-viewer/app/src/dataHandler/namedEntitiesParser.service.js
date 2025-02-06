@@ -116,7 +116,7 @@ angular.module('evtviewer.dataHandler')
 										};
 										if (elemtnType === 'staff') {
 											defCollection.title = 'LISTS.STAFF';
-										} 
+										}
 										angular.forEach(element.childNodes, function (child) {
 											if (child.nodeType === 1) {
 												var collection = parseCollectionData(child, defCollection);
@@ -146,8 +146,8 @@ angular.module('evtviewer.dataHandler')
 
 										if (elemtnType === 'staff') {
 											defCollection.title = 'LISTS.STAFF';
-										} 
-										
+										}
+
 										angular.forEach(element.childNodes, function (child) {
 											if (child.nodeType === 1) {
 												var collection = parseCollectionData(child, defCollection);
@@ -527,16 +527,43 @@ angular.module('evtviewer.dataHandler')
 			}
 
 			angular.forEach(nodeElem.childNodes, function (child) {
-				
+
 				if (child.nodeType === 1) {
-					if (contentForLabelDef.indexOf('<' + child.tagName + '>') >= 0 && child.children && child.children.length > 0) {
-						angular.forEach(child.children, function (subChild) {
-							if (subChild.nodeType === 1) {
-								parseAndAddContentToEntity(el, subChild, contentDef, listDef);
-							}
-						});
+					if (child.tagName === 'monogr' || child.tagName === 'msContents') {
+						if (child.children && child.children.length > 0) {
+
+							angular.forEach(child.children, function (subChild) {
+								if (subChild.nodeType === 1) {
+									if (subChild.tagName === 'msItem') {
+										if (subChild.children && subChild.children.length > 0) {
+											angular.forEach(subChild.children, function (subSubChild) {
+												if (subSubChild.nodeType === 1) {
+													parseAndAddContentToEntity(el, subSubChild, contentDef, listDef);
+												}
+											});
+										}
+										else {
+											parseAndAddContentToEntity(el, subChild, contentDef, listDef);
+										}
+									}
+									else {
+										parseAndAddContentToEntity(el, subChild, contentDef, listDef);
+									}
+								}
+							});
+						} else {
+							parseAndAddContentToEntity(el, child, contentDef, listDef);
+						}
 					} else {
-						parseAndAddContentToEntity(el, child, contentDef, listDef);
+						if (contentForLabelDef.indexOf('<' + child.tagName + '>') >= 0 && child.children && child.children.length > 0) {
+							angular.forEach(child.children, function (subChild) {
+								if (subChild.nodeType === 1) {
+									parseAndAddContentToEntity(el, subChild, contentDef, listDef);
+								}
+							});
+						} else {
+							parseAndAddContentToEntity(el, child, contentDef, listDef);
+						}
 					}
 				}
 			});
@@ -547,21 +574,27 @@ angular.module('evtviewer.dataHandler')
 		};
 
 		var parseAndAddContentToEntity = function (el, child, contentDef, listDef) {
+			var parsedChild;
+
 			if (el.content[child.tagName] === undefined) {
 				el.content[child.tagName] = [];
 				el.content._indexes.push(child.tagName);
 			}
-			var parsedChild;
+
 			if (contentDef.indexOf('<' + child.tagName + '>') >= 0) {
 				parsedChild = NEparser.parseSubEntity(child, contentDef, listDef);
 			} else {
 				parsedChild = evtParser.parseXMLElement(child, child, { skip: '<evtNote>' });
 			}
+
 			el.content[child.tagName].push({
 				text: parsedChild ? parsedChild.innerHTML : child.innerHTML,
 				attributes: evtParser.parseElementAttributes(child)
 			});
+			//}
 		};
+
+
 
 		/**
 		 * @ngdoc method
@@ -617,7 +650,7 @@ angular.module('evtviewer.dataHandler')
 			if (entityId && entityId !== '') {
 				newNodeElem.setAttribute('data-entity-id', entityId);
 			}
-			if(entityType !== '') {
+			if (entityType !== '') {
 				newNodeElem.setAttribute('bibl-type', entityType);
 			}
 			var listType = nodeElem.tagName ? nodeElem.tagName : 'generic';
