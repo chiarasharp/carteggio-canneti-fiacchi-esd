@@ -19,7 +19,7 @@
    </facsimile>
    <text>
       <group>
-         <text type="letter" xml:id="DLCL_CF_E10061_L" n="Canneti a Fiacchi (Perugia, 12 Settembre 1717) - Lettera">
+         <text type="letter" xml:id="DLCL_CF_E10061_L">
             <front>
                <fileDesc>
                   <titleStmt>
@@ -200,7 +200,7 @@
                </div>
             </body>
          </text>
-         <text type="attachment" xml:id="DLCL_CF_E10061_A01" n="Canneti a Fiacchi (Perugia, 12 Settembre 1717) - Allegato 1">
+         <text type="attachment" xml:id="DLCL_CF_E10061_A01">
             <front>
                <fileDesc>
                   <titleStmt>
@@ -389,7 +389,7 @@
                </div>
             </body>
          </text>
-         <text type="attachment" xml:id="DLCL_CF_E10061_A02" n="Canneti a Fiacchi (Perugia, 12 Settembre 1717) - Allegato 2">
+         <text type="attachment" xml:id="DLCL_CF_E10061_A02">
             <front>
                <fileDesc>
                   <titleStmt>

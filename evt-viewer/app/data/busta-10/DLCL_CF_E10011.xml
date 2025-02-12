@@ -1,0 +1,210 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10011">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20643/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/20851/full/580,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/20852/full/579,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/20853/full/588,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/20854/full/574,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10011">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 31 Luglio 1714)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">11</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1714-07-31"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-01-25" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-01-29" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-21" who="#DLCL_CF_PS001">stampe</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+
+            <pb xml:id="DLCL_CF_E10011_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20851/full/580,800/0/default.jpg"/>
+
+            <opener>
+               <salute>
+                  <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+               </salute>
+            </opener>
+
+            <p>
+               In somma egli è vero che tra i Ritualisti è entrata una sottigliezza nulla inferiore alla Scotistica, la qual troppo è contraria alla semplicità delle <bibl>Rubriche.</bibl> 
+               La <orgName ref="#DLCL_CF_O0012">Congregazione de’ Riti</orgName> importunata dalle metafisiche questioni di costoro da talvolta certe risposte, che accrescono, non tolgono la difficoltà. 
+               Di tal natura si è il rescritto fatto al <rs type="person">Mastro di Cerimonie</rs> di questa Cattedrale. 
+               Ma se noi attendiamo la pratica del <bibl type="religious">Calendario</bibl> di <placeName ref="#DLCL_CF_L0028">Perugia,</placeName> 
+               e dell’altro di <orgName ref="#DLCL_CF_O0013">Monte Corona,</orgName> nel quale stà l’accennato <bibl type="religious">Decreto</bibl> impresso; 
+               tosto noi restiamo chiariti doversi intendere secondo le <bibl type="religious">Rubriche,</bibl> e la pratica del <bibl type="religious">Breviario,</bibl> costumatasi ancor da noi negli anni precedenti. 
+               Né accade ch’entriamo a disputare se nell’occorrenza di <persName ref="#DLCL_CF_PC0080">San Odone</persName> e della Dedicazione della Chiesa debbasi preferire il primo, o la seconda? 
+               Poiché rimane sciolto il dubbio dall’altro <bibl type="religious">Decreto,</bibl> il qual dispone che all’officio del <bibl type="religious">Calendario universale</bibl> anteporre si debba quello del <bibl type="religious">Calendario particolare.</bibl> 
+               A questo precisamente attenghiamoci, e tiriamo avanti, senza andarci avuolgendo nel gran laberinto, che formano gli innumerabili, 
+               e talvolta tra loro contrari <bibl type="religious">Decreti,</bibl> che ogni giorno van di nuovo uscendo dalla <orgName ref="#DLCL_CF_O0012">Sacra Congregazione de’ Riti.</orgName> 
+               Per addurre un esempio a <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> che serva <foreign xml:lang="la">instar omnium</foreign> a lei per sua quiete; 
+               osservi nel <bibl type="religious">Calendario</bibl> citato degli <rs type="person">Eremiti</rs> di <orgName ref="#DLCL_CF_O0013">Monte Corona,</orgName> uomini scrupolosi, 
+               e poco men che superstizioni, i quali adducono il rescritto <hi rend="underline">
+               <foreign xml:lang="la">De excellentia maioris dignitatis</foreign>
+            </hi> al dì <date when-iso="04-23">29 di Aprile</date> 
+               vi troverà l’<bibl type="religious">officio di S. Roberto Abate</bibl> anteposto a quello di <bibl type="religious">S. Pietro Martire,</bibl> in riguardo del martirio senza dubbio di più eccellente dignità; il quale cade, e occorre nello stesso giorno. 
+               Sicché nell’occorrenza di pari rito, stà ferma, e in verde osservanza l’altra <bibl type="religious">Rubrica</bibl> di preferire il par<pc force="inter">-</pc>
+         </p>
+
+         <pb xml:id="DLCL_CF_E10011_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20852/full/579,800/0/default.jpg"/>
+
+         <p>
+            <pc force="inter">-</pc>ticolare all’universale. 
+               Io mi persuado bene che <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> non vorrà già essere più scrupolosa de’ <rs type="person">Montecoronesi.</rs> 
+               Se così è, la quistione è già svanita. 
+               Questi venerabili <rs type="person">Anacoreti</rs> han sempre fatto l’<bibl type="religious">officio de’ SS. Andrea,</bibl> e <bibl type="religious">Benedetto</bibl> di rito doppio minore, e noi <foreign xml:lang="la">ab immemorabile</foreign> l’abbiam sempre fatto doppio di seconda classe. 
+               Se noi non potiamo mostrare il <bibl type="religious">Decreto</bibl> della <orgName ref="#DLCL_CF_O0012">Congregazione de’ Riti</orgName> per tal’elevazione di rito; mi creda che né pur’essi l’hanno, per provare di poterlo fare in verun conto; per quanto io sappia. 
+               L’antico possesso, contro a cui non vi è memoria o Uomini in contrario basta a salvare corse di maggiore rilievo. 
+               Guai se vogliamo ad ogni passo assicurarci col <bibl type="religious">decreto!</bibl> 
+               Noi non l’abbiamo per l’<bibl type="religious">officio di Santa Geltrude</bibl> per verità conceduto a soli <rs type="person">Casinensi,</rs> né per <bibl type="religious">San Gerardo,</bibl> né per altri. 
+               E dove troviam noi quelli de’ <bibl type="religious">SS. Matteo,</bibl>            <bibl type="religious">Isacco,</bibl> e <bibl type="religious">Cristino,</bibl> di <bibl type="religious">San Pier Damiano?</bibl> 
+               Li supponiamo; e forse vi sono; benché ci si rendano invisibili. 
+               La ringrazio di quanto mi favorisce intorno a <persName ref="#DLCL_CF_PC0065">S. Pio Quinto.</persName> 
+               Or’abbiamo il <bibl type="religious">nuovo Officio</bibl> di <persName ref="#DLCL_CF_PC0079">San Gio. di Dio</persName> sotto rito semidoppio pel dì <date when-iso="03-08">8 di Marzo</date> conceduto di precetto alla Chiesa Universale. 
+               Suppongo che sarà costà capitato; perciò no’l mando; come farò subito, quando ne desideri una copia.
+         </p>
+
+         <p>
+               Nella spiegazione de <bibl type="religious">Decreto</bibl> prefissa al <bibl type="religious">Calendario</bibl> nostro più anni, io non giudico necessario, né spediente mutar cosa alcuna. 
+               Già <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> vede che i <rs type="person">Coronesi</rs> prescindono dal rispetto della maggior dignità ne’ doppi accorrenti, anteponendo i particolari agli Universali. 
+               Facciam noi francamente l’istesso ne’ semidoppi, che occorrono con <persName ref="#DLCL_CF_PC0040">San Romualdo</persName> ne’ Martedì. 
+               Non si dimentichi della Traslazione della parte del Corpo di <persName ref="#DLCL_CF_PC0040">S. Severo</persName> al di <date when-iso="04-16">16 Aprile</date>; nel modo che si fa della 
+         </p>
+
+         <pb xml:id="DLCL_CF_E10011_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/20853/full/588,800/0/default.jpg"/>
+
+         <p>
+               traslazione di <persName ref="#DLCL_CF_PC0081">S. Apollinare.</persName> 
+               Di <persName ref="#DLCL_CF_PC0065">San Pio V</persName> deesi recitar l’orazione; e le lezioni proprie. 
+               Appena potrà un altro ritrovarsi, che si pienamente, e con esattezza scriva, come il <persName ref="#DLCL_CF_PC0064">Marracci,</persName> intorno a <persName ref="#DLCL_CF_PC0053">Ricardo di San Lorenzo.</persName> 
+               Oggi ne manderò la notizia al <persName ref="#DLCL_CF_PC0082">Padre Carlo Baglioni</persName> Filippino; il quale ne avrà una consolazione pari al desiderio mostratone dianzi ben tre volte, ch’ è stato a parlarmene. 
+               La ringrazio.
+         </p>
+
+         <p>
+               I Libri del <persName ref="#DLCL_CF_PC0060">Magliabechi</persName> ascendono a sessantamila e tra essi vi sono rarità preziosissime di Manoscritti, di Opuscoli, di edizioni pellegrine. 
+               In <placeName ref="#DLCL_CF_L0033">Rimini</placeName> dalla viva voce dell’<persName ref="#DLCL_CF_PC0083">Eminentissimo Davia</persName> intesi il gradimento riportato da <rs type="person">Sua Eminenza</rs> nel veder la <orgName ref="#DLCL_CF_O0001">Libreria</orgName> nostra. 
+               Godo sentire più precisamente le dimostrazioni, e la premura mostratene da esso e dall’<persName ref="#DLCL_CF_PC0084">Eminentissimo Gozzadini.</persName> 
+               Mi consola infinitamente la buona armonia col <persName ref="#DLCL_CF_PC0054">Padre Lettore Fiori</persName> il qual’è veramente un soggetto degno, dabbene, onorato, e di buon cuore. 
+               Basta saper prendere il panno pel suo verso. 
+               Aspetto da <placeName ref="#DLCL_CF_L0008">Roma</placeName> il 3° Tomo della <bibl type="print" source="#DLCL_CF_BS0024">Vite degli Arcadi,</bibl> e la Ristampa rifatta della <bibl type="print" source="#DLCL_CF_BS0023">Storia della Volgar Poesia.</bibl> 
+               Avrà da impiegarvisi intorno <persName ref="#DLCL_CF_PC0036">Frate Teodoro.</persName> 
+               La <bibl type="print">Bibbia Ebraica, e latina</bibl> del <persName ref="#DLCL_CF_PC0085">Pagnino</persName> non è facile da trovarsi. 
+               In <placeName ref="#DLCL_CF_L0008">Roma,</placeName> ultimamente mi capitò la <bibl type="print">Bibbia ebraica</bibl> del <persName ref="#DLCL_CF_PC0086">Bustorfio</persName> co’ i <bibl type="print">Commenti de’ Rabbini</bibl> in 4. Tomi in folio bellissimi. 
+               Si sarebbe avuta con due o tre doppie. 
+               Ma altre spese mi avevao smunta la borsa. 
+               La <bibl type="print" source="#DLCL_CF_BS0053" cert="unknown">Bibbia Complutense</bibl> del <persName ref="#DLCL_CF_PC0087">Cardinale Ximenez</persName> è un capo d’opera insigne. 
+               Per un vile prezzo potrebbesi prendere anco imperfetta. 
+               Delli <del rend="overstrike">tre o</del> quattro Tomi offerti sempre se ne ricaveranno quattro scudi. 
+               E forse si acquisteranno con 30 paoli.
+         </p>
+
+         <p>
+               Oh se il Genio Ravennate avesse ale più vigorose per allontanarsi dalle sue pignete! 
+               Oh se la filosofia fosse volata di là dal <placeName ref="#DLCL_CF_L0055">Po!</placeName> 
+               Io mi lusingo, e induco a credere che in <placeName ref="#DLCL_CF_L0010">Padova</placeName> non sarebbonle state tarpate le penne.  
+         </p>
+
+         <pb xml:id="DLCL_CF_E10011_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/20854/full/574,800/0/default.jpg"/>
+
+         <p>
+               Per condurre salva in porto cotesta questa faccenda vi vuol flemma; e il <persName ref="#DLCL_CF_PC0088">Signore Dottore Calbi</persName> ne abbonda. 
+               Io non dispero, né mi atterisco. 
+               Anzi fu pronostico che si stamperà. 
+               Convien però dire che vi sia qualche malignità nemica, che siasi posta a combatterla. 
+            <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> descrivendomi il congresso raunatosi a sentir la risposta contro al <persName ref="#DLCL_CF_PC0072">Cecchini</persName> mi ha mossa l’invidia e la passione più viva del dolore per la lontananza. 
+               Prego Dio che esca in luce. 
+               Mi duole la malattia del <persName ref="#DLCL_CF_PC0006">Padre Amici</persName> nostro, al quale scrissi appunto con l’ordinario passato.
+         </p>
+
+         <p>
+               È stato già dato il successore al <persName ref="#DLCL_CF_PC0060">Signore Magliabechi</persName> di sempre gloriosa memoria; ed è insigne uomo, ma in diversa sfera. 
+               L’elezione, tra molti concorrenti; è caduta nel <persName ref="#DLCL_CF_PC0089">Padre Don Anselmo Banduri</persName> Raguseo Monaco Benedettino della <orgName ref="#DLCL_CF_O0014">Congregazione di Meleda,</orgName> Autore degli eruditissimi <bibl type="print" source="#DLCL_CF_BS0054">libri dell’Imperio Orientale,</bibl> de’ quali i <bibl type="print" source="#DLCL_CF_BS0026">Giornali di Venezia.</bibl> 
+               Era in <placeName ref="#DLCL_CF_L0017">Parigi</placeName> mantenutovi a spese del <rs type="person">Gran Duca;</rs> il quale col richiamarlo in <placeName ref="#DLCL_CF_L0026">Italia,</placeName> fa un colpo di economia, sgravandosi di quella spesa. 
+         </p>
+
+         <p>
+               Quando in certe ore ella se ne sta in Camera, senza dormire, potrebbe andare facendo il <bibl type="manuscript">Catalogo de’ nostri libri.</bibl> 
+               La prego. 
+               Il <persName ref="#DLCL_CF_PC0054">Padre Lettore Fiori</persName> si rallegrò meco d’una Conclusione sostenuta da <persName ref="#DLCL_CF_PC0090">Don Leandro.</persName> 
+               Vorrei sapere se è stata pubblica, se dedicata. 
+               Me lo saluti; e saluti distintamente il <persName ref="#DLCL_CF_PC0007">Padre Don Bonifazio,</persName> con <persName ref="#DLCL_CF_PC0029">Frate Ferdinando,</persName>            <persName ref="#DLCL_CF_PC0091">Frate Fausto,</persName> e gli altri consaputi. 
+               Ora me la passo benissimo di salute. 
+               Il <persName ref="#DLCL_CF_PC0043">Padre Don Pietro</persName> è il più sano di tutti. 
+               Studia; e il giorno dell’Assunta farà il discorso nell’<orgName ref="#DLCL_CF_O0015">Oratorio de’ Filippini</orgName> su questo nostro <placeName ref="#DLCL_CF_L0034">Colle di Porta Sole,</placeName> ch’è come in <placeName ref="#DLCL_CF_L0007">Bologna</placeName>
+            <orgName ref="#DLCL_CF_O0016">San Onofrio.</orgName> 
+               Preghi Dio per me. 
+         </p>
+
+         <closer>
+            <salute>L’abbraccio, e resto di tutto cuore.</salute>
+            <salute>DVPMR.</salute>
+            <dateline>
+               <placeName ref="#DLCL_CF_L0028">Perugia</placeName>
+               <date when-iso="1714-07-31">31 luglio 1714</date>
+            </dateline>. 
+            <salute>Affettuosissimo Servo e Padre nel Signore</salute>
+            <signed>
+               <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+            </signed>
+         </closer>
+
+      </div>
+   </body>
+</text>
+</TEI>

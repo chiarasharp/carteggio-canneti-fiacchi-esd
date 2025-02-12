@@ -1,0 +1,213 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10016">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20648/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/20871/full/590,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/20872/full/581,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/20873/full/572,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/24796/full/589,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10016">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 1 Gennaio 1715)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">16</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1715-01-01"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-01-31" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-02-08" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-21" who="#DLCL_CF_PS001">stampe</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+
+            <pb xml:id="DLCL_CF_E10016_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20871/full/590,800/0/default.jpg"/>
+
+            <opener>
+               <salute>
+                  <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+               </salute>
+               <dateline>
+                  <placeName ref="#DLCL_CF_L0028">Perugia</placeName>
+                  <date when-iso="1715-01-01">primo di Gennaio 1715</date>
+               </dateline>
+            </opener>
+
+            <p>
+               Cordialissime grazie rendo all’amore del mio Carissimo <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo</persName> per le notizie tratte dal <bibl type="print" source="#DLCL_CF_BS0064">Mabillone,</bibl> 
+               le quali danno una nuova scoperta, e incognita agli scrittori delle cose del <persName ref="#DLCL_CF_PC0017">Padre San Romualdo.</persName> 
+               Oh quanto bene quindi s’illustra, e si conferma l’Elogio, che del <rs type="person">Santo Padre</rs> forma il <bibl type="print">Martirologio Romano,</bibl> e seco il <persName ref="#DLCL_CF_PC0059">Baronio,</persName> 
+               riconoscendolo per Ristoratore della Vita Anacoretica, e (dovea dirsi anco) della Cenobitica. 
+               Finita la seccaggine ormi delle buone feste, mi metterò a fare un poco di studio sopra l’età del <persName ref="#DLCL_CF_PC0017">Padre San Romualdo,</persName> 
+               confrontandola con la <bibl type="print" source="#DLCL_CF_BS0065" cert="unknown">Cronologia doppia</bibl> del <persName ref="#DLCL_CF_PC0132">Grandi,</persName> 
+               e col <bibl type="manuscript">Catalogo degli Abbati di Farfa</bibl> nel <bibl type="print" source="#DLCL_CF_BS0066">Museo</bibl> del <persName ref="#DLCL_CF_PC0129">Mabillone</persName> medesimo. 
+               Il <orgName ref="#DLCL_CF_O0005">Monistero Ravennate,</orgName> di cui parla la costituzione dell’<persName ref="#DLCL_CF_PC0131">Abbate Ugone,</persName> 
+               io non dubito che sia quel di <placeName ref="#DLCL_CF_L0020">Classe</placeName> allora, e sempre celebre sopra tutti gli altri di cotesti contorni. 
+               È degna di osservazione l’indiscreta ferocia de’ Monaci Ravignani nel dar la disciplina; e corrisponde alle battiture da Marino date a <persName ref="#DLCL_CF_PC0017">San Romualdo.</persName> 
+               Non intendo come alla pagina 434 facendosi menzione del <orgName ref="#DLCL_CF_O0026">Monastero di San Pietro dell’Avellana,</orgName> 
+               dicasi fondato da <persName ref="#DLCL_CF_PC0133">San Domenico Loricato.</persName> 
+               Non so che questo austerissimo Penitente sia uscito dell’<placeName ref="#DLCL_CF_L0041">Umbria,</placeName> ove nacque. 
+               Ivi il Monastero che or’abbiamo dell’<orgName ref="#DLCL_CF_O0026">Avellana,</orgName> fino ab antico si chiamò di Santa Croce, 
+               e la Chiesa del medesimo è dedicata a <persName ref="#DLCL_CF_PC0134">Sant’Andrea.</persName> 
+               Non concordano pertanto i nomi. 
+               Parmi più tosto che un altro Monastero dell’Avellana siasi trovato, e forse trovisi ancora oggidì nel <orgName ref="#DLCL_CF_O0043">Regno di Napoli.</orgName> 
+               Vi osservi attentamente di nuovo. 
+               Mi sovviene ancora che il <persName ref="#DLCL_CF_PC0129">Mabillone</persName> negli <bibl type="print" source="#DLCL_CF_BS0064" cert="unknown">Annali</bibl> in due luoghi accenna esservi chi dubiti non essere diversi, 
+               né distinti <persName ref="#DLCL_CF_PC0135">San Bruno Vescovo e martire Apostolo della Russia</persName> da <persName ref="#DLCL_CF_PC0136">San Bonifazio</persName> discepolo di <persName ref="#DLCL_CF_PC0017">San Romualdo.</persName> 
+               Ma non so di quanto peso sia, né quanto fondata la conghiettura. 
+            </p>
+
+            <pb xml:id="DLCL_CF_E10016_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20872/full/581,800/0/default.jpg"/>
+
+            <p>
+               Mille ringraziamenti per gli annunzi cortesi, e figliali, di buone feste a lei ed al nostro <persName ref="#DLCL_CF_PC0090">Don Leandro,</persName> 
+               che suppongo non permetta venga alcun pregiudizio dall’officio di Sagristano a’ suoi studj. 
+               Al <persName ref="#DLCL_CF_PC0137">Padre guardiano Capelli</persName> ho scritto, e a tutti gli altri, 
+               fuorche al <persName ref="#DLCL_CF_PC0034">Signor Dottore Veratti,</persName> cui scriverò oggi, o al più sabbato prossimo.
+            </p>
+
+            <p>
+               Le opere di <persName ref="#DLCL_CF_PC0123">Onorato Fabri</persName> non erano nella nota già accennata, 
+               della quale io penso dalla povertà non ho preso che la <bibl type="print" source="#DLCL_CF_BS0067">Vita del Cardinale Commendone,</bibl> 
+               scritta da <persName ref="#DLCL_CF_PC0139">Antonio Maria Graziani,</persName> di stampa di <placeName ref="#DLCL_CF_L0017">Parigi</placeName> in 4to, 
+               che una volta accompagnerà le <gap reason="illegible"/>
+[...] altre opere di stampa oltramontana del medesimo autore, già collocate in <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
+               In questa edizione di <placeName ref="#DLCL_CF_L0017">Parigi</placeName> mancano le <bibl type="print">Vite</bibl> de’ <persName ref="#DLCL_CF_PC0140">Cardinali Contarini,</persName> 
+            <persName ref="#DLCL_CF_PC0141">Bembo,</persName> scritte dal <persName ref="#DLCL_CF_PC0142">Casa,</persName> che si trovano nell’<bibl type="print" source="#DLCL_CF_BS0068">edizione in 12,</bibl> di <persName ref="#DLCL_CF_L0010">Padova.</persName> 
+               Ma penso queste due <bibl type="print">Vite</bibl> siano nell’edizione ultima del <persName ref="#DLCL_CF_PC0142">Casa.</persName> 
+               Vi osservi, e mi avvisi, se costì vi è una 2a parte delle nostre storie Camaldolesi scompagnata, ne farei baratto con questa <orgName>Libreria Pubblica,</orgName> ove manca; e riceverò qualche altro libro in cambio. 
+               Potrebbe unirsi a’ libri, che devonsi far capitare quà. 
+               Ma vorrei che vi si unissero l’<persName ref="#DLCL_CF_PC0127">Orlandi</persName> degli <bibl type="print" source="#DLCL_CF_BS0063">Scrittori Bolognesi,</bibl> 
+               che già la pregai far venire di <placeName ref="#DLCL_CF_L0007">Bologna</placeName> legato bene, e pagarlo con levare il danaro da codesto <rs type="person">Padre Camerlengo,</rs> che ne ha l’ordine. 
+               Dal medesimo farà che si rimettano 12 paoli al <persName ref="#DLCL_CF_PC0143">Signor Baruffaldi</persName> in <placeName ref="#DLCL_CF_L0013">Ferrara,</placeName> 
+               dopo che avrà ricevuto il <bibl type="print">Simanco,</bibl> che manderà diretto a <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità,</rs> 
+               insieme colla <bibl type="print" source="#DLCL_CF_BS0069">Tabaccheide</bibl> sua, <bibl type="print" source="#DLCL_CF_BS0070" cert="unknown">
+            <foreign xml:lang="la">Adversationi</foreign>
+         </bibl>
+         <persName ref="#DLCL_CF_PC0189">Lanzoni,</persName> e un compendio della <bibl type="print" source="#DLCL_CF_BS0071">Vita del Beato Gio. da Tossignano.</bibl> 
+               Vi metta gli altri già avvisati, e le <bibl type="print" source="#DLCL_CF_BS0047">Lezioni</bibl> del <persName ref="#DLCL_CF_PC0002">Bianchini,</persName> 
+               il quale mi ha mandato il suo libro della <bibl type="print" source="#DLCL_CF_BS0072">Satira Italiana,</bibl> materia dianzi non trattata <foreign xml:lang="la">ex professo</foreign> da alcuno. 
+               Aspetto il <bibl type="print" source="#DLCL_CF_BS0001" cert="unknown">Nigrisoli</bibl> ultimo, e l’altro primo, la <bibl type="print" source="#DLCL_CF_BS0061">Servile Imitazione</bibl> del <persName ref="#DLCL_CF_PC0113">Zapatta,</persName> e 
+      </p>
+
+      <pb xml:id="DLCL_CF_E10016_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/20873/full/572,800/0/default.jpg"/>
+
+      <p>
+               dica al <persName ref="#DLCL_CF_PC0144">Padre Lettore Fondi</persName> che ricevo oggi una lettera del <persName ref="#DLCL_CF_PC0145">Signore Bartolomeo Castellini</persName> di <placeName ref="#DLCL_CF_L0043">Forlì,</placeName> 
+               nella quale mi accenna aver trattato sopra certo interesse di beni enfiteutici con detto <rs type="person">Padre Lettore.</rs> 
+               La lettera è diretta a <placeName ref="#DLCL_CF_L0020">Classe.</placeName> 
+               Lo che arguisce sbagaglio in chi scrive; onde io non rispondo, non appartenendo a me l’affare. 
+               Il <rs type="person">Padre Lettore</rs> faccia le parti, che stima proprie. 
+      </p>
+
+      <p>
+               Aggiunga un paio di <bibl type="religious">Calendari</bibl> almeno. 
+               Anco il <persName ref="#DLCL_CF_PC0056">Signor Sancassani</persName> ha da inviarmi certi libri. 
+               Lo solleciti, per fare tutta una spedizione. 
+      </p>
+
+      <p>
+               Al compitissimo <persName ref="#DLCL_CF_PC0144">Padre Lettore Fondi</persName> grazie senza fine per la memoria, che di me conserva, 
+               per gli annunzi cortesi di buone feste, e pe’l zelo che tiene dell’<bibl type="print">Epistole Ambrogiane.</bibl> 
+               Riverisca in mio nome il medesimo, gli ripreghi tutte le prosperità nel nuovo anno, come le riauguro a tutti, e a lei in particolare. 
+               Dica al <rs type="person">Padre Lettore</rs> stesso che nello scorso mese si compì la raccolta, con mio sensibil dolore, essendomi costate molto care le ultime copie fatte nella <orgName ref="#DLCL_CF_O0025">Vaticana.</orgName> 
+               Già ho cominciato il Corpo ordinato per la stampa, che mi conviene scriver tutto di mia mano per essere scorretti gli esemplari, donde si sono fatte le copie. 
+               Né se ne trova pur’uno senza difetti assai palmari. 
+      </p>
+
+      <p>
+               Trovandomi senza l’<bibl type="manuscript">indice de’ nostri libri,</bibl> non mi sovviene che libri io abbia <bibl type="print">Teologia Morale.</bibl> 
+               Rimetto piena autorità a lei di servire il <persName ref="#DLCL_CF_PC0122">Padre Don Enrico.</persName> 
+               Se ne faccia far la ricevuta. 
+               Le prime cinque parti del <bibl type="print">Diana,</bibl> che ha cotesto <rs type="person">Padre Priore</rs>
+         <gap reason="illegible"/>
+[...] e de’ Nov.i sono quì duplicate. 
+               Se occorrerà la <bibl type="print">XI</bibl> di edizione Oltramontana, si avviserà. 
+               Il <bibl type="print">Basseo,</bibl> ch’abbiam qui, è di stampa di <placeName ref="#DLCL_CF_L0032">Anversa,</placeName> assai più bella dell’altra di <placeName ref="#DLCL_CF_L0044">Lione.</placeName> 
+               Se potrò mandarlo, se ne farà baratto. 
+               Mi pare che tra nostri libri vi sia un <bibl type="religious">Rituale.</bibl> 
+               Qui non ve n’è pur uno. 
+               Lo mandi. 
+               Ho comprati per questo Coro due libroni legati in Vacchetta, nuovi, cioè l’<bibl type="religious">Antifonario,</bibl> e <bibl type="religious">Graduale</bibl> correttissimi, e gli ho avuti in baratto d’alcuni libri, 
+               de’ quali mi son privato, per far questa carità a <orgName ref="#DLCL_CF_O0010">San Severo.</orgName> 
+               L’abbraccio caramente e resto di tutto cuore. 
+      </p>
+
+      <p>
+               Un caro saluto a <persName ref="#DLCL_CF_PC0029">Frate Ferdinando</persName> e a <persName ref="#DLCL_CF_PC0091">Frate Fausto</persName>
+      </p>
+
+      <closer>
+         <salute>DVPMDR</salute>
+         <salute>Affettuosissimo Servo e Padre nel Signore</salute>
+         <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+         </signed>
+      </closer>
+
+      <pb xml:id="DLCL_CF_E10016_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/24796/full/589,800/0/default.jpg"/>
+
+      <postscript>
+         <p>
+                  Al molto Reverendo Padre mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+            <placeName ref="#DLCL_CF_L0020">Classe</placeName>
+            <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+         </p>
+      </postscript>
+
+   </div>
+</body>
+</text>
+</TEI>

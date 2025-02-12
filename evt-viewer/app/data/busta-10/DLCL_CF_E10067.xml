@@ -11,7 +11,7 @@
    </facsimile>
    <text>  
       <group>
-         <text type="letter" xml:id="DLCL_CF_E10067_L" n="Canneti a Fiacchi (31 Gennaio/1 Febbraio 1718) - Lettera">
+         <text type="letter" xml:id="DLCL_CF_E10067_L">
             <front>
                <fileDesc>
                   <titleStmt>
@@ -198,7 +198,7 @@
                </div>
             </body>
          </text>
-         <text type="attachment" xml:id="DLCL_CF_E10067_A01" n="Canneti a Fiacchi (31 Gennaio/1 Febbraio 1718) - Allegato 1">
+         <text type="attachment" xml:id="DLCL_CF_E10067_A01">
             <front>
                <fileDesc>
                   <titleStmt>

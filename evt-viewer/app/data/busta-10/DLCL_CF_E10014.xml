@@ -1,0 +1,193 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20646/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/20863/full/589,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/20864/full/580,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/20865/full/593,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/24795/full/584,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10014">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Collina (Perugia, 25 Settembre 1714)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">14</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1714-09-25"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0007" key="DLCL_CF_PC0007">Bonifacio Collina</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-01-30" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-02-07" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-21" who="#DLCL_CF_PS001">stampe</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+
+            <pb xml:id="DLCL_CF_E10014_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20863/full/589,800/0/default.jpg"/>
+
+            <opener>
+               <salute>
+                  <rs type="person" ref="#DLCL_CF_PC0007" key="DLCL_CF_PC0007">Molto Reverendo Padre mio Osservandissimo</rs>
+               </salute>
+            </opener>
+
+            <p>
+               Finalmente ho ricevuto una lettera scritta da <rs type="person" ref="#DLCL_CF_PC0007">Vostra Paternità</rs> dentro il non breve spazio di due settimane, 
+               cominciata, e finita in <placeName ref="#DLCL_CF_L0002">Ravenna,</placeName> dopo l’interrompimento del viaggio alla Patria, della dimora ivi, e del ritorno. 
+               Dalla lettura di essa resto confermato nel sentimento, che mi obbliga a riconoscere nella malinconia la peggiore di tutte le indisposizioni, che rendano infermo l’animo dell’Uomo. 
+               Eh via, scuotasi una volta il cuore da si rea oppressione, e facciasi padrone di se stesso. 
+               A ciò fare gioverà sommamente una seria riflessione fatta al chiaro lume, e infallibile dell’esperienza. 
+               Che tutta la somma del nostro male si ferma nella nostra apprensione. 
+               Or via dunque <rs type="person" ref="#DLCL_CF_PC0007">Vostra Paternità</rs> diasi da vero allo studio della speculativa, e seguiti le tracce della Provvidenza, che la vuole ora impiegata in tal sorta di applicazione. 
+               Ma insieme coltivi la più alta e la vera sapienza.
+            </p>
+
+            <p>
+               Carissima mi sarà l’Orazione del <persName ref="#DLCL_CF_PC0101">Padre Corazzi,</persName> che aspetto con impazienza. 
+               Solleciti il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo</persName> alla spedizione, colla quale aspetto altri libri già ordinati. 
+               Se ancora non sono partiti, gli dica che vi aggiunga l’<bibl type="print" source="#DLCL_CF_BS0058" cert="unknown">Antico Martirologio,</bibl> colle note del <persName ref="#DLCL_CF_PC0102">Fiorentini,</persName> 
+               in foglio, di cui ora ho necessita. 
+               Me lo saluti carissimamente; e gli dica che aspetto l’<bibl type="manuscript">Indice de’ nostri libri.</bibl> 
+               Se può far legare il restante delle <bibl type="print" source="#DLCL_CF_BS0011">Scanzie</bibl> del <persName ref="#DLCL_CF_PC0038">Cinelli</persName> e mandarmele l’avrò a caro. 
+            </p>
+
+            <pb xml:id="DLCL_CF_E10014_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20864/full/580,800/0/default.jpg"/>
+
+            <p>
+               Quando avrà letto l’<bibl type="religious">Oratorio</bibl> a lei inviato, mi scriva come le sia piacciuto. 
+               Io non l’ho potuto gustare, perché appena a gran fatica mi era riuscito averne poco dianzi quella copia. 
+               Ho di poi fatta amicizia con l’<rs type="person">Autore,</rs> che me na ha promesse alcune copie. 
+               Ma <rs type="person">egli</rs> è distratto dalle faccende del suo Istituto, essendo Prete della <orgName ref="#DLCL_CF_O0033">Congregazione della Missione:</orgName> 
+               Uomo di rari talenti, che fu in <placeName ref="#DLCL_CF_L0035">Bergamo</placeName> per molti anni Vicario Generale del Ven. Servo di Dio <persName ref="#DLCL_CF_PC0103">Monsignor Ruzzini</persName> Vescovo di quella Città, 
+               di cui ora leggo la vita scritta dal famoso <persName ref="#DLCL_CF_PC0104">Padre Ceva.</persName> 
+               La <bibl type="print" source="#DLCL_CF_BS0041">Merope</bibl> non è ella una bella cosa? 
+               Sicché non è necessario vestir’il genio, e i versi del <persName ref="#DLCL_CF_PC0008">Martello,</persName> per riuscir con lode nella Tragedia. 
+               Anzi di questo sarà sempre vantaggio non venire al confronto. 
+               Di grazia non abbandoni l’affare de’ <bibl type="print">Ciceroni,</bibl> e non perda di vista la melensaggine del <persName ref="#DLCL_CF_PC0004">Marozzi.</persName> 
+               Sia gloria di lei dar finire a cotesta noiosa faccenda, come fu suo vanto terminare la lunghissima tela dell’altro interesse degli <rs type="person">Aldrovandi.</rs> 
+               Riceverò le 25 copie della <bibl type="print" source="#DLCL_CF_BS0001">Poetica</bibl> del <persName ref="#DLCL_CF_PC0008">Martello</persName> e me ne farò onore. 
+               Dodici Copie della <bibl type="print" source="#DLCL_CF_BS0010">Cilauda</bibl> spedirò quanto prima al nostro <persName ref="#DLCL_CF_PC0105">Giorgini.</persName> 
+               Oh quanto avrei avuto gusto ch’ella fosse stata a passar quest’autunno in <placeName ref="#DLCL_CF_L0028">Perugia,</placeName> 
+               ove giovedì avrebbe qui ascoltata una nobile <orgName ref="#DLCL_CF_O0018">Accademia della Colonia Arcadica</orgName> di <placeName ref="#DLCL_CF_L0028">Perugia</placeName> in un prato, 
+               ch’questi <rs type="person">Arcadi</rs> hanno eletto per loro sede, erettavi una lapide di marmo ad eterna memoria. 
+               Ma più avrei goduto che avesse per dieci giorni udita, e mirata la missione fatta qui con frutto,  
+            </p>
+
+            <pb xml:id="DLCL_CF_E10014_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/20865/full/593,800/0/default.jpg"/>
+
+            <p>
+               e con edificazione infinita, ed universale dal <persName ref="#DLCL_CF_PC0106">Padre Crivelli</persName> Gesuita uomo in verità colmo dello spirito del Signore. 
+               A miei giorni non ho veduto spettacolo di maggior soddisfazione. 
+               Ho imparato qual’efficacia abbia la parola di Dio schietta, semplice, ignuda di qualsivoglia ornamento, uscita da un’anima veramente appostolica. 
+               Lo che tanto più è spiccato, quanto più orgoglioso e duro è lo spirito Perugino.
+            </p>
+
+            <p>
+               Mi dia qualche nuova della stampa dell’opera del <persName ref="#DLCL_CF_PC0088">signor Calbi,</persName> 
+               che prego riverire in mio nome con tutta cordialità, e riverente divozione. 
+               Che fa’ il signor <persName ref="#DLCL_CF_PC0107">Dottor Gentili?</persName> 
+               Me gli ricordi vero servitore. 
+               Ho letta qui una memorabile ritrattazione di <persName ref="#DLCL_CF_PC0108">Alessandro Pascoli,</persName> 
+               in detestazione del suo <bibl type="print">Sofilo e della sentenza degli Animali Automati,</bibl> 
+               che avea sostenuta in quel libro condannato solennemente dalla <orgName ref="#DLCL_CF_O0011">Sacra Congregazione del Santo Officio.</orgName> 
+            </p>
+
+            <closer>
+               <salute>Addio. L’abbraccio; e sono di vero cuore.</salute>
+               <dateline>
+                  <placeName ref="#DLCL_CF_L0028">Perugia</placeName>
+                  <date when-iso="1714-09-25">25 settembre 1714</date>
+               </dateline>
+               <salute>DVPMR</salute>
+            </closer>
+
+            <postscript>
+               <p>
+                  Ha veduto quell’esemplare de’ <bibl type="print">Canti Carnascialeschi,</bibl> che diceva il <persName ref="#DLCL_CF_PC0004">Marozzi</persName> avere intiero? 
+               </p>
+               <p>
+                  Desidero sapere dal <persName ref="#DLCL_CF_PC0002">Padre Mariangelo</persName> quanti siano i <bibl type="print">Tomi delle Resoluzioni</bibl> 
+                  del <persName ref="#DLCL_CF_PC0109">Diana;</persName> non intendo del Coordinato. 
+               </p>
+            </postscript>
+
+            <postscript>
+               <p>
+                  <label>P.S.</label> Era preparata questa lettera da spedirsi l’ordinario passato, ma per errore restò sul tavolino, 
+                  e, in vece di lei fu mandata a <rs type="person" ref="#DLCL_CF_PC0007">Vostra Paternità</rs> un’altra lettera diretta al <persName ref="#DLCL_CF_PC0110">Padre Filippo.</persName> 
+                  <rs type="person" ref="#DLCL_CF_PC0007">Vostra Paternità</rs> invii quella al suo viaggio; e ritengasi questa per se. 
+                  La <bibl type="print" source="#DLCL_CF_BS0042">Merope</bibl> è ristampata in <placeName ref="#DLCL_CF_L0012">Modena,</placeName> con prefazione del <persName ref="#DLCL_CF_PC0111">Signore March. Orsi.</persName> 
+               </p>
+            </postscript>
+
+            <closer>
+               <salute>Tutto suo</salute>
+               <signed>
+                  <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+               </signed>
+            </closer>
+
+            <pb xml:id="DLCL_CF_E10014_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/24795/full/584,800/0/default.jpg"/>
+
+            <postscript>
+               <p>
+                  Al molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0007">Padre Don Bonifacio Collina</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName>
+                  <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

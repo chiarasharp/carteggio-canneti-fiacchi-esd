@@ -1,0 +1,182 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10017">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20649/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/20875/full/580,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/20876/full/590,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/24798/full/601,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/24799/full/586,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10017">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 26 Febbraio 1715)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">17</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1715-02-26"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-02-06" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-02-08" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-21" who="#DLCL_CF_PS001">stampe</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+
+            <pb xml:id="DLCL_CF_E10017_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20875/full/580,800/0/default.jpg"/>
+
+            <opener>
+               <salute>Carissimo <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName>
+               </salute>
+            </opener>
+
+            <p>              
+               Sarò breve, rimettendomi con più comodo a scrivere a lungo. 
+               Alla brevità mi obbliga il dolore nello stomaco contratto dall’incessante applicazione al tavolino, trovandomi in meno di due mesi aver già scritto tre quinterni interi. 
+               Appena la dura necessità mi può staccare dall’opera, che pel nuovo ordinato metodo delle materie, e della cronologia, per gli argomenti e annotazioni riesce molto e molto bene da vero. 
+               Nell’istesso tempo preparo i materiali, e li dispongo per la <bibl type="print">Vita,</bibl> che spero farà comparire <rs type="person">l’uomo grande,</rs> ch’egli è. 
+               Allo scrupolo di scoprire <hi rend="underline">verenda</hi> vi son pronte, e sode le risposte. 
+               Si avrà l’occhio a tutto. 
+               Mi sarà caro che <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> mi partecipi quello, che in simil proposito adduce il Gran <persName ref="#DLCL_CF_PC0129">Mabillone.</persName> 
+               Mi danno più pena alcuni passi, che toccano punti più importanti de’ nostri. 
+               Con tutto ciò si è pensato a provvedere a questi, che son fuor di casa nostra. 
+               Tutto riuscirà, a Dio piacendo; da cui imploro sanità, che regge al proseguimento. 
+            </p>
+
+            <p>
+               Il <persName ref="#DLCL_CF_PC0056">Signor Sancassani</persName> mi scrive oggi aver mandato i <bibl type="print" source="#DLCL_CF_BS0026">Giornali,</bibl> 
+               e che manderà due esemplari qui aspettati della <bibl type="print" source="#DLCL_CF_BS0042">Merope,</bibl> e il <bibl type="print" source="#DLCL_CF_BS0073">libro della Peste</bibl> del <persName ref="#DLCL_CF_PC0013">Muratori.</persName> 
+               Con tutto ciò <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> non indugi; e spedisca sollecitamente quanto ha in ordine di nostri libri. 
+               Vi aggiunga delle Copie della <bibl type="print">
+               <hi rend="underline">Vocazione</hi>
+            ;</bibl> 
+               e ne parli al <persName ref="#DLCL_CF_PC0146">Signor Giuseppe Mauro,</persName> che saluto caramente. 
+               Ebbi il libro ieri da <persName ref="#DLCL_CF_PC0094">Monsignor Vescovo de’ Buoi</persName> nostro. 
+               Mi rallegro che il <bibl type="print">Landi</bibl> esce degli stracci, e supera se stesso. 
+               Ho bisogno del <bibl type="print">Libro degli Uomini Illustri Vallombrosani,</bibl> e della <bibl type="print" source="#DLCL_CF_BS0074" cert="unknown">Vita di San Giovan Gualberto,</bibl> ch’è tra’ nostri; dovendo io scrivere di d<gap reason="illegible"/>
+[...]. 
+         </p>
+
+         <pb xml:id="DLCL_CF_E10017_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20876/full/590,800/0/default.jpg"/>
+
+         <p>
+               Sono altamente in collera col <persName ref="#DLCL_CF_PC0056">Sancassani,</persName> che mi ha stampato un prezzo di lettera ed ha lasciato ciò, ch’era contro di se. 
+               E pur l’avevo pregato non fare un tal passo, che già io previdi. 
+               Non si può fidare. 
+               Dici tutto, scrive tutto, da per tutto, a tutti, e manda per bizzarria le lettere a processione.
+         </p>
+
+         <p>
+               Di qua posso comodamente mandare una copia del <bibl type="print">libro della Vocazione</bibl> ad <placeName ref="#DLCL_CF_L0019">Arezzo,</placeName> 
+               dove lo gradirà il <persName ref="#DLCL_CF_PC0147">Reverendissimo Caramelli,</persName> e altri ad altri, se ve ne saran da distribuire. 
+         </p>
+
+         <p>
+               Soggetti di quell’Ordine. 
+               Risponderò al <persName ref="#DLCL_CF_PC0146">Mauro;</persName> al qual dica che mi contento barattar le <bibl type="print" source="#DLCL_CF_BS0075 #DLCL_CF_BS0076 #DLCL_CF_BS0077" cert="unknown">Prose</bibl> 
+               del <persName ref="#DLCL_CF_PC0148">Firenzuola</persName> negli <bibl type="print" source="#DLCL_CF_BS0063">Scrittori</bibl> dell’<persName ref="#DLCL_CF_PC0127">Orlandi,</persName> libro bell’è legato, e che aspetto. 
+               Gli dia nuova che quella carta grande, di cui mi fece dono, è impiegata nell’<bibl type="print">Opera,</bibl> che si stà scrivendo. 
+         </p>
+
+         <p>
+               Mi consolo infinitamente al sentire che ha coraggiosamente <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> intrapresa la fatica di scrivere il <persName ref="#DLCL_CF_PC0149">Carrarà.</persName> 
+               La seguiti di grazia, e non l’abbandoni. 
+               L’opera è insigne, e rara. 
+               Merita un tale incommodo, e la diligenza di lei. 
+         </p>
+
+         <p>
+               In un luogo vi sono undici Tomi ben legati, e ben tenuti delle <bibl type="print">Opere</bibl> di <persName ref="#DLCL_CF_PC0130">Gasparo Scotti</persName> per <hi rend="underline">10 scudi</hi>. 
+               Se si potessero esitar cotesti quattro Tomi, e con la giunta prender questi altri, sarebbe pur bene. 
+               Forse gli avressimo per tre doppie. 
+               Ho acquistato in due Tomi tutte le <bibl type="print">Opere</bibl> di <persName ref="#DLCL_CF_PC0150">Lionardo da Capua</persName> con altri belli libri, 
+               de quali esiterei volentieri il <bibl type="print">Duello</bibl> dell’<persName ref="#DLCL_CF_PC0151">Alciato,</persName> e l’altro di <persName ref="#DLCL_CF_PC0152">Paris del Pozzo.</persName> 
+               Oggi ho concluso pur un codice delle <bibl type="manuscript" source="#DLCL_CF_BM0005">Tuscolane</bibl> di <persName ref="#DLCL_CF_PC0153">Cicerone</persName> in pergamena, 
+               manoscritto antico, nitidissimo, correttissimo, e degno di una gran libreria, col quale ha un pezzo che alcuni dilettanti a gara facevan’ all’amore. 
+               Non si può a meno di grattar questa rogna. 
+         </p>
+
+         <p>
+               Ancora non ho toccato il Caos de nostri scritti. 
+               Subito che vi metterò mano, manderò le <bibl type="print">Scritture</bibl> di <persName ref="#DLCL_CF_PC0040">San Severo.</persName> 
+               Ma l’autentica di cartapecora (che importa) parmi indubitatamente averla lasciata. 
+               Resto in fretta di tutto cuore. 
+         </p>
+
+         <closer>
+            <salute>DVPMR</salute>
+            <dateline>
+               <placeName ref="#DLCL_CF_L0028">Perugia</placeName>
+               <date when-iso="1715-02-26">26 febbraio 1715</date>
+            </dateline>
+            <salute>Affettuosissimo Servo e Padre nel Signore</salute>
+            <signed>
+               <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+            </signed>
+         </closer>
+
+         <pb xml:id="DLCL_CF_E10017_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/24798/full/601,800/0/default.jpg"/>
+
+         <pb xml:id="DLCL_CF_E10017_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/24799/full/586,800/0/default.jpg"/>
+
+         <postscript>
+            <p>
+                  Al molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+               <placeName ref="#DLCL_CF_L0020">Classe</placeName>
+               <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+            </p>
+         </postscript>
+      </div>
+   </body>
+</text>
+</TEI>

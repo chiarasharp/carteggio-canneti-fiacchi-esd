@@ -1,0 +1,206 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10024">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20656/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21020/full/592,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21021/full/607,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21022/full/593,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/21023/full/603,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10024">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">24</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-02-12" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-03-20" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-21" who="#DLCL_CF_PS001">stampe</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10024_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/21020/full/592,800/0/default.jpg"/>
+
+            <opener>
+               <salute>
+                  <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+               </salute>
+            </opener>
+
+            <p>
+               Questo mio <persName ref="#DLCL_CF_PC0163">Padre Camerlingo Mastri</persName> col suo solito spirito prevenne ancor l’aspettazione mia, 
+               giungendomi quà improvviso, poco dopo ch’io gli avea scritto in coteste parti. 
+               Or metta pure <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> insieme il nuovo convoglio, 
+               e vi aggiunga la <bibl type="print" source="#DLCL_CF_BS0095 #DLCL_CF_BS0096" cert="unknown">Storia</bibl> del <orgName ref="#DLCL_CF_O0021">Monastero di Santa Giustina</orgName> 
+               del <persName ref="#DLCL_CF_PC0188">Cavacci</persName> in 4to. 
+               Della <bibl type="print" source="#DLCL_CF_BS0045">Scanzia 9a</bibl> del <persName ref="#DLCL_CF_PC0038">Cinelli</persName> parmi averle scritto che me ne mandasse sei altre copie. 
+               Gli altri esemplari, che son colà, possono chiedersi al <rs type="person">Padre Camerlingo,</rs> o al <rs type="person">Padre Priore.</rs> 
+               Una volta erano nella stanza della Comunità; 
+               né è stata poca lor fortuna essersi salvati dal passare ad altro servizio comune, dopo undici anni scorsi, da che rimasero scordati in quel <orgName>Monastero.</orgName> 
+               Non cessi di importunare il <persName ref="#DLCL_CF_PC0143">Signor Baruffaldi,</persName> finché si riduca a mandare i libri; 
+               o pur ne dia incombenza al <persName ref="#DLCL_CF_PC0056">Signor Sancassani</persName> Uomo efficace, attento, sollecito, 
+               e che saprà valersi delle frequenti occasioni, che di <placeName ref="#DLCL_CF_L0031">Comacchio</placeName> sono per <placeName ref="#DLCL_CF_L0013">Ferrara,</placeName> 
+               e per <placeName ref="#DLCL_CF_L0002">Ravenna.</placeName> 
+               Occorrendo spesa, si vaglia, come più volte ho avvisato. 
+               L’altro giorno mi venne alle mani l’altro <bibl type="print" source="#DLCL_CF_BS0044">Tometto delle lettere</bibl> di <persName ref="#DLCL_CF_PC0164">M. Simon.</persName> 
+               Godo che sia a buon termine l’<bibl type="manuscript">Indice</bibl> della <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
+               Aspetto nuova della <bibl type="manuscript">noterella de’ nostri pochi libri,</bibl> la quale per più capi mi è necessaria. 
+               È là plausibile il pensiero del <persName ref="#DLCL_CF_PC0056">Signor Sancassani</persName> di proseguire le <bibl type="print" source="#DLCL_CF_BS0011">Scanzie</bibl> 
+               del <persName ref="#DLCL_CF_PC0038">Cinelli.</persName> 
+            </p>
+
+            <pb xml:id="DLCL_CF_E10024_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/21021/full/607,800/0/default.jpg"/>
+
+            <p>
+               Ma chi dee tessere le quattro seguenti non può compiere l’opera, se non ha sotto agli occhi tutte le sedici precedenti. 
+               Altrimenti bene spesso replicherà il già detto. 
+               Da <placeName ref="#DLCL_CF_L0013">Ferrara,</placeName> dove credo sia tutto il corpo appresso il <persName ref="#DLCL_CF_PC0189">Signor Lanzoni,</persName> 
+               potrà forse averlo il <persName ref="#DLCL_CF_PC0056">Signor Sancassani.</persName> 
+               Io mi avvederò se tutto sia quì il Corpo suddetto quando metterò le mani nel confusissimo caos delle nostre carte. 
+               Intanto ella finisca pur gl’<bibl type="manuscript">Indici;</bibl> e poi penseremo alle <bibl type="print" source="#DLCL_CF_BS0011">Scanzie Cinelliane.</bibl> 
+               Ed io frattanto compirò almeno la <bibl type="manuscript" source="#DLCL_CF_BM0006">Raccolta delle pistole Ambrogiane,</bibl> nel quale lavoro sono di là dalla metà, 
+               e fo’ viaggio senza riposo, non potendo da me stesso imperar’una fermata, che pur mi sarebbe per molti capi necessaria. 
+               Già son pieni sette quinterni di carta grande. 
+               Quanto all’<bibl type="manuscript">Indice de’ Manoscritti</bibl> voglio che lo facciamo; ma non so a prima vista discernere se sia bene il pubblicarlo. 
+               Anzi, se dovessi risolvere ora come ora, direi di no; 
+               perché corre pericolo, se anche non è certo, di scemare il credito della <orgName ref="#DLCL_CF_O0001">Libreria</orgName> mercé del concetto altissimo, che ne corre. 
+               Nulladimeno è necessario far l’<bibl type="manuscript">indice</bibl> da conservar costì manoscritto. 
+               Io ne ho stesa la maggior parte: e posso fare il rimanente in breve tempo: e lo farò. 
+               Quanto alla <bibl type="print">Relazione</bibl> la vedrò volentieri, ripulita che sia, e finita. 
+               Dico intanto che potevasi mandare a <placeName ref="#DLCL_CF_L0024">Venezia</placeName> da inserire una notizia (non descrizione, né relazione) succintissima, 
+               e sull’idea delle altre brevis<pc force="inter">-</pc>
+            </p>
+
+            <pb xml:id="DLCL_CF_E10024_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/21022/full/593,800/0/default.jpg"/>
+
+            <p>
+               <pc force="inter">-</pc>sime notizie d’<placeName ref="#DLCL_CF_L0026">Italia;</placeName> onde fuggasi l’affettazione, la vanità, e l’invidia; 
+               e servasi precisamente alla verità del puro fatto. 
+               La qual faccenda può farsi da <rs type="person">un’Uomo</rs> ancor mezzo addormentato in breve spazio di tempo. 
+            </p>
+
+            <p>
+               Mi rallegro meco stesso, e mi congratulo co’ miei <rs type="person">Figliuoli</rs> del felice successo delle loro funzioni. 
+               Del <persName ref="#DLCL_CF_PC0007">Padre Don Bonifazio</persName> non dico nulla; 
+               perché l’opera non è ancora compita, e perché non ho espressioni proprie, e corrispondenti all’interno godimento. 
+               Lo abbracci teneramente in mio nome. 
+            </p>
+
+            <p>
+               Al <persName ref="#DLCL_CF_PC0057">Signor Giacomo Tassinari</persName> i miei cordialissimi rispetti: col primo ordinario gli scriverò, e gli darò compita risposta. 
+            </p>
+
+            <p>
+               Ad un passo del nostro <persName ref="#DLCL_CF_PC0177">Ambrogio,</persName> ove accenna un <bibl type="manuscript">Codice,</bibl> 
+               in cui si contenevano i <bibl type="manuscript">Libri della Trinità</bibl> di <persName ref="#DLCL_CF_PC0172">Sant’Agostino</persName> 
+               tradotti in greco da <persName ref="#DLCL_CF_PC0171">Massimo Planude.</persName> 
+               Ho bisogno di sapere se tal traduzione sia uscita in luce, e se ne parli il <persName ref="#DLCL_CF_PC0052">Dupin,</persName> 
+               ove di <persName ref="#DLCL_CF_PC0172">Sant’Agostino,</persName> e se abbia scritto del <persName ref="#DLCL_CF_PC0171">Planude.</persName> 
+               Occorrendo vegga il <persName ref="#DLCL_CF_PC0190">Gesnero</persName> e altri di <rs type="person">cotesti Bibliotecarj.</rs> 
+            </p>
+
+            <p>
+               La storia dell’antica <placeName ref="#DLCL_CF_L0020">Classe</placeName> è un bell’argomento, 
+               ma convien maneggiarlo colla condotta di buon gusto proprio della nostra età assai illuminata. 
+               Succederà bene, se sarà comunicata. 
+            </p>
+
+            <p>
+               A caso ho veduto le <bibl type="print" source="#DLCL_CF_BS0097">Satire latine</bibl> di <persName ref="#DLCL_CF_PC0191">Federigo Nomi,</persName> 
+               il quale ivi è intitolato <hi rend="underline">
+               <foreign xml:lang="la">Argutus inter Academicos Concordes Classis.</foreign></hi> 
+               Sono stampate in <placeName ref="#DLCL_CF_L0050">Leiden.</placeName> 
+               Mentre ne venivano le copie da <placeName ref="#DLCL_CF_L0038">Olanda</placeName> in <placeName ref="#DLCL_CF_L0026">Italia,</placeName> fu predato il legno da 
+         </p>
+
+         <pb xml:id="DLCL_CF_E10024_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/21023/full/603,800/0/default.jpg"/>
+
+         <p>
+               un <rs type="person">Corsaro Franzese,</rs> onde rare mi persuado che siano le Copie. 
+            <rs type="person" ref="#DLCL_CF_PC0191">L’Autore</rs> mi ha onorato indirizzarne la quarta a me, che io conservo nell’originale di mano sua. 
+               Ma io non sapeva che ne fosse seguita la stampa, e pur ciò accadde fino dall’anno <hi rend="underline">1703</hi>. 
+               Quanto alla latinità son migliori di <bibl type="print" source="#DLCL_CF_BS0098 #DLCL_CF_BS0099 #DLCL_CF_BS0100" cert="unknown">quelle</bibl> di <persName ref="#DLCL_CF_PC0192">Settano.</persName> 
+               In cotesta <orgName ref="#DLCL_CF_O0001">libreria</orgName> ve ne vorrebbe una copia. 
+               Ma come averla?       
+         </p>
+
+         <closer>
+            <salute>L’abbraccio; e son tutto suo.</salute>
+            <salute>Al <persName ref="#DLCL_CF_PC0088">Signor Dottor Calbi</persName> i miei eterni, e strettissimi rispetti.</salute>
+         </closer>
+
+         <postscript>
+            <p>
+                  Al Molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+               <placeName ref="#DLCL_CF_L0020">Classe</placeName>
+               <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+            </p>
+
+            <p>
+               <foreign xml:lang="el">¢εἰς τὴν Ελλάδα φωνήν | εἰς τὴν Ελλάδα φωνήν εἰς τὴν | εἰς τὴν Ελλάδα φωνήν¢</foreign>
+            </p>
+
+            <p>
+                  Al molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName>
+               <orgName ref="#DLCL_CF_O0001">Monastero Camaldolese</orgName>
+               <placeName ref="#DLCL_CF_L0020">Classe</placeName>
+               <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+            </p>
+         </postscript>
+
+
+      </div>
+   </body>
+</text>
+</TEI>

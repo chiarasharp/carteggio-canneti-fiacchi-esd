@@ -1,0 +1,145 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10012">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20644/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/20857/full/581,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/20858/full/582,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/25069/full/579,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25070/full/571,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10012">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 4 Agosto 1714)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">12</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1714-08-04"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-01-26" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-01-29" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-21" who="#DLCL_CF_PS001">nuove trascrizioni</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10012_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20857/full/581,800/0/default.jpg"/>
+
+            <opener>
+               <salute>
+                  <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+               </salute>
+            </opener>
+
+            <p>
+               Molto mi spiace il diffetto scoperto nel <bibl type="print">Corpo dell’Isocrate,</bibl> e <bibl type="print">Galeno</bibl> del <persName ref="#DLCL_CF_PC0032">Carterio.</persName> 
+               Se non si può per altro mezzo (come avrei caro) introdurre trattato coll’<persName ref="#DLCL_CF_PC0092">Argelati</persName> sopra l’accennato mancamento, io non ricuserò di scrivergli. 
+               Qualunque riesca l’esito, io stimo e giusto, e spediente, e necessario tentare il risarcimento. 
+               Ma quando è il <persName ref="#DLCL_CF_PC0004">Marozzi</persName> attento ad osservare le magagne altrui, altrettanto lo vorrei zelante per medicar le sue. 
+               Egli scrisse di aver venduto il <bibl type="print">Cicerone</bibl> sei scudi, e mi avvisò del danaro ritrattone, con esibirlo a mia disposizione. 
+               Io gli risposi che s’impiegasse nelle <bibl type="print">Opere</bibl> del <persName ref="#DLCL_CF_PC0004">Petrarca,</persName> ovvero nel <bibl type="print">Corio.</bibl> 
+               Dopo tanto tempo, è ben dovere che metta fuori o libri, o contante, se non vuole mettersi una brutta maschera sul viso. 
+               E de’ <bibl type="print">Canti Carnascialeschi</bibl> intieri ha egli risposto nulla? 
+            </p>
+
+            <p>
+               <foreign xml:lang="la">Et magna ex nihilo nascitur historia</foreign> = può dirsi del titolo d’Insigne, sopra il quale persone scioperate, e di corta levatura fanno grandi misteri. 
+               Posso assicurare che senza veruna seria meditazione uscì quello dalla penna. 
+               Non fu però fondato in aria, costumandosi anco dalle segreterie di <placeName ref="#DLCL_CF_L0008">Roma</placeName> dare simile titolo a tutti i Monisteri, che hanno giusti motivi di meritarlo, come tra gli altri ho veduto appellarsi Insigne quel di <orgName ref="#DLCL_CF_O0017">S. Gregorio di Roma.</orgName> 
+               E tale si è per riguardo del <rs type="person">Santo Fondatore,</rs> e di altri Santi, che quivi son fioriti. 
+               Ma che giova esaminare una cosa, che nulla importa, e che per se stessa è chiarissima? 
+               Compatiamo l’umana debolezza la qual’è grande, anzi grandissima. 
+               Per non recarle noia, si tralasci il titolo, ovvero intieramente del frontispizio si lascino trattare le due righe= <foreign xml:lang="la">Ubi et ea</foreign> = nulla importando aggiungerle, come si è fatto per l’addietro.              
+            </p>
+
+            <pb xml:id="DLCL_CF_E10012_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20858/full/582,800/0/default.jpg"/>
+
+            <p>
+               Il <persName ref="#DLCL_CF_PC0003">Reverendissimo Galamini</persName> mi scrive aver da <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> ricevuti alcuni de’ nostri libri e tra gli altri la <bibl type="print">Bibbia.</bibl> 
+               Mi figuro che questa sia quella in quarto decorata, non mi rammentando averne lasciata altra. 
+               Godo che il <rs type="person">Padre Abate</rs> sia servito; ma non posso, senza timore, veder quel volume posto in pericolo di andare a male, per diffetto del riguardo, con cura vuole esser trattato, affine di esser conservato, e ritornare con rip<gap reason="illegible"/>
+[...]tazione a <placeName ref="#DLCL_CF_L0020">Classe,</placeName> dove starà bene in <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> oltre all’altra <bibl type="print">Bibbia Vaticana</bibl> in foglio, come in altre Biblioteche trovasi l’una, e l’altra. 
+               Come potrebbesi provvedere al pericolo? 
+               Io voleva essere più lungo; ma non posso, per essere chiamato. 
+               Ed è pur vero che ancor qui mi trovo di continuo occupato in modo che non mi basta il tempo. 
+               Al <persName ref="#DLCL_CF_PC0093">Padre Lettore Onestini,</persName> al <persName ref="#DLCL_CF_PC0007">Padre Don Bonifazio</persName> un carissimo saluto. 
+               Addio. 
+         </p>
+
+         <closer>
+            <dateline>
+               <placeName ref="#DLCL_CF_L0028">Perugia</placeName>
+               <date when-iso="1714-08-04">4 agosto 1714</date>
+            </dateline>
+            <salute>DVPMR.</salute>
+            <salute>Affettuosissimo Servo e Padre nel Signore</salute>
+            <signed>
+               <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+            </signed>
+         </closer>
+
+         <pb xml:id="DLCL_CF_E10012_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/25069/full/579,800/0/default.jpg"/>
+
+         <pb xml:id="DLCL_CF_E10012_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/25070/full/571,800/0/default.jpg"/>
+
+         <postscript>
+            <p>
+                  Al Molto Reverendo Padre mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+               <placeName ref="#DLCL_CF_L0020">Classe</placeName>
+               <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+            </p>
+         </postscript>
+
+      </div>
+   </body>
+</text>
+</TEI>

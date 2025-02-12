@@ -5,7 +5,7 @@
         <graphic n="2r" url="https://classense.unibo.it/iiif/2/25192/full/572,800/0/default.jpg"/>
         <graphic n="2v" url="https://classense.unibo.it/iiif/2/25193/full/618,800/0/default.jpg"/>
     </facsimile>
-    <text type="letter" xml:id="DLCL_CF_E10099" n="Canneti a Fiacchi (Fabriano, 16 Giugno 1719)">
+    <text type="letter" xml:id="DLCL_CF_E10099">
         <front>
             <fileDesc>
                 <titleStmt>

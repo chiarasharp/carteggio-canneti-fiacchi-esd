@@ -1,0 +1,106 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10020">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20652/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/20887/full/599,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/20888/full/592,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10020">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">20</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-02-07" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-02-08" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-21" who="#DLCL_CF_PS001">stampe</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10020_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20887/full/599,800/0/default.jpg"/>
+
+            <opener>
+               <salute>Carissimo <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName>
+               </salute>
+            </opener>
+
+            <p>
+               <gap reason="illegible"/>
+[...]edì ben’al tardi giunse finalmente la Cassetta. 
+               Col primo ordinario scriverò più pienamente. 
+               Intanto i miei riverentissimi rispetti al <persName ref="#DLCL_CF_PC0088">Signor Dottor Calbi,</persName> 
+               e un cordiale abbraccio al <persName ref="#DLCL_CF_PC0007">Padre Don Bonifazio.</persName> 
+               Sta di ritorno il <persName ref="#DLCL_CF_PC0163">Padre Mastri</persName> per quà. 
+               Oh se mai potessi avere quei due libri di <placeName ref="#DLCL_CF_L0013">Ferrara,</placeName> e l’<bibl type="print">Orlandi,</bibl> e le Copie della <bibl type="print" source="#DLCL_CF_BS0001" cert="unknown">Poetica.</bibl> 
+               Mi raccomando al suo amore. 
+               Mi mandi l’altro <bibl type="print" source="#DLCL_CF_BS0044">tometto delle lettere franzesi</bibl> di <persName ref="#DLCL_CF_PC0164">M. Simon</persName> in 12 legato alla franzese, 
+               e il <bibl type="print">libretto</bibl> del <persName ref="#DLCL_CF_PC0165">Valla</persName> contra la donazione di <persName ref="#DLCL_CF_PC0166">Costantino</persName> in 12. 
+               E mandi, se mai arrivassero in tempo, altri <bibl type="print" source="#DLCL_CF_BS0026">Giornali.</bibl> 
+               Per regola generale, quando può farmi legar <hi rend="underline">bene</hi> i libri, anco col mandargli a <placeName ref="#DLCL_CF_L0007">Bologna;</placeName> 
+               lo facci: perché qui è incredibile quanto si leghino male, e a caro prezzo. 
+               Occorrendo in ciò spesa, ricorra al <rs type="person">Padre Camerlengo.</rs> 
+            </p>
+
+            <closer>
+               <salute>A rivederci, perché la posta è per partire.</salute>
+               <salute>Addio.</salute>
+               <salute>L’abbraccio di cuore.</salute>
+            </closer>
+
+            <pb xml:id="DLCL_CF_E10020_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20888/full/592,800/0/default.jpg"/>
+
+         </div>
+      </body>
+   </text>
+</TEI>
