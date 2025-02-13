@@ -1,0 +1,272 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10039">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20671/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21072/full/609,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21073/full/618,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21074/full/603,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/21075/full/605,800/0/default.jpg"/>
+      <graphic n="3r" url="https://classense.unibo.it/iiif/2/21076/full/611,800/0/default.jpg"/>
+      <graphic n="3v" url="https://classense.unibo.it/iiif/2/24817/full/614,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10039">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 7 Novembre 1716)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Carteggio Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">39</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1716-11-07"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-03-05" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10039_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20671/DSC_5742.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendissimo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Subito ricevuta la seconda lettera di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità;</rs> rispondo alla medesima con quella fretta, 
+               che mi prescrive l’angustia del tempo, il qual corre tra l’arrivo, e la partenza della posta. 
+               Eccole annesse alcune carte del nuovo <bibl type="religious">Calendario</bibl> di <orgName ref="#DLCL_CF_O0013">Monte Corona,</orgName> 
+               ove dai voti de’ <rs type="person">Mastri di Cerimonie del Papa</rs> vederà approvati i miei sentimenti. 
+               Godo in vero che <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> abbia avuto tempo di abbracciargli 
+               quanto agli <bibl type="religious">officj di San Basilio,</bibl> e della <bibl type="religious">Dedicazione delle Basiliche degli Appostoli,</bibl> 
+               i quali è infallibile che devono trasferirsi, e cedere il luogo agli <bibl type="religious">officj nostri particolari</bibl> di eguale rito. 
+               Quanto all’<bibl type="religious">Officio de’ sette Dolori,</bibl> io non pretendo, come in niun’altra cosa, fare autorità. 
+               Si contenti ella però deferire a quella de’ <rs type="person">Mastri di Cerimonie,</rs> i quali stanno di continuo su’ tali studj, 
+               e intervengono alla <orgName ref="#DLCL_CF_O0012">Sacra Congregazione de’ Riti.</orgName> 
+               Io non ho il <bibl type="religious">Decreto</bibl> della stessa <orgName ref="#DLCL_CF_O0012">Sacra Congregazione</orgName> per la prima concessione di detto <bibl type="religious">Officio.</bibl> 
+               Ma evidentemente conosco che la <bibl type="religious">Rubrica</bibl> apposta nel <bibl type="religious">Breviario Monastico</bibl> sopra la concorrenza, 
+               e per meglio dire occorrenza, e traslazione è stata mal concepita, e male distesa da qualche Monaco, che ve l’ha inserita: 
+               imperocché certa cosa è che da principio l’<bibl type="religious">Officio de VII Dolori</bibl> non fu conceduto a’ Monaci, 
+               né addattato al <bibl type="religious">nostro Breviario,</bibl> ma ad alcuni Regni, e Provincie, secondo il <bibl type="religious">rito Romano;</bibl> 
+               e perciò non può essere che si esemplificasse precisamente nella festa del <persName ref="#DLCL_CF_PC0226">Padre San Benedetto,</persName> 
+               la quale nel <bibl type="religious">Breviario Romano</bibl> è doppio minore, e per conseguenza cede al <bibl type="religious">Officio suddetto de’ Dolori,</bibl> 
+               si perché è <bibl type="religious">Officio della Beata Vergine,</bibl> si perché questo è doppio maggiore. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10039_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20671/DSC_5743.jpg"/>
+            
+            <p>
+               Mi persuado adunque che assolutamente, e in termini generali, secondo il suo stile la <orgName ref="#DLCL_CF_O0012">Sacra Congregazione</orgName>  
+               abbia ordinato che occorrendo la festa de’ sette Dolori in tale venerdì, che sia impedito da officio di più alto rito, 
+               trasferiscasi quella al seguente Sabbato, e non più oltre. 
+               Ma chi ha addattato al rito nostro la <bibl type="religious">Rubrica</bibl> tratta dal <bibl type="religious">Decreto,</bibl> volendo individuare i casi, 
+               ha dato motivo di errare, e di far credere che la mente della <orgName ref="#DLCL_CF_O0012">Congregazione</orgName> fosse di levar della sede figlia un doppio, 
+               che cada nel Sabbato, per dar luogo all’officio traslato. 
+               Osservi la Risposta al Quesito, e vi vedrà inserita la sostanza, se non anche le precise parole del <bibl type="religious">Decreto,</bibl> 
+               il quale stà espresso appunto in termini generali, e non discende alla festa di <bibl type="religious">San Giuseppe nel Venerdì di Passione,</bibl> 
+               alla quale non ha dubbio che succede nel sabbato <persName ref="#DLCL_CF_PC0289">San Giovacchino.</persName> 
+               Dee adunque rimanere questo nella sua sede fissa, e trasportarsi non potendo i sette Dolori, di qual si vuol tralasciar l’officio per quell’anno. 
+               Lodo il pensiero di aggiungere una cartuccia di correzione, o incollarla a suo luogo, se ciò può riuscire. 
+            </p>
+            
+            <p>
+               Vedrà ne’ quesiti della traslazione dell’Annunziata citarsi il <bibl type="religious">Calendario Olivetano</bibl> da più mesi 
+               pubblicato dal <persName ref="#DLCL_CF_PC0287">Padre Abate Capra Perugino</persName> con uno sbaglio inescusabile, 
+               mentre nel Lunedì dopo la Domenica in Albis pone l’Annunziata, 
+               e rimuove dal suo luogo <persName ref="#DLCL_CF_PC0288">San Vincenzio,</persName> male addattando ad un caso la <bibl type="religious">Rubrica</bibl> che parla d’un altro. 
+            </p>
+            
+            <p>
+               <persName>Canuti,</persName> <persName>Venceslai,</persName> vel de <persName ref="#DLCL_CF_PC0017">San Padre Romualdo</persName> stà benissimo; 
+               perché in sostanza l’<bibl type="religious">Officio in fer. 3</bibl> è di divozione, e si fa più volte l’anno; 
+               là dove il Santo <foreign xml:lang="la">ad libitum</foreign> possa trasferirsi. 
+               Così potranno soddisfarsi quei, che hanno zelo di fare del Santo Padre, <gap reason="illegible"/>[...] 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10039_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20671/DSC_5744.jpg"/>
+            
+            <p>
+               <pc force="inter">-</pc>co in occorrenza de’ semidoppi di precetto: e insieme potran fare di <persName ref="#DLCL_CF_PC0290">San Canuto</persName> quei, 
+               che conformandosi all’una, e all’altra <orgName ref="#DLCL_CF_O0047">Congregazione di Romiti</orgName> non trasferiscono i semidoppi ne’ Martedì,
+               ma tralasciano di far di <persName ref="#DLCL_CF_PC0017">San Romualdo.</persName> 
+               E questi ultimi son la maggior parte de’ nostri, i quali perciò non ricevono il <bibl type="religious">nostro Calendario.</bibl> 
+               Iddio volesse che una volta con docilità si trattasse dell’una e dall’altra parte questo punto, e si convenisse nell’una o nell’altra maniera. 
+            </p>
+            
+            <p>
+               Andrà bene la Commemorazione de’ nostri defunti al dì 23 Novembre. 
+               Non veggo motivo di dubbitar se nel martedì possano mettersi all’<bibl type="religious">officio</bibl> del <persName ref="#DLCL_CF_PC0017">Padre San Romualdo</persName>  
+               le lezioni della Domenica 5 d’Ottobre, essendo impediti gli altri giorni. 
+               Nella parte estiva si assegnano <hi rend="underline"><foreign xml:lang="la">Laudemus viros</foreign></hi>, per non esservi appunto la scrittura occorrente; 
+               la quale nella parte Iemale, perché vi è, si assegna a tal’officio. 
+            </p>
+            
+            <p>
+               Tenga conto delle carte annesse, per poterle cucire nel <bibl type="religious">Calendario,</bibl> donde le hò staccate e dove ella le rimetterà, 
+               quando in breve verrà questo alle di lei mani, insieme con alcune poche copie del mio <bibl type="print">Discorso,</bibl> e col rimanente della suppellettile letteraria. 
+               Ma il <persName ref="#DLCL_CF_PC0057 #DLCL_CF_PC0162" cert="unknown">signor Giacomo</persName> nostro nulla mi ha risposto, 
+               se ha ricevuto il foglio del <persName ref="#DLCL_CF_PC0132">Padre Abate Grandi.</persName> 
+               Vado congetturando che non faccia al caso suo. 
+               Ma non avendo io veduta la <bibl type="print">scrittura Mangarelliana,</bibl> non poteva sapere l’intenzione di lui. 
+               Oltre di che non sò come sarebbe stato facile indurre il <rs type="person">Padre Abate</rs> a scrivere diversamente. 
+               Pure... Così è. 
+               Egli è intorno all’acque, e di <placeName ref="#DLCL_CF_L0013">Ferrara</placeName> ultimamente scrisse aver acquistata una bestiale infreddatura. 
+               Questa, e altri malanni, con generosa ricognizione saranno il guadagno. 
+               Ma il danaro non compensa ad un’Uomo Insigne la perdita 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10039_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/20671/DSC_5745.jpg"/>
+            
+            <p>
+               del tempo destinato alle Opere, che aspetta il mondo, e la posterità. 
+               Seco è il <persName ref="#DLCL_CF_PC0291">Padre Galliani Celestino,</persName> che gli anni addietro conobbi in <placeName ref="#DLCL_CF_L0008">Roma,</placeName> 
+               Filosofo moderno, Teologo dogmatico, ed erudito, amicissimo di <persName ref="#DLCL_CF_PC0216">Fontanini.</persName> 
+               Ma vedremo che non si concluderà nulla di quell’acque. 
+               L’autorità dell’<rs type="person">Imperatore</rs> interessatovi per <placeName ref="#DLCL_CF_L0031">Comacchio</placeName> prevalerà a tutte le dissertazioni matematiche. 
+            </p>
+            
+            <p>
+               La ringrazio della nuova, che or mi dà la prima volta, dell’essersi trovata 
+               la <bibl type="print">Storia delle Sagre Immagini</bibl> del <persName ref="#DLCL_CF_PC0170">Molano.</persName> 
+               Io sapeva pur che vi era. 
+               È tornato in mie mani il libro, ch’ella diede al <persName ref="#DLCL_CF_PC0167">Padre Morelli,</persName> la cui perdita seguita ad essermi dolorosa. 
+               Sento l’occasione delle <bibl type="print">Vite de’ Pittori</bibl> del <persName ref="#DLCL_CF_PC0292">Bellori.</persName> 
+               Ma come posso io abbracciarla, trovandomi esausto appunto perché vado grattando la rogna del solito vizio? 
+               De’ libri di Pittura qui ne ho acquistati alcuni, ho trovato il <bibl type="print">Ritratto</bibl> del <persName ref="#DLCL_CF_PC0293">Bernino,</persName> 
+               che manca costì nella <bibl type="print">Vita</bibl> di lui scritta dal <persName ref="#DLCL_CF_PC0294">Baldinucci</persName> 
+               (nella quale mi avvisi quanti, e quali rami sieno nel fine). 
+               Veda con l’aiuto dell’industrioso nostro <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina</persName> (che di tutto cuore abbraccio) se trova l’esito in tutto, 
+               o in parte de’ libri descritti nell’annessa lista, e li venda, e ricavi da comprare il <persName ref="#DLCL_CF_PC0292">Bellori</persName> al minor prezzo, che può. 
+               Se trovasse ancor da dar via <persName ref="#DLCL_CF_PC0150">Lionardo da Capua</persName> della <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> 
+               al meno per otto paoli io ne manderei un’altra copia migliore, e di più l’altro Tomo delle <bibl type="print">Mofete</bibl> 
+               dello stesso <rs type="person" ref="#DLCL_CF_PC0150">Autore,</rs> legati compagni, e bene. 
+               Mi rallegro col <rs type="person">Padre Lettore</rs> della recuperata salute; e voglio sperar, come prego di ciò S. D. M., 
+               che il <rs type="person">Signor</rs> ancor la restituisca alli <persName ref="#DLCL_CF_PC0034">Signori Dottori Veratti,</persName> 
+               e <persName ref="#DLCL_CF_PC0107">Gentili.</persName> 
+               Poiché mi manca la carta, sarò breve in ringraziar la di lei carità per la pronta nuova della morte di <persName ref="#DLCL_CF_PC0295">Don Valeriano</persName> 
+               da me intesa con vivissimo dolore. 
+               Giovò la prontezza per accelerare i suffragi. 
+               Beato lui! 
+               <hi rend="underline"><foreign xml:lang="la">Raptus est, ne malitia mutaret intellectum illius</foreign></hi>. 
+               Confido che per me pregherà, e per gli suoi Confratelli in luogo di salute. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10039_L_C3R" n="3 - Recto" facs="https://classense.unibo.it/files/large/20671/DSC_5746.jpg"/>
+            
+            <p>
+               Il <persName ref="#DLCL_CF_PC0006">Padre Amici</persName> in quest’ordinario mi scrive essere uscito <bibl type="religious">Decreto</bibl> 
+               che il Giovedì Santo si celebrino tutte le Messe basse; per poter soddisfar più comodamente al precetto, 
+               e che si faccia nella Chiesa Universale, del <bibl type="religious">Rosario.</bibl> 
+               Aggiunge aver ciò notificato a <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità;</rs> 
+               la quale anco per questo capo dovrà fare l’<bibl type="religious">Appendice al Calendario.</bibl> 
+               Mi dà nuova che il <persName ref="#DLCL_CF_PC0004">Marozzi</persName> pieno di debiti siasi rifugiato a <placeName ref="#DLCL_CF_L0043">Forlì.</placeName> 
+               Avverta non mettere in mano di lui i nostri libri da esitarsi. 
+            </p>
+            
+            <p>
+               Alla cordialità del <persName ref="#DLCL_CF_PC0144">Padre Lettore Fondi,</persName> 
+               che caramente riverisco, dica che delle <bibl type="print">Scritture</bibl> della <placeName ref="#DLCL_CF_L0022">Ragazina,</placeName> 
+               e del <orgName ref="#DLCL_CF_O0010">Monastero di San Severo</orgName> non mi sovviene aver veduta cosa alcuna, la qual possa recar lume per quel, ch’egli desidera. 
+               Me ne spiace. 
+               Il <persName ref="#DLCL_CF_PC0296">Reverendissimo Montanari</persName> potrà forse appagarlo. 
+            </p>
+            
+            <p>
+               Libri da esitarsi sono: <persName ref="#DLCL_CF_PC0297">Buommattei</persName> della <bibl type="print">Lingua Volgare</bibl> in 4 = 
+               <persName ref="#DLCL_CF_PC0160">Cavalcanti</persName> <bibl type="print">la Rettorica</bibl> in 4 = 
+               <bibl type="print"><foreign xml:lang="la">Martyrologium</foreign></bibl> <persName ref="#DLCL_CF_PC0059"><foreign xml:lang="la">Baronij</foreign></persName> in 4 = 
+               <bibl type="print">Torto e Dritto</bibl> in 12 = <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0153">Ciceronis</persName></foreign> 
+               <bibl type="print"><foreign xml:lang="la">Tusculanae</foreign></bibl> = <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0153">Ciceronis</persName></foreign> 
+               <bibl type="print"><foreign xml:lang="la">de Officijs</foreign></bibl> = <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0298">Cornelius Celsus</persName></foreign> in 16. 
+               = <persName ref="#DLCL_CF_PC0233">Dante</persName> <bibl type="print">della Volgar Eloquenza</bibl> in 8= 
+               <bibl type="print"><foreign xml:lang="la">Lactantius Firmianus</foreign></bibl> in 16 = 
+               <bibl type="print"><foreign xml:lang="la">Lettere Facete</foreign></bibl> lib. 1 = <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0025">Petrarcha</persName></foreign> 
+               <bibl type="print"><foreign xml:lang="la">De Remedijs utriusque Fortunae</foreign></bibl> = 
+               <persName ref="#DLCL_CF_PC0300">Redi</persName> <bibl type="print">Bacco in Toscana</bibl> in 8 = 
+               <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0285">Symmachi</persName></foreign> <bibl type="print"><foreign xml:lang="la">Epistolae</foreign></bibl> = 
+               <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0301">Epictetus</persName></foreign> = 
+               Quanto al prezzo, rimetto l’arbitrio al <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina.</persName> 
+               E più <bibl type="print">Arcadi le Vite</bibl> parte 1 sciolta baiocchi 50 <bibl type="print"><foreign xml:lang="la">Sallustius ad usum Delphini</foreign></bibl> 
+               scudi 1:50 almeno scudi 1:20= 
+            </p>
+            
+            <p>
+               Mi avvisi se vi è costì <bibl type="print"><foreign xml:lang="la">Lexicon Scapulae</foreign></bibl> in piccolo. 
+               Io ho acquistato il grande in foglio. 
+            </p>
+            
+            <closer>
+               <salute>L’abbraccio caramente; e di tutto cuore mi confermo.</salute> 
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1716-11-07">7 Novembre 1716</date></dateline> 
+               <salute>DVPMR</salute> 
+               <salute>Affettuosissimo Padre nel Signore e Servitore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <postscript>
+               <p>
+                  [Avverta che nelle ferie <foreign xml:lang="la">extra Advent., Quadrag; et Vig.</foreign> non si dicono le preci<gap reason="illegible"/>[...]] 
+                  [Di grazia mandi i libri, che aspetto. 
+                  Il <persName ref="#DLCL_CF_PC0194">Munghini</persName> ultimamente mandò qua sei casse di pignole <gap reason="illegible"/>[...]] 
+               </p>
+            </postscript>
+            
+            <pb xml:id="DLCL_CF_E10039_L_C3V" n="3 - Verso" facs="https://classense.unibo.it/files/large/c8059a4226bc81ed2ebd322254df7e10a0460b23.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,170 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10042">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20674/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21082/full/608,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21083/full/601,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21084/full/610,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/24819/full/608,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10042">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 21 Novembre 1716)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Carteggio Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">42</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1716-11-21"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-03-18" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-04-04" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10042_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20674/DSC_5755.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Lodato sia il Signor Iddio, il quale ha voluto che dopo le funeste nuove io sia consolato colla felice, 
+               e fausta relazione del <rs type="person">Fratello</rs> del <persName ref="#DLCL_CF_PC0090">Padre Don Leandro.</persName> 
+               Io ne godo al maggior segno, non solo per la relazione della parentela, ma eziandio pel buon servizio, che da <rs type="person">cotesto nuovo Figliuolo</rs> può sperar la Religione. 
+               Il Signor medesimo lo benedica e lo faccia crescere in un’Uomo grande per virtù e per sapere! 
+               Ho sommamente a caro ch’egli mostri ingegno, e valore nelle cose latine, essendovi tra noi penuria di chi vaglia in questa lingua tanto necessaria, e perciò applaudita. 
+               Vorrei che ne proseguisse da vero l’esercizio, e non fosse da ciò distratto. 
+               Egli è incredibile quanto quì fosse stimata l’Orazione del <persName ref="#DLCL_CF_PC0101" cert="high">Padre Abate Corazzi</persName> Olivetano per la colta latinità. 
+            </p>
+            
+            <p>
+               Ho letta con molto gusto l’annessa lettera del <persName ref="#DLCL_CF_PC0056">Signor Dottor Sancassani,</persName> 
+               ed ho ammirato la perspicacia del di lui ingegno felice al solito nelle conghietture erudite, 
+               avendo egli eziandio senza il necessario lume degli Autori, toccata appuntino la vera, 
+               e germana intelligenza di quelle parole = <foreign xml:lang="la"><hi rend="underline">candidam dedit</hi></foreign> = 
+               siccome avrà scorto <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità,</rs> alla quale subito risposi che questa formola propria, non della buona, 
+               ma dell’infima latinità esprime gli spettacoli de’ pubblici giuochi dati al popolo, a proprie spese. 
+            </p>
+            
+            <p>
+               Allo stesso <rs type="person" ref="#DLCL_CF_PC0056">Signor Dottore</rs> scrissi apertamente, e con tutto candore, 
+               i sentimenti dell’animo, quando con accrescimento di dispiacere ricevei uno pezzo 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10042_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20674/DSC_5756.jpg"/>
+            
+            <p>
+               di lettera dell’Illustrissimo <persName ref="#DLCL_CF_PC0077">Nigrisoli,</persName> che da altri non poteva venirmi che da lui. 
+               Io gli sono buon Amico, come prima, lo stimo, lo riverisco, e gli voglio bene. 
+               Il libro del <persName ref="#DLCL_CF_PC0315">Lupi</persName> non mi ha dato alcun motivo di alienazione perché non ho veduta l’<bibl type="print">Opera,</bibl> 
+               né so’ il contenuto, né punto ne son curioso, né contro punto né poco l’Autore, 
+               il quale <hi rend="underline"><foreign xml:lang="la">nescio quid hominis sit</foreign></hi>, non avendolo mai inteso nominare. 
+               Mi guardo dall’esporre le mie lettere al pericolo di essere stampate contra mia voglia e in affari, de’ quali non avendo io cognizione, non posso entrarvi. 
+               Per altro se egli mi comanderà, lo servirò e per genio, e per debito in corrispondenza a tanti favori, che mi ha compartito, 
+               e alla cordiale bontà che ha avuto, e credo abbia per me. 
+               Così fosse questa bastata per difendere il povero <persName ref="#DLCL_CF_PC0143">Baruffaldi</persName> dal colpo della di lui penna in vendetta d’una pura omissione! 
+               Siamo Uomini; e troppo ne’ Letterati prevale lo spirito maledico, e pungente; 
+               come in voce, e in iscritto ha spesso meco esaggerato il <persName ref="#DLCL_CF_PC0056">Signor Sancassani.</persName> 
+               Ma oh noi felici se per fuggire un vizio, bastasse conoscerlo! 
+               La carità santa c’insegni a compatirci l’un l’altro. 
+            </p>
+            
+            <p>
+               Ho letto la serie della <bibl type="print">Controversia Magatesca,</bibl> nella quale altro non mi manca 
+               che il secondo libro in 4° del <persName ref="#DLCL_CF_PC0072">Cecchini,</persName> e l’<bibl type="print">Opera</bibl> del <persName ref="#DLCL_CF_PC0315">Lupi.</persName> 
+            </p>
+            
+            <p>
+               Ho cancellato dalla <bibl type="manuscript">nota de’ nostri libri</bibl> 
+               <hi rend="underline"><bibl type="print">La Difesa del Giudizio</bibl> nella Causa della <placeName ref="#DLCL_CF_L0072">Cina,</placeName></hi> 
+               e di più l’<bibl type="print">Opera</bibl> del <persName ref="#DLCL_CF_PC0316">Tassoni</persName> 
+               sopra il <persName ref="#DLCL_CF_PC0025">Petrarca</persName> (ma mi aveggo non 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10042_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20674/DSC_5757.jpg"/>
+            
+            <p>
+               esser questa nota: segno è che già trovasi in <orgName ref="#DLCL_CF_O0001">Libreria).</orgName>  
+               Vi metta dunque l’altro libro, scrivendovi sul frontispizio il nome mio al solito. 
+            </p>
+            
+            <p>
+               Riceverò da <placeName ref="#DLCL_CF_L0030">Sinigaglia</placeName> comodamente (venendo ogni settimana di là Pescatori, 
+               e Vetturali a <placeName ref="#DLCL_CF_L0028">Perugia)</placeName> l’involto. 
+               Ed io tengo pronto un’altro da spedir costà quanto prima. 
+               Mi saranno carissimi i <bibl type="religious">Calendarj:</bibl> 
+               e vedrò volentieri il <bibl type="religious">nuovo Decreto del Giovedì Santo,</bibl> cadendo in esso la festa dell’Annunziata. 
+               Mi raccomando a suoi Santi sagrificj, e Orazioni. 
+               I miei cordialissimi rispetti al <rs type="person">Padre Camerlingo</rs> e <rs type="person">Padri Lettori,</rs> 
+               e altri <rs type="person">Padri miei Amatissimi Figli,</rs> con che di vero cuore mi confermo. 
+            </p>
+            
+            <closer>
+               <salute>DVPMR.</salute> 
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1716-11-21">21 Novembre 1716</date>.</dateline> 
+               <salute>Cordialissimo Servitore e Padre nel Signore Affettuosissimo</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>        
+            
+            <pb xml:id="DLCL_CF_E10042_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/4fcb1c6b1e9f0faf88ef8d8259a5c6bde5d2e42f.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

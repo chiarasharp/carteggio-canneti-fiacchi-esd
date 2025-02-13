@@ -1,0 +1,185 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10031">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20663/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21046/full/613,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21047/full/612,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21048/full/610,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/24809/full/593,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10031">
+     <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 1 Febbraio 1716)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Carteggio Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">31</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1716-02-01"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-02-20" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10031_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20663/DSC_5704.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Oggi è la festa di <persName ref="#DLCL_CF_PC0040">San Severo,</persName> ho molte distrazioni, e molte lettere da rispondere nelle poche ore, che corrono tra il ricevere, 
+               e rispondere alle lettere nello stesso giorno: e pure rispondo subito. 
+               E il <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina</persName> vuol farmi credere che le sue occupazioni impediscano dar risposta in prosa, 
+               e in verso ai <rs type="person">suoi Amici?</rs> 
+               Io nol credo certo. 
+               Compatisco bensi la pigrizia accresciuta da questa rigidissima stagione; la quale, se in questo clima ha fatto sentire insoliti rigori, 
+               molto maggiormente mi persuado che crudeli ne saranno stati gli effetti in <placeName ref="#DLCL_CF_L0063">Romagna.</placeName> 
+               Ora abbiamo scirocchi molesti, e noiosi, che hanno disfatte le nevi delle vicine montagne. 
+               Il <placeName ref="#DLCL_CF_L0059">Tevere</placeName> in questi contorni ha fatto del danno. 
+               Né credo che innocenti siano stati cotesti fiumi. 
+               Ma spirino pure o le tramontane gelate, o i caldi scirocchi, intanto il fagotto di <placeName ref="#DLCL_CF_L0003">Pesaro</placeName> sta quivi immobile, 
+               ad onta delle mie replicate infuocate istanze. 
+               Se coll’istesso passo si moverà l’altro giunto da <placeName ref="#DLCL_CF_L0013">Ferrara,</placeName> 
+               io non posso prima aspettarlo dell’arrivo de’ <rs type="person">Pellegrini</rs> al Gran Perdono d’<placeName ref="#DLCL_CF_L0064">Assisi.</placeName> 
+               Con suo agio adunque vi aggiunga <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> 
+               il <persName ref="#DLCL_CF_PC0249">Becmano</persName> delle <bibl type="print">Origini della Lingua Latina,</bibl> 
+               degno di stima eziandio per essere stato dello <persName ref="#DLCL_CF_PC0250" cert="unknown">Scioppio</persName> il maggior critico del secolo passato. 
+               In vece di cotal libro, dia Ella al <rs type="person">Padre lettore</rs> 
+               il <persName ref="#DLCL_CF_PC0235">Possevino</persName> <bibl type="print">dell'Onore,</bibl> e ciò ch’egli vuole di più. 
+               Tengo poi per indubitato che dentro all’involto io vi troverò il <bibl type="manuscript">Catalogo de’ nostri libri,</bibl> 
+               al quale per finirlo non mancava che il lavoro di quattr’ore, fino dal Novembre passato. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10031_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20663/DSC_5705.jpg"/>
+            
+            <p>
+               Merita <rs type="person">cotesto Gesuita</rs> che gli vogliam bene, perché porta nel viso l’idea del <persName ref="#DLCL_CF_PC0193">Padre Abate Amigoni,</persName> 
+               nel pensiero la traccia degli Antichi autori, e nella lingua le lodi di <placeName ref="#DLCL_CF_L0002">Ravenna</placeName> (ciò che abbiasi nel cuore, sallo Iddio solo). 
+               È egli possibile che il <persName ref="#DLCL_CF_PC0107">Signor Dottor Gentili</persName> 
+               col pretesto di toccargli il polso non trovi maniera d’involargli l’<bibl type="print">Orazione?</bibl> 
+               Sarebbon pur meglio spesi poi alcuni pochi paoli per farla stampare di quel 
+               che se ne spendano tanti per le <bibl type="print">Raccolte</bibl> sopra gli Sposi, le Monache, i Predicatori, e che so io. 
+               Si può dire che un sol’esempio abbia egli proposto a’ <rs type="person">Ravennati,</rs> 
+               proponendo loro <persName ref="#DLCL_CF_PC0251 #DLCL_CF_PC0252" cert="unknown">Giovanni Gramatico,</persName> 
+               ed <persName ref="#DLCL_CF_PC0177">Ambrogio Camaldolese,</persName> essendo stati l’uno il Maestro, e l’altro il più insigne Discepolo di quella scuola, 
+               ch’ebbe il vanto di far rifiorire in <placeName ref="#DLCL_CF_L0026">Italia</placeName> la spenta latinità. 
+            </p>
+            
+            <p>
+               Ho trovato in <placeName ref="#DLCL_CF_L0028">Perugia</placeName> il <persName ref="#DLCL_CF_PC0253">Genebrardo,</persName> 
+               e veduto quel poco, che del nostro dottissimo Gene<gap reason="illegible"/>[...] ha accennato. 
+               La ringrazio tuttavia della notizia. 
+               Veda un poco negl’Indici de’ <bibl type="print">Tomi Bollandiani,</bibl> se in quella grand’Opera siavi menzione di lui oltre a quel ch’ella già mi partecipò 
+               degli <bibl type="print">Atti</bibl> di <persName ref="#DLCL_CF_PC0254">Eugenio IV</persName> nel mese di Maggio 
+               (che suppongo sieno nel Propileo) tratto dall’<bibl type="print">Odeporico,</bibl> da quell’Odeporico, 
+               che stimasi da alcuni un librettucciaccio satirico, vergognoso, indegno di <gap reason="illegible"/>[...]. 
+               Ma tale non lo giudicano il Papeprovicario, il quale gode approfittarsi di esso, e il <persName ref="#DLCL_CF_PC0255">Noris</persName> nella prefazione 
+               della sua <bibl type="print">Operetta</bibl> = <foreign xml:lang="la">Somnia quinquaginta francise Macedo</foreign> =, ch’è in cotesta <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
+               Lo veda, e osservi come altamente lo loda, in poche parole. 
+               Ma senta un poco il celebre <persName ref="#DLCL_CF_PC0256">Corrado Samuello Schuertzfleis</persName> 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10031_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20663/DSC_5706.jpg"/>
+            
+            <p>
+               nelle sue <bibl type="print"><hi rend="underline">Epistolae Arcanae</hi></bibl> alla pagina 176.177 epistola CIV 
+               ad <persName ref="#DLCL_CF_PC0060">Antonio Magliabechi</persName> = <foreign xml:lang="la">Ambrosium nomini tuo nuncupatum vidi, 
+               libenterque legi, et cum primis stili elegantiam in Viro sacri ordinis miratus sum, 
+               nec dicere satis queo quam gratum id munus mihi fuerit, quo tam multae, tamque insignes res continentur. 
+               Nam pulchre, et diligenter omnia commemorat, pariterque delectat, et scire instruit, exemplisque docet: 
+               neque modo <persName ref="#DLCL_CF_PC0254">Eugenij Pontificis</persName> aevum illustrat, sed etiam ad Mediceas Venetasque res peropportune digreditur, 
+               et prudentiam, usumque rerum haud vulgarem ostendit</foreign> = E pag. 190 epistola III 
+               ad <persName ref="#DLCL_CF_PC0257">Adamo Cristoforo di Jacopo Iurisconsulto</persName> di <placeName ref="#DLCL_CF_L0066">Dresda</placeName> 
+               delfino = <bibl type="print"><foreign xml:lang="la">Hodoeporicon</foreign></bibl> <foreign xml:lang="la">Ambrosij benigno animo accipias peto, unde pleraque ad quinti decimi saeculi historiam pertinentia desumere liceat, 
+               quae vel ob digressiones satis nitidas placeant, 
+               vel ob res Italicas et congruentes temporum rationes usui esse possint</foreign> =  
+               Il <bibl type="print">Giornale degli eruditi</bibl> di <placeName ref="#DLCL_CF_L0065">Amsterdam</placeName> esattamente, 
+               e a lungo con somme lodi riferisce la stampa allor seguita dell’<bibl type="print">Odeporico,</bibl> 
+               mostrandone l’utilità, e il buon uso, senza toccar cosa alcuna in biasimo degli scandali ivi riferiti 
+               (che in verità erano effetti comuni agli Ordini Regolari in quell’età sconvolta dagli scismi, e dalle guerre, 
+               e dalla corrotta disciplina beneficiaria. 
+               Or se gli eretici colgon la rosa con tanta saviezza, lasciano le spine; perché i nostri...? 
+               Se l’<bibl type="print">Odeporico</bibl> incontra lodi, non biasimi, come si ha a temer delle lettere pienissime di alte, e recondite notizie utilissime, 
+               e appena sparse in rari luoghi di qualche debolezza? 
+               Non temette già in vivo il <persName ref="#DLCL_CF_PC0258">Delfino</persName> delle sue, che lasciò stampare. 
+               Ma la carta è piena, la posta è per partire. 
+            </p>
+            
+            <closer>
+               <salute>Addio.</salute> 
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1716-02-01">primo febbraio 1716</date></dateline>
+            </closer>
+            
+            <postscript>
+               <p>
+                  Mandi il <rs type="person">padre Lettore</rs> la risposta in versi.
+               </p>
+            </postscript>
+            
+            <closer>
+               <salute>Affettuosissimo Servo e Padre nel Signore</salute>
+            </closer>
+
+            <pb xml:id="DLCL_CF_E10031_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/80090c2a80c912aff5ec6d6b64ef356231ed2b36.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

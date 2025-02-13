@@ -1,0 +1,188 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10038">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20670/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21069/full/603,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21070/full/607,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21071/full/609,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/24816/full/606,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10038">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 20 Ottobre 1716)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Carteggio Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">38</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1716-10-20"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-03-05" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10038_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20670/DSC_5737.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendissimo Padre Mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Ed è possibile che siasi <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> scordata di me? 
+               E se di me pur si ricorda, come può egli essere che non mi scriva mai un verso; da che io son stato l’ultimo a scrivere a lei? 
+               Oltre il desiderio di sapere nuove di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità,</rs> 
+               può ben’imaginarsi che vivo con ansiosa brama d’intendere qualche buona relazione della salute del nostro <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina,</persName> 
+               dopo aver saputo ch’era in <placeName ref="#DLCL_CF_L0016">Bagnacavallo</placeName> ammalato. 
+               Or via, egli è tempo di rompere il silenzio, colla quale occasione si ricorderà altresì 
+               di mandarmi i <bibl type="print">Giornali</bibl> da tanto tempo aspettati, insieme con altri libri. 
+               Non mi dolgo che abbia ella lasciatosi scappar le congiunture del <persName ref="#DLCL_CF_PC0035">Padre Lettore Buti,</persName> 
+               e del <rs type="person">Padre Prior</rs> dell’<orgName ref="#DLCL_CF_O0026">Avellana</orgName> e fors’anche di <persName ref="#DLCL_CF_PC0286">Don Giulio Maria,</persName> 
+               per cui poteva l’involtino lasciarsi in <placeName ref="#DLCL_CF_L0023">Foligno</placeName> al <persName ref="#DLCL_CF_PC0015">Signor Giustiniano Pagliarini.</persName> 
+               Non voglio ch’ella mai si creda aver’io data oggi mossa alla penna per motivo di mio interesse, 
+               o di tutt’altro fuorché dell’affetto sincero verso di lei, e del <rs type="person">Padre Lettore</rs> sopraccennato, che di tutto cuore saluto. 
+            </p>
+            
+            <p>
+               Mi persuado ch’ella sia applicata al <bibl type="religious">Calendario.</bibl> 
+               Avverta che, per quanto ho inteso, l’<bibl type="religious">officio della Beata Vergine del Rosario</bibl> è stato steso alla Chiesa Universale. 
+               Della verità potrà chiarirsi o appresso i <rs type="person">Padri Domenicani</rs> di costì, 
+               o appresso chi costì compone il <bibl type="religious">Calendario della Chiesa Ravennate.</bibl> 
+               Suppongo ch’ella, come bravo Rubrichista, qual’è avrà notato <hi rend="underline"><foreign xml:lang="la">De Festo Septem Dolorum Beatae Mariae Virginis nihil hoc anno</foreign></hi> 
+               cadendo in quel Venerdì di Passione San Giuseppe; 
+               ed essendo il seguente giorno impedito da <persName ref="#DLCL_CF_PC0289">San Giovacchino,</persName> né potendosi trasferir più oltre, 
+               secondo la particolar <bibl type="religious">Rubrica dell’Officio medesimo,</bibl> 
+               o sia <bibl type="religious">Decreto della Sacra Congregazione de’ Riti</bibl> <date when-iso="1693-02-26">26 febbraio 1693</date>. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10038_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20670/DSC_5738.jpg"/>
+            
+            <p>
+               Nella Domenica delle Palme, ch’è il principio della Settimana Santa, cadendo la Festa del <persName ref="#DLCL_CF_PC0226">Padre San Benedetto,</persName> 
+               doverà questi trasferirsi al primo giorno non impedito, e insieme trasferirsi anco l’indulgenza, secondo la particolare, 
+               e privilegiata disposizione d’un <bibl type="religious">Breve</bibl> moderno, di cui avrà notizia da <orgName ref="#DLCL_CF_O0029">San Vitale.</orgName> 
+               La qual traslazione dell’Indulgenza sarà spediente notare; per essere poco nota a nostri. 
+            </p>
+            
+            <p>
+               Nel Giovedì Santo occorre la festa della Santissima Annunziata; e però è da segnarsi quel giorno + come di precetto; 
+               dando notizia del <bibl type="religious">Decreto 22 Maij 1660 S. R. C.</bibl> di potersi celebrare alcune Messe private, 
+               perché possa il popolo soddisfare al precetto, di modo che non si tralasci la Comunione generale. 
+               E tali messe private devono celebrarsi, ed esser finite, prima che si riponga nella cassetta il Sacramento. 
+            </p>
+            
+            <p>
+               Nel Lunedì dopo la Domenica in Albis dovrà farsi l’<bibl type="religious">officio corrente di San Vincenzo Ferrero,</bibl> 
+               il Martedì seguente del <persName ref="#DLCL_CF_PC0226">Padre San Benedetto</persName> di 1 classe traslato, e il Mercoledì dell’Annunziata traslato di 2a classe; 
+               fuggendo l’inescusabile errore del <bibl type="religious">Calendario Olivetano</bibl> già stampato, 
+               il quale mette l’Annunziata nel Lunedì, e mostra di poco intendere i <bibl type="religious">Decreti.</bibl> 
+               Ho veduto l’esattissimo <bibl type="religious">Calendario de’ nostri Romiti</bibl> di <orgName ref="#DLCL_CF_O0013">Monte Corona</orgName> stampato per gli anni 1717 e 1718; 
+               che benissimo camminano con queste regole. 
+            </p>
+            
+            <p>
+               Ma sopra tutto è da fuggirsi lo sbaglio preso da chi che sia nel fare il dì 18 Novembre 
+               l’<bibl type="religious">officio delle Dedicazione delle Basiliche de’ Santi Appostoli,</bibl> e trasportare <persName ref="#DLCL_CF_PC0080">San Oddone.</persName> 
+               Gli stessi 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10038_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20670/DSC_5739.jpg"/>
+            
+            <p>
+               <rs type="person">Padri Eremiti</rs> abbondando in cautela sopra questo dubbio, e altri han consultato i <rs type="person">Mastri di Cerimonie del Papa,</rs> 
+               che han voto nella <orgName ref="#DLCL_CF_O0012">Congregazione de’ Riti,</orgName> e hanno dato alle stampe il loro Voto: e queste son le precise parole: 
+               = Similmente in quanto alla Dedicazione, per esser la Sacra delle Chiese de’ Santi Appostoli non fà che sia festa di Appostoli: 
+               non deve perciò avere maggior’eccellenza, che quella le dà il rito, con cui si celebra. 
+               Sicché in ambidue i casi proposti nel foglio, per la stessa parità di ragione, 
+               il giorno 14 di Giugno si deve far l’<bibl type="religious">offizio di San Felice Martire,</bibl> e il giorno 18 di Novembre la festa di <persName ref="#DLCL_CF_PC0080">Sant' Oddone,</persName> 
+               trasferiti respettivamente al primo giorno non impedito <bibl type="religious">gli officj di San Basilio,</bibl> 
+               e della <bibl type="religious">Dedicazione de Santi Apostoli.</bibl> 
+            </p>
+            
+            <p>
+               Desidero notizia di tutta la serie degli <bibl type="print">Opuscoli</bibl> usciti nella strepitosa Causa Magatesca. 
+               Mi sarà caro altresì intendere se si proseguisca la serie delle <bibl type="print">Scanzie Cinelliane.</bibl> 
+               Attualmente appunto fo’ legare tutta la <bibl type="print">Biblioteca Volante,</bibl> 
+               nella quale non sò se più debba stimarsi molte notizie ivi entro sparse o abbominarsi le maldicenze, 
+               e le insipidezze, che per entro alle cose buone vanno framischiate. 
+               Mi avvisi se tra’ nostri libri si trovino certe <bibl type="manuscript">Orazioni manoscritte</bibl> antiche 
+               contro al lusso degli ornamenti delle Donne in <placeName ref="#DLCL_CF_L0071">Viterbo:</placeName> 
+               e parmi sieno legate con certa stampa antica di non sò quale opera di poco conto forse imperfetta, in 4. senza coperte. 
+               Mi risponda subito, Caro <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo.</persName> 
+            </p>
+            
+            <closer>
+               <salute>L’abbraccio di vero cuore, e resto.</salute> 
+               <salute>DVPMR</salute> 
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1716-10-20">20 ottobre 1716</date></dateline> 
+               <salute>Affettuosissimo Servitore Cordialissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <postscript>
+               <p>
+                  [Mi avvisi se in <orgName ref="#DLCL_CF_O0001">libreria</orgName> evvi il <bibl type="print">Giron Cortese,</bibl> e se è libro compito <gap reason="illegible"/>[...]] 
+               </p>
+            </postscript>
+
+            <pb xml:id="DLCL_CF_E10038_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/35eca330f6ad3f7a355e14e2d6a3d47948620304.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

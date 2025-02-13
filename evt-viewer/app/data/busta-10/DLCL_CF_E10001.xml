@@ -71,7 +71,7 @@
       <body>
          <div type="transcription">
             
-            <pb xml:id="DLCL_CF_E10001_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/24771/full/605,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10001_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/88fb79b59430e484857c54822f275880fd08b689.jpg"/>
             
             <opener>
                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -113,11 +113,11 @@
                <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName></signed>
             </closer>
             
-            <pb xml:id="DLCL_CF_E10001_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20816/full/566,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10001_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20633/DSC_5580.jpg"/>
             
-            <pb xml:id="DLCL_CF_E10001_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/24832/full/594,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10001_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/02b670944cc4d306b96efa29b4a4e10ccea5430f.jpg"/>
             
-            <pb xml:id="DLCL_CF_E10001_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/24833/full/580,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10001_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/0870a546cbe37ec8e6654e6a804c6ac6a3afcba3.jpg"/>
             
             <postscript>
                <p>

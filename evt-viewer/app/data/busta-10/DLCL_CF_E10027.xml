@@ -1,0 +1,181 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10027">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20659/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21032/full/593,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21033/full/599,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21034/full/608,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/24807/full/608,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10027">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 23 Novembre 1715)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Carteggio Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">27</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1715-11-23"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-02-13" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-03-20" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-21" who="#DLCL_CF_PS001">stampe</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10027_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20659/DSC_5686.jpg"/>
+            
+            <opener>
+               <salute><persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Amatissimo</salute>
+            </opener>
+            
+            <p>
+               <gap reason="illegible"/>[...] nuova della pietra <gap reason="illegible"/>[...] <rs type="person">Monsignor Arcidiacono</rs> <gap reason="illegible"/>[...] 
+               imploro particolar <gap reason="illegible"/>[...] finisca <gap reason="illegible"/>[...] particolarità d cura <gap reason="illegible"/>[...] 
+               del pericolo finchè <gap reason="illegible"/>[...] de quali sostenevano <gap reason="illegible"/>[...] e non bastano per <gap reason="illegible"/>[...] 
+               cosa sopra la <orgName>Libreria,</orgName> che <gap reason="illegible"/>[...] più di quel, 
+               che <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> mi scrive, ma non posso dir cosa alcuna. 
+               Solo comprendo che il <rs type="person">Padre Lettore</rs> non è più Bibliotecario. 
+               Ma non sò che sia seguito di lui, se resti, o parta, <foreign xml:lang="la">unde veniat, aut quo vadat</foreign>. 
+               Ciò posto, ella potrà almen per ora (quando non segue altra elezione) tirar’avanti da se. 
+               Il <persName ref="#DLCL_CF_PC0093">Padre Lettore Onestini</persName> sarebbe approposito. 
+               Ma io in ciò, e in tutt’altro non posso se non trattenermi alla finestra per vedere. 
+            </p>
+            
+            <p>
+               La necessità, che ho di presto aver la carta, fà che io con impazienza l’aspetti, e con essa i libri consaputi, la <bibl type="print" source="#DLCL_CF_BS0102">Scanzia XVIII,</bibl> 
+               i <bibl type="religious">Calendari,</bibl> e la <bibl type="print" source="#DLCL_CF_BS0108">Vita</bibl> dell’Immortale <persName ref="#DLCL_CF_PC0129">Padre Mabillon,</persName> 
+               che riceverò come una ricca gemma, e ne avrò a lei obbligo particolare. 
+               Se unitamente verranno i <bibl type="print" source="#DLCL_CF_BS0103">Giornali XXI</bibl> e <bibl type="print" source="#DLCL_CF_BS0109">XXII</bibl> sarà un gran miracolo d’insolita sollecitudine. 
+               Non si scordi delle notizie della casa Guiccioli. 
+               Ma saprà <gap reason="illegible"/>[...] di premere per la spedizione della cassa de’ libri a <placeName ref="#DLCL_CF_L0003">Pesaro</placeName> <gap reason="illegible"/>[...], 
+               non mancano mai pronte <gap reason="illegible"/>[...] nelle questioni in <gap reason="illegible"/>[...] il <persName ref="#DLCL_CF_PC0090">Padre Don Leandro,</persName> 
+               che caris<gap reason="illegible"/>[...] cotesti pochi stracci <gap reason="illegible"/>[...] nostri libri, il quale quanto <gap reason="illegible"/>[...]
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10027_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20659/DSC_5687.jpg"/>
+            
+            <p>
+               La ringrazio della testimonianza tratta dall’opera <bibl type="print" source="#DLCL_CF_BS0110" cert="unknown">Cronologia</bibl> di <persName>Seto Calvisio</persName> 
+               <gap reason="illegible"/>[...] della Provvidenza <gap reason="illegible"/>[...] 
+               nella edizione di cotesto <persName ref="#DLCL_CF_PC0347">Grisostomo</persName> <gap reason="illegible"/>[...] 
+               la detta traslazione <gap reason="illegible"/>[...] al <persName ref="#DLCL_CF_PC0215">Re Renato.</persName> 
+               Tra Manoscritti <gap reason="illegible"/>[...] l’opera suddetta trasportata da <persName ref="#DLCL_CF_PC0177">Ambrogio</persName> 
+               <gap reason="illegible"/>[...] nel <bibl type="manuscript">Codice membranaceo</bibl> <gap reason="illegible"/>[...] 
+               ma senza la lettera al <rs type="person">Re</rs> che ben <gap reason="illegible"/>[...] d’un altro Codice pur’in pergamena, 
+               ch’è nella <orgName ref="#DLCL_CF_O0026">Libreria dell’Avellana.</orgName> 
+               Io ebbi detta lettera ben castigata, per opera di <persName ref="#DLCL_CF_PC0216">Monsignor Fontanini,</persName> 
+               dal <bibl type="manuscript" source="#DLCL_CF_BM0006">Codice ottoboniano in 4°, che comprende 125 lettere d’Ambrogio, le orazioni sue, e altre lettere d’altri al medesimo.</bibl> 
+               Nel <bibl type="manuscript">Codice</bibl> dell’<orgName ref="#DLCL_CF_O0037">Ambrosiana</orgName> di <placeName ref="#DLCL_CF_L0027">Milano</placeName> 
+               vi è la stessa prefazione diretta, non già al <rs type="person" ref="#DLCL_CF_PC0215">Re di Napoli,</rs> 
+               ma a <persName ref="#DLCL_CF_PC0217">Giovan Francesco Gonzaga Marchese</persName> di <placeName ref="#DLCL_CF_L0058">Mantova.</placeName> 
+            </p>
+            
+            <p>
+               Carissimo mi è stato il passo dianzi non mai da me osservato di <persName ref="#DLCL_CF_PC0218">Natale Alessandro</persName> 
+               che ho aggiunto alla gran copia delle altre testimonianze già raccolte. 
+               Egli s’è ingannato seguendo le vestigia d’ altri, che prima di lui hanno errato in creder che <persName ref="#DLCL_CF_PC0177">Ambrogio</persName> 
+               abbia detta un’orazione greca in <placeName ref="#DLCL_CF_L0013">Ferrara</placeName> ad em<gap reason="illegible"/>[...] le Imper<gap reason="illegible"/>[...] de’ Greci; 
+               e de’ Vescovi di quella nazione: che <gap reason="illegible"/>[...], e due libri de’ fatti proprj <gap reason="illegible"/>[...] in <placeName ref="#DLCL_CF_L0074">Costanza</placeName> 
+               <gap reason="illegible"/>[...] Imperocché è certo che <gap reason="illegible"/>[...] in <placeName ref="#DLCL_CF_L0024">Venezia,</placeName> 
+               non in <placeName ref="#DLCL_CF_L0013">Ferrara</placeName> <gap reason="illegible"/>[...] quale mai non la disse <gap reason="illegible"/>[...] 
+               e questa emendazione di lui sta nella libreria di S<gap reason="illegible"/>[...]
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10027_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20659/DSC_5688.jpg"/>
+            
+            <p>
+               Murano ch’è diversissimo da quella del Laureto, e dall’altra di <persName ref="#DLCL_CF_PC0219">Angelo della Noce</persName> che ambe sono in cotesta <orgName ref="#DLCL_CF_O0001">Biblioteca.</orgName> 
+               Egli morì l’anno 1439 in <placeName ref="#DLCL_CF_L0018">Firenze</placeName> e il giorno seguente fu <gap reason="illegible"/>[...] 
+               indi il suo <gap reason="illegible"/>[...]po al Sacr’Eremo dove fugli data sepoltura illustrata <gap reason="illegible"/>[...] 
+               a poco collo strepitoso prodigio <gap reason="illegible"/>[...] o gigli nati sopra il <gap reason="illegible"/>[...] cadavero.
+            </p>
+            
+            <p>
+               <gap reason="illegible"/>[...] <placeName ref="#DLCL_CF_L0060">Sarzana</placeName> sopra <persName ref="#DLCL_CF_PC0220">Sant’Ilario</persName> concorda colla lettera 
+               <gap reason="illegible"/>[...] insieme con altre stà nel codice del Sacr’Eremo <gap reason="illegible"/>[...] 
+               faremi copiare dall’erudito <persName>Padre Don <gap reason="illegible"/>[...] Maria:</persName> 
+               e da lei desidero sapere se siano in uno, e in quale de’ <bibl type="manuscript">due Codici dell’epistole</bibl> 
+               d’<persName ref="#DLCL_CF_PC0177">Ambrogio,</persName> o in volume separato. 
+               Non sò imaginarmi da qual’altro luogo que’ <rs type="person">Dottissimi Monaci</rs> di <orgName ref="#DLCL_CF_O0030">San Mauro</orgName> 
+               abbian’ottenuta la stessa lettera di <persName ref="#DLCL_CF_PC0221">Tommaso di Sarzana.</persName> 
+               Sendo indubitato che il detto <persName ref="#DLCL_CF_PC0221">Tommaso</persName> salì al pontificato col nome di <persName ref="#DLCL_CF_PC0221">Niccolò V;</persName> 
+               è ancor certo ch’ei fà allievo del <persName ref="#DLCL_CF_PC0222">Beato Cardinale Niccolò Albergati Certosino</persName> 
+               detto il <rs type="person" ref="#DLCL_CF_PC0222">Cardinale di Santa Croce,</rs> 
+               e che al <rs type="person">Cardinale medesimo</rs> già suo Padrone, successe poi nel Vescovato di <placeName ref="#DLCL_CF_L0007">Bologna.</placeName> 
+               Fu amico del nostro <persName ref="#DLCL_CF_PC0177">Ambrogio,</persName> vago come lui di raccoglier libri, e nel Pontificato gran fautore, e liberal promotore de’ Letterati. 
+            </p>
+            
+            <p>
+               Quel passo del <persName ref="#DLCL_CF_PC0129">Mabillon</persName> sopra il riferir le miserie del Monachismo nelle Storie 
+               lo faccia <gap reason="illegible"/>[...] da <persName ref="#DLCL_CF_PC0184">Don Lotario,</persName> o da alcun’altro. 
+               Tenga una nota delle cose, che io desidero da Lei.
+            </p>
+            
+            <closer>
+               <salute>Resto abbracciandola caramente; e son Tutto suo.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1715-11-23">23 novembre 1715</date></dateline>
+               <salute>Affettuosissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>            
+            
+            <pb xml:id="DLCL_CF_E10027_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/2bf80127fab73f8bc9e6359e5b923ab8f11e6ff7.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

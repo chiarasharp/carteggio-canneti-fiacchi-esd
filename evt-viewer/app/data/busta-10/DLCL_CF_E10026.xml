@@ -22,7 +22,7 @@
                </availability>
             </publicationStmt>
             <seriesStmt>
-               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="main">Carteggio Canneti Fiacchi</title>
                <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
                <biblScope unit="letter">26</biblScope>
             </seriesStmt>
@@ -74,7 +74,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10026_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/21027/full/598,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10026_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20658/DSC_5678.jpg"/>
 
             <opener>
                <salute>
@@ -110,7 +110,7 @@
                (che perciò sono <foreign xml:lang="la">ad libitum</foreign>, e il libito qui è ragionevole, ed è 
          </p>
 
-         <pb xml:id="DLCL_CF_E10026_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/21028/full/593,800/0/default.jpg"/>
+         <pb xml:id="DLCL_CF_E10026_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20658/DSC_5679.jpg"/>
 
          <p>
                anzi necessità) e lasciar’ancora per tal motivo qualche volta l’<bibl type="religious">officio del Santo Padre</bibl> fer. 3a. 
@@ -147,7 +147,7 @@
                Riceverò, quando che sia, la <bibl type="print" source="#DLCL_CF_BS0101">Scanzia XVII</bibl> regalatami dal <persName ref="#DLCL_CF_PC0056">Signor Sancassani</persName>
          </p>
 
-         <pb xml:id="DLCL_CF_E10026_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/21029/full/590,800/0/default.jpg"/>
+         <pb xml:id="DLCL_CF_E10026_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20658/DSC_5680.jpg"/>
 
          <p>
                * Immagatito. 
@@ -186,7 +186,7 @@
                perché anticamente nelle Chiese non si riponevano i cadaveri de’ fedeli; ma ne’ cimiteri, o conditorj, 
          </p>
 
-         <pb xml:id="DLCL_CF_E10026_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/21030/full/598,800/0/default.jpg"/>
+         <pb xml:id="DLCL_CF_E10026_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/20658/DSC_5681.jpg"/>
 
          <p>
                o al di più ne’ Saccelli, o Capelle contigue al corpo della Chiesa, che l’<persName ref="#DLCL_CF_PC0206">Agnello</persName> 
@@ -231,7 +231,7 @@
                Con un poco poi di comodo aspetto copia dell’
       </p>
 
-      <pb xml:id="DLCL_CF_E10026_L_C3R" n="3 - Recto" facs="https://classense.unibo.it/iiif/2/21031/full/570,800/0/default.jpg"/>
+      <pb xml:id="DLCL_CF_E10026_L_C3R" n="3 - Recto" facs="https://classense.unibo.it/files/large/20658/DSC_5683.jpg"/>
 
       <p>
          <bibl type="religious">Istromento della donazione dello Spedale della Misericordia,</bibl> da cotesto nostro <orgName ref="#DLCL_CF_O0001">Archivio.</orgName> 
@@ -269,7 +269,7 @@
    </signed>
 </closer>
 
-<pb xml:id="DLCL_CF_E10026_L_C3V" n="3 - Verso" facs="https://classense.unibo.it/iiif/2/24806/full/592,800/0/default.jpg"/>
+<pb xml:id="DLCL_CF_E10026_L_C3V" n="3 - Verso" facs="https://classense.unibo.it/files/large/ebcc2ee101575b01e4228780c1b12897f4df747e.jpg"/>
 
 <postscript>
    <p>

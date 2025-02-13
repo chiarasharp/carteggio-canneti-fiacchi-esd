@@ -1,0 +1,223 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10034">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20666/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21054/full/606,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21055/full/601,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21056/full/608,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/21057/full/598,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10034">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 16 Giugno 1716)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Carteggio Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">34</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1716-06-16"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-02-21" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10034_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20666/DSC_5716.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendissimo Padre mio Osservandissimo</rs></salute>
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1716-06-16">16 giugno1716</date></dateline>
+            </opener>
+            
+            <p> 
+               Ha tre mesi e mezzo ormai ch’è sconvolto l’ordine delle mie applicazioni, con detrimento sommo della consaputa Opera, 
+               alla quale piaccia a Dio che io possa, come desidero, e spero, rimetter le mani, dentro a questo mese. 
+               Mi prese dopo Pasqua una infreddatura, che appena cessò la settimana passata, 
+               e dietro vi successe subito un ritocco di dolori d’intestini, il quale da ieri in qua ha finito di travagliarmi. 
+               Mi è stato però necessario in tutto questo tempo star lontano dal tavolino, donde ha avuto origine, e moto il male. 
+               Mi stava a cuore il debito di avvisar <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> d’aver ricevuto l’involto, e di rispondere. 
+               Ma la speranza di ordinario in ordinario mi ha ingannato, e mi ha fatto mancare. 
+               Preghi il Signor Iddio che si degni concedermi in avvenire quella perfetta salute, 
+               che per venti mesi ho quì goduto, e della quale ho forse abusato con eccesso d’applicazione: 
+               donde son poi derivate le flussioni a’ piedi, e il riscaldamento alla testa, e agl’intestini. 
+               Ora col divino aiuto parmi di star competentemente bene. 
+               Lo che è grazia segnalata del Signore, trovandosi questa misera Città, oltre il flagello della carestia, 
+               sofferto da molti mesi in quà, e che tuttavia dura, trovandosi dico piena di ammalati, a migliaia, 
+               che si vanno morendo in grande numero alla giornata. 
+               I sani sono pieni di apprensione, per non esservi 'a' memoria d’uomini stata mai un’infezione simile in aria per altro così squisita. 
+               In fatti regna quest’influenza il presente anno nelle città d’aria sottile: 
+               in <placeName ref="#DLCL_CF_L0067">Osimo</placeName> si calcola che sia morta la quarta parte degli abitanti. 
+               Da <placeName ref="#DLCL_CF_L0068">Spoleto</placeName> 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10034_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20666/DSC_5717.jpg"/>
+            
+            <p>
+               non si sentono da molto tempo che nuove di ammalati, e morti in quantità. 
+               Così in <placeName ref="#DLCL_CF_L0064">Assisi,</placeName> e altri luoghi di monte di questi contorni. 
+               Qui non si discorre che della penuria, e delle malattie, e delle morti: pensi come stiamo allegri. 
+               Il pane si vende in alcuni pochi luoghi, a ore determinate, in quantità limitata, coll’app<gap reason="illegible"/>[...]tenza degli Abbondanzieri; 
+               e alle porte della Città, che restano aperte, essendone alcune chiuse, stanno le guardie perché non esca pane. 
+               È scemato in parte il numero de’ poveri, essendo ritornati alla campagna i Contadini, che quest’inverno si sono ridotti in Città ad accrescer la fame. 
+               Quasi tutte le Case Religiose, per la scarsità del passato raccolto, per dover dare la sementa, 
+               e il mantenimento a’ lavoratori e per aiutare l’estrema necessità de’ mendichi ridotti a mangiar cibi, 
+               che appena si crederiano, si son trovate mancar’il grano. 
+               E questa disgrazia a noi pure è toccata, a quali è mancato il sostentamento per tre mesi, trovato per grazia a carissimo prezzo. 
+               Così delle malattie ci è toccata la nostra parte, e avendo <persName ref="#DLCL_CF_PC0043">Frate Pietro</persName> oggi nella decimaterza 
+               con febbre putrida, maligna, e verminosa, sta tra la speranza, e il timore, 
+               e a tutti noi spiace vivissimamente la perdita, quando segua, del <rs type="person">povero Fratello,</rs> che riusciva sommamente bene. 
+               Non si trovava modo di ammazzare i vermi, i quali accompagnano quasi tutte le malattie ma son diversi di grandezza, di colore, e di natura, sempre in quantità numerosi. 
+               Usano i medici il vino rosso gagliardo, non ostante la febbre, il mercurio crudo, 
+               l’olio del Mattiolo, l’olio di sasso, il balsamo d’<persName ref="#DLCL_CF_PC0267">Innocenzo XI;</persName> 
+               l’acqua r<gap reason="illegible"/>[...]; l’acqua di fior d’aranci; 
+               ma in alcuni, come in <persName ref="#DLCL_CF_PC0043">Frate Pietro,</persName> i vermi resistono a tutto. 
+               Oggi avanti <rs type="person">Monsignor Governatore,</rs> e il <rs type="person">Magistrato</rs> si fa consulto generale di tutti i Medici della 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10034_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20666/DSC_5718.jpg"/>
+            
+            <p>
+               Città, col <persName ref="#DLCL_CF_PC0268">Medico Nuccarini</persName> di <placeName ref="#DLCL_CF_L0023">Foligno</placeName> Uomo insigne fatto venire a posta. 
+               Ma dubito che il Congresso finirà come le Dispute delle nostre Scuole. 
+               Le opinioni son diverse; tutti però concludono che non ne sanno più. 
+               Han provato che l’emissioni di sangue, i vescicanti, i purganti, i cordiali, i berucarri non solo non giovano, ma precipitano, e son di nocumento. 
+               Il <persName ref="#DLCL_CF_PC0269">Viti,</persName> ch’è buon filosofo ha ieri fatto lavare tutto d’acquavite <rs type="person">un Cavaliere ammalato,</rs> 
+               e gli ha fatto fare un cristiero di vino rosso. 
+               Oggi si trova l’infermo sollevato. 
+               Staremo a vedere. 
+               Si aprono ogni giorno cadaveri; e si fa esperienza sopra il far morire i vermi, che muoiono nel vino rosso, 
+               e per l’opposto prendono vigore nel vin bianco. 
+               Ho diffusamente scritto, e perché ciò giova a sollevar l’animo, e perché ho caro che <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> conferisca 
+               il fatto a nostri Signori Medici <persName ref="#DLCL_CF_PC0107">Gentili,</persName> 
+               <persName ref="#DLCL_CF_PC0088">Calbi</persName> e <persName ref="#DLCL_CF_PC0034">Veratti,</persName> che riverisco. 
+            </p>
+            
+            <p>
+               Ho ricevuto con quest’ordinario i fogli colla prefazione del 3° tomo degli <bibl type="print">Annali</bibl> del <persName ref="#DLCL_CF_PC0129">Mabillon,</persName> 
+               e col 1. s. del secolo X, il quale fa mirabilmente a mio proposito. 
+               Mille e mille grazie di tanto incomodo alla di lei amabilissima cordialità. 
+               Riceverò poi copia della <bibl type="print">Donazione,</bibl> e le notizie che mi promette del <persName ref="#DLCL_CF_PC0177">Generale Ambrogio.</persName> 
+               La <bibl type="print">Vita</bibl> del <persName ref="#DLCL_CF_PC0261">Bargeo</persName> dee servire 
+               per il <persName ref="#DLCL_CF_PC0270">Signor Cavaliere Marmi</persName> di <placeName ref="#DLCL_CF_L0018">Firenze,</placeName> 
+               al quale io professo distinto obbligo per le molte lettere ultimamente speditemi del nostro <persName ref="#DLCL_CF_PC0177">Ambrogio,</persName> 
+               che non si trovano fuor del di lui <bibl type="manuscript">Codice membranaceo.</bibl> 
+               Un tal beneficio mi ha arricchita molto la raccolta, ma insieme mi ha recato gravissimo incomodo, per dover rifar’una parte della tela già vicina al fine. 
+            </p>
+            
+            <p>
+               [Il risultato del Congresso è stato che la Causa morbosa non è altro fuorchè l’esaltazione della bile accompagnata da’ vermi. 
+               Che convien’astenersi dal cavar sangue, da’ vescicanti da purganti, da buzzurri, e dalle confezioni d’alchermes, di giacinti, 
+               e in oltre che si astenga dalle violenze contra i vermi, essendo pregiudicale troppo l’irritargli nell’incertezza dell’efficacia per ammazzargli. 
+               <persName ref="#DLCL_CF_PC0043">Frate Pietro</persName> stà meglio di febbre]
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10034_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/20666/DSC_5719.jpg"/>
+            
+            <p>
+               Dimani scriverò al <rs type="person">signor Cavaliere</rs> per intendere come devesi servire; 
+               e poscia avvisare <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> del modo di trasmetter la copia a <placeName ref="#DLCL_CF_L0028">Firenze.</placeName> 
+               Riceverò volentieri la <bibl type="print">Scanzia XVIII;</bibl> di cui avrò a <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> l’obbligo, 
+               come l’ho ben grande della <bibl type="print">Vita</bibl> del <persName ref="#DLCL_CF_PC0129">Mabillon</persName> a me infinitamente cara. 
+               Mi spiace che l’<rs type="person">Autor</rs> d’essa <bibl type="print">Scanzia</bibl> 
+               abbia trovato questa strada <hi rend="underline"><foreign xml:lang="la">egregie insaniendi</foreign></hi>. 
+               Molto egli mi avrebbe soddisfatto, se avesse con buon modo ritrattato, 
+               o compensato quanto nell’altra impropriamente scrisse del <persName ref="#DLCL_CF_PC0143">Signor Baruffaldi.</persName> 
+               Ma la lode, che in quest’altra gli dà, è tinta dello stesso veleno. 
+               Se in ciò non pensa a soddisfarmi, io non gli scriverò mai, premendomi più l’<rs type="person">Amico,</rs> che quanto incenso mi dia. 
+               Avrei caro ch’egli sapesse questa mia intenzione. 
+               Può essere che i <rs type="person">Revisori</rs> non abbian’approvato lo sfogo cons<gap reason="illegible"/>[...] del <persName ref="#DLCL_CF_PC0054">Fiori.</persName> 
+               Unitamente col <bibl type="print">Giornale XXIV,</bibl> e colla detta <bibl type="print">Scanzia,</bibl> 
+               a suo tempo favorisca mandarmi una copia dell’opera del <persName ref="#DLCL_CF_PC0186">Signor dal Corno</persName> desiderata qui da <rs type="person">un mio Amico,</rs> 
+               avvisandomi il prezzo preciso. 
+               La mandi o sciolta o legata. 
+               Quando si finirà di stampare la <bibl type="print">Genealogia di casa Sassatelli?</bibl> 
+               Riverisca i Padri Lettori <persName ref="#DLCL_CF_PC0007">Collina,</persName> 
+               <persName ref="#DLCL_CF_PC0121">Guiccioli</persName> e <persName ref="#DLCL_CF_PC0093">Onestini.</persName> 
+               Un caro saluto al <persName ref="#DLCL_CF_PC0090">Padre Don Leandro,</persName> di cui non ho intese nuove, 
+               <persName ref="#DLCL_CF_PC0184">Don Lotario,</persName> e <persName ref="#DLCL_CF_PC0246">don Abondio</persName> nostri carissimi. 
+               Al <persName ref="#DLCL_CF_PC0007">Padre Lettore Don Bonifazio</persName> scriverò un’altr’ordinario. 
+               Mi dia nuova del <bibl type="print">Panegirico del Beato Pellegrino.</bibl> 
+               Il mio <bibl type="print">Discorsaccio di S. Francesco di Paola</bibl> è sotto al torchio, postovi da un gentilissimo mio amico, che mi vuol troppo bene. 
+               Mi rallegro con <persName ref="#DLCL_CF_PC0091">Frate Fausto</persName> della bella porta. 
+               Un cordial saluto a <persName ref="#DLCL_CF_PC0265">Frate Benedetto.</persName> 
+               Gli dica che so qual’è il suo male. 
+               Stia allegro e rassegnato al voler di Dio, come fan tutti quei, che intendon le cose pel suo verso e sarà guarito. 
+               Glielo dica, e lo consoli in mio nome. 
+            </p>
+            
+            <closer>
+               <salute>DVPMR</salute> 
+            </closer>
+            
+            <postscript>
+               <p>
+                  Mi riverisca carissimamente il <rs type="person">Padre Camerlengo.</rs> 
+               </p>
+            </postscript>
+            
+            <closer>
+               <salute>Affettuosissimo Servo e Padre nel Signore.</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <postscript>
+               <p>
+                  [Rimetto il restante ad altra lettera. 
+                  Abbiamo in <placeName ref="#DLCL_CF_L0028">Perugia</placeName> il <persName ref="#DLCL_CF_PC0271">Signor Jacopo Miriani</persName> pittore, 
+                  che fece per cotesta <orgName ref="#DLCL_CF_PC0271">Libreria</orgName> quattro Ovati. 
+                  Si trattiene, e lavora qui. 
+                  Ho acquistato diversi libri manoscritti, e stampati; tra gli altri due Tomi folio del <persName ref="#DLCL_CF_PC0025">Petrarca</persName> a buon marcato]
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

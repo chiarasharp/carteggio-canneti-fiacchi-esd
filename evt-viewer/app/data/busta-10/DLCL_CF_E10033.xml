@@ -1,0 +1,130 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10033">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20665/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21052/full/608,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21053/full/604,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10033">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 7 Aprile 1716)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Carteggio Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">33</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1716-04-07"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-02-21" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10033_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20665/DSC_5711.jpg"/>
+            
+            <opener>
+               <salute><persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Carissimo</salute>
+            </opener>
+            
+            <p>
+               L’istravagantissima stagione, che ci perseguita con nevi, e freddi intollerabili, aggiuntavi una flussione nel petto, 
+               la quale molto mi travagliò nel recitare il <bibl type="religious">Panegirico di San Francesco di Paola</bibl> il dì primo Aprile, 
+               non mi lascia libero il poter’applicare, come vorrei, al tavolino. 
+               Pertanto non sò se appieno potrò oggi compire a miei doveri in risposta 
+               alle due ultime al solito gratissime di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità.</rs> 
+               In primo luogo la prego mandarmi il <bibl type="print">Giornale XXIII</bibl> per <rs type="person">un’Uomo</rs> che <rs type="person">cotesto Padre Reverendissimo</rs> 
+               invia in queste parti al <persName ref="#DLCL_CF_PC0168">Padre Pier Iacopo Bacci</persName> Filippino, e deve partire dopo la Domenica in Albis. 
+               Ne parli al garbatissimo <rs type="person">Padre Camerlingo,</rs> con riverirlo cordialissimamente da mia parte, 
+               pregandolo far’in modo che l’uomo seco porti il poco peso di cotesti tre libretti. 
+               Godo che il <persName ref="#DLCL_CF_PC0128">signor Abate Rondoni</persName> abbia fatto godere a cotesta Città il suo talento nel predicare, e riportato ne abbia applauso. 
+               Senza dubbio è una bellissima rarità, di cui mi fece dono il <persName ref="#DLCL_CF_PC0138">Padre Maestro Burgos</persName> nella lettera manoscritta antica aggiunta all’  
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10033_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20665/DSC_5712.jpg"/>
+            
+            <p>
+               opera stampata del <persName ref="#DLCL_CF_PC0262">Pirovano.</persName> 
+               Il <persName ref="#DLCL_CF_PC0263">Piccinelli</persName> nell’<orgName ref="#DLCL_CF_O0044">Ateneo milanese</orgName> scrive che 
+               il titolo del Libro è <bibl type="print"><hi rend="underline">De Astronomiae Veritate</hi></bibl> 
+               e che fu stampato in <placeName ref="#DLCL_CF_L0042">Basilea</placeName> 1554. 
+               Mi avvisi se cotesta edizione più antica porti il medesimo titolo, e dove e quando sia fatta. 
+               In somma la memoria tradisce. 
+               <persName ref="#DLCL_CF_PC0138">Padre Burgos</persName> avrà letto altrove l’erudizione del <persName ref="#DLCL_CF_PC0264">Trivulzio</persName> 
+               ed avrà concepito che ciò si rammemori nella lettera manoscritta. 
+               Di questa faccia <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> distinta nota nell’<bibl type="manuscript">Indice</bibl> 
+               e forse non farebbe male se collocasse il libro tra li manoscritti. 
+               A rivederci con più agio Sabbato prossimo. 
+               L’abbraccio co’ <persName ref="#DLCL_CF_PC0007">Padri Lettori Collina,</persName> <persName ref="#DLCL_CF_PC0121">Guiccioli</persName> 
+               e <persName ref="#DLCL_CF_PC0093">Onestini.</persName> 
+               Un cordiale saluto alli nostri Fratelli, <persName ref="#DLCL_CF_PC0265">Benedetto,</persName> e <persName ref="#DLCL_CF_PC0266">Franco</persName> 
+               che prego Dio risanino perfettamente. 
+            </p>
+            
+            <closer>
+               <salute>Addio.</salute> 
+               <salute>DVPMR</salute> 
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1716-04-07">7 aprile 1716</date></dateline>
+            </closer>
+            
+            <postscript>
+               <p>
+                  Mi dia nuova di <persName ref="#DLCL_CF_PC0036">Frate Teodoro</persName> 
+               </p>
+            </postscript>
+            
+            <closer>
+               <salute>Cordialissimo Affettuosissimo Servo e Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>     
+         </div>
+      </body>
+   </text>
+</TEI>

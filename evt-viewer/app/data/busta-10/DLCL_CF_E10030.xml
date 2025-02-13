@@ -1,0 +1,237 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10030">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20662/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21042/full/601,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21043/full/605,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21044/full/597,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/21045/full/602,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10030">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 21 Gennaio 1716)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Carteggio Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">30</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1716-01-21"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-02-15" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-21" who="#DLCL_CF_PS001">stampe</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10030_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20662/DSC_5699.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+               <dateline><placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName> <date when-iso="1716-01-21">21 gennaio 1716</date></dateline>
+            </opener>
+            
+            <p>
+               A <placeName ref="#DLCL_CF_L0013">Ferrara</placeName> io mi ricordo avere scritto al <persName ref="#DLCL_CF_PC0143">Baruffaldi</persName> alcune lettere, e non ad altri; 
+               da molto tempo in quà <gap reason="illegible"/>[...] inoltre asserire d’essermi in tal’occasione 
+               sfogato contro al <persName ref="#DLCL_CF_PC0056">Signor Dottor Sancassani,</persName> il quale ha mostrato di stimar molto poco la mia amicizia, 
+               non cercando la scusa del <persName ref="#DLCL_CF_PC0143">Baruffaldi</persName> per non averlo nominato nel suo ditirambo, 
+               che io portai allo stesso <persName ref="#DLCL_CF_PC0056">Sancassani</persName> in una mia. 
+               La riflessione prudenziale del <persName ref="#DLCL_CF_PC0143">Baruffaldi,</persName> che dice essersi astenuto dal mostrarsi amico di un <rs type="person">Letterato,</rs> 
+               che <gap reason="illegible"/>[...] la sua figura in paese (per lui) sospetto, 
+               dovea ragionevolmente appagare il <persName ref="#DLCL_CF_PC0056">Signor Sancassani</persName> 
+               dal <persName ref="#DLCL_CF_PC0143">Baruffaldi</persName> nominato nella sua penultima opera, che fu quella delle <bibl type="print" source="#DLCL_CF_BS0116" cert="unknown">Prefiche.</bibl> 
+               Sò che egli mostra non curarsi di aver luogo in quel ditirambo da lui disprezzato. 
+               Ma questa è un’affettazione renduta manifesta dalla passione, che dà a conoscere nella <bibl type="print" source="#DLCL_CF_BS0101">Scanzia XVII</bibl> 
+               con una puntura <gap reason="illegible"/>[...], ma necessaria, e meritevole di biasimo, e di censura. 
+               Se non se ne <gap reason="illegible"/>[...] perché investire quella Poesia? 
+               Perché scriver’a me ch’egli <gap reason="illegible"/>[...]? 
+               Perché non acquietarsi al giusto motivo da me <gap reason="illegible"/>[...] alle stampe altamente offeso <rs type="person">un’Amico suo antico</rs> 
+               non d’altro <gap reason="illegible"/>[...] sottratta un’incensata di tabacco, ed ha offeso me, che per <gap reason="illegible"/>[...] di comune amicizia, 
+               e di buon genio verso ambidue, ma più verso il <persName ref="#DLCL_CF_PC0056">Sancassani</persName> tanto a me caro, 
+               mi era fraposto per raddolcire la passione irragionevole di questi, tanto più gagliarda, quanto più studiasi egli invano di dissimularla. 
+            </p>
+            
+            <p>
+               Questo è il pieno sfogo, che mi occorre fare, e che non mi curo sia noto a chi me ne ha data ingiustamente la cagione. 
+               Né pur la decima parte io ne feci col <persName ref="#DLCL_CF_PC0143">Baruffaldi.</persName> 
+               Se fosse concepito ne’ termini espressi nella lettera di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> io non lo sò: 
+               né mi ricordo in quali sentimenti precisamente prorompesse il mio lamento, 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10030_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20662/DSC_5701.jpg"/>
+            
+            <p>
+               che so di certo essere stato breve, e non caricato, tale in somma, che non mi dispiacerebbe fosse pubblicato eziandio colle stampe. 
+               Può essere che io scrivessi appunto co’ i concetti riferiti dal <gap reason="illegible"/>[...] di dar ordine che de’ nostri opuscoli non si facesse nota. 
+               Il che quando siasi, non me ne pento, non devo vergognarmene, ne lamentarmi del <persName ref="#DLCL_CF_PC0143">Baruffaldi,</persName> 
+               che si è aiutato, come meglio ha potuto, vedendosi nel tempo delle sue maggiori turbolenze <gap reason="illegible"/>[...] da un de’ più cari Amici, 
+               che ha avuto cuore di aggiungere afflizione ad un’afflitto. 
+            </p>
+            
+            <p>
+               Né ha ragione il <persName ref="#DLCL_CF_PC0056">Signor Sancassani</persName> di dolersi di me, perché privatamente non l’abbia avvisato. 
+               Egli non ha curato la mia confidenza, quando alle doglianze sue risposi adducendogli le scuse del <persName ref="#DLCL_CF_PC0143">Baruffaldi,</persName> 
+               come mediatore impostomi per ismorzare il fuoco, che vidi accendersi fra di loro. 
+               A che serva dopo la confidenza, quando già <gap reason="illegible"/>[...] la vendetta senza attendere la prima confidenza 
+               da <gap reason="illegible"/>[...] sfogo appresso il <persName ref="#DLCL_CF_PC0143">Signor Baruffaldi,</persName> perché questi <gap reason="illegible"/>[...], 
+               e intendesse che io non approvava l’ingiusta <gap reason="illegible"/>[...] del <persName ref="#DLCL_CF_PC0056">Sancassani</persName> 
+               <gap reason="illegible"/>[...]onta d’una pura, e necessaria <gap reason="illegible"/>[...]. 
+            </p>
+            
+            <p>
+               Con tutto ciò ringrazio <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> de’ buoni <bibl type="religious">officj</bibl> fatti ed <gap reason="illegible"/>[...] 
+               non aver’io fatto proibizione che facciasi nota de’ nostri pochi <bibl type="religious">opuscoli;</bibl> 
+               né lo fo al presente ma lascio lei in piena libertà di servire il <persName ref="#DLCL_CF_PC0056">Signor Sancassani,</persName> 
+               che ho amato intimamente al pari di chi che sia, e amo, e stimo, quanto devo. 
+               Egli è ben che dopo avermi egli stampata una lettera, non ostante le mie istanze in contrario, 
+               e dopo avermi fatto apparire, appresso il <persName ref="#DLCL_CF_PC0143">Baruffaldi,</persName> incapace di ottener da lui ciò, 
+               ch’era giustissimo, stimo spediente, e necessario astenersi 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10030_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20662/DSC_5702.jpg"/>
+            
+            <p>
+               dal comunicar seco per via di lettere, e di confidenza. 
+            </p>
+            
+            <p>
+               Per altro il formar <bibl type="religious">Catalogo degli Opuscoli,</bibl> 
+               e conservar così memoria di tante <bibl type="print">Operette</bibl> <gap reason="illegible"/>[...]. 
+               Insigni, è faccenda, che merita la sua lode. 
+               Il <persName ref="#DLCL_CF_PC0038">Cinelli</persName> ne riportò grandi applausi, anco da più fini <rs type="person">Critici Oltramontani,</rs> 
+               aiutato dal celebratissimo <persName ref="#DLCL_CF_PC0060">Magliabechi</persName> e nel tessere la <bibl type="print" source="#DLCL_CF_BS0011">Biblioteca Volante,</bibl> 
+               e nell’<gap reason="illegible"/>[...] per tutta <placeName ref="#DLCL_CF_L0061">Europa</placeName> le lodi. 
+               Ancora il buon vecchio <persName ref="#DLCL_CF_PC0242">Carlo Cartari</persName> Avvocato Concistoriale, mio Amico si accinse a questo lavoro, 
+               per gli soli <bibl type="religious">Opuscoli</bibl> della <orgName ref="#DLCL_CF_O0041">Libreria</orgName> del <persName ref="#DLCL_CF_PC0243">Cardinale Altieri,</persName> 
+               e ne stampò il primo tometto in 4to con certo titolo di cattivo gusto intitolandolo <bibl type="print" source="#DLCL_CF_BS0117">“Pallade Bambina”</bibl> <gap reason="illegible"/>[...] 
+               ne ordinasse una Raccolta con metodo, e scelta (lo che non han fatto né <persName ref="#DLCL_CF_PC0038">Cinelli</persName> 
+               né <persName ref="#DLCL_CF_PC0242">Cartari)</persName> occuperebbe un nuovo posto <gap reason="illegible"/>[...] Repubblica Letterata. 
+               <persName ref="#DLCL_CF_PC0038">Cinelli</persName> (e colla penna di lui il <persName ref="#DLCL_CF_PC0060">Magliabechi)</persName> <gap reason="illegible"/>[...] tutta l’Opera. 
+               Né in ciò dovea seguirne le pedate il <persName ref="#DLCL_CF_PC0056">Sancassiani,</persName> riflettendo all’infelice frutto, 
+               che ne ricolse il <persName ref="#DLCL_CF_PC0038">Cinelli</persName> stesso <gap reason="illegible"/>[...] e, 
+               dopo ristampato per mano del <rs type="person">Carnefice</rs> un tomo della <bibl type="print" source="#DLCL_CF_BS0011">Biblioteca sua Volante,</bibl> esiliato, ramingo, mendico, 
+               e morto in gran povertà in <placeName ref="#DLCL_CF_L0062">Dalmazia.</placeName>
+            </p>
+            
+            <p>
+               Vorrei finire di querelarmi de <persName ref="#DLCL_CF_PC0056">Sancassani.</persName> 
+               Eppur bisogna che io mi dolga che di 50 Copie della <bibl type="print" source="#DLCL_CF_BS0118">Notomia dell’acqua</bibl> andate in sue mani 
+               io con tutto l’onore della Dedicatoria non ne ho avuto pur’un esemplare. 
+               Come posso servirne di due il <persName ref="#DLCL_CF_PC0244">Signor Arisi?</persName> 
+               Da questo ho lettera nel presente ordinario. 
+               Sabbato risponderò, e penserò il modo di soddisfare alle sue richieste. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10030_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/20662/DSC_5703.jpg"/>
+            
+            <p>
+               Veda un poco se nell’<bibl type="manuscript">Istoria manoscritta</bibl> del <persName ref="#DLCL_CF_PC0176">Carrari</persName> 
+               siavi menzione del nostro <persName ref="#DLCL_CF_PC0177">Ambrogio.</persName> 
+               Di grazia si sforzi di copiarla. 
+            </p>
+            
+            <p>
+               Ebbero pur poco cervello <persName ref="#DLCL_CF_PC0245">San Gregorio</persName> nella <bibl type="print">Vita</bibl> di <persName ref="#DLCL_CF_PC0226">San Benedetto,</persName> 
+               e <persName ref="#DLCL_CF_PC0227">San Pier Damiano</persName> in quella di <persName ref="#DLCL_CF_PC0017">San Romualdo,</persName> 
+               facendovi racconto di tante scelleraggini de’ Monaci (se veramente è fondata la Critica de’ nostri Moderni). 
+               Anzi và questa a ferire gli <bibl type="religious">evangeli,</bibl> che ci han lasciata memoria del tradimento d’uno della perfidia, 
+               e apostasia d’un altro, dell’incredulità d’un altro pure, delle debolezze, e miserie di monaci e della fuga comune degli <rs type="person">Appostoli.</rs> 
+               Dov’è l’onore del <orgName ref="#DLCL_CF_O0042">Collegio Appostolico?</orgName> 
+            </p>
+            
+            <p>
+               Io riceverò volentieri, e con tutta la stima, il giudicio degli <rs type="person">Amici</rs> 
+               sopra l’edizione delle <bibl type="manuscript" source="#DLCL_CF_BM0006">Pistole</bibl> del nostro <persName ref="#DLCL_CF_PC0177">Ambrogio,</persName> 
+               quando essi formino prima buon gusto di questo genere di erudizione, e poi legghino tutta la Raccolta delle Lettere, 
+               e le Annotazioni, e i Prolegomeni; senza queste previe notizie non possono in conto veruno giudicare 
+               se l’<bibl type="print">Opera</bibl> per esser’utile all’Istoria sacra, all’istoria Camaldolese, all’Istoria Letteraria, 
+               all’istoria de’ Concilii, alla Cronologia; come io tengo per evidente che sarà utilissima; 
+               così lo tengono i più eruditi della nostra <placeName ref="#DLCL_CF_L0026">Italia.</placeName> 
+               Bisogna aver’occhi per veder i colori, e darne giudizio. 
+               Può <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> far vedere negli <bibl type="print" source="#DLCL_CF_BS0119">atti Bollandiani</bibl> la luce, 
+               che ha dato l’<bibl type="print" source="#DLCL_CF_BS0107">Odeporico</bibl> di <persName ref="#DLCL_CF_PC0177">Ambrogio</persName> alla Vita di <persName ref="#DLCL_CF_PC0254" cert="unknown">Eugenio</persName> 
+               avendosi unicamente da quell’<bibl type="religious">Opuscolo</bibl> il <gap reason="illegible"/>[...] 
+               del ricevimento di questo <rs type="person">Papa</rs> in <placeName ref="#DLCL_CF_L0018">Firenze.</placeName> 
+               Ed oh quanto di <gap reason="illegible"/>[...] Generale, e nel nome Camaldolese ciò, 
+               che nel racconto stesso <gap reason="illegible"/>[...] delle accoglienze e finezze 
+               da <persName ref="#DLCL_CF_PC0254" cert="unknown">Eugenio</persName> praticate con <persName ref="#DLCL_CF_PC0177">Ambrogio.</persName> 
+               Quante e quante altre insigni, e luminose notizie sono sparse per tutto quel libretto! 
+               Ma non sò se la malignità o l’invidia o altra dannata passione fa chiuder gli occhi a tutto ciò, 
+               come chi in una Città nulla curasse le fabbriche cospicue, e gli edificj di pubblica magnificenza, 
+               e tutto fisasse a considerar’il fango nelle vie, e le cloache negli angoli delle case. 
+               Queste cloache sono nel <bibl type="religious">Vecchio,</bibl> e nel <bibl type="religious">Nuovo Testamento,</bibl> 
+               nelle <bibl type="religious">Storie Sagre,</bibl> e <bibl type="religious">Profane,</bibl> e vi saranno sempre. 
+               Ora di nuovo ho scoperto alle 55 Lettere in <placeName ref="#DLCL_CF_L0018">Firenze.</placeName> 
+               Arriveranno a <hi rend="underline">900</hi> in tutto. 
+               Un cordialissimo saluto a <persName ref="#DLCL_CF_PC0007">Padri lettori Collina,</persName> <persName ref="#DLCL_CF_PC0121">Guiccioli,</persName> 
+               <persName ref="#DLCL_CF_PC0093">Onestini</persName> e ai <persName ref="#DLCL_CF_PC0090">Padri Don Leandro,</persName> 
+               <persName ref="#DLCL_CF_PC0246">Abondio</persName> e <persName ref="#DLCL_CF_PC0184">Lotario.</persName>
+            </p>
+
+            <closer>
+               <salute>Resto abbracciandola di tutto cuore.</salute> 
+               <salute>Affettuosissimo servo e padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+               <salute>DVPMR</salute>
+            </closer>
+            
+            <postscript>
+               <p>
+                  [Aspetto risposta al rimanente; e segnatamente desidero nuova del fagotto de’ libri di <placeName ref="#DLCL_CF_L0013">Ferrara.</placeName> 
+                  Mi saluti il caro <persName ref="#DLCL_CF_PC0091">Frate Fausto.</persName> 
+                  Mi spiace la morte della <persName ref="#DLCL_CF_PC0247">Signora Anna Fattorini.</persName> 
+                  E del <persName ref="#DLCL_CF_PC0248">Padre Abate Pasolini</persName> defunto nulla mi dice? 
+                  Il <bibl type="print" source="#DLCL_CF_BS0109">Tomo XXII del Giornale</bibl> è arrivato?]
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

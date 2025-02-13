@@ -20,7 +20,7 @@
                </availability>
             </publicationStmt>
             <seriesStmt>
-               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="main">Carteggio Canneti Fiacchi</title>
                <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
                <biblScope unit="letter">11</biblScope>
             </seriesStmt>
@@ -73,7 +73,7 @@
       <body>
          <div type="transcription">
 
-            <pb xml:id="DLCL_CF_E10011_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20851/full/580,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10011_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20643/DSC_5619.jpg"/>
 
             <opener>
                <salute>
@@ -101,7 +101,7 @@
                Sicché nell’occorrenza di pari rito, stà ferma, e in verde osservanza l’altra <bibl type="religious">Rubrica</bibl> di preferire il par<pc force="inter">-</pc>
          </p>
 
-         <pb xml:id="DLCL_CF_E10011_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20852/full/579,800/0/default.jpg"/>
+         <pb xml:id="DLCL_CF_E10011_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20643/DSC_5620.jpg"/>
 
          <p>
             <pc force="inter">-</pc>ticolare all’universale. 
@@ -126,7 +126,7 @@
                Non si dimentichi della Traslazione della parte del Corpo di <persName ref="#DLCL_CF_PC0040">S. Severo</persName> al di <date when-iso="04-16">16 Aprile</date>; nel modo che si fa della 
          </p>
 
-         <pb xml:id="DLCL_CF_E10011_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/20853/full/588,800/0/default.jpg"/>
+         <pb xml:id="DLCL_CF_E10011_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20643/DSC_5621.jpg"/>
 
          <p>
                traslazione di <persName ref="#DLCL_CF_PC0081">S. Apollinare.</persName> 
@@ -160,7 +160,7 @@
                Io mi lusingo, e induco a credere che in <placeName ref="#DLCL_CF_L0010">Padova</placeName> non sarebbonle state tarpate le penne.  
          </p>
 
-         <pb xml:id="DLCL_CF_E10011_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/20854/full/574,800/0/default.jpg"/>
+         <pb xml:id="DLCL_CF_E10011_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/20643/DSC_5622.jpg"/>
 
          <p>
                Per condurre salva in porto cotesta questa faccenda vi vuol flemma; e il <persName ref="#DLCL_CF_PC0088">Signore Dottore Calbi</persName> ne abbonda. 

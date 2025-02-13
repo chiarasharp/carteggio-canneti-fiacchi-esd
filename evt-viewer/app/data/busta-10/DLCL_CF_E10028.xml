@@ -1,0 +1,216 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10028">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20660/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21035/full/590,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21036/full/606,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21037/full/592,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/21038/full/594,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10028">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 26 Novembre 1715)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Carteggio Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">28</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1715-11-26"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-02-13" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-21" who="#DLCL_CF_PS001">stampe</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10028_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20660/DSC_5691.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Sia lodato Iddio. 
+               Ora <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> chiaramente <gap reason="illegible"/>[...], che <gap reason="illegible"/>[...] nell’altra sua. 
+               Compatisco sommamente <gap reason="illegible"/>[...] <persName ref="#DLCL_CF_PC0054">Fiori</persName> ridotto a ripigliar 
+               dopo l’interrompimento di ben quindici anni un esercizio per lui inutile, e pregiudiciale ad altri studj, ne’ quali può fare maggior’onore a se, e all’abito. 
+               L’attività sua è grande: ma quel tempo, che si mette in una faccenda necessariamente si leva all’altra. 
+               Me lo riverisca con ogni distinzione di stima. 
+               Lo abbraccerei volentieri nel suo passaggio. 
+               Ma parrebbe un’affettazione invitarlo a <placeName ref="#DLCL_CF_L0028">Perugia;</placeName> 
+               quando non sarebbe che d’intralcio a lui uscir di strada, atteso anche l’impegno della compagnia del <persName ref="#DLCL_CF_PC0055">Signor Abate Gambi.</persName> 
+               Non ardisco però ciò chiedere, né aspettare, contento di sol desiderarlo. 
+            </p>
+            
+            <p>
+               Un cordiale saluto a <persName ref="#DLCL_CF_PC0091">Frate Fausto.</persName> 
+               Sò quanto interessato sia il suo amore per cotesta <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
+               Perciò spero intender nuova che sia presto finita la porta, della quale goderò vedere il disegno; poiché non posso goder con gli occhi del lavoro. 
+               Non cessi <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> di fargli animo, e sollecitarlo a superare ogni ostacolo. 
+               Questo è necessario per fare <gap reason="illegible"/>[...] il valore dello spirito. 
+               È trito il proverbio che ognuno sa far viaggio, quando è buon tempo. 
+               Così a lui era agevole (e ben sapeva godere <gap reason="illegible"/>[...] ora) il <gap reason="illegible"/>[...] propri lavori, 
+               allorché altra occupazione non lo divertiva. 
+               Or’è tempo di mostrarsi un’Uomo, rubando il tempo alle altre applicazioni. 
+            </p>
+            
+            <p>
+               La <bibl type="print" source="#DLCL_CF_BS0101">Scanzia XVII</bibl> sarà simile alle precedenti, se veramente essa è del <persName ref="#DLCL_CF_PC0038">Cinelli,</persName> 
+               con cui era difficile mantener l’amicizia. 
+               Non bastò ch’io pregato dal <persName ref="#DLCL_CF_PC0060">Magliabechi</persName> gli somministrassi la spesa della stampa della <bibl type="print" source="#DLCL_CF_BS0045">Nona.</bibl> 
+               Corsero tra noi de’ disgusti: 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10028_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20660/DSC_5692.jpg"/>
+            
+            <p>
+               <gap reason="illegible"/>[...] contro di me: ne è però vantaggio che abbia <gap reason="illegible"/>[...] al mio nome. 
+               Mi spiace <gap reason="illegible"/>[...] che il <persName ref="#DLCL_CF_PC0056">Signor Sancassani</persName> <gap reason="illegible"/>[...]quelle stesse pedate. 
+               Non sò come scusar la passione di lui contro al <persName ref="#DLCL_CF_PC0143">Baruffaldi,</persName> ch’era suo caro Amico, 
+               che l’avea lodato nell’operetta delle <bibl type="print" source="#DLCL_CF_BS0116" cert="unknown">Prefiche.</bibl> 
+               Tutto il delitto dell’<hi rend="underline"><rs type="person">erudito Ferrarese,</rs></hi>  com’egli lo chiama consiste in una pura omissione, 
+               ch’è il non aver di lui fatta menzione nella <bibl type="print" source="#DLCL_CF_BS0069">Tabaccheide.</bibl> 
+               Sopra ciò feci scusa per parte del <persName ref="#DLCL_CF_PC0143">Baruffaldi,</persName> 
+               adducendo che dal nominarlo era astenuto per cautela concernente le proprie disgrazie, 
+               non essendo ora tempo che si mostri Amico di persona, che fa, o pretende far figura in <placeName ref="#DLCL_CF_L0031">Comacchio.</placeName> 
+               Ma or m’avveggo ciò non esser bastato. 
+            </p>
+            
+            <p>
+               Il Droghiere <persName ref="#DLCL_CF_PC0225">Delicati</persName> corrispondente di cotesto <persName ref="#DLCL_CF_PC0194">Munghini</persName> 
+               dice aver quì ricevute due casse, e due altre esserne in viaggio. 
+               Sicché è perduta ancor quest’occasione. 
+               Di grazia usi tutta l’attenzione per sollecitamente far capitare a <placeName ref="#DLCL_CF_L0003">Pesaro</placeName> l’involto, 
+               o cassetta: si abbia cura dall’infreddatura. 
+               Mandi del <bibl type="manuscript">catalogo de’ libri</bibl> la parte, ch’è fatta. 
+               Per la <bibl type="religious">donazione dello spedale</bibl> v’è tempo di farne la copia. 
+            </p>
+            
+            <p>
+               <gap reason="illegible"/>[...] del <persName ref="#DLCL_CF_PC0129">Mabillon</persName> altro non <gap reason="illegible"/>[...] che l’esempio di lui, 
+               il qual non ebbe scrupolo di riferire i vizj e gli scandali d’alcuni Monaci; 
+               noi possiamo ritrarci addietro, e salir fino alle <bibl type="print">Vite</bibl> di <persName ref="#DLCL_CF_PC0226">San Benedetto,</persName> 
+               e di <persName ref="#DLCL_CF_PC0017">San Romualdo</persName> e alle opere di <persName ref="#DLCL_CF_PC0227">San Pier Damiano,</persName> 
+               e alle storie de’ <rs type="person">Cisterciensi,</rs> e de’ <rs type="person">Frati Predicatori,</rs> 
+               e <rs type="person">Minori</rs> sparse in ogni lato di laide relazioni. 
+               Ma che? 
+               Andiamo al <bibl type="print">Vangelo</bibl> e contempliamo quante debolezze, e miserie vi si raccontano degli <rs type="person">Appostoli</rs> 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10028_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20660/DSC_5693.jpg"/>
+            
+            <p>
+               de’ quali due caddero in delitto, che <gap reason="illegible"/>[...] al Sant’Officio. 
+               E di quei due uno contumace, e disperso <gap reason="illegible"/>[...] l’altro si pentì, e poi fu Papa. 
+               Conosco esser’impossibile aver la diligente copia del Musaico per mezzo del signor <persName ref="#DLCL_CF_PC0162">Giacomo.</persName> 
+               Se capiterà il pittore per copiare il nostro Musaico, mi favorisca fargliene far una copia esatta per me; 
+               quando voglia contentarsi di due scudi in circa, avvertendo che vi si descrivano i nomi da noi scoperti sopra le figure. 
+               Ma in proposito del <persName ref="#DLCL_CF_PC0162">Signor Giacomo,</persName> e del libro da stamparsi delle <bibl type="print">Lettere Ambrosiane;</bibl> 
+               io avrei bisogno d’un’altra copia da metter nel frontispizio, cioè del quadro della libreria sopra la porta. 
+               Ma chi fuor del <persName ref="#DLCL_CF_PC0162">signor Anziani,</persName> in <placeName ref="#DLCL_CF_L0002">Ravenna</placeName> è capace di farla, 
+               e ridurla dal bislungo in figura approprosito per un libro di foglio grande? 
+               e il <persName ref="#DLCL_CF_PC0162">Signor Anziani</persName> vorrà farla? 
+               E se vorrà, e prometterà, basterà ciò, perché la faccia? 
+               E quale spesa vi vorrà? 
+               Ne discorra col <persName ref="#DLCL_CF_PC0093">Padre Lettore Onestini,</persName> che di tutto cuore saluto. 
+               Se per far il disegno da intagliare, potesse conferir meglio far prima un quadretto di pittura, 
+               e se la spesa non eccedesse la mia tenue abilità di spendere, prenderei e la pittura e il disegno. 
+            </p>
+            
+            <p>
+               Non mi maraviglio; e ben può essere che per sua erudizione il <persName ref="#DLCL_CF_PC0083">Signore Cardinale Davia</persName> 
+               siasi portato a <placeName ref="#DLCL_CF_L0002">Ravenna</placeName> per riconoscere i siti de’ fiumi, e de’ porti antichi. 
+               Il <persName ref="#DLCL_CF_PC0057">Signor Giacomo Tassinari,</persName> e il <persName ref="#DLCL_CF_PC0054">Padre Fiori,</persName> 
+               che avean fatti studi sopra ciò, dovevano applicare a fare una carta in disegno di <placeName ref="#DLCL_CF_L0002">Ravenna</placeName> antica al di fuori. 
+               E per la città, e vie, e porte, possono aversi grandi lumi dall’<persName ref="#DLCL_CF_PC0206">Agnello.</persName> 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10028_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/20660/DSC_5694.jpg"/>
+            
+            <p>
+               La ringrazio caramente <gap reason="illegible"/>[...] del <bibl type="religious">Beato Alberto</bibl> ora così <gap reason="illegible"/>[...] della stessa lettera 22. 
+               Della 3a già ho copia appresso di me. 
+            </p>
+            
+            <p>
+               Crede <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> avere a tutto risposto. 
+               Può esser dunque che in altra lettera pare io l’abbia scritto della <bibl type="print">Poetica</bibl> del <persName ref="#DLCL_CF_PC0013">Muratori,</persName> 
+               delle 30 messe, di <persName ref="#DLCL_CF_PC0210">Aulio Gellio,</persName> e di altre cose: e sarà così. 
+            </p>
+            
+            <p>
+               Il <persName ref="#DLCL_CF_PC0228">Salvioni,</persName> che stampò certi bellissimi <bibl type="religious">Officj della Vergine,</bibl> 
+               e mi vendette il <bibl type="print">Leggendario</bibl> rarissimo del nostro <persName ref="#DLCL_CF_PC0229">Manerbi,</persName> 
+               e le <bibl type="print" source="#DLCL_CF_BS0111">Vite delle Donne Illustri</bibl> per santità del <persName ref="#DLCL_CF_PC0230">Razzi,</persName> 
+               ora è divenuto stampatore dell’<orgName ref="#DLCL_CF_O0038">Archiginnasio Romano.</orgName> 
+               Ora stampa <bibl type="print" source="#DLCL_CF_BS0113">Anastasio Bibliotecario</bibl> libro dianzi rarissimo. 
+               Fà una società con obbligo di pagare ora 16 paoli, e altrettanti alla consegna del libro, finito che sia di stampare. 
+               Un saluto al <persName>signor Giuseppe</persName> <gap reason="illegible"/>[...].
+            </p>
+            
+            <p>
+               Ma, e dirà ella, è possibile che questa volta non si chiedano da me libri da mandare, giacché non si finisce di chiederne? 
+               L’<bibl type="print" source="#DLCL_CF_BS0114">Ateneo Augusto</bibl> dell’<persName ref="#DLCL_CF_PC0231">Oldoini</persName> sarà da mandare qui con prima congiuntura; 
+               avendone io qui trovato un altro esemplare <gap reason="illegible"/>[...] e non guasto, come sono quasi tutti in certi luoghi, 
+               <gap reason="illegible"/>[...] che fecero fare diversi <rs type="person">Cavalieri</rs> che si credevano pregiudicati dalla verità. 
+            </p>
+  
+            <closer>
+               <salute>Caramente l’abbraccio: e di vero cuore.</salute> 
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1715-11-26">26 novembre 1715</date>.</dateline> 
+               <salute>DVPMR</salute>
+               <salute>Affettuosissimo Servo e Padre nel Signore Cordialissimo</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+
+         </div>
+      </body>
+   </text>
+</TEI>

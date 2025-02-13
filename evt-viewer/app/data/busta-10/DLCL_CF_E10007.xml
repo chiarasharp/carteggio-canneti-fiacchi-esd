@@ -72,7 +72,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10007_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20827/full/564,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10007_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20639/DSC_5602.jpg"/>
             
             <opener>
                <salute><persName type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Amatissimo</salute>
@@ -126,11 +126,11 @@
                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
             </closer>
             
-            <pb xml:id="DLCL_CF_E10007_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20828/full/571,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10007_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20639/DSC_5603.jpg"/>
             
-            <pb xml:id="DLCL_CF_E10007_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/24838/full/571,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10007_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/3f6194dccdec5cc74890c13e00366b08aa20b4af.jpg"/>
             
-            <pb xml:id="DLCL_CF_E10007_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/24839/full/569,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10007_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/3fdffd800b00e6369bbe0d298867e62a9ee0856e.jpg"/>
             
             <postscript>
                <p>

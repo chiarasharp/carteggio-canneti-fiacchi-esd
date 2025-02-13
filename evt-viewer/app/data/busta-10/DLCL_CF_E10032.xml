@@ -1,0 +1,180 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10032">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20664/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21049/full/610,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21050/full/592,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21051/full/598,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/24810/full/595,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10032">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 24 Marzo 1716)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Carteggio Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">32</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1716-03-24"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-02-20" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10032_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20664/DSC_5709.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Finalmente ieri ricevei, dopo tre quarantene, l’involto primo giuntomi da <placeName ref="#DLCL_CF_L0004">Fabriano,</placeName> 
+               dove lo recò il <persName ref="#DLCL_CF_PC0259">Padre Bianconi</persName> consegnatogli dal <persName ref="#DLCL_CF_PC0154">Reverendissimo Magni:</persName> 
+               e mercoledì 19 cadente ebbi da <placeName ref="#DLCL_CF_L0003">Pesaro</placeName> l’altro fagotto spedito ultimamente. 
+               Mille, e mille grazie al mio Amatissimo <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo,</persName> 
+               e distintamente per la <bibl type="print">Vita</bibl> del <persName ref="#DLCL_CF_PC0129">Mabillon,</persName> 
+               che io conserverò tra le cose più care, meritandolo questo libro e per l’argomento, 
+               e per l’<rs type="person">Autore,</rs> e per la cordialità del <rs type="person">Donatore.</rs> 
+               Ho cominciato a leggerlo, e penso che mi debba servire fin che sia finita la lezion di esso, per lettura spirituale. 
+               Ho commiserata la sventura degli <bibl type="print">Scrittori Bolognesi</bibl> infilzati, senza discernimento, così alla carlona, 
+               col nome nudo, e la serie delle lor’Opere stesa poco felicemente, e senza la dovuta accuratezza. 
+               Conclude bene l’<persName ref="#DLCL_CF_PC0127">Orlandi,</persName> con dire che servirà il suo libro purché altri ne dia fuori un altro migliore. 
+               Ed è ancor questo che gioverà a scemar la fatica a chi abbia più attitudine a ciò. 
+               <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> potrebbe applicarvi, se volesse; ed io son certo che vi riuscirebbe. 
+               La maniera del <persName ref="#DLCL_CF_PC0033">Crescimbeni</persName> nella <bibl type="print">Storia,</bibl> 
+               e ne’ <bibl type="print">Commentarj</bibl> sarebbe approposito per distendere le <bibl type="print">Notizie,</bibl> 
+               sotto le quali è luogo di collocar’il <bibl type="manuscript">catalogo dell’Opere.</bibl> 
+               Ma parmi vederla ridere, e rispondere: io non son buono. 
+               Or via. Si provi; e cominci dallo <persName ref="#DLCL_CF_PC0259">Sbaraglia.</persName> 
+            </p>
+            
+            <p>
+               Ma ritorno alla <bibl type="print">Vita</bibl> del <persName ref="#DLCL_CF_PC0129">Mabillon;</persName> e alla pagina 192 osservo come questo Grande, 
+               ed insigne scrittore nel tomo 3 degli <bibl type="print">Annali</bibl> rendé buon canto a’ posteri delle piaghe nel X secolo recate alla monastica disciplina delle sciagure 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10032_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20664/DSC_5710.jpg"/>
+            
+            <p>
+               di quell’età, che il <persName ref="#DLCL_CF_PC0059">Baronio</persName> giustamente appellò del ferro, del piombo e oscure, 
+               facendo insieme vedere che tanto la disciplina de’ Monaci non rimane pregiudicata, che anzi non fosse profittevole alla Chiesa. 
+               Tutto ciò mirabilmente con minor proporzione per tutti i lati, 
+               si addatta al secolo X di cui nella prefazione all’<bibl type="manuscript" source="#DLCL_CF_BM0006">Epistole Ambrogiane</bibl> 
+               spero scrivere in modo che i pochi difetti servano a far spiccare il molto bene con gloria di Dio e dell’<orgName ref="#DLCL_CF_O0034">Ordine nostro.</orgName> 
+               Se il passo, o più passi che sieno del <persName ref="#DLCL_CF_PC0129">Mabillone</persName> e si potessero trascrivere, mi sarebbero di gran lume. 
+               <hi rend="underline"><foreign xml:lang="la">Amanti sat est in <gap reason="illegible"/>[...] casse</foreign></hi>. 
+               Vorrei che al <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli</persName> Ella mostrasse i due passi a lei comunicati, sopra l’<bibl type="print">Odeporico.</bibl> 
+            </p>
+            
+            <p>
+               Ma che dirò del <bibl type="manuscript">Catalogo de’ nostri libri</bibl> fatto con tanta diligenza? 
+               Risponderò con un poco di comodo, che al presente non hò. 
+            </p>
+            
+            <p>
+               Ho veduta la <bibl type="print">Scanzia XVII</bibl> con due frontispizj, de’ quali non intendo il mittente. 
+               Osservo arrivato nel secondo viaggio quel, che ha il titolo di <hi rend="underline">Cittadino</hi>. 
+               Certamente nel fatto vi è qualche <hi rend="underline">Magateria</hi>. 
+               Ella me la spieghi. 
+               Giurerei che tutti, o la maggior parte degli opuscoli furono da me comunicati al <persName ref="#DLCL_CF_PC0038">Cinelli.</persName> 
+               Per ciò provare, basta leggere la <bibl type="print">Scanzia,</bibl> e osservarvi per entro tanti <rs type="person">Camaldolesi,</rs> e tanti <bibl type="print">Opuscoli,</bibl> 
+               che son tutti nostri, o di <orgName ref="#DLCL_CF_O0001">cotesta Libreria</orgName> donde erano a me trascritti i titoli, e frontespizzj, 
+               quando io era Cam<gap reason="illegible"/>[...] in <placeName ref="#DLCL_CF_L0005">Faenza.</placeName> 
+               Ma l’Autore vi ha messo del suo il veleno, e ve ne ha aggiunto l’Insufficiente. 
+               Quel luogo contra la <bibl type="print">Tabaccheide</bibl> mostra aperta rabbia d’animo ambizioso, e che non sà soffrire d’essere lasciato in silenzio. 
+               <hi rend="underline">Impote [ns]</hi> fu detto da’ Latini acconciamente, con che spiegarono i vizj per debolezze. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10032_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20664/DSC_5713.jpg"/>
+            
+            <p>
+               Al <persName ref="#DLCL_CF_PC0007">Padre lettore Collina,</persName> che caramente saluto, scrissi per la 
+               Copia della <bibl type="print">Vita</bibl> dell’<persName ref="#DLCL_CF_PC0261">Angelio.</persName> 
+               Lo raccomando a lei.
+            </p>
+            
+            <p>
+               Mille altre cose avrei da scrivere. 
+               Rimettiamo ciò ad altro ordinario. 
+            </p>
+            
+            <closer>
+               <salute>Resto intanto.</salute> 
+               <salute>DVPMR</salute>
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1716-03-24">24 marzo 1716</date></dateline>
+            </closer>
+            
+            <postscript>
+               <p>
+                  Mi dia qualche nuova del <persName ref="#DLCL_CF_PC0157">Padre Poletti,</persName> son’appassionatissimo. 
+                  Oh quante piaghe ad un tempo! 
+               </p>   
+            </postscript>
+            
+            <closer>
+               <salute>Affettuosissimo Servitore e Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer> 
+
+            <pb xml:id="DLCL_CF_E10032_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/18299079c63fc2d35e0eeda254b0a9aa9668f89b.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Cam. 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -64,7 +64,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10004_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20821/full/584,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10004_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20636/DSC_5589.jpg"/>
             
             <opener>
                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -93,7 +93,7 @@
                Se vi rimane carta bianca, ancor essa può aggiungersi dopo il Decreto. 
             </p>
             
-            <pb xml:id="DLCL_CF_E10004_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20822/full/570,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10004_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20636/DSC_5590.jpg"/>
             
             <p>
                Riceva il viaggio di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> a <placeName ref="#DLCL_CF_L0016">Bagnacavallo</placeName> il merito della santa ubbidienza, col quale vada pure ad accompagnare <persName ref="#DLCL_CF_PC0028">Don Germano,</persName> al quale senza tal compagnia non gliene darei la licenza. 
@@ -142,9 +142,9 @@
                </p>
             </postscript>
             
-            <pb xml:id="DLCL_CF_E10004_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/24834/full/579,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10004_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/57d8d3432340b36d696750ca9ffc008d604ead7c.jpg"/>
             
-            <pb xml:id="DLCL_CF_E10004_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/24835/full/567,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10004_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/5d3604f82d947115c00619cacd19e76c8ccf00f0.jpg"/>
             
             <postscript>
                <p>

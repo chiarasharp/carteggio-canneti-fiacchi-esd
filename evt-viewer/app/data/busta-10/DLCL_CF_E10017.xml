@@ -20,7 +20,7 @@
                </availability>
             </publicationStmt>
             <seriesStmt>
-               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="main">Carteggio Canneti Fiacchi</title>
                <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
                <biblScope unit="letter">17</biblScope>
             </seriesStmt>
@@ -73,7 +73,7 @@
       <body>
          <div type="transcription">
 
-            <pb xml:id="DLCL_CF_E10017_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20875/full/580,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10017_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20649/DSC_5641.jpg"/>
 
             <opener>
                <salute>Carissimo <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName>
@@ -97,9 +97,7 @@
                Il <persName ref="#DLCL_CF_PC0056">Signor Sancassani</persName> mi scrive oggi aver mandato i <bibl type="print" source="#DLCL_CF_BS0026">Giornali,</bibl> 
                e che manderà due esemplari qui aspettati della <bibl type="print" source="#DLCL_CF_BS0042">Merope,</bibl> e il <bibl type="print" source="#DLCL_CF_BS0073">libro della Peste</bibl> del <persName ref="#DLCL_CF_PC0013">Muratori.</persName> 
                Con tutto ciò <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> non indugi; e spedisca sollecitamente quanto ha in ordine di nostri libri. 
-               Vi aggiunga delle Copie della <bibl type="print">
-               <hi rend="underline">Vocazione</hi>
-            ;</bibl> 
+               Vi aggiunga delle Copie della <bibl type="print"><hi rend="underline">Vocazione</hi>;</bibl> 
                e ne parli al <persName ref="#DLCL_CF_PC0146">Signor Giuseppe Mauro,</persName> che saluto caramente. 
                Ebbi il libro ieri da <persName ref="#DLCL_CF_PC0094">Monsignor Vescovo de’ Buoi</persName> nostro. 
                Mi rallegro che il <bibl type="print">Landi</bibl> esce degli stracci, e supera se stesso. 
@@ -107,7 +105,7 @@
 [...]. 
          </p>
 
-         <pb xml:id="DLCL_CF_E10017_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20876/full/590,800/0/default.jpg"/>
+         <pb xml:id="DLCL_CF_E10017_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20649/DSC_5642.jpg"/>
 
          <p>
                Sono altamente in collera col <persName ref="#DLCL_CF_PC0056">Sancassani,</persName> che mi ha stampato un prezzo di lettera ed ha lasciato ciò, ch’era contro di se. 
@@ -165,9 +163,9 @@
             </signed>
          </closer>
 
-         <pb xml:id="DLCL_CF_E10017_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/24798/full/601,800/0/default.jpg"/>
+         <pb xml:id="DLCL_CF_E10017_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/d673b60a92bfe377d0d679dbbfaab9109165bfe7.jpg"/>
 
-         <pb xml:id="DLCL_CF_E10017_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/24799/full/586,800/0/default.jpg"/>
+         <pb xml:id="DLCL_CF_E10017_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/2a71e8aeeb38c844c0ec8ae7398a9697b28458f3.jpg"/>
 
          <postscript>
             <p>

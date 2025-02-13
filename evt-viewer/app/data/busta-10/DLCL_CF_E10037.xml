@@ -1,0 +1,196 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10037">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20669/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21066/full/612,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21067/full/607,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21068/full/618,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/24815/full/610,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10037">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 5 Settembre 1716)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Carteggio Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">37</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1716-09-05"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-03-05" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10037_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20669/DSC_5732.jpg"/>
+
+            <opener>
+               <salute>
+                  <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendissimo Padre mio Osservandissimo</rs>
+               </salute>
+            </opener>
+
+            <p>
+               La consolazione, che iersera mi cagionò la cordialissima, e carissima lettera 
+               di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> mi viene in questo punto oppressa, 
+               e soffocata dall’acerba nuova della morte del più caro Amico, che io avessi in <placeName ref="#DLCL_CF_L0028">Perugia.</placeName> 
+               Ho perduto il <persName ref="#DLCL_CF_PC0167">Padre Gio. Francesco Morelli Filippino,</persName> 
+               il quale l’anno passato venne costà in compagnia del <persName ref="#DLCL_CF_PC0168">Padre Bacci,</persName> 
+               e conservava distinta memoria, e affettuosa di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità.</rs> 
+               In contraccambio ella si ricordi dell’anima di lui nel memento, confidando senza dubbio che sia in luogo di salvazione. 
+               È mancato a questa <orgName ref="#DLCL_CF_O0046">Congregazione dell’Oratorio</orgName> uno de’ migliori soggetti, che avea particolar dono nel sermoneggiare, 
+               e a tutta la Città rendevasi amabile, per la grazia, e disinvoltura, con cui esercitava il proprio zelo. 
+               <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> mi chiedeva qualche buona nuova intorno alla nostra influenza. 
+               Ed io comincio la lettera collo sfogo del dolore sopra la morte d’un caro <rs type="person" ref="#DLCL_CF_PC0167">Amico.</rs> 
+               Pur troppo seguita il male; e già siamo sul fine del quarto mese da che incominciò. 
+               Dopo la metà di Agosto ci lusingammo che fosse all’ultima declinazione: 
+               ma ora ha ripigliato forza, crescendo il numero de’ malati, e morendo sei, e sette persone al giorno. 
+               Già i morti oltrepassano il numero di mille, che non è poco in una Città spopolata, ch’era ridotta a undici mila abitanti. 
+               Noi per la Dio grazia, e di <persName ref="#DLCL_CF_PC0040">San Severo</persName> Glorioso ci conserviamo sani. 
+               La qual preservazione è considerabile nel <rs type="person">Padre Curato,</rs> ch’è sempre tra gl’Infermi. 
+               È una favola quella del gesso nel pane. 
+               Non v’ha dubbio che alcuni barbari fornai furon trovati mescolare il moco, ch’è una sorta di biada cattiva, 
+            </p>
+
+            <pb xml:id="DLCL_CF_E10037_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20669/DSC_5734.jpg"/>
+
+            <p>
+               e i lupini nel pane; e forse vi avranno ancor messo dell’acqua di gesso. 
+               Ma di tal pane non aveano già mangiato tanti Nobili, e Cittadini, e buoni Artigiani, e Religiosi, 
+               e persone d’ogni condizione, i quali si sono infermi tutti dello stesso male, e son morti, non avendo l’influenza perdonato ad alcuna sfera di gente. 
+            </p>
+
+            <p>
+               Io stò sull’avviso per inviare alcune Copie dell’<bibl type="print">Orazione</bibl> consaputa e farò tutto il possibile, 
+               perché vengano presto colla <bibl type="print">Storia della Volgar Poesia,</bibl> 
+               e la 3° parte delle <bibl type="print">Vite degli Arcadi,</bibl> e le <bibl type="print">scritture</bibl> del <persName ref="#DLCL_CF_PC0132">Padre abate Grandi.</persName> 
+               Orsù <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> si metta in sollecitudine per farmi avere 
+               o per via di <placeName ref="#DLCL_CF_L0003">Pesaro</placeName> o in altro modo spedito, 
+               e pronto il <bibl type="print">Giornale XXIV</bibl> (ancorche non siano le copie nel solito numero) e la <bibl type="print">Ravenna Dominante,</bibl> 
+               e i <bibl type="print">Sonetti</bibl> del <persName ref="#DLCL_CF_PC0113">Zapatta,</persName> e le <bibl type="print">Scritture sopra l’acque.</bibl> 
+            </p>
+
+            <p>
+               Ma sopra tutto le ricordo la copia della <bibl type="print">Vita</bibl> dell’<persName ref="#DLCL_CF_PC0261">Angelio</persName> 
+               da mandarsi fuor di posta al <persName ref="#DLCL_CF_PC0270">Signor Cavaliere Antonio Francesco Marmi,</persName> 
+               a <placeName ref="#DLCL_CF_L0018">Firenze,</placeName> il quale me ne va replicando premurose istanze. 
+            </p>
+
+            <p>
+               Considero io altresì che possa essere gastigo di Dio l’infermità di <persName ref="#DLCL_CF_PC0036">Paolino,</persName> 
+               alias <persName ref="#DLCL_CF_PC0036">Frate Teodoro;</persName> perché non avea egli giusto motivo di abbandonare la vocazione intrapresa. 
+            </p>
+
+            <p>
+               Da lettera del nostro buon <persName ref="#DLCL_CF_PC0006">Padre Amici</persName> intesi l’indisposizione 
+               del <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina</persName> in <placeName ref="#DLCL_CF_L0016">Bagnacavallo.</placeName> 
+               Godo sentire che la febbre abbia rimesso il vigore; e prego Dio che presto si riabbia. 
+               Me lo saluti caramente con prossima occasione. 
+               Egli è in buone mani. 
+            </p>
+
+            <pb xml:id="DLCL_CF_E10037_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20669/DSC_5735.jpg"/>
+
+            <p>
+               Da <placeName ref="#DLCL_CF_L0024">Venezia</placeName> ebbi il foglio stampato del <persName ref="#DLCL_CF_PC0284">Coleti,</persName> del quale non sò che dire. 
+               Vidi già lo splendido disegno di <placeName ref="#DLCL_CF_L0008">Roma,</placeName> per cui erasi formato una Collegio di 24 Letterati, 
+               de’ quali era capo <persName ref="#DLCL_CF_PC0084">Monsignor Gozzadini,</persName> 
+               ora Cardinale, impegnatisi ad accrescere, e corregger l’<bibl type="print">Italia Sacra.</bibl> 
+               E pure tutto svanì, senza che né pur vi si mettesse mano. 
+               Or che promettere ci potiamo, ove si medita intraprender fra due mesi la stampa, senza dar tempo di raccorre l’emendazioni, e le aggiunte? 
+            </p>
+
+            <p>
+               Spiacemi che sia ita a male la lettera del <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli.</persName> 
+            </p>
+
+            <p>
+               Fermamente ho tenuto sempre che la Reliquia di <persName ref="#DLCL_CF_PC0327">San Bartolomeo</persName> è il Corpo, 
+               che sta in <placeName ref="#DLCL_CF_L0070">Benevento</placeName> sia il vero, ed unico del Santo Apostolo. 
+               Mi confermo al sentire l’autentica ancor del Padre delle bugie. 
+               Ma nel tempo stesso mi sovviene alla mente quell’altro Reliquiario di <persName ref="#DLCL_CF_PC0040">San Severo,</persName> 
+               ch’è veramente lavoro Pollacco, al maggiore segno infelice. 
+            </p>
+
+            <p>
+               Tenterò di riavere, per legittimo prezzo, dagli eredi 
+               del <persName ref="#DLCL_CF_PC0167">Padre Morelli</persName> il <persName ref="#DLCL_CF_PC0170">Molano</persName> delle <bibl type="print">Sagre Immagini;</bibl> 
+               da che suppongo non essersi rinvenuto mai l’altro esemplare, ch’era una volta in <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
+               Mi riverisca ben caramente il <rs type="person">Padre Camerlingo,</rs> e con tutto ’l cuore abbracciandola, ed a suoi santi sagrificj raccomandandomi resto. 
+            </p>
+
+            <closer>
+               <dateline>
+                  <placeName ref="#DLCL_CF_L0028">Perugia</placeName>
+                  <date when-iso="1716-09-05">5 settembre 1716</date>.
+               </dateline>
+               <salute>DVPMR</salute>
+               <salute>Cordialissimo Servo e Padre nel Signore</salute>
+               <signed>
+                  <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+               </signed>
+            </closer>
+
+            <pb xml:id="DLCL_CF_E10037_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/f1eca9aedea7635e9c875a2d291960be09738428.jpg"/>
+
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName>
+                  <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

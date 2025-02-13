@@ -20,7 +20,7 @@
                </availability>
             </publicationStmt>
             <seriesStmt>
-               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="main">Carteggio Canneti Fiacchi</title>
                <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
                <biblScope unit="letter">18</biblScope>
             </seriesStmt>
@@ -72,7 +72,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10018_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20879/full/601,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10018_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20650/DSC_5643.jpg"/>
 
             <opener>
                <salute>
@@ -93,7 +93,7 @@
                So ch’ella ha avuto i <bibl type="print" source="#DLCL_CF_BS0026">Giornali,</bibl> le due coppie della <bibl type="print" source="#DLCL_CF_BS0042">Merope,</bibl> delle quali ho necessità.
             </p>
 
-            <pb xml:id="DLCL_CF_E10018_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20880/full/585,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10018_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20650/DSC_5644.jpg"/>
 
             <p>
                Al mio <persName ref="#DLCL_CF_PC0007">Padre Don Bonifazio</persName> mille saluti con tutto l’ cuore. 
@@ -119,7 +119,7 @@
                Ho empiti già 
             </p>
 
-            <pb xml:id="DLCL_CF_E10018_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/20881/full/583,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10018_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20650/DSC_5645.jpg"/>
 
             <p>
                cinque quinterni di carta. 
@@ -146,7 +146,7 @@
                </signed>
             </closer>
 
-            <pb xml:id="DLCL_CF_E10018_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/24797/full/581,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10018_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/fd7ce068147073c404d1a4a0be245f68133ed173.jpg"/>
 
             <postscript>
                <p>

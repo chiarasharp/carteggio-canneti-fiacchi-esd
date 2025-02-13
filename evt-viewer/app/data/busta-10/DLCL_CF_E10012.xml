@@ -20,7 +20,7 @@
                </availability>
             </publicationStmt>
             <seriesStmt>
-               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="main">Carteggio Canneti Fiacchi</title>
                <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
                <biblScope unit="letter">12</biblScope>
             </seriesStmt>
@@ -72,7 +72,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10012_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20857/full/581,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10012_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20644/DSC_5623.jpg"/>
 
             <opener>
                <salute>
@@ -101,7 +101,7 @@
                Per non recarle noia, si tralasci il titolo, ovvero intieramente del frontispizio si lascino trattare le due righe= <foreign xml:lang="la">Ubi et ea</foreign> = nulla importando aggiungerle, come si è fatto per l’addietro.              
             </p>
 
-            <pb xml:id="DLCL_CF_E10012_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20858/full/582,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10012_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20644/DSC_5624.jpg"/>
 
             <p>
                Il <persName ref="#DLCL_CF_PC0003">Reverendissimo Galamini</persName> mi scrive aver da <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> ricevuti alcuni de’ nostri libri e tra gli altri la <bibl type="print">Bibbia.</bibl> 
@@ -127,9 +127,9 @@
             </signed>
          </closer>
 
-         <pb xml:id="DLCL_CF_E10012_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/25069/full/579,800/0/default.jpg"/>
+         <pb xml:id="DLCL_CF_E10012_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/404a85ee881355889e8b99eda5681683adace595.jpg"/>
 
-         <pb xml:id="DLCL_CF_E10012_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/25070/full/571,800/0/default.jpg"/>
+         <pb xml:id="DLCL_CF_E10012_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/cb35a1c3d88d385ce0c2a9e39461779e800e9608.jpg"/>
 
          <postscript>
             <p>

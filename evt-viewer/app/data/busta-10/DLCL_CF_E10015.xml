@@ -20,7 +20,7 @@
                </availability>
             </publicationStmt>
             <seriesStmt>
-               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="main">Carteggio Canneti Fiacchi</title>
                <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
                <biblScope unit="letter">15</biblScope>
             </seriesStmt>
@@ -71,7 +71,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10015_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20867/full/583,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10015_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20647/DSC_5633.jpg"/>
 
             <opener>
                <salute>
@@ -102,7 +102,7 @@
                In questo <orgName ref="#DLCL_CF_O0019">Monastero di San Pietro</orgName> ha trovate rarità singolari; e particolarmente una carta pecora insigne 
          </p>
 
-         <pb xml:id="DLCL_CF_E10015_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20868/full/590,800/0/default.jpg"/>
+         <pb xml:id="DLCL_CF_E10015_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20647/DSC_5634.jpg"/>
 
          <p>
                di certo contraddittorio fatto tra il <persName ref="#DLCL_CF_PC0115">Vescovo Conone</persName> di <placeName ref="#DLCL_CF_L0028">Perugia</placeName> 
@@ -130,7 +130,7 @@
                Ora gli scrivo che se l’intenda con <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità,</rs> che avrà modo di far 
       </p>
 
-      <pb xml:id="DLCL_CF_E10015_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/20869/full/588,800/0/default.jpg"/>
+      <pb xml:id="DLCL_CF_E10015_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20647/DSC_5635.jpg"/>
 
       <p>
                venire il quinto esemplare, per mezzo del <persName ref="#DLCL_CF_PC0056">Signor Sancassani.</persName> 
@@ -160,7 +160,7 @@
                Desidero Sapere se era 
       </p>
 
-      <pb xml:id="DLCL_CF_E10015_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/20870/full/587,800/0/default.jpg"/>
+      <pb xml:id="DLCL_CF_E10015_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/20647/DSC_5636.jpg"/>
 
       <p>
                l’istromento autentico portato dal <persName ref="#DLCL_CF_PC0126">Ghirardacci</persName> quel che il detto Signore costà recò alla sua venuta. 

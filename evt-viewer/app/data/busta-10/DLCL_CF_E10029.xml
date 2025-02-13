@@ -1,0 +1,176 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10029">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20661/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21039/full/600,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21040/full/612,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21041/full/604,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/24808/full/604,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10029">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 10 Dicembre 1715)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Carteggio Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">29</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1715-12-10"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-02-14" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-21" who="#DLCL_CF_PS001">stampe</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10029_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20661/DSC_5695.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Molto mi consola l’avviso della spedizione fatta del fagotto a <placeName ref="#DLCL_CF_L0028">Pesaro.</placeName> 
+               Attenderò con altra prima occasione i <bibl type="religious">Calendarj,</bibl> il <bibl type="print" source="#DLCL_CF_BS0109">Giornale XXII;</bibl> l’<bibl type="print" source="#DLCL_CF_BS0114">Ateneo Augusto,</bibl> 
+               e l’involto (ch’ella potrà unire spedito finalmente da <placeName ref="#DLCL_CF_L0013">Ferrara,</placeName> 
+               e dal <persName ref="#DLCL_CF_PC0143">signor Baruffaldi</persName> consegnato 
+               al <persName ref="#DLCL_CF_PC0113">Signore Dottore Zappata</persName> da trasmettersi a <placeName ref="#DLCL_CF_L0002">Ravenna.</placeName> 
+               Lo sciolga pure, e ne faccia un solo con gli altri libri, lasciando però separato dentro l’istesso fagotto, 
+               quel, ch’è diretto al <persName ref="#DLCL_CF_PC0232">Signor Boccolini</persName> di <placeName ref="#DLCL_CF_L0023">Foligno.</placeName> 
+               Il <persName ref="#DLCL_CF_PC0143">Signor Baruffaldi</persName> prudentemente 
+               se la passa scrivendo che <hi rend="underline">il <persName ref="#DLCL_CF_PC0056">gran Sancassani</persName> poteva dir peggio, ma conveniva che dicesse meglio</hi>. 
+               Mi sarà caro sopra ogni credere l’<bibl type="print">Indice.</bibl> 
+               Son dispostissimo a vendere il <bibl type="print">Convivio</bibl> di <persName ref="#DLCL_CF_PC0233">Dante</persName> 
+               (quando un’altra copia ne sia in <orgName ref="#DLCL_CF_O0001">Libreria)</orgName> 
+               e le <bibl type="print" source="#DLCL_CF_BS0115">Azioni Morali</bibl> del <persName ref="#DLCL_CF_PC0234">Landi,</persName> 
+               e il <persName ref="#DLCL_CF_PC0235">Possevino</persName> <bibl type="print">dell’Onore.</bibl> 
+               Ho ancora qui il <bibl type="print">Duello</bibl> del <persName ref="#DLCL_CF_PC0152">Puteo,</persName> 
+               del <persName ref="#DLCL_CF_PC0236">Fausto,</persName> e dell’<persName ref="#DLCL_CF_PC0151">Alciato,</persName> che esiterò. 
+               Rimetterò tutto al <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina,</persName> che saluto caramente col suo <rs type="person">Fratello:</rs> 
+               egli s’informi di prezzi: e faccia quel, che stima bene. 
+               Oh perché io non fui quì! 
+               Avrei certamente voluto acquistare quei tometti del <persName ref="#DLCL_CF_PC0064">Marracci.</persName> 
+               Quando quì mi capita qualche cosuccia, non tralascio di prenderla, per quanto mi permette la mia povertà. 
+               Ho acquistati diversi Manoscritti, e fra gli altri un <bibl type="manuscript" source="#DLCL_CF_BM0007">Dante in membrana</bibl> scritto l’anno 1369; assai corretto, e buono. 
+               Con prima occasione manderò i <persName ref="#DLCL_CF_PC0033">Crescimbeni</persName> per la <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> e da legare. 
+               Il <persName ref="#DLCL_CF_PC0237">Signor Abate Giuseppe Conti</persName> ha troppa bontà per le cose nostre. 
+               Se egli, che ha l’occhio 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10029_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20661/DSC_5696.jpg"/>
+            
+            <p>
+               avvezzo a <placeName ref="#DLCL_CF_L0008">Roma,</placeName> e a <placeName ref="#DLCL_CF_L0007">Bologna</placeName> 
+               di tanto onora cotesta <orgName ref="#DLCL_CF_O0001">Biblioteca,</orgName> può credersi che il giudicio derivi più dal cuore, che dalla mente. 
+               E pur’anco il nostro reverendo <persName ref="#DLCL_CF_PC0054">Fiori</persName> mi scrive da <placeName ref="#DLCL_CF_L0008">Roma</placeName> 
+               gran cose della <orgName ref="#DLCL_CF_O0039">Libreria Sclama</orgName> sopra la porta. 
+               È stato accolto con maggior cortesia di quel che credeva. 
+               Un caro saluto al <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli,</persName> cui scriverò l’ordine venturo. 
+               Ho unite le notizie alle altre: nell’anno venturo, a Dio piacendo, avranno il loro uso. 
+               Al presente ho mille intrighi di vario genere per le mani, più per altri, che per me. 
+               Da <placeName ref="#DLCL_CF_L0018">Firenze</placeName> ho ricevuto il disegno dell’effige 
+               del nostro <persName ref="#DLCL_CF_PC0177">Ambrogio</persName> fatto meglio di quel ch’era del <persName ref="#DLCL_CF_PC0213">Padre Abate Botta.</persName> 
+               Onde altro non accade. 
+               Anzi ne ho avuto un altro cavato da una pittura, ch’è pure agli Angeli. 
+               Mantenga in <gap reason="illegible"/>[...]to il Musaico scoperto. 
+               Vi vorrebbe ora il genio erudito di Frate Ba<gap reason="illegible"/>[...] <persName ref="#DLCL_CF_PC0238">Zabaroni.</persName> 
+               Abbia a cuore le iscrizioni di marmo. 
+               Un giorno verrà la loro ventura. 
+               Saluto il <persName ref="#DLCL_CF_PC0090">Padre Don Leandro.</persName> 
+               Starò sull’avviso intorno alla sua persona; se pur basterà. 
+               Vorrei saper precisamente i motivi della sua renitenza. 
+               Confesso che appieno non gl’intendo. 
+               Dubito che nell’<bibl type="print">epistola di Xanto Ballo</bibl> ad <persName ref="#DLCL_CF_PC0177">Ambrogio,</persName> 
+               ove si cita <persName ref="#DLCL_CF_PC0210">Aulio Gellio,</persName> siavi sbaglio, 
+               in vece di <persName ref="#DLCL_CF_PC0239">Quintiliano</persName> <bibl type="print">Institutio Oratoria lib. I cap. 6.</bibl> 
+               Ho veduto il <persName>Rodigino.</persName> 
+               Ho invidia a chi ascolta il <persName ref="#DLCL_CF_PC0240">Padre M. Sani.</persName> 
+               Ma vanno poi ad ascoltarlo? 
+               Il <persName ref="#DLCL_CF_PC0163">padre Mastri</persName> ride, ed io piango sopra la nuova di <orgName ref="#DLCL_CF_O0040">San Petronio.</orgName> 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10029_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20661/DSC_5697.jpg"/>
+            
+            <p>
+               L’esito mostrerà se siano ragionevoli tali dimostrazioni. 
+               Dica al <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina</persName> che risponda con qualche componimento 
+               all’Augurio inviato costà alla <orgName ref="#DLCL_CF_O0005">Colonia Camaldolese,</orgName> 
+               e lo indirizzi al <persName ref="#DLCL_CF_PC0241">Signor Niccolò Monte Mellini.</persName> 
+               <placeName ref="#DLCL_CF_L0028">Perugia.</placeName> 
+               Questo <rs type="person" ref="#DLCL_CF_PC0241">Cavaliere</rs> ne stà in aspettativa. 
+               È mio antico, e confidente Amico. 
+               Al <persName ref="#DLCL_CF_PC0144">Padre Lettore Fondi,</persName> ai <persName ref="#DLCL_CF_PC0121">Padri Lettori Guiccioli</persName> 
+               e <persName ref="#DLCL_CF_PC0093">Onestini</persName> i miei rispetti. 
+            </p>
+            
+            <closer>
+               <salute>Resto di tutto cuore.</salute> 
+               <salute>DVPMR.</salute> 
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1715-12-10">10 dicembre 1715</date></dateline>
+               <salute>Affettuosissimo Servo e Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10029_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/b1a49e6d02caa94a6e3679870b36e2b5eedea8d8.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+               <p>
+                  [<handShift/><foreign xml:lang="la">Mancia de Iuramento Felina de Tregua et Pace Gabriel de Iureiurando Molina Tom. 20 Scaccia de Prescript.</foreign>]
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

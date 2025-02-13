@@ -1,0 +1,202 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10040">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20672/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21077/full/604,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21078/full/607,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21079/full/595,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/24818/full/592,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10040">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 9 Novembre 1716)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">40</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1716-11-09"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-03-14" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-04-03" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10040_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20672/DSC_5748.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Quantunque nell’ultima sua dell’ordinario passato <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> 
+               mi abbia dato avviso della malattia del <persName ref="#DLCL_CF_PC0107">Signor Dottor Gentili</persName> 
+               (cui il Signor Iddio conceda eterno riposo) mi è giunta nulladimeno inaspettata la funestissima nuova della morte del medesimo. 
+               Confesso che l’ho sentita con dolore corrispondente all’affetto, con cui so di certo ch’egli aveva la bontà di portarmi: 
+               né altra consolazione trovo, che quella mi suggerisce la speranza, e confidenza della di lui eterna salute, essendo stato in sostanza buon Sacerdote. 
+               Pur troppo mi figuro il vivo rammarico, che ne avranno sentito costì tutti gli Amici di persona tanto amabile, e degna di stima, e d’amore. 
+               Tra essi distintamente considero il <persName ref="#DLCL_CF_PC0088">Signor Dottor Calbi,</persName> e il <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina,</persName> 
+               a quali rinnovo i miei cordiali, e sincerissimi rispetti. 
+               Appena son qui per me finiti i continui batticuori di sei mesi cagionati dalle infermità mortali, 
+               e dalle morti di tanti amici in <placeName ref="#DLCL_CF_L0028">Perugia,</placeName> 
+               che sento cominciarsene un’altra serie funesta in <placeName ref="#DLCL_CF_L0002">Ravenna.</placeName> 
+               Iddio voglia che finisca sul cominciare appunto, e non proseguisca più oltre! 
+               Egli conservi il nostro dignissimo <persName ref="#DLCL_CF_PC0034">Signor Veratti,</persName> la cui perdita cederebbe in desolazione della di lui famiglia. 
+            </p>
+            
+            <p>
+               Ho fatte poc’anzi legar tutte le <bibl type="print">Scanzie</bibl> del <persName ref="#DLCL_CF_PC0038">Cinelli.</persName> 
+               Sotto sopra considero non essere inutile quel corpo; onde ho a caro che lo spirito dell’Amico si diverta in simile faccenda. 
+               Appunto io stò ora facendo l’<bibl type="manuscript">Indice degli Opuscoli,</bibl> che quì sono appresso di me. 
+               Terminato che sia, lo manderò a <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità;</rs> la quale potrà farsene onore appresso il Continuatore. 
+               Tuttavia mi rimane desiderio di aver la serie della <bibl type="print">Contesa Boccacinesca,</bibl> per farla legare, 
+               e comunicar’ad alcuni Professori bravi di Cirugia, che quì aderiscono al Magatismo. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10040_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20672/DSC_5750.jpg"/>
+            
+            <p>
+               Si può egli sapere chi scriva la <bibl type="print">Vita di Santa Sabina?</bibl> 
+               La voce <foreign xml:lang="la"><hi rend="underline">Metallarij signi</hi></foreign> impiego intorno a’ metalli. 
+               Laonde da Legisti è usata a significar coloro, che vengono condannati a cavar dalle miniere 
+               i metalli <hi rend="underline"><foreign xml:lang="la">per de poen <gap reason="illegible"/>[...] et Cod. de metallis</foreign></hi>. 
+               In questo luogo io l’intenderei di Persona soprintendente a’ lavori di Metallo, e a custodire i metalli stessi, 
+               come <hi rend="underline">Argenta</hi> (oltre a più altri significati) erano i Deputati a custodir gli Argenti. 
+               Ed erano anco i Tesorieri, che aveano in cura il danaro, il quale per lo più consiste in argento. 
+               Veggasi l’Eruditissimo <persName ref="#DLCL_CF_PC0009">Abate Bacchini</persName> sopra l’<persName ref="#DLCL_CF_PC0206">Agnello</persName> 
+               Paragrafo 2 nelle <bibl type="print">Osservazioni alla Vita di San Ecclesio,</bibl> 
+               dove spiega come intender si debba <hi rend="underline"><foreign xml:lang="la">Iulianus Argentarius</foreign></hi> 
+               scolpito anche in marmo nella nostra <orgName ref="#DLCL_CF_O0005">Basilica di Classe,</orgName> pagine 55 et 56. 
+            </p>
+            
+            <p>
+               <hi rend="underline"><foreign xml:lang="la">Ter in Urbe Roma Candidam dedit Romanis</foreign></hi>, dee spiegarsi: 
+               tre volte in <placeName ref="#DLCL_CF_L0008">Roma</placeName> diede a’ Romani <del rend="overstrike">il pub</del> i giuochi: 
+               De’ quali Giuochi pubblici soliti rappresentarsi, e darsi da’ Magistrati, cioè da’ Pretori, 
+               e Questori per motivo di religione, e di allegrezza pubblica, veggasi il <persName ref="#DLCL_CF_PC0325">Rosino</persName> 
+               nel <bibl type="print">Tesoro delle Antichità Romane</bibl> libro 5 e il <persName ref="#DLCL_CF_PC0302">Dempstero</persName> ivi. 
+               La voce <foreign xml:lang="la"><hi rend="underline">Candida</hi></foreign> in tal significato si ha eziandio negli <bibl type="religious">Atti di San Bonifazio</bibl> 
+               Mart<gap reason="illegible"/>[...] parlando di <foreign xml:lang="la">Aglae Illustre Donna: 
+               <hi rend="underline">Haec ergo ter candidam egerat apud Urbem Romam ex Praefectura</hi></foreign>. 
+               L’antico <bibl type="religious">Calendario di Eruvarto</bibl> al mese di Dicembre. 
+               <foreign xml:lang="la"><hi rend="underline">XIII Kal. Januarias Munus Kandida</hi></foreign> e <persName ref="#DLCL_CF_PC0326">Sant’Ambrogio</persName> sermone 81 
+               allegoricamente questo medesimo significato trasportò, santificandolo, di un’opera di cristiana pietà. 
+               <foreign xml:lang="la"><hi rend="underline">Praeparemus nova, et praeclarissima munera, edamus primam Candidam in vestitu nudorum, secundam vero non minus nobilem</hi></foreign>. 
+               L’etimologia di questo significato deriva 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10040_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20672/DSC_5753.jpg"/>
+            
+            <p>
+               dagli abiti bianchi, i quali a proprie spese erano in tali giuochi pubblici distribuiti a coloro, 
+               che nel teatro rappresentavano a Romani lo spettacolo. 
+               Nel qual sentimento concorre il <persName ref="#DLCL_CF_PC0022">Ducange</persName> 
+               nel <del rend="overstrike">Dizionario</del> <bibl type="print">Glossario della Latinità.</bibl> 
+               Che negli spettacoli di bianche lacerne fossero vestiti i Romani; 
+               l’abbiamo in <persName ref="#DLCL_CF_PC0303">Marziale,</persName> contro ad un certo <persName>Orazio:</persName>
+            </p>
+            
+            <p>
+               <foreign xml:lang="la"><hi rend="align(center)">Spectabat modo solus inter omnes</hi></foreign>
+            </p>
+            <p>
+               <foreign xml:lang="la"><hi rend="align(center)">Nigris mundis Horatius lacernis</hi></foreign>
+            </p>
+            <p>
+               <foreign xml:lang="la"><hi rend="align(center)">Cum plebs, et minor ordo, maximusque</hi></foreign>
+            </p>
+            <p>
+               <foreign xml:lang="la"><hi rend="align(center)">Sancto cum duce candidus sederet</hi></foreign>
+            </p>
+            <p>
+               <foreign xml:lang="la"><hi rend="align(center)">Toto vix cecidit repente coelo</hi></foreign>
+            </p>
+            <p>
+               <foreign xml:lang="la"><hi rend="align(center)">Albis spectat Horatius lacernis</hi></foreign>
+            </p>
+               
+            <p>
+               Della candida lacerna solita usarsi nell’anfiteatro, <persName rend="#DLCL_CF_PC0304">Volfango Lazio</persName> Libro 8 capitolo 10. <bibl type="print">Comm. Reipub.</bibl> 
+               Ancora <persName ref="#DLCL_CF_PC0099">Plutarco</persName> in <bibl type="print">Paolo Emilio,</bibl> scrivendo del di lui trionfo, 
+               dice che di candide vesti erano ornati i Romani quando i pubblici giuochi in tal’occasione erano rappresentati. 
+               E ciò notato fù dallo <persName ref="#DLCL_CF_PC0305">Stuckio</persName> <bibl type="print">Antiquit. Convival. libro 2 capitolo 26.</bibl> 
+               Né è da maravigliarsi che la voce <foreign xml:lang="la"><hi rend="underline">Candida</hi></foreign> per metonimia si usi come nome sostantivo negli spettacoli, 
+               ove si compariva in abito candido; posciache che <persName ref="#DLCL_CF_PC0306">Tertulliano</persName> nel libro <bibl type="print">de Corona</bibl> 
+               elegantemente usò le voci <foreign xml:lang="la"><hi rend="underline">Candida salutis, et Candida martyrij</hi></foreign> per esprimere il premio del martirio. 
+            </p>
+            
+            <p>
+               Ciò è quel, che subito letta lettera, posso in fretta rispondere. 
+               Godo sommamente della vestitura del <persName ref="#DLCL_CF_PC0073">Signor Diego Brunori,</persName> 
+               non meno che dell’altra del <rs type="person">fratello</rs> del <persName ref="#DLCL_CF_PC0090">Padre Leandro.</persName> 
+            </p>
+            
+            <closer>
+               <salute>L’abbraccio caramente e di tutto cuore mi confermo.</salute> 
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1716-11-09">9 Novembre 1716</date>.</dateline>  
+               <salute>DVPMR</salute>
+               <salute>Affettuosissimo Servo e Padre nel Signore Cordialissimo</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>         
+            
+            <pb xml:id="DLCL_CF_E10040_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/4e6d036829975a2635107a5ad14f2c414a787b84.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

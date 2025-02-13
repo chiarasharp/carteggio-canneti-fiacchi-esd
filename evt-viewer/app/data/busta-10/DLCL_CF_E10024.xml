@@ -20,7 +20,7 @@
                </availability>
             </publicationStmt>
             <seriesStmt>
-               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="main">Carteggio Canneti Fiacchi</title>
                <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
                <biblScope unit="letter">24</biblScope>
             </seriesStmt>
@@ -70,7 +70,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10024_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/21020/full/592,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10024_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20656/DSC_5669.jpg"/>
 
             <opener>
                <salute>
@@ -100,7 +100,7 @@
                del <persName ref="#DLCL_CF_PC0038">Cinelli.</persName> 
             </p>
 
-            <pb xml:id="DLCL_CF_E10024_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/21021/full/607,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10024_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20656/DSC_5671.jpg"/>
 
             <p>
                Ma chi dee tessere le quattro seguenti non può compiere l’opera, se non ha sotto agli occhi tutte le sedici precedenti. 
@@ -122,7 +122,7 @@
                e sull’idea delle altre brevis<pc force="inter">-</pc>
             </p>
 
-            <pb xml:id="DLCL_CF_E10024_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/21022/full/593,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10024_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20656/DSC_5672.jpg"/>
 
             <p>
                <pc force="inter">-</pc>sime notizie d’<placeName ref="#DLCL_CF_L0026">Italia;</placeName> onde fuggasi l’affettazione, la vanità, e l’invidia; 
@@ -164,7 +164,7 @@
                Mentre ne venivano le copie da <placeName ref="#DLCL_CF_L0038">Olanda</placeName> in <placeName ref="#DLCL_CF_L0026">Italia,</placeName> fu predato il legno da 
          </p>
 
-         <pb xml:id="DLCL_CF_E10024_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/21023/full/603,800/0/default.jpg"/>
+         <pb xml:id="DLCL_CF_E10024_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/20656/DSC_5673.jpg"/>
 
          <p>
                un <rs type="person">Corsaro Franzese,</rs> onde rare mi persuado che siano le Copie. 

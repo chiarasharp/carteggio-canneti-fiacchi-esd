@@ -20,7 +20,7 @@
                </availability>
             </publicationStmt>
             <seriesStmt>
-               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="main">Carteggio Canneti Fiacchi</title>
                <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
                <biblScope unit="letter">25</biblScope>
             </seriesStmt>
@@ -72,7 +72,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10025_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/21024/full/587,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10025_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20657/DSC_5674.jpg"/>
 
             <opener>
                <salute>
@@ -114,7 +114,7 @@
                Trovino anche modo di cavar dalle mani al 
             </p>
 
-            <pb xml:id="DLCL_CF_E10025_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/21025/full/603,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10025_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20657/DSC_5675.jpg"/>
 
             <p>
                <persName ref="#DLCL_CF_PC0143">Baruffaldi</persName> la <bibl type="print" source="#DLCL_CF_BS0069">Tabaccheide.</bibl> 
@@ -143,9 +143,7 @@
                che stà in cotesta <orgName ref="#DLCL_CF_O0001">Biblioteca.</orgName> 
                Quando <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> trovi opposizione, avrei caro che alla Traslazione di <persName ref="#DLCL_CF_PC0040">San Severo</persName> 
                facesse <hi rend="underline">
-               <foreign xml:lang="la">Partis corporis</foreign>
-            </hi> in cambio dell’<hi rend="underline"><foreign xml:lang="la">Insignium Reliquiarium</foreign>
-         </hi>. 
+               <foreign xml:lang="la">Partis corporis</foreign></hi> in cambio dell’<hi rend="underline"><foreign xml:lang="la">Insignium Reliquiarium</foreign></hi>. 
                Così esprime nella sua lettera il preziosissimo dono l’<rs type="person">Eminentissimo Elettore</rs> di <placeName ref="#DLCL_CF_L0053">Magonza.</placeName> 
                Sono all’ultima della Carta grande. 
                Lo dica al <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina.</persName> 
@@ -160,7 +158,7 @@
                A <placeName ref="#DLCL_CF_L0054">Parma</placeName> non volli scrivere allora perché non potevano le spedizioni farsi a <placeName ref="#DLCL_CF_L0001">Cremona</placeName> in tempo. 
       </p>
 
-      <pb xml:id="DLCL_CF_E10025_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/21026/full/589,800/0/default.jpg"/>
+      <pb xml:id="DLCL_CF_E10025_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20657/DSC_5676.jpg"/>
 
       <p>
                [Si son fatte copiose scoperte in <placeName ref="#DLCL_CF_L0019">Arezzo,</placeName> e in <placeName ref="#DLCL_CF_L0018">Firenze</placeName> per accrescere, 
@@ -173,8 +171,7 @@
                Nel venturo mese vedrò di far capitare quel tomo in <placeName ref="#DLCL_CF_L0012">Modena</placeName> 
                al <persName ref="#DLCL_CF_PC0199">Padre Mellini</persName>
          <hi rend="underline">Presidente</hi> di quella loro Canonica, 
-               e così posto in ruolo con <hi rend="underline"><persName ref="#DLCL_CF_PC0200">Ponzio Pilato</persName>
-      </hi>, egli troverà poi modo di farlo capitare a <placeName ref="#DLCL_CF_L0002">Ravenna.</placeName> 
+               e così posto in ruolo con <persName ref="#DLCL_CF_PC0200"><hi rend="underline">Ponzio Pilato</hi>,</persName> egli troverà poi modo di farlo capitare a <placeName ref="#DLCL_CF_L0002">Ravenna.</placeName> 
                Come stà la famosa porta di <persName ref="#DLCL_CF_PC0091">Frate Fausto?</persName> 
    </p>
 
@@ -218,7 +215,7 @@
       </signed>
    </closer>
 
-   <pb xml:id="DLCL_CF_E10025_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/24805/full/599,800/0/default.jpg"/>
+   <pb xml:id="DLCL_CF_E10025_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/dfda6840854f4f5ab4547e1362111c91210deae8.jpg"/>
 
    <postscript>
       <p>

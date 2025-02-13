@@ -20,7 +20,7 @@
                </availability>
             </publicationStmt>
             <seriesStmt>
-               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="main">Carteggio Canneti Fiacchi</title>
                <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
                <biblScope unit="letter">13</biblScope>
             </seriesStmt>
@@ -72,7 +72,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10013_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20859/full/598,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10013_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20645/DSC_5625.jpg"/>
 
             <opener>
                <salute>
@@ -83,9 +83,7 @@
             <p> 
                Godo che <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> sia pienamente persuasa dell’intelligenza da darsi 
                al <bibl type="religious">Decreto</bibl>
-               <foreign xml:lang="la">
-                  <hi rend="underline">de excellentia maioris dignitatis</hi>
-               </foreign>, 
+               <foreign xml:lang="la"><hi rend="underline">de excellentia maioris dignitatis</hi></foreign>, 
                secondo le <bibl type="religious">Rubriche,</bibl> e secondo la pratica la quale è la prima, e l’unica interprete di tutte, e massimamente di tali leggi. 
                Se pur non dicessimo meglio che non dobbiamo prendersi veruna soggezione di una risposta data ad uno Scrupoloso, 
                il qual poi non ha potuto servirsene per alterare il <bibl type="religious">Calendario</bibl> di questa Chiesa, né può ora molto meno 
@@ -103,7 +101,7 @@
                Ella si appigli a qual giudica 
             </p>
 
-            <pb xml:id="DLCL_CF_E10013_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20860/full/575,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10013_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20645/DSC_5626.jpg"/>
 
             <p>
                meglio. 
@@ -136,7 +134,7 @@
                Per non moltiplicar lettere, 
             </p>
 
-            <pb xml:id="DLCL_CF_E10013_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/20861/full/585,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10013_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20645/DSC_5627.jpg"/>
 
             <p>
                mandai, alcuni ordinari sono un viglietto a lui, in una lettera del <persName ref="#DLCL_CF_PC0043">Padre Don Pietro;</persName> ma non ne veggo risposta. 
@@ -159,7 +157,7 @@
                </signed>
             </closer>
 
-            <pb xml:id="DLCL_CF_E10013_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/24794/full/569,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10013_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/368b2776411907e60f9642c980913ce231656b64.jpg"/>
 
             <postscript>
                <p>

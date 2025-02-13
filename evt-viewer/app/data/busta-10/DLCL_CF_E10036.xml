@@ -1,0 +1,183 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10036">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20668/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21063/full/606,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21064/full/606,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21065/full/602,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/24814/full/607,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10036">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 28 Luglio 1716)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Carteggio Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">36</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1716-07-28"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-02-28" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10036_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20668/DSC_5728.jpg"/>
+            
+            <opener>
+               <salute><persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Amatissimo</salute>
+            </opener>
+            
+            <p>
+               Ricevo colla dovuta gratitudine le affettuose espressioni di tutti i <rs type="person">Padroni,</rs> e buoni <rs type="person">Amici,</rs> 
+               che si compiacciono impiegare le riflessioni della loro obbligante, e tenera bontà sopra la mia per tutti i capi inutile persona, 
+               e sopra le miserie di questa Città, le quali non cessano punto, se non ancora son cresciute in questo mese. 
+               Dal dì primo Luglio fino al dì 17 il calcolo de’ morti (per quanto mi disse giorni fà <rs type="person">Monsignor Vescovo,</rs> 
+               che ogni quindici giorni ne dee mandar nota a <placeName ref="#DLCL_CF_L0008">Roma)</placeName> era di cento settanta in circa. 
+               Le cose fino al dì d’oggi camminano dello stesso passo. 
+               <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> nulla mi risponde intorno 
+               alla <bibl type="print">Relazione</bibl> stampata del nostro <persName ref="#DLCL_CF_PC0269">Medico Viti,</persName> 
+               che avrò caro intendere come sia intesa da cotesti virtuosissimi <rs type="person">Professori.</rs> 
+            </p>
+            
+            <p>
+               Ieri ha otto giorni che ricevei la lettera del <del rend="overstrike">Vallisnie</del> 
+               <persName ref="#DLCL_CF_PC0077">Nigrisoli</persName> al <persName ref="#DLCL_CF_PC0056">Sancassani</persName> con sopracoperta. 
+               Mi stimai in debito di rompere il proponimento fatto di non gli scrivere mai più. 
+               [Il <persName ref="#DLCL_CF_PC0056">Sancassani</persName> <gap reason="illegible"/>[...] poi da lui <gap reason="illegible"/>[...] poteva venire quel foglio]. 
+               Gli mandai pertanto cinque facciate di foglio ben piene, che a quest’ora avrà egli ricevute; 
+               protestando che quella era l’ultima mia lettera, che per quanto egli fosse per istuzzicarmi, non gli avrei mai risposto, 
+               né avrei di ciò fatto alcun caso, né mai di esso avrei scritto cosa alcuna né in bene, né in male. 
+               E così ho risoluto fermamente di fare. 
+               Ma come mai ha egli avute le lettere da me scritte a <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> sia come si vuole, nulla m’importa; 
+               ne quel buon uomo turberà con qualunque sua alterazione la pace del mio cuore. 
+               In fatti le tre lettere del <persName ref="#DLCL_CF_PC0113">Signor Zapata</persName> han servito d’un mi<pc force="inter">-</pc> 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10036_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20668/DSC_5729.jpg"/>
+            
+            <p>
+               rabile antidoto alla malinconia, la quale in questi acerbissimi tempi o vogliamo, o non vogliamo, 
+               percuote gli animi più composti in paese, ove non si può discorrere, senza far menzione di malati, e di morti. 
+               Nasce in oltre dalla lettura delle suddette lettere un notabile accrescimento di stima nell’animo mio 
+               verso il detto <persName ref="#DLCL_CF_PC0113">Signor Zapata</persName> e conosco vivamente l’obbligo, 
+               che viene a contrarre la mia divozione verso l’amore di lui così attento, e tenero, e giusto, e parziale e interessato per me. 
+            </p>
+            
+            <p>
+               Ma cresce in me altresì un impaziente desiderio di veder l’<bibl type="print">Opera</bibl> del <persName ref="#DLCL_CF_PC0113">Zappatta,</persName> 
+               e il <bibl type="print">Giornale XXIV,</bibl> che aspetto con prima occasione, 
+               oltre al <bibl type="print">Libro</bibl> del <persName ref="#DLCL_CF_PC0186">Signor dal Corno,</persName> e la <bibl type="print">Scrittura Matematica.</bibl> 
+               Sono costì capitate diverse scritture stampate, in materia d’acqua del nostro <persName ref="#DLCL_CF_PC0132">Padre Abate Grandi?</persName> 
+               Oh quanto egregiamente anco in queste materie egli scrive! 
+               Io n’ebbi una bellissima ultimamente, come altre diverse ne ho ricevute in diversi tempi. 
+               Alcune poche copie del mio <bibl type="print">Discorso</bibl> son finite di stampare e (per quanto intendo) 
+               si mandan’oggi all’<persName ref="#DLCL_CF_PC0084">Eminentissimo Gozzadini,</persName> 
+               al quale ha voluto dedicarlo il <persName ref="#DLCL_CF_PC0282">Signor Abate Montemellini</persName> mio gran Padrone, e Amico, il quale a spese proprie l’ha pubblicato. 
+               Ne manderò, quando mi riuscirà averne costà qualche esemplare. 
+            </p>
+            
+            <p>
+               Che è del nostro Dilettissimo <persName ref="#DLCL_CF_PC0007">Padre lettore Collina?</persName> 
+               Se è costì me lo abbracci cordialmente. 
+               Me ne dia nuova subito. 
+               Ancora mi lusingo che sia per cessare il flagello nostro; nel quale caso vorrei quì goderlo, col <persName ref="#DLCL_CF_PC0122">Padre Don Enrico.</persName> 
+               Osservo intanto che 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10036_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20668/DSC_5730.jpg"/>
+            
+            <p>
+               da certo tempo forestieri quì non capitano, se non di frettoloso passaggio. 
+               Un cordiale saluto al <persName ref="#DLCL_CF_PC0090">Padre Don Leandro,</persName> di cui nulla v’è di nuovo, e forse non vi sarà fino alla rinfrescata. 
+               Preghino per noi, che ci assista. 
+               Siamo sani tutti di famiglia. 
+               Ma <del rend="overstrike">è</del> un grandissimo, e inesplicabile incomodo mi è stato la malattia, e convalescenza di due mesi, 
+               non anche finita di <persName ref="#DLCL_CF_PC0043">Frate Pietro,</persName> e nel tempo medesimo d’un altro, che serve in casa, in abito di Cherico. 
+               Vorrei poter ripigliare il mio lavoro al tavolino, a cui tutto l’anno passato mi riuscì applicar’incessantemente ogni giorno. 
+               Adesso non si può far nulla; e ognuno di ciò si duole in <placeName ref="#DLCL_CF_L0028">Perugia.</placeName> 
+               Non è poco vivere, e star sano, se Iddio se ne contenta. 
+            </p>
+            
+            <closer>
+               <salute>L’abbraccio, e con tutto lo spirito resto tutto tutto suo.</salute> 
+               <salute>DVPMR</salute> 
+               <dateline><placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName> <date when-iso="1716-07-28">28 Luglio 1716</date></dateline>
+            </closer>
+            
+            <postscript>   
+               <p>
+                  Io mi godo qui spesso il <persName ref="#DLCL_CF_PC0273">Padre Gregorio Gabellotti,</persName> uomo dotto, e cordiale, e buon’Amico. 
+                  Predica l’annuale, e in questi tempi investe con tutto zelo il peccato, facendo prediche mirabili, a modo di missione. 
+                  Mi mostrò certo fine d’una lettera del <persName ref="#DLCL_CF_PC0107">Signor Dottor Gentili,</persName> che riverisco, 
+                  sopra il <persName ref="#DLCL_CF_PC0283">Maraviglia.</persName> 
+                  Animo, immortale <persName ref="#DLCL_CF_PC0283">Maraviglia,</persName> contra la Nazione Magatina. 
+               </p>
+            </postscript>
+            
+            <closer>
+               <salute>Affettuosissimo Servitore e Cordialissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10036_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/9499e8edd8bf6a660002a1e0858b999c8c9470b0.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

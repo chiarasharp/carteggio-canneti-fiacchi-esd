@@ -1,0 +1,293 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10035">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20667/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21058/full/601,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21059/full/608,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21062/full/610,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/24811/full/603,800/0/default.jpg"/>
+   </facsimile>
+   <facsimile sameAs="https://classense.unibo.it/iiif/23170/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/23171/full/601,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/23172/full/600,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/24812/full/602,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/24813/full/603,800/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <group>
+         <text type="letter" xml:id="DLCL_CF_E10035_L">
+            <front>
+               <fileDesc>
+                  <titleStmt>
+                     <title xml:lang="it">Canneti a Fiacchi (Perugia, 14 Luglio 1716)</title>
+                     <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+                  </titleStmt>
+                  <publicationStmt>
+                     <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+                     <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                     </availability>
+                  </publicationStmt>
+                  <seriesStmt>
+                     <title type="main">Carteggio Canneti Fiacchi</title>
+                     <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+                     <biblScope unit="letter">35</biblScope>
+                  </seriesStmt>
+                  <sourceDesc>
+                     <msDesc>
+                        <msIdentifier>
+                           <country key="IT">Italia</country>
+                           <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                           <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                           <repository></repository>
+                           <collection></collection>
+                           <idno></idno>
+                           <altIdentifier>
+                              <idno></idno>
+                           </altIdentifier>
+                        </msIdentifier>
+                     </msDesc>
+                  </sourceDesc>
+               </fileDesc>
+               <profileDesc>
+                  <correspDesc>
+                     <correspAction type="sent">
+                        <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                        <date when-iso="1716-07-14"/>
+                        <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+                     </correspAction>
+                     <correspAction type="received">
+                        <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+                     </correspAction>
+                  </correspDesc>
+                  <langUsage>
+                     <language ident="it"/>
+                  </langUsage>
+                  <settingDesc>
+                     <xi:include href="../../entities/places.xml"/>
+                  </settingDesc>
+                  <particDesc>
+                     <xi:include href="../../entities/people/cited-people.xml"/>
+                     <xi:include href="../../entities/people/staff.xml"/>
+                     <xi:include href="../../entities/orgs.xml"/>
+                  </particDesc>
+               </profileDesc>
+               <revisionDesc status="created">
+                  <change when-iso="2024-02-22" who="#DLCL_CF_PS001">creato</change>
+                  <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
+                  <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
+                  <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
+               </revisionDesc>
+            </front>
+            <body>
+               <div type="transcription">
+                  <pb xml:id="DLCL_CF_E10035_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20667/DSC_5720.jpg"/>
+                  
+                  <opener>
+                     <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendissimo Padre mio Osservandissimo</rs></salute>
+                  </opener>
+                  
+                  <p>
+                     Oggi, dopo ricevuta la gratissima sua, e data ad altre lettere risposta, non posso trattenermi, 
+                     come vorrei a lungo con <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità.</rs> 
+                     Annesse le trasmetto due carte, una del nostro <persName ref="#DLCL_CF_PC0269">Signore Medico Viti</persName> stampata, 
+                     che contiene la <bibl type="print">Relazione</bibl> a <rs type="person">Monsignor Governatore,</rs> 
+                     sopra la Storia delle nostre malattie, le quali vanno seguitando, e crescendo; 
+                     l’altra intorno il prodigioso segno del Corpo della <persName ref="#DLCL_CF_PC0272">Beata Chiara</persName> 
+                     di <placeName ref="#DLCL_CF_L0069">Montefalco,</placeName> terra di qua distante circa 25 miglia. 
+                     Potrà Ella comunicarle con libertà. 
+                     Scriverò pienamente l’ordinario venturo. 
+                     Preghi Dio giustamente adirato per noi. 
+                     Ieri fui alcune ore fuori con <rs type="person">Monsignore Vescovo,</rs> 
+                     e col <persName ref="#DLCL_CF_PC0273">Padre Gabellotti</persName> Gesuita venuto da <placeName ref="#DLCL_CF_L0002">Ravenna</placeName> a predicare l’annuale, 
+                     che mi ha fatta più volte menzione del <persName ref="#DLCL_CF_PC0107">Signor Dottor Gentili.</persName> 
+                     Benché ci studiassimo di sbandir la malinconia, non se ne trova il modo. 
+                     Il <rs type="person">suddetto Predicatore</rs> ha lasciate da parte le prediche sue; e le fà a braccio, 
+                     a modo di missioni egregiamente, con frutto, e gradimento, per addattarsi a tempi presenti. 
+                     Si fanno altre divozioni; e Domenica si cominciò a mezz’ora di notte a sonar le campane d’ordine di <rs type="person">Monsignore Vescovo,</rs> 
+                     per segno di pregar Dio che ci liberi dal presente flagello. 
+                     Fatto il calcolo de’ morti, per comando di <placeName ref="#DLCL_CF_L0008">Roma,</placeName> si trova, o si dice che in due mesi siano quattrocento. 
+                     Il che solo quando fosse non sarebbe poco, in una Città, ch’era spopolata, e contava dianzi unici mila anime. 
+                  </p>
+                  
+                  <pb xml:id="DLCL_CF_E10035_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20667/DSC_5721.jpg"/>
+                  
+                  <p>
+                     I preservativi comuni introdotti sono, un’aria di fuoco la mattina, un biscottino da romper’il digiuno con un poco di vino rosso, 
+                     odorare aceto rosato, star lontano dagli ammalati, e da’ numerosi concorsi di gente, particolarmente de’ mendichi avvanzati dalla carestia, 
+                     ora consumati dalla scabia. Niuno ardisce partire, dopo che alcuni, che di qua fuggivano, si son’ammalati altrove, e altri son morti, 
+                     e in particolare la settimana passata il <persName ref="#DLCL_CF_PC0274">Conte Ercole Oddi</persName> 
+                     di età d’anni 30 morto in <placeName ref="#DLCL_CF_L0019">Arezzo.</placeName> 
+                  </p>
+                  
+                  <p>
+                     Non si finisce di stampar l’<bibl type="print">Orazione</bibl> consaputa, per esser’ammalati due uomini della stampa. 
+                     Languiscono e le <bibl type="manuscript" source="#DLCL_CF_BM0006">pistole Ambrosiane,</bibl> e la consaputa <bibl type="print">Genealogia,</bibl> 
+                     perché languiamo tutti col principio morboso dentro di noi, secondo la sentenza del <persName ref="#DLCL_CF_PC0269">Viti.</persName> 
+                     In fatti ognuno confessa che non ha voglia di far nulla; e ciò da Primavera in quà si prova per esperienza. 
+                     Ringraziate Dio voi altri, e valetevi bene della salute ch’egli vi concede. 
+                     Sommamente mi ha consolato il passo fatto col <persName ref="#DLCL_CF_PC0113">Signor Zappatta</persName> intorno al <rs type="person">nostro Comacchiese</rs> immagatito, 
+                     incinelliato e che so io. 
+                     Spero che produrrà buon’effetto. 
+                     Grazie alla di lei attenzione industriosa. 
+                     Aspetto il <bibl type="print">Giornale XXIV.</bibl> 
+                     L’opera del <persName ref="#DLCL_CF_PC0186">Corno,</persName> l’altra del <persName ref="#DLCL_CF_PC0113">Zappatta</persName> medesimo, che serviranno per divertirmi. 
+                     <persName ref="#DLCL_CF_PC0043">Frate Pietro</persName> segue felicemente la lenta sua convalescenza; gli è cessato il delirio, e ha ricuperato perfettamente l’udito. 
+                     Tutti gli altri siamo, grazie a Dio sani, al quale piace 
+                  </p>
+                  
+                  <pb xml:id="DLCL_CF_E10035_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20667/DSC_5726.jpg"/>
+                  
+                  <p>
+                     conservarci tali. 
+                     Son familiari in questi mali i furori maniaci, e di più i delirj dopo cessate per molti giorni le febbri; così le sordità, e le cecità. 
+                     Venti Medici in circa non possono reggere alla fatica; e per lo più fanno una sola visita al giorno. 
+                     La maggior parte guarisce; ma quella minore, che muore, fà un buon numero.
+                     Nella Città di <placeName ref="#DLCL_CF_L0068">Spoleto</placeName> sono spente in questa influenza dieci famiglie nobili. 
+                     Due quì ne son mancate in due giorni, oltre alla Casa del famoso <persName ref="#DLCL_CF_PC0275" cert="unknown">Cesare Caporali</persName> estinta colla morte del Padre, 
+                     e del figlio giovane in una settimana, ch’era di antica, e cospicua cittadinanza. 
+                  </p>
+                  
+                  <closer>
+                     <salute>Resto abbracciandola, con riverire tutti i buoni Amici.</salute> 
+                     <salute>Addio, caro <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo.</persName></salute> 
+                     <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1716-07-14">14 luglio 1716</date>.</dateline> 
+                     <salute>DVPMR</salute> 
+                     <salute>Cordialissimo Padre e Servo nel Signore</salute> 
+                     <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+                  </closer>
+               
+                  <pb xml:id="DLCL_CF_E10035_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/bcff840d8200d116afbb7608879d958ffc1dc580.jpg"/>
+                  
+                  <postscript>
+                     <p>
+                        Al Molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                        <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+                     </p>
+                  </postscript>
+               </div>
+            </body>
+         </text>
+         <text type="attachment" xml:id="DLCL_CF_E10035_A01">
+            <front>
+               <fileDesc>
+                  <titleStmt>
+                     <title xml:lang="it">Canneti a Fiacchi (Perugia, 14 Luglio 1716)</title>
+                     <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+                  </titleStmt>
+                  <publicationStmt>
+                     <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+                     <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                     </availability>
+                  </publicationStmt>
+                  <seriesStmt>
+                     <title type="main">Carteggio Canneti Fiacchi</title>
+                     <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+                     <biblScope unit="letter">35</biblScope>
+                  </seriesStmt>
+                  <sourceDesc>
+                     <msDesc>
+                        <msIdentifier>
+                           <country key="IT">Italia</country>
+                           <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                           <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                           <repository></repository>
+                           <collection></collection>
+                           <idno></idno>
+                           <altIdentifier>
+                              <idno></idno>
+                           </altIdentifier>
+                        </msIdentifier>
+                     </msDesc>
+                  </sourceDesc>
+               </fileDesc>
+               <profileDesc>
+                  <correspDesc>
+                     <correspAction type="sent">
+                        <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                        <date when-iso="1716-07-14"/>
+                        <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+                     </correspAction>
+                     <correspAction type="received">
+                        <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+                     </correspAction>
+                  </correspDesc>
+                  <langUsage>
+                     <language ident="it"/>
+                  </langUsage>
+                  <settingDesc>
+                     <xi:include href="../../entities/places.xml"/>
+                  </settingDesc>
+                  <particDesc>
+                     <xi:include href="../../entities/people/cited-people.xml"/>
+                     <xi:include href="../../entities/people/staff.xml"/>
+                     <xi:include href="../../entities/orgs.xml"/>
+                  </particDesc>
+               </profileDesc>
+               <revisionDesc status="created">
+                  <change when-iso="2024-02-22" who="#DLCL_CF_PS001">creato</change>
+                  <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
+                  <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
+                  <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
+               </revisionDesc>
+            </front>
+            <body>
+               <div type="transcription">
+            
+               <pb xml:id="DLCL_CF_E10035_A01_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/23170/DSC_5722.jpg"/>
+            
+               <p>
+                  <cit>
+                     <quote>
+                        La sera delli <date when-iso="1716-06-23">23 giugno 1716</date> esposto, conforme al solito, alla venerazione de’ Divoti 
+                        il corpo prodigiosamente incorrotto della <persName ref="#DLCL_CF_PC0272">Beata Chiara</persName> da <placeName ref="#DLCL_CF_L0069">Montefalco,</placeName> 
+                        fu veduto il piede destro gonfio dalla banda del calcagno; 
+                        è nel sinistro piede parimente verso il calcagno vi era come un’escoriazione della grossezza circa di un Giulio, 
+                        e di più sulla pianta di esso piede sinistro fu osservato un altro rossore verso, e sotto le dita. 
+                        Tutto si vide; ed osservò e dalle Monache, e dalle persone di fuori, ch’erano concorse alla venerazione del sagro Corpo. 
+                        Affermano in oltre l’<rs type="person">Abbadessa,</rs> la <rs type="person">Vicaria,</rs> e le <rs type="person">Sagristane,</rs> 
+                        che in occasione di aver allora toccato per ragione del loro officio le mani del detto beato Corpo, le aveano ritrovate calde, come di corpo vivo. 
+                        Finalmente le medesime <rs type="person">Abbadessa,</rs> <rs type="person">vicaria,</rs> e <persName ref="#DLCL_CF_PC0276">suor Lucia Lucrezia Agatonij,</persName> 
+                        una delle Sagristane affermano aver trovato il capo con lo stesso calore. 
+                        Nel riporre poi le susseguente mattina dentro la cassa il sagro corpo, era cessato il grande parte il tumore di sopra descritto; 
+                        il quale il dì 2 luglio, essendosi aperta la cassa alla presenza del <persName ref="#DLCL_CF_PC0277">Padre Giovanni Valerio Agatonii</persName> 
+                        Prete della <orgName ref="#DLCL_CF_O0045">Congregazione dell’Oratorio di Montefalco,</orgName> 
+                        e Vicario Foraneo di <rs type="person">Monsignore Vescovo</rs> di <placeName ref="#DLCL_CF_L0068">Spoleto,</placeName> si trovò del tutto cessato. 
+                        E così era cessato il rossore al calcagno sinistro, a riserva d’alcun piccolo rossoretto sulla pianta d’esso piede. 
+                        Del che tutto si fece atto pubblico dall’<persName ref="#DLCL_CF_PC0278">Anselmi</persName> Cancelliere Foraneo. 
+                     </quote>
+                  </cit> 
+
+                  </p>
+                  
+                  <pb xml:id="DLCL_CF_E10035_A01_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/23170/DSC_5723.jpg"/>
+                  
+                  <p>
+                     <cit>
+                        <quote>
+                           Si crede che questi segni si riferiscano alle stragi, che nelle città di <placeName ref="#DLCL_CF_L0068">Spoleto,</placeName> 
+                           di <placeName ref="#DLCL_CF_L0028">Perugia,</placeName> e altrove ha fatto, va facendo la morte, dopo che non ancor’era finito l’altro flagello della fame. 
+                           Altre volte l’ebollizione del sangue, e altre mozioni miracolose dello stesso Corpo della <persName ref="#DLCL_CF_PC0272">Beata Chiara</persName> 
+                           hanno presagito calamità alla Patria, e al Cristianesimo; 
+                           come si ha dalla <bibl type="print">Vita</bibl> sua scritta dal <persName ref="#DLCL_CF_PC0279">Piergili</persName> paragrafo 3 capitolo 18 
+                           e si accenna dal <persName ref="#DLCL_CF_PC0280">Bozio</persName> <bibl type="print"><foreign xml:lang="la">de Signis Ecclesiae</foreign>.</bibl> 
+                        </quote>
+                     </cit>
+                  </p>
+                  
+                  <p>       
+                     La soprascritta notizia è tratta, quasi colle stesse parole, 
+                     da una lettera del detto <persName ref="#DLCL_CF_PC0277">Padre Agatonij</persName> Vicario Foraneo di <placeName ref="#DLCL_CF_L0069">Montefalco</placeName> 
+                     sua Patria scritta al <persName ref="#DLCL_CF_PC0281">Padre Orazio Canauli</persName> Preposito 
+                     dell’<orgName ref="#DLCL_CF_O0046">Oratorio di Perugia</orgName> in data delli <date when-iso="1716-07-09">9 Luglio 1716</date>
+                  </p>
+                  
+                  <pb xml:id="DLCL_CF_E10035_A01_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/16e2c7bc8c8fea0ef7eb6c4a4fac30c281fd75f5.jpg"/>
+                  
+                  <pb xml:id="DLCL_CF_E10035_A01_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/aa845d4a3272338e0240514baacbe523c56d3160.jpg"/>
+                  
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

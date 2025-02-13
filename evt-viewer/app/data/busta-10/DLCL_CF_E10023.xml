@@ -20,7 +20,7 @@
                </availability>
             </publicationStmt>
             <seriesStmt>
-               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="main">Carteggio Canneti Fiacchi</title>
                <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
                <biblScope unit="letter">23</biblScope>
             </seriesStmt>
@@ -72,7 +72,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10023_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/21017/full/606,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10023_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20655/DSC_5664.jpg"/>
 
             <opener>
                <salute>
@@ -104,7 +104,7 @@
                Gli è piacciuto 
          </p>
 
-         <pb xml:id="DLCL_CF_E10023_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/21018/full/604,800/0/default.jpg"/>
+         <pb xml:id="DLCL_CF_E10023_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20655/DSC_5665.jpg"/>
 
          <p>
                sommamente lo spirito di <rs type="person" ref="#DLCL_CF_PC0162">cotesto Signore</rs> sincero, giudicioso, purgato e ben’intendente nelle materie di pittura. 
@@ -140,7 +140,7 @@
                Alla Teologia assegnerei l’ulivo, del cui ramo si cingevano il crine gli antichi Sacerdoti 
       </p>
 
-      <pb xml:id="DLCL_CF_E10023_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/21019/full/600,800/0/default.jpg"/>
+      <pb xml:id="DLCL_CF_E10023_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20655/DSC_5666.jpg"/>
 
       <p>
                Gentili. 
@@ -194,7 +194,7 @@
       </signed>
    </closer>
 
-   <pb xml:id="DLCL_CF_E10023_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/24804/full/587,800/0/default.jpg"/>
+   <pb xml:id="DLCL_CF_E10023_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/764cd629457fc0694e6683261b5f55fe950f20c1.jpg"/>
 
    <postscript>
       <p>

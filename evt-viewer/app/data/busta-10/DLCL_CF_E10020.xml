@@ -18,7 +18,7 @@
                </availability>
             </publicationStmt>
             <seriesStmt>
-               <title type="main">Epistolario Canneti Fiacchi</title>
+               <title type="main">Carteggio Canneti Fiacchi</title>
                <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
                <biblScope unit="letter">20</biblScope>
             </seriesStmt>
@@ -68,7 +68,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10020_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/20887/full/599,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10020_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20652/DSC_5651.jpg"/>
 
             <opener>
                <salute>Carissimo <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName>
@@ -98,7 +98,7 @@
                <salute>L’abbraccio di cuore.</salute>
             </closer>
 
-            <pb xml:id="DLCL_CF_E10020_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/20888/full/592,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10020_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20652/DSC_5652.jpg"/>
 
          </div>
       </body>
