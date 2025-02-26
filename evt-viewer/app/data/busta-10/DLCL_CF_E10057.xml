@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10057">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20689/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21131/full/574,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21132/full/621,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21133/full/584,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25084/full/613,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10057">
+      <front>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 25 Maggio 1717)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">57</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1717-05-25"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-04-29" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-11" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10057_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20689/DSC_5928.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Con particolare ramarico intendo la molesta indisposizione di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità;</rs> 
+               e vorrei che le lettere mie avessero virtù di rimetterla in salute: come tanto ella se ne mostra desiderosa. 
+               Tralascerei certamente ogni altro affare, per recarle sollievo. 
+               Ma in verità purtroppo conosco che io non posso apportarle che incomodo, mercè della necessità indicibile, 
+               che ho di notizie dalla <orgName ref="#DLCL_CF_O0001">Libreria:</orgName> 
+               e son tali, e tante, che dispero alle volte di poter condurre a fine l’impresa, crescendo ogni dì più il bisogno, 
+               e la cognizione della difficoltà, che seco porta il trattare studj eruditi senza il comodo d’un’ampia Libreria. 
+               Per domare tal’apprensione, convien rivoltarsi a quella soda massima, che c’insegna doversi tutte le applicazioni di questa vita intraprendere 
+               per condurci con profitto all’eternità, la quale dee essere il nostro scopo, e il nostro termine, non essendo che vanità tutte le faccende, 
+               che ci distraggono nel viaggio di questa miserabile vita. 
+            </p>
+            
+            <p>
+               Dopo celebrato qui il Capitolo de’ Casinensi, scrissi indi a poco a <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> una lettera, 
+               che argomento abbia ella ricevuta; 
+               mentre da lei mi si risponde sopra il punto del Corpo dell’<persName ref="#DLCL_CF_PC0435">Argiride,</persName> che sò certo non aver precedentemente toccato. 
+               Altra lettera scrissi poi l’ordinario di martedì scorso, ha oggi otto giorni. 
+            </p>
+            
+            <p>
+               Mi spiace al maggior segno l’infermità del <persName ref="#DLCL_CF_PC0088">Signor Dottor Calbi</persName> nostro gentilissimo: 
+               e nel tempo stesso mi consolo che ne sia riavuto. 
+               Con prima occasione di rivederlo, la prego rappresentargli i miei vivissimi sentimenti, in confermazione della stima, e obbligo, che io gli professo. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10057_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20689/DSC_5929.jpg"/>
+            
+            <p>
+               Godo che abbia ricevuto l’involto dal <rs type="person">Padre Lettore</rs> di <orgName ref="#DLCL_CF_O0029">San Vitale,</orgName> 
+               e indi abbia trasmesso l’involtino suo al <persName ref="#DLCL_CF_PC0006">Padre Amici,</persName> 
+               e le <bibl type="print">Orazioni</bibl> a <placeName ref="#DLCL_CF_L0043">Forlì,</placeName> e a <placeName ref="#DLCL_CF_L0031">Comacchio.</placeName> 
+               Prudentemente ha Ella operato, consegnandone una copia al <persName ref="#DLCL_CF_PC0464">Signor Maggi,</persName> 
+               il quale ha onorato il mio oscuro nome nella sua <bibl type="print">Elegia,</bibl> 
+               mettendomi in riga fra i primi Letterati di questa Città. 
+            </p>
+            
+            <p>
+               Quando le giungerà l’<bibl type="print">Istoria della Volgar Poesia</bibl> avverta esser questa una cosa diversa dal <bibl type="print">Tomo,</bibl> 
+               che da principio pubblicò il <persName ref="#DLCL_CF_PC0033">Crescimbeni</persName> col medesimo titolo: 
+               conservi l’uno, e l’altro in <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
+               Anzi non sarà superfluo ne’ libri, e nell’<bibl type="manuscript">Indice</bibl> della <orgName ref="#DLCL_CF_O0001">Biblioteca</orgName> farne avvertiti i successori. 
+               Medesime notizie io suggerij all’Autore, che ve le ha inserite colle mie stesse parole, citando il mio nome in diversi luoghi. 
+               Ma troppo sarebbe cresciuta la citazione, se da per tutto avesse voluto nominarmi. 
+               De’ nostri Monaci e de’ Ravennati, oltre più altri, gli diedi contezza. 
+            </p>
+            
+            <p>
+               [Vide <persName ref="#DLCL_CF_PC0436">Laderchi</persName> la <orgName ref="#DLCL_CF_O0001">Libreria?</orgName> 
+               Vide la Lapide Argiridiana greca? 
+               Egli di me parlò bene in <placeName ref="#DLCL_CF_L0007">Bologna.]</placeName> 
+            </p>
+            
+            <p>
+               Se fosse restato presso di lei l’abbozzo di quanto scrisse ad istanza del <persName ref="#DLCL_CF_PC0436">Laderchi,</persName> mi favorisca comunicarmelo. 
+               Sarebbe bene fare un ragguaglio sincero del fatto, 
+               e il <persName ref="#DLCL_CF_PC0144">Padre Lettore Fondi</persName> potrebbe informarsene dal <persName ref="#DLCL_CF_PC0465">Reverendissimo Mazzotti,</persName> 
+               ch’è forse l’unico, che sopravviva di quei, ch’erano a quel tempo in <placeName ref="#DLCL_CF_L0020">Classe.</placeName> 
+               Qualche cosa ne ho io inteso dalla b.m. del <persName ref="#DLCL_CF_PC0466">Reverendissimo Zaccarelli:</persName> 
+               certamente la sostanza della verità discorda da quel, 
+               che ne scrive il <persName ref="#DLCL_CF_PC0129">Mabillon</persName> <bibl type="print"><foreign xml:lang="la">de Cultu SS. Ignotis</foreign>,</bibl> 
+               E perciò è necessario formarne un veridico Racconto. 
+               A quest’oggetto io dissi che si conservasse la Lapida con ogni cautela; la qual però non istava bene dietro l’Altar maggiore, dopo levatone il Corpo; siccome molto meno 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10057_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20689/DSC_5930.jpg"/>
+            
+            <p>
+               vi era in Chiesa luogo per la lapida, e l’Arme sopra la porta laterale verso San Niccolò. 
+               Ma di quella lapide istessa era bene trascrivere l’iscrizione ora rivolta verso ‘l muro, e copiar l’altra dietro l’altar maggiore. 
+               Ma in quella gran fretta trascurai forse queste diligenze necessarie. 
+               Preveggo che la penna odiosissima, e il concetto infelicissimo del <persName ref="#DLCL_CF_PC0436">Laderchi</persName> pregiudicheranno all’argomento, 
+               ch’è prenderà a maneggiare, e stuzzicherà un grande vespaio. 
+               Anche certo <rs type="person">Plouvierio Fiammingo</rs> uscì con un libretto ad impugnar la lettera del <persName ref="#DLCL_CF_PC0129">Mabillon.</persName> 
+               Ma non incontrò stima veruna. Trionfa tuttavia la difficoltà del Chiarissimo <persName ref="#DLCL_CF_PC0129">Mabillone.</persName> 
+            </p>
+            
+            <p>
+               Se <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> mi ha mandato il passo degli <bibl type="print">Annali</bibl> 
+               di questo <rs type="person" ref="#DLCL_CF_PC0129">Insigne Istorico</rs> concernente <persName ref="#DLCL_CF_PC0437">San Bonifazio</persName> nostro, 
+               non si prenda pena di rimandarlo. 
+               Io lo troverò da me. 
+               Con suo comodo, o coll’aiuto d’altra penna riceverò quello dell’<persName ref="#DLCL_CF_PC0097">Inchofer.</persName> 
+               Ma per la piena notizia sarebbero opportuni gli <bibl type="print">Scrittori di Germania in due Tomi</bibl> 
+               raccolti dall’<del rend="overstrike">Inchofer</del> <persName ref="#DLCL_CF_PC0467">Leibnizio.</persName> 
+            </p>
+            
+            <p>
+               Dal celebratissimo <persName ref="#DLCL_CF_PC0468">Signor Abate Salvino Salvini</persName> 
+               fui ultimamente richiesto di notizia intorno a <persName ref="#DLCL_CF_PC0252">Messer Giovanni de’ Malpaghini</persName> 
+               da <placeName ref="#DLCL_CF_L0002">Ravenna,</placeName> 
+               che nel 1412 lesse <persName ref="#DLCL_CF_PC0233">Dante</persName> pubblicamente nello studio di <placeName ref="#DLCL_CF_L0018">Firenze.</placeName> 
+               Ma, come io di questo <rs type="person" ref="#DLCL_CF_PC0252">Ravignano</rs> non ho inteso mai né pur’il nome, così credo che né pur se ne trovi costì memoria. 
+               E pur <orgName ref="#DLCL_CF_O0074">de’ <hi rend="underline">Malpaghini</hi></orgName> se ne trovan da per tutto; e lo sanno i creditori. 
+                
+            </p>
+            
+            <closer>
+               <salute>Stia allegramente.</salute> 
+               <salute>Mi voglia bene, e preghi Dio per me.</salute> 
+               <salute>L’abbraccio di cuore.</salute> 
+               <salute>DVPMR.</salute> 
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1717-05-25">25 Maggio 1717</date></dateline>
+               <salute>Affettuosissimo servitore e Padre nel Signore Cordialissimo</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <postscript>
+               <p>
+                  [Faccia da altri fare le ricerche delle notizie di <orgName ref="#DLCL_CF_O0055">casa Gonzaga</orgName> negli <gap reason="illegible"/>[...]]
+               </p>
+            </postscript>
+            
+            <pb xml:id="DLCL_CF_E10057_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/47412bda3917fb98dbf2b3ac90c22776f716dad7.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

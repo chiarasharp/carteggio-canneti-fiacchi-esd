@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10052">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20684/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21113/full/606,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21114/full/625,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/25077/full/611,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25078/full/629,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10052">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 13 Marzo 1717)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Carteggio Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">52</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository/>
+                     <collection/>
+                     <idno/>
+                     <altIdentifier>
+                        <idno/>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1717-03-13"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-04-11" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-09-10" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10052_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20684/DSC_5900.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Goderò molto se per la via del <persName ref="#DLCL_CF_PC0015">Signor Pagliarini</persName> riceverò 
+               da <placeName ref="#DLCL_CF_L0023">Foligno</placeName> il <bibl type="manuscript">Manoscritto,</bibl> 
+               e il <bibl type="print">Giornale XXV.</bibl> com’ella mi dà grato avviso, del quale distintamente la ringrazio. 
+               Iddio voglia che presto si possa poi vedere il <bibl type="print">XXVI</bibl> che sarà chiaro <del rend="overstrike">di</del> indizio 
+               della continuazione di così profittevole Opera, ad onta de’ potenti emoli, e particolarmente de’ Gesuiti, che tentavano sopprimerla, 
+               e affogarla in modo che mai più non risorgesse. 
+               Aspetto sentire che le sia giunta la spiegazione della lapida, la qual penso portar nelle mie Annotazioni: e perciò vorrei che non andasse a male.
+            </p>
+            
+            <p>
+               <persName ref="#DLCL_CF_PC0216">Monsignore Fontanini</persName> stampa un’<bibl type="print">Opera sopra la Corona di ferro,</bibl> di cui si coronano i nuovi Imperatori, 
+               e si conserva in <placeName ref="#DLCL_CF_L0093">Monza,</placeName> latino <hi rend="underline"><foreign xml:lang="la">Modoëtia</foreign></hi> 
+               nello Stato di <placeName ref="#DLCL_CF_L0027">Milano,</placeName> e dicesi formata d’un chiodo del Crocefisso nostro Redentore. 
+               Diversi han dubitato dell’antichità, e santità d’essa corona; e fra gli altri il <persName ref="#DLCL_CF_PC0013">Muratori</persName> 
+               in un diffuso <bibl type="print">Commentario inserito negli Aneddoti Latini Tomo 2.</bibl> stampato diciannove anni fà. 
+               <rs type="person" ref="#DLCL_CF_PC0216">Monsignore</rs> sostiene l’una, e l’altra prerogativa di quel sacro pegno, 
+               che in <placeName ref="#DLCL_CF_L0093">Monza</placeName> stessa ricevevano i Cesari, ma per la Coronazione di <persName ref="#DLCL_CF_PC0409">Carlo V,</persName> 
+               che fù l’ultima, venne trasportata a <placeName ref="#DLCL_CF_L0007">Bologna.</placeName> 
+               Lo stesso <rs type="person" ref="#DLCL_CF_PC0216">Monsignore</rs> del mio <bibl type="print">Discorso</bibl> scrive ch’è forbito, sano, proprio, e degno dell’Autore. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10052_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20684/DSC_5902.jpg"/>
+            
+            <p>
+               Mandandomi il <bibl type="print">Giornale XXVI</bibl> o altra cosa, 
+               vi aggiunga due <bibl type="print"><foreign xml:lang="la">Opuscoli = Synopsis Vitar. SS. Camaldulens</foreign></bibl> =, 
+               o che altro titolo simile sia dell’Operetta dell’<persName ref="#DLCL_CF_PC0410">Abate Vallemani;</persName> 
+               e = <bibl type="print"><foreign xml:lang="la">Descriptio Sacri Eremi</foreign>,</bibl> <persName ref="#DLCL_CF_PC0411">MugnotiJ.</persName> 
+               Desidero copia di quel che il <persName ref="#DLCL_CF_PC0412">Ciaccone</persName> 
+               scrive del <persName ref="#DLCL_CF_PC0413">Cardinale Angelo de Anna, o Sommariva,</persName> e di <persName ref="#DLCL_CF_PC0414">Pietro Quirino.</persName> 
+            </p>
+            
+            <closer>
+               <salute>Resto in fretta di tutto cuore.</salute> 
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1717-03-13">13 Marzo 1717</date>.</dateline> 
+               <salute>DVPMR.</salute> 
+               <salute>Affettuosissimo Servitore e Cordialissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10052_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/d8e569f136b3e67128d771e8dc55d7088a120f39.jpg"/>
+            
+            <postscript>
+               <p>
+                  <foreign xml:lang="la">De <persName ref="#DLCL_CF_PC0413">Angelo Summariva</persName></foreign> <bibl type="print"><foreign xml:lang="la">Panvin. in 4.</foreign></bibl> 
+                     <foreign xml:lang="la">pag. <hi rend="underline">247. 252. 257. 260. 266. 269. 277. 286</hi> et 290.</foreign> 
+               </p>
+               
+               <p>
+                  <foreign xml:lang="la">Idem</foreign> <bibl type="print"><foreign xml:lang="la">edition. in folio</foreign></bibl> 
+                  pagine <hi rend="underline"><del rend="overstrike">825 225</del> 258. 262. 266. 270. 279. 287. 297</hi> et 304. 
+               </p>
+               
+               <p>
+                  <persName ref="#DLCL_CF_PC0412">Ciaccon.</persName> <bibl type="print"><foreign xml:lang="la">edition. Rom. 1601.</foreign></bibl>  
+                  <foreign xml:lang="la">pag. <hi rend="underline">785. 807. 818. 844. 851. 857. 868. 886.</hi> et <hi rend="underline">908.</hi></foreign> 
+               </p>
+               
+               <p>
+                  <persName ref="#DLCL_CF_PC0412">Ciaccon.</persName> <bibl type="print"><foreign xml:lang="la">edition. Rom. To. 2</foreign></bibl> col. 663. 
+                  <foreign xml:lang="la">ab <persName ref="#DLCL_CF_PC0415">Urbano VI</persName> creatur anno 1384</foreign>. 
+               </p>
+               
+               <p>
+                  <foreign xml:lang="la">XIX Kalendas Ianuaris. Pag. <hi rend="underline">692.</hi> 
+                     <persName ref="#DLCL_CF_PC0416">Bonifacij IX</persName> interest. col. <hi rend="underline">713.</hi> 
+                     Vivus quando <persName ref="#DLCL_CF_PC0417">Innocentius VII</persName> Papa creatur. col. 716, creat. 
+                     Pont. eundem <persName ref="#DLCL_CF_PC0417">Innoc. VII.</persName> col. <hi rend="underline">751</hi>. 
+                     Creationi <persName ref="#DLCL_CF_PC0418">Gregorij XII.</persName> Interest ex vol. <hi rend="underline">754</hi>. 
+                     col. 774. in Pisano Concilio <persName ref="#DLCL_CF_PC0419">Alexandri V</persName> Creationi interest et 78<gap reason="illegible"/>[...]
+                  </foreign>
+               </p>
+               
+               <p>
+                  <foreign xml:lang="la">col. <hi rend="underline">786</hi> et <hi rend="underline">790</hi> eundem eligit.'</foreign> 
+               </p>
+               
+               <p>   
+                  [<persName ref="#DLCL_CF_PC0021">Ughelli</persName> <bibl type="print"><foreign xml:lang="la">Ital. Sacr. To. I</foreign></bibl> col. 248. 
+                  <foreign xml:lang="la">[Int] Episcopos Praenestinos et ejus mentionem facit in Gerardo de Capitaneis Episcopo Laudense Co. 4. col. 9<gap reason="illegible"/>[...]</foreign>  
+               </p>
+               
+               <p>
+                  <foreign xml:lang="la">De <persName ref="#DLCL_CF_PC0414">Petro Quirino.</persName> 
+                     <persName ref="DLCL_CF_PC0412">Ciacconius</persName></foreign> 
+                  <bibl type="print"><foreign xml:lang="la">editionis ultimae Vol. 3</foreign></bibl> col. 421<gap reason="illegible"/>[...]
+               </p>
+               
+               <p>
+                  Lucas Hisp. in <bibl type="print">Romualdina Istoria Libro 2.</bibl> Capitolo VIII pagina <del rend="overstrike">64</del> 63.b.]
+               </p>
+            </postscript>
+            
+            <pb xml:id="DLCL_CF_E10052_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/ef2a2f0f8af0adeb522c60ffd25b29c1a0ad4015.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10066">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20698/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21163/full/591,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21164/full/606,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10066">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 29 Gennaio 1718)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">66</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1718-01-29"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-07-09" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-12" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10066_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20698/DSC_5973.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Per l’ordinario presente, in occasione di mandare per la conferma, la licenza concedutami già dalla <orgName ref="#DLCL_CF_O0080">Suprema Inquisizione</orgName> di leggere i libri proibiti, 
+               prego istantemente il <rs type="person">Padre Reverendissimo Procuratore Generale,</rs> che a <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> per la necessità del suo impiego, 
+               e per quiete di sua coscienza ottenga <bibl type="manuscript">licenza de’ libri vietati</bibl> o dal <orgName ref="#DLCL_CF_O0011" cert="unknown">Santo Officio,</orgName> 
+               o dall’<bibl type="manuscript">Indice,</bibl> secondo l’apertura, che potrà egli trovarne. 
+               Ottenuta che sia, come spero, gliela trasmetterò. 
+            </p>
+            
+            <p>
+               Son giunti gl’involti appunto mercoledì mattina. 
+               Mi ha recato maraviglia, e dispiacere la novità del giungere sciolti i <bibl type="print">Giornali,</bibl> che da tanti anni si ricevevano legati alla rustica, col comodo di subito leggerli, 
+               e senza necessità di fargli legare in altra maniera. 
+               La prego impiegar l’attenzione sua perché in avvenire si goda il benefizio solito di quella, qualunque siasi, legatura. 
+               Nel <bibl type="religious">Calendario</bibl> alla Festa della Trinità ho veduto subito notata la Commemorazione de’ Santi Martiri, contra la quale non ho, 
+               né mai mi ricordo di aver’avuta alcuna difficoltà. 
+               Ho notato il ripiego al Venerdì Santo circa l’Incensazione. 
+               Egli è ben vero che, non facendosi espressa menzione dell’incensar la Croce, 
+               cessa la convenienza di apporre nel <bibl type="religious">Calendario</bibl> la <bibl type="religious">Rubrica:</bibl> e questa può onninamente tralasciarsi. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10066_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20698/DSC_5974.jpg"/>
+            
+            <p>
+               Ieri su due piedi, e quasi non volendo, feci acquisto delli due Tomi delle <bibl type="print">Opere</bibl> di <persName ref="#DLCL_CF_PC0521">Giovanni,</persName> 
+               e di <persName ref="#DLCL_CF_PC0522">Giovanfrancesco</persName> Pichi della Mirandola. 
+               L’edizione è dell’Enricpetro di <placeName ref="#DLCL_CF_L0042">Basilea</placeName> [1573]. 
+               In fine del Tomo 1; che contiene le <bibl type="print">Opere di Giovanni dopo i dodici libri contro all’Astrologia,</bibl> 
+               e in fine un’<bibl type="print">Epistola</bibl> al <persName ref="#DLCL_CF_PC0523">Cardinale Oliviero Carafa</persName> 
+               scritta da <persName ref="#DLCL_CF_PC0522">Giovan Francesco,</persName> e dopo il <bibl type="print">Commento volgare,</bibl> 
+               <gap reason="illegible"/>[...] la <bibl type="print">Canzone d’Amore</bibl> di <persName ref="#DLCL_CF_PC0524">Girolamo Benivieni;</persName> 
+               segue <hi rend="underline"><bibl type="print"><foreign xml:lang="la">De Arte Cabalistica Libri III</foreign></bibl> <foreign xml:lang="la">per <persName ref="#DLCL_CF_PC0525">Joannem Reuchlin</persName> conscripti</foreign></hi> 
+               con una <bibl type="print">epistola</bibl> del sopradetto <persName ref="#DLCL_CF_PC0522">Giovan Francesco.</persName> 
+               Dubito fortemente che questo, qualunque siasi, <bibl type="print">Trattato dell’Arte Cabalistica</bibl> non sia in cotesto esemplare della <orgName ref="#DLCL_CF_O0001">Biblioteca Classense.</orgName> 
+               <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> me lo avvisi subito, e mi chiarisca intorno al dubbio. 
+            </p>
+            
+            <p>
+               Nell’involto grande speditomi dal <rs type="person">Padre Camerlingo</rs> eravi il <bibl type="print">primo Tomo della nuova edizione</bibl> dell’<persName ref="#DLCL_CF_PC0021">Ughelli,</persName> 
+               la quale in vero è più bella, magnifica, e corretta e copiosa della prima, superandola ne’ caratteri ancora, e nella carta. 
+            </p>
+            
+            <p>
+               Finalmente abbiam fatto un poco di Reliquiario per gli frammenti delle reliquie di <persName ref="#DLCL_CF_PC0040">San Severo,</persName> che portai di costà con l’autentica. 
+               Martedì si esporranno alla pubblica adorazione: e ne avranno la lor porzione il <persName ref="#DLCL_CF_PC0006">Padre Amici</persName> nostro, 
+               e il <persName ref="#DLCL_CF_PC0041" cert="unknown">Signor Cellesi Pistoiese,</persName> che me ne fece viva istanza in tempo della Traslazione. 
+            </p>
+            
+            <p>
+               Un riverente, e cordiale saluto al nostro Degnissimo <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli.</persName> 
+               Da lui s’inf[ormi] se mai sia uscito il <bibl type="print">Libro Genealogico della Casa Vaini.</bibl>
+            </p>
+            
+            <closer>
+               <salute>Resto abbracciandola caramente.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1718-01-29">29 Gennaio 1718</date>.</dateline>
+               <salute>DVPMR</salute>
+               <salute>Cordialissimo Servitore Affettuosissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

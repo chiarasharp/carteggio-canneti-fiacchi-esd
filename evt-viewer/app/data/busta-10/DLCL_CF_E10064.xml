@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10064">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20696/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21158/full/596,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21159/full/638,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/25088/full/586,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25089/full/616,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10064">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 18 Gennaio 1718)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">64</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1718-01-18"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-07-03" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-12" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">nuove trascrizioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10064_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20696/DSC_5961.jpg"/>
+            
+            <opener>
+               <salute><persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Amatissimo</salute>
+            </opener>
+            
+            <p>
+               Ricevo oggi la lettera di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> delli 12 stante, 
+               e subito rispondendo comincio dalla querela affettuosa, con cui Ella finisce la stessa sua lettera. 
+               Non mi pare che sia scorso tanto tempo, quanto dice, dopo scritta l’ultima mia. 
+               In essa io mi esibij pronto a suggerir quanto occorreva intorno al Corpo dell’<persName ref="#DLCL_CF_PC0435">Argiride.</persName> 
+               Per farlo fondatamente, ricercai da lei un breve, ma sugoso estratto di quanto si hà intorno a ciò nell’Archivio, 
+               e negli <bibl type="print">Atti Bollandiani</bibl> al mese (se non erro) d’Aprile. 
+               Altre cose forse si contenevano in quella lettera. 
+               L’ha <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> ricevuta?
+            </p>
+            
+            <p>
+               Ora, prima che ad altro passiamo, veda un poco se tra nostri libri, in un <bibl type="print">Miscellaneo in 8.</bibl> 
+               ovvero nella <orgName ref="#DLCL_CF_O0001">Libreria</orgName> vi siano le <bibl type="print">Api</bibl> del <persName ref="#DLCL_CF_PC0513">Rucellai</persName> 
+               con alcune cancellature quà, e là, che sono i versi castrati nelle altre edizioni. 
+               Mi basta saper l’edizione di chi è, dove, e di qual’anno. 
+            </p>
+            
+            <p>
+               Sono già arrivati a <placeName ref="#DLCL_CF_L0003">Pesaro</placeName> gl’involti; e ne ho riscontro. 
+               La ringrazio della spedizione fatta. 
+            </p>
+            
+            <p>
+               Nell’accennata lettera ultima io mi lagnai della Ferrantesca inquietudine. 
+               Ma quel buon vecchio non ha altri pensieri, e vuol seguitare a contendere col povero <persName ref="#DLCL_CF_PC0002">Don Mariangelo,</persName> 
+               che non se ne cura punto, né poco. 
+               Su due piedi in fretta posso giurare che nessuna Annotazione di Rubriche ho io mai fatta, di propria invenzione; 
+               ma l’ho fatta dagli Autori, o da altri <bibl type="religious">Calendarj.</bibl> 
+               Di questa sorta di libri ne ha ella più copia di me. 
+               Se non vi trova il fondamento di quel, che reca in dubbio il <persName ref="#DLCL_CF_PC0514">Padre Ferrara,</persName> certamente non sò ora che rispondere. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10064_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20696/DSC_5963.jpg"/>
+            
+            <p>
+               Al ritorno del <rs type="person">Padre Priore mio</rs> da <placeName ref="#DLCL_CF_L0007">Bologna</placeName> 
+               ebbi avviso del <bibl type="manuscript">Manoscritto</bibl> di <placeName ref="#DLCL_CF_L0013">Ferrara</placeName> 
+               osservato dal <placeName ref="#DLCL_CF_PC0004">Marozzi,</placeName> 
+               che al medesimo ne palesò la scoperta, e il pensiero di poterlo avere. 
+               Non vedo come poterlo avere, senza <gap reason="illegible"/>[...] motivi di gelosia. 
+               Convien’aspettare che il frutto maturi. 
+               Io non <gap reason="illegible"/>[...] promettermi altro che una copia d’alcuna delle <bibl type="print">tante versioni</bibl> 
+               di <persName ref="#DLCL_CF_PC0177">Ambrogio.</persName> 
+               Anco <persName ref="#DLCL_CF_PC0216">Monsignor Fontanini</persName> giunto di ritorno a <placeName ref="#DLCL_CF_L0008">Roma</placeName> 
+               mi dà <gap reason="illegible"/>[...] averne seco portate alcune acquistate in <placeName ref="#DLCL_CF_L0024">Venezia.</placeName> 
+               Pure possono essere anco <bibl type="print">epistole,</bibl> ed <bibl type="print">Orazioni.</bibl> 
+               La più rara cosa sarebbe, se si scoprisse, l’<bibl type="print">Orazione</bibl> composta in greco da dirsi nell’arrivo 
+               de’ Greci a <placeName ref="#DLCL_CF_L0024">Venezia.</placeName> 
+               Non l’abbiamo se <bibl type="print">non latina,</bibl> e questa pure è molto rara. 
+            </p>
+            
+            <p>
+               Sarà servita della <bibl type="manuscript">Licenza de’ libri proibiti.</bibl> 
+               Due volte io avea smarrita la licenza perpetua di cotesta <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
+               La manderò a <placeName ref="#DLCL_CF_L0003">Pesaro</placeName> a <rs type="person">quell’Abate</rs> per mano sicura del <rs type="person">Padre Camerlingo mio,</rs> 
+               che và a far’il panegirico del Santo Padre. 
+               A lei toccherà procurar di averla per mano egualmente sicura; 
+               siccome la raccomanderò al <persName ref="#DLCL_CF_PC0154">Reverendissimo Magni;</persName> come cosa importante. 
+               Crederei fusse bene, per conservarla, metterla in una cornice (senza incollarla) tra una tavoletta dietro, e un vetro avanti; 
+               e attaccarla dentro a una delle scanzie laterali, che stanno chiuse sotto chiave, vicino alla porta. 
+            </p>
+            
+            <closer>
+               <salute>L’abbraccio con tutto lo spirito e resto.</salute> 
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1718-01-18">18 Gennaio 1718</date>.</dateline>
+               <salute>DVPMR.</salute>
+               <salute>Affettuosissimo Servitore Cordialissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10064_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/cac1fe2b0f3126bad302c30687fbfab564c6c5a7.jpg"/>
+            
+            <pb xml:id="DLCL_CF_E10064_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/0332cb42b0d693d5df69838b0715b5860d496192.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

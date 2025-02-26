@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10069">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20701/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21169/full/603,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21170/full/621,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/23195/full/582,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25092/full/623,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10069">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 5 Febbraio 1718)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">69</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1718-02-05"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-07-09" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-13" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10069_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20701/DSC_5984.jpg"/>
+            
+            <opener>
+               <salute><persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Carissimo</salute>
+            </opener>
+            
+            <p>
+               Ha abbracciata il <rs type="person">Padre Reverendissimo Procuratore Generale</rs> 
+               l’incombenza di procurare per <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> la <bibl type="manuscript">licenza de’ libri proibiti.</bibl> 
+               Quantunque le difficoltà per ottenerla siano grandi, non dispera, atteso il requisito di Custode d’una Biblioteca universale, e aperta al pubblico benefizio. 
+            </p>
+            
+            <p>
+               Se il quadretto, in cui si conserverà disteso, senza il pregiudicio delle pieghe, il foglio della <bibl type="manuscript">Licenza</bibl> di cotesta <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> 
+               si accompagnasse con altro simile, in cui si conservasse l’<bibl type="print">Elogio</bibl> del <persName ref="#DLCL_CF_PC0128">Signor Abate Rondoni,</persName> 
+               si farebbe all’Autore quella stessa dimostrazione, 
+               che fà nella propria Biblioteca l’<persName ref="#DLCL_CF_PC0045">Eminentissimo Orsini:</persName> eccone annessa l’autentica, che le raccomando custodire, o a rimandare. 
+               Né d’altro intende la lettera di <rs type="person">Sua Eminenza.</rs> 
+            </p>
+            
+            <p>
+               Ho sentita con rammarico la storia del baratto del <bibl type="print">Bellarmino.</bibl> 
+               Se chi ha qualche gusto, e vi stà sopra, accadono simili abbagli, quali strafalcioni non commetterà chi vuol metter mano in materia di libri senza le previe cognizioni? 
+               Oh quanto è vasta la materia! 
+               Quanto lunga è l’arte, anzi immensa! 
+               <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> faccia scriver’a <placeName ref="#DLCL_CF_L0110">Colonia</placeName> 
+               per il <bibl type="print">Corpo</bibl> del <persName ref="#DLCL_CF_PC0533">Bellarmino</persName> intiero. 
+            </p>
+            
+            <p>
+               <gap reason="illegible"/>[...] Colà, o lì intorno si troverà, e non costerà tanto mai, quanto in <placeName ref="#DLCL_CF_L0026">Italia.</placeName> 
+               Non trovandosi, faremo le diligenze ne’ nostri paesi, ne mancherò ad ogni maggior premura. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10069_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20701/DSC_5985.jpg"/>
+            
+            <p>
+               La ringrazio del documento di <placeName ref="#DLCL_CF_L0031">Comacchio.</placeName> 
+               Mi spiace che il <persName ref="#DLCL_CF_PC0056">Signor Sancassani</persName> a tempo non l’abbia mandato al <persName ref="#DLCL_CF_PC0284">Coleti</persName> da riferirsi nel <bibl type="print">Tomo 2°,</bibl> 
+               il quale sta per uscire, o già è uscito del torchio.
+            </p>
+            
+            <p>
+               Con flemma veda un poco se possa unirsi qualche cosa delle tante, che dispose il <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina,</persName> 
+               in quell’<orgName ref="#DLCL_CF_O0083">Accademia di San Gregorio.</orgName> 
+               Egli apprende il negozio per impossibile, e forse non <gap reason="illegible"/>[...] ad esser difficile. 
+            </p>
+            
+            <p>
+               Desidero sapere quanti ora sieno i <bibl type="print">Tomi del compiuto Semestre de’ Bollandiani.</bibl> 
+               Mi sarà caro altresì intendere se nell’<bibl type="print">Opera grande</bibl> de’ <persName ref="#DLCL_CF_PC0496 #DLCL_CF_PC0497">Wallemburch</persName> 
+               si comprenda il <bibl type="print">tomo in 4to,</bibl> che [par]mi fusse già posto in <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
+               Oh quanto mi consolano le n<gap reason="illegible"/>[...] del nostro Degnissimo <persName ref="#DLCL_CF_PC0121">Padre Lettore Guccioli.</persName> 
+               Tanto più gioconde mi <gap reason="illegible"/>[...]cono, quanto più mi consola la brevità necessarissima, non esclusa dal suo metodo. 
+               Egli avrà fuggito lo scoglio, in cui tanti e tanti dei nostri sono urtati con naufragio di tanti ingegni. 
+               Per far degli Uomini è necessario contenersi nell’imitare l’economia tenuta dal <persName ref="#DLCL_CF_PC0534">Ivenin.</persName> 
+               E questa tengo nelle scuole loro di <placeName ref="#DLCL_CF_L0008">Roma</placeName> i <rs type="person">Monaci Casinensi.</rs> 
+            </p>
+            
+            <closer>
+               <salute>Resto con abbracciarla di tutto cuore.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1718-02-05">5 Febbraio 1718</date>.</dateline>
+               <salute>DVPMR.</salute>
+               <salute>Cordialissimo Servitore Padre nel Signore Affettuosissimo</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>.</signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10069_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20701/DSC_5995.jpg"/>
+            
+            <postscript>
+               <p>
+                  <persName ref="#DLCL_CF_PC0535">Monsignore Lercari</persName> nostro Governatore è il 
+                  Prediletto del <persName ref="#DLCL_CF_PC0538">Signore Cardinale Orsini,</persName> che lo considera come gli fosse Nipote. 
+                  Esso si è stretto con <persName ref="#DLCL_CF_PC0094">Monsignore de’ Buoi</persName> nostro vescovo, ottimo, e cordial Bolognese; 
+                  ed io entro continuamente per terzo, in ogni luogo. 
+                  In somma si vive da per tutto.
+               </p>
+            </postscript>
+            
+            <pb xml:id="DLCL_CF_E10069_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/2b19e9562dd54561055f7f25cff7d03273f552db.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>                 
+               </p>
+            </postscript>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

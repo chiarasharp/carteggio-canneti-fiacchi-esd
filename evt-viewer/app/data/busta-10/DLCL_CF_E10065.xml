@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10065">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20697/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21160/full/590,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21161/full/629,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21162/full/605,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25090/full/629,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10065">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 22 Gennaio 1718)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">65</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1718-01-22"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-07-03" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-12" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10065_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20697/DSC_5964.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Come avvisai con altra mia precedente, ho mandato al <persName ref="#DLCL_CF_PC0154">Reverendissimo Magni</persName> di <placeName ref="#DLCL_CF_L0003">Pesaro,</placeName> 
+               la <bibl type="manuscript">licenza de’ libri proibiti</bibl> di cotesta <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> 
+               da trasmettersi a <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità.</rs> 
+               Giunta che sia, le raccomando assicurare quel foglio in modo che si conservi bene, e non venga a perire. 
+               Si tratta di un’ampissimo privilegio illimitato, ed effrenato sì quanto al tempo, [sì] quanto ad ogni qualunque sorta di libri. 
+            </p>
+            
+            <p>
+               Quanto al <bibl type="religious">Calendario,</bibl> non intendo come si supponga aver’io mai voluto escludere la Commemorazione de’ semplici dalla Domenica della Trinità, 
+               ch’è festa di 2da Classe. 
+               L’anno 1707 cadde questa festa nel dì 19 di Giugno: e parmi che in tal giorno si facesse commemorazione 
+               de’ <persName ref="#DLCL_CF_PC0515">Santi Gervasio</persName> e <persName ref="#DLCL_CF_PC0516">Protasio,</persName> 
+               de’ quali per altro noi non facciamo alcuna memoria, per esser quello il giorno consecrato al Santo Padre nostro con rito di prima classe. 
+               Di grazia veda se può trovare copia del <bibl type="religious">Calendario</bibl> di quell’anno. 
+               Osservo che l’anno 1714 in tal festa al dì 27 di Maggio, fu notato = <foreign xml:lang="la">De San Joanne, Papa et Mart. nihil hoc anno</foreign> = ma stimo che fosse errore. 
+               Così l’anno corrente credo che il dì 12 Giugno debba farsi commemorazione de’ <persName ref="#DLCL_CF_PC0517">Santi Basilide,</persName> e altri Martiri; 
+               siccome abbiamo nel <bibl type="religious">Calendario</bibl> di <orgName ref="#DLCL_CF_O0013">Monte Corona.</orgName> 
+            </p>
+            
+            <p>
+               Chi ha curiosità di sapere donde io abbia cavato il <bibl type="religious">decreto</bibl> della <orgName ref="#DLCL_CF_O0012">Congregazione de’ Riti</orgName> 
+               intorno al doversi incensar la Croce, 
+               può soddisfarsi con far capo alla Segreteria di quella <orgName ref="#DLCL_CF_O0012">Sacra Congregazione.</orgName> 
+               Per altro io né mi ricordo, né son tenuto a ricordarmi da qual libro sia stato cavato. 
+               So indubitatamente che non l’ho finto. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10065_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20697/DSC_5965.jpg"/>
+            
+            <p>
+               Alla fine non è una faccenda di grande misterio. 
+               Ella è una mera dichiarazione, e spiegazione della <bibl type="religious">Rubrica del Messale:</bibl> 
+               <hi rend="underline"><foreign xml:lang="la">incensat oblata et altare more solito</foreign></hi> per soddisfare a qualche Scrupoloso, 
+               il quale contra la lettera apertissima della <bibl type="religious">Rubrica,</bibl> avrà creduto non doversi incensar la Croce, per esser presente il Sacramento: 
+               come se la <bibl type="religious">Rubrica</bibl> non avesse saputo indicar questa diversità sognata di rito, e astenersi da quel <hi rend="underline"><foreign xml:lang="la">more solito</foreign></hi>. 
+               Io vi apposi la dichiarazione suddetta della <orgName ref="#DLCL_CF_O0012">Congregazione</orgName> trovata, cred’io, 
+               in un <bibl type="religious">Calendario</bibl> de’ <rs type="person">Casinensi,</rs> per levar l’erronea opinione, 
+               e corregger l’abuso in contrario. 
+            </p>
+            
+            <p>
+               A quanto colle passate accennai del <bibl type="manuscript">Manoscritto</bibl> dal <persName ref="#DLCL_CF_PC0004">Marozzi</persName> indicato, 
+               aggiungo che <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità,</rs> in occasione di scrivergli per altro, 
+               lo avvisi che di me si ricordi, quando gli capitino altri Manoscritti a buon prezzo. 
+            </p>
+            
+            <p>
+               Ho inviato a <placeName ref="#DLCL_CF_L0003">Pesaro</placeName> un involtino diretto a <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> 
+               entrovi dodici copie del mio <bibl type="print">Discorso di San Francesco di Paola,</bibl> 
+               e tre del <bibl type="print">Gramatico</bibl> di <persName ref="#DLCL_CF_PC0424">Aonio Paleario.</persName> 
+               Una di queste è sciolta, come sciolti son tutti i <bibl type="print">Discorsi.</bibl> 
+               Favorisca far legar tutto in cartoncino, o per meglio dir cucire. 
+               Due copie dell’<bibl type="print">Aonio,</bibl> e due <bibl type="print">Discorsi</bibl> 
+               farà avere in <placeName type="#DLCL_CF_L0005">Faenza</placeName> al <persName ref="#DLCL_CF_PC0018">Signor Canonico Teologo Filippo Rondinini.</persName> 
+               E un altro <bibl type="print">Discorso</bibl> colla <bibl type="print">3a copia del Gramatico,</bibl> 
+               a <placeName ref="#DLCL_CF_L0010">Padova</placeName> al <persName ref="#DLCL_CF_PC0518">Signor Don Gaetano Volpi.</persName> 
+               Delle altre nove copie un’altra volta. 
+            </p>
+            
+            <p>
+               Lo stesso <persName ref="#DLCL_CF_PC0518">Signor Volpi</persName> ha aperta una stamperia che sarà correttissima, 
+               e darà fuori Opere <gap reason="illegible"/>[...] mi scrive che desidererebbe si comprasse da cotesta <orgName ref="#DLCL_CF_O0001">Libreria</orgName> una 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10065_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20697/DSC_5966.jpg"/>
+            
+            <p>
+               copia d’ogni libro, che và stampando. 
+               Ma sopra ciò non posso io dargli risposta. 
+            </p>
+            
+            <p>
+               Acerbissima pena mi reca una lettera del nostro <persName ref="#DLCL_CF_PC0007">Padre Lettore Don Bonifazio,</persName> 
+               che ricevo in questo punto colla notizia di un’abituale indisposizione contratta. 
+               E che sarà mai? 
+               Mi spiace ch’egli, e gli altri due Colleghi non abbian sortita una complessione di ferro, 
+               e una carne di bronzo, qual richiederebbero i loro studj fissi, e non interrotte applicazioni. 
+               Ancor’io invidio al <persName ref="#DLCL_CF_PC0009">Padre Abate Bacchini,</persName> che dice sentirsi imbalsamato dallo studio continuato di sei ore fatto a lui familiare. 
+               Ma se tanto non potiamo, correggiamo il fervore, e prendiam le misure addattate alla complessione. 
+               Me lo abbracci, e saluti caramente di tutto cuore, 
+               e gli dica francamente che guarirà temperando colla susseguente disapplicazione l’eccesso delle applicazioni passate. 
+               E questo è l’unico rimedio al male. 
+               Aggiunga che io credeva si conservassero presso di lui i componimenti di quell’Accademia fatta tempo fà in onor di <persName ref="#DLCL_CF_PC0245">San Gregorio.</persName> 
+               Se non gli ha, non si prenda altro pensiero dell’istanza. 
+            </p>
+            
+            <p>
+               Morì il celebre <persName ref="#DLCL_CF_PC0519">Gravina,</persName> sotto nome di <persName ref="#DLCL_CF_PC0519">Filodemo</persName> oggetto, 
+               e argomento delle <bibl type="print">Satire</bibl> di <persName ref="#DLCL_CF_PC0192">Settano.</persName> 
+               Il <rs type="person" ref="#DLCL_CF_PC0520" cert="unknown">Granduca</rs> ha conceduto un grandissimo stanzone, con otto stanze vicine, 
+               ch’era una volta ad uso di Teatro d’Istrioni, perché vi si collochi la <orgName ref="#DLCL_CF_O0079">Libreria Magliabechiana.</orgName> 
+            </p>
+            
+            <closer>
+               <salute>Resto con tutto lo spirito.</salute>
+               <salute>DVPMR.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1718-01-22">22 Gennaio 1718</date></dateline>
+               <salute>Affettuosissimo Servitore Cordialissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10065_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/c5f72d9e6cd886d12f48355bfab5009e7e8cbb8c.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

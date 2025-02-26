@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10054">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20686/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21118/full/585,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21119/full/636,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/25080/full/582,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25081/full/621,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10054">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 27 Marzo 1717)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Carteggio Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">54</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository/>
+                     <collection/>
+                     <idno/>
+                     <altIdentifier>
+                        <idno/>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1717-03-27"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-04-16" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-09-11" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-22" who="#DLCL_CF_PS001">nuove trascrizioni</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10054_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20686/DSC_5911.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Dall’indefessa cordialità di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> ricevo le notizie, 
+               che riguardano il nostro <persName ref="#DLCL_CF_PC0413">Cardinale de Anna, o Sommariva,</persName> 
+               Napolitano, o Lodigiano, rimanendo per verità le cose di questo Porporato assai intricate e confuse. 
+               Il <persName ref="#DLCL_CF_PC0376">Lancellotti</persName> nella <bibl type="print">Storia Olivetana</bibl> 
+               apertamente lo fa da <placeName ref="#DLCL_CF_L0095">Lodi</placeName> della <orgName ref="#DLCL_CF_O0070">Casa Sommariva,</orgName> la qual tuttavia colà fiorisce; 
+               e scrive che egli con <persName ref="#DLCL_CF_PC0375">Niccolò</persName> suo Fratello 
+               fondò il <orgName ref="#DLCL_CF_O0072">Monistero di Villanuova</orgName> in quel Territorio. 
+               Dall’altra parte l’epitafio lo dimostra della <orgName ref="#DLCL_CF_O0071">Casa de Anna,</orgName> 
+               che altresì in <placeName ref="#DLCL_CF_L0082">Napoli</placeName> fino al dì d’oggi si mantiene, 
+               e tra’ Napolitani è riferito dal <persName ref="#DLCL_CF_PC0377">Toppi</persName> nella <bibl type="print">Biblioteca Napolitana.</bibl> 
+               Alle diligenze fatte <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> aggiungane un’altra con veder se ne parla certo istorico, 
+               che costì abbiamo, di <placeName ref="#DLCL_CF_L0095">Lodi,</placeName> e chiamasi, se non erro, il <persName ref="#DLCL_CF_PC0383">Villanuova.</persName> 
+               L’<persName ref="#DLCL_CF_PC0021">Ughelli</persName> concorda a <persName ref="#DLCL_CF_PC0376">Lancellotti</persName> 
+               in proposito della fondazione del <orgName ref="#DLCL_CF_O0072">Monistero di Villanuova</orgName> degli Olivetani 
+               eretto dal <persName ref="#DLCL_CF_PC0413">Cardinale Angelo</persName> per testamentaria disposizione 
+               di <persName ref="#DLCL_CF_PC0375">Niccolò Sommariva</persName> Fratello d’esso Cardinale. 
+            </p>
+            
+            <p>
+               La ringrazio altresì di quel, che mi notifica intorno a <persName ref="#DLCL_CF_PC0414">Pietro Quirino,</persName> 
+               tratto dal <persName ref="#DLCL_CF_PC0412">Ciacconio.</persName> 
+               Mi persuado che il <persName ref="#DLCL_CF_PC0426">Palazzi</persName> ancora ne scriva negli stessi precisi termini. 
+               <persName ref="#DLCL_CF_PC0427">Luca Spagnuolo</persName> è appresso di me colla sua <bibl type="print">Romualdina.</bibl> 
+               Ho ancora il <persName ref="#DLCL_CF_PC0428">Garimberto,</persName> che iniquamente maltrattò il <persName ref="#DLCL_CF_PC0429">Venerabile Cardinale Maffeo Gerardo.</persName> 
+               Tengo ancor copia di tutto quel, che altri ne ha scritto in difesa. 
+               Ma tra essi spicca <persName ref="#DLCL_CF_PC0430">Ludovico Doni d’Attichy</persName> Vescovo Franzese nell’Opera Insigne in tre Tomi in folio intitolata = 
+               <bibl type="print"><foreign xml:lang="la">Flores Historiae Sacri Collegij Cardinalium</foreign></bibl> = 
+               Ivi lo rappresenta Uomo Santo, quale in fatti convien dire ch’è fosse. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10054_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20686/DSC_5912.jpg"/>
+            
+            <p>
+               Care mi saranno le notizie della <orgName ref="#DLCL_CF_O0066">Famiglia Traversarj,</orgName> 
+               della quale penso accrescere il primo capitolo della <bibl type="print">Vita</bibl> del nostro <persName ref="#DLCL_CF_PC0032">Ambrogio,</persName> 
+               disteso troppo in succinto. 
+               Nuovamente mi rallegro che abbia <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> 
+               intrapresa la fatica di trascrivere la <bibl type="manuscript">Storia</bibl> del <persName ref="#DLCL_CF_PC0176">Carrari,</persName> 
+               la quale in più luoghi io scopersi essere indubitatamente di cotesto Autore, e non di un <orgName ref="#DLCL_CF_O0073">Morigi,</orgName> qual si supponeva. 
+            </p>
+            
+            <p>
+               Penserò il modo di mettere in credito la lapida di <placeName ref="#DLCL_CF_L0007">Bologna,</placeName> 
+               della quale io penso ne avesse <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> fatta ingerir qualche stima. 
+               Era nato in me qualche timore che la mia lettera scritta sopra essa lapide fusse andata a male. 
+            </p>
+            
+            <p>
+               Nell’<bibl type="manuscript">Indice de’ nostri libri,</bibl> che sono in guardia di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> 
+               non vi leggo i <bibl type="print">due tomi della Biblioteca Romana</bibl> del <persName ref="#DLCL_CF_PC0071">Mandosio.</persName> 
+               Desidero sapere se ciò sia seguito perché manchino. 
+               Delle <bibl type="print">Instituzioni Teologiche</bibl> del <persName ref="#DLCL_CF_PC0431">Cardinale Tommasi</persName> quanti tometti ne abbiamo costì? 
+               Mi riverisca ben caramente il <rs type="person">Padre Camerlengo.</rs> 
+            </p>
+            
+            <closer>
+               <salute>Resto con tutto lo spirito, abbracciandola di vero cuore.</salute> 
+               <salute>DVPMR.,</salute> 
+            </closer>
+            
+            <postscript>
+               <p>
+                  che ringrazia ancora per la notizia di <placeName ref="#DLCL_CF_L0012">Modena</placeName> 
+                  dal <persName ref="#DLCL_CF_PC0056">Signor Sancassani</persName> ottenuta 
+                  sopra il <bibl type="manuscript">Manoscritto</bibl> di <placeName ref="#DLCL_CF_L0003">Pesaro.</placeName>
+               </p>
+            </postscript>
+            
+            <closer>
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1717-03-27">27 Marzo 1717</date></dateline>
+               <salute>Cordialissimo Servitore e Affettuosissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10054_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/6783099a5ca4e0523d86a4c684691e6db9928b9f.jpg"/>
+            
+            <pb xml:id="DLCL_CF_E10054_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/927f12f86aeeef152690787750f769a853e4fdd2.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10060">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20692/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21143/full/610,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21144/full/625,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21145/full/591,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25086/full/682,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10060">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 28 Agosto 1717)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">60</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1717-08-28"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-05-07" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-11" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10060_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20692/DSC_5941.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Per dieci giorni un’infreddatura mi ha obbligato a star lontano dal tavolino. 
+               Ancora non ne sono libero, con tutto ciò la necessità mi ha astretto a ritornarvi. 
+               Due parole in fretta, trovandomi assediato da una folla di lettere. 
+               Sul principio del mese ebbi l’involto de’ <bibl type="print">Giornali,</bibl> con gli altri libri ben condizionato. 
+               In avvenire mi bisogna servir’il <persName ref="#DLCL_CF_PC0269">Signor Dottor Viti,</persName> che desidera la continuazione de’ <bibl type="print">giornali.</bibl> 
+               Pertanto, in primo luogo faccia <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> venire per esso il <bibl type="print">XXVII,</bibl> 
+               e successivamente gli altri in tre esemplari per ciascheduno. 
+               Mi sarà cara la <bibl type="print">Scanzia XIX.</bibl> 
+               Non sò capire come il <persName ref="#DLCL_CF_PC0056">Signor Sancassani</persName> abbia più tosto voluto rimanersi in <placeName ref="#DLCL_CF_L0031">Comacchio</placeName> 
+               a dispetto della Città, che non lo gradisce, né lo vuole, che andar’a <placeName ref="#DLCL_CF_L0048">Fano</placeName> con tanto più considerabile vantaggio. 
+               Né intendo la chiamata del <persName ref="#DLCL_CF_PC0499" cert="unknown">Duca della Mirandola,</persName> 
+               ch’è fuor del suo stato, in <placeName ref="#DLCL_CF_L0046">Ispagna</placeName> Cavallerizzo di <persName ref="#DLCL_CF_PC0500">Filippo V.</persName> 
+               Ebbi nuova dell’andata a <placeName ref="#DLCL_CF_L0107">Torino</placeName> del <persName ref="#DLCL_CF_PC0039">Signor Cicognini.</persName> 
+            </p>
+            
+            <p>
+               La ringrazio delle diligenze usate sopra la diramazione della <orgName ref="#DLCL_CF_O0076">Casa da Legge.</orgName> 
+               Ma essa si rimane occulta, né bastano gli studi finora fatti per rintracciarla. 
+               Dispero venirne a capo. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10060_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20692/DSC_5943.jpg"/>
+            
+            <p>
+               Mi partecipi il foglio stampato della <bibl type="print">Vita,</bibl> ed <bibl type="print">Opere</bibl> del nostro <persName ref="#DLCL_CF_PC0177">Ambrogio.</persName> 
+               Mi avvisi di grazia chi n’è l’Autore. 
+               Chiunque sia <hi rend="underline"><foreign xml:lang="la">actum egit</foreign></hi> per quanto mi figuro, ricantando il detto da altri, 
+               che vuol dire rifriggendo i loro spropositi. 
+               So io quel, che a me costa il far le scoperte nuove, e l’assicurarsene. 
+               Quel che ho trovato io, non l’ha certamente trovato alcun’altro uomo. 
+            </p>
+            
+            <p>
+               Ho necessità che subito <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> mi avvisi 
+               che cosa si trova di <persName ref="#DLCL_CF_PC0501">Mon[signor] Gianfrancesco Rota</persName> nella <bibl type="print">Miscellanea de’ Concordi</bibl> tra’ versi latini. 
+               Basta copiar’ i titoli de’ versi. 
+               Ancor mi trascriva la mia dedicatoria a lui della Centuria degli <bibl type="print">Epigrammi,</bibl> 
+               e osservi se vi sia alcun’epigramma in lode di esso sul principio della Centuria. 
+               Ma presto. 
+            </p>
+            
+            <p>
+               Mi emenderò, per quanto sarà possibile, quanto al rispondere così faccia ella nella spedizione de’ libri 
+               al <placeName ref="#DLCL_CF_L0008">Roma</placeName> dal <persName ref="#DLCL_CF_PC0425">Signor Giuseppe Sangermano Corvo,</persName> che mi tormenta. 
+               Mandi per gli soliti Vetturali. 
+            </p>
+            
+            <p>
+               Nel <persName ref="#DLCL_CF_PC0176">Carrari</persName> evvi altro intorno la <orgName ref="#DLCL_CF_O0066">Casa Traversari?</orgName> 
+               Mi consoli con l’avviso d’aver cominciata la copia. 
+               Un cordialissimo saluto 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10060_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20692/DSC_5944.jpg"/>
+            
+            <p>
+               a <persName ref="#DLCL_CF_PC0007">Padri Collina,</persName> e al <persName ref="#DLCL_CF_PC0090">Padre Don Leandro.</persName> 
+               Dica al <rs type="person">Padre Lettore,</rs> o gli scriva che aspetto il <bibl type="print">Martello.</bibl> 
+            </p>
+            
+            <p>
+               Ho avuto a rompermi il capo intorno a quella <persName ref="#DLCL_CF_PC0444">Cecilia Gonzaga,</persName> 
+               di cui <hi rend="underline"><foreign xml:lang="la">altum apud omnis Mantuanos scriptores silentium</foreign></hi>. 
+               Dopo fatta una lunga fatica, e una stretta dissertazione, col supposto che nessun ne parli, 
+               ecco trovo che ne fa menzione il <persName ref="#DLCL_CF_PC0502">Chiesa</persName> nel suo <bibl type="print">Libretto delle Donne Letterate</bibl> 
+               (ch’è anco in cotesta <orgName ref="#DLCL_CF_O0001">Biblioteca)</orgName> e in <persName ref="#DLCL_CF_PC0503">Iacopo Filippo</persName> 
+               da <placeName ref="#DLCL_CF_L0035">Bergamo</placeName> nel <bibl type="print">Supplemento delle Storie.</bibl> 
+               Mi convien rifar da capo. 
+               Così ho trovato che due sono i <persName ref="#DLCL_CF_PC0443">Gregorij Corrarj</persName> Prelati nello stesso tempo; 
+               cosa da nessun’altro avvertita, lo che porta un’altra dissertazione. 
+            </p>
+            
+            <closer>
+               <salute>L’abbraccio caramente, e di tutto cuore resto.</salute> 
+               <salute>DVPMR.</salute> 
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1717-08-28">28 Agosto 1717</date>.</dateline> 
+               <salute>A rivederci con comodo un’altr’ordinario.</salute> 
+               <salute>Cordialissimo Servitore e Padre nel Signore Affezionatissimo</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10060_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/2f36b32060ea3e7c79a137555f521f211a7b905a.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,204 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10048">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20680/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21100/full/583,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21101/full/620,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21102/full/616,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/24826/full/636,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10048">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 23 Gennaio 1717)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Carteggio Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">48</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1717-01-23"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-04-09" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-09-10" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10048_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20680/DSC_5882.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Mi consola la notizia della spedizione già seguita de’ <bibl type="religious">Calendarj,</bibl> 
+               e delle <bibl type="religious">Orazioni</bibl> del <persName ref="#DLCL_CF_PC0336">Padre Franchetti,</persName> che presto arriveranno. 
+               Godo che i <bibl type="religious">Calendarj</bibl> stessi abbiano maggior’esito del solito; onde all’Autor medesimo ne sia mancata la solita provvisione. 
+               Questo è indizio dell’approvazione dell’Opera. 
+               Sarebbe bene che una volta si stabilisse un metodo fermo, 
+               e universale per la nostra <orgName ref="#DLCL_CF_O0054">Congregazione</orgName> circa <bibl type="religious">l’Officio in fer. 3 del Santo Padre:</bibl> 
+               perché in tal caso potrebbesi fare un <bibl type="religious">Calendario</bibl> in carattere più minuto, con inserirvi gli offici di ciaschedun Monastero, 
+               come ora vi s’inseriscono quei di <placeName ref="#DLCL_CF_L0020">Classe</placeName> solamente. 
+               Così fanno i <rs type="person">Padri Eremiti</rs> di <orgName ref="#DLCL_CF_O0034">Monte Corona,</orgName> 
+               copia del cui <bibl type="religious">Calendario</bibl> <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> 
+               avrà prima che arriviamo alla <bibl type="religious">Dieta,</bibl> 
+               nella quale contesto <rs type="person" ref="#DLCL_CF_PC0002">Padre Reverendissimo</rs> potrebbe trattare una tale uniformità. 
+               Io preveggo che né <rs type="person">i Toscani,</rs> né <rs type="person">i Veneziani</rs> 
+               vorranno recedere dall’uso loro fondato nella consuetudine degli <rs type="person">Eremiti</rs> delle <orgName ref="#DLCL_CF_O0054 #DLCL_CF_O0034" cert="unknown">due nostre Congregazioni,</orgName> 
+               le quali compongono la maggior parte dell’<orgName ref="#DLCL_CF_O0054">Ordine,</orgName> 
+               e in una <bibl type="religious">Dichiarazione litterale</bibl> della <orgName ref="#DLCL_CF_O0011" cert="unknown">Sacra Congregazione.</orgName> 
+               Ma quando le suddette <orgName ref="#DLCL_CF_O0054">nostre due Provincie</orgName> persistessero in ciò, son di parere che saria spediente che noi abbracciassimo, 
+               come più comune, e rendessimo universale il rito di fare l’<bibl type="religious">officio</bibl> sopradetto, solamente quando non corre semidoppio fisso, né traslato. 
+               In fatti maggior gloria ritornerebbe al <rs type="person">Santo Padre</rs> dall’uniformità del culto de’ suoi Figliuoli, 
+               che dalla deformità proveniente dal culto d’alcuni pochi. 
+               Così si provvederebbe meglio allo stato del <bibl type="religious">Calendario</bibl> pieno eccessivamente in oggi di <bibl type="religious">officj di Santi;</bibl> 
+               contra l’antica disciplina, particolarmente in tempo di Quaresima. 
+               Utile in tal caso sarebbe <del rend="overstrike">più</del> non dispendiosa la stampa del nostro <bibl type="religious">Calendario.</bibl> 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10048_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20680/DSC_5883.jpg"/>
+            
+            <p>
+               Nessuna copia finora è giunta in <placeName ref="#DLCL_CF_L0028">questa Città</placeName> del <bibl type="print">XXV Giornale,</bibl> che io aspetto con gran desiderio, 
+               considerando il profittevole uso del medesimo, se è vero che contenga l’<bibl type="print">Indice</bibl> delli 24 precedenti. 
+               Staremo poi a vedere se sarà continuata la tessitura di quest’<bibl type="print">Opera,</bibl> la quale dispiace a tanti, e tanti Letterati. 
+            </p>
+            
+            <p>
+               Il <persName ref="#DLCL_CF_PC0056">Signor Sancassani</persName> avrà soddisfatto a quest’ora alla sua curiosità; 
+               perché oggi ha otto giorni mandai per la posta un’esemplare della mia <bibl type="print">Prosa in lode del Santo di Paola</bibl> 
+               al <persName ref="#DLCL_CF_PC0113">Signor Giambatista Zappata,</persName> da cui lo stesso giorno io avea ricevuto 
+               nello stesso modo la bella <bibl type="print">Raccolta</bibl> per la Traslazione delle Reliquie di <persName ref="#DLCL_CF_PC0381">San Cassiano.</persName> 
+               Altrove ne ho mandato altresì certe poche copie la settimana passata, onde presto seguiranno le spedizioni dell’altre, prima che finisca questo mese. 
+               Ma forse <hi rend="underline"><foreign xml:lang="la">minuet praesentia famam</foreign></hi>. 
+               Và crescendo, e dopo la metà mi lusingo che ancora costì non sia affatto per dispiacere. 
+               Ne manderò una copia anche per il nostro <persName ref="#DLCL_CF_PC0056">Signor Sancassani,</persName> 
+               che mi ha mandato a fare officj obbliganti per pezzo del <persName ref="#DLCL_CF_PC0269">Signor Viti</persName> 
+               Dottissimo Medico di <placeName ref="#DLCL_CF_L0028">questa Città</placeName> e Anatomico di <orgName ref="#DLCL_CF_O0056">questa Università.</orgName> 
+               Mi spiace la disgrazia accaduta a’ lavori ordinati dal <persName ref="#DLCL_CF_PC0056">Signor Giacomo:</persName> ma queste appunto sono disgrazie. 
+               Il volgo (nel qual numero si comprendono gli uomini d’ogni condizione non assennati) misura le cose dall’esito, e perciò è soggetto agl’inganni: 
+               Iddio voglia che riesca trovar denaro per la grand’opera di divertire dagli alvei troppo alti i due fiumi e portargli lontano dalle mura! 
+               Anche la Musa del <persName ref="#DLCL_CF_PC0088">Signor Calbi</persName> potrebbe pregiarsi d’aver parte della gloria colla sua persuasiva. 
+            </p>
+            
+            <p>
+               Aspetto la <bibl type="print">Cataneide:</bibl> e per riempiere un mezzo foglio non dubito 
+               che sia per abbondar materia in cotesta <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> particolarmente ne’ volumi accennati. 
+               Nel <bibl type="print">Rossi</bibl> ho scoperto che anco i <persName ref="#DLCL_CF_O0066">Traversari</persName> 
+               furono Catani di <placeName ref="#DLCL_CF_L0087">Cervia.</placeName> 
+               Oggi o martedì scriverò al <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli,</persName> 
+               per fare ricerca del <bibl type="print">privilegio</bibl> d’<persName ref="#DLCL_CF_PC0382">Ottone,</persName> 
+               di cui può essere che siavi copia in cotesta <orgName ref="#DLCL_CF_O0057">Casa Vizani.</orgName> 
+            </p>
+            
+            <p>
+               Conviene la mia memoria coll’asserzione del <persName ref="#DLCL_CF_PC0093">Padre Lettore Onestini</persName> 
+               sopra lettera di <persName ref="#DLCL_CF_PC0050">Monsignor Bianchini.</persName> 
+               Trovata che io l’abbia, prometto che la manderò subito, bastano 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10048_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20680/DSC_5885.jpg"/>
+            
+            <p>
+               a me ritenerne copia. 
+               Lavori poi allegramente intorno alle notizie della Lapide di <orgName ref="#DLCL_CF_O0029">San Vitale.</orgName> 
+               Qui la scorsa settimana dentro la <placeName ref="#DLCL_CF_L0028">Città,</placeName> nello scavar’i fondamenti del palazzo, 
+               che si va seguitando dalla famiglia de’ <persName ref="#DLCL_CF_O0069">Donini,</persName> 
+               in faccia alla Fortezza, furono trovate centodiciotto monete d’oro di <persName ref="#DLCL_CF_PC0384">Giustiniano,</persName> 
+               le quali si devono inserire nell’anno di Cristo 534. 
+               e alla vittoria di <persName ref="#DLCL_CF_PC0385">Belisario</persName> riportata 
+               sopra <persName ref="#DLCL_CF_PC0386">Gilimere Re de’ Vandali</persName> condotto a <placeName ref="#DLCL_CF_L0077">Costantinopoli</placeName> in trionfo. 
+               Appresso eranvi due anelli, due pendenti, una fibbia grande, e una piccola collana d’oro. 
+               Le quali cose può conghietturarsi che seppellite fossero sotterra in tempo 
+               dell’assedio di <placeName ref="#DLCL_CF_L0028">Perugia</placeName> fatto da <persName ref="#DLCL_CF_PC0387">Totila,</persName> 
+               il quale prese poi la <placeName ref="#DLCL_CF_L0028">Città,</placeName> e diede morte al <persName ref="#DLCL_CF_PC0388">Santo Vescovo Ercolano.</persName> 
+               Un giorno dopo, in altro sito, fu trovato un piatto d’argento, nel cui mezzo sta effigiato di rilievo un uomo armato a cavallo, con altro uomo caduto in terra collo scudo. 
+               Dintorno si leggono le seguenti parole: 
+               <hi rend="underline"><foreign xml:lang="la">In donis Dei, et Domni Petri utere felix cum gaudio</foreign></hi>. 
+               Pensano costoro che alluda l’iscrizione a qualche donativo fatto dalla Sede Appostolica. 
+               Ma io nol credo perché è ben vero che il titolo di <hi rend="underline"><foreign xml:lang="la">Domnus</foreign></hi> è stato proprio de’ Papi, 
+               ed è nelle Litanie fino al dì d’oggi chiamato il Papa <hi rend="underline"><foreign xml:lang="la">Domnus Apostolicus</foreign></hi>: 
+               e <foreign xml:lang="la">Domini</foreign> si chiamavano altri Personaggi Sacri, e profani. 
+               Ma non trovo che tal voce siasi attribuita a <foreign xml:lang="la">Sancti</foreign>, 
+               leggendosi anzi ne’ Mosaici <hi rend="underline"><foreign xml:lang="la">Sanctus</foreign></hi> e <hi rend="underline"><foreign xml:lang="la">Sancta</foreign></hi> 
+               non mai <hi rend="underline"><foreign xml:lang="la">Domnus</foreign></hi> sicché non può convenire a <persName ref="#DLCL_CF_PC0023">San Pietro.</persName> 
+               Chi fosse quel <persName>Pietro</persName> è difficile conghietturarlo. 
+            </p>
+            
+            <p>
+               Il <persName ref="#DLCL_CF_PC0337">Morosini</persName> Patriarca di <placeName ref="#DLCL_CF_L0077">Costantinopoli</placeName> 
+               è chiamato Monaco Camaldolese dal <persName ref="#DLCL_CF_PC0389">Verdizotti</persName> (le cui parole desidero veder trascritte) 
+               e ne’ <bibl type="print">Viaggi</bibl> del <persName ref="#DLCL_CF_PC0390">Ramusio</persName> 
+               (che parmi non sieno in <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> tomi 3 folio) ove si dice Monaco di <orgName ref="#DLCL_CF_O0058">San Michele di Murano.</orgName> 
+               Ma <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> combini il tempo del <rs type="person" ref="#DLCL_CF_PC0337">Patriarca</rs> 
+               colla fondazione di <orgName ref="#DLCL_CF_O0058">San Michele</orgName> nel <bibl type="print">Fortunio.</bibl> 
+               Gli altri Autori nol fanno Monaco, né Canonico Regolare. 
+            </p>
+            
+            <closer>
+               <salute>Resto caramente abbracciandola.</salute> 
+               <salute>DVPMR.</salute>  
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1717-01-23">23 Gennaio 1717</date></dateline>
+               <salute>Affettuosissimo Servitore e Padre nel Signore Cordialissimo</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10048_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/ae7d64c11f00dbf08e8c4c3e5d8f2a6bb4fc019b.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al molto reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

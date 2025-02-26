@@ -1,0 +1,338 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10046">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20678/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21092/full/617,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21093/full/628,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21094/full/610,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/21096/full/636,800/0/default.jpg"/>
+      <graphic n="3r" url="https://classense.unibo.it/iiif/2/24823/full/606,800/0/default.jpg"/>
+      <graphic n="3v" url="https://classense.unibo.it/iiif/2/24824/full/619,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10046">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 22 Dicembre 1716)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Carteggio Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">46</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1716-12-22"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-04-04" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-09-05" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10046_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20678/DSC_5872.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Godo sommamente che il nostro <persName ref="#DLCL_CF_PC0056">Signor Dottore Sancassani</persName> abbia gradito quel poco, 
+               che la debolezza mia espose sopra l’arduo passo degli <bibl type="religious">Atti di Santa Sabina.</bibl> 
+               Quindi prendo motivo di più che mai volentieri servirlo intorno alle altre difficoltà proposte. 
+               Subito adunque ricevuta la lettera di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità,</rs> rispondo in fretta; come meglio sò, e posso. 
+            </p>
+            
+            <p>
+               In primo luogo crederei spediente che si collazionassero gli <bibl type="religious">Atti;</bibl> 
+               che <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> mi scrive cominciare: 
+               <hi rend="underline"><foreign xml:lang="la">Cum dies itaque metuendus</foreign></hi> con quei, 
+               che il <persName ref="#DLCL_CF_PC0059">Baronii</persName> <bibl type="print"><hi rend="underline"><foreign xml:lang="la">ad Martyrologium 29 Augusti</foreign></hi></bibl> 
+               chiama sincerissimi, e cominciano: <hi rend="underline"><foreign xml:lang="la">Illustris femina Sabina</foreign></hi> 
+               e ancora col <persName ref="#DLCL_CF_PC0349">Surio,</persName> <persName ref="#DLCL_CF_PC0350" cert="unknown">Adone</persName> 
+               e <persName ref="#DLCL_CF_PC0348">Mombrizio.</persName> 
+            </p>
+            
+            <p>
+               Ove trovati sinceri gli <bibl type="print">Atti,</bibl> che si esaminano, si stabilisca fondatamente il martirio 
+            </p>
+            
+            <p>
+               <list type="numbered">
+                  <item n="1">
+                     <p>
+                        1. di <persName ref="#DLCL_CF_PC0370">Santa Sabina,</persName> nell’anno di Cristo 125; o in quel torno, e fuor d’ogni dubbio che infieriva allora la terza persecuzione.
+                     </p>
+                     <p>
+                        Intorno alla spiegazione <hi rend="underline"><foreign xml:lang="la">Oppidum Vendinensium</foreign></hi> 
+                        per l’<placeName ref="#DLCL_CF_L0080">Aventino,</placeName> non ho che aggiungere. 
+                     </p>
+                  </item>
+                  <item n="2">
+                     <p>
+                        2. Dubito che possa riuscir nuova, e singolare tale interpretazione. 
+                        Onde converrebbe mostrare che il <placeName ref="#DLCL_CF_L0080">Monte Aventino</placeName> fosse non solo popolato assai, ma cinto eziandio di mura; 
+                        imperocché la voce <hi rend="underline"><foreign xml:lang="la">Opidum ab Op</foreign></hi> 
+                        e o secondo l’uso <hi rend="underline"><foreign xml:lang="la">opibus</foreign></hi> è stata sempre usata a significar luogo circondato di mura, 
+                        per raccogliervi abitatori, e custodirvi le loro sostanze. 
+                        Non nego che forse sia stato barbaramente usato in questo passo a significar la popolazione dell’<placeName ref="#DLCL_CF_L0080">Aventino:</placeName> 
+                        ma il passo è duro, ancor più di quello sia il <hi rend="underline"><foreign xml:lang="la">Vendinensium</foreign></hi> 
+                        a significar gli abitatori dell’<placeName ref="#DLCL_CF_L0080">Aventino.</placeName> 
+                     </p>
+                  </item>             
+               </list>             
+            </p>
+            
+            <p>
+               <hi rend="underline"><foreign xml:lang="la">Basterna</foreign></hi> voce latina dell’età, che chiamano di bronzo, 
+               e significa una spezie di carro o cocchio, forse così detto, 
+               perche trovato da’ <rs type="person">Basterni</rs> popoli dell’<placeName ref="#DLCL_CF_L0061">Europa</placeName> nella <placeName ref="#DLCL_CF_L0081">Sarmazia,</placeName> 
+               dice l’<rs type="person">Autor</rs> della tavola delle voci difficili, che si trovano nel <bibl type="print">Poema</bibl> di 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10046_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20678/DSC_5873.jpg"/>
+            
+            <p>
+               <persName ref="#DLCL_CF_PC0233">Dante,</persName> il quale usò, dal latino portandolo nella lingua nostra con tanti altri, 
+               questo vocabolo <bibl type="print">Purgatorio 30</bibl> 
+            </p>
+            
+            <p>   
+               <hi rend="align(center)">Cotali in su la divina basterna</hi> 
+            </p>
+            
+            <p>
+               <hi rend="align(center)">Si levar</hi> 
+            </p>
+            
+            <p>
+               Sopra il qual luogo il <persName ref="#DLCL_CF_PC0351">Landini,</persName> e il <persName ref="#DLCL_CF_PC0352">Vellutello</persName> 
+               son di parere che Basterne fossero certe carrette, o veicoli, su quali i Romani Sacerdoti, 
+               e le Vergini Vestali portavano come a processione le cose sacre della superstiziosa loro religione. 
+               Il <persName ref="#DLCL_CF_PC0353">Menagio</persName> nelle <bibl type="print">Origini della lingua Italiana</bibl> deriva Basterna 
+               da <foreign xml:lang="el">βασάζω</foreign> e gli <rs type="person">Accademici</rs> della <orgName ref="#DLCL_CF_O0052">Crusca</orgName> 
+               da <foreign xml:lang="el">βασάζειν</foreign> che val portare, e condurre. 
+               Veggasi gli Etimologici del <bibl type="print">Martirio,</bibl> e del <persName ref="#DLCL_CF_PC0328">Vossio,</persName> 
+               e il <persName ref="#DLCL_CF_PC0354">Salmasio</persName> sopra l’<bibl type="print">Istoria Augusta</bibl> a carta 189 
+               sopra <persName ref="#DLCL_CF_PC0355">Elio Lampridio</persName> in <persName ref="#DLCL_CF_PC0356">Antonino Elagabalo;</persName> 
+               ove si hà, capitolo 21 in fine: <hi rend="underline"><foreign xml:lang="la">Dedit quadrigas, equos, stratos, mulos basternas, et rhedas</foreign></hi>. 
+               Ma venghiamo a veder che cosa fossero queste Basterne. 
+               Il <persName ref="#DLCL_CF_PC0022">Du Cange</persName> lo spiega <hi rend="underline"><foreign xml:lang="la">vehiculum tectum, et foeminarum</foreign></hi>, 
+               adducendo in testimonianza di ciò <persName ref="#DLCL_CF_PC0357">Servio</persName> sopra l’ottavo dell’<bibl type="print">Eneide:</bibl> 
+               <hi rend="underline"><foreign xml:lang="la">Pilenta sunt vehicula, sicut nunc basternas videmus</foreign></hi>. 
+               Adunque come tra i vocaboli de’ veicoli per portar le nobili Donne, abbiamo nella latinità dell’età d’oro <hi rend="underline"><foreign xml:lang="la">Pilentum</foreign></hi>. 
+               <persName ref="#DLCL_CF_PC0358">Orazio</persName> <bibl type="print">libro 2 Epistolae.</bibl> 
+               <persName ref="#DLCL_CF_PC0359">Livio</persName> <bibl type="print">5 Ab Urbe,</bibl> 
+               e <persName ref="#DLCL_CF_PC0360">Virgilio</persName> di sopra cit. 8 <bibl type="print">Aeneid.</bibl> 
+               così nell’età posteriori sottentrò la voce <hi rend="underline">Basterna</hi> a spiegar’una sorte di cocchio forse da Basterni inventato, 
+               com’era stato dagli Spagnuoli trovato il <hi rend="underline">Pilento</hi>, e da’ Franzesi il <hi rend="underline">Pitorito</hi>. 
+               mentovato da <persName ref="#DLCL_CF_PC0358">Orazio</persName> nel luogo di sopra addotto. 
+               <persName ref="#DLCL_CF_PC0361">Ammiano Marcellino</persName> <bibl type="print">libro 14</bibl> 
+               <hi rend="underline"><foreign xml:lang="la">Matronae complures opertis capitibus, et basternis per latera Civitatis cuncta discurrunt</foreign></hi>. 
+               E <persName ref="#DLCL_CF_PC0362">San Girolamo</persName> nella <bibl type="print">lettera 22</bibl> ad <persName ref="#DLCL_CF_PC0363">Eustochio</persName> 
+               <hi rend="underline"><bibl type="print"><foreign xml:lang="la">de Custodia Virginitatis</foreign>:</bibl></hi> 
+               <hi rend="underline"><foreign xml:lang="la">Praecedit caveas Basternarum ordo semivirorum</foreign></hi> 
+               intendendo per <hi rend="underline"><foreign xml:lang="la">caveas</foreign></hi> la parte di dentro delle basterne, come ora diressimo noi delle carrozze. 
+               Sopra il qual luogo di <persName ref="#DLCL_CF_PC0362">San Girolamo</persName> i Dottissimi <rs type="person">Monaci</rs> 
+               di <orgName ref="#DLCL_CF_O0030">San Mauro</orgName> nelle <bibl type="print">Annotazioni Biblioteca Ascetica Tomo 4.</bibl> 
+               <hi rend="underline"><foreign xml:lang="la">Basterna vehiculum muliebre: in eo a lectica veterum differebat, quod illa ferretur a servis, haec traheretur a burdonibus, hoc est mulis</foreign></hi>. 
+               Gli <bibl type="religious">Atti di Santa Susanna:</bibl> 
+               <hi rend="underline"><foreign xml:lang="la">eadem hora praepedigna ascendit caveam basternae, et venit ad domum Gabinij</foreign></hi>. 
+               Che da due animali fosse portata la basterna ce lo ridice <persName ref="#DLCL_CF_PC0364">Sant’Isidoro</persName> <bibl type="print">libro 20. Origines</bibl> carta 12, 
+               e perciò <persName ref="#DLCL_CF_PC0172">Santo Agostino</persName> <bibl type="print">epistola 116</bibl> 
+               adoperò a spiegarne il moto, il verbo <hi rend="underline"><foreign xml:lang="la">veho</foreign></hi>. 
+               Finalmente un antico <hi rend="underline">Epigramma <bibl type="print">libro 4. Epigr.</bibl></hi> 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10046_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20678/DSC_5874.jpg"/>
+            
+            <p>
+               <hi rend="underline"><foreign xml:lang="la">veterum Pithoei</foreign></hi> pagina 157. 
+            </p>
+            
+            <p>   
+               <hi rend="underline"><foreign xml:lang="la">Hanc geminus portat duplici sub robore burdo</foreign></hi>: e sotto 
+            </p>
+            
+            <p>
+               <hi rend="underline"><foreign xml:lang="la">Aurea matronas claudit basterna pudicas</foreign></hi>.
+            </p>
+            
+            <p>
+               <hi rend="underline"><foreign xml:lang="la">Basternarius</foreign></hi> chiamavasi il garzone, che guidava questa sorta di veicolo; 
+               come si può osservare in <persName ref="#DLCL_CF_PC0285">Simmaco</persName> <bibl type="print">Epistol. libro 6 epistola 16.</bibl> 
+               Vegga sopra esso il <persName ref="#DLCL_CF_PC0365">Giureto.</persName> 
+               Così vegga, intorno alla Basterna <persName ref="#DLCL_CF_PC0362">San Girolamo</persName> al <bibl type="print">capitolo 66 d’Isaia,</bibl> 
+               <persName ref="#DLCL_CF_PC0366">Gregorius Turonensis</persName> <bibl type="print">Libro 3. Istoria capitolo 16. 26</bibl> 
+               <persName ref="#DLCL_CF_PC0021">Ughelli</persName> <bibl type="print">Tomo 1. parte 2, pagina 200.</bibl> 
+               <persName ref="#DLCL_CF_PC0367">Rosvveid</persName> alle <bibl type="print">Vite de’ Padri d’Oriente,</bibl> 
+               ove <hi rend="underline"><foreign xml:lang="la">de Basternis multa</foreign></hi>, e lo <persName ref="#DLCL_CF_PC0368">Scheffero</persName> <bibl type="print"><foreign xml:lang="la">De re vehiculari</foreign>.</bibl> 
+               Così sù due piedi, e in somma fretta concludo, e penso che fosse uno strumento similissimo alla Lettica de’ nostri tempi, 
+               a distinzione della lettica degli antichi, la qual portata era dagli uomini, 
+               come si portano in oggi le seggette in <placeName ref="#DLCL_CF_L0082">Napoli,</placeName> e in <placeName ref="#DLCL_CF_L0083">Genova.</placeName> 
+            </p>
+            
+            <p>
+               Troppo mi son trattenuto intorno a queste basterne, in oggi lettighe. 
+               Mi spedisco presto dalla voce <foreign xml:lang="la"><hi rend="underline">Luxurium</hi>, et <hi rend="underline">Luxorium</hi></foreign>, ch’è la stessa cosa. 
+               <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> la vegga 
+               in <persName ref="#DLCL_CF_PC0369">Salviano</persName> <bibl type="print">libro 6 <foreign xml:lang="la">De Gubern. Dei</foreign>:</bibl> 
+               <hi rend="underline"><foreign xml:lang="la">Longum est nunc dicere de omnibus, amphiteatris scilicet odeis, lusorijs, pompis</foreign></hi>. 
+               Questa voce usò pure <persName ref="#DLCL_CF_PC0355">Lampridio</persName> in <bibl type="print">Eliogabalo.</bibl> 
+               Veda il <persName ref="#DLCL_CF_PC0022">Du Cange</persName> nella <bibl type="print">Costantinopoli Cristiana:</bibl> 
+               e credo concluderà che <hi rend="underline"><foreign xml:lang="la">Lusorius</foreign></hi> significa un teatro di giuochi, o spettacoli. 
+               Di <hi rend="underline"><foreign xml:lang="la">Themela</foreign></hi> non hò che dire su due piedi. 
+               Appunto nello scorrere <persName ref="#DLCL_CF_PC0355">Lampridio</persName> tra gli Autori della <bibl type="print">Storia Augusta:</bibl> 
+               <hi rend="underline"><foreign xml:lang="la">et praedictum eidem erat a sacerdotibus Syris Biothanatum se futurum</foreign></hi> 
+               ch’è quanto dire che sarebbesi data la morte da sé; come apparisce dal contesto, capitolo 33. 
+               Nello stesso senso trovasi in <persName ref="#DLCL_CF_PC0306">Tertulliano</persName> <bibl type="print">lib. de Anima.</bibl> 
+               I Gentili per onta, e contumelia tal nome usarono contro a Cristiani, perché avidi mostravansi del martirio, 
+               e per impulso dello Spirito Santo volontariamente si esponevano pronti a morire. 
+               Gli <bibl type="religious">Atti di San Getulio, e Compagni,</bibl> gli <bibl type="religious">Atti di San Babila,</bibl> 
+               gli <bibl type="religious">Atti di Santo Nestore Vescovo Martire.</bibl> 
+               Gli <bibl type="religious">Atti de’ Santi Taraco e Compagni</bibl> presso il <persName ref="#DLCL_CF_PC0059">Baronio</persName> <bibl type="print">ann. 290.</bibl> 
+               Tralascio come inutili, e non approposito altri significati della voce Biothanati, 
+               che senza dubbio deriva dall’origine greca accennata dall’erudito <persName ref="#DLCL_CF_PC0056">Signor Sancassani.</persName> 
+               Questo, e 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10046_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/20678/DSC_5875.jpg"/>
+            
+            <p>
+               simili altri passi, che s’incontrano negli <bibl type="religious">Atti de’ Martiri,</bibl> danno a divedere la rabbia de’ Pagani altamente irritati dal disprezzo, 
+               che di loro vita mostravano i Cristiani, <del rend="overstrike">e da</del> esponendosi a supplicj, ed alla morte; 
+               onde con insulto li chiamavano <hi rend="underline">Micidiali di loro stessi</hi>; 
+               che tanto appresso gli Scrittori Sagri e Profani suona questa voce, e tanto significa in questo luogo. 
+            </p>
+            
+            <p>
+               Qualunque luogo né si ara, né si coltiva può chiamarsi <hi rend="underline">Area</hi>. 
+               Perciò ancora i Cemeterj hanno avuto tal nome come anco al dì d’oggi si chiamano Campi e Campi Santi. 
+               Altri molti sono i significati di questa voce. 
+               Ma non parmi sia da farvi gran discorso, essendo chiaro che area nulla più porta che il volgare ed ovvio significato in quel luogo. 
+               Così <hi rend="underline">Vindiciano</hi> è nome proprio. 
+               <hi rend="underline"><foreign xml:lang="la">Ducis Ducum</foreign></hi>. 
+               A questa voce il <persName ref="#DLCL_CF_PC0022">Ducange</persName> <bibl type="print"><foreign xml:lang="la">Glossarium mediae et infimae latinitatis</foreign>:</bibl> 
+               <hi rend="underline"><foreign xml:lang="la">Dux Ducum In Synaxarijs 4. Octobr. Sanctus Andaoctus Ephesius dicitur fuisse</foreign> <foreign xml:lang="el">δoυξ δoυκων καὶ επαρχος Μαξιμινoυ</foreign></hi>. 
+               In sostanza vuol dire un primo Officiale, capo degli altri Condottieri di soldati. 
+               Il mio consiglio sarebbe che si tralasciasse onninamente dall’<rs type="person">Autore</rs> quella riflessione 
+               che sia stata Decrepita <persName ref="#DLCL_CF_PC0370">Santa Sabina,</persName> quando si fece fabbricar’il sepolcro. 
+               Dal costume d’oggidì di non prepararsi che da’ vecchi il sepolcro non è da argomentare alle antiche etadi, nelle quali anco i Giovani si facevano fare i sepolcri; 
+               come dal <persName ref="#DLCL_CF_PC0371">Grutero,</persName> <persName ref="#DLCL_CF_PC0372">Reinesio,</persName> 
+               <persName ref="#DLCL_CF_PC0373">Fabretto,</persName> e altri Raccoglitori di antiche Lapidi. 
+            </p>
+            
+            <p>
+               La osservazione al numero 11 del <persName ref="#DLCL_CF_PC0310">Presidente Elpidio</persName> mal veggente, cammina bene. 
+               Che la voce <hi rend="underline"><foreign xml:lang="la">Titulus</foreign></hi> (oltre a molti altri significati) importi confiscazione 
+               (come stimo voglia importare in questi Atti) così <foreign xml:lang="la"><hi rend="underline">titulare</hi> et <hi rend="underline">titulatio</hi></foreign>; 
+               si riconosca da <persName ref="#DLCL_CF_PC0245">San Gregorio</persName> <bibl type="print">libro 1 epistola 63</bibl> 
+               <hi rend="underline"><foreign xml:lang="la">cui fiscalis titulus appositus est</foreign></hi> 
+               è lo stesso che <hi rend="underline"><foreign xml:lang="la">Domus titulata</foreign></hi>. 
+               <persName ref="#DLCL_CF_PC0022">Du Cange</persName> Lo stesso <persName ref="#DLCL_CF_PC0245">San Gregorio</persName> <bibl type="print">libro 4 epistola 33.</bibl> 
+               <hi rend="underline"><foreign xml:lang="la">In <placeName ref="#DLCL_CF_L0056">Sicilia</placeName> autem Insula Stephanus quidam marinarum partium Chartularius tanta praeiudicia, tantasque oppressiones operari dicitur, invadendo loca singulorum, atque sine dictione causarum per possessiones, ac domos titulos ponendo</foreign></hi>. 
+               <persName ref="#DLCL_CF_PC0350" cert="unknown">Adone</persName> nel <bibl type="print">Martitologio 29.</bibl> Agost. cit. dal <persName ref="#DLCL_CF_PC0022">Du Cange</persName> 
+               (e forse parlando di <persName ref="#DLCL_CF_PC0370">Santa Sabina)</persName> <foreign xml:lang="la">Omnes</foreign> 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10046_L_C3R" n="3 - Recto" facs="https://classense.unibo.it/files/large/3844d438f92f7c8044909426fdd1ef5e63b7e5b8.jpg"/>
+            
+            <p>   
+               <hi rend="underline"><foreign xml:lang="la">facultates eius publicis</foreign></hi> (ecco la confiscazione) 
+               <hi rend="underline"><foreign xml:lang="la">titulis praesignari</foreign></hi>. 
+               <persName ref="#DLCL_CF_PC0374">Tibullo</persName> <bibl type="print">libro. 2. elegia 4.</bibl> 
+               <hi rend="underline"><foreign xml:lang="la">Ite sub imperium, sub titulumque lares</foreign></hi>. 
+            </p>
+            
+            <p>
+               [Non ho più tempo di trattenermi. 
+               Mi riverisca il <rs type="person">Signor Dottor</rs> caramente. 
+               Se non basterà quanto si è scritto, un’altra volta tratteremo le materie più diffusamente] 
+            </p>
+            
+            <p>
+               Mille grazie delle nuove della Vestitura. 
+               Al <persName ref="#DLCL_CF_PC0144">Padre Lettore Fondi</persName> rendo grazie infinite, e riprego centuplicate felicità. 
+               Saluto caramente il nostro <persName ref="#DLCL_CF_PC0090">Padre Don Leandro.</persName> 
+               Faremo qualche cosa del Ritratto. 
+               Ho caro che siano stati inviati a <placeName ref="#DLCL_CF_L0003">Pesaro</placeName> i <bibl type="religious">Calendarj.</bibl> 
+               Col <bibl type="print">Giornale</bibl> mi mandi i due <bibl type="print">Tometti delle Lettere</bibl> del <persName ref="#DLCL_CF_PC0141">Bembo</persName> in 8vo. 
+            </p>
+            
+            <p>
+               Che si fà della <bibl type="print">Istoria</bibl> del <persName ref="#DLCL_CF_PC0176">Carrari?</persName> 
+               Non tralasci di copiarla. 
+               Un giorno si cercherà, e non potrà aversi per tutto l’oro del mondo. 
+               Vi dia un’occhiata che dica de’ <persName ref="#DLCL_CF_PC0177">Traversari,</persName> e dell’essere gli stessi della famiglia de’ Duchi. 
+            </p>
+            
+            <p>
+               Iersera tra la confusione delle Carte mandatemi di costà ritrovai la <bibl type="religious">licenza del Santo Officio</bibl> 
+               di potere in perpetuo tenere ogni sorta di Libri in cotesta <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
+               La manderò con occasione sicura. 
+            </p>
+            
+            <closer>
+               <salute>Resto di vero cuore confermandomi.</salute> 
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName></dateline> 
+               <salute>DVPMR.</salute> 
+               <dateline><date when-iso="1716-12-22">22 dicembre 1716</date>.</dateline> 
+               <salute>Affettuosissimo Servitore e Cordialissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10046_L_C3V" n="3 - Verso" facs="https://classense.unibo.it/files/large/018030edcd5c09b7fbe4708aa581dd15fb8f4bb5.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

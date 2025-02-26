@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10051">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20683/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21111/full/610,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21112/full/625,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/24830/full/611,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/24831/full/644,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10051">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 9 Marzo 1717)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Carteggio Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">51</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository/>
+                     <collection/>
+                     <idno/>
+                     <altIdentifier>
+                        <idno/>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1717-03-09"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-04-11" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-09-10" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-22" who="#DLCL_CF_PS001">nuove trascrizioni</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10051_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20683/DSC_5898.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               [Si accenna un passo del <persName ref="#DLCL_CF_PC0014">Rossi</persName> <bibl type="print"><foreign xml:lang="la">Historiarum Ravennatum</foreign></bibl> 
+               Libro VII pagina 639 anno 1468 dove dice = 
+               <foreign xml:lang="la">Posteriore anno, soluto voto (Fridericus Imperator) Pontificique pollicitus se conventum <placeName ref="#DLCL_CF_L0092">Ratisponae</placeName> 
+                  De Regno Boemico <hi rend="underline">quem</hi> occupaverat Georgius Poggibratius vir haereticus, habiturum</foreign>]
+            </p>
+            
+            <p>   
+               Il rimprovero duplicato, che ha incontrato la <rs type="person" ref="#DLCL_CF_PC0002">Paternità Vostra</rs> nel viaggio, 
+               basta per concludere che convien tirare inanzi sulla traccia intrapresa, 
+               e non prendersi <gap reason="illegible"/>[...] di voler introdurre uniformità nell’<bibl type="religious">Officio della fer. 3a.</bibl> 
+            </p>
+            
+            <p>
+               Sento che il privilegio di <orgName ref="#DLCL_CF_O0057">Casa Vizani</orgName> punto non appartiene al Catanento, onde non fa al nostro proposito. 
+               Quel <hi rend="underline"><foreign xml:lang="la">quem</foreign></hi> bisogna riferirlo al <hi rend="underline"><foreign xml:lang="la">conventum</foreign></hi>: 
+               la qual relazione può illustrarsi collo studio della storia di quel Congresso. 
+               Al <persName ref="#DLCL_CF_PC0054">signor Abate Fiori</persName> ancora non ho trovato tempo per incaminare il carteggio; né potrò farle che dopo Pasqua. 
+            </p>
+            
+            <p>
+               Due soli parmi che sieno gli Autori, che fanno Camaldolese il <persName ref="#DLCL_CF_PC0337">Morosini</persName> Patriarca Costantinopolitano, 
+               cioè il <persName ref="#DLCL_CF_PC0389">Verdizotti</persName> da <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> trascritto, 
+               e il <persName ref="#DLCL_CF_PC0390">Ramusio,</persName> parmi, ne’ <bibl type="print">Viaggi</bibl> di <persName ref="#DLCL_CF_PC0405">Marco Polo,</persName> 
+               il quale segnatamente mi par che lo nomini Monaco di <orgName ref="#DLCL_CF_O0058">San Michele</orgName> forse con Anacronismo 
+               nominando l’Istituto nostro dal <orgName ref="#DLCL_CF_O0058">Monastero,</orgName> ch’ebbe di poi in <placeName ref="#DLCL_CF_L0024">Venezia,</placeName> o nelle sue lagune. 
+               Strana cosa pare che fosse eletto Patriarca un Monaco non ancora Diacono, leggendosi che <persName ref="#DLCL_CF_PC0406">Innocenzio III</persName> 
+               lo promosse dopo l’elezione agli Ordini Sagri del Diaconato, e <gap reason="illegible"/>[...], e poi lo consecrò Vescovo, 
+               e molto più accresce la difficoltà il leggere ch’egli era Soddiacono del <rs type="person" ref="#DLCL_CF_PC0406">Papa:</rs> 
+               il qual’impiego era una specie di prelatura, che durò sin vicino a nostri tempi, e cessò quando Soddiaconi Appostolici furono dichiarati gli Auditori della Rota Romana. 
+               Ma tuttavia può comporsi ogni difficoltà con istabilire che <persName ref="#DLCL_CF_PC0420">Tommaso Morosini</persName> fu prima Suddiacono Apostolico, 
+               indi abbandonata la Corte si ritirò tra Camaldolesi, da quelli estratto passò a risedere in <placeName ref="#DLCL_CF_L0077">Costantinopoli</placeName> Patriarca. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10051_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20683/DSC_5899.jpg"/>
+            
+            <p>
+               Con sommo contento riceverò la nuova che al <bibl type="print">Corpo del Bollando</bibl> si aggiungano i due Tomi ultimamente usciti in luce. 
+               Egualmente mi è stato caro intendere il viaggio di <persName ref="#DLCL_CF_PC0029">Frate Ferdinando,</persName> e gli <gap reason="illegible"/>[...] grazie. 
+               Del <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina</persName> non ho lettere, né da <placeName ref="#DLCL_CF_L0054">Parma</placeName> 
+               i libri se <gap reason="illegible"/>[...] veranno il <bibl type="manuscript">Manoscritto di Viterbo,</bibl> il <bibl type="print">Giornale di Venezia</bibl> 
+               e <bibl type="print">lo Sbaraglia,</bibl> mi saranno carissimi. 
+               Ammirerò nella stampa l’ingegno del Padre F<gap reason="illegible"/>[...] come l’ho ammirato nella viva voce. 
+               Quell’efficace spirito il quale giova in tutte le cose! 
+               Per mia parte si rallegri dell’<gap reason="illegible"/>[...] riportate ne’ loro discorsi 
+               dal <persName ref="#DLCL_CF_PC0093">Padre Lettore Onestini,</persName> e dal <persName ref="#DLCL_CF_PC0246">Padre Don Abondio.</persName> 
+            </p>
+            
+            <p>
+               La ringrazio dello scioglimento, ch’ella giudiziosamente ha trovato intorno alla <bibl type="religious">Bolla</bibl> 
+               di <persName ref="#DLCL_CF_PC0592">Papa Leone</persName> nella serie delle cose di <persName ref="#DLCL_CF_PC0407">Fabio Calvi.</persName> 
+               Sarebbe stato un gran miracolo se in tanta fretta, 
+               colla testa oppressa da una grave infreddatura io avessi potuto stendere quell’ordine di fatti senza incappare in manifesti errori. 
+               Mi avvidi che la cronologia non caminava bene. 
+            </p>
+            
+            <p>
+               Al <persName ref="#DLCL_CF_PC0056">Signor Sancassani</persName> mandai sollecitamente trascritta 
+               la <bibl type="print">XV Scanzia</bibl> del <persName ref="#DLCL_CF_PC0038">Cinelli.</persName> 
+               Che fà egli? 
+            </p>
+            
+            <p>
+               Di grazia <del rend="overstrike">di</del> mi faccia trascrivere, e mi mandi subito tutto il rimanente di <persName ref="#DLCL_CF_PC0389">Verdizotti,</persName> 
+               che spetta alla storia del <persName ref="#DLCL_CF_PC0337">Morosini</persName> cominciando dalle mosse de’ Veneziani collegati co’ Franzesi rivolte verso la Soria, 
+               e poscia indirizzare a sollevare il fanciullo <persName ref="#DLCL_CF_PC0408">Alessio,</persName> 
+               e a domare il Tiranno Mi<gap reason="illegible"/>[...] con quel, che segue. 
+            </p>
+            
+            <closer>
+               <salute>Resto di vero cuore.</salute> 
+               <salute>DVPMR.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1717-03-09">9 Marzo 1717</date>.</dateline>
+               <salute>Affettuosissimo Servitore e Padre Cordialissimo nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            
+            <pb xml:id="DLCL_CF_E10051_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/c56e501d3090b33999f7fffbc8562d9e3631587c.jpg"/>
+            
+            
+            <pb xml:id="DLCL_CF_E10051_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/e896b364fe555c0e45bd72a366c2da5490d3d218.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

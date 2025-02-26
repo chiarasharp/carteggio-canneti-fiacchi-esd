@@ -1,0 +1,204 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10043">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20675/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21085/full/601,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21086/full/623,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21087/full/606,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/24820/full/613,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10043">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Perugia, 24 Novembre 1716)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Carteggio Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+               <biblScope unit="letter">43</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1716-11-24"/>
+                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+               <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+               <xi:include href="../../entities/people/cited-people.xml"/>
+               <xi:include href="../../entities/people/staff.xml"/>
+               <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-03-18" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-04-04" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10043_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20675/DSC_5860.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Ricevo la prima copia del <bibl type="religious">Decreto nuovo</bibl> per la festa della Santissima Annunziata, che cade nel Giovedì Santo: 
+               ed è conforme a quel, che altre volte in simile occorrenza fu decretato. 
+               Un’altr’anno seguì il caso stesso, in tempo che io era di stanza in <orgName ref="#DLCL_CF_O0048">Sant’Ippolito di Faenza,</orgName> 
+               e mi ricordo che il <rs type="person">Superiore</rs> del <orgName ref="#DLCL_CF_O0048">Monastero</orgName> determinò il numero delle Messe, 
+               e i Sacerdoti che dovevano celebrarle. 
+               Lo stesso credo si facesse per le altre Chiese Regolari. 
+               Con tutto ciò se i Vescovi pretendessero assegnare il numero per le medesime, 
+               assisterebbe loro la lettera del <bibl type="religious">Decreto</bibl> ove par che tutta l’incombenza sia data agli Ordinarj de’ luoghi. 
+            </p>
+            
+            <p>
+               Godo che siasi rinvenuto il <bibl type="manuscript" source="#DLCL_CF_BM0008">Manoscritto delle Azioni Viterbesi.</bibl> 
+               Ha intorno a venticinque anni che questo mi fù donato 
+               dal <persName ref="#DLCL_CF_PC0317">Padre Monciotti</persName> Cisterciense Riformato che l’avea avuto in <placeName ref="#DLCL_CF_L0073">Brisighella.</placeName> 
+               Fino da quel tempo vi mancava la prima carta, ed un’altra, se non erro, pur vi mancava per entro il libro. 
+               Io lo legai con un filo, perché altre carte non andassero a male, con animo di farlo legar’una volta dal Libraio. 
+               Intanto andava io pensando il modo di supplir quel, che mancava. 
+               Or che son vicino a <placeName ref="#DLCL_CF_L0071">Viterbo,</placeName> <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> me lo mandi. 
+               Tenterò averne di là il supplemento, se pur si trova. 
+               Potrà inviarmelo col <bibl type="print">Giornale XXV.</bibl> 
+            </p>
+            
+            <p>
+               Mi consolo che la <bibl type="print">Vita</bibl> dell’<persName ref="#DLCL_CF_PC0261">Angelio</persName> vada al suo viaggio a <placeName ref="#DLCL_CF_L0018">Firenze.</placeName> 
+               Il <persName ref="#DLCL_CF_PC0270">Signor Cavalier Marmi,</persName> 
+               e al <persName ref="#DLCL_CF_PC0318">Signor Apostolo Zeno</persName> arrivò nuova la notizia di questa <bibl type="print">Vita,</bibl> 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10043_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20675/DSC_5861.jpg"/>
+            
+            <p>
+               ch’è forse unica nell’esemplare di cotesta <orgName ref="#DLCL_CF_O0001">Biblioteca,</orgName> 
+               e forse è stata scritta sì minutamente dallo stesso <persName ref="#DLCL_CF_PC0261">Bargeo,</persName> ond’è ch’essa è imperfetta. 
+               Comunque sia è da farne conto. 
+               Io l’ebbi da <placeName ref="#DLCL_CF_L0075">Pisa,</placeName> ove fu Lettor l’<persName ref="#DLCL_CF_PC0261">Angelio,</persName> 
+               ed ove fiorisce la sua Casa, ch’ebbe ultimamente un Cardinale, il quale si chiamava <foreign xml:lang="la"><hi rend="underline">de Angelis</hi></foreign>. 
+               Vi sono costì ancora alcune <bibl type="manuscript">lezioni manoscritte inedite</bibl> del medesimo <persName ref="#DLCL_CF_PC0261">Piero Angelio,</persName> 
+               e dovean esser quelle, che faceva nello Studio di quell’<orgName ref="#DLCL_CF_O0049">Università.</orgName> 
+            </p>
+            
+            <p>
+               Mentre stampavasi la <bibl type="print">Storia</bibl> del <persName ref="#DLCL_CF_PC0319">Fortunio,</persName> 
+               e tosto che fu stampata, egli mutò, e fù obbligato a mutar più cose sì nella prima, come nella 2a parte. 
+               Non si maravigli pertanto delle alterazioni, che trova nella serie delle carte e nelle lettere del registro. 
+               Io so’ che nella 2a parte libro 4 capitolo 26 seguì una grande mutazione, trovandosi pochissimi esemplari, 
+               ne quali si racconta l’orrendo caso dell’uccisione fatta in <placeName ref="#DLCL_CF_L0020">Classe,</placeName> 
+               dell’<persName ref="#DLCL_CF_PC0320">Abate Don Paolo Tinti</persName> Lodigiano per opera di due Monaci suoi Allievi, 
+               da <placeName ref="#DLCL_CF_L0016">Bagnacavallo,</placeName> che furono poi giustiziati in <placeName ref="#DLCL_CF_L0002">Ravenna.</placeName> 
+               Nella carta ristampata si sbriga questa ferale storia: <hi rend="underline"><foreign xml:lang="la">Maligni fati iniuriam vitare nequivit sublatis e medio</foreign></hi>. 
+               È così imperfetta, diffettuosa, tronca, e ingombrata d’errori la Storia nostra, che sarebbe meglio non fosse al mondo. 
+               Così si penserebbe a farne una nuova, la qual tanto più è necessaria, quanto pare meno giovevole, 
+               per esservi quella del <persName ref="#DLCL_CF_PC0319">Fortunio:</persName> e perciò non vi si pensa. 
+               Il <persName ref="#DLCL_CF_PC0132">Reverendissimo Grandi,</persName> ed io abbiamo delle notizie, che preveggo morranno con noi non bastando ancora que’ cenni, 
+               che si troveranno nelle nostre carte a formare l’idea dal principio fino a dì nostri, la quale abbiamo in mente. 
+               Io adesso 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10043_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20675/DSC_5862.jpg"/>
+            
+            <p>
+               non posso far’altro che attendere a terminare l’Opera, che hò alle mani tanto più desiderata dagli esteri, quanto meno curata da’ nostri. 
+               Ho finita la settimana scorsa li 25 libri delle <bibl type="print">Lettere.</bibl> 
+               Ora stò scrivendo la <bibl type="print">seconda delle sei Orazioni.</bibl> 
+               Compito questo lavoro (se pur viverò tanto) sarò alla vecchiaia. 
+               Quando però io avessi meco un Giovane capace, e affezionato a simili studj, e che volesse aiutarmi, si potrebbe in poco tempo far di molto. 
+               Hò consolazione in sentire il sapore, che anco di queste materie ha il <persName ref="#DLCL_CF_PC0093">Padre Lettore Onestini.</persName> 
+               Stà bene l’esito fatto del <persName ref="#DLCL_CF_PC0321">Gavanti.</persName> 
+               Dirò le due Messe, e sarà saldato il conto della <bibl type="print">Ravenna Dominante.</bibl> 
+            </p>
+            
+            <p>
+               Le figure nella <bibl type="print">Vita</bibl> del <persName ref="#DLCL_CF_PC0293">Bernini</persName> vi son tutte. 
+               Vanno poste nel fine; e il Ritratto, che manderò và sul principio, dopo l’Indice. 
+               La serie delle figure è questa. 
+               <list rend="numbered">
+                  <item n="1">1. Pianta della Chiesa.</item> 
+                  <item n="2">2. Disegno e pianta della Cupola.</item> 
+                  <item n="3">3. Disegno d’un pilastrone.</item> 
+                  <item n="4">4. Spaccato.</item>  
+                  <item n="5">5. della Nicchia vecchia.</item> 
+                  <item n="6">6. d’una delle Nicchie superiori</item> 
+                  <item n="7">7. come erano le scale.</item> 
+                  <item n="8">8. d’un arco lavorato male.</item> 
+                  <item n="9">9. d’un’arco a perfezione.</item> 
+               </list>            
+            </p>
+            
+            <p>
+               Un cordialissimo abbracciamento alli tre Padri Lettori <persName ref="#DLCL_CF_PC0090">Padri Don Leandro,</persName> 
+               <persName ref="#DLCL_CF_PC0184">Don Lotario</persName> e, <persName ref="#DLCL_CF_PC0246">Don Abondio.</persName> 
+               Si ricordi della <bibl type="religious">Scrittura della donazione dello Spedale</bibl> 
+               fatta dal <persName ref="#DLCL_CF_PC0322">Polentano</persName> al nostro <persName ref="#DLCL_CF_PC0032">Grande Ambrogio,</persName> che penso riferire intiera. 
+            </p>
+            
+            <closer>
+               <salute>Resto di vero cuore confermandomi.</salute> 
+               <salute>D.V.P.M.R.</salute> 
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia,</placeName> <date when-iso="1716-11-24">24 novembre 1716</date>.</dateline> 
+            </closer>
+            
+            <postscript>
+               <p>
+                  S’informi se il <persName ref="#DLCL_CF_PC0056">Signor Sancassani</persName> ha il <bibl type="manuscript">Manoscritto Marmora Pisauriensia.</bibl> 
+                  Avrei bisogno de i titoli, e sottoscrizioni delle lettere, che sono sul principio.
+               </p>
+            </postscript>
+            
+            <closer>
+               <salute>Affettuosissimo Servitore e Padre nel Signore Cordialissimo</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10043_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/f7686b87d9d5a561ca34562f4ffd3ffa44cd8546.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

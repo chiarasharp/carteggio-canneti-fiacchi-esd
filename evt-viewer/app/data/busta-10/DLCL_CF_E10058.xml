@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10058">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20690/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21134/full/608,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21135/full/605,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21136/full/591,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/21137/full/623,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10058">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 26 Giugno 1717)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">58</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1717-06-26"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-04-30" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10058_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20690/DSC_5933.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Per alcuni ordinarj non ho saputo distrarmi dall’applicazione al lavoro intorno alle <bibl type="print">Annotazioni.</bibl> 
+               <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> con l’ultima sua mi ha data materia di non poco travaglio. 
+               Finalmente conobbi la necessità di distruggere tutto quel, che io avea scritto intorno alla <persName ref="#DLCL_CF_PC0444">Cecilia Gonzaga,</persName> 
+               e ricominciar la tela da capo. 
+               La cosa è finita in modo che ho trovato infallibilmente non aver che fare nel caso nostro 
+               quella <persName ref="#DLCL_CF_PC0469">Cecilia</persName> figlia di <persName ref="#DLCL_CF_PC0446">Lodovico II</persName> 
+               Marchese di <placeName ref="#DLCL_CF_L0058">Mantova,</placeName> o legittima, o bastarda ch’ella siasi; 
+               ma fuor d’ogni dubbio esser questa una Sorella dello stesso <persName ref="#DLCL_CF_PC0446">Lodovico,</persName> 
+               e legittima figlia di <persName ref="#DLCL_CF_PC0442">Giovanfrancesco I</persName> Marchese, e di <persName ref="#DLCL_CF_PC0445">Paola Malatesta;</persName> 
+               quantunque appresso tutti gli scrittori se ne incontri un alto silenzio. 
+               Io ho salvato dalla dimenticanza il nome di questa dotta, e pia Vergine, e l’ho restituito alle glorie della <orgName ref="#DLCL_CF_O0055">Casa Gonzaga,</orgName> 
+               con l’aiuto, e scorta di <persName ref="#DLCL_CF_PC0443">Gregorio Corraro,</persName> 
+               che a lei scrive l’eruditissima lettera, e del nostro <persName ref="#DLCL_CF_PC0177">Ambrogio,</persName> il quale ne parla, ma senza esprimerne il nome. 
+               Son’arrivato a formare una Tavola Cronologica indubitatissima, ove sta l’anno della nascita sì del <persName ref="#DLCL_CF_PC0443">Corraro,</persName> 
+               come della <persName ref="#DLCL_CF_PC0444">Gonzaga,</persName> e la serie di quanto si è potuto saper dell’uno, e dell’altra, 
+               e di altri fatti, e persone, che ad essi si riferiscono, e se ne ha contezza nella pistola commentata. 
+               E in particolare ho determinato l’anno ch’è stata scritta la stessa lettera. 
+               La vera serie de’ Figliuoli di <persName ref="#DLCL_CF_PC0442">Giovan Francesco</persName> è questa: 
+               <list rend="numbered">
+                  <item n="1">il primo <persName ref="#DLCL_CF_PC0446">Lodovico</persName> Marchese II.</item> 
+                  <item n="2">Il 2° <persName ref="#DLCL_CF_PC0455">Carlo.</persName></item> 
+                  <item n="3">3 <del rend="overstrike">Gio Lucido</del> <persName ref="#DLCL_CF_PC0456">Margherita</persName></item> 
+                  <item n="4">4. <persName ref="#DLCL_CF_PC0441">Gio. Lucido</persName></item> 
+                  <item n="5">5. <persName ref="#DLCL_CF_PC0444">Cecilia.</persName></item> 
+                  <item n="6">6°. <persName ref="#DLCL_CF_PC0447">Alessandro.</persName></item> 
+               </list>
+               Dalla <persName ref="#DLCL_CF_PC0456">Margherita</persName> morta l’anno 1443 restò unico figlio legittimo di <persName ref="#DLCL_CF_PC0457">Lionello d’Este</persName> 
+               Marchese di <placeName ref="#DLCL_CF_L0013">Ferrara,</placeName> il piccolo <persName ref="#DLCL_CF_PC0470">Niccolò,</persName> ch’è falso essere stato bastardo. 
+               Della sorella di <persName ref="#DLCL_CF_PC0444">Cecilia,</persName> già morta, e del <rs type="person" ref="#DLCL_CF_PC0470">Nipotino</rs> rimasto, si fa menzione nella lettera 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10058_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20690/DSC_5934.jpg"/>
+            
+            <p>
+               ed era vivente il <rs type="person" ref="#DLCL_CF_PC0442">Padre</rs> di <persName ref="#DLCL_CF_PC0444">Cecilia,</persName> che morì di settembre 1444; 
+               onde tra questi due termini della morte della sorella seguita, e della <del rend="overstrike">vita</del> morte del Padre, 
+               che poi seguì nel settembre, resta fissata la data della lettera, Nonis Augusti, nell’anno istesso 1444. 
+               Vi si nomina <persName ref="#DLCL_CF_PC0177">Ambrogio Camaldolese</persName> morto poco prima, cioè nel 1439, cinque anni avanti non ancora finiti. 
+               Altre molte particolarità battono a segno, senza alcuna stiracchiatura, ma con quel candore schietto, ch’è proprio della verità. 
+            </p>
+            
+            <p>
+               Del <persName ref="#DLCL_CF_PC0440">Vittorino</persName> <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> 
+               mi scrive che ne ha fatta la <bibl type="print">vita</bibl> <persName ref="#DLCL_CF_PC0471">Francesco Bevilacqua.</persName> 
+               Non mi ricordo chi sia questo Scrittore, né appresso chi si trovi tal vita. 
+               De’ Personaggi della <orgName ref="#DLCL_CF_O0055">Casa Gonzaga</orgName> fioriti in quell’età ne feci così una Collectanea dagli Storici Mantovani, 
+               che mi è bastata pienamente al bisogno. 
+               Trascrissi anche allora la testimonianza del <persName ref="#DLCL_CF_PC0235">Possevino</persName> intorno al nostro <persName ref="#DLCL_CF_PC0177">Ambrogio.</persName> 
+               Con tutto ciò la ringrazio dell’incomodo presosi nel favorirmene. 
+               In simili congiunture seguiti a suggerirmi quel, che incontra. 
+            </p>
+            
+            <p>
+               Con suo comodo attenderò quel, che mi fa sperare la cordialità sua, e del nostro <persName ref="#DLCL_CF_PC0090">Padre Don Leandro,</persName> 
+               intorno a <persName ref="#DLCL_CF_PC0437">San Bonifazio,</persName> del quale veggo una vasta selva di cose, e dell’<persName ref="#DLCL_CF_PC0435">Argiride.</persName> 
+               Il <bibl type="manuscript" source="#DLCL_CF_BM0009">Filenico</bibl> (che ho trovato esser’opera di <persName ref="#DLCL_CF_PC0472">Francesco Spirito Perugino</persName>) 
+               sta presso di me con <bibl type="manuscript">venti e più altri codici a penna,</bibl> alcuni de quali ho quì acquistati; 
+               è tra gli altri <bibl type="manuscript" source="#DLCL_CF_BM0007">un Dante</bibl> scritto verso il 1365, 
+               non molto lungi dall’età dell’Autore corretto, bello, e degno di grande stima. 
+               L’ho fatto legar nobilmente. 
+            </p>
+            
+            <p>
+               Aspetto il <bibl type="print">Giornale 26 27</bibl> e altri, se ne son’usciti; e i <bibl type="print">Saggi de’ Filergiti,</bibl> 
+               di cui mi favorisce il <persName ref="#DLCL_CF_PC0433">Signor Conte Monsignani.</persName> 
+               Vi aggiunga il <persName ref="#DLCL_CF_PC0473">Campana,</persName> e gli <bibl type="print">Annali di</bibl> 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10058_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20690/DSC_5935.jpg"/>
+            
+            <p>
+               <bibl type="print">San Giorgio in Alga</bibl> del <persName ref="#DLCL_CF_PC0474">Tommasini.</persName> 
+               Mandi tutto in <placeName ref="#DLCL_CF_L0030">Sinigaglia</placeName> per la fiera al <persName ref="#DLCL_CF_PC0475">Signor Paolo Sgherri.</persName> 
+               Di là leverà l’involto il mio <rs type="person">Padre Camerlengo,</rs> che vi anderà. 
+            </p>
+            
+            <p>
+               <persName ref="#DLCL_CF_PC0216">Monsignore Fontanini</persName> da <placeName ref="#DLCL_CF_L0024">Venezia</placeName> 
+               mi scrive in quest’ordinario ch’è stato a veder la <orgName ref="#DLCL_CF_O0075">Biblioteca del nostro San Mattia,</orgName> 
+               ove ha vedute antiche edizioni insigni, e molti Manoscritti. 
+               Il <persName ref="#DLCL_CF_PC0476">Padre Abate Tassi</persName> l’ha messa in ordine. 
+               I Giornalisti ne fecero menzione con lode del moderno <persName ref="#DLCL_CF_PC0477">Padre Abate Rossini.</persName> 
+            </p>
+            
+            <closer>
+               <salute>In fretta di cuore resto.</salute> 
+               <salute>DVPMR.</salute> 
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1717-06-26">26 giugno 1717</date>.</dateline> 
+            </closer>
+            
+            <postscript>
+               <p>
+                  Nel fargl’involti de libri vi metta più fogli intorno; e non stringa tanto collo spago; perché non patiscano i libri. 
+               </p>
+               
+               <p>
+                  Ho fretta della notizia della <bibl type="print">Vita</bibl> del <persName ref="#DLCL_CF_PC0440">Vittorino,</persName> 
+                  e de’ passi del <persName ref="#DLCL_CF_PC0176">Carrari,</persName> sopra i <orgName ref="#DLCL_CF_O0066">Traversari.</orgName> 
+                  Il <persName ref="#DLCL_CF_PC0132">Reverendo Grandi,</persName> ha composto una <bibl type="print">Canzone Astronomica,</bibl> 
+                  ch’è un viaggio per tutti i Pianeti mirabile. 
+                  Si stamperà nelle <bibl type="print">Poesie degli Arcadi.</bibl> 
+               </p>
+            </postscript>
+            
+            <closer>
+               <salute>Affettuosissimo servo e Cordialissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10058_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/20690/DSC_5936.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+               
+               <p>
+                  'Di <persName ref="#DLCL_CF_PC0470">Nicollò da Este</persName> figlio di <persName ref="#DLCL_CF_PC0457">Lionello</persName> 
+                  parla il <persName ref="#DLCL_CF_PC0478">Sardi</persName> <bibl type="print">Istoria di Ferrara</bibl> lib. 8 anno 1445.  
+                  <gap reason="illegible"/>[...] acciocché in questo modo... potesse meglio confirmare lo stato a <persName ref="#DLCL_CF_PC0470">Niccolò</persName> nato da lui, 
+                  et di <persName ref="#DLCL_CF_PC0456">Margherita Gonzaga</persName> sua prima moglie; 
+                  più abbasso all’anno 1450 pagina 162 così dice: = et tra lui e <persName ref="#DLCL_CF_PC0470">Nicolò</persName> 
+                  figliuolo di <persName ref="#DLCL_CF_PC0457">Lionello</persName> sariano nasciute Brighe 
+                  avendo anco <persName ref="#DLCL_CF_PC0446">Ludovico Gonzaga</persName> Zio di <persName ref="#DLCL_CF_PC0470">Nicolò.</persName> 
+               </p>
+               
+               <p>
+                  Il <persName ref="#DLCL_CF_PC0479">Giraldi</persName> nel <bibl type="print">Commentario delle cose di Ferrara</bibl> 
+                  parlando di <persName ref="#DLCL_CF_PC0457">Lionello da Este</persName> pagina 88 dice: = 
+                  Perciocche avendo <persName ref="#DLCL_CF_PC0480">Nicolò</persName> suo padre lasciato sotto la tutela di lui <persName ref="#DLCL_CF_PC0481">Hercole,</persName> 
+                  et <persName ref="#DLCL_CF_PC0482">Gismondo</persName> suoi legittimi fratelli; 
+                  esso che era bastardoe = e alla pagina 90: = Hebbe due mogli, l’una dopo l’altra, 
+                  la prima <persName ref="#DLCL_CF_PC0456">Margherita Gonzaga</persName> nel 1434, a 6 di febraio, 
+                  della quale nel 1438 a 29 di giugno, nacque quel <persName ref="#DLCL_CF_PC0470">Nicolò.</persName> 
+               </p>
+               
+               <p>
+                  Di <persName ref="#DLCL_CF_PC0440">Vittorino da Feltre</persName> parla l’<persName ref="#DLCL_CF_PC0493">Alberti</persName> 
+                  nell’<bibl type="print">Italia car.</bibl> 431 fol. = 
+                  Dierono fama a questa Città al quanti nobili <del rend="overstrike">huomini</del> ingegni, tra i quali fù <persName ref="#DLCL_CF_PC0440">Vittorino,</persName> 
+                  huomo buono et litterato, il qual (nei tempi dei nostri Avoli) molto se affaticò in ristorare la lingua latina, che già lungo tempo era mancata - 
+               </p>
+               
+               <p>   
+                  <persName ref="#DLCL_CF_PC0484">Mario Equicola</persName> nei <bibl type="print">Commentari Mantovani</bibl> Libro III in principio pagina 166: = 
+                  Questo conoscendo il Marchese <persName ref="#DLCL_CF_PC0442">Giovanfrancesco,</persName> volle che <persName ref="#DLCL_CF_PC0446">Lodovico,</persName> 
+                  et i figliuoli fossero ammaestrati da <persName ref="#DLCL_CF_PC0440">Vittorino da Feltre,</persName> 
+                  huomo (come dice il <persName ref="#DLCL_CF_PC0483">Platina)</persName> di socratico ingegno: et <persName ref="#DLCL_CF_PC0471">Francesco Bevilacqua,</persName> 
+                  il quale scrisse la <bibl type="print">Vita</bibl> del detto <persName ref="#DLCL_CF_PC0440">Vittorino</persName> lo fa simile a qualunque antico lodato filosofo. 
+               </p>
+               
+               <p>
+                  <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0483">Baptista Sacchus Cremonensis vulgo Platina</persName></foreign> 
+                  in <bibl type="print"><foreign xml:lang="la">Historia Mantuana</foreign></bibl> lib. 6 pag. 387: = 
+                  <foreign xml:lang="la">
+                     Quatuor reliquit filios, à <persName ref="#DLCL_CF_PC0440">Victorino Feltrensi,</persName> Viro optimo atque doctissimo et qui Socraticum ingenium redolebat,
+                     moribus ac disciplina tum Graeca tum Latina imbutos. 
+                  </foreign>
+               </p>
+               
+               <p>
+                  <persName ref="#DLCL_CF_PC0068">Maffei</persName> <bibl type="print">Annali di Mantova</bibl> libro XI. in principio pagina 771: = 
+                  Il Padre l’aveva fatto ammaestrare nelle buone arti, 
+                  e dottrine da <persName ref="#DLCL_CF_PC0440">Vittorino</persName> Oratore famoso di quei tempi, e d’ingegno socratico, 
+                  come dal <persName ref="#DLCL_CF_PC0483">Platina</persName> vien detto; 
+                  e ne <bibl type="print">Commentari da <gap reason="illegible"/>[...]</bibl> (lib. 2) è scritto ch’egli conseguì la scienza del Maestro. 
+               </p>
+               
+               <p>
+                  <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0235">Antonius Possevinus</persName></foreign> 
+                  <bibl type="print"><foreign xml:lang="la">Iun. in Gonzaga</foreign></bibl> lib. 6 ad annum 1444 pagina 564: = 
+                  <foreign xml:lang="la">
+                     <persName ref="#DLCL_CF_PC0440">Victorinus</persName> sui aevi Philosophus, multis <gap reason="illegible"/>[...]orum sapientiae professoribus comparandus, 
+                     et eloquentiae praecept<gap reason="illegible"/>[...]rus, Feltri in Patria, pubem ingenuam erudiendam superat. 
+                     Hunc <persName ref="#DLCL_CF_PC0446">Ludovicus</persName> fama viri motus, cum plures <gap reason="illegible"/>[...]er obtulisset, ante alios accessiri postulavit: 
+                     ut fratres ac plerique nobilium civium liberi, eodem praeceptore <gap reason="illegible"/>[...]tur, aemulatione gloriae prefecturi. 
+                     Graecarum literarum studium addictum: et <persName ref="#DLCL_CF_PC0446">Ludovicus</persName> ideo amplexus fertar quod 
+                     [a magistro accepisset, nullum <gap reason="illegible"/>[...] linguae rudem, vere literati nomen pro<gap reason="illegible"/>[...]reri]. 
+                  </foreign>
+               </p>
+            </postscript>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

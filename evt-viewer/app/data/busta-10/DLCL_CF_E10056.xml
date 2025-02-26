@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10056">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20688/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21122/full/595,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21123/full/629,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21124/full/593,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/21125/full/614,800/0/default.jpg"/>
+   </facsimile>
+   <facsimile sameAs="https://classense.unibo.it/iiif/21126/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21127/full/591,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21128/full/631,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21129/full/584,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/21130/full/620,800/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <group>
+         <text type="letter" xml:id="DLCL_CF_E10056_L">
+            <front>
+               <fileDesc>
+                  <titleStmt>
+                     <title xml:lang="it">Canneti a Fiacchi (Perugia, 18 Maggio 1717)</title>
+                     <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+                  </titleStmt>
+                  <publicationStmt>
+                     <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+                     <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                     </availability>
+                  </publicationStmt>
+                  <seriesStmt>
+                     <title type="main">Carteggio Canneti Fiacchi</title>
+                     <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+                     <biblScope unit="letter">56</biblScope>
+                  </seriesStmt>
+                  <sourceDesc>
+                     <msDesc>
+                        <msIdentifier>
+                           <country key="IT">Italia</country>
+                           <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                           <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                           <repository/>
+                           <collection/>
+                           <idno/>
+                           <altIdentifier>
+                              <idno/>
+                           </altIdentifier>
+                        </msIdentifier>
+                     </msDesc>
+                  </sourceDesc>
+               </fileDesc>
+               <profileDesc>
+                  <correspDesc>
+                     <correspAction type="sent">
+                        <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                        <date when-iso="1717-05-18"/>
+                        <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+                     </correspAction>
+                     <correspAction type="received">
+                        <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+                     </correspAction>
+                  </correspDesc>
+                  <langUsage>
+                     <language ident="it"/>
+                  </langUsage>
+                  <settingDesc>
+                     <xi:include href="../../entities/places.xml"/>
+                  </settingDesc>
+                  <particDesc>
+                     <xi:include href="../../entities/people/cited-people.xml"/>
+                     <xi:include href="../../entities/people/staff.xml"/>
+                     <xi:include href="../../entities/orgs.xml"/>
+                  </particDesc>
+               </profileDesc>
+               <revisionDesc status="created">
+                  <change when-iso="2024-04-18" who="#DLCL_CF_PS001">creato</change>
+                  <change when-iso="2024-09-11" who="#DLCL_CF_PS001">correzioni</change>
+                  <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
+                  <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
+                  <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+               </revisionDesc>
+            </front>
+            <body>
+               <div type="transcription">
+                  <pb xml:id="DLCL_CF_E10056_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20688/DSC_5915.jpg"/>
+                  
+                  <opener>
+                     <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+                  </opener>
+                  
+                  <p>
+                     In primo luogo mi occorre pregare istantemente <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> 
+                     che negli Scrittori delle cose di <placeName ref="#DLCL_CF_L0058">Mantova</placeName> mi trovi il modo di sciogliere un nodo, 
+                     il quale incontro nel far le Annotazioni consapute. 
+                     In una pistola dell’anno 1435 <persName ref="#DLCL_CF_PC0177">Ambrogio</persName> portatosi a <placeName ref="#DLCL_CF_L0058">Mantova</placeName> 
+                     vi trovò sotto la disciplina del famoso <persName ref="#DLCL_CF_PC0440">Vittorino</persName> <persName ref="#DLCL_CF_PC0441">Giovan Lucido,</persName> 
+                     e gli altri Figliuoli del Principe, ch’era il <persName ref="#DLCL_CF_PC0442">Marchese Giovan Francesco</persName> (se io non erro), 
+                     tra quali Figlj eravi anco una fanciulla di età in circa di dieci anni, 
+                     la quale era mirabile nello scrivere in greco. 
+                     Nelle lettere aggiunte ad <persName ref="#DLCL_CF_PC0177">Ambrogio,</persName> 
+                     evvene una molto considerabile di <persName ref="#DLCL_CF_PC0443">Gregorio Corario Protonotajo Appostolico</persName> a
+                     <persName ref="#DLCL_CF_PC0444">Cecilia Gonzaga,</persName> in cui loda il proposito suo di osservar verginità, non ostanti le opposizioni del Padre, e di tutta la Corte; 
+                     e la istruisce come conservar si debba nella Casa paterna quando il padre persista in negarle l’ingresso d’un Monastero; 
+                     e la esorta ad abbandonare gli studj profani sotto <persName ref="#DLCL_CF_PC0440">Vittorino</persName> appresi; 
+                     e finalmente esalta la pietà della <rs type="person">Madre Illustre Donna,</rs> la quale aderisce alla pietà della figliuola. 
+                     Io da principio ho formato confusamente concetto che una sola sia <rs type="person">questa divota Donzella,</rs> 
+                     figlia del <persName ref="#DLCL_CF_PC0442">marchese Giovanfrancesco,</persName> e della pijssima <persName ref="#DLCL_CF_PC0445">Paola Malatesta.</persName> 
+                     Ma in certe memorie costì fatte trovo da me notato un passo del <persName ref="#DLCL_CF_PC0235">Possevino</persName> 
+                     nel <bibl type="print">Gonzaga, o Storie di Mantova,</bibl> libro pagina 566: 
+                     <hi rend="underline"><foreign xml:lang="la">Sunt qui Caeciliam furto habitari referunt, et Monialibus additam, tegendo pudori</foreign></hi>; 
+                     e ivi altresì ho scritto ch’essa fusse figliuola di <persName ref="#DLCL_CF_PC0446">Lodovico</persName> figlio di <persName ref="#DLCL_CF_PC0442">Giovanfrancesco.</persName> 
+                  </p>
+                  
+                  <pb xml:id="DLCL_CF_E10056_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20688/DSC_5916.jpg"/>
+                  
+                  <p>
+                     Se ciò fosse vero, la <persName ref="#DLCL_CF_PC0444 #DLCL_CF_PC0469" cert="unknown">Cecilia</persName> non saria la stessa fanciulla lodata da <persName ref="#DLCL_CF_PC0177">Ambrogio,</persName> 
+                     ma Nipote di quella. 
+                     Che questa, cui è indiritta la lettera del <persName ref="#DLCL_CF_PC0443">Corario,</persName> può credersi bastarda, 
+                     e renduta Monaca, per occultare il difetto de’ Natali, repugna la lettera medesima, ove è nominata la <rs type="person">Madre Illustre Femmina,</rs> 
+                     e ove lungo è il discorso sopra i contrasti del Genitore, 
+                     le nozze destinatele, la ripugnanza de’ fratelli, e la disperazione di monacarsi in <placeName ref="#DLCL_CF_L0058">Mantova;</placeName> 
+                     a segno che la consiglia andarsene per tal’effetto a <placeName ref="#DLCL_CF_L0024">Venezia.</placeName> 
+                  </p>
+                  
+                  <p>
+                     Veda dunque nell’<bibl type="print">albero del Campana,</bibl> e negli altri Storici, 
+                     quante Cecilie vi siano e se vi si trova la sorella di <persName ref="#DLCL_CF_PC0441">Giovan Lucido,</persName> 
+                     di <persName ref="#DLCL_CF_PC0446">Lodovico,</persName> e di <persName ref="#DLCL_CF_PC0447">Alessandro,</persName> che era di 10 anni in circa nel 1435. 
+                     E osservi quel, che si dice di questa (quando sia distinta) di qual madre sia figlia, se poi si facesse Monaca; 
+                     se si trovino opere da lei composte; e rilevi le notizie, che ne han lasciato gli Autori. 
+                     Certamente, quando di questa <persName ref="#DLCL_CF_PC0444">Cecilia,</persName> cui è scritta la lettera del <persName ref="#DLCL_CF_PC0443">Coraro,</persName> 
+                     parlasse nel citato luogo il <persName ref="#DLCL_CF_PC0235">Possevino,</persName> resterebbe egli dalla medesima lettera convinto di menzogna. 
+                     <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> intende la richiesta mia, e il mio bisogno. 
+                     Or quanto più presto può mi favorisca. 
+                  </p>
+                  
+                  <p>
+                     Aggiungo che nella lettera si dice la <persName ref="#DLCL_CF_PC0444">Cecilia</persName> aver’avuta <rs type="person">un’altra Sorella,</rs> 
+                     ch’era stata in matrimonio congiunta, ed era già morta; 
+                     della quale altresì desidero notizia, per illustrar quel passo della <rs type="person">Sorella</rs> medesima. 
+                  </p>
+                  
+                  <p>
+                     Conservi nota, la prego, delle altre notizie, che forse rimangono da suggerirmi. 
+                     Nuovamente le raccomando le mie premure intorno a quel, che le scrissi del Corpo dell’<persName ref="#DLCL_CF_PC0435">Argiride.</persName> 
+                     In quella fretta, e confusione, che accadde, non sò se siasi conservata copia dell’Iscrizione, la quale ora stà rivolta al muro. 
+                     E pur’era bene conservarla, e trascriver l’altra, che stava dietro all’Altar maggiore. 
+                     Diedi ordine che l’antica lapida greca si conservasse in <orgName ref="#DLCL_CF_O0001" cert="unknown">Archivio,</orgName> 
+                     finché applicasse alcuno a fissarla stabilmente in qualche sito proprio, come doveriano fissarsi le altre costì raccolte. 
+                  </p>
+                  
+                  <p>
+                     Aspetto risposta dal <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina.</persName> 
+                     Riverisca il <rs type="person">Padre Camerlingo,</rs> cui ricordo il servizio di <placeName ref="#DLCL_CF_L0001">Cremona.</placeName> 
+                  </p>
+                  
+                  <pb xml:id="DLCL_CF_E10056_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20688/DSC_5922.jpg"/>
+                  
+                  <p>
+                     Ho ricevuto il foglio colle notizie dell’Iscrizione, e del sepolcro, dell’anno 1711 scoperto in <orgName ref="#DLCL_CF_O0029">San Vitale;</orgName> 
+                     e ne vendo all’attenzione amorosa di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> grazie somme, e di tutto cuore, 
+                     come ancora al nostro Amatissimo <persName ref="#DLCL_CF_PC0093">Padre Lettore Onestini,</persName> che le ha con tanta destrezza ottenute. 
+                     Rifletto che è stato abolito il primo Documento in cui si descriveva, come di santo, il tumulo scoperto, 
+                     e si credeva sangue il color del frammento di vetro. 
+                     De’ frammenti di vetro colorati, che si trovano ne’ Cimiteri di <placeName ref="#DLCL_CF_L0008">Roma,</placeName> un’intero volume ha scritto, 
+                     e pubblicato ora il Senatore <persName ref="#DLCL_CF_PC0458">Filippo Buonarruoti</persName> 
+                     Autor del <bibl type="print">Libro de’ Medaglioni</bibl> del fu <persName ref="#DLCL_CF_PC0459">Cardinale Carpegna.</persName> 
+                     Cotesto scrittore della <bibl type="print">Ravenna Dominante</bibl> ha prodotto il sentimento di <persName ref="#DLCL_CF_PC0050">Monsignor Bianchini,</persName> 
+                     il quale non avrà gradito che si dia fuori una sua conghiettura non ancor digerita, e dalle necessarie maggiori notizie abbandonata: 
+                     siccome né pur’a me piace che si conservi col mio nome la prima mia interpretazione, della quale io subito recedetti, 
+                     e intieramente abbracciai quella del <persName ref="#DLCL_CF_PC0009">Padre Abate Bacchini.</persName> 
+                  </p>
+                  
+                  <p>
+                     A questa ora suppongo che sarà partito il <persName ref="#DLCL_CF_PC0460">Padre Prior Maffetti</persName> 
+                     per <placeName ref="#DLCL_CF_L0024">Venezia</placeName> alla nuova sua residenza. 
+                     Prima non ho potuto scrivere; ed oggi pure non mi trovo colla libertà, che vorrei di farlo. 
+                     In somma con sommo mio dispiacere conosco non essere in tempo di riverir’il suddetto <rs type="person" ref="#DLCL_CF_PC0460">Padre Priore</rs> per di lei mezzo, 
+                     e confermargli l’applauso degnamente nel Capitolo riportato da codesto <persName ref="#DLCL_CF_PC0461">Padre Lettore Don Teodoro,</persName> 
+                     che ho udito egregiamente orare in latino nel funerale degli Abati, 
+                     e una volta argomentare mirabilmente, trovandomi in ambe le occasioni vicino al <persName ref="#DLCL_CF_PC0009">Padre Abate Bacchini,</persName> 
+                     come vicino ad esso sono stato in tutte quasi le funzioni. 
+                     Divotamente riverisca il <rs type="person">Padre Lettore medesimo.</rs> 
+                  </p>
+                  
+                  <p>
+                     Mi spiace esser lontano, e così esser privo di veder la scrittura, alla quale non diffiderei che si trovasse la risposta. 
+                     È stato bene che i <rs type="person">Reverendissimi Venezianii</rs> abbiano veduta la <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
+                     Godo del zelo del <persName ref="#DLCL_CF_PC0020">Reverendissimo [Ziani] Prelato Lettore</persName> per l’opera d’<persName ref="#DLCL_CF_PC0177">Ambrogio.</persName> 
+                     Le Annotazioni sono una grandissima selva. 
+                     Io non ho tutto il 
+                  </p>
+                  
+                  <pb xml:id="DLCL_CF_E10056_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/20688/DSC_5923.jpg"/>
+                  
+                  <p>
+                     comodo, anzi mi manca il principale, ch’è quello de’ libri. 
+                     Il <persName ref="#DLCL_CF_PC0009">Padre Abate Bacchini</persName> mi disse che a ciò egli corse colla riflessione, 
+                     quando intese che io tanto era allontanato da cotesta <orgName ref="#DLCL_CF_O0001">Biblioteca,</orgName> e dà nelle smanie, quando ne discorre. 
+                     Egli sa quali armi richiegga questa sorta di studj. 
+                  </p>
+                  
+                  <closer>
+                     <salute>Caramente l’abbraccio, e mi confermo.</salute> 
+                     <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1717-05-18">18 Maggio 1717</date></dateline>
+                     <salute>DVPMR.</salute>
+                  </closer>
+                  
+                  <postscript>
+                     <p>
+                        Al Molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                        <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+                     </p>
+                     
+                     <p>
+                        [<foreign xml:lang="la"><persName ref="#DLCL_CF_PC0462">Jo(annes) [Fischerus'</persName> To. 14 Bibl. Roc.] 
+                           Roffensis Ep. scripsit contra <persName ref="#DLCL_CF_PC0463">Lutheri</persName> errores articulos a <persName ref="#DLCL_CF_PC0592">Leone X</persName> damnatus</foreign>.
+                     </p>
+                     
+                     <p>
+                        <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0439">Jo. Cocleus</persName></foreign> 
+                        <bibl type="print"><foreign xml:lang="la">de Actis et Scriptis Lutheri</foreign></bibl> et <bibl type="print">.<foreign xml:lang="la">Septicipium Lutherum</foreign></bibl> 
+                     </p>
+                     
+                     <p>
+                        <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0438">Iodocus Coccius</persName></foreign> 
+                        <bibl type="print"><foreign xml:lang="la">Thesaurus Catholicus contra haereticos omnis</foreign></bibl>
+                     </p>
+                     
+                     <p>
+                        <bibl type="print">.<foreign xml:lang="la">It Calvinistas, Lutheranos et alios</foreign></bibl> A 
+                     </p>
+                     
+                     <p>
+                        <foreign xml:lang="la">Item Walenburchij fratuos</foreign>]
+                     </p>
+                  </postscript>
+                  
+                  <closer>
+                     <salute>Arrivederci al prossimo ordinario</salute>
+                     <salute>Affettuosissimo Servitore e Padre nel Signore Cordialissimo</salute> 
+                     <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+                  </closer>
+                  
+               </div>
+            </body>
+         </text>
+         <text type="attachment" xml:id="DLCL_CF_E10056_A01">
+            <front>
+               <fileDesc>
+                  <titleStmt>
+                     <title xml:lang="it">Canneti a Fiacchi (Perugia, 18 Maggio 1717)</title>
+                     <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+                  </titleStmt>
+                  <publicationStmt>
+                     <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+                     <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                     </availability>
+                  </publicationStmt>
+                  <seriesStmt>
+                     <title type="main">Carteggio Canneti Fiacchi</title>
+                     <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+                     <biblScope unit="letter">56</biblScope>
+                  </seriesStmt>
+                  <sourceDesc>
+                     <msDesc>
+                        <msIdentifier>
+                           <country key="IT">Italia</country>
+                           <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                           <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                           <repository/>
+                           <collection/>
+                           <idno/>
+                           <altIdentifier>
+                              <idno/>
+                           </altIdentifier>
+                        </msIdentifier>
+                     </msDesc>
+                  </sourceDesc>
+               </fileDesc>
+               <profileDesc>
+                  <correspDesc>
+                     <correspAction type="sent">
+                        <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                        <date when-iso="1717-05-18"/>
+                        <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+                     </correspAction>
+                     <correspAction type="received">
+                        <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+                     </correspAction>
+                  </correspDesc>
+                  <langUsage>
+                     <language ident="it"/>
+                  </langUsage>
+                  <settingDesc>
+                     <xi:include href="../../entities/places.xml"/>
+                  </settingDesc>
+                  <particDesc>
+                     <xi:include href="../../entities/people/cited-people.xml"/>
+                     <xi:include href="../../entities/people/staff.xml"/>
+                     <xi:include href="../../entities/orgs.xml"/>
+                  </particDesc>
+               </profileDesc>
+               <revisionDesc status="created">
+                  <change when-iso="2024-04-18" who="#DLCL_CF_PS001">creato</change>
+                  <change when-iso="2024-09-11" who="#DLCL_CF_PS001">correzioni</change>
+                  <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
+                  <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
+                  <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+               </revisionDesc>
+            </front>
+            <body>
+               <div type="transcription">
+                  <pb xml:id="DLCL_CF_E10056_A01_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/21126/DSC_5917.jpg"/>
+               
+                  <p>
+                     <persName ref="#DLCL_CF_PC0448">Susanna</persName> figlia 'maggiore' di <persName ref="#DLCL_CF_PC0446">Lodovico</persName> 
+                     Marchese di <placeName ref="#DLCL_CF_L0058">Mantova</placeName> vien promessa a <persName ref="#DLCL_CF_PC0449">Galeazzo Sforza,</persName> 
+                     ma dopo esser stata scoperta alquanto offesa nella spalla gli fu preposta l’altra figlia 
+                     di <persName ref="#DLCL_CF_PC0446">Ludovico</persName> <persName ref="#DLCL_CF_PC0450">Dorotea</persName> e la prima si fece Monaca. 
+                     anno 1470 <persName ref="#DLCL_CF_PC0068">Maffei</persName> pagina <bibl type="print">795.</bibl> 
+                  </p>
+               
+                  <p>
+                     <persName ref="#DLCL_CF_PC0491">Barbara</persName> Figlia di <persName ref="#DLCL_CF_PC0446">Ludovico</persName> 
+                     sposata con <persName ref="#DLCL_CF_PC0452">Eberardo</persName> conte di <placeName ref="#DLCL_CF_L0097">Vitimberga.</placeName> 
+                     anno 1474, pagina <bibl type="print">796.</bibl> 
+                  </p>
+               
+                  <p>
+                     <persName ref="#DLCL_CF_PC0450">Dorotea</persName> moglie di <persName ref="#DLCL_CF_PC0449">Galeazzo</persName> Duca di <placeName ref="#DLCL_CF_L0027">Milano</placeName> 
+                     avvelenata, avvanti il 1476, pagina <bibl type="print">797.</bibl> 
+                  </p>
+               
+                  <pb xml:id="DLCL_CF_E10056_A01_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/21126/DSC_5919.jpg"/>
+               
+                  <p>
+                     <persName ref="#DLCL_CF_PC0068">Maffei</persName> 
+                  </p>
+               
+                  <p>
+                     <persName ref="#DLCL_CF_PC0442">Gio. Francesco,</persName> Mogl. <persName ref="#DLCL_CF_PC0445">Paola Malat.</persName> 
+                  </p>
+               
+                  <p>
+                     <persName ref="#DLCL_CF_PC0441">Gio. Lucido</persName> <persName ref="#DLCL_CF_PC0455">Carlo</persName> 
+                     <persName ref="#DLCL_CF_PC0446">Lodovico</persName><space quantity="8" unit="chars"/><persName ref="#DLCL_CF_PC0456">Margherita</persName> 
+                     <persName ref="#DLCL_CF_PC0447">Alessandro</persName> 
+                  </p>
+               
+                  <p>
+                     <persName ref="DLCL_CF_PC0451">Mogl. Barbara</persName><space quantity="4" unit="chars"/>di <persName ref="#DLCL_CF_PC0457">Leonello</persName> di 
+                  </p>
+      
+                  <p>
+                     di <placeName ref="#DLCL_CF_L0098">Brandemb.</placeName><space quantity="8" unit="chars"/><placeName ref="#DLCL_CF_L0013">Ferrara</placeName> 
+                  </p>
+                  
+                  <p>
+                     |
+                  </p>
+               
+                  <p>
+                     <persName ref="#DLCL_CF_PC0485">Rodolfo</persName> <persName ref="#DLCL_CF_PC0486">Francesco Card.</persName> 
+                     <persName ref="#DLCL_CF_PC0487">Federico</persName><space quantity="4" unit="chars"/><persName ref="#DLCL_CF_PC0450">Dorotea</persName>
+                     <space quantity="4" unit="chars"/><persName ref="#DLCL_CF_PC0489">Lodov.</persName> 
+                     <persName ref="#DLCL_CF_PC0490" cert="high" xml:id="DLCL_CF_E10056_N001">Giov. Fed.</persName> 
+                     <persName ref="#DLCL_CF_PC0469">Cecilia</persName><space quantity="4" unit="chars"/><persName ref="#DLCL_CF_PC0491">Barbara</persName>
+                     <space quantity="8" unit="chars"/><persName ref="#DLCL_CF_PC0448">Susanna</persName><space quantity="4" unit="chars"/><persName ref="#DLCL_CF_PC0492">Paola</persName> 
+                  </p>
+               
+                  <p>
+                     <persName ref="#DLCL_CF_PC0488">Margherita</persName> di<space quantity="8" unit="chars"/><persName ref="#DLCL_CF_PC0449">Galeazzo</persName>
+                     <space quantity="8" unit="chars"/>Co. Vittemb.<space quantity="2" unit="chars"/>Monaca<space quantity="4" unit="chars"/>Co. Tirolo 
+                  </p>
+                  
+                  <p>
+                     di <placeName ref="#DLCL_CF_L0099">Baviera</placeName><space quantity="8" unit="chars"/><surname>Sforza</surname> 
+                  </p>
+                  
+                  <pb xml:id="DLCL_CF_E10056_A01_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/21126/DSC_5920.jpg"/>
+                  
+                  <p>
+                     <gap reason="illegible"/>[...]di di <persName ref="#DLCL_CF_PC0445">Paola Malatesta Maffei</persName> pagina <bibl type="print">749</bibl> anno 1410. 
+                  </p>
+                  
+                  <p>
+                     Anno 1407. 
+                     <foreign xml:lang="la">Mortuus <persName ref="#DLCL_CF_PC0453">Franciscus</persName> <persName ref="#DLCL_CF_PC0442">Pater Jo. Francisci</persName> qui tum duodennus erat. 
+                        Posser.</foreign> in <bibl type="print">Gonzaga Libro V</bibl> pagina 484 et 485. 
+                  </p>
+                  
+                  <p>
+                     Anno 1410 
+                     <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0442">Jo. Francisco</persName> traditur in matrimonium <persName ref="#DLCL_CF_PC0445">Paula Malatesta</persName> 
+                        Pandolfi Birixiae Dom. filia anno nata 16. Posser. Ibidem pagina</foreign> <bibl type="print">497.</bibl> 
+                  </p>
+               
+                  <p>
+                     Anno 1414. 
+                     <foreign xml:lang="la">Nascitur <persName ref="#DLCL_CF_PC0442">Jo. Francisco</persName> et Paulae <persName ref="#DLCL_CF_PC0446">Ludovicus</persName> Posser. 
+                        Ibidem pagina</foreign> <bibl type="print">501.</bibl> 
+                  </p>
+                  
+                  <p>
+                     <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0445">Paulae</persName> virtutes Ibidem pagina</foreign> <bibl type="print">535.</bibl> 
+                  </p>
+                  
+                  <p>
+                     Anno 1432. 
+                     <del rend="overstrike">vol. 3</del> 
+                     <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0454">Sigismondus Imperator</persName> Nabiam venit et <placeName ref="#DLCL_CF_L0058">Mantuam,</placeName> 
+                        ubi <persName ref="#DLCL_CF_PC0442">Jo. Franciscum</persName> <placeName ref="#DLCL_CF_L0058">Mantuae</placeName> 
+                        Marchionem primum dicitet quatuor <gap reason="illegible"/>[...] ipsi concedit 
+                        [vidi de hoc <persName ref="#DLCL_CF_PC0068">Maffej</persName> id. pagina</foreign> <bibl type="print">756]</bibl> 
+                  </p>
+                  
+                  <p>
+                     Anno 1433 
+                     <foreign xml:lang="la"><placeName ref="#DLCL_CF_L0008">Roma</placeName> rediens <placeName ref="#DLCL_CF_L0058">Mantuae</placeName> 
+                        <persName ref="#DLCL_CF_PC0442">Jo. Franciscum</persName> corona Caesareae Literae de hoc datae anno 1433. 
+                        22.septembris Ibidem pagina</foreign> <bibl type="print">538.</bibl> <bibl type="print">539.</bibl> <bibl type="print">540.</bibl> <bibl type="print">541.</bibl> 
+                  </p>
+                  
+                  <pb xml:id="DLCL_CF_E10056_A01_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/21126/DSC_5921.jpg"/>
+                  
+                  <p>
+                     <foreign xml:lang="la">
+                        <persName ref="#DLCL_CF_PC0442">Jo. Francisci</persName> filij equites creati a <persName ref="#DLCL_CF_PC0454">Sigismundo,</persName> 
+                     nempe <persName ref="#DLCL_CF_PC0446">Ludovicus,</persName> <persName ref="#DLCL_CF_PC0455">Carolus,</persName> et <persName ref="#DLCL_CF_PC0447">Alexander.</persName> 
+                        <persName ref="#DLCL_CF_PC0441">Jo. Lucidus</persName> ejusdem filius ordine Quartus pridem Ecclesiastico instituto as<gap reason="illegible"/>[...]verat, 
+                        ideoque omissus est. ibidem pagina
+                     </foreign> <bibl type="print">541.</bibl> 
+                  </p>
+               
+                  <p>
+                     <foreign xml:lang="la">
+                        <persName ref="#DLCL_CF_PC0446">Ludovico</persName> <persName ref="#DLCL_CF_PC0442">Jo. Francisci</persName> 
+                        Primogenito <persName ref="#DLCL_CF_PC0451">Barbara</persName> Marchionis Electoris Bandeburgensis filia desponsata est. Ibidem pagina
+                     </foreign> <bibl type="print">541.</bibl> 
+                     [<foreign xml:lang="la">Quae in novembr. <placeName ref="#DLCL_CF_L0058">Mantuam</placeName> 
+                        debeo acta <persName ref="#DLCL_CF_PC0068">Maffei</persName> pag.</foreign> <bibl type="print">757'</bibl> 
+                  </p>
+                  
+                  <p>
+                     Anno 1436. 3. Novembr. 
+                     <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0446">Ludovicus</persName> Primogenitus a Patre ex haeredatur. Ibidem pagina</foreign> <bibl type="print">545.</bibl> 
+                  </p>
+                  
+                  <p>
+                     <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0455">Carolus</persName> Secundo genitus praeponitur <persName ref="#DLCL_CF_PC0446">Ludovico.</persName> Ibidem</foreign> 
+                  </p>
+                  
+                  <p>
+                     <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0442">Jo. Franciscus</persName> moritur anno 1444</foreign>. 
+                     <bibl type="print">Campana</bibl> <gap reason="illegible"/>[...] pagina <bibl type="print">23</bibl> 
+                     <persName ref="#DLCL_CF_PC0068">Maffei</persName> pagina <bibl type="print">767.</bibl> 
+                  </p>
+                  
+                  <p>
+                     <persName ref="#DLCL_CF_PC0456">Margherita</persName> dal <bibl type="print">Campana</bibl> pagina <bibl type="print">23</bibl> 
+                     vien fatta sorella di <persName ref="#DLCL_CF_PC0442">Gio. Francesco,</persName> e dal <persName ref="#DLCL_CF_PC0068">Maffei</persName> nell’albero figliuola. 
+                  </p>
+                  
+                  <p>
+                     <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0456">Margarita</persName> fil. <persName ref="#DLCL_CF_PC0442">Jo. Francisco</persName> 
+                        anno 1436 in matrimonium traditur <persName ref="#DLCL_CF_PC0457">Leonello Nicolai Estensis</persName> 
+                        Marchese <placeName ref="#DLCL_CF_L0013">Ferrariae</placeName> <persName ref="#DLCL_CF_PC0068">Maffei</persName> pagina</foreign> 
+                     <del rend="overstrike">756</del> <bibl type="print">758.</bibl>
+                  </p>
+   
+               </div>
+               <div type="notes">
+                  <note type="bibliography" resp="#DLCL_CF_PS003" target="DLCL_CF_E10056_N001">
+                     Probabilmente Canneti ha sbagliato nome. 
+                  </note>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text> 
+</TEI>
