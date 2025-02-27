@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10083">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20715/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21205/full/580,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21206/full/600,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21207/full/572,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25105/full/611,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10083">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 9 Luglio 1718)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">83</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1718-07-09"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-07-15" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-16" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10083_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20715/DSC_6054.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Cara mi è stata la notizia dell’abboccamento costì seguito con l’<rs type="person">Abate</rs> di <orgName ref="#DLCL_CF_O0092">Buonsolazzo,</orgName> 
+               e col <persName ref="#DLCL_CF_PC0596">Padre Davia,</persName> persuadendomi che altre volte avrà Ella poscia goduto di tal conversazione. 
+               Ma non vorrei che il nostro buon <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo</persName> 
+               con altri di cotesti Monaci innamorato dell’<orgName ref="#DLCL_CF_O0092">istituto della Trappa</orgName> ci abbandonasse per abbracciare quelle austerità, 
+               forse eziandio colla mira di godere in quella solitudine tra’ continui silenzi d’un’ozio atto agli studj. 
+            </p>
+            
+            <p>
+               Sol tanto che l’<persName ref="#DLCL_CF_PC0559">Arduino</persName> abbia avuta o naturale, 
+               o studiata occasione di far menzione della <bibl type="print">Costituzione <hi rend="underline"><foreign xml:lang="la">Unigenitus</foreign></hi>,</bibl> 
+               ognuno può da sé indebitatamente persuadersi, che l’avrà difesa. 
+               Altrettanto farà ogni Gesuita per l’alto impegno di sostenere il suo <persName ref="#DLCL_CF_PC0597">Molina.</persName> 
+               Potrebbe in oltre credersi che a ciò fosse portato il loro zelo dall’amore della verità, 
+               e dall’ubbidienza con voto speciale promessa alla <orgName ref="#DLCL_CF_O0060">Santa Sede;</orgName> 
+               se egualmente ossequiosa si fosse mostrata la Compagnia a’ decreti Apostolici nella gran <bibl type="print">Causa della Cina,</bibl> 
+               e non si fosse servita, per impugnargli, della distinzione del fatto, e del diritto, 
+               che ne’ dogmi pretesero introdurre i <rs type="person">Giansenisti</rs> loro antagonisti. 
+               Era un’arme questa sommamente detestabile, e propria d’una contumacia ereticale, quando s’impugnava da’ <rs type="person">Giansenisti:</rs> 
+               non è tale quanto si adopera da’ Gesuiti. 
+               Dell’ubbidienza giurata alla <orgName ref="#DLCL_CF_O0060">Santa Sede</orgName> 
+               è un atto proprio il sostener la Monarchia di <placeName ref="#DLCL_CF_L0056">Sicilia</placeName> già abbattuta. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10083_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20715/DSC_6055.jpg"/>
+            
+            <p>
+               Non mi meraviglio che sia stata proibita la <bibl type="print">Vita dell’Abate di Ra<gap reason="illegible"/>[...]</bibl> 
+               perché in certi luoghi <hi rend="underline"><foreign xml:lang="la">non bene sonat</foreign></hi>. 
+               Le <bibl type="print">Costituzioni</bibl> uscite alle stampe troveranno degli oppositori. 
+               L’infrequenza della Comunione eucaristica si conforma a’ principj Arnaldini. 
+            </p>
+            
+            <p>
+               Quanto all’affare di <placeName ref="#DLCL_CF_L0114">Jesi,</placeName> né la città, né il <rs type="person" ref="#DLCL_CF_PC0593">Cavaliere Padrone</rs> 
+               della <orgName ref="#DLCL_CF_O0090">Libreria</orgName> ricercano erudizione maggiore di quella che possiede <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità;</rs> 
+               né a Lei possono dar soggezione, se non quanto ella volesse prendersene senza motivo. 
+               Sommamente mi piacerebbe l’unione di lei col <persName ref="#DLCL_CF_PC0093">Padre Lettore Onestini,</persName> ma dovendosi al principio d’Ottobre cominciarsi l’opera, 
+               non sò come un Lettore potesse staccarsi dalla sua C<gap reason="illegible"/>[...]dia, quando si ripiglia il corso degli studj. 
+               Ecco una difficoltà. 
+               L’altra è quella maggiore, che <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> ha proposta, cioè la licenza. 
+               Conferiscano tra loro sopra l’una, e l’altra: in tanto vi penserò io pure. 
+            </p>
+            
+            <p>
+               Il Padrone del <bibl type="print">Corpo</bibl> del <persName ref="#DLCL_CF_PC0531">Lipsio</persName> in <bibl type="print">sei Tomi</bibl> 
+               ora egli esibisce per venti scudi e penso che forse gli darebbe per diciotto. 
+               Ancor più preveggo delle difficoltà per trovare il danaro. 
+               A me spiace non averlo; perché il <bibl type="print">Corpo</bibl> non è obvio, e il prezzo è assai basso, e vantaggioso. 
+            </p>
+            
+            <p>
+               Sto scrivendo del <rs type="person" ref="#DLCL_CF_PC0598">Cardinale Arelatense,</rs> 
+               che fu il Capo delle Turbolenze di <placeName ref="#DLCL_CF_L0042">Basilea</placeName> contro ad <persName ref="#DLCL_CF_PC0254">Eugenio Quarto.</persName> 
+               Altri lo dipinsero per [figura] di perdizione, e Promotore d’iniquità; 
+               altri lo rappresentarono per Esemplare di virtù cristiane, e scrivono che fosse beatificato. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10083_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20715/DSC_6056.jpg"/>
+            
+            <p>
+               Di grazia mi comunichi, o distesamente, 
+               o in un’estratto quel che ne scrive il <persName ref="#DLCL_CF_PC0599">Frizon</persName> nella <bibl type="print">Gallia Porporata.</bibl> 
+            </p>
+            
+            <closer>
+               <salute>E per fine caramente abbracciandola resto.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1718-07-09">9 Luglio 1718</date></dateline>
+               <salute>DVPMR</salute>
+               <salute>Cordialissimo Servitore e Padre nel Signore Affettuosissimo</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+                       
+            <pb xml:id="DLCL_CF_E10083_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/c2fdb5de517969b89b99e4bf31a65998b7f8ae34.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre Mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

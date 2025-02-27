@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10119">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20751/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21289/full/517,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/25228/full/615,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10119">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 30 Agosto 1720)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">119</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1720-08-30"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-08-29" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-18" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-25" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            
+            <pb xml:id="DLCL_CF_E10119_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20751/DSC_6210.jpg"/>
+            
+            <opener>
+               <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1720-08-30">30 Agosto 1720</date></dateline>
+            </opener>
+            
+            <p>
+               Annesso leggete il paragrafo della lettera, il quale ha acceso tanto fuoco. 
+               Questo, e nulla più, è il processo del reato sì strepitoso. 
+               Fatevi sopra senza passione le vostre riflessioni, e comunicatelo al <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli.</persName>
+            </p>
+            
+            <p>
+               Il <persName ref="#DLCL_CF_PC0090">Padre Don Leandro</persName> è ricaduto con febbre, e scioglimento di orina, e di bile. 
+               Il primo male fu con pericolo di malignità. 
+               Il secondo si vedrà ove vada a parare. 
+               L’agitazione d’animo è stato il principio della ricaduta.
+            </p>
+            
+            <p>
+               Il <persName ref="#DLCL_CF_PC0043">Padre Don Pietro</persName> eseguirà gli ordini.
+            </p>
+            
+            <p>
+               <gap reason="illegible"/>[...] per 15 paoli i <bibl type="print">due Tomi</bibl> del <persName ref="#DLCL_CF_PC0197">Giovio</persName> <gap reason="illegible"/>[...]vitati: 
+               il danaro sia in mano del <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli.</persName> 
+               De’ libri desiderati dal <persName ref="#DLCL_CF_PC0769">Signor Cavaliere Torre</persName> sentasi il <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina</persName> 
+               quanto al prezzo, o avvisate Voi il sentimento vostro.
+            </p>
+            
+            <p>
+               Vorrei che <persName ref="#DLCL_CF_PC0004">Marozzi</persName> si mettesse al buono. 
+               E di quel <bibl type="manuscript">manoscritto</bibl> di <persName ref="#DLCL_CF_PC0177">Ambrogio</persName> nostro, 
+               che disse avrebbe ricavato dagli Olivetani di <placeName ref="#DLCL_CF_L0013">Ferrara?</placeName> 
+               E di quel <persName ref="#DLCL_CF_PC0328">Vossio,</persName> che mi faceste sperare, parte per messe, parte per contanti?
+            </p>
+            
+            <p>
+               <persName ref="#DLCL_CF_PC0043">Padre Don Pietro</persName> ha scritto al <rs type="person">Padre Abate</rs> vostro, con dire il fatto suo. 
+               Vi abbraccio caramente, e son tutto Vostro.
+            </p>
+            
+            <p>
+               Manderò cento pietre focaie scelte.
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10119_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/ac6b4abc51e679a490d74a3f1d9cb9c3feaa8011.jpg"/>
+
+            
+         </div>
+      </body>
+   </text>
+</TEI>

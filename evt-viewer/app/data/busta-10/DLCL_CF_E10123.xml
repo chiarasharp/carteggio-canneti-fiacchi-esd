@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10123">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20755/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21299/full/523,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21300/full/609,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21301/full/536,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25235/full/598,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10123">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 22 Novembre 1720)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">123</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1720-11-22"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-09-02" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-11-25" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10123_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20755/DSC_6238.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Il precedente ordinario risposi all’ultima di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità.</rs> 
+               Ora mi viene alle mani altra lettera sua giuntami in tempo, che io era occupatissimo in rivedere lo stato economico del Monastero <gap reason="illegible"/>[...] la Visita. 
+               Mi spedisco presto; perché poco anzi pochissimo abbiamo che dire de’ nostri Forlivesi. 
+               Di essi non mi suvviene altri che <persName ref="#DLCL_CF_PC0779">Benedetto Generale,</persName> immediato predecessore del nostro Grande <persName ref="#DLCL_CF_PC0177">Ambrogio,</persName> 
+               il quale nel Capitolo di <placeName ref="#DLCL_CF_L0025">Bertinoro</placeName> fu elevato alla suprema dignità dell’Ordine 
+               per la deposizione di <persName ref="#DLCL_CF_PC0779">Benedetto.</persName> 
+               Questi conseguì poi la <orgName ref="#DLCL_CF_O0136">Badia di San Zeno</orgName> fuor di <gap reason="illegible"/>[...] morì: 
+               ed ivi fino al dì d’oggi se ne vede il sepolcro con l'arme gentilizia, non sapendosi per altro il di lui <gap reason="illegible"/>[...]. 
+               Del <persName ref="#DLCL_CF_PC0779">General Benedetto</persName> veggasi il <bibl type="print">Fortunio.</bibl> 
+               Per quel, che riguarda la <orgName ref="#DLCL_CF_O0001">Biblioteca,</orgName> può avervi luogo il <persName ref="#DLCL_CF_PC0780">Dionisio Zauli,</persName> 
+               di cui <gap reason="illegible"/>[...] stampato un <gap reason="illegible"/>[...] Capitolo: e stà in un Tomo de’ nostri Miscellaneo. 
+               Fu il <persName ref="#DLCL_CF_PC0780">Zauli</persName> Predicatore, e Lettore tra noi. 
+               Lasciò ancora cominciata la <bibl type="print">Vita del Padre San Romualdo,</bibl> che venne in mie mani; e credo <gap reason="illegible"/>[...] Manoscritti. 
+               Fiorì cento anni fa nell’<orgName ref="#DLCL_CF_O0026">Avellana</orgName> un <gap reason="illegible"/>[...]
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10123_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20755/DSC_6239.jpg"/>
+            
+            <p>
+               <persName ref="#DLCL_CF_PC0773">Vitali</persName> di <placeName ref="#DLCL_CF_L0043">Forlì</placeName> <rs type="person">Abate</rs> di <orgName>quel Monastero,</orgName> 
+               e Visitatore Uomo di <gap reason="illegible"/>[...], e di religiosa virtù, e di <gap reason="illegible"/>[...]. 
+               Compose una Pastorale, che in quella <gap reason="illegible"/>[...] recitata per dare virtuoso trattenimento al <rs type="person">Cardinale</rs> <gap reason="illegible"/>[...], e Manoscritta era; 
+               e forse tuttavia è nella <orgName ref="#DLCL_CF_O0132">Libreria dell’Avellana.</orgName> 
+               Queste, ed altre più esatte notizie di lui sono in un libro a penna di <persName>Don Michele Los</persName><gap reason="illegible"/>[...] di lui Allievo. 
+               Se occorrerà ricavare altro, si manderà.
+            </p>
+            
+            <p>
+               Non sò che più oltre [stendasi] la materia richiesta. 
+               Ne è maraviglia, perché Camaldolino, ove fuor della Città dimorante, non era che un Priorato, ove il Priore o con un compagno, o due dimorava. 
+               <orgName ref="#DLCL_CF_O0032 #DLCL_CF_O0002">San Salvatore Monistero</orgName> di nostre Monache, 
+               da poco tempo in quà ha <gap reason="illegible"/>[...] di conventuali <gap reason="illegible"/>[...] <persName ref="#DLCL_CF_PC0781">Bonelli</persName> 
+               fa il <gap reason="illegible"/>[...] Abate, che vi facesse officiar’il Coro. 
+            </p>
+            
+            <p>
+               <gap reason="illegible"/>[...] al <persName ref="#DLCL_CF_PC0056">Signor Sancassani,</persName> me lo riverisca in modo speciale <gap reason="illegible"/>[...]. 
+               Tenti se per mezzo suo potesse aversi alcun Codice Manoscritto buono, o libri di prime antiche edizioni, cioè fin verso 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10123_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20755/DSC_6240.jpg"/>
+            
+            <p>
+               il 1480 in circa. 
+               Potrebbe ciò servir di anello per rifare la catena interrotta dalla stampa di quella lettera. 
+            </p>
+                        
+            <closer>
+               <salute>Resto con abbracciandola caramente.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1720-11-22">22 Novembre 1720</date></dateline>
+               <salute>DVPMR.</salute>
+               <salute>Affettuosissimo Servitore e Cordialissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+                     
+            <pb xml:id="DLCL_CF_E10123_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/d8dc433e9d4c939f5c3d82703f82f0a70da9b894.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre Mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10103">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20735/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21249/full/562,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21250/full/610,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21251/full/571,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/21252/full/610,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10103">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 25 Agosto 1719)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">103</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1719-08-25"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-08-19" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-17" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10103_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20735/DSC_6138.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Volentieri ho contribuita la debole mia intercessione presso il <persName ref="#DLCL_CF_PC0391">Reverendissimo Gasparini</persName> 
+               a favore del <persName ref="#DLCL_CF_PC0617">Padre Bernardini</persName> meritevole d’ogni bene. 
+               Il Signor Iddio ne faccia seguire buon’esito, se ciò è per lo meglio: 
+               quando nò, disponga l’animo del <persName ref="#DLCL_CF_PC0617">Padre Don Giovanni Antonio</persName> a godersi la sua quiete tra’ libri, ch’è il bene più desiderabile, 
+               il quale possa godere un’animo religioso, amico dello studio, e disingannato della vanità del mondo.
+            </p>
+            
+            <p>
+               Non disapprovo il pensiero di stampare in fine del <bibl type="religious">Calendario</bibl> le annotazioni, o rubriche comuni a tutti gli anni. 
+               Ma riferendosi queste alle feste mobili, non possono distribuirsi per li mesi.
+            </p>
+            
+            <p>
+               Eccole nota de’ libri antichi ultimamente da me acquistati, oltre <bibl type="print">l’insigne Plinio</bibl> in due tomi in pergamena, 
+               che mi recherà il <persName ref="#DLCL_CF_PC0259">Padre Bianconi,</persName> Iddio sà quando, da <placeName ref="#DLCL_CF_L0008">Roma.</placeName>
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10103_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20735/DSC_6139.jpg"/>
+            
+            <p>
+               
+               <bibl type="print"><foreign xml:lang="la">Quintilianum Eloquentiae fontem ab eruditissimo Omnibono Leoniceno emendatum</foreign></bibl> 
+               <foreign xml:lang="la">
+                  <persName ref="#DLCL_CF_PC0636">M. Nicolaus Jenson</persName> 
+                  Gallicus viventibus posterisque miro impressit artificio annis 1471 mense Maij die 21 Deo Gratias fol.
+               </foreign>
+            </p>
+            
+            <p>
+               
+               <bibl type="print"><foreign xml:lang="la">Senecae Opera aliquot</foreign></bibl> = 
+               <foreign xml:lang="la">
+                  Sub Domino Blasio Romero Monacho Populeti Philosopho ac Teologo celebri 
+                  est impressum hoc opus in <placeName ref="#DLCL_CF_L0082">Civitate Neapolis</placeName> anno Domini 1475. 
+                  Divo Ferdinando regnante. 
+                  Gabrielis Carcani Mediolanensis in fortificem carmen.
+               </foreign>
+            </p>
+            
+            <p>
+               <foreign xml:lang="la">
+                  Iam pene abstulerat <persName ref="#DLCL_CF_PC0683">Seneca</persName> monumenta vetustas vixque erat haec ullus cui bene nota forent. 
+                  Tam bona sed docti Mathiae scripta Moravi Artificis non est passa perire manus.
+               </foreign>
+            </p>
+            
+            <p>
+               = e ciò sta scritto in mezzo al Tomo tra diverse <bibl type="print">Opere Morali,</bibl> 
+               e = l’<bibl type="print">Epistole a Lucilio,</bibl> che vengono appresso. Fol. magn. 
+            </p>
+            
+            <p>
+               <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0153">Ciceronis</persName></foreign> <bibl type="print"><foreign xml:lang="la">Orationes</foreign></bibl> <foreign xml:lang="la">omnes</foreign>.
+            </p>
+            
+            <p>
+               <foreign xml:lang="la">
+                  <persName ref="#DLCL_CF_PC0684">Conradus Svveynheym,</persName> <persName ref="#DLCL_CF_PC0685">Arnoldus Pannartzque;</persName> 
+                  Magistri <placeName ref="#DLCL_CF_L0008">Romae</placeName> impresserunt talia multa simul.
+               </foreign>
+            </p>
+            
+            <p>
+               <foreign xml:lang="la">
+                  Petrus cum fratre Francisco Maximus ambo huic operi aptatam contribuere domum anno 1471. 
+                  [fol. magn.]
+               </foreign>
+            </p>
+            
+            <p>
+               = Vi stà sul principio una lunga lettera di <persName ref="#DLCL_CF_PC0637">Giovanni Andrea Vescovo Aleriense</persName> 
+               a <persName ref="#DLCL_CF_PC0580">Paolo II;</persName> 
+               colle testimonianze degli autori molti in lode di <persName ref="#DLCL_CF_PC0153">Cicerone.</persName>
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10103_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20735/DSC_6141.jpg"/>
+            
+            <p>
+               Il Tomo è grossissimo, e corredato di annotazioni a penna di un valentuomo. 
+               Cosa di grande rarità.
+            </p>
+            
+            <p>
+               <bibl type="print"><foreign xml:lang="la">Bessarionis Cardinalis in calumniatorem Platonis</foreign>.</bibl>
+            </p>
+            
+            <p>
+               = con gli stessi versi in fine, che mostrano seguita la stampa in <orgName ref="#DLCL_CF_O0109">Casa de’ Massimi;</orgName> senz’anno. Fol.
+            </p>
+            
+            <p>
+               <bibl type="print"><foreign xml:lang="la">Alberti Magni de animalibus</foreign>.</bibl> 
+               <foreign xml:lang="la">
+                  Mantue per Paulum Johannis de <del rend="overstrike">Buthcsbbach</del> Buthcsbach 
+                  Alamannum Maguntinensis diocesi 1479. Fol. Magn. Goth.
+               </foreign>
+            </p>
+            
+            <p>
+               <bibl type="print"><foreign xml:lang="la">Biblia Sacra</foreign></bibl> = 
+               <foreign xml:lang="la">
+                  exactum est inclyta in urbe Venetiarum Sacrosanctum Biblia Volumen integerrimi, 
+                  expolitisque litterarum caracteribus Magistri Johannis dicti magni Herbort de Silingestat Alemani: 
+                  qui salva omnium pace ausim illud affirmare caeteros facile omnes hac tempestate supereminet. 
+                  Olympiadibus Dominicis. 
+                  Anno vero 1483. pridie Kalendas Novembris fol. parv. gothic.
+               </foreign>
+            </p>
+            
+            <p>
+               Se noi abbiamo un <bibl type="print">Quintiliano</bibl> simile costì, uno se ne potrebbe esitare. 
+               Quel, che ho qui, e benissimo conservato. 
+               Così si potrebbe vendere la <bibl type="print">Bibbia.</bibl> 
+               Manderò l’uno, e l’altra con certi libri, che penso far costì legare. 
+               Si può anco dar via una copia, ch’è tra nostri libri, 
+               di <persName ref="#DLCL_CF_PC0687">Jerocle</persName> <bibl type="print"><foreign xml:lang="la">in aureos versus Pythagorae</foreign>,</bibl> 
+               in 4 ovvero 8vo grande, essendovene una simile con miniatura in <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> 
+               la quale mi ricordo aver pagata in <placeName ref="#DLCL_CF_L0005">Faenza</placeName> 15 paoli.
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10103_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/20735/DSC_6142.jpg"/>
+            
+            <p>
+               Ma nel suo genere è stimabilissimo il <bibl type="print">Concilio in folio di stampa</bibl> di <placeName ref="#DLCL_CF_L0133">Lovanio,</placeName> 
+               con tutte le <bibl type="print">Orazioni</bibl> fattevi in <placeName ref="#DLCL_CF_L0150">Trento,</placeName> 
+               e alcuni <bibl type="print">Trattati,</bibl> e <bibl type="print">Atti.</bibl> 
+               e con note marginali a penna, che mostrano la consonanza di detto Concilio ad altri Concilj, e a’ Sacri Canoni.
+            </p>
+            
+            <p>
+               Tengo di nuovo acquisto in cinque tomi in 8. 
+               Le <bibl type="print">Istruzioni pratiche</bibl> del <persName ref="#DLCL_CF_PC0688">Lohner,</persName> 
+               stampa di <placeName ref="#DLCL_CF_L0134">Dilinga.</placeName> 
+               Il primo volume contiene la materia delle Rubriche del Messale, e Breviario. 
+               Lo manderò al ritorno del <rs type="person">Padre Lettore,</rs> che la riverisce, perché possa valersene prontamente. 
+            </p>
+            
+            <closer>
+               <salute>E di tutto cuore l’abbraccio.</salute>
+               <salute>DVPMR.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1719-08-25">25 Agosto 1719</date></dateline>
+               <salute>Cordialissimo Servitore e Affettuosissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

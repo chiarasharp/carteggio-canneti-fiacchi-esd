@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10087">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20719/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21214/full/583,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/25108/full/621,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10087">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 3 Settembre 1718)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">87</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1718-09-03"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-07-16" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10087_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20719/DSC_6066.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Ieri finalmente ebbi i due involtini di libri fatti consegnare da <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> 
+               al <persName ref="#DLCL_CF_PC0585">Poletti</persName> in fiera di <placeName ref="#DLCL_CF_L0030">Sinigaglia:</placeName> 
+               né pur’ora gli avrei avuti, se non mi fossi risoluto di mandargli a levare insieme con altre robe dalle mani dello <persName ref="#DLCL_CF_PC0475">Sgherri,</persName> 
+               al quale cotesto <rs type="person">Padre Camerlengo</rs> le avea raccomandate in parte, e in parte io gliele avea fatte consegnare, 
+               perché mi venissero trasmesse per mezzo de’ vetturali. 
+               Allo stesso <persName ref="#DLCL_CF_PC0475">Sgherri</persName> il <rs type="person">Padre Camerlengo</rs> 
+               mio lasciò l’involto de’ libri col soprascritto a <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> raccomandandogliene la spedizione. 
+               Sentendo che il recapito a lei non è seguito, benché avesse da esser fatto poco dopo la fiera; gliene ha scritto, affinché se ne trovi il conto. 
+               Per mia quiete <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> mi avvisi, tosto che siano arrivati quei libri. 
+            </p>
+            
+            <p>
+               Ho mandato al <persName ref="#DLCL_CF_PC0116">Signor Abate Vincioli</persName> la <bibl type="print">Ravenna Dominante.</bibl> 
+            </p>
+            
+            <p>
+               Si ricordi stare attento per aver’il <bibl type="print">Giornale XXX</bibl> in quattro esemplari, e mandarmelo per prima occasione. 
+               Dopo dimani aspetto il <persName ref="#DLCL_CF_PC0612">Padre Zucchelli,</persName> 
+               il quale da <placeName ref="#DLCL_CF_L0008">Roma</placeName> se ne va a divertirsi a <placeName ref="#DLCL_CF_L0001">Cremona.</placeName> 
+            </p>
+
+            <closer>
+               <salute>Nulla più avendo di nuovo, colla costanza di parziale, e tenero affetto l’abbraccio, e mi confermo.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1718-09-03">3 Settembre 1718</date></dateline>
+               <salute>DVPMR</salute>
+               <salute>Affettuosissimo Servitore e Padre Cordialissimo nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10087_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/64ebe365ac93b60931bcc32d3544b61a687693a0.jpg"/>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

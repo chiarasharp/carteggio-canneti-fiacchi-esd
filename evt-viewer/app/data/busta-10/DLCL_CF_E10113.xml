@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10113">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20745/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21274/full/549,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21275/full/613,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21276/full/519,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/21277/full/611,800/0/default.jpg"/>
+      <graphic n="3r" url="https://classense.unibo.it/iiif/2/21278/full/524,800/0/default.jpg"/>
+      <graphic n="3v" url="https://classense.unibo.it/iiif/2/25218/full/621,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10113">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 26 Febbraio 1720)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">113</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1720-02-26"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-08-23" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-18" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            
+            <pb xml:id="DLCL_CF_E10113_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20745/DSC_6188.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Poco studio ho io fatto sopra l’<bibl type="print">Esercitazioni</bibl> del <persName ref="#DLCL_CF_PC0734">Tenzelio;</persName> 
+               onde non mi è mai venuto sotto all’occhio ciò, 
+               che colui scrive della <bibl type="print">traduzioni di alcuni Sermoni</bibl> di <persName ref="#DLCL_CF_PC0399">S. Efrem</persName> 
+               fatta dal nostro <persName ref="#DLCL_CF_PC0177">Ambrogio.</persName> 
+               Delli tre intieri fogli, in cui stà distesa la settima Esercitazione di tale argomento, 
+               a me basta che <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> trascriva quel, 
+               che il <persName ref="#DLCL_CF_PC0734">Tenzelio</persName> ivi dice di tal traduzione, e del Traduttore. 
+               Quanto al rimanente, che ivi si porti di <persName ref="#DLCL_CF_PC0399">S. Efrem,</persName> o di altre versioni, 
+               e [massimamente] di quella del <persName ref="#DLCL_CF_PC0328">Vossio</persName> Tungrense, mi sarà caro averne un succinto estratto. 
+               In qualche parte io difendo il <persName ref="#DLCL_CF_PC0328">Vossio</persName> da’ biasimi, 
+               che sopra lui scarica il <persName ref="#DLCL_CF_PC0735">Lambecio,</persName> tacciandolo di Plagiario per conto della Dedicatoria [rubata]. 
+               Non è però vero che non citi <persName ref="#DLCL_CF_PC0177">Ambrogio.</persName>
+            </p>
+            
+            <p>
+               Non sò se nel <bibl type="print">Tomo 5 dell’Italia Sacra</bibl> 
+               vi siano i Vescovi di <placeName ref="#DLCL_CF_L0142">Città Nuova</placeName> in <placeName ref="#DLCL_CF_L0143">Istria,</placeName> 
+               in latino <hi rend="underline"><foreign xml:lang="la">Aemonia</foreign></hi>. 
+               Quando ivi sia descritta la serie, desidero sapere chi era Vescovo di quella Chiesa nel 1431. 
+               Quel Vescovo era appunto in quell’anno Governatore di <placeName ref="#DLCL_CF_L0043">Forlì:</placeName> 
+               e forse ne fanno menzione il <persName ref="#DLCL_CF_PC0736">Marchesi,</persName> 
+               o il <persName ref="#DLCL_CF_PC0737">Bonoli</persName> nelle <bibl type="print">Storie</bibl> di detta Città.
+            </p>
+            
+            <p>
+               L’<bibl type="print">edizione de’ Santi Padri del tempo degli Apostoli,</bibl> ch’è in cotesta <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> 
+               senza dubbio non è la prima, e genuina e rara del <persName ref="#DLCL_CF_PC0724" cert="unknown">Cotelesio.</persName> 
+               Son per altro persuasissimo che meriti qualche stima distinta per altri capi.
+               Non mi pento di averla aggiunta alla <orgName ref="#DLCL_CF_O0001">Libreria:</orgName> 
+               ma allora io non aveva la notizia imparata nella <bibl type="print">Biblioteca Greca</bibl> del <persName ref="#DLCL_CF_PC0679">Fabricio,</persName> quando la comprai dal 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10113_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20745/DSC_6189.jpg"/>
+            
+            <p>
+               <persName ref="#DLCL_CF_PC0738">Maranta.</persName> 
+               Diverrà forse ancor questa edizione un giorno rara. 
+            </p>
+            
+            <p>
+               Nel <bibl type="print">libro 24 dell’Epistole Ambrosiane</bibl> sarà inserita la lettera di <persName ref="#DLCL_CF_PC0739">Timoteo Maffei</persName> 
+               sopra la rinunzia dell’Arcivescovado di <placeName ref="#DLCL_CF_L0027">Milano,</placeName> 
+               ad <persName ref="#DLCL_CF_PC0254">Eugenio IV</persName> (secondo un <bibl type="manuscript">Manoscritto esistente presso di me)</bibl> 
+               non a <persName ref="#DLCL_CF_PC0740">Niccolò V;</persName> 
+               secondo il <bibl type="manuscript">Manoscritto Strozziano</bibl> addotto dal <persName ref="#DLCL_CF_PC0068">Signor Marchese Scipione,</persName> 
+               con cui ho carteggiato ultimamente sopra tal lettera, 
+               e sopra l’impostura fatta all’<persName ref="#DLCL_CF_PC0021">Ughelli</persName> negli Arcivescovi di <placeName ref="#DLCL_CF_L0027">Milano,</placeName> 
+               ove stà la lettera medesima stampata, 
+               attribuita ad un certo <persName ref="#DLCL_CF_PC0741">Cozza Generale de’ Lateranensi</persName> finto, 
+               non essendovi mai stato di tal cognome alcun Generale di quell’Ordine; 
+               siccome riconoscer si può ne’ Fatti stampati in fine del <bibl type="print">Liceo Lateranense</bibl> 
+               dell’<persName ref="#DLCL_CF_PC0744 #DLCL_CF_PC0538" cert="unknown">[Ors]ini.</persName> 
+               Bensì ivi spiccano tre valentuomini della stessa <orgName ref="#DLCL_CF_O0120">casa Maffei</orgName> a <placeName ref="#DLCL_CF_L0144">Verona,</placeName> 
+               <persName ref="#DLCL_CF_PC0742">Celso,</persName> <persName ref="#DLCL_CF_PC0739">Timoteo,</persName> e <persName ref="#DLCL_CF_PC0743">Paolo,</persName> 
+               di cui ho in un’altro <bibl type="manuscript">Codice Manoscritto la lunga lettera contro al Duello indiritta al Marchese di Ferrara.</bibl> 
+               Io <gap reason="illegible"/>[...] leverò la maschera al quel <persName ref="#DLCL_CF_PC0741">Cozza.</persName> 
+               Il <persName ref="#DLCL_CF_PC0647 #DLCL_CF_PC0338" cert="unknown">Pennotto</persName> m’imagino 
+               che dica qualche cosa di <persName ref="#DLCL_CF_PC0739">Timoteo,</persName> 
+               e degli <persName ref="#DLCL_CF_PC0742 #DLCL_CF_PC0743">altri Maffei</persName> suoi Concanonici. 
+               Quella [lettera] <del rend="overstrike">coincide in qualche</del> della rinunzia dell’Arcivescovado 
+               coincide in qualche motivo con un’ardente epistola d’<persName ref="#DLCL_CF_PC0177">Ambrogio</persName> nostro 
+               a <persName ref="#DLCL_CF_PC0692">San Bernardino</persName> scritto per impegnarlo a non accettar Vescovadi.
+            </p>
+            
+            <p>
+               <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> si faccia onore presso il <persName ref="#DLCL_CF_PC0193">Reverendissimo Amigoni</persName> 
+               colle notizie del <orgName ref="#DLCL_CF_O0121">Monastero di San Maria d’Urano:</orgName> 
+               e gli scriva che a’ <rs type="person">Monaci</rs> di <orgName ref="#DLCL_CF_O0030">San Mauro</orgName> poco importa sapere 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10113_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20745/DSC_6190.jpg"/>
+            
+            <p>
+               donde gli <rs type="person">Abati</rs> di <orgName ref="#DLCL_CF_O0030">quel Monastero,</orgName> e di altri abbiano derivato il diritto di trovarsi, 
+               e dar voto all’elezione degli Arcivescovi di <placeName ref="#DLCL_CF_L0002">Ravenna.</placeName> 
+               Basta additare il fatto che qualche volta siano concorsi a simili elezioni, senza farne mistero, 
+               ne asserire che ciò seguito in ogni elezione, non avendone noi certezza.
+            </p>
+            
+            <p>
+               Nel <persName ref="#DLCL_CF_PC0014">Rossi</persName> ho osservato altre volte che l’anno <hi rend="underline">1178</hi> 
+               <persName ref="#DLCL_CF_PC0745">Giovanni Duca</persName> nel suo testamento facendo varj ligati <gap reason="illegible"/>[...] a favor di più Chiese, 
+               lasciò a <orgName ref="#DLCL_CF_O0005">Monasteri di Classe,</orgName> di <orgName ref="#DLCL_CF_O0122">San Piero in Vincoli,</orgName> 
+               di <orgName ref="#DLCL_CF_O0010 #DLCL_CF_O0078" cert="unknown">San Severo,</orgName> 
+               e di <hi rend="underline"><orgName ref="#DLCL_CF_O0121">Santa Maria di Urano</orgName></hi>, i quali sono stati in qualche tempo nostri. 
+               L’anno poi <hi rend="underline">1181</hi> <persName ref="#DLCL_CF_PC0746">Lucio Papa terzo</persName> con sua <bibl type="print">Bolla</bibl> 
+               data il primo di Luglio confermò all’Arcivescovo di <placeName ref="#DLCL_CF_L0002">Ravenna</placeName> 
+               il diritto di benedir gli abati di <orgName ref="#DLCL_CF_O0121">Urano,</orgName> e di ricever da essi il solenne giuramento. 
+               E l’anno seguente <hi rend="underline"><foreign xml:lang="la">1182 oct. Kal. Octobris</foreign></hi> l’<persName ref="#DLCL_CF_PC0747">Arcivescovo Gerardo</persName> 
+               si fece prestare giuramento da <persName ref="#DLCL_CF_PC0748">Ugo Abate</persName> di <orgName ref="#DLCL_CF_O0121">Urano</orgName> 
+               di esser fedele a lui ed agli Arcivescovi Successori, per aver quel Monistero ricevuto dalla Chiesa di <placeName ref="#DLCL_CF_L0002">Ravenna</placeName> quanto possiede, 
+               e di ubbidirgli, se non quanto i loro comandi si opponessero agli statuti dell’<orgName ref="#DLCL_CF_O0054">Ordine Camaldolese.</orgName> 
+               <hi rend="underline"><foreign xml:lang="la">Poscia V Non. Octobris</foreign></hi>, essendo il detto <rs type="person" ref="#DLCL_CF_PC0747">Arcivescovo</rs> infermo, 
+               in nome di esso, <persName ref="#DLCL_CF_PC0749">Lanfrando</persName> Vescovo di <placeName ref="#DLCL_CF_L0145">Forlimpopoli,</placeName> 
+               nella <orgName ref="#DLCL_CF_O0124">Chiesa Cattedrale</orgName> di <placeName ref="#DLCL_CF_L0009">Cesena</placeName> 
+               solennemente benedisse l’<persName ref="#DLCL_CF_PC0748">Abate Ugo,</persName> conferendogli le pontificali insegne della Mitra, 
+               e Pastorale, presenti i Canonici di <placeName ref="#DLCL_CF_L0009">Cesena,</placeName> 
+               e <persName ref="#DLCL_CF_PC0750">Guglielmo da Castello Ambasciator dell’Imperatore,</persName> ed altre molte persone. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10113_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/20745/DSC_6191.jpg"/>
+            
+            <p>
+               Il <persName ref="#DLCL_CF_PC0751">vescovo Gregorio</persName> antecessore di <persName ref="#DLCL_CF_PC0749">Lanfrando</persName> 
+               avea donato al Sacr’Eremo il <orgName ref="#DLCL_CF_O0121">Monastero di Urano,</orgName> colle <orgName ref="#DLCL_CF_O0125">Chiese di Santa Maria del Lago,</orgName> 
+               di <orgName ref="#DLCL_CF_O0126">San Benedetto</orgName> e di <orgName ref="#DLCL_CF_O0127">San Pietro in Campo Gallina,</orgName> o Gallano, 
+               ch’è la stessa ora detta di <orgName ref="#DLCL_CF_O0127">Sant’Antonio</orgName> posta in capo al Borgo di <placeName ref="#DLCL_CF_L0025">Bertinoro;</placeName> 
+               come nelle nostre Storie par. 1; e nell’<bibl type="print">Ughelli.</bibl> 
+               Di più l’anno <hi rend="underline">1303</hi> essendo nata dissensione nell’eleggere il nuovo Arcivescovo di <placeName ref="#DLCL_CF_L0002">Ravenna</placeName> 
+               fu fatta procura per sostener l’elezione di <persName ref="#DLCL_CF_PC0752">San Rinaldo.</persName> 
+               Lui si annovera tra quei, che vi ebbero voto, il <rs type="person">Procuratore di Bonno,</rs> o Bunno Abate di <orgName ref="#DLCL_CF_O0121">Santa Maria d’Urano.</orgName> 
+               Il qual <rs type="person">Buono Abate,</rs> insieme co’ suoi monaci, costituì Procuratore Buono Monaco a comparire, 
+               e portarsi al Concilio Provinciale <hi rend="underline">l’anno 1310</hi> ragunato per la causa de’ <orgName ref="#DLCL_CF_O0128">Cavalieri Templari.</orgName> 
+            </p>
+            
+            <p>
+               Quanto al <orgName ref="#DLCL_CF_O0129">Monastero della Trinità di Mont’Ercole,</orgName> annesso in oggi a quel di <orgName ref="#DLCL_CF_O0121">Urano,</orgName> 
+               io credo che ad esso spetti quel, che appresso il detto <persName ref="#DLCL_CF_PC0014">Rossi,</persName> <hi rend="underline">all’anno 1039</hi> 
+               si accenna del <hi rend="underline"><foreign xml:lang="la">Monasterio Sanctae aeternitatis</foreign></hi> 
+               nel testamento di <persName ref="#DLCL_CF_PC0753">Ugo Conte</persName> di <placeName ref="#DLCL_CF_L0025">Bertinoro,</placeName> 
+               non essendo da meravigliarsi dell’errore corso in quel Documento, attesa la barbarie di que’ tempi, ch’era grandissima. 
+               E in fatti all’anno 1062 leggesi il testamento di <persName ref="#DLCL_CF_PC0754">Gerardo</persName> figliuolo di esso <persName ref="#DLCL_CF_PC0753">Ugo,</persName> 
+               e in essi disponesi, come nel testamento paterno di <orgName ref="#DLCL_CF_O0130">Monte Fiascone,</orgName> 
+               a favore del medesimo Monastero qui chiamato <hi rend="underline"><foreign xml:lang="la">Sancta Trinitas</foreign></hi>, 
+               se pur non vi s’intende la Trinità di <placeName ref="#DLCL_CF_L0025">Bertinoro.</placeName>
+            </p>
+            
+            <p>
+               In questo stesso testamento di <persName ref="#DLCL_CF_PC0754">Gerardo</persName> conte di <placeName ref="#DLCL_CF_L0025">Bertinoro,</placeName> 
+               più sotto si ha <hi rend="underline"><foreign xml:lang="la">Sanctae Mariae de Urano vineam de [Curso], et triginta libras relinquo</foreign></hi>. 
+               <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> riconosca tutti <gap reason="illegible"/>[...] <persName ref="#DLCL_CF_PC0014">Rossi,</persName> 
+               e quel di più che vi possa essere. 
+               E lo mandi colle parole stesse dell’<bibl type="print">Istoria.</bibl> 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10113_L_C3R" n="3 - Recto" facs="https://classense.unibo.it/files/large/20745/DSC_6192.jpg"/>
+            
+            <p>
+               [Vanno] replicando che non è da scrupolosamente cercare come avessero gli Abati di <orgName ref="#DLCL_CF_O0005">Classe,</orgName> 
+               e di <orgName ref="#DLCL_CF_O0121">Urano</orgName> il diritto nell’elezione dell’Arcivescovo <persName ref="#DLCL_CF_PC0752">San Rinaldo</persName> di sopra riferita. 
+               Ma avverto che non consta avessero lo stesso suffragio in altre simili occasioni, con piena certezza de’ documenti. 
+               Crederei però che trattandosi di fatti nell’antico, bastasse per asserirlo, quanto di sopra si è toccato, 
+               e quanto reca all’anno <hi rend="underline">1208</hi> lo stesso <persName ref="#DLCL_CF_PC0014">Rossi,</persName> 
+               ove si vede che <persName ref="#DLCL_CF_PC0755">Bernardo Abate</persName> di <orgName ref="#DLCL_CF_O0005">Classe</orgName> 
+               fu uno degli elettori dell’<persName ref="#DLCL_CF_PC0756">Arcivescovo Ubaldo,</persName> 
+               o sia postulatori, non potendosi se non postulare per Vescovo d’una Chiesa chi è legato ad un’altra: 
+               poiche era prima <persName ref="#DLCL_CF_PC0756">Ubaldo</persName> Vescovo di <placeName ref="#DLCL_CF_L0005">Faenza.</placeName>
+            </p>
+            
+            <p>
+               <gap reason="illegible"/>[...] pagate qui le Cartapecore mandate già a <persName ref="#DLCL_CF_PC0313">Paolino,</persName> 
+               ed ho sborsato dodici scudi, importando 7 scudi le 50 grandi; 
+               e s. 2 : 50 le cinquanta 25. mezzane; e altri s. 2 : 50 i cinquanta capretti. 
+               Suppongo legati i libri, che aspetto.
+            </p>
+            
+            <p>
+               Nel calendario, il dì 16 vi fu errore nell’Orazione <hi rend="underline">Concede</hi> per la messa della feria; 
+               che dee essere nella Quaresima <hi rend="underline"><foreign xml:lang="la">A cunctis</foreign></hi>. 
+               Resto abbracciandola caramente, col <persName ref="#DLCL_CF_PC0090">Padre Leandro,</persName> <persName ref="#DLCL_CF_PC0007">Collina.</persName> 
+               Che è del <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli?</persName>
+            </p>
+            
+            <closer>
+               <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1720-02-26">26 Febbraio 1720</date>.</dateline>
+               <salute>DVPMR.</salute>
+               <salute>Affettuosissimo Servitore e Cordialissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10113_L_C3V" n="3 - Verso" facs="https://classense.unibo.it/files/large/27ad2b948ed319da8012f189c22ab00008f6df4f.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre Mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName>  
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

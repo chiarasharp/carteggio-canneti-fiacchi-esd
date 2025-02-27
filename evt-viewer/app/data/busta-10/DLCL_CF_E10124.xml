@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10124">
+    <facsimile sameAs="https://classense.unibo.it/iiif/20756/manifest">
+        <graphic n="1r" url="https://classense.unibo.it/iiif/2/21302/full/529,800/0/default.jpg"/>
+        <graphic n="1v" url="https://classense.unibo.it/iiif/2/25236/full/644,800/0/default.jpg"/>
+        <graphic n="2r" url="https://classense.unibo.it/iiif/2/25237/full/529,800/0/default.jpg"/>
+        <graphic n="2v" url="https://classense.unibo.it/iiif/2/25238/full/623,800/0/default.jpg"/>
+    </facsimile>
+    <text type="letter" xml:id="DLCL_CF_E10124">
+        <front><fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Canneti a Fiacchi (Fabriano, 2 Dicembre 1720)</title>
+                <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Carteggio Canneti Fiacchi</title>
+                <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+                <biblScope unit="letter">124</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="IT">Italia</country>
+                        <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                        <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                        <repository/>
+                        <collection/>
+                        <idno/>
+                        <altIdentifier>
+                            <idno/>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                    <date when-iso="1720-12-02"/>
+                    <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+                <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+                <xi:include href="../../entities/people/cited-people.xml"/>
+                <xi:include href="../../entities/people/staff.xml"/>
+                <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc status="created">
+            <change when-iso="2024-09-03" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-11-25" who="#DLCL_CF_PS001">nuove trascrizioni</change>
+        </revisionDesc>
+    </front><body>
+            <div type="transcription">
+                <pb xml:id="DLCL_CF_E10124_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20756/DSC_6242.jpg"/>
+                
+                <opener>
+                    <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+                </opener>
+                
+                <p>
+                    Né appresso il <persName ref="#DLCL_CF_PC0022">Ducange,</persName> 
+                    né altrove ho potuto ritrovare la voce <hi rend="underline"><foreign xml:lang="la">Orrearius</foreign></hi>, 
+                    la quale può essere per avventura significhi il Granarista, 
+                    e debba per minor barbarie scriversi <hi rend="underline"><foreign xml:lang="la">Horrearius</foreign></hi>, 
+                    cioè <hi rend="underline"><foreign xml:lang="la">Horre[o] praefectus</foreign></hi>, 
+                    o pure <hi rend="underline"><foreign xml:lang="la">Horrei custos</foreign></hi>, ovveramente <hi rend="underline"><foreign xml:lang="la">Ab horreo</foreign></hi>. 
+                    Comunque sia, l’Iscrizione è Cristiana, e pertanto in <placeName ref="#DLCL_CF_L0002">Ravenna</placeName> più rara delle Pagane. 
+                    Io la leggo: <hi rend="underline"><foreign xml:lang="la">Hic requiescit in pace Do... Horrearius Qui vixit annos plus minus quadraginta unum</foreign></hi> 
+                    (e forse più) <hi rend="underline"><foreign xml:lang="la">...sub diem sextam Idus Aprilis Indictione quinta</foreign></hi>. 
+                    Il <persName ref="#DLCL_CF_PC0068">Signor Marchese Maffei</persName> vide il marmo?
+                </p>
+                
+                <p>
+                    Mando l’annessa <bibl type="manuscript">nota di que’ libri in foglio,</bibl> 
+                    che io tengo per certo non trovarsi in <orgName ref="#DLCL_CF_O0005">Classe</orgName> dentro la <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
+                    VPMR mi avvisi se alcuno ve n’ha, che non accada applicar’alla medesima, senza però rimandarmi il foglio. 
+                    Appresso invierò nota di quei, che credo già esservi, siccome anco la lista delle antichissime edizioni, e de’ Manoscritti. 
+                    Non vo’ di vantaggio aggravar le applicazioni sue. 
+                </p>
+                
+                <closer>
+                    <salute>Resto abbracciandola caramente.</salute>
+                    <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1720-12-02">2 Dicembre 1720</date></dateline>
+                    <salute>DVPMR.</salute>
+                    <salute>Affettuosissimo Servitore e Padre Cordialissimo nel Signore</salute> 
+                    <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+                </closer>
+                
+                <pb xml:id="DLCL_CF_E10124_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/0ee8cc1c9f42971349bf9f9cef9be0f98d226027.jpg"/>
+                
+                <pb xml:id="DLCL_CF_E10124_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/0c2716cacb11e7183461583c094515005b4246d3.jpg"/>
+                
+                <pb xml:id="DLCL_CF_E10124_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/c111e6c3246b0891fa9714a5b647baee1bd5e211.jpg"/>
+                
+                <postscript>
+                    <p>
+                        Al Molto Reverendo Padre mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> 
+                        <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+                    </p>
+                </postscript>
+
+            </div>
+        </body>
+    </text>
+</TEI>

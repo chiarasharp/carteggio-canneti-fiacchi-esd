@@ -1,0 +1,290 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10109">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20741/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21264/full/559,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21265/full/603,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21266/full/532,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/21267/full/609,800/0/default.jpg"/>
+      <graphic n="3r" url="https://classense.unibo.it/iiif/2/21268/full/533,800/0/default.jpg"/>
+      <graphic n="3v" url="https://classense.unibo.it/iiif/2/25210/full/580,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10109">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 19 Gennaio 1720)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">109</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1720-01-19"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-08-21" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-17" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10109_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20741/DSC_6170.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Veramente è corso un sì lungo silenzio tra di noi, che al riflettervi io stesso me ne maraviglio, il quale vi ho avuta la colpa, almeno per metà. 
+               Se dopo l’ultima sua scritta fino dal dì 16 del caduto mese, ella mi avesse altre volte consolato con qualche lettera, 
+               mi avrebbe dato moto allo scrivere, ed insieme avrebbe osservato il buon proponimento di scrivermi <hi rend="underline">altra volta altre cose</hi>, 
+               o almeno non l’averebbe portato così in lungo. 
+               Ma venghiamo a noi. 
+               Il <bibl type="print">Dizionario Cateriniano</bibl> fu fatto legare alla rustica, e lo tengo così, perché non è libro intiero, 
+               e non ha principio, né fine, come il cervello dell’Autore, il quale m’imagino che punto più non pensi a finirlo. 
+               Così parimente manca il fine alla <bibl type="print">Relazione del Collegio delle Balie Latine.</bibl> 
+               Ma nulla mostra <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> sapere della <bibl type="print">famosa lettera</bibl> 
+               scritta a nome del <persName ref="#DLCL_CF_PC0710">Padre Bonucci</persName> Gesuita al <persName ref="#DLCL_CF_PC0147">Padre Abate Caramelli</persName> nostro, 
+               di cui a migliaia sono volate da per tutto le copie, e si dice ancora che stia alle stampe; 
+               né manca chi tiene sia uscita la risposta in nome d’esso <rs ref="#DLCL_CF_PC0147" type="person">Padre Abate.</rs> 
+               Della lettera suddetto fu creduto Autore il <persName ref="#DLCL_CF_PC0643">Gigli,</persName> 
+               contro cui uscì in <placeName ref="#DLCL_CF_L0008">Roma</placeName> il <foreign xml:lang="la"><hi rend="underline">capiatur</hi></foreign>. 
+               Si rifugiò in <orgName ref="#DLCL_CF_O0094">San Romualdo</orgName> ove fu mal’accolto da nostri, 
+               e massimamente da <persName ref="#DLCL_CF_PC0711">Monsignor Ciani.</persName> 
+               Indi sotto l’ombra del Signor <persName ref="#DLCL_CF_PC0712">Cardinale Scotti</persName> 
+               passò a <orgName ref="#DLCL_CF_O0115">San Carlo al Corso,</orgName> dove si è fermato, 
+               finche gli è riuscito pochi giorni sono uscirne <hi rend="underline"><foreign xml:lang="la">ex capite innocentiae</foreign></hi>. 
+               Vorrei ch’ella l’avesse veduta. 
+               Il <persName ref="#DLCL_CF_PC0713">Signor Abate Busetti</persName> mi scrisse mostrando che gli sia capitata. 
+               Mi sarebbe caro intendere se la profezia di <persName ref="#DLCL_CF_PC0714">San Francesco Borgia</persName> ivi addotta confronti col libro, 
+               ch’è in cotesta <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> predicato per libro rarissimo.
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10109_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20741/DSC_6171.jpg"/>
+            
+            <p>
+               E anco da vedere se quanto si adduce delle <bibl type="print">Regole degli Studi de’ Gesuiti</bibl> si trovi nel Corpo, 
+               che abbiamo di loro Costituzioni: del che dubito. 
+               Purtroppo mi persuado che sia un corpo castrato.
+            </p>
+            
+            <p>
+               Mi rallegro del posto di Segretario da lei acquistato nella scuderia di <orgName ref="#DLCL_CF_O0005">Classe.</orgName> 
+               Se io sono in tempo, ringrazi cotesti Padri, i quali per di lei mezzo mi hanno favorito delle buone feste, 
+               e distintamente il <rs type="person">Padre Camerlingo.</rs>
+            </p>
+            
+            <p>
+               Avanti che io chiuda la lettera, vedrò di aver la nota del costo delle Cartepecore mandate, 
+               che godo abbiano servito a’ vantaggi del nostro <persName ref="#DLCL_CF_PC0313">Paolino.</persName> 
+               Una volta in <placeName ref="#DLCL_CF_L0109">Ribano</placeName> ebbi congiuntura di riverire il <persName ref="#DLCL_CF_PC0715">Signor Berloni Avvocato Riminese,</persName> 
+               la cui dottrina, ed erudizione mi è nota già per fama. 
+               Medito di essere ben servito dal nostro <rs type="person">Libraio.</rs> 
+               Ma non si scordi di me, per conto de’ libri, e del <bibl type="print">Pontificale,</bibl> che ha necessità di essere con diligenza risarcito, 
+               in maniera che meriti di esser vestito di nuovo con pelle damaschina. 
+               Se fossero stati in ordine, quando <persName ref="#DLCL_CF_PC0043">Frate Pietro</persName> mi ha spedito altre robe, 
+               potevano ritornare per mare fino a <placeName ref="#DLCL_CF_L0030">Sinigaglia.</placeName> 
+               Subito che sono in ordine me gl’invij diretti a me, 
+               e raccomandati in <placeName ref="#DLCL_CF_L0030">Sinigaglia</placeName> al <persName ref="#DLCL_CF_PC0112">Signor Tommaso Grossi Doganiere,</persName> 
+               con una lettera al medesimo. 
+               Insieme con detti libri mi mandi i <bibl type="print">due Tomi</bibl> del <persName ref="#DLCL_CF_PC0479">Giraldi,</persName> 
+               i <bibl type="print">due Tomi</bibl> dell’<persName ref="#DLCL_CF_PC0244">Arisi</persName> in foglio, 
+               e le <bibl type="print">Opere</bibl> del <persName ref="#DLCL_CF_PC0716">Calcagnini.</persName> 
+               Oh Dio! 
+               Per le annotazioni avrei bisogno di Libreria più copiosa di <orgName ref="#DLCL_CF_O0001">cotesta di Classe.</orgName> 
+               Or pensi che farò. 
+               Convien contentarsi di quel, che si può.
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10109_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20741/DSC_6172.jpg"/>
+            
+            <p>
+               Col <persName ref="#DLCL_CF_PC0659">Signor Dottore Traversari</persName> proccuri, come da se, e per zelo di servirlo, di ricavar quanto si può. 
+               Tutto mi sarà caro. 
+               Ma io non voglio entrar’in impegno, ed amo rimaner in piena <del rend="overstrike">di</del> libertà di accettare quel, 
+               che mi venga mandato, se lo stimo ben fondato, e degno di menzione, ovvero di ommetterlo, se non mi pare tale. 
+               Appunto non mi è ultimamente mancato un’Impostore con certe lettere, che mi mandò scritte da <persName ref="#DLCL_CF_PC0177">Ambrogio</persName> ad un suo Antenato. 
+               Ma non mi voleva molta fatica per iscoprirle finte. 
+               Il mal’accorto ben poteva ingannarmi fingendole scritte dall’Antenato suo ad <persName ref="#DLCL_CF_PC0177">Ambrogio</persName> 
+               e guardandosi da non toccare punti, che potessero scoprir l’impostura.
+            </p>
+            
+            <p>
+               Godo ch’Ella abbia servito il <persName ref="#DLCL_CF_PC0068">Signor Marchese Scipione Maffei</persName> 
+               della <bibl type="print">copia di alcune di coteste Iscrizioni:</bibl> 
+               e più goderò che a lui mandi trascritto l’Istromento scolpito in marmo non tanto per cooperare allo studio di quell’eruditissimo Cavaliere, 
+               quanto perché in tal congiuntura si metterà la lapide in luogo proprio da esser letta, 
+               e considerata, come merita, togliendola dal sito, ove l’ha condannata l’ignoranza. 
+               Scrissi già a cotesto <rs type="person">Reverendissimo</rs> con raccomandargli i marmi da me radunati. 
+               Per ottener l’intento, gioverà l’importunità, impiegandovi anco il <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli.</persName>
+            </p>
+            
+            <p>
+               Ringrazio la diligenza di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> 
+               per le notizie ricevute della persona di <persName ref="#DLCL_CF_PC0507">Manuello Crisolora,</persName> 
+               della quale poco fa scrisse una lunga dissertazione il <persName ref="#DLCL_CF_PC0717">Signor Domenico Giorgi Bibliotecario</persName> 
+               dell’<persName ref="#DLCL_CF_PC0037">Eminentissimo Imperiali,</persName> con cui, avendomi esso favorito di sua cortese lettera, ho introdotto carteggio. 
+               Dall’accennato <persName ref="#DLCL_CF_PC0507">Grisolora</persName> scrive il <persName ref="#DLCL_CF_PC0679">Fabricio</persName> 
+               nel <bibl type="print">Tomo 6</bibl> e nel <bibl type="print">Tomo 7 della Biblioteca Greca.</bibl> 
+               Nel
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10109_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/20741/DSC_6173.jpg"/>
+            
+            <p>
+               citato <bibl type="print">tomo 6</bibl> si legge di lui al libro 5 cap. 5 pag. 484 
+               <cit>
+                  <quote>
+                     <hi rend="underline">
+                        <foreign xml:lang="la">
+                           eius epitaphium Lambecius epistolis praemisit, 
+                           quod etiam legitur in Historia Concilij Constantiensis, quam viro praestantissimo Hermanno ab Hardt debemus To. 1 pag. 16. 
+                        </foreign>
+                     </hi>
+                  </quote>
+               </cit>
+               
+               Me ne mandi copia per confrontarla, con lo stampato nell’<bibl type="print"><hi rend="underline"><foreign xml:lang="la">Iter Italicum</foreign></hi> </bibl>
+               del <persName ref="#DLCL_CF_PC0129">Mabillon,</persName> e con un <bibl type="manuscript">Manoscritto Miscellaneo,</bibl> 
+               che stà presso di me, osservando io l’uno, e l’altro diversi in più parole.
+            </p>
+            
+            <p>
+               Il <persName ref="#DLCL_CF_PC0351">Landino</persName> nelle <bibl type="print">Questioni Camaldolesi,</bibl> tra le persone, che introduce a parlare, 
+               e ad ascoltare que’ dotti discorsi, parmi che annoveri <persName ref="#DLCL_CF_PC0719">Marco Parenti.</persName> 
+               Ne desidero l’enumerazione, come stà nel libro. 
+               Vado conghietturando che sia costui quello stesso giovane, il quale fu compagno di <persName ref="#DLCL_CF_PC0177">Ambrogio</persName> nel viaggio, 
+               e dimora di <placeName ref="#DLCL_CF_L0008">Roma,</placeName> ed è ivi nominato, come anco nelle Lettere. 
+               <hi rend="underline"><foreign xml:lang="la">Parens illustris adolescens suavissimus</foreign></hi> e con altri simili vocaboli di stima, e di amore. 
+               Dovea esser’amico de’ nostri, e adulto frequentar la conversazione del <persName ref="#DLCL_CF_PC0720">Generale Mariotto,</persName> 
+               il quale sotto <persName ref="#DLCL_CF_PC0177">Ambrogio</persName> era stato Maestro de’ Novizzi in <orgName ref="#DLCL_CF_O0095">Camaldoli.</orgName> 
+               Mi aiuti in due passi dell’epistole, trovando le precise parole degli Autori citati, e notandone i luoghi.
+            </p>
+            
+            <p>
+               <cit>
+                  <quote>
+                     <hi rend="underline">
+                        <foreign xml:lang="la">
+                           Ita ferme temperatum est, teste Celso, ut id unicum pestilentiae remedium supersit, si peregrinentur. 
+                        </foreign>
+                     </hi>
+                  </quote>
+               </cit>
+               Veggasi <bibl type="print">Cornelio Celso | Celsus lib. 1 cap. X.</bibl>
+            </p>
+            
+            <p>
+               <cit>
+                  <quote>
+                     <hi rend="underline">
+                        <foreign xml:lang="la">
+                           Illius ardens ingenium admiratus loquendi genus parum facile non probavit 
+                        </foreign>
+                     </hi>
+                  </quote>
+               </cit>
+               è citata come censura di <persName ref="#DLCL_CF_PC0306">Tertulliano</persName> fatta da <persName ref="#DLCL_CF_PC0721">San Cipriano.</persName> 
+               Io non la trovo nelle raccolte di simili censure, del Magiro, né del Pope Bl<gap reason="illegible"/>[...]
+            </p>
+            
+            <p>
+               Desidero sapere qualche cosa di <persName ref="#DLCL_CF_PC0722">Paolo Egineta Medico.</persName> 
+               Vegga il <bibl type="print">Vanderlinden.</bibl> 
+               <hi rend="underline">Ae</hi>
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10109_L_C3R" n="3 - Recto" facs="https://classense.unibo.it/files/large/20741/DSC_6174.jpg"/>
+            
+            <p>
+               Da che anno comincia il <bibl type="manuscript">Diario</bibl> di <persName ref="#DLCL_CF_PC0024">Frate Aurelio dalla Rocca Contrada</persName> Romitano Manoscritto, e in qual’anno finisce? 
+               Noti i successi memorabili ivi riferiti. 
+               Con comodo. 
+               Il <persName ref="#DLCL_CF_PC0232">Signore Boccolini</persName> in <placeName ref="#DLCL_CF_L0023">Foligno</placeName> 
+               scrive un’<bibl type="print">Opera degli Scrittori della Marca, e dell’Umbria.</bibl>
+            </p>
+            
+            <p>
+               Vegga quel, che nel fine della <bibl type="print">Scienza Cavalleresca</bibl> scrive il <persName ref="#DLCL_CF_PC0068">Marchese Maffei</persName> 
+               intorno a <persName ref="#DLCL_CF_PC0723">Timoteo</persName> Canonico Regolare suo Antenato.
+            </p>
+            
+            <p>
+               Il <persName ref="#DLCL_CF_PC0679">Fabricio</persName> <bibl type="print">Tomo 5 pag. 2 della Biblioteca Greca</bibl> 
+               accenna due edizioni de’ <bibl type="print">Santi Padri del tempo degli Appostoli</bibl> 
+               dati in luce dal <persName ref="#DLCL_CF_PC0724">Cotelerio,</persName> una rara di <placeName ref="#DLCL_CF_L0017">Parigi</placeName> 1672, 
+               l’altra di <placeName ref="#DLCL_CF_L0065">Amsterdam</placeName> 1698 per opera del Clerico. 
+               Cotesta nostra qual è delle due. 
+            </p>
+            
+            <p>
+               [<foreign xml:lang="la">Nostra editio posterior hic [a]nnotata sed Antverpiae dicitur facta. Vide praefationem ad primum tomum</foreign>]
+            </p>
+            
+            <p>
+               Io mi aggiro nella vasta selva degli Autori, di cui si fa menzione nel <bibl type="print">Libro Ottavo,</bibl> 
+               che abbraccia le pistole scritte a <persName ref="#DLCL_CF_PC0208">Niccolò Niccoli.</persName> 
+               Non sò chi sia certo <hi rend="underline">Polydeuce</hi>, 
+               e credo per errore sia scritto in luogo di <persName ref="#DLCL_CF_PC0725">Polyeno</persName> Autor greco di <bibl type="print">Stratagemi.</bibl> 
+               Vegga il <bibl type="print">Catalogo Imperialense.</bibl> 
+               Basta per ora. 
+               Un riverente, e cordiale saluto al <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina.</persName> 
+            </p>
+          
+            <closer>
+               <salute>Resto con abbracciarla di tutto cuore.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1720-01-19">19 Gennaio 1720</date></dateline>
+               <salute>DVPMR.</salute>
+               <salute>Affettuosissimo Servitore e Cordialissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10109_L_C3V" n="3 - Verso" facs="https://classense.unibo.it/files/large/b8ce9ec5d289f4a1d15cc47647cb1ca8e4a2667d.jpg"/>
+
+         </div>
+      </body>
+   </text>
+</TEI>

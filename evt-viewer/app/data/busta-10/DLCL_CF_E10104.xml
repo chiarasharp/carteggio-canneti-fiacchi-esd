@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10104">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20736/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21253/full/550,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21254/full/589,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21255/full/559,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25199/full/610,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10104">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 11 Settembre 1719)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">104</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1719-09-11"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-07-23" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-17" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10104_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20736/DSC_6148.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               È partito il nostro <rs type="person">Padre Lettore</rs> senza mie lettere a <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità,</rs> 
+               perché dopo essere stata già stabilita per oggi la sua mossa di ritorno, 
+               volle anticipar tre giorni; onde non mi permise soddisfarmi la sua improvvisa risoluzione. 
+               Per questo motivo, e molto più per essersi a cavallo incaminato per la strada del <persName ref="#DLCL_CF_PC0610">Massaccio,</persName> 
+               non ho potuto inviar seco una Cassetta, 
+               che per mare manderò a <placeName ref="#DLCL_CF_L0002">Ravenna</placeName> con il <bibl type="manuscript">Manoscritto consaputo,</bibl> 
+               col <bibl type="print">Corpo delle Istruzioni</bibl> del <persName ref="#DLCL_CF_PC0688">Lohner,</persName> con diversi libri da legare, e altri da aggiungere a nostri. 
+               Tra essi vi sarà la <bibl type="print">Bibbia,</bibl> e il <bibl type="print">Quintiliano.</bibl> 
+               Io crederei che fosse bene far supplire colla penna le tre carte mancanti dell’altro esemplare, 
+               ch’è in <orgName ref="#DLCL_CF_O0001">Libreria</orgName> (quando il <persName ref="#DLCL_CF_PC0676">Padre Grilli</persName> volesse far questo bene) 
+               e poi venderlo, mettendo il comprato ultimamente da me in <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
+               E mi lusingo che del <bibl type="print">Quintiliano</bibl> ancor così rappezzato si potessero cavare i quindici paoli, che io ho speso nell’intiero. 
+               Il <bibl type="print">Jerocle</bibl> da me collocato in <orgName ref="#DLCL_CF_O0001">Libreria</orgName> 
+               mi costò in <placeName ref="#DLCL_CF_L0005">Faenza</placeName> altri quindici paoli. 
+               Quel, ch’è tra nostri libri, veramente non ha l’ornamento sul principio, della miniatura. 
+               Con tutto ciò vegga se può venderlo a quel prezzo. 
+               Ho bisogno di danaro, per le spese fatte quest’anno in libri, per il rimborso, che mi rimane da fare al <persName ref="#DLCL_CF_PC0105">Padre Giorgini,</persName> 
+               e per la necessità, che ho di comprar la <bibl type="print">Biblioteca Greca</bibl> 
+               del <persName ref="#DLCL_CF_PC0679">Fabricio</persName> con altre Opere dello stesso autore.
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10104_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20736/DSC_6149.jpg"/>
+            
+            <p>
+               Le Annotazioni a penna fatte alle <bibl type="print">Orazioni</bibl> di <persName ref="#DLCL_CF_PC0153">Cicerone</persName> non sono perpetue, 
+               ma ad alcune Orazioni solamente; e altre sono rade, altre spesse. 
+               <gap reason="illegible"/>[...] così son <bibl type="print">quelle</bibl> del <persName ref="#DLCL_CF_PC0622">Plinio,</persName> 
+               di quel famoso <persName ref="#DLCL_CF_PC0622">Plinio,</persName> 
+               che non vedrò fino a Novembre, restando tuttavia in <placeName ref="#DLCL_CF_L0008">Roma</placeName> sequestrato il buon <persName ref="#DLCL_CF_PC0259">Bianconi.</persName> 
+               Come tutto il corpo di <persName ref="#DLCL_CF_PC0153">Cicerone</persName> non fu stampato da’ <orgName ref="#DLCL_CF_O0109">Massimi;</orgName> 
+               così può essere che solo sia stato stampato il Tomo da lei veduto di <persName ref="#DLCL_CF_PC0362">San Girolamo,</persName> che m’imagino non sia venale.
+            </p>
+            
+            <p>
+               Non è disperato l’acquisto del <bibl type="print">Santo Agostino,</bibl> e del <bibl type="print">Plinio,</bibl> 
+               il primo [più antico di quel] de’ <orgName ref="#DLCL_CF_O0109">Massimi,</orgName> il secondo del <persName ref="#DLCL_CF_PC0636">Jenson.</persName> 
+               Ma si ha a fare con un pazzo, che apprende siano due tesori. 
+               Ora dice avergli, ora nò. 
+               Un’amico mio, che girava per acquistar libri per <persName ref="#DLCL_CF_PC0689" cert="unknown">Monsignor Passionei</persName> fu a trovar costui, 
+               il quale <gap reason="illegible"/>[...] mostrargli il <bibl type="print">Plinio,</bibl> gliene chiese sei doppie. 
+               Oh quanto fui goffo, quando non presi il <bibl type="print">Santo Agostino</bibl> per quattro scudi! 
+               Rimane pur qualche scintilla di speranza di aver’i libri di quel <rs type="person">Molto Reverendo,</rs> che non basterà una soma a trasportargli. 
+               Ho ancor’io i miei turcimanni. 
+               Se si matureranno questi negozj, potremo guadagnarci e il <bibl type="print">Plinio</bibl> da legare, 
+               e la <bibl type="print">Bibbia ebraica,</bibl> dal <persName ref="#DLCL_CF_PC0646">Padre Maestor Greco.</persName>
+            </p>
+            
+            <p>
+               Due libri in quarto ho acquistato i giorni addietro: 
+               e sono = <bibl type="print"><foreign xml:lang="la">Manipulus curatorum compositus a Guidone de Monte rochen</foreign>.</bibl> 
+               <foreign xml:lang="la">
+                  Impressus <placeName ref="#DLCL_CF_L0008">Romae</placeName> anno Domini <gap reason="illegible"/>[...] = 
+               </foreign>
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10104_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20736/DSC_6150.jpg"/>
+            
+            <p>
+               senza nome dello stampatore. 
+               L’altro = <bibl type="print"><foreign xml:lang="la">Johannis Genson Cancellarij Parisiensis de contemptu mundi</foreign>.</bibl> 
+               <foreign xml:lang="la">
+                  1483 per Petrum Jossein de Langencen Alemanum. <placeName ref="#DLCL_CF_L0024">Venetijs</placeName>
+               </foreign> =. 
+               Sul principio sta manoscritta una lettera [volgare] di <persName ref="#DLCL_CF_PC0690">Marco Antonio</persName> 
+               (che io credo il Flamminio) a <persName ref="#DLCL_CF_PC0691">Messer Carlo Gualteruzzi</persName> 
+               (quel che diede in luce il <bibl type="print">Novelliere antico)</bibl> 
+               in lode dell’Opera <bibl type="print"><hi rend="underline"><foreign xml:lang="la">de Imitatione Christi</foreign></hi></bibl> con la censura dell’Opera, 
+               in quanto non approva che conduca per via del timore.
+            </p>
+            
+            <p>
+               Il <bibl type="print">Tometto</bibl> del <persName ref="#DLCL_CF_PC0688">Lohner,</persName> ch’è costì, 
+               sarà uno del corpo intiero accennato, ma col titolo alquanto alterato. 
+               Certo è che l’opera, e di quella stampa, non è obvia. 
+               <persName ref="#DLCL_CF_PC0216">Monsignor Fontanini,</persName> scrivendomi in certo proposito, 
+               mi tocca che un libro raro è quello dell’<bibl type="print">Epistole</bibl> del <persName ref="#DLCL_CF_PC0209">Beato Alberto da Sarteano,</persName> 
+               che io misi in <orgName ref="#DLCL_CF_O0001">Libreria.</orgName>
+            </p>
+            
+            <p>
+               Non sò se ho dato parte a <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> delle rare, recondite, 
+               e insigni lettere che ho aggiunte alla mia Collezione dell’<bibl type="manuscript">epistole Ambrosiane,</bibl> 
+               una tra le altre a <persName ref="#DLCL_CF_PC0692">S. Bernardino,</persName> e una al detto del <persName ref="#DLCL_CF_PC0209">Beato Alberto.</persName> 
+               Quattro o cinque altre ne aspetto. 
+               Intanto si lavora intorno alla Copia per la stampa.
+            </p>
+            
+            <p>
+               Venderei ancora le <bibl type="print">Opere</bibl> delli <persName ref="#DLCL_CF_PC0521 #DLCL_CF_PC0522">due Pichi</persName> 
+               in <bibl type="print">due Tomi</bibl> in foglio con la cabala del <persName ref="#DLCL_CF_PC0525">Reuchlino</persName> in fine; 
+               perché si ritenesse il Corpo migliore, e l’altro si esitasse. 
+               Ne vorrei contanti, 25 paoli, che vi ho speso; e si potrebbe per il resto far baratto col <persName ref="#DLCL_CF_PC0646">Padre Greco.</persName> 
+               Vale almeno sei scudi. 
+               Delle <bibl type="religious">Rubriche del Calendario;</bibl> ad un altro anno. 
+               Resto abbracciandola.
+            </p>
+            
+            <p>
+               I miei ossequi al <rs type="person">Padre Reverendissimo.</rs> 
+               Ben tornato al <rs type="person">Padre Lettore</rs>
+            </p>
+            
+            <closer>
+               <salute>DVPMR.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1719-09-11">11 Settembre 1719</date></dateline>
+               <salute>Cordialissimo Servitore e Padre Affettuosissimo nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <postscript>
+               <p>
+                  [Che altri libri si ebbero <gap reason="illegible"/>[...]]
+               </p>
+            </postscript>
+            
+            <pb xml:id="DLCL_CF_E10104_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/4c84d35e7ad293bf089dc24df89b787484e264b8.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre Mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0109">Savignano per Ribano</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

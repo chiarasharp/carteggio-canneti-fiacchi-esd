@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10129">
+    <facsimile sameAs="https://classense.unibo.it/iiif/20761/manifest">
+        <graphic n="1r" url="https://classense.unibo.it/iiif/2/21316/full/508,800/0/default.jpg"/>
+        <graphic n="1v" url="https://classense.unibo.it/iiif/2/21317/full/612,800/0/default.jpg"/>
+        <graphic n="2r" url="https://classense.unibo.it/iiif/2/25243/full/493,800/0/default.jpg"/>
+        <graphic n="2v" url="https://classense.unibo.it/iiif/2/25244/full/619,800/0/default.jpg"/>
+    </facsimile>
+    <text type="letter" xml:id="DLCL_CF_E10129">
+        <front><fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Canneti a Fiacchi (Fabriano, 13 Dicembre 1720)</title>
+                <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Carteggio Canneti Fiacchi</title>
+                <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+                <biblScope unit="letter">129</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="IT">Italia</country>
+                        <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                        <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                        <repository/>
+                        <collection/>
+                        <idno/>
+                        <altIdentifier>
+                            <idno/>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                    <date when-iso="1720-12-13"/>
+                    <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+                <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+                <xi:include href="../../entities/people/cited-people.xml"/>
+                <xi:include href="../../entities/people/staff.xml"/>
+                <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc status="created">
+            <change when-iso="2024-09-04" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-09-19" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-24" who="#DLCL_CF_PS001">correzioni</change>
+        </revisionDesc>
+    </front><body>
+            <div type="transcription">
+                <pb xml:id="DLCL_CF_E10129_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20761/DSC_6259.jpg"/>
+                
+                <opener>
+                    <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+                </opener>
+                
+                <p>
+                    Ricevo la continuazione del <bibl type="manuscript">Catalogo de’ nostri libri,</bibl> in ordine al quale io non solamente non ho motivo di accusarla di lentezza, 
+                    ma debbo anzi lodar molto la sollecitudine di VPMR. 
+                    Ed io quindi entro via più in obbligo di spingere la spedizione dell’<bibl type="manuscript">Indice</bibl> già cominciato costì a comparire. 
+                    Riceverà ora annessi due fogli della <bibl type="manuscript">Nota di cotesti Manoscritti.</bibl> 
+                    La seguiterò, ma tengo per certo che né pur quanto al numero sarà compiuta, molto meno quanto alle belle osservazioni, che sarebbe opportuno farvi sopra. 
+                    Più d’ogni altra cosa, han bisogno di esser riveduti, e posti sotto più attenta considerazione. 
+                    Il tempo mi mancò, e preveggo che non li rivedrò più!
+                </p>
+                
+                <p>
+                    Desidero sapere di quale stampa sia il <bibl type="print">Nizolio</bibl> della <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
+                    In <placeName ref="#DLCL_CF_L0028">Perugia</placeName> ne comprai un’altro: 
+                    onde cotesto nostro (se non ha qualità particolare, che lo renda considerabile) sarà via più da esitare. 
+                    Per chi hà da scriver latino è libro necessarissimo, e utilissimo.
+                </p>
+                
+                <p>
+                    Starebbe bene che una penna diligentissima rimediasse al difetto del Rame, 
+                    ch’è mancante nel <bibl type="print">libro</bibl> del <persName ref="#DLCL_CF_PC0804">Cardinal Rasponi.</persName> 
+                    Un’altra copia credo sia nella <orgName ref="#DLCL_CF_O0142">Biblioteca dello Spirito Santo.</orgName> 
+                    Aiutisi, quanto si può, la <orgName ref="#DLCL_CF_O0143">Biblioteca de’ Cappuccini</orgName> 
+                    nel difetto contratto per essere venuta da <placeName ref="#DLCL_CF_L0083">Genova</placeName> in compagnia di certa conserva di rose, 
+                    che guastò versandovi da un vaso, il libro non obvio.
+                </p>
+                
+                <p>
+                    Se il <bibl type="print">Budeo</bibl> della stampa elegantissima di <persName ref="#DLCL_CF_PC0581">Aldo</persName> è migliore di quel, 
+                    ch’è in <orgName ref="#DLCL_CF_O0001">Libreria</orgName> 
+                </p>
+                
+                <pb xml:id="DLCL_CF_E10129_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20761/DSC_6260.jpg"/>
+                
+                <p>
+                    <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> ne faccia permuta.
+                </p>
+                
+                <p>
+                    Avvisi se si apre occasione di esitare i libri, i quali relativamente a cotesta <orgName ref="#DLCL_CF_O0001">Biblioteca,</orgName> 
+                    o a nostri libri, stanno presso lei duplicati. 
+                    Io applicherò a vendergli a giusto prezzo, e con riputazione, per rinvestirne in altri libri il prezzo.
+                </p>
+                
+                <p>
+                    Ben vengano i manicotti, che m’immagino si muovano nel viaggio colla fretta medesima, 
+                    con cui caminano i fagotti spediti di quà per <placeName ref="#DLCL_CF_L0002">Ravenna.</placeName> 
+                    Un cordialissimo abbraccio al <persName ref="#DLCL_CF_PC0090">Padre Don Leandro.</persName> 
+                    Un’altro a lei eguale, con cui mi confermo.
+                </p>
+                
+                <closer>
+                    <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1720-12-13">13 Dicembre 1720</date></dateline>
+                    <salute>DVPMR.</salute>
+                    <salute>Cordialissimo Servitore e Padre Affettuosissimo nel Signore</salute> 
+                    <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+                </closer>
+                
+                <pb xml:id="DLCL_CF_E10129_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/b040dda73fabcf988d8fdbaf327b333a71ac2768.jpg"/>
+                
+                <pb xml:id="DLCL_CF_E10129_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/a466cd9527b5d10708e534f2de5582fff7c40b93.jpg"/>
+                
+                <postscript>
+                    <p>
+                        Al Molto Reverendo Padre Mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                        <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+                    </p>
+                    <p>
+                        [<bibl type="print"><foreign xml:lang="la">Thesaurus Ciceron</foreign>.</bibl>
+                    </p>
+                    <p>
+                        <foreign xml:lang="la">Marij<gap reason="illegible"/>[...] Venetijs</foreign>
+                    </p>
+                    <p>
+                        <foreign xml:lang="la">per <persName>Georgium Valentinum</persName></foreign>
+                    </p>
+                    <p>
+                        <foreign xml:lang="la">1624 in folio</foreign>]
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10094">
+    <facsimile sameAs="https://classense.unibo.it/iiif/20726/manifest">
+        <graphic n="1r" url="https://classense.unibo.it/iiif/2/21230/full/566,800/0/default.jpg"/>
+        <graphic n="1v" url="https://classense.unibo.it/iiif/2/25179/full/614,800/0/default.jpg"/>
+        <graphic n="2r" url="https://classense.unibo.it/iiif/2/25180/full/577,800/0/default.jpg"/>
+        <graphic n="2v" url="https://classense.unibo.it/iiif/2/25181/full/620,800/0/default.jpg"/>
+    </facsimile>
+    <text type="letter" xml:id="DLCL_CF_E10094">
+        <front><fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Canneti a Fiacchi (Perugia, 4 Febbraio 1719)</title>
+                <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Carteggio Canneti Fiacchi</title>
+                <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+                <biblScope unit="letter">94</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="IT">Italia</country>
+                        <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                        <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                        <repository/>
+                        <collection/>
+                        <idno/>
+                        <altIdentifier>
+                            <idno/>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                    <date when-iso="1719-02-04"/>
+                    <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+                <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+                <xi:include href="../../entities/people/cited-people.xml"/>
+                <xi:include href="../../entities/people/staff.xml"/>
+                <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc status="created">
+            <change when-iso="2024-07-18" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+        </revisionDesc>
+    </front><body>
+            <div type="transcription">
+                <pb xml:id="DLCL_CF_E10094_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20726/DSC_6099.jpg"/>
+                
+                <opener>
+                    <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+                </opener>
+                
+                <p>
+                    Mi avvisi <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> quali siano i Tomi 
+                    che devo chiedere al <persName ref="#DLCL_CF_PC0529">Signor Conte Vincenzio Piazza.</persName>
+                    Veramente parmi che cinque sieno quei, che ottenni, e lasciai costì; ma precisamente non me ne ricordo; 
+                    e non sò quanti ne abbia prodotti dipoi la feconda penna di quell’insigne, e rinomato Religioso, che meritamente ha in cura il Farnese Museo. 
+                </p>
+                
+                <p>
+                    Approvo il contratto; cancello dal <bibl type="manuscript">Catalogo</bibl> i libri dati al <rs type="person">Priore Reggente;</rs> 
+                    e vi aggiungo (ohimè, non sò i titoli da aggiungere). 
+                </p>
+                
+                <p>
+                    Hò l’<bibl type="print">Italia Sacra</bibl> del <persName ref="#DLCL_CF_PC0651">Lucenti;</persName> 
+                    ma non hò l’<bibl type="print">Appendice</bibl> fatta a quel tomo dal <persName ref="#DLCL_CF_PC0650">Padre Abate Gattola.</persName> 
+                    Dov’è ella stampata? 
+                </p>
+                
+                <p>
+                    Mi è capitato un <persName ref="#DLCL_CF_PC0153">Cicerone</persName> <bibl type="print"><foreign xml:lang="la">de Officijs</foreign></bibl> 
+                    <foreign xml:lang="la"><placeName ref="#DLCL_CF_L0024">Venetijs</placeName> 1477 in folio parvo</foreign>; ma non è bello, né ornato, né pulitissimamente tenuto. 
+                    È un grande impiccio il comprare per altri simil sorta di mercanzia. 
+                </p>
+                
+                <p>
+                    Il <bibl type="manuscript">manoscritto dell’Acquedotti</bibl> intorno la <orgName ref="#DLCL_CF_O0005">Basilica di Classe,</orgName> 
+                    è venuto qua framischiato, non sò come, tra’ nostri libri. 
+                    Con maggior comodo un’altra volta. 
+                </p>
+                
+                <closer>
+                    <salute>Resto caramente confermandomi.</salute>
+                    <salute>DVPMR.</salute>
+                    <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1719-02-04">4 Febbraio 1719</date></dateline>
+                    <salute>Cordialissimo Servitore e Padre nel Signore</salute> 
+                    <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+                </closer>
+                
+                <pb xml:id="DLCL_CF_E10094_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/825de50047cd1ed9a8a6fa996a591524bb1048a5.jpg"/>
+                
+                <pb xml:id="DLCL_CF_E10094_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/40dec0c522495ef9b55872ecf8d03a50cbab7b1d.jpg"/>
+                
+                <pb xml:id="DLCL_CF_E10094_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/766094175faf6aa09a20a5763ae5c7dc1b436cbd.jpg"/>
+                
+                <postscript>
+                    <p>
+                        Al Molto Reverendo Padre Mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                        <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

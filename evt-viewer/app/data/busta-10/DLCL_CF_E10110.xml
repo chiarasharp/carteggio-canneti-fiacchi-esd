@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10110">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20742/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21269/full/554,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21270/full/606,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/25211/full/511,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25212/full/603,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10110">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 2 Febbraio 1720)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">110</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1720-02-02"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-08-22" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-18" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">nuove trascrizioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10110_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20742/DSC_6176.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Non faccia il bravo, <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo</persName> mio, non trionfi. 
+               <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> non mi ha prevenuto. 
+               Io scrissi altra mia, avanti di ricevere l’unica sua scrittami in quest’anno. 
+               Ho vedute le <bibl type="print">lezioni</bibl> di <persName ref="#DLCL_CF_PC0227">San Pier Damiano</persName> non solo abbreviate, ma alterate e confuse, 
+               quanto alla storia delle penitenze, non distinguendosi quelle, che il <rs ref="#DLCL_CF_PC0227" type="person">Santo</rs> faceva nel secolo da quelle, 
+               con cui si affliggeva nella religione. 
+               Non può negarsi che le nostre siano lunghe, e che lunghissime sarebbono ridotte a tre sole. 
+               Da poiche si tratta di guastare, ecco ancor’io ho fatto un’altro accorciamento, aggiungendovi, del mio men che ho potuto. 
+               Nella stampa è senza dubbio errore quello <hi rend="underline"><foreign xml:lang="la">utrisque</foreign></hi> da correggersi, 
+               e mutarsi in <hi rend="underline"><foreign xml:lang="la">utrisque</foreign></hi>. 
+               Le due Quaresime parmi che siano espresse nella <bibl type="religious">Regola,</bibl> 
+               o <bibl type="religious">Costituzioni</bibl> dell’<orgName ref="#DLCL_CF_O0026">Avellana</orgName> 
+               tra le <bibl type="print">Opere</bibl> di <persName ref="#DLCL_CF_PC0227">San Pier Damiano;</persName> 
+               e saranno forse in quelle di <persName ref="#DLCL_CF_PC0726">San Mattia</persName> nella <bibl type="print">2a parte del Fortunio,</bibl> nelle altre del Sacr’Eremo; 
+               e forse ne sarà menzione nelle <bibl type="print">Dissertazioni Camaldolesi.</bibl> 
+               Queste restano stabilite dalle lezioni sopraccennate, riuscite anco per questo motivo ben lunghe. 
+               Non è breve l’Orazione. 
+               La scrittura sopra esse <bibl type="print">Lezioni</bibl> stampata cade sopra quel, che non si è potuto ottenere, cioè sopra il titolo di Dottore. 
+               Ne ho una copia autentica, la qual manderò con prima occasione. 
+               Il <rs type="person">Padre Cancelliere</rs> già è partito dall’<orgName ref="#DLCL_CF_O0026">Avellana,</orgName> quì non si è fatto vedere; 
+               e però né pur posso ora mandar le cose del <persName ref="#DLCL_CF_PC0643">Gigli.</persName> 
+               Si dice che il <bibl type="print">Collegio delle Balie</bibl> si ristampi. 
+               Và a ferire il cattivo metodo delle scuole della Compagnia.
+            </p>
+            
+            <p>
+               <persName ref="#DLCL_CF_PC0002">Vostra Paternità Don Mariangelo</persName> sà dire che <bibl type="manuscript">l’Acquedotto</bibl> contien delle favole, 
+               che non sono sicuri gli altri Storici Ravennati, e altre simili sue novelle; e poi vuol farci credere
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10110_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20742/DSC_6179.jpg"/>
+            
+            <p>
+               non aver lui abilità per infilzar quattro notizie brevi di <placeName ref="#DLCL_CF_L0020">Classe.</placeName> 
+               Ohi[bò]! 
+               Io sò assolutissimamente ch’egli è buono; come io sapeva da principio che voleva far tutte queste cirimonie, per ingegnarsi di non farne nulla. 
+               Già tutto fù preveduto.
+            </p>
+            
+            <p>
+               Mi mandi copia di quanto scrive l’<bibl type="print">Ughelli</bibl> di <persName ref="#DLCL_CF_PC0727">Gasparo da Perugia Vescovo.</persName> 
+               Frequentino in Regno, e lo troverà tra i Vescovi di <placeName ref="#DLCL_CF_L0137">Avellino</placeName> nella Provincia Beneventana, 
+               essendo ora il Vescovado di <placeName ref="#DLCL_CF_L0138">Frigento</placeName> unito a quel di <placeName ref="#DLCL_CF_L0137">Avellino.</placeName> 
+               Nella <bibl type="print">Collezione de’ Concilj</bibl> del <persName ref="#DLCL_CF_PC0728">Bini</persName> [al Concilio di <placeName ref="#DLCL_CF_L0074">Costanza]</placeName> 
+               raccolga succintissimamente quel che costui vi fece. 
+               Veda la Storia a parte di detto Concilio. 
+               Non accade [sopra] tutto, basta un brevissimo estratto. 
+               Osservi se vien nominato nel Concilio di <placeName ref="#DLCL_CF_L0042">Basilea,</placeName> dove pur si trovò. 
+               Io ne fò menzione non breve nella mia <bibl type="print">Orazione stampata della Perfezione del Beneficio;</bibl> 
+               e lo metto tra’ nostri; e poco fà ne ho avuta una forte prova. 
+               Egli fu Abate di <orgName ref="#DLCL_CF_O0116">San Giovanni dell’Eremo</orgName> nel Perugino; 
+               e colà vi è memoria che vi stettero fino all’anno 1471 i <rs type="person">Camaldolesi.</rs> 
+               Che fà il <bibl type="manuscript">Catalogo della Biblioteca?</bibl> 
+               Che fà il <persName ref="#DLCL_CF_PC0176">Carrari?</persName> 
+               Un caro abbraccio al <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina.</persName> 
+               Saluto <persName ref="#DLCL_CF_PC0043">Frate Pietro,</persName> e <persName ref="#DLCL_CF_PC0029">Frate Ferdinando,</persName> 
+               e <persName ref="#DLCL_CF_PC0265">Frate Benedetto,</persName> quando lo rivederà. 
+            </p>
+ 
+            <closer>
+               <salute>Addio.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1720-02-02">2 Febbraio 1720</date></dateline>
+               <salute>DVPMR.</salute>
+               <salute>Cordialissimo Servitore e Affettuosissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10110_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/450502fbb20405ca2c0f115a17675f822ac7f8c2.jpg"/>
+            
+            <pb xml:id="DLCL_CF_E10110_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/668acda04f900bc3514021216de88de70ed69297.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

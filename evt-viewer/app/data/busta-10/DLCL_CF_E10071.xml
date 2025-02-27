@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10071">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20703/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21172/full/586,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21173/full/627,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21174/full/595,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25094/full/625,800/0/default.jpg"/>
+   </facsimile>
+   <facsimile sameAs="https://classense.unibo.it/iiif/20702/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21171/full/597,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/25093/full/625,800/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <group>
+         <text type="letter" xml:id="DLCL_CF_E10071_L">
+            <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 12 Febbraio 1718)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">71</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1718-02-12"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-07-09" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-13" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
+      </revisionDesc>
+   </front><body>
+               <div type="transcription">
+                  <pb xml:id="DLCL_CF_E10071_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20703/DSC_5988.jpg"/>
+                  
+                  <opener>
+                     <salute><persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Carissimo</salute>
+                  </opener>
+                  
+                  <p>
+                     Riceverò comodamente da <placeName ref="#DLCL_CF_L0023">Foligno</placeName> 
+                     per mezzo del mio <persName ref="#DLCL_CF_PC0015" cert="unknown">Signor Giustiniano</persName> il <bibl type="religious">Calendario.</bibl> 
+                     E con esso và accompagnata la <bibl type="print">Storia</bibl> del <persName ref="#DLCL_CF_PC0186">Corno?</persName> 
+                     Oh mi arriva all’improvviso, e da’ corni bisogna guardarsi. 
+                     Suppongo che non porti spesa, perché non tornerebbe il conto. 
+                     E pure ho comprato ier l’altro un terzo Leggendone del <persName ref="#DLCL_CF_PC0536">Farulli,</persName> 
+                     che ha per titolo = <bibl type="print">Annali d’Arezzo</bibl> = e non vagliono un corno. 
+                  </p>
+                  
+                  <p>
+                     A quest’ora sarà andato in <orgName ref="#DLCL_CF_O0011">Sacra Congregazione del Santo Officio</orgName> il <bibl type="religious">Memoriale</bibl> 
+                     di legger’ i libri proibiti per <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità.</rs> 
+                     Così è stato consigliato fare il <rs type="person">Reverendissimo Padre Procuratore Generale,</rs> 
+                     trattandosi di un Custode di Libreria pubblica, ove si conservano, o posson conservarsi Libri Ereticali. 
+                     Sentiremo l’esito. 
+                  </p>
+                  
+                  <p>
+                     Intorno al <bibl type="print">libro in pergamena</bibl> di <placeName ref="#DLCL_CF_L0053">Magonza</placeName> dubito che la deformità delle miniature tagliate lo guasti. 
+                     Se così è, non è da innamorarsene per contro nostro; e per conto del <rs type="person">Padrone</rs> bisogna che si venda discreto. 
+                     Lo prenderò per Messe, quando ella giudichi che sia volume capace di far’onore alla <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> 
+                     e si moderi il numero delle Messe. 
+                  </p>
+                  
+                  <p>
+                     In proposito di libri mi scrive il <persName ref="#DLCL_CF_PC0193">Reverendissimo Amigoni</persName> sopra certi libri, de’ quali dice accluder la nota, e si è scordato. 
+                     Suppone che siano nostri, e che per me tratti il <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina.</persName> 
+                     E non sò nulla. 
+                  </p>
+                  
+                  <pb xml:id="DLCL_CF_E10071_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20703/DSC_5989.jpg"/>
+                  
+                  <p>
+                     Un cordialissimo saluto al <rs type="person">Padre Lettore,</rs> da cui spero qualche rimasuglio dell’<orgName ref="#DLCL_CF_O0083">Accademia di San Gregorio.</orgName> 
+                  </p>
+                  
+                  <p>
+                     Quel <bibl type="print">libro de’ Pittori Romani,</bibl> di cui tempo fà, si comprò? 
+                  </p>
+                  
+                  <p>
+                     Seguito a trattar l’acquisto della superbissima <bibl type="print">edizione</bibl> del <persName ref="#DLCL_CF_PC0531">Lipsio.</persName> 
+                     Ho proposti a conto i due Tomi, che sono costì di <placeName ref="#DLCL_CF_L0044">Lione,</placeName> 
+                     e il <bibl type="print">Tacito</bibl> appunto della stampa d’<placeName ref="#DLCL_CF_L0032">Anversa,</placeName> 
+                     di cui sono gli altri <bibl type="print">cinque Tomi.</bibl> 
+                     Potrebbe farsi baratto anco de’ i <bibl type="print">due Tomi</bibl> dell’<rs type="person" ref="#DLCL_CF_PC0521">uno,</rs> e l’<persName ref="#DLCL_CF_PC0522">altro Pico.</persName> 
+                     Mi scriva il <bibl type="manuscript">Catalogo delle Opere.</bibl> 
+                  </p>
+                  
+                  <p>
+                     L’altro giorno misi insieme tutti i fogli spettanti alla <orgName ref="#DLCL_CF_O0084">Casa Guccioli.</orgName> 
+                     Voglio assolutamente adempier la promessa. 
+                     Come ho servito chi bramava le reliquie di <persName ref="#DLCL_CF_PC0040">San Severo,</persName> così seguira nel caso nostro. 
+                     Ora parimente dopo quattro anni si è ripigliato lo studio del <bibl type="print">Quadriregio,</bibl> e vi si lavora. 
+                  </p>
+                  
+                  <p>
+                     Bisogna fermare i cervelli predominanti in un sodo sistema e [fare] un <bibl type="religious">Calendario,</bibl> come quel di <orgName ref="#DLCL_CF_O0013">MonteCorona.</orgName> 
+                     Quella festa di <placeName ref="#DLCL_CF_L0004">Fabriano</placeName> non può farsi con altr’officio, che con quello, 
+                     che corre, altrimenti si contraviene al <bibl type="religious">Decreto stampato ne’ Breviarj ultimi,</bibl> 
+                     e non si soddisfà all’obbligo, e si pecca in materia grave. 
+                     Suppongo che siano di que’ Santi Ignoti, che volgarmente diconsi battezzati. 
+                     Abusi sono questi, e altri simili introdotti o da ignoranza, o da irragionevole divozione. 
+                  </p>
+                  
+                  <pb xml:id="DLCL_CF_E10071_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20703/DSC_5990.jpg"/>
+                  
+                  <p>
+                     Seppi la morte del <persName ref="#DLCL_CF_PC0537">Signor Fabio,</persName> alla cui anima doni il Signore eterno riposo. 
+                  </p>
+                  
+                  <closer>
+                     <salute>Resto con caramente abbracciarla.</salute>
+                     <salute>DVPMR.</salute> 
+                     <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1718-02-12">12 Febbraio 1718</date></dateline>
+                     <salute>Cordialissimo Servitore e Padre Affettuosissimo nel Signore</salute> 
+                     <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+                  </closer>
+                  
+                  <pb xml:id="DLCL_CF_E10071_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/9f6dfc7a7de4ba2fcc99af1555298ce89b323af3.jpg"/>
+                  
+                  <postscript>
+                     <p>
+                        Al Molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                        <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+                     </p>
+                     <p>
+                        [<foreign xml:lang="la">Januar. 2. | Februar. 3. | Martius. 3. | Aprilis 3. | Propileum 1. | Maius 6 7. | Junus 7. | 26</foreign>]
+                     </p>
+                  </postscript>
+                  
+               </div>
+            </body>
+         </text>
+         <text type="attachment" xml:id="DLCL_CF_E10071_A01">
+            <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 12 Febbraio 1718)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">71</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1718-02-12"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-07-09" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-13" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
+      </revisionDesc>
+   </front><body>
+               <div type="transcription">
+                  
+                  <pb xml:id="DLCL_CF_E10071_A01_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20702/DSC_5986.jpg"/>
+                  
+                  <opener>
+                     <salute><rs type="person" ref="#DLCL_CF_PC0001">Reverendissimo Padre</rs></salute>
+                  </opener>
+                  
+                  <p>
+                     Nel rammemorarmi <rs type="person" ref="#DLCL_CF_PC0001">Vostra Paternità Reverendissima</rs> con tante vive espressioni il godimento, 
+                     che ha nel degnissimo <persName ref="#DLCL_CF_PC0535">Monsignor mio Lercari,</persName> mi dà una forte occasione di rammarico, 
+                     mentre perso di aver perduto quel bene, che costì elleno godono. 
+                     Prego però il Signore a conservare il <rs type="person">Prelato,</rs> 
+                     e <rs type="person" ref="#DLCL_CF_PC0001">Vostra Paternità Reverendissima</rs> felicemente per lungo tempo, 
+                     poiché, e l’uno, e l’altro veggo, che han virtù, ed attrattive di conciliarsi ogni amore, ed ogni plauso. 
+                     Valga questa piccola espressione anche a corrisponderle all’obbligazione impostami ne’ presagi del Santo Natale, 
+                     che si è compiaciuta farmi, e l’assicuro, che non mai potrò dimenticarmi di lei, 
+                     mentre nell’entrare dalla mia stanza alla libreria, e dall’uscir da questa a quella veggo, e leggo il suo nome, degno di ogni memoria. 
+                     Mi faccia anche contento colle occasioni di servirla, e resto.
+                  </p>
+                  
+                  <closer>
+                     <salute>DVP Reverendissima</salute>
+                     <dateline><placeName ref="#DLCL_CF_L0070">Benevento</placeName> <date when-iso="1718-01-07">7 gennaio 1718</date></dateline>
+                     <salute>Affettuosissimo</salute>
+                  </closer> 
+                  
+                  <pb xml:id="DLCL_CF_E10071_A01_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/fa1304eeb70d5362b2d0daec87403067777961a5.jpg"/>
+                  
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

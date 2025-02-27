@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10072">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20704/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21175/full/594,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21176/full/631,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21177/full/584,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25095/full/601,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10072">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 19 Febbraio 1718)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">72</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1718-02-19"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-07-11" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-13" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10072_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20704/DSC_5998.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Alla richiesta non ha badato il <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina.</persName> 
+               L’Accademia dee farsi in lode di <persName ref="#DLCL_CF_PC0245">San Gregorio,</persName> e per la sua festa, nella Sapienza Vecchia di questa Città, 
+               essendo lo stesso Collegio sotto il titolo, e invocazione del Santo Pontefice. 
+               Altri componimenti perciò non servono. 
+               Se al ritorno manderà subito qualche cosa, potrà servire. 
+               Benche il <persName ref="#DLCL_CF_PC0282">Signor Abate Montemellini</persName> 
+               forse raffreddato per non potere sperar l’aspettato soccorso risolverà non far l’Accademia, la quale non è solito farsi ogni anno. 
+               Avviserò più precisamente l’ordinario venturo. 
+            </p>
+            
+            <p>
+               Passiamo a’ Diplomi. 
+               L’intenzione di provar’ i beni di prima erezione dee fondarsi sulla Donazione 
+               dell’<persName ref="#DLCL_CF_PC0539">Arcivescovo Gualtieri</persName> fatta al <orgName>Sacr’Eremo.</orgName> 
+               In giudicio dovrebbe bastar nel caso nostro la stampa, che ne abbiamo nella <bibl type="print">2a parte</bibl> del <persName ref="#DLCL_CF_PC0319">Fortunio.</persName> 
+               E se più si richiede, facciasi capo all’<orgName>Archivio del Sacr’Eremo</orgName> sopradetto, ove mi persuado senza dubbio che troverassi l’originale. 
+            </p>
+            
+            <p>
+               Io non sò riconoscere motivo alcuno di vizio, o sospetto nella <bibl type="print">Bolla,</bibl> 
+               che in cotesto <orgName>Archivio</orgName> mi sovviene aver veduta, di <persName ref="#DLCL_CF_PC0540">Alessandro Quarto.</persName> 
+               Anticamente non usavano i Papi ne’ loro Diplomi altra nota Cronica, che l’anno del loro Pontificato. 
+               S’indugiò fino a tempi di <persName ref="#DLCL_CF_PC0254">Eugenio IV</persName> a introdurre l’uso di apporvi l’anno dell’Era Cristiana, 
+               e il <persName ref="#DLCL_CF_PC0541">Biondo Segretario</persName> suo Insigne <del rend="overstrike">segretario</del> Forlivese 
+               cominciò a segnare le lettere del Papa con l’anno dell’Era Volgare. 
+               I Papi non hanno sottoscritto, ne sottoscrivono mai le Bolle, né i Brevi. 
+               L’uso di fermarsi questi colle sottoscrizioni di molti ministri di Cancelleria, 
+               è più moderno de’ tempi de’ i due <persName ref="#DLCL_CF_PC0542">Alessandri Terzo</persName> e <persName ref="#DLCL_CF_PC0540">Quarto,</persName> 
+               fra i pontificati de’ quali trascorse un secolo di mezzo. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10072_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20704/DSC_5999.jpg"/>
+            
+            <p>
+               Convien dire che <rs type="person" ref="#DLCL_CF_PC0542">l’uno,</rs> e l’altro <persName ref="#DLCL_CF_PC0540">Alessandro</persName> abbiano confermata quella Donazione; 
+               onde la <bibl type="print">Bolla,</bibl> che si hà alle mani, sia veramente del <persName ref="#DLCL_CF_PC0540">Quarto Alessandro,</persName> 
+               e del <persName ref="#DLCL_CF_PC0542">Terzo</persName> sia stato confermato il <bibl type="print">Diploma</bibl> 
+               da <persName ref="#DLCL_CF_PC0543">Urbano III</persName> e <persName ref="#DLCL_CF_PC0406">Innocenzio III;</persName> 
+               i quali ressero la Chiesa ne’ tempi di mezzo, tra i sopradetti <persName ref="#DLCL_CF_PC0542 #DLCL_CF_PC0540">due Alessandri.</persName> 
+               Che il nostro Storico nomini il <bibl type="print">diploma Pontificio</bibl> sopracitato di <persName ref="#DLCL_CF_PC0542">Alessandro III;</persName> 
+               io non me ne meraviglio. 
+               Non è l’unico strafalcione del <persName ref="#DLCL_CF_PC0319">Fortunio,</persName> 
+               di cui non mi fiderei mai in una stretta urgenza di voler trovare la verità, punto né poco. 
+               Al piombo io credo, quando non apparisca nel cordone sospetto che sia stato da una pergamena trasportato ad un’altra. 
+               Ces<gap reason="illegible"/>[...] tal sospetto, bisogna prestarvi tutta la fede. 
+               Ma avverta che né pur la mancanza del piombo basterebbe a toglier’il credito alla <bibl type="print">Bolla,</bibl> quando per altro non sia sospetta. 
+               Vi son le Decisioni chiare della Ruota Romana. 
+            </p>
+            
+            <p>
+               Concludiamo che non viziano, anzi autenticano i Pontificij Diplomi di quell’età la mancanza delle sottoscrizioni de’ Ministri, 
+               come l’anno solo del pontificato, senza l’anno dell’Era Volgare. 
+               <persName ref="#DLCL_CF_PC0540">Alessandro IV</persName> fu in <placeName ref="#DLCL_CF_L0071">Viterbo</placeName> più volte, 
+               e portatovisi da <placeName ref="#DLCL_CF_L0111">Anagni</placeName> l’anno 1261 vi morì. 
+            </p>
+            
+            <p>
+               L’ordinario scorso intesi l’indegna storia dell’<persName ref="#DLCL_CF_PC0092">Argelati;</persName> 
+               anzi sento che sia fuggito da <placeName ref="#DLCL_CF_L0007">Bologna.</placeName> 
+               Ringrazio Dio che seco non ho interesse alcuno, avendogli tutti terminati, avanti di uscir di <placeName ref="#DLCL_CF_L0063">Romagna.</placeName> 
+               Era uomo poco buono; e in più congiunture l’ho conosciuto tale. 
+            </p>
+            
+            <p>
+               Mi rallegro sommamente delle Controversie ricuperate, e del travaglio da <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> 
+               superato con rimettere l’<bibl type="print">antico Bellarmino</bibl> a suo luogo. 
+            </p>
+            
+            <p>
+               Stava per essere messo sotto al torchio il <bibl type="print">Panegirico del Santo Anello,</bibl> che io non ebbi 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10072_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20704/DSC_6000.jpg"/>
+            
+            <p>
+               pazienza di ascoltar tutto; onde prima del fine me ne andai; e subito fuor di Chiesa, rivolto al <persName ref="#DLCL_CF_PC0043">Padre Don Pietro:</persName> 
+               è risuscitato, dissi, il <persName ref="#DLCL_CF_PC0544">Padre Landi,</persName> 
+               che avea fatta <persName ref="#DLCL_CF_PC0545">Santa Maria Maddalena de’ Pazzi</persName> un’Orologgio, 
+               e concluse ch’erano tanti Orologgi i Carmelitani, 
+               e loro Contrapesi erano i Superiori. 
+               Tant’è. 
+               Capitano quì, e sono nella Provincia Romana, e hanno in <persName ref="#DLCL_CF_L0028">Perugia</persName> un ricco, e cospicuo Collegio, e de migliori, e più numerosi. 
+               Si dice che uscirà appunto la Decisione colle sentenze de’ Gesuiti. 
+               Un gran fracasso han fatto questi Casi, e se n’è discorso fino alle botteghe de’ Pizzicagnoli: 
+               è stato perciò ritirato il <bibl type="print">panegirico dalla stampa.</bibl> 
+            </p>
+            
+            <p>
+               Per <persName ref="#DLCL_CF_PC0546">San Giuseppe</persName> 
+               si aprirà quì la nuova nobile <orgName ref="#DLCL_CF_O0085">Chiesa di Santa Teresa de’ Carmelitani Scalzi.</orgName> 
+               <rs type="person">Monsignor Vescovo</rs> la mattina vi farà Cappella con Omelia; il giorno seguente vi si farà un Oratorio, nel quale io dirò due parole alla buona. 
+            </p>
+            
+            <p>
+               Che è del <rs type="person">Padre Camerlingo?</rs> 
+               Se è costì me lo riverisca ben caramente; e intenda se ha ricevuto dal <persName ref="#DLCL_CF_PC0547">Reverendissimo Tassis</persName> un involtino, 
+               entro cui stà la <bibl type="print">nuova edizione delle Opere</bibl> del <persName ref="#DLCL_CF_PC0548">Navagero</persName> legate. 
+            </p>
+            
+            <p>
+               Io non perdo di mira l’acquisto del <bibl type="print">Lipsio.</bibl> 
+               In qualche modo le cose s’imbroglieranno. 
+            </p>
+            
+            <p>
+               <gap reason="illegible"/>[...]quanta consolazione sento io l’incamminamento degli studi di cotesto <orgName ref="#DLCL_CF_O0005" cert="unknown">Monastero!</orgName> 
+               Sia lodato Iddio, il quale vede il mio cuore. 
+               Ma questa non è materia da ristrignere in poco. 
+               A rivederci un’altra volta. 
+               Si ricordi che <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> non ha finito di rispondermi. 
+            </p>
+            
+            <closer>
+               <salute>DVPMR.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1718-02-19">19 Febbraio 1718</date>.</dateline>
+            </closer>
+            
+            <postscript>
+               <p>
+                  Riverisca i <persName ref="#DLCL_CF_PC0144">Padri Lettori Fondi,</persName> <persName ref="#DLCL_CF_PC0007">Collina,</persName> 
+                  <persName ref="#DLCL_CF_PC0121">Guiccioli,</persName> e <persName ref="#DLCL_CF_PC0093">Onestini.</persName>
+               </p>
+            </postscript>
+            
+            <closer>
+               <salute>Cordialissimo Servitore Affettuosissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+
+            <pb xml:id="DLCL_CF_E10072_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/ea3d3ff997c1c715cba575231d12f6ac2d4e05d6.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

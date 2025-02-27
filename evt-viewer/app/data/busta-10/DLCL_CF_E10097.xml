@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10097">
+    <facsimile sameAs="https://classense.unibo.it/iiif/20729/manifest">
+        <graphic n="1r" url="https://classense.unibo.it/iiif/2/21237/full/545,800/0/default.jpg"/>
+        <graphic n="1v" url="https://classense.unibo.it/iiif/2/25186/full/566,800/0/default.jpg"/>
+        <graphic n="2r" url="https://classense.unibo.it/iiif/2/25187/full/549,800/0/default.jpg"/>
+        <graphic n="2v" url="https://classense.unibo.it/iiif/2/25188/full/576,800/0/default.jpg"/>
+        <graphic n="3r" url="https://classense.unibo.it/iiif/2/25189/full/562,800/0/default.jpg"/>
+    </facsimile>
+    <text type="letter" xml:id="DLCL_CF_E10097">
+        <front><fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Guglielmina a Boncompagni (Vienna, 18 Marzo 1719) - Trascrizione Fiacchi</title>
+                <author role="main-author" ref="#DLCL_CF_PC0668" key="DLCL_CF_PC0668">Guglielmina Amalia di Brunswick e Lüneburg</author>
+                <author role="copyist" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Carteggio Canneti Fiacchi</title>
+                <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+                <biblScope unit="letter">97</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="IT">Italia</country>
+                        <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                        <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                        <repository/>
+                        <collection/>
+                        <idno/>
+                        <altIdentifier>
+                            <idno/>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#DLCL_CF_PC0668" key="DLCL_CF_PC0668">Guglielmina Amalia di Brunswick e Lüneburg</persName>
+                    <date when-iso="1719-03-18"/>
+                    <placeName ref="#DLCL_CF_L0115" key="DLCL_CF_L0115">Vienna</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#DLCL_CF_PC0669" key="DLCL_CF_PC0669">Giacomo Boncompagni</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <settingDesc>
+                <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+                <xi:include href="../../entities/people/cited-people.xml"/>
+                <xi:include href="../../entities/people/staff.xml"/>
+                <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc status="created">
+            <change when-iso="2024-09-17" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+        </revisionDesc>
+    </front><body>
+            <div type="transcription">
+                <pb xml:id="DLCL_CF_E10097_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20729/DSC_6111.jpg"/>
+                
+                <p>
+                    Transumptum Epistolae <persName ref="#DLCL_CF_PC0668">Wilhelminae Amaliae</persName> Imper. Rom. 
+                    Uxoris quondam <persName ref="#DLCL_CF_PC0670">Joseph S. Imp.</persName> nunc Viduae, 
+                    scriptae ad <persName ref="#DLCL_CF_PC0669">Jacobum Boncompagnum</persName> S.R.E. <placeName ref="#DLCL_CF_L0007">Bononiae</placeName> Archiep.
+                </p>
+                
+                <p>
+                    Foris Reverendissimo in Christo Patri, Domino <persName ref="#DLCL_CF_PC0669">Jacobo S.R.E. Cardinali Boncompagno</persName> Amico nostro Charissimo
+                </p>
+                
+                <p>
+                    Intus <persName ref="#DLCL_CF_PC0668">Wilhelmina Amalia</persName> Dei Gratia Romanorum Imperatrix, Hungariae, et Bohemiae regina, 
+                    Archi=dux Austriae, Nata Dux Brunsvico Luneburgensis Vidua:
+                </p>
+                
+                <p>
+                    Reverendissimo in Christo Patri, Domino <persName ref="#DLCL_CF_PC0669">Jacobo S.R.E. Cardinali Boncompagno,</persName> 
+                    Amico Nostro Charissimo Salutem ac Benevolentiae nostrae affectum
+                </p>
+                
+                <p>
+                    Reverendissime in Christo Pater, Amice Charissime. 
+                    Quemadmodum de optima erga <gap reason="illegible"/>[...] Reverendissimae Potestatis V.rae voluntate nunquam non praeclari sentimus, 
+                    indeque etiam annis ad hinc aliquot benigne permotae sumus, 
+                    ut Eidem Abbatem <persName ref="#DLCL_CF_PC0671">Joannem Baptistam Rondoni</persName> eo tum Concionatoris Caesarea Aulici 
+                    munere egregie defunctum pro clarificendo ibidem canonicatu commendaverimus: 
+                    ita [voluisse] nobis fuit, ex litteris Reverendissimae Potestatis V.rae eam in rem ad Nos datis intelligere, 
+                    ipsam Suffragiorum Nostrorum hucusque bene memorem oblata nunc demum occasione non solum praementionato Abbati mox gratificandum, 
+                    verum etiam in uberius suae erga Nos observantia testimonium id ipsum Nobis quanto <gap reason="illegible"/>[...]sus significandum censuisse: 
+                    Cujus proinde eximij in placita nostra studij dum aequa semper apud Nos futura est aestimatio, vicissim desideramus occasiones 
+                    Reverendissimae Potestati V.rae Benevolentiae Nostrae Cae.rae affectum, quam Eidem fuisse <gap reason="illegible"/>[...] amplissime confirmamus, ipso opere demostrandi. 
+                </p>
+                
+                <closer>
+                    <dateline><placeName ref="#DLCL_CF_L0115">Viennae</placeName> <date when-iso="1719-03-18">18 Martij 1719</date></dateline>
+                    <salute>Reverendissimae Potestati Vostrae</salute> 
+                    <signed>Benevola <persName ref="#DLCL_CF_PC0668">Amalia</persName></signed>
+                </closer>
+                
+                <pb xml:id="DLCL_CF_E10097_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/eed10735199c94af5e91537119f8f44081c19a2e.jpg"/>
+                
+                <pb xml:id="DLCL_CF_E10097_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/73995c7829237fa96cb5056295e3387c654ffec1.jpg"/>
+                
+                <pb xml:id="DLCL_CF_E10097_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/4391c2d845200477c4bb328023b1588b599c84c7.jpg"/>
+                
+                <postscript>
+                    <p>
+                        Reverendissimo in Christo Patri, Domino <persName ref="#DLCL_CF_PC0669">Jacobo S.R.E. Cardinali Boncompagno</persName> Amico Nostro Charissimo
+                    </p>
+                </postscript>
+                
+                <pb xml:id="DLCL_CF_E10097_L_C3R" n="3 - Recto" facs="https://classense.unibo.it/files/large/f6c0594de30a067b98208e02a632bd6272dcb533.jpg"/>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

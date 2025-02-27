@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10121">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20753/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21294/full/482,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21295/full/626,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/25231/full/523,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25232/full/619,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10121">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 7 Ottobre 1720)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">121</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1720-10-07"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-09-02" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-11-25" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10121_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20753/DSC_6228.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Oggi otto, dopo partita la posta, arrivò <persName ref="#DLCL_CF_PC0773">Don Giuseppe Vitali,</persName> 
+               il quale spedij mercoledì a <placeName ref="#DLCL_CF_L0132">Camerino</placeName> accompagnato dal <rs type="person">Padre Priore.</rs> 
+               Per grazia di Dio non vi era il <rs type="person">Vescovo,</rs> che trovasi in visita verso le parti di <placeName ref="#DLCL_CF_L0023">Foligno.</placeName> 
+               Il <rs type="person">Padre Priore</rs> fece di molto, spianando le difficoltà appresso <rs type="person">Monsignor Vicario Generale,</rs> 
+               e al <rs type="person">Cancelliere,</rs> che fà da Dottore, e può assai. 
+               Restò concluso che tornasse per il dì 13; quando avrà toccati gli anni 25 e sarà messo all’esame, 
+               e poi mandato da <rs type="person">Monsignore</rs> con l’accompagnato del <rs type="person">Padre Maestro Reverendo</rs> suo Confessore alla cui protezione l’ho raccomandato, 
+               e appoggiato validamente.
+            </p>
+            
+            <p>
+               Avea portato il <persName ref="#DLCL_CF_PC0773">Vitali</persName> una lettera di <rs type="person">Monsignor Vescovo</rs> 
+               di <placeName ref="#DLCL_CF_L0043">Forlì</placeName> a questo <rs type="person">Vescovo suo Fratello.</rs> 
+               Avendola mostrata a quel Religioso, questi gli disse che ringraziasse Dio, che lo avea ispirato a mostrar detta lettera, la qual’abbruggiasse subito: 
+               perché se la presentava al <rs type="person">Vescovo,</rs> non serviva che per farlo infuriare, 
+               e ricevere per prima accoglienza del <persName ref="#DLCL_CF_PC0774">Prete Becco</persName> con 1 f., com’è solito.
+            </p>
+            
+            <p>
+               Spero che tutto anderà bene; ma vi vuole una grande astrologia sotto la costellazione di questo Toro indomito.
+            </p>
+            
+            <p>
+               Ho ricevuto i libri, e la ringrazio senza fine. 
+               Sono soddisfattissimo appieno. 
+               Ringrazio, e riverisco il <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina.</persName> 
+               Il <rs type="person">Padre Reverendissimo</rs> mi 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10121_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20753/DSC_6229.jpg"/>
+            
+            <p>
+               scrive che và in <placeName ref="#DLCL_CF_L0079">Toscana,</placeName> suppongo a ricevere congratulazioni per la scrittura stampata. 
+               Ora sono applicato a stringere contratto di alcuni libri Manoscritti e di antiche edizioni, 
+               tra quali vi stà il <persName ref="#DLCL_CF_PC0172">Santo Agostino</persName> <bibl type="print"><foreign xml:lang="la">de Civitate Dei</foreign></bibl> 
+               <foreign xml:lang="la">in <orgName ref="#DLCL_CF_O0109">Domo de Maximi.</orgName></foreign>
+            </p>
+            
+            <p>
+               Ve n’è <bibl type="print">un’altro del 1475.</bibl> 
+               Sopra tutto è rara il <bibl type="print">Lirano</bibl> in sei grossi Tomi 1472, nella stessa <orgName ref="#DLCL_CF_O0109">Casa de’ Massimi.</orgName>
+            </p>
+            
+            <p>
+               Mi dia nuova se è copiata l’<bibl type="print">Istoria</bibl> del <persName ref="#DLCL_CF_PC0176">Carrari.</persName> 
+               Intesi che la faceva trascrivere il <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli.</persName> 
+               E del <persName ref="#DLCL_CF_PC0328">Vossio</persName> parte per messe, parte per contanti <gap reason="illegible"/>[...] più ella mi ha scritto. 
+               Resto in fretta.
+            </p>
+            
+            <closer>
+               <salute>DVPMR.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1720-10-07">7 Ottobre 1720</date></dateline>
+            </closer>
+            
+            <postscript>
+               <p>
+                  Fù quì Venerdì il <persName ref="#DLCL_CF_PC0232">Signor Boccolini:</persName> rimase estatico in vedere il nostro <bibl type="print">Plinio,</bibl> 
+                  e confessò non potersi veder cosa simile, ed essere un Tesoro. 
+                  Gira uno <rs type="person">Scozzese Giovane,</rs> che raccoglie libri, e li paga bene. 
+                  Gran tentazione sua, e mia, se capita quà, e se esibisce molto oro.
+               </p>
+            </postscript>
+            
+            <closer>
+               <salute>Affettuosissimo Servitore e Cordialissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10121_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/686360e1fe9e7f91981f728058eec0c5de5a5dc0.jpg"/>
+            
+            <pb xml:id="DLCL_CF_E10121_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/0a97f2e7e70ac66821b0f9d87c10a429857c7085.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre Mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Bibliotecario
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

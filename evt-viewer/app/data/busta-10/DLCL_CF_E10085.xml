@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10085">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20717/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21211/full/586,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/25107/full/598,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10085">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 26 Luglio 1718)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">85</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1718-07-26"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-07-15" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-16" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10085_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20717/DSC_6060.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Ricevo la Copia della <bibl type="print">Vita</bibl> del <rs type="person" ref="#DLCL_CF_PC0598">Cardinale</rs> 
+               d’<placeName ref="#DLCL_CF_L0120">Arles</placeName> tratta dalla <bibl type="print">Gallia Porporata</bibl> del <persName ref="#DLCL_CF_PC0599">Frizon,</persName> 
+               la quale non tanto mi è cara per l’utile che ne riceve la <bibl type="print">Raccolta delle Lettere Ambrosiane,</bibl> 
+               quanto per essere indizio dello stato di salute spiegato più chiaramente nella cordialissima lettera di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità,</rs> 
+               alla quale auguro ottimo successo, e perfetta sanità col taglio del tumore. 
+               Copiosissime grazie rendo all’amore di lei per questo favore. 
+               In sostanza quel <rs type="person" ref="#DLCL_CF_PC0598">Cardinale</rs> non è beatificato. 
+               Il <bibl type="print">Breve</bibl> di <persName ref="#DLCL_CF_PC0609">Clemente VII</persName> permette, tollera, 
+               ma formalmente non approva il culto, perche tal concessione non è fatta causa cognita, 
+               ma secondando la pietà di que’ popoli, che lo tenevano per beato. 
+               In oggi si cammina con uno stile diversissimo, e la disciplina in ciò è più cauta. 
+               Io mi conterrò in certa via di mezzo, né vituperando il <rs type="person" ref="#DLCL_CF_PC0598">Cardinale,</rs> né approvandolo per Santo, 
+               ascrivendo i mancamenti di lui alla confusione di que’ turbatissimi tempi. 
+            </p>
+            
+            <p>
+               Scrivendo al <persName ref="#DLCL_CF_PC0056">Signor Dottor Sancassani,</persName> lo riverisca in mio nome. 
+               Stimerei bene ch’egli andasse a <placeName ref="#DLCL_CF_L0121">Guastalla,</placeName> 
+               e non perdesse sì onorevole occasione offertagli da quel <rs type="person">Duca.</rs> 
+               Un caro saluto a <persName ref="#DLCL_CF_PC0265">Frate Benedetto,</persName> che godo intendere migliorato del suo braccio. 
+               Ricevuti gl’involtini, darò avviso.
+            </p>
+            
+            <closer>
+               <salute>Frattanto di vero cuore mi confermo.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1718-07-26">26 Luglio 1718</date></dateline>
+               <salute>DVPMR</salute>
+               <salute>Cordialissimo Servitore e Affettuosissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <postscript>
+               <p>
+                  Hò lettera dal <persName ref="#DLCL_CF_PC0483">Padre Maestro Platina</persName> ch’è finita la stampa del 2° Tomo della sua <bibl type="print">Arte Oratoria.</bibl> 
+                  Me la manda in dono, come fece il primo 
+               </p>
+               
+               <p>
+                  [L’idea dell’<orgName ref="#DLCL_CF_O0088">Università di Torino</orgName> è anco imperfetta <gap reason="illegible"/>[...]]
+               </p>
+            </postscript>
+            
+            <pb xml:id="DLCL_CF_E10085_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/f2466b9fdcf4699dddf2a91614468cc61af63bfe.jpg"/>
+         </div>
+      </body>
+   </text>
+</TEI>

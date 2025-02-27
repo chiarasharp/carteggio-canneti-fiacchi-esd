@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10127">
+    <facsimile sameAs="https://classense.unibo.it/iiif/20759/manifest">
+        <graphic n="1r" url="https://classense.unibo.it/iiif/2/21310/full/531,800/0/default.jpg"/>
+        <graphic n="1v" url="https://classense.unibo.it/iiif/2/21311/full/657,800/0/default.jpg"/>
+        <graphic n="2r" url="https://classense.unibo.it/iiif/2/21312/full/479,800/0/default.jpg"/>
+        <graphic n="2v" url="https://classense.unibo.it/iiif/2/21313/full/658,800/0/default.jpg"/>
+    </facsimile>
+    <text type="letter" xml:id="DLCL_CF_E10127">
+        <front><fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Canneti a Fiacchi (Fabriano, 27 Settembre 1720)</title>
+                <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Carteggio Canneti Fiacchi</title>
+                <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+                <biblScope unit="letter">127</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="IT">Italia</country>
+                        <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                        <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                        <repository/>
+                        <collection/>
+                        <idno/>
+                        <altIdentifier>
+                            <idno/>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                    <date when-iso="1720-09-27"/>
+                    <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+                <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+                <xi:include href="../../entities/people/cited-people.xml"/>
+                <xi:include href="../../entities/people/staff.xml"/>
+                <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc status="created">
+            <change when-iso="2024-09-03" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-09-19" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-24" who="#DLCL_CF_PS001">correzioni</change>
+        </revisionDesc>
+    </front><body>
+            <div type="transcription">
+                <pb xml:id="DLCL_CF_E10127_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20759/DSC_6255.1.jpg"/>
+                
+                <opener>
+                    <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+                </opener>
+                
+                <p>
+                    Ha ragione di esiggere lodi il buon <persName ref="#DLCL_CF_PC0544" cert="unknown">Landi</persName> per gli nuovi suoi caratteri, e diligenza nella stampa. 
+                    Sia dunque cura di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> lodarlo, e stralodarlo in mio nome, 
+                    e congratularsi seco a iosa, in maniera però che non si gonfi: 
+                    onde per questo riguardo avverta di non far’il complimento in tempo che spiri la corina, 
+                    ma aspetti un giorno che soffi la bora di modo che finisca il compiacimento in una delle sue solite quietissime risatine. 
+                    Ma per lo contrario mi conviene accusar la dapocaggine di <persName ref="#DLCL_CF_PC0313">Paolino,</persName> 
+                    il quale nel libro dello Stato della <orgName ref="#DLCL_CF_O0138">Chiesa di Santa Maria in Cosmodin</orgName> 
+                    ha anteposto l’A grande del principio dell’Opera, e cartolato al b. piccolo, non segnato di numeri dalle carte, 
+                    e contenente la lettera al Lettore e gl’Indici degli Autori citati, e de’ capitoli, facendovi seguir’appresso l’immagine di quella Madonna, 
+                    e poi il B. grande, che comincia dal numero 9 e seguita l’Opera interrotta dianzi dal detto b. piccolo non posto a suo luogo. 
+                    Questa è stata una gran balordaggine, che non so se possa facilmente emendarsi.
+                </p>
+                
+                <p>
+                    Mandai da legare il <bibl type="print">Catalogo degli Arcadi</bibl> in 8, colle Colonie distinte: 
+                    e par mi si dovesse unire al <bibl type="print">Tomo 3° delle Prose,</bibl> 
+                    ch’è tornato senza detto <bibl type="print">Catalogo,</bibl> e perciò è piccolissimo in paragone degli altri due. 
+                </p>
+                
+                <pb xml:id="DLCL_CF_E10127_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20759/DSC_6255.2.jpg"/>
+                
+                <p>
+                    Ch’è dunque stato di quel <bibl type="print">Catalogo?</bibl> 
+                    Badi <persName ref="#DLCL_CF_PC0313">Paolino</persName> a farsi onore, e aggiusti bene i libri vecchi, alcuni de’ quali hanno necessità di particolar diligenza, 
+                    nell’essere in qualche carta civilmente rattoppati.
+                </p>
+                
+                <p>
+                    Quel <persName ref="#DLCL_CF_PC0777">Vitellione,</persName> di cui ho mandato l’<bibl type="print">Optica</bibl> non so chi sia; lo dirà forse, 
+                    e senza dubbio lo dirà il <persName ref="#DLCL_CF_PC0328">Vossio</persName> <bibl type="print"><foreign xml:lang="la">de Scientijs Mathematicis</foreign>.</bibl> 
+                    Quando sarà tornata a <placeName ref="#DLCL_CF_L0002">Ravenna,</placeName> 
+                    si ricordi avvisarmi di qual anno sia stampato il <bibl type="print">S. Bernardo</bibl> del <persName ref="#DLCL_CF_PC0129">Mabillon.</persName> 
+                    Mi immagino per certo sia la prima edizione, e non l’altra <hi rend="underline"><foreign xml:lang="la">secundis curis</foreign></hi>, ch’è la migliore. 
+                    Ha anco lo stesso <persName ref="#DLCL_CF_PC0129">Mabillon</persName> stampata a parte 
+                    l’operetta <bibl type="print"><hi rend="underline"><foreign xml:lang="la">de Consideratione</foreign></hi>,</bibl> 
+                    la quale da <placeName ref="#DLCL_CF_L0037">Francia</placeName> aspetto insieme con gli <bibl type="print">Analetti in 4 Tomi.</bibl>
+                </p>
+                
+                <p>
+                    Il <persName ref="#DLCL_CF_PC0232">Signor Boccolini</persName> desidera sapere se ne’ <bibl type="print">due Tometti della Cronaca Ascolana</bibl> 
+                    siavi menzione d’altri Letterati, oltre <hi rend="underline">allo povero <persName>Cicco.</persName></hi> 
+                    Vorrebbe altresì che ne’ Versi Latini Manoscritti: in 8 <del rend="overstrike">di t</del> <bibl type="manuscript"><hi rend="underline">Tidei Elpidiensis</hi>,</bibl> 
+                    vi sia cosa, che dia notizia dell’Autore, e della sua Vita. 
+                    Quel <persName ref="#DLCL_CF_PC0778">Tideo da S. Elpidio</persName> si comprende con soda, 
+                    e ferma conghiettura non altro essere che <persName ref="#DLCL_CF_PC0778">Tideo Acciarini,</persName> 
+                    di cui evvi una lettera nel <bibl type="print">Libro 7 dell’Epistole</bibl> del <persName ref="#DLCL_CF_PC0791">Poliziano,</persName> 
+                    ove afferma se essere Marchigiano, aver seguitata con poca fortuna la Corte; 
+                    indi esser passato in <placeName ref="#DLCL_CF_L0147">Calabria,</placeName> 
+                    e quivi nella Città di <placeName ref="#DLCL_CF_L0148">Cosenza</placeName> trattenersi ad insegnar lettere umane. 
+                </p>
+                
+                <pb xml:id="DLCL_CF_E10127_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20759/DSC_6255.3.jpg"/>
+                
+                <p>
+                    Altronde si ha che fioriva a quella stagione nella <placeName ref="#DLCL_CF_L0149">Terra di S. Elpidio</placeName> 
+                    la <orgName ref="#DLCL_CF_O0139">Casa Acciarini.</orgName> 
+                    Quei versi latini sono indiritti a <persName ref="#DLCL_CF_PC0792">Batista,</persName> 
+                    <persName ref="#DLCL_CF_PC0793">Alessandro</persName> e <persName ref="#DLCL_CF_PC0794">Costanzo</persName> Sforzeschi, 
+                    i quali vivevano a tempi appunto del <persName ref="#DLCL_CF_PC0791">Poliziano,</persName> 
+                    e dominavano in <placeName ref="#DLCL_CF_L0003">Pesaro,</placeName> e altrove nella Marca.
+                </p>
+                
+                <p>
+                    Se <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> mandasse presto a <placeName ref="#DLCL_CF_L0003">Pesaro</placeName> 
+                    i libri rimasti per soverchia flemma addietro, mi potrebbono arrivare con altri involti, che di là mi saranno mandati.
+                </p>
+                
+                <p>
+                    Molto Ella mi suppone informato di cose delle quali non sò nulla affatto: onde non capisco di qual crocetta, di quali relazioni, di quali lamenti, 
+                    di qual complicità di <persName ref="#DLCL_CF_PC0673">Don Giovanni</persName> si discorra. 
+                    E qui rido come un pazzo delle pazzie degli uomini, che apprendono quel, che non è, e non fanno caso di quel, che è: 
+                    e concludo, senza pericolo di errare, che il mondo è una gabbia di matti, e che le teste degli uomini son teatrini di burattini: 
+                    altri sanno muovere bene i fili, altri no: e in ciò si distinguono i savi, o i meno pazzi dalli più pazzi.
+                </p>
+                
+                <p>
+                    Per la posta ricevo la <bibl type="print">Tavola Cronologica</bibl> della nuova Opera di <persName ref="#DLCL_CF_PC0216">Monsignor Fontanini</persName> 
+                    sopra il Sovrano Dominio della Chiesa Romana nel <orgName ref="#DLCL_CF_O0145">Ducato di Parma e Piacenza.</orgName> 
+                    Non so se l’Istoria della soggezione antica, e moderna di quello Stato sia [ancora] stampata. 
+                    Io ho un giulio di <persName ref="#DLCL_CF_PC0795">Adriano Sesto</persName> con ritratto, e nel rovescio: 
+                    <hi rend="underline"><foreign xml:lang="la">Parmae Dominus</foreign></hi> 
+                </p>
+                
+                <pb xml:id="DLCL_CF_E10127_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/20759/DSC_6255.4.jpg"/>
+                
+                <p>
+                    Mi saluti caramente il <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli:</persName> lo faccia guarire, se non è guarito: e si guardi per sé dall’ammalarsi. 
+                    Non ha Ella testa di complessione capace a resistere alla fatica dello scrivere; e non l’ho io. 
+                    Se ne guardi, perché si rovinerà: e per volere scriver troppo, <del rend="overstrike">no</del> si ridurrà a passare mesi e mesi senza potere scrivere nulla. 
+                    Questi son guai, che ho provati, e provo di quando in quando. 
+                    In quest’anno non ho potuto applicare. 
+                    La <bibl type="manuscript">copia dell’Epistole Ambrosiane</bibl> si accostava al fine; quando mi è mancato il <rs type="person">Pretino Copista,</rs> 
+                    che Domenica ricevette il Sacro Viatico, e l’estrema onzione; 
+                    né sò ancora se piacerà a Dio rimetterlo in salute. 
+                    Gran malattie, e gravi abbiamo quest’anno in questo Monastero, di Monaci di casa, e di forestieri, e di servitori. 
+                    Un caro saluto a <persName ref="#DLCL_CF_PC0265">Frate Benedetto,</persName> e a <persName ref="#DLCL_CF_PC0595">Frate Giacomo.</persName>
+                </p>
+                
+                <p>
+                    Quando ho scritto che undici paoli mi costa la <bibl type="print">Bibbia,</bibl> non intendo si dia per così poco, 
+                    ma si di esiti con quella riputazione, che si può. 
+                </p>
+                
+                <closer>
+                    <salute>Resto con abbracciarla stretta finattanto ch’Ella con uno strido mostri essere persuasa che io sono.</salute> 
+                    <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1720-09-27">27 Settembre 1720</date></dateline>
+                    <salute>DVPMR.</salute>
+                </closer>
+                
+                <postscript>
+                    <p>
+                        In proposito di <placeName ref="#DLCL_CF_L0149">S. Elpidio,</placeName> 
+                        parmi che nell’<orgName ref="#DLCL_CF_O0140">Archivio di Classe</orgName> vi siano memorie fino al secolo XV del possesso, 
+                        che il Monastero avea in alcune terre di quel luogo, e d’altri di <placeName ref="#DLCL_CF_L0151">Fermo.</placeName> 
+                        E dovean essere i beni da <persName ref="#DLCL_CF_PC0796">Ottone III,</persName> 
+                        assegnati a <placeName ref="#DLCL_CF_L0020">Classe</placeName> in compensazione dell’<placeName ref="#DLCL_CF_L0152">Isola del Pereo,</placeName> 
+                        ove fondò il <orgName ref="#DLCL_CF_O0141">monastero di Sant’Adalberto.</orgName>
+                    </p>
+                </postscript>
+                
+                <closer>
+                    <salute>Cordialissimo Servitore e Padre Affettuosissimo nel Signore</salute> 
+                    <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+                </closer>
+
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10074">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20706/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21181/full/588,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21182/full/623,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21183/full/590,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/21184/full/608,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10074">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 8 Marzo 1718)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">74</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1718-03-08"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-07-11" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-13" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10074_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20706/DSC_6008.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Strano pare a <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> 
+               il Monogramma osservato nelle <bibl type="print">Bolle</bibl> di <persName ref="#DLCL_CF_PC0406">Innocenzio Terzo,</persName> 
+               e prima di <persName ref="#DLCL_CF_PC0543">Urbano Terzo,</persName> di cui confessa non intendere il significato. 
+               E ben’ha la di lei erudizione motivo di ammirazione, sì perché il monogramma è lo stesso, quando i nomi de’ Papi son tanto diversi; 
+               sì perché pare che più proprio fosse degl’Imperatori sottoscrivere col monogramma i loro Diplomi. 
+               Ma nelle lettere, o Bolle Pontificie il monogramma da <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> osservato non porta, come ne’ diplomi imperiali, 
+               il nome del Papa, altro non essendo che una formula, con cui terminano tali lettere, e significa: <hi rend="underline"><foreign xml:lang="la">Bene valete</foreign></hi>. 
+               La qual formola è stata alle volte più espressamente portata, come nell’<bibl type="manuscript">Epistola 104,</bibl> 
+               ed altre di <persName ref="#DLCL_CF_PC0554">Papa Giovanni Ottavo:</persName> 
+               <hi rend="underline"><foreign xml:lang="la">Optimus sanctitatem tuam in Christo bene valere</foreign></hi>. 
+               Parimenti in quel tondo, nel quale scrivevasi il nome del Sommo Pontefice, 
+               trovasi qualche volta aggiunto: <hi rend="underline"><foreign xml:lang="la">Bene vale</foreign></hi>. 
+               come nel <bibl type="print">Capitolare</bibl> di <persName ref="#DLCL_CF_PC0555">Gregorio Secondo</persName> per gli Bavari, 
+               e nell’<bibl type="print">Epistola II</bibl> di <persName ref="#DLCL_CF_PC0556">Adriano II.</persName> 
+               Antica è la formola, e derivata da’ fonti della buona latinità, leggendosi in <persName ref="#DLCL_CF_PC0557">Plauto</persName> 
+               (<bibl type="print"><foreign xml:lang="la">Truculens</foreign>)</bibl> 
+               <hi rend="underline"><foreign xml:lang="la">Spectatores bene valete</foreign></hi>, 
+               e concludendosi le <bibl type="print">lettere</bibl> di <persName ref="#DLCL_CF_PC0153">Cicerone</persName> 
+               col <hi rend="underline"><foreign xml:lang="la">Vale</foreign></hi>. 
+            </p>
+            
+            <p>
+               Quando scrissi nell’altra mia che prima de’ tempi di <persName ref="#DLCL_CF_PC0254">Eugenio</persName> 
+               non si costumava apporre nelle lettere Appostoliche l’anno dell’era volgare, 
+               io intesi appunto ciò, che <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> si è avvistata d’intendere, cioè che tal costume da tempi 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10074_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20706/DSC_6010.jpg"/>
+            
+            <p>
+               di quel <del rend="overstrike">tempo</del> Pontefice in quà è stato fermamente stabilito, e costantemente osservato; 
+               la dove per l’addietro è stata in ciò, ed in altre cose tanta la varietà nelle lettere pontificie, che troppo lungo affare sarebbe volerne vend[ere] minutissimo conto. 
+               Concluderò che, quantunque ne’ tempi da <persName ref="#DLCL_CF_PC0254">Eugenio IV</persName> [più remoti], 
+               siasi talora usato finir le appostoliche lettere con l’anno dell’era volgare, 
+               nulladimeno nell’età più vicine ad <persName ref="#DLCL_CF_PC0254">Eugenio</persName> stesso, costantemente fu in uso di contrassegnarle col solo anno del Ponteficato. 
+               E perciò gravi Autori ed io con essi, diciamo che per opera del <persName ref="#DLCL_CF_PC0541">Biondo,</persName> 
+               sotto <persName ref="#DLCL_CF_PC0254">Eugenio IV</persName> si cominciò ad apporre ne’ Diplomi Papali l’anno corrente, 
+               secondo l’era già trovata da <persName ref="#DLCL_CF_PC0558">Dionisio Esiguo.</persName> 
+               E di nuovo stabilisco non trovarsi vero motivo, per cui ragionevolmente viziate, o sospette debbano riputarsi coteste pergamene: 
+               e lo sosterrò in faccia all’<persName ref="#DLCL_CF_PC0559">Arduino,</persName> al <persName ref="#DLCL_CF_PC0560">Germonio,</persName> 
+               al <persName ref="#DLCL_CF_PC0561">Bernardi,</persName> e a quanti Gesuiti nemici dell’erudizione Monastica han preteso screditar la veneranda antichità de’ Diplomi. 
+            </p>
+            
+            <p>
+               Non mancano mai cervelli stravolti, i quali co’ i falsi principj de’ Scettici, 
+               riducon tutte le scienze, e tutta l’erudizione al pirronismo, mettendo ogni cosa in dubbio. 
+               Di cotal razza è quel Signore, il quale non crede all’<persName ref="#DLCL_CF_PC0206">Agnello,</persName> 
+               e non conosce l’immenso beneficio dall’Eruditissimo <persName ref="#DLCL_CF_PC0009">Bacchini</persName> fatto alla Storia Ravennate con pubblicarlo. 
+               Dio buono! 
+               Che ha mai fatto il <persName ref="#DLCL_CF_PC0123">Fabri</persName>  
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10074_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20706/DSC_6011.jpg"/>
+            
+            <p>
+               altro che un giudizioso zibaldone di notizie Ravignane quà, e là raccolte? 
+               <hi rend="underline"><foreign xml:lang="la">Non est in tanto corpore mica salis</foreign></hi>. 
+               E se ha fatto da critico sopra l’età del <persName ref="#DLCL_CF_PC0017">Padre San Romualdo,</persName> 
+               quella censura non è sua ma del <persName ref="#DLCL_CF_PC0562">Bollando</persName> abbastanza già convinto, e confutato. 
+               Stimo più il <bibl type="print">libretto</bibl> dello <persName ref="#DLCL_CF_PC0204">Spreti,</persName> che tutto il [<persName ref="#DLCL_CF_PC0123">Fabri]</persName>.
+            </p>
+            
+            <p>
+               Osservi di grazia se nelle <bibl type="print">Bolle</bibl> in fine segnate col monogramma <hi rend="underline"><foreign xml:lang="la">Bene valete</foreign></hi> 
+               si trovi sul principio la Croce, ovvero il <hi rend="underline"><foreign xml:lang="la">crismon</foreign></hi> che si formava così ☧. 
+               Quest’era un monogramma, che solevasi effigiare sul principio delle <bibl type="print">Bolle,</bibl> 
+               e dicesi trovato da <persName ref="#DLCL_CF_PC0166" cert="unknown">Costantino</persName> e spiegato ne’ suoi Labari Militari. 
+            </p>
+            
+            <p>
+               Che di <persName ref="#DLCL_CF_PC0261">Pietro Angeli</persName> 
+               sia il <bibl type="print">Commento sopra l’Orazione di Cicerone <hi rend="underline"><foreign xml:lang="la">pro Domo sua</foreign></hi></bibl> 
+               abbiamo ben giusta ragione di crederlo tale; 
+               poiché in fine della <bibl type="print">Vita</bibl> propria egli medesimo scrive: 
+               <hi rend="underline"><foreign xml:lang="la">Interpretatus etiam est difficillimas quasque Ciceronis Orationes</foreign></hi>. 
+               <persName ref="#DLCL_CF_PC0563">Antonio Angeli</persName> fu fratello di <persName ref="#DLCL_CF_PC0261">Pietro,</persName> 
+               Letterato anch’esso famoso, Poeta Latino e Maestro de’ Granduchi <persName ref="#DLCL_CF_PC0564">Francesco,</persName> 
+               e <persName ref="#DLCL_CF_PC0565">Ferdinando I,</persName> [e poi vescovo di <placeName ref="#DLCL_CF_L0113">Massa].</placeName> 
+               Delle <bibl type="print">Opere</bibl> de’ <persName ref="#DLCL_CF_PC0521 #DLCL_CF_PC0522">due Pichi,</persName> 
+               mi figuro che cotesta edizione, come posteriore, meriti per qualche maggior diligenza usatavi, esser preferita; 
+               siccome l’<bibl type="print">Opera Cabalistica</bibl> del <persName ref="#DLCL_CF_PC0525">Reuclino,</persName> 
+               mercè la rarità sua, rende l’altra, che stà appresso di me, assai più preziosa. 
+            </p>
+            
+            <p>
+               Si farà ricerca quì, e presto, delle <bibl type="print">Opere</bibl> del <persName ref="#DLCL_CF_PC0566">Padre Lodovico da Ponte,</persName> 
+               per servire il cordialissimo nostro <persName ref="#DLCL_CF_PC0006">Padre Amici.</persName> 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10074_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/20706/DSC_6012.jpg"/>
+            
+            <p>
+               La ringrazio dell’avviso della dimora in <placeName ref="#DLCL_CF_L0024">Venezia</placeName> del <rs type="person">Padre Camerlingo,</rs> 
+               ove egli stesso mi significò ch’era per portarsi. 
+               Il <del rend="overstrike">Giovio</del> <bibl type="print">Navagero</bibl> 
+               legato era stato indirizzato a lui dal <persName ref="#DLCL_CF_PC0547">Padre Abate Tassis.</persName> 
+            </p>
+            
+            <p>
+               L’<bibl type="print">Opera Ambrosiana</bibl> ha riposato nell’inverno ormai finito, avendo avute molte e continue distrazioni. 
+               Ora mi rimane tesser’ un discorso, e dirlo il dì 2<gap reason="illegible"/>[...] 
+               corrente per l’aprimento della nuova <orgName ref="#DLCL_CF_O0085">Chiesa de’ Padri Carmelitani Scalzi,</orgName> 
+               in occasione di cantarsi un’Oratorio, la cui poesia è del <persName ref="#DLCL_CF_PC0567">Signor Cardinale Panfilio</persName> 
+               Monsignore Vescovo nella stessa congiuntura terrà Cappella, 
+               e dirà un’Omelia Latina. 
+               Non mi ricordo se io abbia mandati a <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> certi versi latini del detto Monsignore colla mia risposta. 
+               Dopo si metterà mano alle cose Ambrosiane. 
+            </p>
+            
+            <p>
+               Mi avvisi se in <orgName ref="#DLCL_CF_O0001">Libreria</orgName> 
+               siano i <bibl type="print">due Tomi delle Vite</bibl> di <persName ref="#DLCL_CF_PC0099">Plutarco,</persName> 
+               tradotte da <persName ref="#DLCL_CF_PC0568">Domenichi,</persName> del <persName ref="#DLCL_CF_PC0161">Giolito,</persName> in 4to grande. 
+            </p>
+            
+            <p>
+               Un cordialissimo saluto a <persName ref="#DLCL_CF_PC0029">Frate Ferdinando.</persName> 
+               Mi pareva avere scritto al <rs type="person">Padre Camerlingo</rs> che lo rimborsasse della spesa de’ Manicotti. 
+               Adempirò a questa parte in prima occasione. 
+               Frattanto egli se l’intenda con detto <rs type="person">Padre Camerlingo.</rs> 
+            </p>
+            
+            <p>
+               L’<bibl type="print">Opera</bibl> suddetta del <persName ref="#DLCL_CF_PC0548">Navagero</persName> è stampata egregiamente, e non invidia alle stampe Franzesi. 
+               Iddio conceda grazia a quei buoni <orgName ref="#DLCL_CF_O0146">Volpi</orgName> di farsi onore, come bramano, 
+               e di rimetter la professione in quel decoro, in cui la tennero i <orgName ref="#DLCL_CF_O0147">Mannucci,</orgName> 
+               gli <orgName ref="#DLCL_CF_O0148">Stefani,</orgName> e altri Dotti Stampatori! 
+               La carta è piena. 
+            </p>
+            
+            <closer>
+               <salute>Resto con abbracciarla <foreign xml:lang="la">toto cordis affectus</foreign>.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1718-03-08">8 Marzo 1718</date>.</dateline>
+               <salute>DVPMR.</salute>
+               <salute>Cordialissimo Servitore e Affettuosissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

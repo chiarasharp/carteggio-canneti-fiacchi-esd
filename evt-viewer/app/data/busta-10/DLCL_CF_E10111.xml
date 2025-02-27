@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10111">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20743/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21271/full/539,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21272/full/609,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10111">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 5 Febbraio 1720)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">111</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1720-02-05"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-08-21" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-18" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10111_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20743/DSC_6180.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Io non sò che il <persName ref="#DLCL_CF_PC0132">Padre Abate Grandi,</persName> 
+               massimamente nelle <bibl type="print">Lezioni</bibl> di <persName ref="#DLCL_CF_PC0227">San Pier Damiano</persName> da lui composte, 
+               siasi obbligato ad essere così pretto Ciceroniano, che non dia quartiere a veruna voce, la qual non sia di que’ Barbassori del secol d’oro. 
+               Sicché quando <hi rend="underline"><foreign xml:lang="la">pertaesus</foreign></hi> con l’accusativo porta il conio 
+               dello storico <persName ref="#DLCL_CF_PC0729">Svetonio,</persName> il quale ha usato così più volte questa voce, 
+               potiamo lasciarla correre, senza metterla a rigoroso esame. 
+               E quando pur si avesse a fare, converrebbe cominciar da capo, se vogliamo badare a <persName ref="#DLCL_CF_PC0357">Servio,</persName> 
+               il quale con magistrale gravità intuona che 
+               <hi rend="underline"><foreign xml:lang="la">pertaesus est participium sine verbi origine, quamquam potest esse a pertaedeo</foreign></hi>.
+            </p>
+            
+            <p>
+               A nulla dunque serve ricercarne la discendenza dallo stesso <hi rend="underline"><foreign xml:lang="la">pertaedeo</foreign></hi> 
+               usato da <persName ref="#DLCL_CF_PC0210">Aulio Gellio,</persName> 
+               né da <hi rend="underline"><foreign xml:lang="la">pertaesum est</foreign></hi>, ch’è del secolo d’oro, 
+               come in <persName ref="#DLCL_CF_PC0153">Cicerone</persName> può vedersi, e in <persName ref="#DLCL_CF_PC0360">Virgilio.</persName> 
+               Salta quì in mezzo <persName ref="#DLCL_CF_PC0813">Emanuele Alvaro,</persName> e insegna che <hi rend="underline"><foreign xml:lang="la">pertaesus</foreign></hi> 
+               è stretto parente di <hi rend="underline"><foreign xml:lang="la">exosus</foreign></hi>, e <hi rend="underline"><foreign xml:lang="la">perosus</foreign></hi>, 
+               e tutti e tre se l’intendono strettamente con l’accusativo. 
+               Concludiamo adunque ch'è un mero scrupolo, e insussistente quel, che costì si è fatto sopra quell’accusativo.
+            </p>
+            
+            <p>
+               Quanto si contiene in quella lettera Bonucciana è vero verissimo, e si ha da intendere, come stà, senza misterj, 
+               anco del <persName ref="#DLCL_CF_PC0147">Padre Abate Caramelli.</persName> 
+               In <placeName ref="#DLCL_CF_L0008">Roma</placeName> pareva che tutti i negozj suoi fossero visitare <del rend="overstrike">di</del> i <rs type="person">Gesuiti,</rs> 
+               esser visitato da loro, 
+               i quali sommamente inquietavano chi era vicino di camera a’ <persName ref="#DLCL_CF_PC0147">Caramelli;</persName> ed io era uno
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10111_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20743/DSC_6181.jpg"/>
+            
+            <p>
+               che visse intorno alla metà del secolo XIII scritta a <persName ref="#DLCL_CF_PC0730">Don Angelo</persName> nostro Generale; e gli dà dell’<hi rend="underline">Altezza</hi>. 
+               È cosa curiosa, e l’inserisco in un’Annotazione a certa lettera di <persName ref="#DLCL_CF_PC0177">Ambrogio</persName> avuta ancor’essa mesi sono, 
+               nella quale fa menzione del sopraddetto <persName ref="#DLCL_CF_PC0732">Frate Guittone,</persName> 
+               come fondatore del nostro <orgName ref="#DLCL_CF_O0118">Monastero degli Angeli.</orgName> 
+               Aspetto la <bibl type="print">Biblioteca Ecclesiastica</bibl> del <persName ref="#DLCL_CF_PC0679">Fabricio,</persName> 
+               il quale sembra che ad <persName ref="#DLCL_CF_PC0177">Ambrogio Camaldolese</persName> faccia menzione di me; 
+               e dell’aspettata edizione delle <bibl type="print">Lettere.</bibl> 
+            </p>
+            
+            <closer>
+               <salute>L’abbraccio caramente, e resto.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1720-02-05">5 Febbraio 1720</date></dateline>
+               <salute>DVPMR.</salute>
+            </closer>
+            
+            <postscript>
+               <p>
+                  Al <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina</persName> un cordialissimo saluto. 
+                  Aspetto risposta all’ultima mia. 
+                  Gli do nuova ch’egli è aggregato all’<orgName ref="#DLCL_CF_O0119">Accademia dei Rinvigoriti di Foligno.</orgName> 
+                  Può ringraziare l’<orgName ref="#DLCL_CF_O0119">Accademia</orgName> inviando 
+                  la lettera al <persName ref="#DLCL_CF_PC0232">Signor Giovanni Battista Boccolini</persName> Segretario.
+               </p>
+               <p>
+                  Manderò <bibl type="manuscript">copia del Panegirico</bibl> dell’<persName ref="#DLCL_CF_PC0731">Anello.</persName> 
+                  La Censura è in <orgName ref="#DLCL_CF_O0001">Classe?</orgName> 
+                  Nel <bibl type="print">Tomo delle Opere</bibl> del <persName ref="#DLCL_CF_PC0541">Biondo,</persName> vi sono lettere?
+               </p>
+            </postscript>
+            
+            <closer>
+               <salute>Cordialissimo Servitore e Padre Affettuosissimo nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10081">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20713/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21200/full/584,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21201/full/615,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/25102/full/584,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25103/full/615,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10081">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 7 Giugno 1718)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">81</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1718-06-07"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-07-13" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-16" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10081_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20713/DSC_6042.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Intendo che sia già stampato il <bibl type="print">Tomo 29 del Giornale,</bibl> e possa in oltre finirsi la stampa del trentesimo, 
+               avanti che finisca il corrente mese di giugno. 
+               A me sarebbe comodo molto ricevere i medesimi sulla fiera di <placeName ref="#DLCL_CF_L0030">Sinigaglia.</placeName> 
+               <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> pertanto mi favorisca mandarmegli per qualche mercante di costì, 
+               o altra persona, col ricapito al <persName ref="#DLCL_CF_PC0585">Signore Andrea Poletti</persName> in <placeName ref="#DLCL_CF_L0030">Sinigaglia:</placeName> 
+               ovvero sollecitamente scriva che non vengano per via di <placeName ref="#DLCL_CF_L0031">Comacchio</placeName> al solito, 
+               ma a dirittura si consegnino in <placeName ref="#DLCL_CF_L0024">Venezia</placeName> al detto <persName ref="#DLCL_CF_PC0585">Poletti,</persName> 
+               che me gli trasmetterà a <placeName ref="#DLCL_CF_L0030">Sinigaglia.</placeName> 
+            </p>
+            
+            <p>
+               Oltre alle tre <del rend="overstrike">al</del> copie consuete, vi faccia ora, 
+               e in avvenire aggiunger la quarta, che servir dee al <persName ref="#DLCL_CF_PC0282">Signor Abate Montemellini.</persName> 
+               Gli è mancato il corrispondente, qual’era il <persName ref="#DLCL_CF_PC0586">Padre Sarrufillo,</persName> che sia in Paradiso. 
+            </p>
+            
+            <p>
+               Manderò, come già accennai, i <bibl type="print">due Tomi delle Vite</bibl> di <persName ref="#DLCL_CF_PC0099">Plutarco,</persName> 
+               e le <bibl type="print">Tragedie</bibl> del <persName ref="#DLCL_CF_PC0574">Tesauro.</persName> 
+               Quando avrà <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> esitati i vecchi tomi dell’uno, 
+               e delle altre, come ancora del <persName ref="#DLCL_CF_PC0423">Capra,</persName> consegnerà al <rs type="person">Padre Camerlingo</rs> il danaro. 
+            </p>
+            
+            <p>
+               Dalla nobile, pulita, e corretta stampa de’ <persName ref="#DLCL_CF_PC0011">Volpi</persName> 
+               ho ricevuto le <bibl type="print">Cento Favole</bibl> di <persName ref="#DLCL_CF_PC0587">Gabriello Faerno</persName> mio Paesano, 
+               gran Letterato, e tersissimo Poeta Latino, la cui maggior lode stimo essere stato diletto familiare di <persName ref="#DLCL_CF_PC0588">S. Carlo.</persName> 
+               Altri versi del medesimo sono aggiunti alle <bibl type="print">Favole,</bibl> con alcuni opuscoli degni d’immortalità. 
+               <persName ref="#DLCL_CF_PC0589">Monsignor Braschi</persName> Vescovo di <placeName ref="#DLCL_CF_L0116">Sarsina</placeName> 
+               fa stampare in <placeName ref="#DLCL_CF_L0117">Narni</placeName> <bibl type="print">quattro tomi in foglio di materie</bibl> 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10081_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20713/DSC_6043.jpg"/>
+            
+            <p>
+               <bibl type="print">Ecclesiastiche spettanti alla Storia, e al Dogma.</bibl> 
+            </p>
+            
+            <p>
+               Il Signor <persName ref="#DLCL_CF_PC0318">Apostolo Zeno</persName> è stato eletto dall’<rs type="person">Imperatore</rs> per suo Poeta. 
+               Quanto prima si porterà a <placeName ref="#DLCL_CF_L0115">Vienna</placeName> 
+               ad esercitare l’impiego suo nel comporre Drammi da rappresentarsi nel <orgName ref="#DLCL_CF_O0089">Teatro Cesareo.</orgName> 
+               Ciò non ostante, vien data speranza che si proseguirà il lavoro del Giovane Letterato. 
+            </p>
+            
+            <p>
+               <persName ref="#DLCL_CF_PC0584">Monsignor Airoldi</persName> ha quì interrotta la sua commissione, 
+               mandato per <gap reason="illegible"/>[...] di <placeName ref="#DLCL_CF_L0008">Roma</placeName> a <placeName ref="#DLCL_CF_L0023">Foligno,</placeName> 
+               nelle cui vicinanze passando un <rs type="person">Vescovo A[r]meno</rs> colla sola compagnia d’un Giovane suo Nipote, 
+               perche qui tirò un sasso a certo ragazzo, che con altri contadinelli li burlava, furono crudelmente da’ villani bastonati, 
+               a segno che il Nipote fu malamente ferito al capo. 
+               In oltre è stata al <rs type="person">Vescovo</rs> rubata la percussione con la Croce pettorale, e altre cose che avea seco. 
+               Condotti i feriti alla Città e posti nel pubblico Spedale, sono stati levati con la carrozza da un Gentiluomo, 
+               che in sua casa li fa curare, e servir nobilmente. 
+               Il Prelato è ito a procedere contro a’ delinquenti, che si considerano non solo dell’atroce delitto 
+               di metter le mani addosso ad un vescovo ma ancora di grassazione, per il furto. 
+            </p>
+            
+            <closer>
+               <salute>L’abbraccio caramente, insieme co’ nostri buoni Amici.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1718-06-07">7 Giugno 1718</date></dateline>
+               <salute>D.V.P.M.R.</salute>
+               <salute>Affettuosissimo Servitore Cordialissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10081_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/890f37bde39a2f2ca41348923ee268a5e78e1695.jpg"/>
+            
+            <pb xml:id="DLCL_CF_E10081_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/5beb6850a2faa6e49b011f398dc83ae8a3d8cb47.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al molto reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+               <p>
+                  [<persName ref="#DLCL_CF_PC0016">Pasolini</persName> <bibl type="print">Istor. di Rav.</bibl> Par. 3 pag. 207. 
+                  <persName ref="#DLCL_CF_PC0591 #DLCL_CF_PC0121" cert="unknown">Alberto Guiccioli</persName> Canonico, d’Alessandro gran Teologo 
+                  fù da <persName ref="#DLCL_CF_PC0592" cert="unknown">Leone Papa</persName> dichiarato suo Commensale anno 1515]
+               </p>
+            </postscript>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

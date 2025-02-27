@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10080">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20712/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21196/full/584,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21197/full/617,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21198/full/570,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/21199/full/608,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10080">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 4 Giugno 1718)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">80</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1718-06-04"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-07-13" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-13" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10080_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20712/DSC_6037.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Io vidi l’altro giorno un bellissimo <persName ref="#DLCL_CF_PC0172">Santo Agostino</persName> 
+               <bibl type="print"><foreign xml:lang="la">de Civitate Dei</foreign></bibl> stampato in <placeName ref="#DLCL_CF_L0008">Roma</placeName> l’anno 1467; 
+               cioè a dire tre anni avanti il famoso, che così abbiamo, altresì di <placeName ref="#DLCL_CF_L0008">Roma,</placeName> 
+               <bibl type="print"><hi rend="underline"><foreign xml:lang="la">in Domo Petri de Maximo</foreign></hi>.</bibl> 
+               Non si appose il celebre <persName ref="#DLCL_CF_PC0579">Montfaucon,</persName> 
+               il quale nel suo <bibl type="print">Diario Italico</bibl> francamente scrisse che cotesto de’ Massimi, 
+               dell’anno 1470 è della prima edizione, che se ne sia fatta. 
+               Il più antico mostratomi non ha espressamente il nome dello Stampatore, 
+               ma solo certo principio del nome, o cognome, e mi persuado che sarà stato qualche Tedesco, 
+               il quale a tempi di <persName ref="#DLCL_CF_PC0580">Paolo Secondo</persName> avrà recata la nuova arte a <placeName ref="#DLCL_CF_L0008">Roma.</placeName> 
+               Per quattro scudi, e forse meno lo avrei avuto; ma non posso fare spese. 
+               Eravi pure il <bibl type="print">Corpo intiero</bibl> del <persName ref="#DLCL_CF_PC0153">Cicerone</persName> 
+               col commento di <persName ref="#DLCL_CF_PC0581" cert="unknown">Aldo</persName> in 10 Tomi in foglio. 
+            </p>
+            
+            <p>
+               Stupisco come più di cento scudi possa valere la <bibl type="print">nuova edizione de’ Concilj</bibl> dell’<persName ref="#DLCL_CF_PC0559">Arduino,</persName> 
+               se non eccede il numero di dodici Tomi; la dove <bibl type="print">l’altra</bibl> del <persName ref="#DLCL_CF_PC0583">Labbè</persName> era di diciassette. 
+               Il nome dell’<persName ref="#DLCL_CF_PC0559">Arduino</persName> già diffamato per Pirronico, e Scettico non da credito, 
+               anzi presso i sensati non può non pregiudicare all’Opera. 
+               La più deplorabile ignoranza è quella, che non conosce se stessa: della qual disgrazia discorre egregiamente <persName ref="#DLCL_CF_PC0582">Platone.</persName> 
+               Cotesto istorico trovasi aggravato da tale infelicità. 
+               Quando darà di che ridere di se, con dolore di borsa, mettendo fuori le sciocchissime sue confutazioni contro al <persName ref="#DLCL_CF_PC0009">Bacchini!</persName> 
+               Ma presto finirà la scena, perché simili leggende han vita cortissima 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10080_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20712/DSC_6039.jpg"/>
+            
+            <p>
+               e di rado incontrano la fortuna di <persName ref="#DLCL_CF_PC0436">Laderchi,</persName> 
+               di farsi nome con trovar chi la metta in ridicolo, e perda le ore migliori in confutarle. 
+               Io avrei in settimana passata perduti così alcuni giorni nel far la censura al noto <bibl type="print">Panegirico del Gesuita,</bibl> 
+               che si era invogliato di stamparlo; 
+               quando non avessi avuto il merito di ubbidire al Santo Tribunale. 
+               E pur ne avea avuta licenza dal <rs type="person">Padre Generale della Compagnia.</rs> 
+               Oh che dense tenebre regnano in quella gente! 
+               Le mie <bibl type="print">Annotazioni a’ Vescovi Faentini</bibl> sono state comunicate al <persName ref="#DLCL_CF_PC0284">Coleti</persName> editore 
+               della <bibl type="print">ristampa</bibl> dell’<persName ref="#DLCL_CF_PC0021">Ughelli</persName> 
+               dal <persName ref="#DLCL_CF_PC0071">Signor Cavaliere Prospero Mandosio,</persName> al quale io le mandai ventisette anni sono, 
+               senza averne ritenuta copia, anzi né pur la memoria d’averle fatte: 
+               che però impunemente potevansi pubblicare con altro nome. 
+               Ora vado facendo le <bibl type="print">Annotazioni a Vescovi Perugini</bibl> da usare nel <bibl type="print">Tomo Decimo de’ Supplementi.</bibl> 
+            </p>
+            
+            <p>
+               Del <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina</persName> speriamo bene, e crediamo che Iddio gli renderà la primiera salute. 
+               Al <rs type="person">Fratello</rs> scrivo a dirittura. 
+            </p>
+            
+            <p>
+               In ordine all’invito per <placeName ref="#DLCL_CF_L0084">Piemonte</placeName> replicatomi di nuovo con le ultime, non sento premura, 
+               io mi contengo in maniera che dal canto mio non mi privi dell’arbitrio di accettare. 
+               Senza dubbio avrei bisogno di compagnia [dell’] abito, che mi sollevasse dalle mie più pesanti fatiche, e che si disponesse a succedere. 
+               Preghino Dio che ispiri l’elezione di quel che è meglio, e conforme alla sua volontà. 
+            </p>
+            
+            <p>
+               Intesi, subito seguite, l’una, e l’altra perdita del <persName ref="#DLCL_CF_PC0018">Signor Canonico Rondinini,</persName> 
+               e del <rs type="person">Padre Monsignor Sa</rs><gap reason="illegible"/>[...] 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10080_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20712/DSC_6040.jpg"/>
+            
+            <p>
+               le cui anime il Signore Iddio si degni di ricevere nelle sue sante braccia. 
+               Era un bravo erudito il <rs type="person">Signor Canonico,</rs> e di buon sapore. 
+               L’altro, se avesse potuto fermare il suo gran mercurio, avrebbe fatta un’insigne figura. 
+               Il fatto di <placeName ref="#DLCL_CF_L0028">Perugia</placeName> è ingrandito, e alterato a segno, 
+               che gli <bibl type="print">Avvisi</bibl> di <placeName ref="#DLCL_CF_L0058">Mantova</placeName> gli danno un’aria di sollevazione. 
+               La verità pura è che da cinque in sei anni fa la Gioventù Nobile, 
+               ed oziosa cominciò qui ad esercitar lo spirito in varie non leggeri insolenze, che dalla Consulta furon battezzate per ragazzate, 
+               di maniera che restò impedita la giustizia meditata, e cominciata dal Governatore di quel tempo. 
+               Seguitarono, e si fecero maggiori di poi le insolenze, con prepotenza, violenze, e certa turbazione della quiete pubblica, 
+               ma i Governatori, atteso il primo cattivo esempio, lasciaron correre. 
+               Alla fine <persName ref="#DLCL_CF_PC0535">Monsignor Lercari</persName> impaziente di veder la baldanza, e il disordine su propri occhi, 
+               sentendosi anco da <placeName ref="#DLCL_CF_L0008">Roma</placeName> condannar di tepore, e stimar degno di essere rimosso, 
+               fece far’ una strepitosa cattura d’un Cavalier principale, che ora trovasi in questa fortezza. 
+               <placeName ref="#DLCL_CF_L0008">Roma</placeName> approvò il fatto, 
+               e mandò quà <persName ref="#DLCL_CF_PC0584">Monsignore Airoldi</persName> 
+               Governatore di <placeName ref="#DLCL_CF_L0068">Spoleto</placeName> per Commessario con Luogotenente, 
+               Cancelliere e Birri suoi a procedere, e far’ un giudicio universale sopra tutti gli eccessi da molti anni addietro. 
+               I delinquenti, che son molti e molti, già fuggirono. 
+               È un mese che si va lavorando nel processo indefessamente e con rigore. 
+               La Nobiltà è umiliata e trema al pensar alla gravissima spesa, che porta sì lunga commessione, la quale Iddio sà quando sarà per finire. 
+               <persName ref="#DLCL_CF_PC0535">Monsignore Governatore Lercari</persName> stette qui dieci giorni dopo l’arrivo del Commessario, 
+               con cui trattò di continuo, dandogli anco da pranzo, uscì seco ogni 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10080_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/20712/DSC_6041.jpg"/>
+            
+            <p>
+               giorno per Città, insieme con <rs type="person">Monsignore Vescovo,</rs> ed io ebbi, 
+               ed hò sempre l’onore di servire poi se ne andò a <placeName ref="#DLCL_CF_L0008">Roma</placeName> ad informar’ in voce dello stato delle cose. 
+               Non trattando l’<persName ref="#DLCL_CF_PC0584">Airoldi</persName> con veruno della Città, seguita ad essere servito dal Vescovo, e da me. 
+               Questo il fatto, di cui sono informatissimo. 
+               Come sia per finire non si sà. 
+               Costoro imbriacano la Consulta col moscatello. 
+               Sono Sirene, che incantano. 
+               L’abbraccio, e resto. 
+            </p>
+            
+            <p>
+               Il <persName ref="#DLCL_CF_PC0336">Padre Franchetti</persName> si trattiene ancora? 
+               Fin quando in <placeName ref="#DLCL_CF_L0054">Parma?</placeName> 
+            </p>
+            
+            <closer>
+               Al molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese
+               <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+            </closer>
+            
+            <closer>
+               <salute>DVMR.</salute> 
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1718-06-04">4 Giugno 1718</date></dateline>
+               <salute>Affettuosissimo Servitore Cordialissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+
+         </div>
+      </body>
+   </text>
+</TEI>

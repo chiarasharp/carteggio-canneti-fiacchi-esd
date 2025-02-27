@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10133">
+    <facsimile sameAs="https://classense.unibo.it/iiif/20765/manifest">
+        <graphic n="1r" url="https://classense.unibo.it/iiif/2/21324/full/504,800/0/default.jpg"/>
+        <graphic n="1v" url="https://classense.unibo.it/iiif/2/24772/full/592,800/0/default.jpg"/>
+        <graphic n="2r" url="https://classense.unibo.it/iiif/2/24773/full/494,800/0/default.jpg"/>
+        <graphic n="2v" url="https://classense.unibo.it/iiif/2/24774/full/608,800/0/default.jpg"/>
+    </facsimile>
+    <text type="letter" xml:id="DLCL_CF_E10133">
+        <front><fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Canneti a Fiacchi (Fabriano, 30 Dicembre 1720)</title>
+                <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Carteggio Canneti Fiacchi</title>
+                <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+                <biblScope unit="letter">133</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="IT">Italia</country>
+                        <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                        <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                        <repository/>
+                        <collection/>
+                        <idno/>
+                        <altIdentifier>
+                            <idno/>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                    <date when-iso="1720-12-30"/>
+                    <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+                <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+                <xi:include href="../../entities/people/cited-people.xml"/>
+                <xi:include href="../../entities/people/staff.xml"/>
+                <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc status="created">
+            <change when-iso="2024-09-04" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-11-24" who="#DLCL_CF_PS001">correzioni</change>
+        </revisionDesc>
+    </front><body>
+            <div type="transcription">
+                <pb xml:id="DLCL_CF_E10133_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20765/DSC_6275.jpg"/>
+                
+                <opener>
+                    <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+                </opener>
+                
+                <p>
+                    Anco nella stagione de’ Capponi trionfano i Galletti. 
+                    Concetto veramente proprio del tempo freddo, che quì proviamo colle nevi sulle cime de’ monti vicini. 
+                    Stimo che sia fortuna grande della Chiesa di <placeName ref="#DLCL_CF_L0002">Ravenna</placeName> 
+                    l’aver finalmente sortito per Arcivescovo <persName ref="#DLCL_CF_PC0590">Monsignor Crispi,</persName> 
+                    il quale si può sperare che la faccia ringiovenire e nello spirituale, e nel temporale. 
+                    Egli possiede una insigne raccolta di Reliquie, che può bastare ad illustrar’una Città, quando cotesta per altro n’è sommamente doviziosa. 
+                    È ben’inclinato alle lettere: diede alle stampe un <bibl type="print">ringraziamento al Regnante Pontefice</bibl> 
+                    per la munificenza usata al Capitolo di <placeName ref="#DLCL_CF_L0013">Ferrara</placeName> nel fargli fabbricare un Coro per l’inverno: 
+                    il libro è latino, per quanto mi ricordo, di buona lega, col rame del nuovo Coro. 
+                    E ciò seguì, quando era Arciprete di quella Cattedrale. 
+                    Diede mano alla stampa del libro (se non erro, del <persName ref="#DLCL_CF_PC0293" cert="unknown">Bernini)</persName> degli <rs type="person">Auditori di Ruota,</rs> 
+                    consimile a quello degli <rs type="person">Avvocati Concistoriali</rs> del <persName ref="#DLCL_CF_PC0242">Cartari,</persName> 
+                    e degli <rs type="person">Abbreviatori</rs> di <persName ref="#DLCL_CF_PC0051" cert="unknown">Ciampini.</persName>
+                </p>
+                
+                <p>
+                    Due copie lo stesso <persName ref="#DLCL_CF_PC0590">Monsignor Crispi</persName> ne mandò a donare a <placeName ref="#DLCL_CF_L0028">Perugia.</placeName>
+                </p>
+                
+                <p>
+                    Ricevo il foglio VII dell’<bibl type="manuscript">Indice.</bibl> 
+                    Quei <bibl type="print">due Tometti in 12 franzesi della Biblioteca Critica di Sainjoure</bibl> 
+                    (ma veramente di <persName ref="#DLCL_CF_PC0164">Monsieur Richard Simon)</persName> l’ho io qui duplicata. 
+                    Cotesta (trovandosene l’esito) può vendersi. 
+                    Spesi tredici paoli per corpo sciolto. 
+                    È cosa buona di molto, e proibita.
+                </p>
+                
+                <pb xml:id="DLCL_CF_E10133_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/6b0a6fadc1a8ac305ede6c61f1261c585eb7f41b.jpg"/>
+                
+                <closer>
+                    <salute>Resto con abbracciarla caramente.</salute>
+                    <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1720-12-30">30 Dicembre 1720</date></dateline>
+                    <salute>DVPMR.</salute>
+                    <salute>Cordialissimo Servitore e Padre Affettuosissimo nel Signore</salute> 
+                    <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+                </closer>
+                
+                <pb xml:id="DLCL_CF_E10133_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/fcd1bc8a2ca6d07cab9e0188422a7f0d5abdf4f8.jpg"/>
+                
+                <pb xml:id="DLCL_CF_E10133_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/50444532961a294fbca479e9804d48e5fd872216.jpg"/>
+                
+                <postscript>
+                    <p>
+                        Al Molto Reverendo Padre mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> 
+                        <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10107">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20739/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21260/full/563,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21261/full/609,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21262/full/555,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25206/full/609,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10107">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 4 Dicembre 1719)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">107</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1719-12-04"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-08-21" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-17" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10107_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20739/DSC_6158.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Col ritorno del vetturino di <placeName ref="#DLCL_CF_L0109">Savignano</placeName> quà venuto 
+               con <persName ref="#DLCL_CF_PC0704">Frate Marino</persName> ho spedite due Cassette a <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità,</rs> 
+               con dentro Cartepecore grandi 50, dette mezzane 25, e capretti 50. 
+               Non posso ora avvisare il prezzo, per essere fuor di <placeName ref="#DLCL_CF_L0004">Fabriano</placeName> il <rs type="person">Padrone.</rs> 
+               Averei mandate altre venticinque cartapecore mezzane; ma non vi erano fatte, benché le avessi ordinate fin dall’Ottobre passato. 
+               Mi lusingo di goder tutta l’agevolezza possibile, mentre nell’istesso tempo ho ordinato 500 Cartepecore per il <persName ref="#DLCL_CF_PC0157">Poletti.</persName> 
+               Il <rs type="person">vetturino</rs> per il porto delle Cassette è pagato già, 
+               ed ha avuto 15 paoli, la metà de quali toccheranno al <rs type="person">Libraro</rs> per le Cartepecore.
+            </p>
+            
+            <p>
+               Venghiamo alla Cassetta de’ libri, de quali ne avrei inviati anco altri da legare, 
+               se la confusione non me gli avesse nascosti all’occhio, ed alla mano. 
+               I <bibl type="print">cinque Tometti</bibl> del <persName ref="#DLCL_CF_PC0688">Lohner</persName> si mettano tra’ nostri libri. 
+               Il <bibl type="print">Floridante</bibl> del <persName ref="#DLCL_CF_PC0674">Tasso</persName> 
+               (essendovene, credo, un migliore in <orgName ref="#DLCL_CF_O0001">Libreria)</orgName> si venda. 
+               Il <bibl type="print">Pontificale</bibl> si rappezzi con diligenza, e pulitezza, dov’è offeso; si rileghi in due Tomi in pelle fina rossa con oro. 
+               Ho mandato il <bibl type="print">2° Tomo delle Vite degli Arcadi,</bibl> perché si accompagni <bibl type="print">il 3°.</bibl> 
+               Con la stessa legatura si leghino tutti gli altri libri. 
+               Ma l’<bibl type="print">Istoria della Volgar Poesia</bibl> sia un poco meno alta di legatura. 
+               Così non vi è obbligo di regolarsi l’altezza degli altri tomi
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10107_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20739/DSC_6159.jpg"/>
+            
+            <p>
+               nelli <bibl type="print">tre volumi delle Chiese di Roma.</bibl> 
+               Legati poi che siano, si rimandino quà, eccettuati i <bibl type="print">sette Tometti delle Rime;</bibl> 
+               e le <bibl type="print">Rime</bibl> del <persName ref="#DLCL_CF_PC0705">Marmitta</persName> da aggiungersi a nostri libri. 
+               I <bibl type="print">tre tometti delle Prose</bibl> ritornino. 
+               Troverà <bibl type="print">due Opuscoli</bibl> di due Medici Perugini, <persName ref="#DLCL_CF_PC0269">Viti,</persName> 
+               e <persName ref="#DLCL_CF_PC0108">Pascoli:</persName> li riponga in <orgName ref="#DLCL_CF_O0001">Libreria.</orgName>
+            </p>
+            
+            <p>
+               Ecco la nota de’ libri mandati. 
+               Da legare <persName ref="#DLCL_CF_PC0033">Crescimbeni</persName> <bibl type="print">Istoria della Volgar Poesia</bibl> accresciuta in 4. 
+               Detto <bibl type="print">Vite degli Arcadi</bibl> par. 3a in 4. 
+               Detto <bibl type="print">Istoria della Basilica di San Giovanni avanti la Porta Latina</bibl> in 4. 
+               Detto <bibl type="print">Istoria di Santa Maria in Cosmedin</bibl> 4. 
+               Detto <bibl type="print">Stato di detta Chiesa</bibl> 4. 
+               <bibl type="print">Rime</bibl> <persName ref="#DLCL_CF_PC0705">Marmitta</persName> 4. 
+               <bibl type="print">Gabutij Vita Pij V.</bibl> fol. 
+            </p>
+            
+            <p>
+               <bibl type="print"><foreign xml:lang="la">Graveson de annis et mysterijs Christi</foreign></bibl> 4. 
+               <bibl type="print"><foreign xml:lang="la">Eiusdem de Sacra Scriptura</foreign></bibl> 4. 
+               <bibl type="print">Rime e Prose degli Arcadi</bibl> in 8 vol. 10. 
+               Legati <bibl type="print">Vite degli Arcadi</bibl> par. 2. 
+               <bibl type="print">Floridante</bibl> del <persName ref="#DLCL_CF_PC0674">Tasso.</persName> 
+               <persName ref="#DLCL_CF_PC0688">Lohner</persName> <bibl type="print"><foreign xml:lang="la">Opuscula</foreign></bibl> vol. 5. 
+               <bibl type="print">.<foreign xml:lang="la">Pontificale Romanum</foreign></bibl>
+            </p>
+            
+            <p>
+               Alli <bibl type="print">due famosi Tomi</bibl> del <persName ref="#DLCL_CF_PC0622">Plinio</persName> 
+               mi si è aggiunto il <persName ref="#DLCL_CF_PC0129">Mabillon</persName> <bibl type="print"><foreign xml:lang="la">de Re Diplomatica</foreign></bibl> della 2a edizione accresciuta, 
+               e migliorata, col Supplemento in un solo tomo, il quale con vantaggio ho pagato tredici scudi. 
+               Da <placeName ref="#DLCL_CF_L0024">Venezia</placeName> aspetto la <bibl type="print">Bibliografia</bibl> 
+               del <persName ref="#DLCL_CF_PC0679">Fabricio</persName> in un Tomo in folio, 
+               e la <bibl type="print">Biblioteca Greca</bibl> del medesimo in otto Tomi in 4 comprati per quattordici scudi. 
+               Già dello stesso io avea la <bibl type="print">Biblioteca Latina.</bibl>
+            </p>
+            
+            <p>
+               Io credo di aver da rispondere ad una lettera di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità,</rs> ma ora non l’ho alle mani; 
+               l’averò presto, e coll’ordinario prossimo risponderò anco al <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina</persName> 
+               che ora con cordialissimo affetto abbraccio insieme con <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> confermandomi.
+            </p>
+            
+            <closer>
+               <salute>DVPMR.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1719-12-04">4 Dicembre 1719</date></dateline>
+               <salute>Affettuosissimo Servitore e Cordialissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10107_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20739/DSC_6160.jpg"/>
+            
+            <postscript>
+               <p>
+                  Il <persName ref="#DLCL_CF_PC0706">Signore Francesco Mancini</persName> ha avuto l’onore di esser preferito 
+                  per la pittura da farsi della tribuna del <orgName ref="#DLCL_CF_O0113">Duomo di Foligno,</orgName> 
+                  in concorrenza dei primi Pittori di <placeName ref="#DLCL_CF_L0008">Roma,</placeName> 
+                  anco del <persName ref="#DLCL_CF_PC0707">Nasini</persName> raccomandato dal <rs type="person">Papa,</rs> 
+                  che ha dipinto in <orgName ref="#DLCL_CF_O0020">San Giovanni Laterano</orgName> a spese, e d’ordine di <rs type="person">Sua Santità.</rs> 
+                  Ne dia la nuova al <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli,</persName> e me lo riverisca caramente.
+               </p>
+               <p>
+                  Veda nello <bibl type="print">Storico del Concilio di Costanza</bibl> se vi è menzione di <persName ref="#DLCL_CF_PC0507">Manuele Crisolora,</persName> 
+                  il qual morì in quel tempo colà. 
+                  E mi mandi presto trascritto quel, che vi trova. 
+                  Gran pena, gran danno per le mie Annotazioni star sì lontano da <placeName ref="#DLCL_CF_L0002">Ravenna.</placeName>
+               </p>
+               <p>
+                  La ringrazio del <bibl type="religious">Calendario.</bibl> 
+                  È corso errore in un Sabbato in tempo pasquale. 
+                  <foreign xml:lang="la"><hi rend="underline">De eo</hi> in vece <hi rend="underline">de S. Maria</hi></foreign>
+               </p>
+            </postscript>
+            
+            <pb xml:id="DLCL_CF_E10107_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/dea384bb0cecd6e759562f904cd17a66f90558e1.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre Mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

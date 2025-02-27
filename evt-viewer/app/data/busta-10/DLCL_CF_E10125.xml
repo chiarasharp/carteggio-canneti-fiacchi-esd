@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10125">
+    <facsimile sameAs="https://classense.unibo.it/iiif/20757/manifest">
+        <graphic n="1r" url="https://classense.unibo.it/iiif/2/21303/full/608,800/0/default.jpg"/>
+        <graphic n="1v" url="https://classense.unibo.it/iiif/2/21304/full/633,800/0/default.jpg"/>
+        <graphic n="2r" url="https://classense.unibo.it/iiif/2/21305/full/528,800/0/default.jpg"/>
+        <graphic n="2v" url="https://classense.unibo.it/iiif/2/21306/full/622,800/0/default.jpg"/>
+    </facsimile>
+    <text type="letter" xml:id="DLCL_CF_E10125">
+        <front><fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Canneti a Fiacchi (Fabriano, 6 Dicembre 1720)</title>
+                <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Carteggio Canneti Fiacchi</title>
+                <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+                <biblScope unit="letter">125</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="IT">Italia</country>
+                        <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                        <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                        <repository/>
+                        <collection/>
+                        <idno/>
+                        <altIdentifier>
+                            <idno/>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                    <date when-iso="1720-12-06"/>
+                    <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+                <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+                <xi:include href="../../entities/people/cited-people.xml"/>
+                <xi:include href="../../entities/people/staff.xml"/>
+                <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc status="created">
+            <change when-iso="2024-09-03" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-09-18" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-25" who="#DLCL_CF_PS001">correzioni</change>
+        </revisionDesc>
+    </front><body>
+            <div type="transcription">
+                <pb xml:id="DLCL_CF_E10125_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20757/DSC_6244.jpg"/>
+                
+                <opener>
+                    <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+                </opener>
+                
+                <p>
+                    Ricevo il foglio della nota richiesta. 
+                    In avvenire si può questa abbreviare sull’esempio del foglio da me trasmesso con l’ordinario prossimo passato. 
+                    Anzi può anco raccorciarsi, avendo io alle mani il diligente <bibl type="manuscript">Catalogo</bibl> anni sono 
+                    da <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> messo insieme. 
+                    Al più Ella può scendersi ne’ libri aggiunti, che sono pochi.
+                </p>
+                
+                <p>
+                    Ho un’abbozzo dell’<bibl type="manuscript">Indice,</bibl> ma non compito di cotesto Manoscritti. 
+                    Tal qual’è, ne manderò copia; ed Ella potrà senza gran fatica darsi l’ultima mano. 
+                    Vedrà in esso il <bibl type="manuscript">Tideo da S. Elpidio,</bibl> che io certamente non mi sono sognato, né ho portato meco; 
+                    come meco stanno alcuni pochi di quei, che nella nuova edizione dell’<bibl type="print">Istoria</bibl> 
+                    il <persName ref="#DLCL_CF_PC0033">Crescimbeni</persName> scrive trovasi in cotesta <orgName ref="#DLCL_CF_O0001">Biblioteca.</orgName> 
+                    Ora metteremo tutto in chiaro. 
+                    Ma se non si finisce di far copie della <bibl type="print">Storia</bibl> del <persName ref="#DLCL_CF_PC0176">Carrari</persName> non si troverà né presso di me, 
+                    né nella <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> ove feci scrivere che stava trascritta, 
+                    lusingandomi che tosto fosse senza dubbio per farsi detta copia. 
+                    <bibl type="print">De’ Secreti</bibl> di <persName ref="#DLCL_CF_PC0782">Alberto Magno</persName> poco è considerabile la perdita. 
+                    Ha 34 anni almeno che io acquistai il <bibl type="print">Fieno.</bibl> 
+                    Può essere che in tomo maggiore trovisi quel buon opuscolo. 
+                    Ma, ciò posto, chi penserà al volume piccolo; né al maggiore da rimettere? 
+                    Il <persName ref="#DLCL_CF_PC0783">Vuechero</persName> in genere suo è cosa buona, e vi vorrebbe in <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
+                    La mano rapace è stata di qualche Filosofastro chimico, spargirico ed una sola sarà stata l’involatrice di tutti e tre.
+                </p>
+                
+                <pb xml:id="DLCL_CF_E10125_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20757/DSC_6245.jpg"/>
+                
+                <p>
+                    Giunto che costà sia l’involto con le quattro copie del consaputo Libro, 
+                    <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> ne faccia legare uno in cartapecora con pulizia, 
+                    e lo tenga pronto da farne Dono (ancor competitivo) al <persName ref="#DLCL_CF_PC0775">Signor Conte Giuseppe</persName> unitamente con la lettera, che manderò a lei; 
+                    facendo in essa menzione del <persName ref="#DLCL_CF_PC0784">Signor Conte Luigi.</persName> 
+                    Anzi faccia legar’ il libro alla franzese.
+                </p>
+                
+                <p>
+                    Chi non ha veduto il <bibl type="print">Plinio,</bibl> che stà qui, nulla ha veduto di antiche edizioni. 
+                    È più bello della <persName ref="#DLCL_CF_PC0785">Laura</persName> di <persName ref="#DLCL_CF_PC0025">Messer Francesco Petrarca.</persName> 
+                    Dentro la prossima settimana arriveranno da <placeName ref="#DLCL_CF_L0023">Foligno</placeName> i sei Tomi del <bibl type="print">Lirano</bibl> 
+                    che pur possono mostrarsi per un intiero Corpo rarissimo a trovarsi. 
+                    Ora stanno sul finir di rilegarsi in certa pelle rossa di capra, che ho di quà mandata a posta, con oro. 
+                    Questo è il principal mobile, che scopersi nella <orgName ref="#DLCL_CF_O0137">Libreria de’ Zoccolanti</orgName> di quella Città nella Quaresima del 1719. 
+                    I <persName ref="#DLCL_CF_PC0015">Signori Pagliarini,</persName> 
+                    e <persName ref="#DLCL_CF_PC0232">Boccolini</persName> sono stati gli Amici che han colto il frutto alla fine maturato col beneficio del tempo, 
+                    dopo dissipate le nuvole della gelosia, con avvertire a non mai più nominarmi. 
+                    Perché i caratteri non son belli in <placeName ref="#DLCL_CF_L0023">Foligno,</placeName> converrà incollare a Tomi i cartelli di damaschino, che farò fare in qualche luogo. 
+                    Un grande intoppo è nato, per essere uno de’ sei Tomi più tagliato in ogni margine degli altri cinque. 
+                    Mandai l’ordinario passato una minuta istruzione. 
+                    Piaccia a Dio che sia stata ben’intesa, e ben posta in opera. 
+                    Confido molto nell’amore di <persName ref="#DLCL_CF_PC0015">Pagliarini,</persName>
+                </p>
+                
+                <pb xml:id="DLCL_CF_E10125_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20757/DSC_6246.jpg"/>
+                
+                <p>
+                    il quale verso me non può esser più grande, e nel suo buon gusto, ch’è assai fine, e diligente. 
+                    Col <bibl type="print">Lirano</bibl> doveva venire il <persName ref="#DLCL_CF_PC0172">Santo Agostino</persName> 
+                    <bibl type="print"><foreign xml:lang="la">de Civitate Dei</foreign></bibl> stampato 
+                    come il <bibl type="print">Lirano</bibl> in <orgName ref="#DLCL_CF_O0109">casa Massimi;</orgName> ma sono stato io prevenuto. 
+                    Due copie ne avrò semigottiche dell’anno 1475, una delle quali sarà da esitare. 
+                    Vi sarà un’intiera <bibl type="print">Somma di San Tommaso,</bibl> un’altra intiera <bibl type="print">Somma di Sant’Antonino,</bibl> 
+                    una gran <bibl type="print">Bibbia con le postille</bibl> del <persName ref="#DLCL_CF_PC0655">Lirano,</persName> 
+                    una <bibl type="print">traduzione d’esso Lirano sopra l’Apocalisse</bibl> (cosa più rara della stessa rarità) con altri libri stampati, e alcuni pochi Manoscritti. 
+                    Giunta che sia la flotta, <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> ne avrà intiera relazione. 
+                    Vado ora tentando le reti in un’altro luogo. 
+                    Ma vi vuol flemma, e arte; e sopra tutto bisogna che io stia dietro alla siepe uccellando, senza farmi vedere, né nominare. 
+                    Anco nella Marca il nome, che non merito, mi fà guerra. 
+                    E vi son’altri famosi Cacciatori.
+                </p>
+                
+                <p>
+                    Io non ho a fondo esaminato il passo istorico, e geografico della patria di <persName ref="#DLCL_CF_PC0786">Pasquale Secondo.</persName> 
+                    <placeName ref="#DLCL_CF_L0124">Città di Castello,</placeName> <placeName ref="#DLCL_CF_L0154" cert="unknown">Bagno,</placeName> 
+                    e altri luoghi ne’ confini della <placeName ref="#DLCL_CF_L0079">Toscana,</placeName> dell’<placeName ref="#DLCL_CF_L0041">Umbria,</placeName> 
+                    e di <placeName ref="#DLCL_CF_L0063">Romagna</placeName> lo pretendono suo: 
+                    né sò che alcuno lo faccia nato vicino a <placeName ref="#DLCL_CF_L0008">Roma.</placeName> 
+                    S’informi bene, e troverà una <placeName ref="#DLCL_CF_L0155">Bieda</placeName> ne’ contorni di <placeName ref="#DLCL_CF_L0156">Galeata,</placeName> 
+                    <persName ref="#DLCL_CF_L0157">Civitella,</persName> e <placeName ref="#DLCL_CF_L0127">Santa Sofia.</placeName> 
+                    Quanto al marmo nostro, così su due piedi non posso dir nulla; intendo del marmo giacente alla guardia della Spezieria. 
+                    Tra quelle Iscrizioni, vi lascia una cassetta colla breve iscrizione recata dal <persName ref="#DLCL_CF_PC0123">Fabri</persName> 
+                </p>
+                
+                <pb xml:id="DLCL_CF_E10125_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/20757/DSC_6247.jpg"/>
+                
+                <p>
+                    nelle sue <bibl type="print">Memorie Sacre,</bibl> a <hi rend="underline"><orgName ref="#DLCL_CF_O0061">Santa Maria in Porto.</orgName></hi> 
+                    Un’altra in marmo greco, stretto, e lunghetto ve n’era donatami dal <persName ref="#DLCL_CF_PC0169">Signor Butrighelli,</persName> 
+                    come l’altra fummi donata dal <persName ref="#DLCL_CF_PC0787">Padre Abate Visitatore Bifolci.</persName> 
+                    Vi sono con le altre.
+                </p>
+                
+                <p>
+                    Quella lapida di <placeName ref="#DLCL_CF_L0020">Classe</placeName> <gap reason="illegible"/>[...] che si calasse da quel sito, ove non è stata alzata, 
+                    che dall’Ignoranza, e si collocasse ivi abbasso in luogo comodo da essere letta, facendovi una bella cornice schietta di stucco intorno. 
+                    Quando sia ciò fatto, starà bene farla intagliare, 
+                    e servirà la stampa in rame da mandare a’ <rs type="person">Monaci</rs> di <orgName ref="#DLCL_CF_O0030">San Mauro.</orgName>
+                </p>
+                
+                <p>
+                    Aspetto il passo del <persName ref="#DLCL_CF_PC0734">Tentzelio,</persName> sopra il nostro <persName ref="#DLCL_CF_PC0177">Ambrogio.</persName> 
+                    Lo faccia trascrivere da qualcheduno degli Amici. 
+                </p>
+                
+                <closer>
+                    <salute>Resto confermandomi senza fine.</salute>
+                    <salute>DVPMR.</salute>
+                    <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1720-12-06">6 Dicembre 1720</date></dateline>
+                    <salute>Cordialissimo Servitore e Padre Affettuosissimo nel Signore</salute> 
+                    <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

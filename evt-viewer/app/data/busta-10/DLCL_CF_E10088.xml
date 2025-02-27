@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10088">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20720/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21215/full/585,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21216/full/619,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10088">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 4 Ottobre 1718)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">88</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1718-10-07"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-07-16" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-16" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10088_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20720/DSC_6068.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Ritornato il dì 22 a sera da’ <orgName ref="#DLCL_CF_O0095">Santuarj di Camaldoli,</orgName> e dall’<orgName ref="#DLCL_CF_O0096">Alvernia</orgName> trovai molte lettere, 
+               e fra esse la cortissima di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> 
+               colle notizie de’ recapiti fatti in <placeName ref="#DLCL_CF_L0054">Parma,</placeName> e in <placeName ref="#DLCL_CF_L0013">Ferrara</placeName> delle mie insipidezze. 
+               Da <placeName ref="#DLCL_CF_L0030">Sinigaglia</placeName> dipoi ho avuto riscontro 
+               ch’erasi colà fermato l’involto a lei diretto presso il <persName ref="#DLCL_CF_PC0475">Signor Sgherri,</persName> 
+               il qual prometteva sollecitamente spedirlo costà per l’occasione di un suo fratello, il quale dovea sul fine di settembre ritornare costà in Patria. 
+               Eseguita che sia tal promessa, mi sarà caro l’avviso. 
+               Quanto al <persName ref="#DLCL_CF_PC0425">Corvo</persName> di <placeName ref="#DLCL_CF_L0008">Roma,</placeName> 
+               mi faccia favore di replicare a dirittura al <persName ref="#DLCL_CF_PC0425" cert="unknown">Signor Giuseppe</persName> per intender se la cassa gli sia arrivata. 
+               Mi immagino che avrà condotta al fine, o verso esso l’<bibl type="religious">Opera del Calendario,</bibl> 
+               intorno al quale non sò che altro abbiam di nuovo se non le Antifone, Versetti e Orazione di Santa Scolastica. 
+            </p>
+            
+            <p>
+               Mi spiace ben vivamente la malattia del <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina;</persName> ma non mi sgomento. 
+               Altri, e non pochi, de’ miei figliuoli han passato questo guado, e ne son’usciti. 
+            </p>
+            
+            <p>
+               Altrettanto spero di lui. 
+               Aiutiamolo con le Orazioni, ed egli si aiuti col suo spirito. 
+            </p>
+            
+            <p>
+               Se altra occasione non vien prima, veda di farmi avere gli <bibl type="print">Opuscoli</bibl> del <persName ref="#DLCL_CF_PC0101">Padre Abate Corazzi</persName> 
+               colla venuta per le visite dei nostri <rs type="person">Reverendissimi Visitali.</rs> 
+               Può raccomandargli a <persName ref="#DLCL_CF_PC0613">Frate Giuseppe</persName> Converso del <persName ref="#DLCL_CF_PC0614">Reverendissimo Celini.</persName> 
+               Quel <rs type="person" ref="#DLCL_CF_PC0101">Padre Abate</rs> scrive bene latino, 
+               e mi piacque molto la sua <bibl type="print">prefazione sopra</bibl> l’<orgName ref="#DLCL_CF_O0097">Istituto Marsiliano.</orgName> 
+               Io farò aver l’altra copia al <persName ref="#DLCL_CF_PC0615">Signor Dottore Neri</persName> Matematico di questa <orgName ref="#DLCL_CF_O0097">Università,</orgName> 
+               sotto cui mi ricordo ch’egli qui apprese i principj della matematica. 
+               Se verranno anco i <bibl type="print">Giornali</bibl> l’avrò a caro. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10088_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20720/DSC_6069.jpg"/>
+            
+            <p>
+               In <placeName ref="#DLCL_CF_L0122">Camaldoli,</placeName> dove arrivai la sera del dì 14 trovai il <rs type="person">Padre Camerlingo,</rs> 
+               ch’è Bolognese, coetaneo di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità,</rs> 
+               già suo condiscepolo, che mi fece replicata e cordiale menzione della di lei persona. 
+               Nel <orgName ref="#DLCL_CF_O0095">Sant’Eremo</orgName> evvi un’altro <rs type="person">eremita Bolognese,</rs>
+               molto saporito, con pochissima barba, ch’è Lettore di Teologia Morale. 
+               Ma pochissimo mi trattenni nell’uno e nell’altro luogo, ma vi fui come di passaggio, e così anche nella Musolea; 
+               perché servendo io di camerata di viaggio <persName ref="#DLCL_CF_PC0535">Monsignor Lercari</persName> nostro Governatore, 
+               e accompagnatici colà con <persName ref="#DLCL_CF_PC0616">Monsignore Stampa Nunzio</persName> di <placeName ref="#DLCL_CF_L0018">Firenze,</placeName> 
+               passammo all’<placeName ref="#DLCL_CF_L0123">Alvernia,</placeName> per la festa delle Sacre Stimate, 
+               ove <persName ref="#DLCL_CF_PC0616">Monsignor Nunzio</persName> cantò messa pontificale, 
+               assistito da’ <rs type="person">Canonici</rs> d’<placeName ref="#DLCL_CF_L0019">Arezzo.</placeName> 
+               Vi furono anche <rs type="person">Monsignor Vescovo</rs> di <placeName ref="#DLCL_CF_L0028">Perugia</placeName> 
+               e <rs type="person">Monsignor Vescovo</rs> di <placeName ref="#DLCL_CF_L0124">Città di Castello,</placeName> ambi Bolognesi. 
+            </p>
+            
+            <p>
+               Mi è arrivato da <placeName ref="#DLCL_CF_L0008">Roma</placeName> il primo Tomo dell’<bibl type="print">Anastasio Bibliotecario,</bibl> 
+               ch’è un grosso e grande libro di peso di venti libre legato. 
+               Il <persName ref="#DLCL_CF_PC0228">Salvioni</persName> si è fatto onore: 
+               sul principio evvi il <bibl type="manuscript">catalogo de’ trecento Associati</bibl> tra quali de’ Camaldolesi vi son’io, 
+               e il <persName ref="#DLCL_CF_PC0617">Padre Don Gio. Antonio Bernardini.</persName> 
+               Di <placeName ref="#DLCL_CF_L0002">Ravenna</placeName> vi è descritto il <persName ref="#DLCL_CF_PC0204">Signor Avvocato de’ Poveri, Spreti,</persName> 
+               e costì l’Em<gap reason="illegible"/>[...] da Via. 
+            </p>
+            
+            <p>
+               <persName ref="#DLCL_CF_PC0618">Monsignor Falconcini</persName> Vescovo d’<placeName ref="#DLCL_CF_L0019">Arezzo,</placeName> 
+               che ho riverito nel passaggio per quelle Città, 
+               ha data alle stampe la <bibl type="print">Vita</bibl> del <persName ref="#DLCL_CF_PC0619">Padre Don Luigi Massei</persName> 
+               eremita di <placeName ref="#DLCL_CF_L0122">Camaldoli.</placeName> 
+               L’ha consegnata al <persName ref="#DLCL_CF_PC0147">Padre Abate Caramelli</persName> da mandarmi. 
+               Fu scritta già da certo <persName ref="#DLCL_CF_PC0620">Prete Mannucci,</persName> e stampata in 12, ma con poco plauso; 
+               e lasciò tal’edizione in libreria: <bibl type="print">or’è in 4to e bene scritta,</bibl> per quel che sento. 
+            </p>
+            
+            <closer>
+               <salute>Resto con abbracciarla di tutto cuore.</salute>
+               <salute>DVPMR.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1718-10-07">4 Ottobre 1718</date></dateline>
+               <salute>Cordialissimo Servitore e Affettuosissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

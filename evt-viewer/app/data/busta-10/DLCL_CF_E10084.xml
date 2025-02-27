@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10084">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20716/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21208/full/583,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21209/full/614,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21210/full/579,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25106/full/607,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10084">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 23 Luglio 1718)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">84</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1718-07-23"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-07-15" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-16" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10084_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20716/DSC_6058.1.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Mi spiace l’incomodo sopraggiunto a <rs type="person" ref="#DLCL_CF_PC0600">Vostra Paternità</rs> nel piede, e seco me ne condolgo; 
+               benché mi giova credere che a quest’ora ne possa essere già libera. 
+            </p>
+            
+            <p>
+               Quanto più gloriosamente del <rs type="person" ref="#DLCL_CF_PC0598">Cardinale Arelatense</rs> scrive il <persName ref="#DLCL_CF_PC0599">Frizon,</persName> 
+               tanto più difficile nodo si stringe nell’unire sì alti pregi di quel Servo di Dio con quel, 
+               che ne scrive in detestazione il nostro <persName ref="#DLCL_CF_PC0177">Ambrogio</persName> ancor’esso uomo di vita Angelica, onorato da molti col titolo di Beato, 
+               e illustre pel miracolo de’ bianchi fiori nati al suo sepolcro: del qual prodigio ho trovato in una lettera inserita nel corpo dell’Opera un testimonio di quell’età. 
+               L’ardente zelo della pace trasportava <persName ref="#DLCL_CF_PC0177">Ambrogio</persName> ad inveir contro a perturbatori della medesima, 
+               e l’amore verso <persName ref="#DLCL_CF_PC0254">Eugenio</persName> lo faceva divenire acerrimo nemico de’ suoi nemici. 
+               Di <persName ref="#DLCL_CF_PC0603">Girolamo da Praga</persName> nostro Romito per questa cagione che non dice di male? 
+               Mi farebbe gran favore chi si prendesse incomodo di trascrivere interamente il <persName ref="#DLCL_CF_PC0599">Frizon,</persName> 
+               ove ci dà la vita dello stesso <rs type="person" ref="#DLCL_CF_PC0598">Cardinale;</rs> 
+               essendo necessario pesar bene questo fatto, e star guardingo dall’affetto della nazione, 
+               che può render’in qualche parte sospetto l’Autor della <bibl type="print">Gallia Porporata.</bibl> 
+               Il <persName ref="#DLCL_CF_PC0601">Garimberti</persName> pag. 358 biasima senza dubbio 
+               questo <rs type="person" ref="#DLCL_CF_PC0598">Cardinale</rs> d’<placeName ref="#DLCL_CF_L0120">Arles,</placeName> 
+               e male ne scrive nella <bibl type="print">Storia de’ Concilj</bibl> il <persName ref="#DLCL_CF_PC0602">Battaglini.</persName> 
+               La sua beatificazione, e i miracoli posson’esser’effetti della penitenza, che ne fece di poi. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10084_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20716/DSC_6058.2.jpg"/>
+            
+            <p>
+               Scrivo con quest’ordinario a <placeName ref="#DLCL_CF_L0114">Jesi,</placeName> 
+               per intendere se possa stabilirsi la comparsa dell’uno, e dell’altro colà per il principio di Settembre. 
+               Scrivo altresì per tentare se vi sia modo di acquistar il <bibl type="print">Corpo</bibl> del <persName ref="#DLCL_CF_PC0531">Lipsio.</persName> 
+               Mi rallegro degli altri acquisti, ch’ella mi accenna. 
+               Le <bibl type="print">Satire Scoliastiche</bibl> del <persName ref="#DLCL_CF_PC0604">Cervi</persName> è libro di rarità non ordinaria, 
+               degno anco per altro di particolare stima. 
+               Esso è però tra nostri libri. 
+               Così <bibl type="print"><foreign xml:lang="la">Bellum Grammaticale</foreign></bibl> <del rend="overstrike">trovo</del> del <persName ref="#DLCL_CF_PC0605">Guarna Cremonese</persName> 
+               stà nelle Dissertazioni Ludicre tra nostri libri. 
+               Avrò caro sapere quali siano le <bibl type="print">Opere Grammaticali</bibl> dello <persName ref="#DLCL_CF_PC0250">Scioppio,</persName> 
+               e quali altri sieno i libri aggiunti. 
+               La notizia non è cercata da mera curiosità, ma dalla circospezione necessaria a me nelle occasioni d’incontrarmi i libri. 
+            </p>
+            
+            <p>
+               I due libri propostimi son degni che si applichi al loro acquisto. 
+               Del <persName ref="#DLCL_CF_PC0607" cert="unknown">Bandello</persName> ne parlano lo <persName ref="#DLCL_CF_PC0606">Strozzi</persName> 
+               nella <bibl type="print">Istoria della Concezione,</bibl> e il <persName ref="#DLCL_CF_PC0608">Rainaudo</persName> nell’<bibl type="print">Apopompeo.</bibl> 
+               <rs type="person" ref="#DLCL_CF_PC0600">Vostra Paternità</rs> se tra i nostri libri di belle lettere volgari siavi qualche cosa che appaghi il genio del padrone di essi, 
+               e sia duplicato rispettivamente alla libreria, e mi avvisi; che io darò subito risposta. 
+            </p>
+            
+            <p>
+               Riceverà i due Tomi delle <bibl type="print">Vite</bibl> di <persName ref="#DLCL_CF_PC0099">Plutarco,</persName> 
+               e le <bibl type="print">Tragedie</bibl> del <persName ref="#DLCL_CF_PC0574">Tesauro</persName> quanto prima, 
+               avendo io dato ordine che si proccurasse consegnare l’involtino a qualche mercante Ravignano sulla fiera di <placeName ref="#DLCL_CF_L0030">Sinigaglia.</placeName> 
+               Quanto alle stampe del 1400, generalmente parlando le migliori, e stimabili 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10084_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20716/DSC_6058.3.jpg"/>
+            
+            <p>
+               son le prime quanto all’età, che io assegnerei fin verso al 1480; 
+               benché ancor prima di detto anno si vegga quel carattere, che chiamasi gottico, e che questo l’eleganza de’ primi caratteri tondi, 
+               e belli, i quali serviranno a lei di un’altra seconda regola per discernere le buone stampe antiche. 
+               I miei rispetti à <rs type="person">Padri Lettori.</rs> 
+            </p>
+            
+            <closer>
+               <salute>Resto abbracciandola <foreign xml:lang="la">toto cordis affectu</foreign>.</salute>
+               <salute>DVPMR.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1718-07-23">23 Luglio 1718</date></dateline>
+            </closer>
+            
+            <postscript>
+               <p>
+                  In ogni caso crederei che si potrebbe tentare di avere l’imprestito delli 18 
+                  o venti scudi da cotesto <rs type="person">Padre Camerlingo;</rs> ed io entrerei, occorrendo, mallevadore. 
+                  Non vorrei che perdessimo questo <bibl type="print">Lipsio,</bibl> avendo il modo di rinfrancarsi in parte col vecchio costì, e col <bibl type="print">Tacito.</bibl>
+               </p>
+            </postscript>
+            
+            <closer>
+               <salute>Cordialissimo Servitore e Affettuosissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10084_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/a4f8a5b68b31f3bb13ad39768833d333cbbd98eb.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre Mio Osservandissimo Il <persName ref="#DLCL_CF_PC0600">Padre Don Giacomo Tirinelli</persName> Procuratore Generale 
+                  <orgName ref="#DLCL_CF_O0094">San Romualdo</orgName> <placeName ref="#DLCL_CF_L0008">Roma</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

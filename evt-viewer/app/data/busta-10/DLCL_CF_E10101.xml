@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10101">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20733/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21246/full/571,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21247/full/613,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/25194/full/568,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25195/full/606,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10101">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 21 Luglio 1719)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">101</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1719-07-21"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-08-19" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">nuove trascrizioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10101_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20733/DSC_6133.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Quando io credeva stabilita già la venuta di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità;</rs> insorge una difficoltà simile a quella dell’anno scorso. 
+               Appunto con l’ordinario ultimo mi scrive il <persName ref="#DLCL_CF_PC0593">Signor Conte Pianetti</persName> 
+               che un’urgenza l’obbliga di partir presto per ritornare dopo Settembre con <rs type="person">Monsignor Suo Zio;</rs> 
+               onde fino a quel tempo non è in grado di ricevere l’assistenza alla sua <orgName ref="#DLCL_CF_O0090">libreria;</orgName> 
+               e sol mette in forse il riceverla per Ottobre, o Novembre. 
+               Che però tengo per indubitato che sia per andar’in fumo ancor quest’anno la conceputa idea. 
+               Avrà adunque <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> 
+               tutto il comodo di attendere alla Monacazione della <rs ref="#DLCL_CF_PC0680" type="person">Sorella sua,</rs> 
+               ma io resterò privo del contento di rivederla, o mi si differirà almeno fino alla stagione più fresca.
+            </p>
+            
+            <p>
+               Ma fissiamoci un poco a discorrere della <rs ref="#DLCL_CF_PC0680" type="person">Sorella medesima.</rs> 
+               È da considerar bene se hà Ella spirito, forze e vocazione all’austerità dell’Istituto, 
+               a cui può dubitarsi si disponga forse per motivo della necessità, da che la dote di 400 scudi vi vuole in <placeName ref="#DLCL_CF_L0007">Bologna,</placeName> 
+               anco per entrar tra le Terziarie, e non hà essa tanto di assegnamento. 
+               Or <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> consideri 
+               se fosse approposito per lei questo nostro <orgName ref="#DLCL_CF_O0110">Monastero di San Sebastiano.</orgName> 
+               Quì la dote è di 300 scudi; ma io mi prometto di far che le Monache la ricevano per soli 250. 
+               E chi sà che non mi riesca di farle aver luogo per soli 200 scudi. 
+               L’arredo poi, e la spesa di vestitura, e professione si sbriga con cento scudi; 
+               e anco in ciò si proccurerà ridurre la spesa a tutto il meno, che sia possibile. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10101_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20733/DSC_6134.jpg"/>
+            
+            <p>
+               Vi pensi, la discorra col nostro <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina,</persName> che di tutto cuore riverisco. 
+               Sia sicuro il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo</persName> che io farò tutto per facilitare quel che potrò nello scemare delle spese, 
+               e nel ridurre a 200 scudi la dote. 
+               Il <persName ref="#DLCL_CF_PC0681">Padre Abate Felina,</persName> ch’era Bolognese, vi <del rend="overstrike">M</del> monacò due sorelle. 
+               Animo.
+            </p>
+            
+            <p>
+               La relazione della dimora costì del <persName ref="#DLCL_CF_PC0068">Signor Marchese Maffei</persName> mi hà eccitata, 
+               il confesso, invidia a chi ha avuto la sorte di trattarlo. 
+               La ringrazio del racconto. 
+               E della <orgName ref="#DLCL_CF_O0001">Libreria</orgName> che ha detto? 
+               Mi figuro non esservi stato pascolo per la sua cognizione. 
+               La mia lettera sopra i Marmi fece buona impressione nell’animo di cotesto <rs type="person">Reverendissimo.</rs> 
+               Mi son consolato nel sentire che nessuna di coteste lapidi sia stata levata di <orgName ref="#DLCL_CF_O0005">Classe.</orgName> 
+               Mi ricordo che in casa degli <rs type="person">Eredi Danesi</rs> <gap reason="illegible"/>[...] una ve n’era colle Note della Trireme. 
+               Sarebbe bene proccurar di aver le altre rimase presso i medesimi, 
+               e massimamente quella Greca, rotta, del Nipote di <persName ref="#DLCL_CF_PC0682">Isacio</persName> Esarco. 
+               Si farà onore il <rs type="person" ref="#DLCL_CF_PC0068">Signor Marchese</rs> nel correggere lo sbaglio 
+               del <persName ref="#DLCL_CF_PC0014">Rossi</persName> colla nuova scoperta del Cortice di Pascale, 
+               e col rilevare ciò, che da altri però è stato osservato, e da me non giunge nuovo, intorno la denominazione de’ Caratteri detti volgarmente Gottici, 
+               i quali per verità per nulla appartengono a quella Nazione. 
+               Se ha nuova del <persName ref="#DLCL_CF_PC0056">Signor Dottor Sancassani</persName> me la dia, e scrivendogli lo riverisca in nome mio. 
+               Non posso dilungarmi, perché sto bevendo l’acqua di <placeName ref="#DLCL_CF_L0051">Nocera.</placeName> 
+            </p>
+            
+            <closer>
+               <salute>L’abbraccio; e resto.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1719-07-21">21 luglio 1719</date></dateline>
+               <salute>DVPMR.</salute>
+               <salute>Affettuosissimo Cordialissimo Servitore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10101_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/e0ba6e8169026c478a6059e891e97d7cd7ab3c14.jpg"/>
+            
+            <pb xml:id="DLCL_CF_E10101_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/ccdf9ccc132948451866e516b64cbe80b5c89c86.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

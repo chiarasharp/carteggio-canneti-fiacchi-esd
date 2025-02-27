@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10118">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20750/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21287/full/487,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21288/full/609,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21290/full/502,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25227/full/627,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10118">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 19 Agosto 1720)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">118</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1720-08-19"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-08-29" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-18" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10118_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20750/DSC_6207.jpg"/>
+            
+            <opener>
+               <salute><persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo</persName> Carissimo</salute>
+            </opener>
+            
+            <p>
+               Strana in vero è la condotta della posta di <placeName ref="#DLCL_CF_L0002">Ravenna.</placeName>
+               Ricevo con quest’ordinario una di cotesto <rs type="person" ref="#DLCL_CF_PC0002">Reverendissimo</rs> in data del dì 14 (ch’è il corso ordinario, e legittimo) 
+               e nel tempo stesso la lettera di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> delli 7 scritta per li tre motivi. 
+               Hò pure altra del <persName ref="#DLCL_CF_PC0713">Signor Abate Busetti</persName> in data del dì 7. 
+               Altre volte ho osservato questo accidente, che arriva a ritardar fino a quindici giorni le lettere più del dovere; oltre che ancor se ne perdono per la strada.
+            </p>
+            
+            <p>
+               Or veniamo al primo punto. 
+               Sabbato ricevei la Cassettina de’ libri, nella spedizione della quale <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> è stata troppo scrupolosa, 
+               inviandola al <persName ref="#DLCL_CF_PC0112">Grossi,</persName> ch’era già morto; 
+               quando più presto, e senza spesa l’avrei ricevuta all’arrivo del <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina.</persName> 
+               Sia detto ciò colla nostra confidenza, e guardisi Ella da inquietarsi. 
+               Basta che in simili altre congiunture Ella si prenda libertà d’interpretare la volontà mia, come può credere torni meglio. 
+               Distintamente la ringrazio del libro delle <bibl type="print">Rime</bibl> di <persName ref="#DLCL_CF_PC0767">Ercole Bentivoglio.</persName> 
+               A <persName ref="#DLCL_CF_PC0313">Paolino</persName> dica che, quando ha da servire certe persone, batta più i libri: 
+               così riuscirà meglio la coperta e starà più unita al capitello; 
+               nel che usi diligenza, come anco nel tirar ben soda l’unghiatura vicina al capitello medesimo. 
+               Mandai il <bibl type="print">2° Tomo delle Vite degli Arcadi,</bibl> perché fosse uniforme la legatura del 3°. 
+               Ma, quantunque si conosca lo studio usatovi nel corpo del libro, è mancato nel margine riuscito più stretto un mezzo dito. 
+               Forse l’ 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10118_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20750/DSC_6209.jpg"/>
+            
+            <p>
+               avrà fatto, perché si conosca la diversità della mano del legatore: ma non vi era in ordine a ciò il bisogno. 
+               Somma è stata bensì la diligenza nel legare in due Tomi il <bibl type="print">Pontificale,</bibl> e bellissima è la doratura delle Carte. 
+               Non corrisponde ad essa la coperta assai povera, ben che sia stata senza risparmio la spesa. 
+               Le coperte stesse al di dentro son foderate di bella carta, fuorché nel fine del Tomo 2°, ove non vi è che la carta bianca. 
+               Dalla censura delle legature passiamo agli altri libri ordinati da mandarsi al ritorno del <persName ref="#DLCL_CF_PC0768">Padre Don Deodato Pedroni.</persName> 
+               La prego con essi inviarmi i due Tomi <bibl type="print"><foreign xml:lang="la">de Sacramentis, et censuris</foreign></bibl> 
+               del <persName ref="#DLCL_CF_PC0771">Coninch,</persName> <bibl type="print">.<foreign xml:lang="la">et Hurtado</foreign></bibl>
+            </p>
+            
+            <p>
+               Al 2°. Bisogna che si trovi la lettera del <persName ref="#DLCL_CF_PC0650">Padre Abate Gattola,</persName> per rispondere. 
+               Mi arrivò, non sò dir quando, sò ch’era un tempo simile a quel, che provo da alcuni mesi in quà, quando non posso applicare al tavolino. 
+               Mi spiacerebbe se paresse vendetta: perché io scrissi una volta al detto <rs type="person">Padre Abate</rs> (e son tre anni) 
+               gli feci più parlare in <placeName ref="#DLCL_CF_L0008">Roma</placeName> dal <persName ref="#DLCL_CF_PC0132">Reverendissimo Grandi</persName> sopra detta lettera, 
+               ricevendone promessa di risposta dopo il ritorno da <placeName ref="#DLCL_CF_L0078">MonteCassino;</placeName> 
+               né mai l’ho avuta; se pur la detta lettera non và in conto di quella risposta. 
+               Ma nulla di ciò tocchi <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> col <persName ref="#DLCL_CF_PC0640" cert="unknown">Padre Lettore Giustiniani;</persName> 
+               solo l’assicuri che scriverò quanto prima.
+            </p>
+            
+            <p>
+               Al 3°. Mi dia tempo, non avendo più io fresca la memoria de’ prezzi di libri, la qual tempo si perderà nelle dense tenebre di questo paese.
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10118_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20750/DSC_6214.jpg"/>
+            
+            <p>
+               Il nostro <persName ref="#DLCL_CF_PC0090">Don Leandro</persName> è senza febbre, e senza forze, le quali il signor Iddio gli conceda quanto prima.
+            </p>
+            
+            <p>
+               Io aspetto quel passo di <persName ref="#DLCL_CF_PC0734">Tentzelio</persName> sopra il nostro <persName ref="#DLCL_CF_PC0177">Ambrogio.</persName> 
+               Si farà la provisione delle pietre focaie. 
+            </p>
+                      
+            <closer>
+               <salute>Resto con abbracciarla caramente.</salute>
+               <salute>DVPMR.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1720-08-19">19 Agosto 1720</date></dateline>
+               <salute>Affettuosissimo Servitore e Padre Cordialissimo nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10118_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/9fa89690c85a537cc52d71f053d51b501e5847fd.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10116">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20748/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21284/full/546,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/25222/full/573,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/25223/full/519,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25224/full/610,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10116">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 17 Giugno 1720)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">116</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1720-06-17"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-08-28" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-18" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">nuova trascrizione</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10116_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20748/DSC_6201.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Venerdì mattina scrissi ch’era di quà partito colla compagnia sua il <persName ref="#DLCL_CF_PC0006">Padre Amici</persName> alcune ore avanti. 
+               Poscia il seguente giorno 15 ho ricevuto per la posta la carissima di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> delli 5; 
+               ch’è arrivata appunto otto giorni più tardi di quel che richiede il solito corso della posta; e questo disordine è stato da me osservato altre volte in questo anno. 
+               Ma tutto è forse accaduto, perche quanto più inaspettata, tanto più cara mi fosse la sorpresa del <persName ref="#DLCL_CF_PC0006">Padre Amici,</persName> 
+               il quale mi diede in voce piena contezza della vestitura seguita. 
+               Nuovamente con <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> mi rallegro della consolazione, 
+               che sono certo avrà provata pel luogo, che vi ha conseguito <persName ref="#DLCL_CF_PC0764">Don Carlo.</persName> 
+               Ho considerato attentamente il <persName ref="#DLCL_CF_PC0762">Padre Isolani,</persName> nel quale evvi molto che ammirare. 
+               Esigge amore, e stima col suo costume veramente buono, facile, savio e disinvolto. 
+               Mi rallegro con lei, e col <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina</persName> dell’applicazione 
+               a dar ordine alla <orgName ref="#DLCL_CF_O0131">Libreria</orgName> di cotesto <rs type="person" ref="#DLCL_CF_PC0762">Eminentissimo Legato.</rs> 
+               Mi rimetto a quanto scrissi l’ordinario precedente, in ordine ad altro. 
+               È uscito il primo <bibl type="print">Tomo di Luglio de’ Bollandiani.</bibl> 
+               Ora tutto il Corpo si vende in <placeName ref="#DLCL_CF_L0139">Livorno</placeName> dal <persName ref="#DLCL_CF_PC0766">Donati</persName> 200 piastre. 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10116_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/fb7e1b1004db942dd8fa19a44022fd26fda733a7.jpg"/>
+            
+            <closer>
+               <salute>Resto in fretta con un caro abbraccio confermandomi.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1720-06-17">17 Giugno 1720</date></dateline>
+               <salute>DVPMR.</salute>
+            </closer>
+            
+            <postscript>
+               <p>
+                  Nell’ordinario stesso ho lettera di <placeName ref="#DLCL_CF_L0005">Faenza</placeName> delli 12 venuta in 3 giorni
+               </p>
+            </postscript>
+            
+            <closer>
+               <salute>Affettuosissimo Servitore e Padre Cordialissimo nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10116_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/d571d1eeb47b2d7a879ba047f609b6d82be935d4.jpg"/>
+            
+            <pb xml:id="DLCL_CF_E10116_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/2dfc1995b3df20691b28dd93103f58f25f3e3e01.jpg"/>
+            
+            <postscript>
+               <p>
+                  [<bibl type="print">Messaggero al Signor Vincenzo Gonzaga</bibl> <placeName ref="#DLCL_CF_L0024">Venezia</placeName> 
+                  per <persName ref="#DLCL_CF_PC0814">Vernardo Giunti</persName> 1582 4 
+               </p>
+               
+               <p>
+                  <bibl type="print">Della virtù eroica e della Carità</bibl> ivi 4 
+               </p>
+               
+               <p>
+                  <bibl type="print">Gonzaga secondo</bibl> ivi 
+               </p>
+               
+               <p>
+                  <bibl type="print">Discorsi Poetici dell’Accademia Fiorentina in difesa di Aristotile</bibl> <placeName ref="#DLCL_CF_L0018">Fiorenza</placeName> 
+                  per l’<persName ref="#DLCL_CF_PC0815">Marescotti</persName> 1597 4. 
+               </p>
+               
+               <p>
+                  <bibl type="print">Demetrio Fallereo della locuzi[o]ne volgarizzato da Pier Segni, con le postille.</bibl> 
+                  <placeName ref="#DLCL_CF_L0018">Firenze</placeName> pe <persName ref="#DLCL_CF_PC0816">Cosimo Giunti</persName> 1603. 4]
+               </p>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

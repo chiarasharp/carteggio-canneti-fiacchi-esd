@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10132">
+    <facsimile sameAs="https://classense.unibo.it/iiif/20764/manifest">
+        <graphic n="1r" url="https://classense.unibo.it/iiif/2/21323/full/501,800/0/default.jpg"/>
+        <graphic n="1v" url="https://classense.unibo.it/iiif/2/25248/full/609,800/0/default.jpg"/>
+    </facsimile>
+    <text type="letter" xml:id="DLCL_CF_E10132">
+        <front><fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Canneti a Fiacchi (Fabriano, 23 Dicembre 1720)</title>
+                <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Carteggio Canneti Fiacchi</title>
+                <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+                <biblScope unit="letter">132</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="IT">Italia</country>
+                        <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                        <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                        <repository/>
+                        <collection/>
+                        <idno/>
+                        <altIdentifier>
+                            <idno/>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                    <date when-iso="1720-12-23"/>
+                    <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="it"/>
+            </langUsage>
+            <settingDesc>
+                <xi:include href="../../entities/places.xml"/>
+            </settingDesc>
+            <particDesc>
+                <xi:include href="../../entities/people/cited-people.xml"/>
+                <xi:include href="../../entities/people/staff.xml"/>
+                <xi:include href="../../entities/orgs.xml"/>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc status="created">
+            <change when-iso="2024-09-04" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-09-24" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-24" who="#DLCL_CF_PS001">correzioni</change>
+        </revisionDesc>
+    </front><body>
+            <div type="transcription">
+                <pb xml:id="DLCL_CF_E10132_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20764/DSC_6273.jpg"/>
+                
+                <opener>
+                    <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+                </opener>
+                
+                <p>
+                    Ricevo il foglio VI de’ libri, ed io mando annesso il IV; 
+                    oltre a due fogli dell’<bibl type="manuscript">Indice di cotesti Manoscritti</bibl> che a lei trasmisi unitamente, e in uno stesso piego. 
+                    I due libri, che si ebbero dal <persName ref="#DLCL_CF_PC0625">Padre Reggente Pugnetti Francescano,</persName> veramente sono rarissimi, e meritevoli d’ogni stima. 
+                    Dopo le feste, rivederò attentamente le note mandate, e ricevute, per determinare quali veramente si abbiano da esitare. 
+                    In questo mentre si può incamminar l’esito di quei, che non ci servono: ma avanti di stringere il contratto, averei caro riceverne distinto avviso. 
+                    Così c’intenderemo intorno a quei da collocare come migliori in <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
+                    Precisamente intorno al <persName ref="#DLCL_CF_PC0718">Genet</persName> è da avvertire se le aggiunte 
+                    nella ristampa d’<placeName ref="#DLCL_CF_L0026">Italia</placeName> rendano più stimabile questa 
+                    che l’altra di <placeName ref="#DLCL_CF_L0037">Francia</placeName> colla legatura fatta con sì grande lindura in quel Regno. 
+                    Del <persName ref="#DLCL_CF_PC0803">Nizolio,</persName> e d’altri con miglior’agio. 
+                    Mi riverisca con distinzione cotesto <rs type="person">Padre Camerlingo,</rs> e in mio nome lo ringrazi delle buone feste, 
+                    che gli riauguro con centuplicate felicità; e mi comandi. 
+                </p>
+                
+                <pb xml:id="DLCL_CF_E10132_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/1ecc00fce68e326c1e05c522452241e5e838692b.jpg"/>
+                
+                <closer>
+                    <salute>A rivederci con più agio.</salute>
+                    <salute>Resto con tutto lo spirito abbracciandola più che carissimamente, e non si lasci mai venir’il magone.</salute>
+                    <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1720-12-23">23 Dicembre 1720</date>.</dateline>
+                    <salute>DVPMR.</salute>
+                    <salute>Cordialissimo Servitore e Padre Affettuosissimo nel Signore</salute> 
+                    <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+                </closer>
+               
+            </div>
+        </body>
+    </text>
+</TEI>

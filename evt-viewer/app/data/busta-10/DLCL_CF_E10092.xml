@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10092">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20724/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21226/full/576,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/25177/full/607,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E10092">
+      <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 7 Gennaio 1719)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">92</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository/>
+                  <collection/>
+                  <idno/>
+                  <altIdentifier>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1719-01-07"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-07-17" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-16" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+      </revisionDesc>
+   </front><body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E10092_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20724/DSC_6089.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Ricevei poco avanti del Natale i <bibl type="religious">Calendari;</bibl> ora ne rendo copiose grazie a <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità.</rs> 
+               Ebbi lettera dal <rs type="person">Padre Camerlengo,</rs> che riverisca in mio nome; 
+               gli risponderò nella prossima settimana, avendo passata tutta questa in Villa appresso un <rs type="person">Cavaliere</rs> mio amico. 
+               Per servir’il medesimo, ella mi favorisca di vedere nel <bibl type="print">Tuano</bibl> l’istoria nella carta annessa descritta, notando il Tomo, 
+               il luogo preciso [To. I pag. <gap reason="illegible"/>[...]54 <gap reason="illegible"/>[...]] donde è tratta. 
+               Parmi che vi sia errore fin nel nome dello storico, scritto quì <persName>Agostino,</persName> 
+               in luogo di <persName>Augusto,</persName> che parmi sia il vero suo nome. 
+               E tutta la corregga, ovvero nella carta stessa faccia una copia migliore. 
+               Chi è quello, il quale <hi rend="underline"><foreign xml:lang="la">non eadem fortuna usus</foreign></hi>? 
+               Da ciò apprenda che in <placeName ref="#DLCL_CF_L0028">Perugia</placeName> Città 
+               per altro meglio di <placeName ref="#DLCL_CF_L0002">Ravenna</placeName> provveduta di libri, 
+               non vi è il <bibl type="print">Tuano,</bibl> come tanti altri libri, che son costì, quì restano ignoti. 
+            </p>
+            
+            <p>
+               Al Santo Altare con tutta la maggior vivezza del cuore ho riaugurato a tutti insieme, 
+               e distintamente i maggiori beni spirituali, e temporali, a tutti dico i miei Dilettissimi, e Pregiatissimi Figliuoli. 
+               Ella in nome mio li ringrazj con le più sincere mie espressioni, e me li riverisca di cuore. 
+               Tra essi vi ha egli luogo <persName ref="#DLCL_CF_PC0029">Frate Ferdinando?</persName> 
+            </p>
+            
+            <p>
+               Già parmi gli scrivessi non esservi speranza di aver più il <bibl type="print">Santo Agostino,</bibl> che per essere più antico di un anno, 
+               sarebbe stato bene costì appresso il nostro della stampa de’ Massimi. 
+               I miei cordialissimi saluti alli <persName ref="#DLCL_CF_PC0028" cert="unknown">Germani</persName> <persName ref="#DLCL_CF_PC0007">Collina.</persName> 
+               Un caro saluto a <persName ref="#DLCL_CF_PC0265">Frate Benedetto,</persName> 
+               <persName ref="#DLCL_CF_PC0344">Frate Colombano,</persName> e <persName ref="#DLCL_CF_PC0343">Frate Bartolommeo.</persName> 
+            </p>
+            
+            <closer>
+               <salute>L’abbraccio, e sono con tutto lo spirito.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> nel suburbano. <date when-iso="1719-01-07">7 Gennaio 1719</date></dateline>
+               <salute>DVPMR.</salute>
+               <salute>Cordialissimo Servitore e Affettuosissimo Figlio nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E10092_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/c1276c52f9032b335f554e31b0b5508352c5770b.jpg"/>
+            
+            <postscript>
+               <p>
+                  <foreign xml:lang="la">
+                     Carolus Cossaeus Brissanus, vir militari scientia clarus., 
+                     (Sac. Aug. Thuan. Hist. Lib. VI To. 1. pag. 185 B.) a Rege <gap reason="illegible"/>[...] subalpinam regionem cum summo imperio specie honoris allegatur.
+                  </foreign>
+               </p>
+            </postscript>
+            
+         </div>
+      </body>
+   </text>
+</TEI>
