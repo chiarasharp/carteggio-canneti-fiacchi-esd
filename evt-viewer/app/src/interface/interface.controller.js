@@ -29,6 +29,11 @@ angular.module('evtviewer.interface')
       function ($log, $timeout, $scope, evtInterface, evtTranslation, evtPinnedElements, evtButtonSwitch, evtBox, evtApparatuses, parsedData, evtSelect, evtPopover, evtCommunication, evtDialog) {
          document.body.style = 'display: block'; // Workaround per evitare glitch pre caricamento app angular
          var _console = $log.getInstance('interface');
+
+        /*  window.addEventListener('locationchange', function () {
+            _console.log('LOCATION CHANGED');
+         }); */
+         
          /**
             * @ngdoc method
             * @name evtviewer.interface.controller:InterfaceCtrl#getCurrentViewMode

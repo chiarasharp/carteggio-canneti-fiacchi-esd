@@ -13,7 +13,7 @@
 </head>
 
 <body ng-app="evtviewer" ng-controller="InterfaceCtrl" ng-keydown="handleKeydownEvent($event)" ng-click="handleGenericClick($event)" 
-	style="display: none;"><!-- // display:none => Workaround per evitare glitch pre caricamento app angular -->
+	style="display: none;"ng-strict-di><!-- // display:none => Workaround per evitare glitch pre caricamento app angular -->
 	<!--[if lt IE 7]>
 		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->

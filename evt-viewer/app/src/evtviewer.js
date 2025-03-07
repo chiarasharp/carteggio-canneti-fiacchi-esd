@@ -352,9 +352,13 @@ angular.module('evtviewer', [
 	'nemLogging',
 	'ui-leaflet',
 	'evtviewer.tdhop'
-]).config(function($sceDelegateProvider) {
+]).config(["$sceDelegateProvider", function($sceDelegateProvider) {
 	$sceDelegateProvider.resourceUrlWhitelist([
 	  'self',
 	  'https://classense.unibo.it/**'
 	]);
-  });
+  }]);
+
+  /**
+   * 
+   */
