@@ -24,6 +24,7 @@ angular.module('evtviewer.dataHandler')
 		var defPageElement = 'pb',
 			defLineBreak = '<lb>',
 			defLine = '<l>',
+			// Added support for bibliographic references (<bibl>) and indirect person
 			possibleNamedEntitiesDef = '<placeName>, <geogName>, <persName>, <orgName>, <rs>, <bibl>',
 			possibleNamedEntitiesListsDef = '<listPlace>, <listPerson>, <listOrg>, <list>, <listBibl>',
 			defImageList = 'image';
@@ -519,6 +520,17 @@ angular.module('evtviewer.dataHandler')
 			return sRegExpInput;
 		};
 
+		/**
+		 * @ngdoc method
+		 * @name evtviewer.dataHandler.evtParser#parseDateElement
+		 * @methodOf evtviewer.dataHandler.evtParser
+		 * @description
+		 * Parses TEI date elements with support for multiple date formats and attributes.
+		 * Handles from/to ranges and single dates with proper formatting and i18n support.
+		 *
+		 * @param {Element} element - The date element to parse
+		 * @returns {Element} A DOM element containing the formatted date
+		 */
 		parser.parseDateElement = function (element) {
 			const dateElement = document.createElement('span');
     		dateElement.className = 'date';
@@ -554,6 +566,9 @@ angular.module('evtviewer.dataHandler')
 			return dateElement;
 		}
 
+		/**
+		 * Utility: Formats a date string as a locale date or returns the original string if invalid.
+		 */
 		function formatDate(date) {
 			const dateObj = new Date(date);
 
@@ -564,6 +579,19 @@ angular.module('evtviewer.dataHandler')
 			return date;
 		}
 
+		/**
+		 * @ngdoc method
+		 * @name evtviewer.dataHandler.evtParser#createLabeledBlock
+		 * @methodOf evtviewer.dataHandler.evtParser
+		 * @description
+		 * Creates a standardized labeled block for metadata display.
+		 * Supports optional linking of content and consistent styling.
+		 *
+		 * @param {string} label - Translation key for the label
+		 * @param {string|Element} value - Content to display
+		 * @param {string} [link] - Optional URL for linked content
+		 * @returns {Element} A DOM element with the labeled content
+		 */
 		function createLabeledBlock(label, value, link) {
 			const blockLabel = document.createElement('span');
 			blockLabel.className = 'projectInfo-blockLabel';
@@ -754,10 +782,10 @@ angular.module('evtviewer.dataHandler')
 		 * @ngdoc method
 		 * @name evtviewer.dataHandler.evtParser#parseNamedEntity
 		 * @methodOf evtviewer.dataHandler.evtParser
-		 *
 		 * @description
 		 * This method will parse an XML element representing a named entity
-		 * and transform it into an <code>evt-named-entity-ref</code> element.
+         * and transform it into an <code>evt-named-entity-ref</code> element.
+		 * Changed: Enhanced support for bibliographic references and indirect references to people.
 		 *
 		 * @param {element} doc XML element to be parsed
 		 * @param {element} entityNode node to be transformed
@@ -1162,10 +1190,19 @@ angular.module('evtviewer.dataHandler')
 		 * @methodOf evtviewer.dataHandler.evtParser
 		 *
 		 * @description
-		 * This method will parse the documents of a given XML document
-		 * and store them in {@link evtviewer.dataHandler.parsedData parsedData} for future retrievements.
+		 * This method parses the documents of a given XML document and stores them in parsedData.
+		 * It handles different document structures:
+		 * - Text groups with nested text elements
+		 * - Single text elements
+		 * - Edition text divisions
+		 * 
+		 * The parser now implements improved handling of:
+		 * 1. Nested document structures (text groups)
+		 * 2. Document element detection and validation
+		 * 3. Prevention of duplicate parsing for nested elements
 		 *
 		 * @param {string} doc string representing the XML element to parse
+		 * @returns {Object} The parsed documents from parsedData.getDocuments()
 		 *
 		 * @author CDP
 		 * @author CM (refactoring)
@@ -1176,10 +1213,12 @@ angular.module('evtviewer.dataHandler')
 				defContentEdition = 'body',
 				defTeiHeader = 'teiHeader*';
 
+			// CHANGE: Check for both text group and individual text elements
+			// This ensures proper handling of nested document structures
 			if (currentDocument.find('text group text').length > 0 && currentDocument.find('text').length > 0) {
-				//defDocElement = 'text group text';
 				defDocElement = 'text group text' && 'text';
 			} else if (currentDocument.find('div[subtype="edition_text"]').length > 0) {
+				// Handle edition text divisions differently
 				defDocElement = 'div[subtype="edition_text"]';
 				defContentEdition = 'div';
 			}
@@ -1193,10 +1232,13 @@ angular.module('evtviewer.dataHandler')
 
 			parsedData.setCriticalEditionAvailability(currentDocument.find(config.listDef.replace(/[<>]/g, '')).length > 0);
 
+			// Process each document element, avoiding duplicate parsing of nested structures
 			angular.forEach(currentDocument.find(defDocElement),
 				function (element) {
 					var currEl = angular.element(element);
 
+					// Only parse if element doesn't contain nested groups
+					// This prevents duplicate processing of nested document structures
 					if(currEl.children('group').length === 0) { 
 						parser.parseDocument(element, doc); 
 					}
@@ -1398,49 +1440,14 @@ angular.module('evtviewer.dataHandler')
 		 * @ngdoc method
 		 * @name evtviewer.dataHandler.evtParser#parseFront
 		 * @methodOf evtviewer.dataHandler.evtParser
-		 *
 		 * @description
-		 * This method retrieves the information about the front element within the document and
-		 * the bibliographic references in particular, storing all the info in a property within the
-		 * document object that will be saved in parsedData.
+		 * Parses the front matter of a TEI document, extracting metadata about the correspondence.
+		 * Coordinates multiple specialized parsers for different sections of the front matter.
 		 *
-		 * @param {object} newDoc the JSON object with all the info about the parsed document
-		 * @param {element} element the front element within the XML document
-		 *
-		 * @author CM
+		 * @param {Object} newDoc - The document object being built
+		 * @param {Element} element - The XML element containing the front matter
+		 * @returns {void} Updates the newDoc object with parsed front matter
 		 */
-		/*parser.parseFront = function (newDoc, element) {
-			var frontDef = '<front>',
-				biblDef = '<biblStruct>';
-
-			var docFront = element.querySelectorAll(frontDef.replace(/[<\/>]/ig, ''));
-			
-			if (docFront && docFront[0]) {
-				var frontElem = docFront[0].cloneNode(true),
-					biblRefs = frontElem.querySelectorAll(biblDef.replace(/[<\/>]/ig, ''));
-				if (biblRefs) {
-					for (var i = biblRefs.length - 1; i >= 0; i--) {
-						var evtBiblElem = document.createElement('evt-bibl-elem'),
-							biblElem = biblRefs[i],
-							biblId = biblElem.getAttribute('xml:id') || parser.xpath(biblElem).substr(1);
-
-						evtBiblElem.setAttribute('data-bibl-id', biblId);
-						biblElem.parentNode.replaceChild(evtBiblElem, biblElem);
-					}
-				}
-
-				var parsedContent = parser.parseXMLElement(element, frontElem, {
-					skip: biblDef + '<evt-bibl-elem>'
-				}),
-					frontAttributes = parser.parseElementAttributes(frontElem);
-				newDoc.front = {
-					attributes: frontAttributes,
-					parsedContent: parsedContent && parsedContent.outerHTML ? parsedContent.outerHTML.trim() : '',
-					originalContent: frontElem.outerHTML
-				};
-			}
-		}*/
-
 		parser.parseFront = function(newDoc, element) {
 			var docFront = element.querySelectorAll(frontDef.replace(/[<\/>]/ig, ''));
 			
@@ -1464,6 +1471,18 @@ angular.module('evtviewer.dataHandler')
 			}
 		};
 
+		/**
+		 * @ngdoc method
+		 * @name evtviewer.dataHandler.evtParser#parseFileDesc
+		 * @methodOf evtviewer.dataHandler.evtParser
+		 * @description
+		 * Parses the fileDesc element of a TEI document, consolidating title, series, and source information.
+		 * Now returns a DOM element instead of HTML string for better manipulation and consistency.
+		 * Coordinates multiple specialized parsers for different sections of the file description.
+		 *
+		 * @param {Element} front - The front matter element containing the file description
+		 * @returns {Element} DOM element containing the structured file description
+		 */
 		parser.parseFileDesc = function(front) {
 
 			const fileDescDiv = document.createElement('div');
@@ -1480,6 +1499,17 @@ angular.module('evtviewer.dataHandler')
 			return fileDescDiv;
 		};
 
+		/**
+		 * @ngdoc method
+		 * @name evtviewer.dataHandler.evtParser#parseProfileDesc
+		 * @methodOf evtviewer.dataHandler.evtParser
+		 * @description
+		 * Processes profile description metadata including correspondence and language information.
+		 * Creates a structured DOM hierarchy for profile-related content.
+		 *
+		 * @param {Element} front - The front matter element containing profile descriptions
+		 * @returns {Element} A DOM element containing the parsed profile information
+		 */
 		parser.parseProfileDesc = function(front) {
 
 			const profileDescDiv = document.createElement('div');
@@ -1500,7 +1530,14 @@ angular.module('evtviewer.dataHandler')
 		};
 
 		/**
-		 * Parse the title statement section 
+		 * @ngdoc method
+		 * @name evtviewer.dataHandler.evtParser#parseTitleStatement
+		 * @methodOf evtviewer.dataHandler.evtParser
+		 * @description
+		 * Extracts and formats the title and author information from the title statement.
+		 *
+		 * @param {Element} front - The front matter element containing the title statement
+		 * @returns {string} HTML string containing formatted title and team information
 		 */
 		parser.parseTitleStatement = function(front) {
 			var currentElement = angular.element(front);
@@ -1622,7 +1659,14 @@ angular.module('evtviewer.dataHandler')
 		}
 
 		/**
-		 * Parse the series statement section
+		 * @ngdoc method
+		 * @name evtviewer.dataHandler.evtParser#parseSeriesStatement
+		 * @methodOf evtviewer.dataHandler.evtParser
+		 * @description
+		 * Processes series-related metadata including main title, subseries, and unit information.
+		 *
+		 * @param {Element} front - The front matter element
+		 * @returns {string} HTML string containing formatted series information
 		 */
 		parser.parseSeriesStatement = function(front) {
 			var currentElement = angular.element(front);
@@ -1659,7 +1703,14 @@ angular.module('evtviewer.dataHandler')
 		};
 
 		/**
-		 * Parse the source description section 
+		 * @ngdoc method
+		 * @name evtviewer.dataHandler.evtParser#parseSourceDescription
+		 * @methodOf evtviewer.dataHandler.evtParser
+		 * @description
+		 * Extracts and formats source location information including country, settlement, and institution.
+		 *
+		 * @param {Element} front - The front matter element
+		 * @returns {string} HTML string containing formatted source description
 		 */
 		parser.parseSourceDescription = function(front) {
 			var currentElement = angular.element(front);
@@ -1706,7 +1757,15 @@ angular.module('evtviewer.dataHandler')
 		};
 
 		/**
-		 * Parse the correspondence description and label sender and receiver
+		 * @ngdoc method
+		 * @name evtviewer.dataHandler.evtParser#parseCorrespondenceDescription
+		 * @methodOf evtviewer.dataHandler.evtParser
+		 * @description
+		 * Processes correspondence metadata including sender, receiver, and associated dates.
+		 * Handles multiple date formats including single dates and date ranges.
+		 *
+		 * @param {Element} front - The front matter element
+		 * @returns {Element|null} DOM element containing correspondence info, or null if none found
 		 */
 		parser.parseCorrespondenceDescription = function(front) {
 			var currentElement = angular.element(front);
@@ -1763,6 +1822,16 @@ angular.module('evtviewer.dataHandler')
 			return correspDescDiv;
 		};
 
+		/**
+		 * @ngdoc method
+		 * @name evtviewer.dataHandler.evtParser#parseLanguages
+		 * @methodOf evtviewer.dataHandler.evtParser
+		 * @description
+		 * Processes language usage information from the document.
+		 *
+		 * @param {Element} front - The front matter element
+		 * @returns {Element} DOM element containing formatted language information
+		 */
 		parser.parseLanguages = function(front) {
 			var currentElement = angular.element(front);
 			var langUsageElements = currentElement.find(languageInfo.replace(/[<>]/g, ''));
@@ -1806,7 +1875,14 @@ angular.module('evtviewer.dataHandler')
 		};	
 
 		/**
-		 * Parse the revision history section
+		 * @ngdoc method
+		 * @name evtviewer.dataHandler.evtParser#parseRevisionHistory
+		 * @methodOf evtviewer.dataHandler.evtParser
+		 * @description
+		 * Extracts and formats the revision history of the document.
+		 *
+		 * @param {Element} front - The front matter element
+		 * @returns {Element} DOM element containing the formatted revision history
 		 */
 		parser.parseRevisionHistory = function(front) {
 			var currentElement = angular.element(front);

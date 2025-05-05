@@ -81,9 +81,8 @@ angular.module('evtviewer.dataHandler')
     };
     /**
      * @ngdoc method
-     * @name evtviewer.dataHandler.evtProjectInfoParser#parseFileDescription
-     * @methodOf evtviewer.dataHandler.evtProjectInfoParser
-     *
+     * @name evtviewer.dataHandler.projectInfoParser#parseFileDescription
+     * @methodOf evtviewer.dataHandler.projectInfoParser
      * @description
      * This method will parse references about the file description
      * and store them into {@link evtviewer.dataHandler.parsedData parsedData} for future retrievements.
@@ -92,9 +91,9 @@ angular.module('evtviewer.dataHandler')
      * or which a librarian or archivist could use in creating a catalogue entry
      * recording its presence within a library or archive.
      *
-     * @param {element} teiHeader XML element representing the TEI Header to be parsed
-     *
-     * @author CDP
+     * @param {Element} teiHeader - The TEI header element containing file descriptions
+     * 
+     *  @author CDP, CM
      */
     parser.parseFileDescription = function(teiHeader){
         var currentDocument = angular.element(teiHeader);
@@ -122,7 +121,7 @@ angular.module('evtviewer.dataHandler')
      *
      * @param {element} teiHeader XML element representing the TEI Header to be parsed
      *
-     * @author CDP
+     * @author CDP, CM
      */
     parser.parseEncodingDescription = function(teiHeader){
         var currentDocument = angular.element(teiHeader);
@@ -165,9 +164,8 @@ angular.module('evtviewer.dataHandler')
     }
     /**
      * @ngdoc method
-     * @name evtviewer.dataHandler.evtProjectInfoParser#parseTextProfile
-     * @methodOf evtviewer.dataHandler.evtProjectInfoParser
-     *
+     * @name evtviewer.dataHandler.projectInfoParser#parseTextProfile
+     * @methodOf evtviewer.dataHandler.projectInfoParser
      * @description
      * This method will parse references about the text profile
      * and store them into {@link evtviewer.dataHandler.parsedData parsedData} for future retrievements.
@@ -175,9 +173,9 @@ angular.module('evtviewer.dataHandler')
      * such as its subject matter, the situation in which it was produced,
      * the individuals described by or participating in producing it, and so forth.
      *
-     * @param {element} teiHeader XML element representing the TEI Header to be parsed
-     *
-     * @author CDP
+     * @param {Element} teiHeader - The TEI header element containing text profiles
+     * 
+     * @author CDP, CM
      */
     parser.parseTextProfile = function(teiHeader){
         var currentDocument = angular.element(teiHeader);
@@ -219,18 +217,17 @@ angular.module('evtviewer.dataHandler')
     };
     /**
      * @ngdoc method
-     * @name evtviewer.dataHandler.evtProjectInfoParser#parseRevisionHistory
-     * @methodOf evtviewer.dataHandler.evtProjectInfoParser
-     *
+     * @name evtviewer.dataHandler.projectInfoParser#parseRevisionHistory
+     * @methodOf evtviewer.dataHandler.projectInfoParser
      * @description
      * This method will parse references about the revision history
      * and store them into {@link evtviewer.dataHandler.parsedData parsedData} for future retrievements.
      * The revision history allows the encoder to provide a history of changes made
      * during the development of the electronic text.
      *
-     * @param {element} teiHeader XML element representing the TEI Header to be parsed
-     *
-     * @author CDP
+     * @param {Element} teiHeader - The TEI header element containing revision history
+     * 
+     * @author CDP, CM
      */
     parser.parseRevisionHistory = function(teiHeader){
         var currentDocument = angular.element(teiHeader);
