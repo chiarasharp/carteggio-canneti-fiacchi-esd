@@ -1282,6 +1282,12 @@ angular.module('evtviewer.dataHandler')
 				}
 			}
 
+			// Add the origin directory to the newDoc object
+			var originDirectory = element.getAttribute('data-origin-directory');
+			if (originDirectory) {
+				newDoc.originDirectory = originDirectory;
+			}
+
 			if (newDoc['xml-id'] === undefined) {
 				parser.createTitle(newDoc, 'Doc');
 			}

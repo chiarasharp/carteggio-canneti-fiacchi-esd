@@ -269,7 +269,10 @@
 		"SEE_FULL_TEXT": "See full text",
 		"SELECT_ALL": "Select All",
 		"SELECT_ALL_NAMED_ENTITIES": "Select All Named Entities",
-		"SELECT_ALL_TYPES": "Select All Types"
+		"SELECT_ALL_TYPES": "Select All Types",
+		"ALL_DIRECTORIES": "All Envelopes",
+		"SHOW_ALL_DOCUMENTS": "Show documents from all directories",
+		"SHOW_DOCUMENTS_FROM": "Show documents from {{directory}}"
 	},
 	"SOURCES": {
 		"BIBLIOGRAPHIC_REFERENCE": "Bibliographic Reference",

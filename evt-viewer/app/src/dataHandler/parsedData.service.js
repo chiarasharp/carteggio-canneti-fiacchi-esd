@@ -205,6 +205,28 @@ angular.module('evtviewer.dataHandler')
 		};
 
 		/**
+		 * @ngdoc method
+		 * @name evtviewer.dataHandler.parsedData#getUniqueOriginDirectories
+		 * @methodOf evtviewer.dataHandler.parsedData
+		 *
+		 * @description
+		 * Get a list of unique origin directories from the parsed documents.
+		 *
+		 * @returns {Array<string>} An array of unique directory paths.
+		 */
+		parsedData.getUniqueOriginDirectories = function() {
+			var directories = new Set();
+			for (var i = 0; i < documentsCollection._indexes.length; i++) {
+				var docId = documentsCollection._indexes[i];
+				var document = documentsCollection[docId];
+				if (document.originDirectory) {
+					directories.add(document.originDirectory);
+				}
+			}
+			return Array.from(directories);
+		};
+
+		/**
 		 * @ngdoc property
 		 * @name evtviewer.dataHandler.parsedData#externalDocsCollection
 		 * @propertyOf evtviewer.dataHandler.parsedData

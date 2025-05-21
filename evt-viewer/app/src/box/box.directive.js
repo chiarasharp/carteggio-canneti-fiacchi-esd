@@ -205,7 +205,15 @@ angular.module('evtviewer.box')
                         //     }
                         // }, true);
                     }
+
                     displayResult(scope, config.xsltUrl);
+                });
+
+                // Listen for the event broadcast when the document list is filtered by directory
+                scope.$on('evt-select:document-filtered', function() {
+                    if (currentBox.type === 'text') {
+                        currentBox.updateContent();
+                    }
                 });
 
                 /* ****************** */

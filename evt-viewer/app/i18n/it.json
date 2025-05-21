@@ -270,7 +270,10 @@
 		"SEE_FULL_TEXT": "Visualizza il testo intero",
 		"SELECT_ALL": "Seleziona Tutto",
 		"SELECT_ALL_NAMED_ENTITIES": "Seleziona Tutte le Named Entities",
-		"SELECT_ALL_TYPES": "Seleziona tutte le tipologie"
+		"SELECT_ALL_TYPES": "Seleziona tutte le tipologie",
+		"ALL_DIRECTORIES": "Tutte le Buste",
+		"SHOW_ALL_DOCUMENTS": "Mostra documenti da tutte le directory",
+		"SHOW_DOCUMENTS_FROM": "Mostra documenti da {{directory}}"
 	},
 	"SOURCES": {
 		"BIBLIOGRAPHIC_REFERENCE": "Riferimento Bibliografico",

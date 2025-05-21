@@ -663,6 +663,13 @@ angular.module('evtviewer.box')
 							};
 							break;
 						case 'text':
+							// Add configuration for the new directory selector
+							topMenuList.selectors.push({
+								id: 'directory_selector',
+								type: 'directory',
+								initValue: '' // Or a default value if needed
+							});
+
 							if (currentId === 'mainText' || currentId === 'mainText1') {
 								bottomMenuList.buttons.push({
 									title: 'Search',

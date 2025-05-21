@@ -341,6 +341,14 @@ angular.module('evtviewer.dataHandler')
                                 includedTextElem = includedDoc.documentElement;
                             }                 
                         }
+                        
+                        // Extract the directory from the fileUrl and add it as a data attribute
+                        var href = element.getAttribute('href');
+                        var originDirectory = href.substring(0, href.lastIndexOf('/'));
+                        if (includedTextElem && includedTextElem.setAttribute) {
+                             includedTextElem.setAttribute('data-origin-directory', originDirectory);
+                        }
+                        
                         element.parentNode.replaceChild(includedTextElem, element);
                         if (includedFilesLoaded === totFilesToInclude) {
                             deferred.resolve('success');
