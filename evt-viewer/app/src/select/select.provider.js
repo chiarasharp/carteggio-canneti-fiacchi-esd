@@ -235,25 +235,42 @@ angular.module('evtviewer.select')
 						callback = function(oldOption, newOption) {
 							if (newOption !== undefined) {
 								vm.selectOption(newOption);
-								var currentDocument = evtInterface.getState('currentDoc');
 								evtInterface.updateState('currentPage', newOption.value);
-								if (newOption.docs.length > 0 && newOption.docs.indexOf(currentDocument) < 0) { // The page is not part of the document
-									evtInterface.updateState('currentDoc', newOption.docs[0]);
-								}
 								evtInterface.updateUrl();
 							}
 						};
 						formatOptionList = function(optionList) {
-							var formattedList = []; 
+							var formattedList = [];
+							var currentDocument = evtInterface.getState('currentDoc');
 							// TODO: Handle duplicates ('_orig', '_reg')
 							for (var i = 0; i < optionList.length; i++) {
-								formattedList.push(optionList[optionList[i]]);
+								var page = optionList[optionList[i]];
+								// Filter pages by currentDocument
+								if (!currentDocument || (page.docs && page.docs.indexOf(currentDocument) > -1)) {
+									formattedList.push(page);
+								}
 							}
 							return formattedList;
 						};
 						formatOption = function(option) {
 							return option;
 						};
+
+						// Watch for changes in the currentDoc state and update page options
+						scope.$watch(function() {
+							return evtInterface.getState('currentDoc');
+						}, function(newDoc, oldDoc) {
+							if (newDoc !== oldDoc) {
+								vm.optionList = formatOptionList(parsedData.getPages());
+								// Select the first page of the new document if available
+								if (vm.optionList.length > 0) {
+									vm.selectOption(vm.optionList[0]);
+									evtInterface.updateState('currentPage', vm.optionList[0].value);
+									evtInterface.updateUrl();
+								}
+							}
+						});
+
 						optionList = formatOptionList(parsedData.getPages());
 						break;
 					case 'document':
