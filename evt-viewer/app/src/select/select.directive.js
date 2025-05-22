@@ -155,6 +155,16 @@ angular.module('evtviewer.select')
                 }, true);
             }
 
+            if (scope.type === 'directory') {
+                scope.$watch(function() {
+                    return evtInterface.getState('currentDirectoryFilter');
+                }, function(newItem, oldItem) {
+                    if (oldItem !== newItem) {
+                        currentSelect.selectOptionByValue(newItem);
+                    }
+                }, true);
+            }
+
             if (scope.type === 'div') {
                 scope.$watch(function() {
                     var currentDoc = evtInterface.getState('currentDoc');

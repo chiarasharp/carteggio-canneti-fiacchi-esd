@@ -25,14 +25,24 @@
 **/
 angular.module('evtviewer.interface')
 
-   .controller('InterfaceCtrl', ['$log', '$timeout', '$scope', 'evtInterface', 'evtTranslation', 'evtPinnedElements', 'evtButtonSwitch', 'evtBox', 'evtApparatuses', 'parsedData', 'evtSelect', 'evtPopover', 'evtCommunication', 'evtDialog',
-      function ($log, $timeout, $scope, evtInterface, evtTranslation, evtPinnedElements, evtButtonSwitch, evtBox, evtApparatuses, parsedData, evtSelect, evtPopover, evtCommunication, evtDialog) {
+   .controller('InterfaceCtrl', ['$log', '$timeout', '$scope', 'evtInterface', 'evtTranslation', 'evtPinnedElements', 'evtButtonSwitch', 'evtBox', 'evtApparatuses', 'parsedData', 'evtSelect', 'evtPopover', 'evtCommunication', 'evtDialog', '$routeParams', '$location',
+      function ($log, $timeout, $scope, evtInterface, evtTranslation, evtPinnedElements, evtButtonSwitch, evtBox, evtApparatuses, parsedData, evtSelect, evtPopover, evtCommunication, evtDialog, $routeParams, $location) {
          document.body.style = 'display: block'; // Workaround per evitare glitch pre caricamento app angular
          var _console = $log.getInstance('interface');
 
-        /*  window.addEventListener('locationchange', function () {
-            _console.log('LOCATION CHANGED');
-         }); */
+         // Listen for URL changes triggered manually or by non-Angular means
+         var locationChangeSuccessUnregister = $scope.$on('$locationChangeSuccess', function() {
+             // _console.log('$locationChangeSuccess event'); // Log location change event
+             // Get parameters directly from $location.search()
+             var currentParams = $location.search();
+             // _console.log('$location.search() params:', currentParams); // Log parameters from $location.search()
+             evtInterface.updateParams(currentParams, true); // Pass true for isUrlChange
+         });
+
+         // Clean up the event listener when the scope is destroyed
+         $scope.$on('$destroy', function() {
+             locationChangeSuccessUnregister();
+         });
          
          /**
             * @ngdoc method
