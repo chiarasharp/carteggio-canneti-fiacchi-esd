@@ -1,13 +1,21 @@
 angular.module('evtviewer.search')
-   .controller('SearchResultsCtrl', ['$q', '$scope', '$location', '$anchorScroll', 'evtSearchResults', 'evtSearchBox', 'evtInterface', 'Utils',
-      function ($q, $scope, $location, $anchorScroll, evtSearchResults, evtSearchBox, evtInterface, Utils) {
+   .controller('SearchResultsCtrl', ['$q', '$scope', '$location', '$anchorScroll', 'evtSearchResults', 'evtSearchBox', 'evtInterface', 'Utils', '$rootScope', 'evtSearchResult',
+      function ($q, $scope, $location, $anchorScroll, evtSearchResults, evtSearchBox, evtInterface, Utils, $rootScope, evtSearchResult) {
          var vm = this;
+         
+         var instanceId = Math.random().toString(36).substr(2, 9);
+         console.log('[DEBUG] SearchResultsCtrl instance created:', instanceId);
          
          vm.currentEdition = evtInterface.getState('currentEdition');
          vm.currentEditionResults = [];
          vm.visibleRes = [];
          vm.placeholder = '';
          vm.currentLineId = '';
+         
+         vm.instanceId = instanceId;
+         
+         vm.currentHighlightIndex = 0;
+         vm.totalHighlights = 0;
          
          vm.getResultsNumber = function () {
             var results = vm.currentEditionResults,
@@ -111,4 +119,56 @@ angular.module('evtviewer.search')
             $anchorScroll();
          };
          
+         $rootScope.$on('search:results', function(event, data) {
+            console.log('[DEBUG] SearchResultsCtrl received search:results', data);
+            vm.searchedTerm = data.term;
+            vm.currentEditionResults = data.results;
+            vm.visibleRes = data.results.slice(0, 20);
+         });
+         
+         $rootScope.$on('search:highlightResults', function(event, data) {
+            $scope.$applyAsync(function() {
+               console.log('[DEBUG] SearchResultsCtrl', instanceId, 'received search:highlightResults', data);
+               vm.searchedTerm = data.term;
+               vm.currentEditionResults = data.results;
+               vm.visibleRes = data.results.slice(0, 20);
+            });
+         });
+         
+         vm.goToPrevHighlight = function() {
+            if (vm.totalHighlights === 0) return;
+            vm.currentHighlightIndex = (vm.currentHighlightIndex - 1 + vm.totalHighlights) % vm.totalHighlights;
+            vm.scrollToCurrentHighlight();
+         };
+
+         vm.goToNextHighlight = function() {
+            if (vm.totalHighlights === 0) return;
+            vm.currentHighlightIndex = (vm.currentHighlightIndex + 1) % vm.totalHighlights;
+            vm.scrollToCurrentHighlight();
+         };
+
+         vm.scrollToCurrentHighlight = function() {
+            var highlights = document.querySelectorAll('#mainText mark');
+            highlights.forEach(function(el) { el.classList.remove('current-highlight'); });
+            var current = highlights[vm.currentHighlightIndex];
+            if (current) {
+               current.classList.add('current-highlight');
+               current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+         };
+         
+         $rootScope.$on('search:resultsUpdated', function(event, data) {
+            $scope.$applyAsync(function() {
+               var boxId = data.boxId;
+               var res = evtSearchResult.getVisibleRes(boxId) || [];
+               $rootScope.visibleRes = res;
+               vm.visibleRes = res;
+               vm.currentEditionResults = vm.visibleRes;
+               vm.totalHighlights = res.length;
+               vm.currentHighlightIndex = res.length > 0 ? 0 : -1;
+               if (res.length > 0) {
+                  setTimeout(vm.scrollToCurrentHighlight, 0);
+               }
+            });
+         });
       }]);

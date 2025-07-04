@@ -56,11 +56,8 @@ angular.module('evtviewer.search')
       };
       
       vm.doSearchCallback = function () {
-         for(var i in searchBtn) {
-            if(searchBtn[i].parentId === vm.parentBoxId) {
-               searchBtn[i].btn.doCallback();
-            }
-         }
+         // Only trigger highlight, do not open any results panel
+         vm.highlightSearchResults(vm.parentBoxId, vm.searchInput);
       };
       
       vm.getBtnLimit = function() {

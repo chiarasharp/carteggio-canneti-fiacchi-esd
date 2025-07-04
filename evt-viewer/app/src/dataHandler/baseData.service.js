@@ -25,8 +25,8 @@
 **/
 angular.module('evtviewer.dataHandler')
 
-.service('baseData', ['$log', '$q', '$http', 'config', 'xmlParser', 'evtParser', 'evtCriticalApparatusParser', 'evtSourcesParser', 'evtProjectInfoParser', 'evtPrimarySourcesParser', 'evtAnaloguesParser', 'evtDialog', 'evtBibliographyParser', 'evtNamedEntitiesParser', 'evtHotSpotParser', 'parsedData',
-    function($log, $q, $http, config, xmlParser, evtParser, evtCriticalApparatusParser, evtSourcesParser, evtProjectInfoParser, evtPrimarySourcesParser, evtAnaloguesParser, evtDialog, evtBibliographyParser, evtNamedEntitiesParser, evtHotSpotParser, parsedData) {
+.service('baseData', ['$log', '$q', '$http', 'config', 'xmlParser', 'evtParser', 'evtCriticalApparatusParser', 'evtSourcesParser', 'evtProjectInfoParser', 'evtPrimarySourcesParser', 'evtAnaloguesParser', 'evtDialog', 'evtBibliographyParser', 'evtNamedEntitiesParser', 'evtHotSpotParser', 'parsedData', 'evtSearch',
+    function($log, $q, $http, config, xmlParser, evtParser, evtCriticalApparatusParser, evtSourcesParser, evtProjectInfoParser, evtPrimarySourcesParser, evtAnaloguesParser, evtDialog, evtBibliographyParser, evtNamedEntitiesParser, evtHotSpotParser, parsedData, evtSearch) {
     var baseData     = {},
         state        = {
             XMLDocuments: [],
@@ -296,7 +296,7 @@ angular.module('evtviewer.dataHandler')
        }
 
        // Init Search
-       //evtSearch.initSearch(docElements);
+       evtSearch.initSearch(docElements);
     };
 
     /**

@@ -1,7 +1,6 @@
 angular.module('evtviewer.search')
    .constant('SEARCHBOXDEFAULTS', {
       diplomaticSearchBoxBtn: {
-         showResults: {title: 'Show results', label: '', icon: 'search-results-show', type: 'searchResultsShow'},
          hideResults: {title: 'Hide results', label: '', icon: 'search-results-hide', type: 'searchResultsHide', hide: true},
          virtualKeyboard: {title: 'Virtual keyboard', label: '', icon: 'keyboard', type: 'searchVirtualKeyboard'},
          caseSensitive: {title: 'Case sensitive', label: '', icon: 'case-sensitive', type: 'searchCaseSensitive'},
@@ -12,7 +11,6 @@ angular.module('evtviewer.search')
          search: {title: 'Search', label: '', icon: 'search', type: 'search'}
       },
       interpretativeSearchBoxBtn: {
-         showResults: {title: 'Show results', label: '', icon: 'search-results-show', type: 'searchResultsShow'},
          hideResults: {title: 'Hide results', label: '', icon: 'search-results-hide', type: 'searchResultsHide', hide: true},
          virtualKeyboard: {title: 'Virtual keyboard', label: '', icon: 'keyboard', type: 'searchVirtualKeyboard'},
          caseSensitive: {title: 'Case sensitive', label: '', icon: 'case-sensitive', type: 'searchCaseSensitive'},

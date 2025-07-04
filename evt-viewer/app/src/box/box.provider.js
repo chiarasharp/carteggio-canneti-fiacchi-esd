@@ -683,15 +683,6 @@ angular.module('evtviewer.box')
 										return true;
 									}
 								});
-								bottomMenuList.buttons.push({
-									title: 'Create index for enable search',
-									label: 'Create index',
-									icon: '',
-									type: 'searchIndex',
-									show: function () {
-										return true;
-									}
-								});
 							}
 							else {
 								bottomMenuList.buttons.push({

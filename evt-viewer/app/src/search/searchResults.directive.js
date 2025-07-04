@@ -4,11 +4,12 @@ angular.module('evtviewer.search')
    return {
       restrict: 'E',
       template: require('./searchResults.directive.tmpl.html'),
-      replace     : true,
       controllerAs: 'vm',
       controller: 'SearchResultsCtrl',
       link: function(scope) {
          evtSearchResult.build(scope, scope.vm);
+         // Expose the controller instance for navigation arrows
+         scope.$parent.searchResults = scope.vm;
          
          scope.$watch(function() {
             return evtInterface.getState('currentEdition');

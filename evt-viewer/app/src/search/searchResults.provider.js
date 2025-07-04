@@ -26,6 +26,10 @@ angular.module('evtviewer.search')
            searchResultCollection[parentBoxId].currentEditionResults = value;
         };
         
+        searchResult.getVisibleRes = function(parentBoxId) {
+            return searchResultCollection[parentBoxId] && searchResultCollection[parentBoxId].visibleRes;
+        };
+        
         return searchResult;
       };
    });
