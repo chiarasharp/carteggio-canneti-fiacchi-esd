@@ -4,7 +4,6 @@ angular.module('evtviewer.search')
          var vm = this;
          
          var instanceId = Math.random().toString(36).substr(2, 9);
-         console.log('[DEBUG] SearchResultsCtrl instance created:', instanceId);
          
          vm.currentEdition = evtInterface.getState('currentEdition');
          vm.currentEditionResults = [];
@@ -120,7 +119,6 @@ angular.module('evtviewer.search')
          };
          
          $rootScope.$on('search:results', function(event, data) {
-            console.log('[DEBUG] SearchResultsCtrl received search:results', data);
             vm.searchedTerm = data.term;
             vm.currentEditionResults = data.results;
             vm.visibleRes = data.results.slice(0, 20);
@@ -128,7 +126,6 @@ angular.module('evtviewer.search')
          
          $rootScope.$on('search:highlightResults', function(event, data) {
             $scope.$applyAsync(function() {
-               console.log('[DEBUG] SearchResultsCtrl', instanceId, 'received search:highlightResults', data);
                vm.searchedTerm = data.term;
                vm.currentEditionResults = data.results;
                vm.visibleRes = data.results.slice(0, 20);

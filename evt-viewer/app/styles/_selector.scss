@@ -186,3 +186,89 @@ $selector-smaller-height: 18;
         }
     }
 }
+
+.sticky-option {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 2;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+}
+
+.selector[data-parent*="namedEntities"] {
+    font-size: 1.25em;
+    min-width: 270px;
+}
+.selector[data-parent*="namedEntities"] .label_selected {
+    padding: 12px 22px;
+    min-height: 44px;
+    font-size: 1.18em;
+}
+.selector[data-parent*="namedEntities"] .option_container {
+    max-height: 400px;
+    min-width: 270px;
+    overflow-y: auto;
+}
+.selector[data-parent*="namedEntities"] .option {
+    padding: 12px 18px;
+    min-height: 36px;
+    font-size: 1.13em;
+}
+.selector[data-parent*="namedEntities"] .sticky-option {
+    top: 0;
+    z-index: 3;
+}
+
+.selector[data-type="named-entities"] {
+    font-size: 1.25em;
+    min-width: 270px !important;
+    width: 270px !important;
+    min-height: 44px;
+    white-space: nowrap !important;
+}
+.selector[data-type="named-entities"] .label_selected {
+    padding: 12px 22px;
+    min-height: 44px;
+    font-size: 1.18em;
+    min-width: 270px !important;
+    width: 270px !important;
+    display: flex;
+    align-items: center;
+    white-space: nowrap !important;
+}
+.selector[data-type="named-entities"] .option_container {
+    max-height: 400px;
+    min-width: 270px;
+    overflow-y: auto;
+}
+.selector[data-type="named-entities"] .option {
+    padding: 12px 18px;
+    min-height: 36px;
+    font-size: 1.13em;
+}
+.selector[data-type="named-entities"] .sticky-option {
+    top: 0;
+    z-index: 3;
+}
+
+/* === FORCE NAMED ENTITIES SELECTOR WIDTH (evt-select and .selector) === */
+evt-select[data-type="named-entities"],
+evt-select[data-type="named-entities"] > .selector,
+.selector[data-type="named-entities"] {
+    min-width: 12em !important;
+    width: auto !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    display: block !important;
+    flex: none !important;
+}
+.selector[data-type="named-entities"] .label_selected {
+    min-width: 12em !important;
+    width: auto !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    display: flex !important;
+    align-items: center;
+    white-space: nowrap !important;
+}

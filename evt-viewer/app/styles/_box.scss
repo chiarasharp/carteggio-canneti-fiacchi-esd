@@ -26,6 +26,10 @@
             align-items: center;
             border-radius: 0 0 2px 2px;
         }
+
+        &[data-position='bottom'] > *:not(:last-child) {
+            margin-right: 1em;
+        }
     }
 
     .box-body {

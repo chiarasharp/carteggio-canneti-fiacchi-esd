@@ -866,7 +866,6 @@ angular.module('evtviewer.buttonSwitch')
 									var searchResults = evtSearchResults.getSearchResults(searchInput, evtSearchBox.getStatus(parentBoxId, 'searchCaseSensitive'), evtSearchBox.getStatus(parentBoxId, 'searchExactWord'));
 									var currentEditionResults = evtSearchResults.getCurrentEditionResults(searchResults, currentEdition);
 									var eventData = { term: searchInput, results: currentEditionResults };
-									console.log('[DEBUG] Broadcasting search:results', eventData);
 									scope.$root.$broadcast('search:results', eventData);
 								}
 							};

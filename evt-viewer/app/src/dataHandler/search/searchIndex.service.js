@@ -5,7 +5,6 @@ angular.module('evtviewer.dataHandler')
       this.index = {};
 
       Index.prototype.createIndex = function (parsedElementsForIndexing) {
-         console.log('[DEBUG] createIndex called. Number of documents:', Object.keys(parsedElementsForIndexing).length);
          console.time('INDEX TIME');
 
          var document;

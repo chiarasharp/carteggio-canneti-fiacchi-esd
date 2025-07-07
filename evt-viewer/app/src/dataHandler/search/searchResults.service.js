@@ -357,7 +357,6 @@ angular.module('evtviewer.dataHandler')
                if (window.angular) {
                   var injector = window.angular.element(document.body).injector();
                   var evtSearchResult = injector.get('evtSearchResult');
-                  console.log('[DEBUG] Storing results in evtSearchResult for boxId:', mainBoxId, results);
                   evtSearchResult.setVisibleRes(mainBoxId, results);
                }
                // Broadcast event
