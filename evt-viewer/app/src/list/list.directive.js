@@ -46,7 +46,59 @@ angular.module('evtviewer.list')
                 listType: scope.listType
             };
             var currentList = evtList.build(scope.listId, scope);
-            
+
+            // Pagination logic for named entities list
+            var NAMED_ENTITIES_LIST_TYPES = ['person', 'place', 'org', 'generic'];
+            scope.vm.isNamedEntitiesList = NAMED_ENTITIES_LIST_TYPES.includes(scope.vm.listType);
+            scope.vm.pageSize = 20;
+            scope.vm.currentPage = 1;
+            scope.vm.totalPages = 1;
+
+            function updatePagination() {
+                if (!scope.vm.isNamedEntitiesList) return;
+                var total = currentList.elementsInListKey ? currentList.elementsInListKey.length : 0;
+                scope.vm.totalPages = Math.max(1, Math.ceil(total / scope.vm.pageSize));
+                var start = (scope.vm.currentPage - 1) * scope.vm.pageSize;
+                var end = start + scope.vm.pageSize;
+                scope.vm.visibleElements = currentList.elementsInListKey ? currentList.elementsInListKey.slice(start, end) : [];
+            }
+
+            if (scope.vm.isNamedEntitiesList) {
+                scope.$watch(function() {
+                    return currentList.elementsInListKey && currentList.elementsInListKey.length;
+                }, function() {
+                    scope.vm.currentPage = 1;
+                    updatePagination();
+                });
+
+                scope.vm.nextPage = function() {
+                    if (scope.vm.currentPage < scope.vm.totalPages) {
+                        scope.vm.currentPage++;
+                        updatePagination();
+                    }
+                };
+                scope.vm.prevPage = function() {
+                    if (scope.vm.currentPage > 1) {
+                        scope.vm.currentPage--;
+                        updatePagination();
+                    }
+                };
+                // Also update on letter change
+                scope.$watch(function() { return currentList.selectedLetter; }, function() {
+                    scope.vm.currentPage = 1;
+                    updatePagination();
+                });
+            }
+
+            // Keep original infinite scroll for other lists
+            if (!scope.vm.isNamedEntitiesList) {
+                scope.vm.loadMoreElements = function() {
+                    currentList.loadMoreElements();
+                    scope.vm.visibleElements = currentList.visibleElements;
+                };
+                scope.vm.visibleElements = currentList.visibleElements;
+            }
+
             scope.vm.scrollToElement = function(entityId) {
                 var scrollDiv = angular.element(element).find('.scrollableDiv')[0];
                 var entity = angular.element(scrollDiv).find('[data-entity-id="' + entityId +'"]');
@@ -55,7 +107,7 @@ angular.module('evtviewer.list')
                 }
                 console.log(scrollDiv.scrollTop)
             }
-            
+
             scope.$watch(function() {
                 return evtInterface.getState('currentNamedEntity');
             }, function(newItem, oldItem) {
@@ -63,7 +115,6 @@ angular.module('evtviewer.list')
                     currentList.selectLetter(newItem.charAt(0));
                 }
             });
-            
             // Garbage collection
             scope.$on('$destroy', function() {
                 if (currentList){

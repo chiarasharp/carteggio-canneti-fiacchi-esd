@@ -152,7 +152,7 @@ angular.module('evtviewer.select')
                     if (oldItem !== newItem) {
                         currentSelect.selectOptionByValue(newItem);
                         // Find the page selector instance and update its options
-                        var pageSelect = evtSelect.getInstance('pageSelectId'); // Assuming 'pageSelectId' is the ID of the page selector
+                        var pageSelect = evtSelect.getById('pageSelectId'); // Assuming 'pageSelectId' is the ID of the page selector
                         if (pageSelect && parsedData.documentsCollection[newItem]) {
                             var docPages = parsedData.documentsCollection[newItem].pages;
                             var pageOptions = docPages.map(function(pageId) {

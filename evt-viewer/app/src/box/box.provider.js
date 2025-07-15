@@ -672,8 +672,8 @@ angular.module('evtviewer.box')
 
 							if (currentId === 'mainText' || currentId === 'mainText1') {
 								bottomMenuList.buttons.push({
-									title: 'Search',
-									label: 'Search',
+									title: 'BUTTONS.SEARCH',
+									label: 'BUTTONS.SEARCH',
 									icon: 'search',
 									type: 'searchInternal',
 									show: function () {
@@ -686,8 +686,8 @@ angular.module('evtviewer.box')
 							}
 							else {
 								bottomMenuList.buttons.push({
-									title: 'Search',
-									label: 'Search',
+									title: 'BUTTONS.SEARCH',
+									label: 'BUTTONS.SEARCH',
 									icon: 'search',
 									type: 'searchInternal',
 									show: function () {

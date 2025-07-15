@@ -8,7 +8,7 @@ angular.module('evtviewer.search')
          searchClear: {title: 'Clear search', label: '', icon: 'close', type: 'searchClear'},
          previous: {title: 'Previous', label: '', icon: 'previous', type: 'searchPrevResult'},
          next: {title: 'Next', label: '', icon: 'next', type: 'searchNextResult'},
-         search: {title: 'Search', label: '', icon: 'search', type: 'search'}
+         search: {title: 'BUTTONS.SEARCH', label: '', icon: 'search', type: 'search'}
       },
       interpretativeSearchBoxBtn: {
          hideResults: {title: 'Hide results', label: '', icon: 'search-results-hide', type: 'searchResultsHide', hide: true},
@@ -18,7 +18,7 @@ angular.module('evtviewer.search')
          searchClear: {title: 'Clear search', label: '', icon: 'close', type: 'searchClear'},
          previous: {title: 'Previous', label: '', icon: 'previous', type: 'searchPrevResult'},
          next: {title: 'Next', label: '', icon: 'next', type: 'searchNextResult'},
-         search: {title: 'Search', label: '', icon: 'search', type: 'search'}
+         search: {title: 'BUTTONS.SEARCH', label: 'BUTTONS.SEARCH', icon: 'search', type: 'search'}
       }
    })
    

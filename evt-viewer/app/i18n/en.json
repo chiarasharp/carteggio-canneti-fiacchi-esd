@@ -383,5 +383,8 @@
 		"SHOW_EDGES": "Show edges",
 		"SHOW_SECTION_PLANES": "Show Section Planes",
 		"SHOW_SECTION_EDGES": "Show Section Edges"
+	},
+	"PAGINATION": {
+		"PAGE_OF": "Page {{current}} of {{total}}"
 	}
 }

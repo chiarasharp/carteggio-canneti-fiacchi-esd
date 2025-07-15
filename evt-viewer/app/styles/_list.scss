@@ -53,4 +53,8 @@
 			overflow-y: scroll;
 			height: 100%;
 		}
+		.scrollableDiv.no-scroll {
+			overflow: visible !important;
+			height: auto !important;
+		}
 }

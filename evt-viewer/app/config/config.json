@@ -30,7 +30,7 @@
             "label":"TEXT_TEXT",
             "icon":"mode-txtTxt",
             "viewMode":"txtTxt",
-            "visible":true
+            "visible":false
         },
         {
             "label":"COLLATION",
