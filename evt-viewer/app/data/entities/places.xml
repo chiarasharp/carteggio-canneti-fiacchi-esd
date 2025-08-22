@@ -43,13 +43,12 @@
       <idno type="GND">4091999-7</idno>
       <idno type="geonames">3177300</idno>
    </place>
-   <place xml:id="DLCL_CF_L0006" type="settlement" sameAs="https://www.geonames.org/3179933">
-      <placeName>Case di Ribano</placeName>
+   <place xml:id="DLCL_CF_L0006" type="hill">
+      <placeName>Ribano</placeName>
       <location>
          <country key="IT"/>
-         <geo>44.38333, 11.48333</geo>
+         <geo>44.06987, 12.38385</geo>
       </location>
-      <idno type="geonames">3179933</idno>
    </place>
    <place xml:id="DLCL_CF_L0007" type="settlement" sameAs="https://www.geonames.org/3181928">
       <placeName>Bologna</placeName>
@@ -442,7 +441,7 @@
       </location>
       <idno type="geonames">3171457</idno>
    </place>
-   <place xml:id="DLCL_CF_L0055" type="settlement" sameAs="https://www.geonames.org/3170550">
+   <place xml:id="DLCL_CF_L0055" type="stream" sameAs="https://www.geonames.org/3170550">
       <placeName>Po</placeName>
       <location>
          <country key="IT"/>
@@ -497,7 +496,7 @@
       </location>
       <idno type="geonames">6255148</idno>
    </place>
-   <place xml:id="DLCL_CF_L0062" type="ancient-settlement" sameAs="https://www.geonames.org/3202210">
+   <place xml:id="DLCL_CF_L0062" type="historic-region" sameAs="https://www.geonames.org/3202210">
       <placeName>Dalmazia</placeName>
       <location>
          <country key="HR"/>
@@ -728,7 +727,7 @@
          <geo>30.9287, 30.3856</geo>
       </location>
    </place>
-   <place xml:id="DLCL_CF_L0091" type="ancient-region" source="https://it.wikipedia.org/wiki/Mesopotamia">
+   <place xml:id="DLCL_CF_L0091" type="historic-region" source="https://it.wikipedia.org/wiki/Mesopotamia">
       <placeName>Mesopotamia</placeName>
    </place>
    <place xml:id="DLCL_CF_L0092" type="settlement" sameAs="https://www.geonames.org/2849483">
@@ -763,7 +762,7 @@
       </location>
       <idno type="geonames">3174638</idno>
    </place>
-   <place xml:id="DLCL_CF_L0096" type="ancient-region" source="https://it.wikipedia.org/wiki/Prussia">
+   <place xml:id="DLCL_CF_L0096" type="historic-region" source="https://it.wikipedia.org/wiki/Prussia">
       <placeName>Prussia</placeName>
    </place>
    <place xml:id="DLCL_CF_L0097" type="settlement" sameAs="https://www.geonames.org/7303020">
@@ -837,7 +836,7 @@
       </location>
       <idno type="geonames">617790</idno>
    </place>
-   <place xml:id="DLCL_CF_L0106" type="ancient-region" sameAs="https://www.geonames.org/664661">
+   <place xml:id="DLCL_CF_L0106" type="historic-region" sameAs="https://www.geonames.org/664661">
       <placeName>Transilvania</placeName>
       <location>
          <country key="RO"/>
