@@ -346,6 +346,15 @@ angular.module('evtviewer.select')
 							// We will implement the filtering logic in the document case later
 							vm.selectOption(newOption);
 							evtInterface.updateState('currentDirectoryFilter', newOption.value);
+							
+							// Mark manual flag based on selection
+							if (newOption.value === '') {
+								// "All Directories" selected - clear manual flag to allow auto-filtering
+								evtInterface.updateState('directoryFilterManuallySet', false);
+							} else {
+								// Specific directory selected - mark as manually set
+								evtInterface.updateState('directoryFilterManuallySet', true);
+							}
 						};
 						formatOptionList = function(directories) {
 							var formattedList = [];

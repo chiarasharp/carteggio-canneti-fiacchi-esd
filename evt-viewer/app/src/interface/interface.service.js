@@ -95,6 +95,10 @@ angular.module('evtviewer.interface')
                 currentVersions: undefined,
                 currentVersionEntry: undefined,
                 currentVersion: undefined,
+                
+                // Directory filtering state
+                currentDirectoryFilter: '',
+                directoryFilterManuallySet: false,
 
                 mainMenu: false
             };
@@ -1288,16 +1292,35 @@ angular.module('evtviewer.interface')
                     }
                 }
 
-                // Update currentDirectoryFilter based on the determined docId
-                if (docId !== undefined) {
+                // Smart directory filtering: Only auto-filter if there are multiple directories AND
+                // the user hasn't manually set a directory filter
+                var currentDirectoryFilter = mainInterface.getState('currentDirectoryFilter');
+                var isManuallySet = mainInterface.getState('directoryFilterManuallySet') || false;
+                
+                // Check if we have multiple directories
+                var uniqueDirectories = parsedData.getUniqueOriginDirectories();
+                var hasMultipleDirectories = uniqueDirectories.length > 1;
+                
+
+                
+                if (hasMultipleDirectories && !isManuallySet && docId !== undefined) {
+                    // Auto-filter only when we have multiple directories and user hasn't manually set filter
                     var document = parsedData.getDocument(docId);
                     if (document && document.originDirectory !== undefined) {
                         mainInterface.updateState('currentDirectoryFilter', document.originDirectory);
                     } else {
-                         // If no originDirectory, clear the filter or set to default (e.g., '')
-                         mainInterface.updateState('currentDirectoryFilter', '');
+                        // If no originDirectory, clear the filter
+                        mainInterface.updateState('currentDirectoryFilter', '');
                     }
+                } else if (!hasMultipleDirectories) {
+                    // If only one directory, only clear filter if it wasn't manually set
+                    // This allows users to manually filter even with one directory
+                    if (!isManuallySet) {
+                        mainInterface.updateState('currentDirectoryFilter', '');
+                    }
+                    // Don't reset directoryFilterManuallySet - let user keep their manual choice
                 }
+                // If manually set, keep the current manual filter (don't auto-change)
 
                 // console.log('updateParams - final docId:', docId, 'pageId:', pageId); // Log final IDs
 

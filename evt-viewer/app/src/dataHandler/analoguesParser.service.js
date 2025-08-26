@@ -68,18 +68,44 @@ angular.module('evtviewer.dataHandler')
 
 		if (parsedData.getAnalogues()._refId._indexes.length > 0) {
 			if (analoguesUrl === '' || analoguesUrl === undefined) {
-				var defDocElement;
-                if (currentDocument.find('text group text').length > 0) {
-					defDocElement = 'text group text';
-				} else if (currentDocument.find('text').length > 0) {
-					defDocElement = 'text';
-				} else if (currentDocument.find('div[subtype="edition_text"]').length > 0) {
-					defDocElement = 'div[subtype="edition_text"]';
-				}
-				angular.forEach(currentDocument.find(defDocElement),
-					function(element) {
-						parser.handleAnalogue(element);
-					});
+				                var hasTextWithGroup = currentDocument.find('text group').length > 0;
+                var hasIndividualText = currentDocument.find('text').length > 0;
+                
+                if ( hasTextWithGroup && hasIndividualText ) {
+                    // Mixed structure - handle both types
+                    
+                    // Process individual texts first
+                    var individualTexts = currentDocument.find('text').filter(function() {
+                        return angular.element(this).children('group').length === 0;
+                    });
+                    angular.forEach(individualTexts, function(element) {
+                        parser.handleAnalogue(element);
+                    });
+                    
+                    // Then process texts inside groups
+                    var textInGroups = currentDocument.find('text group text');
+                    angular.forEach(textInGroups, function(element) {
+                        parser.handleAnalogue(element);
+                    });
+                } else if ( hasTextWithGroup ) {
+                    var defDocElement = 'text';
+                    angular.forEach(currentDocument.find(defDocElement),
+                        function(element) {
+                            parser.handleAnalogue(element);
+                        });
+                } else if ( hasIndividualText ) {
+                    var defDocElement = 'text';
+                    angular.forEach(currentDocument.find(defDocElement),
+                        function(element) {
+                            parser.handleAnalogue(element);
+                        });
+                } else if (currentDocument.find('div[subtype="edition_text"]').length > 0) {
+                    var defDocElement = 'div[subtype="edition_text"]';
+                    angular.forEach(currentDocument.find(defDocElement),
+                        function(element) {
+                            parser.handleAnalogue(element);
+                        });
+                }
 				parser.updateAnalogues();
 			} else if (extDoc !== undefined) {
 				parser.parseExternalAnalogues(extDoc);

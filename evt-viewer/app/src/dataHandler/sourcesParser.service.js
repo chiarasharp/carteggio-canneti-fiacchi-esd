@@ -134,17 +134,44 @@ angular.module('evtviewer.dataHandler')
             if (config.sourcesUrl === '') {
                 var currentDocument = angular.element(doc),
                 defDocElement;
-                if ( currentDocument.find('text group text').length > 0 ) {
-                    defDocElement = 'text group text';
-                } else if ( currentDocument.find('text').length > 0 ) {
-                    defDocElement = 'text';
-                } else if ( currentDocument.find('div[subtype="edition_text"]').length > 0 ) {
-                    defDocElement = 'div[subtype="edition_text"]';
-                }
-                angular.forEach(currentDocument.find(defDocElement),
-                    function(element){
+                var hasTextWithGroup = currentDocument.find('text group').length > 0;
+                var hasIndividualText = currentDocument.find('text').length > 0;
+                
+                if ( hasTextWithGroup && hasIndividualText ) {
+                    // Mixed structure - handle both types
+                    
+                    // Process individual texts first
+                    var individualTexts = currentDocument.find('text').filter(function() {
+                        return angular.element(this).children('group').length === 0;
+                    });
+                    angular.forEach(individualTexts, function(element){
                         handleSource(element);
                     });
+                    
+                    // Then process texts inside groups
+                    var textInGroups = currentDocument.find('text group text');
+                    angular.forEach(textInGroups, function(element){
+                        handleSource(element);
+                    });
+                } else if ( hasTextWithGroup ) {
+                    defDocElement = 'text';
+                    angular.forEach(currentDocument.find(defDocElement),
+                        function(element){
+                            handleSource(element);
+                        });
+                } else if ( hasIndividualText ) {
+                    defDocElement = 'text';
+                    angular.forEach(currentDocument.find(defDocElement),
+                        function(element){
+                            handleSource(element);
+                        });
+                } else if ( currentDocument.find('div[subtype="edition_text"]').length > 0 ) {
+                    defDocElement = 'div[subtype="edition_text"]';
+                    angular.forEach(currentDocument.find(defDocElement),
+                        function(element){
+                            handleSource(element);
+                        });
+                }
                 console.log('## Sources ##', parsedData.getSources());
                 //Delete the source entries from the collection, if they don't correspond to a source
                 updateQuotes();

@@ -1213,40 +1213,134 @@ angular.module('evtviewer.dataHandler')
 				defContentEdition = 'body',
 				defTeiHeader = 'teiHeader*';
 
-			// CHANGE: Check for both text group and individual text elements
-			// This ensures proper handling of nested document structures
-			if (currentDocument.find('text group text').length > 0 && currentDocument.find('text').length > 0) {
-				defDocElement = 'text group text' && 'text';
-			} else if (currentDocument.find('div[subtype="edition_text"]').length > 0) {
-				// Handle edition text divisions differently
-				defDocElement = 'div[subtype="edition_text"]';
-				defContentEdition = 'div';
+					// Check for different document structures and set appropriate parsing strategy
+		// Note: text group text means: <text><group><text>...</text></group></text>
+		var hasTextWithGroup = currentDocument.find('text group').length > 0;
+		var hasIndividualText = currentDocument.find('text').length > 0;
+		var hasEditionDiv = currentDocument.find('div[subtype="edition_text"]').length > 0;
+		
+
+		
+		// For mixed structures, we need to handle both types while preserving order
+		if (hasTextWithGroup && hasIndividualText) {
+			// Both structures exist - we'll handle them separately but in order
+			defDocElement = 'mixed'; // Special flag for mixed handling
+
+		} else if (hasTextWithGroup) {
+			// Handle text elements that contain groups
+			defDocElement = 'text';
+		} else if (hasIndividualText) {
+			// Handle individual text elements only
+			defDocElement = 'text';
+		} else if (hasEditionDiv) {
+			// Handle edition text divisions
+			defDocElement = 'div[subtype="edition_text"]';
+			defContentEdition = 'div';
+		}
+
+		// Set parser properties based on detected structure
+		if (defDocElement) {
+			parser.parserProperties['defDocElement'] = defDocElement;
+		} else {
+			// Fallback to default if no structure detected
+			parser.parserProperties['defDocElement'] = 'text';
+		}
+		parser.parserProperties['defContentEdition'] = defContentEdition;
+
+		parsedData.setCriticalEditionAvailability(currentDocument.find(config.listDef.replace(/[<>]/g, '')).length > 0);
+
+		// Process each document element, avoiding duplicate parsing of nested structures
+		if (defDocElement === 'mixed') {
+			// Handle mixed structure: both text-with-group and individual texts
+			var processedCount = 0;
+			var skippedCount = 0;
+			
+			// For mixed structures, we need to handle:
+			// 1. Individual text elements (like letter 1)
+			// 2. Text elements INSIDE groups (like the attachments in letter 35)
+			// But NOT the parent text elements that contain groups
+			
+			// First, find all text elements inside groups
+			var textInGroups = currentDocument.find('text group text');
+			
+			// Then, find all top-level text elements that don't contain groups
+			var individualTexts = currentDocument.find('text').filter(function() {
+				return angular.element(this).children('group').length === 0;
+			});
+			
+			// BEFORE parsing, inherit directories for text elements inside groups
+			angular.forEach(textInGroups, function(element) {
+				var groupParent = element.parentNode; // This should be the <group> element
+				var textParent = null;
+				if (groupParent && groupParent.tagName === 'group') {
+					textParent = groupParent.parentNode; // This should be the parent <text> element
+				}
+				
+				var parentOriginDirectory = null;
+				if (textParent && textParent.tagName === 'text') {
+					parentOriginDirectory = textParent.getAttribute('data-origin-directory');
+					if (parentOriginDirectory && !element.getAttribute('data-origin-directory')) {
+						element.setAttribute('data-origin-directory', parentOriginDirectory);
+					}
+				}
+			});
+			
+			// Process individual texts first
+			angular.forEach(individualTexts, function(element) {
+				parser.parseDocument(element, doc);
+				processedCount++;
+			});
+			
+			// Then process texts inside groups (directory inheritance already done above)
+			angular.forEach(textInGroups, function(element) {
+				parser.parseDocument(element, doc);
+				processedCount++;
+			});
+			
+		} else if (defDocElement) {
+			// Handle single structure type
+			var elements = currentDocument.find(defDocElement);
+			
+			if (elements.length === 0) {
+				return parsedData.getDocuments();
 			}
-
-			if (!defDocElement) {
-				parser.parserProperties['defDocElement'] = defDocElement;
-			} else {		
-				parser.parserProperties['defDocElement'] = 'text';
-			}
-			parser.parserProperties['defContentEdition'] = defContentEdition;
-
-			parsedData.setCriticalEditionAvailability(currentDocument.find(config.listDef.replace(/[<>]/g, '')).length > 0);
-
-			// Process each document element, avoiding duplicate parsing of nested structures
-			angular.forEach(currentDocument.find(defDocElement),
+			
+			var processedCount = 0;
+			var skippedCount = 0;
+			
+			angular.forEach(elements,
 				function (element) {
 					var currEl = angular.element(element);
 
-					// Only parse if element doesn't contain nested groups
-					// This prevents duplicate processing of nested document structures
-					if(currEl.children('group').length === 0) { 
-						parser.parseDocument(element, doc); 
+					// Check if this element should be parsed
+					if (defDocElement === 'text') {
+						// This is a text element - always parse it (whether it has a group inside or not)
+						
+						// If this text element is inside a group, inherit directory from parent
+						var parentGroup = currEl.parent('group');
+						if (parentGroup.length > 0) {
+							var parentText = parentGroup.parent('text');
+							if (parentText.length > 0) {
+															var parentOriginDirectory = parentText[0].getAttribute('data-origin-directory');
+							if (parentOriginDirectory && !element.getAttribute('data-origin-directory')) {
+								element.setAttribute('data-origin-directory', parentOriginDirectory);
+							}
+							}
+						}
+						
+						parser.parseDocument(element, doc);
+						processedCount++;
+					} else if (currEl.children('group').length === 0) {
+						// For other structures, only parse if no nested groups
+						parser.parseDocument(element, doc);
+						processedCount++;
+					} else {
+						skippedCount++;
 					}
 			});
+		}
 
-			console.log('## PAGES ##', parsedData.getPages());
-			console.log('## Documents ##', parsedData.getDocuments());
-			console.log('## DIVS ##', parsedData.getDivs());
+
 			return parsedData.getDocuments();
 		};
 
@@ -1265,16 +1359,23 @@ angular.module('evtviewer.dataHandler')
 		 * @author CM
 		 */
 		parser.parseDocument = function (element, doc) {
-			var newDoc = {
-				value: element.getAttribute('xml:id') || parser.xpath(doc).substr(1) || 'doc_' + (parsedData.getDocuments()._indexes.length + 1),
-				label: '',
-				title: '',
-				content: element,
-				front: undefined,
-				pages: [], // Pages will be added later
-				divs: [],
-				teiHeader: {}
-			};
+			try {
+				// Validate input parameters
+				if (!element || !doc) {
+					console.error('parseDocument: Invalid parameters - element:', element, 'doc:', doc);
+					return;
+				}
+				
+				var newDoc = {
+					value: element.getAttribute('xml:id') || parser.xpath(doc).substr(1) || 'doc_' + (parsedData.getDocuments()._indexes.length + 1),
+					label: '',
+					title: '',
+					content: element,
+					front: undefined,
+					pages: [], // Pages will be added later
+					divs: [],
+					teiHeader: {}
+				};
 			for (var j = 0; j < element.attributes.length; j++) {
 				var attrib = element.attributes[j];
 				if (attrib.specified) {
@@ -1324,6 +1425,11 @@ angular.module('evtviewer.dataHandler')
 						//editionElement.innerHTML = parser.splitLineBreaks(element, defContentEdition);
 						parser.splitPages(pages, editionElement, newDoc.value, parser.parserProperties['defContentEdition'], newDocPages);
 					});
+			}
+			} catch (error) {
+				console.error('Error parsing document:', error);
+				console.error('Element:', element);
+				console.error('Document:', doc);
 			}
 		}
 
