@@ -4,7 +4,7 @@ angular.module('evtviewer.openseadragonService')
     var handler = this;
 
     handler.test = function(msg){
-        console.log(msg);
+        // console.log(msg);
     }
 
 });

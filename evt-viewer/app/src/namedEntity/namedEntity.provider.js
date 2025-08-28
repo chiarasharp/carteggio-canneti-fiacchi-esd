@@ -162,12 +162,12 @@ angular.module('evtviewer.namedEntity')
                     if (vm.entity && vm.entity._multiple) {
                         // For multiple entities, get occurrences for the currently selected reference
                         var selectedEntity = vm.entity._entities[vm.activeReferenceTab];
-                        console.log('toggleSubContent - occurrences tab, selectedEntity:', selectedEntity);
+                        // console.log('toggleSubContent - occurrences tab, selectedEntity:', selectedEntity);
                         if (selectedEntity && !selectedEntity.occurrences) {
                             var entityId = selectedEntity.id || selectedEntity._id;
-                            console.log('Getting occurrences for entity ID:', entityId);
+                            // console.log('Getting occurrences for entity ID:', entityId);
                             selectedEntity.occurrences = namedEntity.getOccurrences(entityId);
-                            console.log('Occurrences loaded:', selectedEntity.occurrences);
+                            // console.log('Occurrences loaded:', selectedEntity.occurrences);
                         }
                     } else if (!vm.occurrences) {
                         // For single entities, use the original logic
@@ -267,18 +267,18 @@ angular.module('evtviewer.namedEntity')
                     var entityIds = vm.entityId.split(' ');
                     var selectedIndex = vm.activeReferenceTab || 0;
                     entityIdForNavigation = entityIds[selectedIndex] || entityIds[0];
-                    console.log('Multiple references detected. Entity IDs:', entityIds, 'Selected index:', selectedIndex, 'Navigation ID:', entityIdForNavigation);
+                    // console.log('Multiple references detected. Entity IDs:', entityIds, 'Selected index:', selectedIndex, 'Navigation ID:', entityIdForNavigation);
                 }
                 
-                console.log('Getting named entities for ID:', entityIdForNavigation);
+                // console.log('Getting named entities for ID:', entityIdForNavigation);
                 var namedEntities = parsedData.getNamedEntities();
-                console.log('Named entities available:', Object.keys(namedEntities));
+                // console.log('Named entities available:', Object.keys(namedEntities));
                 var entity = namedEntities[entityIdForNavigation];
-                console.log('Found entity:', entity);
+                // console.log('Found entity:', entity);
                 
                 if (entity && entity.collectionId) {
                     var list = entity.collectionId;
-                    console.log('List collection ID:', list);
+                    // console.log('List collection ID:', list);
                     
                     // if (config.globalMenuAvailable) {
                         evtInterface.updateProperty('tabsContainerOpenedContent', 'entitiesLists');

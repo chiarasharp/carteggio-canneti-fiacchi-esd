@@ -191,7 +191,7 @@ angular.module('evtviewer.dataHandler')
 				});
 			}
 
-			console.log('## parseEntities ##', parsedData.getNamedEntitiesCollection());
+			// console.log('## parseEntities ##', parsedData.getNamedEntitiesCollection());
 		};
 		/**
 		 * @ngdoc method

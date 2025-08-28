@@ -50,7 +50,7 @@ angular.module('evtviewer.dataHandler')
 					}
 				});
 		});
-		console.log('## HOTSPOTS ##', parsedData.getHotSpots());
+		// console.log('## HOTSPOTS ##', parsedData.getHotSpots());
 	};
 
 	return parser;

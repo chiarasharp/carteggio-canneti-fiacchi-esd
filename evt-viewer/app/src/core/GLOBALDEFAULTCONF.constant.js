@@ -34,7 +34,8 @@ angular.module('evtviewer.core')
 	 * Default:
 	 * <pre> debugAllModules: false </pre>
 	 */
-	debugAllModules: true,
+	// debugAllModules: true,
+	debugAllModules: false,
 
 	debugConf: {
 		log: true,

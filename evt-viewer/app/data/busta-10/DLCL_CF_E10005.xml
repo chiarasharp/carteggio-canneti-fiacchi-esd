@@ -39,6 +39,36 @@
                </msDesc>
             </sourceDesc>
          </fileDesc>
+         <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1713-08-06"/>
+               <placeName ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-01-19" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-01-29" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-04-17" who="#DLCL_CF_PS001">riferimenti stampe</change>
+         <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-20" who="#DLCL_CF_PS001">nuove trascrizioni buste</change>
+      </revisionDesc>
       </front>
       <body>
          <div type="transcription">

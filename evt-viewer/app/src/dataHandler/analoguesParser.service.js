@@ -112,7 +112,7 @@ angular.module('evtviewer.dataHandler')
 			}
 		}
 
-		console.log('## Analogues ##', parsedData.getAnalogues());
+		// console.log('## Analogues ##', parsedData.getAnalogues());
 
 		deferred.resolve('success');
 		return deferred;
@@ -196,7 +196,7 @@ angular.module('evtviewer.dataHandler')
 		for (var i = 0; i < doc.childNodes.length; i++) {
 			parser.handleAnalogue(doc.childNodes[i]);
 		}
-		console.log('## External Analogues Received ##', parsedData.getAnalogues());
+		// console.log('## External Analogues Received ##', parsedData.getAnalogues());
 
 		parser.updateAnalogues();
 

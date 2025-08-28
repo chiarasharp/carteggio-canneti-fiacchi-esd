@@ -67,7 +67,7 @@ angular.module('evtviewer.mobile')
         currentMode = currentTemplate;
         mobile.switchView(currentTemplate);
         // TODO: use $log for _console
-        console.log('Switch mode ' + currentTemplate);
+        // console.log('Switch mode ' + currentTemplate);
     };
 
 
@@ -88,7 +88,7 @@ angular.module('evtviewer.mobile')
         }
 
         // TODO: use $log for _console
-        console.log('Switch section ' + currentTemplate);
+        // console.log('Switch section ' + currentTemplate);
     };
    
 

@@ -78,7 +78,7 @@ angular.module('evtviewer.dataHandler')
             handleBibliographyDef(key, currentDocument);
         }
 
-        console.log('## parseBiblInfo ##', parsedData.getBibliographicRefsCollection());
+		// console.log('## parseBiblInfo ##', parsedData.getBibliographicRefsCollection());
     };
 
     var handleBibliographyDef = function(key, currentDocument) {
@@ -118,7 +118,7 @@ angular.module('evtviewer.dataHandler')
      * - If partial encryption (unstructured) is detected in the bibliographic node,
      * output will have the same encoded information in XML.
      *  It is possible for the end user to set the style of these entries in CSS using the selector:
-     * <code>.unstructuredBibl. &lt;Element_name&gt;</code><br/> Example:
+     * <code>.unstructuredBibl. &lt;Element_name&gt;</code><br /> Example:
      * <pre>
         .unstructuredBibl.title {
             font-weight: bold;

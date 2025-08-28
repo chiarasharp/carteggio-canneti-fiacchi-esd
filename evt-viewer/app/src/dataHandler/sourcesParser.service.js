@@ -94,7 +94,7 @@ angular.module('evtviewer.dataHandler')
                 }
             });
             
-        console.log('## Quotes ##', parsedData.getQuotes());
+        // console.log('## Quotes ##', parsedData.getQuotes());
 
         deferred.resolve('success');
         return deferred;
@@ -172,7 +172,7 @@ angular.module('evtviewer.dataHandler')
                             handleSource(element);
                         });
                 }
-                console.log('## Sources ##', parsedData.getSources());
+                // console.log('## Sources ##', parsedData.getSources());
                 //Delete the source entries from the collection, if they don't correspond to a source
                 updateQuotes();
             } else {
@@ -204,7 +204,7 @@ angular.module('evtviewer.dataHandler')
         for (var i = 0; i < doc.childNodes.length; i++) {
             handleSource(doc.childNodes[i]);
         }
-        console.log('## External Sources ##', parsedData.getSources());
+        // console.log('## External Sources ##', parsedData.getSources());
 
         updateQuotes();
         

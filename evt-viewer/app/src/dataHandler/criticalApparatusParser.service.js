@@ -202,8 +202,7 @@ angular.module('evtviewer.dataHandler')
         } else {
             console.log('WARNING: '+config.listDef+' missing. Please add this element to make EVT work properly with different witnesses.');
         }
-        // console.log('## Witnesses ##', JSON.stringify(parsedData.getWitnesses()));
-        console.log('## Witnesses ##', parsedData.getWitnesses());
+		// console.log('## Witnesses ##', parsedData.getWitnesses());
     };
     /**
      * @ngdoc function
@@ -239,7 +238,7 @@ angular.module('evtviewer.dataHandler')
             });
         // console.log('## Critical entries ##', JSON.stringify(parsedData.getCriticalEntries()));
         parsedData.setCriticalEntriesLoaded(config.loadCriticalEntriesImmediately);
-        console.log('## Critical entries ##', parsedData.getCriticalEntries());
+		// console.log('## Critical entries ##', parsedData.getCriticalEntries());
         deferred.resolve('success');
         return deferred;
     };
@@ -265,7 +264,7 @@ angular.module('evtviewer.dataHandler')
             evtCriticalElementsParser.handleVersionEntry(element);
         });
 
-        console.log('## Version Entries ##', parsedData.getVersionEntries());
+		// console.log('## Version Entries ##', parsedData.getVersionEntries());
 
         deferred.resolve('success');
         return deferred;
