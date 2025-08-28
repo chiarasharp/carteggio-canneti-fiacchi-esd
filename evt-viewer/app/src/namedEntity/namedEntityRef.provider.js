@@ -59,9 +59,24 @@ angular.module('evtviewer.namedEntity')
             if (target && !Utils.DOMutils.isNestedInElem(target, 'evt-named-entity') || Utils.DOMutils.isNestedInElem(target, 'evt-list')) {
                 var vm = this;
                 if (vm.realNamedEntity) {
+                    // Entity with reference data - show normal popup
                     if (namedEntityRef.getCurrentHighlighted() !== vm.entityId) {
                         namedEntityRef.highlightByEntityId(undefined);
                     }
+                    vm.active = !vm.active;
+                    if (vm.active) {
+                        namedEntityRef.setActiveEntity(vm.uid);
+                    } else {
+                        namedEntityRef.setActiveEntity(undefined);
+                    }
+                    vm.toggleActive();
+                    if (vm.detailsInPopup) {
+                        $timeout(function(){
+                            vm.updateDetailsPosition($event, vm);
+                        }, 20);
+                    }
+                } else {
+                    // Entity without reference data - show "no data" popup
                     vm.active = !vm.active;
                     if (vm.active) {
                         namedEntityRef.setActiveEntity(vm.uid);

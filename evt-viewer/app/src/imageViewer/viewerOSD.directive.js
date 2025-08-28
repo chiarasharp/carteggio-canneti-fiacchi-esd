@@ -4,7 +4,8 @@ var OpenSeadragon = require('openseadragon');
 
 var module = angular.module("evtviewer.openseadragon", ["evtviewer.imageViewer",'evtviewer.openseadragonService', "evtviewer.interface"]);
 
-module.directive("osd", ['$timeout', 'imageViewerHandler', "evtInterface", "osd", function ($timeout, imageViewerHandler, evtInterface, osd) {
+module.directive("osd", ['$timeout', 'imageViewerHandler', "evtInterface", "osd", '$log', function ($timeout, imageViewerHandler, evtInterface, osd, $log) {
+  var _console = $log.getInstance('imageViewer');
   return {
 
     restrict: "E",
@@ -33,7 +34,7 @@ module.directive("osd", ['$timeout', 'imageViewerHandler', "evtInterface", "osd"
           viewer = new OpenSeadragon.Viewer(_options);
         }
         catch (err) {
-          console.error("viewer in timeout osd directive errore", err);
+          _console.error("viewer in timeout osd directive errore", err);
         }
         scope.osd = viewer;
         scope.$parent[attrs.name] = viewer;
@@ -59,7 +60,7 @@ module.directive("osd", ['$timeout', 'imageViewerHandler', "evtInterface", "osd"
             else if (doctype === "page")
               imageViewerHandler.updateViewerPage(newItem);
             else
-              console.error('Page service problem');
+              _console.error('Page service problem');
           }
         }, false);
       }, 10);

@@ -114,7 +114,7 @@
 		"ENTITY_TYPE_RELATION": "Nome di relazione",
 		"ENTITY_TYPE_BIBL": "Opera",
 		"ENTITY_TYPE_PRINT": "Opera a Stampa",
-		"ENTITY_TYPE_MANUSCRIPT": "Manoscritto",
+        "ENTITY_TYPE_MANUSCRIPT": "Manoscritto",
 		"GENERIC": "Lista generica",
 		"LIST": "Lista",
 		"NO_ELEMENTS": "Nessun elemento in questa lista",
@@ -169,7 +169,13 @@
 		"TEXT_OF_SOURCE_NOT_AVAILABLE": "Il testo della fonte {{sources}} non è disponibile.",
 		"TEXT_OF_VERSION_NOT_AVAILABLE": "Il testo della versione {{version}} non è disponibile.",
 		"TEXT_OF_WITNESS_NOT_AVAILABLE": "Il testo del testimone {{witness}} non è disponibile.",
-		"TRY_DIFFERENT_BROWSER_OR_CONTACT_DEVS": "Prova ad utilizzare un browser differente oppure contatta gli sviluppatori."
+		"TRY_DIFFERENT_BROWSER_OR_CONTACT_DEVS": "Prova ad utilizzare un browser differente oppure contatta gli sviluppatori.",
+		        "NO_MAP_AVAILABLE": "Mappa non disponibile",
+        "LOAD_OCCURRENCES": "Carica Occorrenze",
+        "REFERENCE_COUNT_INFO": "{{count}} riferimenti",
+        "NO_REFERENCE_DATA": "Entità non identificata",
+        "NO_REFERENCE_DATA_DESC": "Questa entità non è stata identificata nel sistema di riferimento.",
+        "NO_REFERENCE_DATA_NOTE": ""
 	},
 	"NAMED_ENTITIES": {
 		"MORE_INFO": "Informazioni aggiuntive",
@@ -262,9 +268,13 @@
 	"SELECTS": {
 		"CLEAR": "Cancella Selezione",
 		"CLEAR_SELECTION": "Cancella Selezione",
-		"MULTIPLE_OPTIONS_SELECTED": "Più opzioni selezionate",
-		"MULTIPLE_SELECTION": "Selezione Multipla",
-		"NAMED_ENTITIES": "Named Entities",
+			"MULTIPLE_OPTIONS_SELECTED": "Più opzioni selezionate",
+	"MULTIPLE_SELECTION": "Selezione Multipla",
+	"MULTIPLE_REFERENCES": "Riferimenti multipli",
+	"MULTIPLE_REFERENCES_COUNT": "Riferimenti multipli ({{count}})",
+	"THIS_REFERENCE_INCLUDES": "Questo riferimento include {{count}} fonti:",
+
+	"NAMED_ENTITIES": "Named Entities",
 		"NO_SELECTION": "Nessuna Selezione",
 		"OPEN_TO_SELECT_ELEMENT": "Apri il selettore per scegliere un elemento da selezionare.",
 		"OTHER_ENTITIES": "Altre Entità",

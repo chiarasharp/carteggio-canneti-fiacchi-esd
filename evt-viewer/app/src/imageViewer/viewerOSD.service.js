@@ -2,7 +2,8 @@
    var OpenSeadragon = require('openseadragon');
    angular.module('evtviewer.openseadragonService', ['evtviewer.interface'])
 
-      .service('imageViewerHandler', ['evtInterface', 'imageScrollMap', 'parsedData', function(evtInterface, imageScrollMap, parsedData) {
+      .service('imageViewerHandler', ['evtInterface', 'imageScrollMap', 'parsedData', '$log', function(evtInterface, imageScrollMap, parsedData, $log) {
+         var _console = $log.getInstance('imageViewerHandler');
          var ImageNormalizationCoefficient = undefined;
          var divHotSpotToggle = false;
 
@@ -36,7 +37,7 @@
             while (parsedData.getPages()[pidx] !== pageValue) {
                pidx = pidx + 1;
                if (pidx > parsedData.getPages().length) {
-                  console.error('error in open page');
+                  _console.error('error in open page');
                   break;
                }
             }
@@ -95,7 +96,7 @@
                   }
                }
             } catch (err) {
-               console.error('error in pan', err);
+               _console.error('error in pan', err);
 
             }
 
@@ -156,7 +157,7 @@
             try {
                viewerHandler.viewer.removeOverlay("line-overlay");
             } catch (error) {
-               console.error('no line overlay', error);
+               _console.error('no line overlay', error);
             }
             var rectObj = convertZoneToOSD(zone);
             var elt = document.createElement("div");
@@ -173,7 +174,7 @@
             try {
                viewerHandler.viewer.removeOverlay("line-overlay");
             } catch (error) {
-               console.error('no line overlay', error);
+               _console.error('no line overlay', error);
             }
          };
 
@@ -181,7 +182,7 @@
             try {
                viewerHandler.viewer.removeOverlay("line-overlay_selected");
             } catch (error) {
-               console.error('no line overlay', error);
+               _console.error('no line overlay', error);
             }
          };
 
@@ -339,7 +340,7 @@
                var id = elem.dataset.id;
                viewerHandler.viewer.removeOverlay('div-hotspot-overlay_selected-' + id);
             } catch (error) {
-               console.error('no hotspot overlay', error);
+               _console.error('no hotspot overlay', error);
             }
 
             divHotSpotToggle = false;
@@ -354,7 +355,7 @@
                   viewerHandler.viewer.removeOverlay('hotspot-overlay_selected-' + zones[i].id);
                }
             } catch (error) {
-               console.error('no hotspot overlay', error);
+               _console.error('no hotspot overlay', error);
             }
          };
 

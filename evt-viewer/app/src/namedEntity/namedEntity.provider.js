@@ -91,7 +91,16 @@ angular.module('evtviewer.namedEntity')
             var toggleOccurrences = function() {
                 var vm = this;
                 if (!vm.occurrences) {
-                    vm.occurrences = namedEntity.getOccurrences(vm.entityId);
+                    if (vm.entity && vm.entity._multiple) {
+                        // For multiple entities, get occurrences for the currently selected reference
+                        var selectedEntity = vm.entity._entities[vm.activeReferenceTab];
+                        if (selectedEntity && !selectedEntity.occurrences) {
+                            selectedEntity.occurrences = namedEntity.getOccurrences(selectedEntity.id || selectedEntity._id);
+                        }
+                    } else {
+                        // For single entities, use the original logic
+                        vm.occurrences = namedEntity.getOccurrences(vm.entityId);
+                    }
                 }
                 vm.occurrencesOpened = !vm.occurrencesOpened;
                 vm.toggleSection('occurrencesOpened');
@@ -149,8 +158,21 @@ angular.module('evtviewer.namedEntity')
              */
             var toggleSubContent = function(subContentName) {
                 var vm = this;
-                if (subContentName === 'occurrences' && !vm.occurrences) {
-                    vm.occurrences = namedEntity.getOccurrences(vm.entityId);
+                if (subContentName === 'occurrences') {
+                    if (vm.entity && vm.entity._multiple) {
+                        // For multiple entities, get occurrences for the currently selected reference
+                        var selectedEntity = vm.entity._entities[vm.activeReferenceTab];
+                        console.log('toggleSubContent - occurrences tab, selectedEntity:', selectedEntity);
+                        if (selectedEntity && !selectedEntity.occurrences) {
+                            var entityId = selectedEntity.id || selectedEntity._id;
+                            console.log('Getting occurrences for entity ID:', entityId);
+                            selectedEntity.occurrences = namedEntity.getOccurrences(entityId);
+                            console.log('Occurrences loaded:', selectedEntity.occurrences);
+                        }
+                    } else if (!vm.occurrences) {
+                        // For single entities, use the original logic
+                        vm.occurrences = namedEntity.getOccurrences(vm.entityId);
+                    }
                 }
                 if (vm._subContentOpened !== subContentName) {
                     vm._subContentOpened = subContentName;
@@ -231,21 +253,46 @@ angular.module('evtviewer.namedEntity')
             };
             var openEntity = function() {
                 var vm = this;
+                console.log('openEntity called with entityId:', vm.entityId, 'activeReferenceTab:', vm.activeReferenceTab);
+                
                 // var secondaryContent = config.globalMenuAvailable ? 'toc' : 'entitiesList';
                 var secondaryContent = 'toc';
                 evtInterface.updateState('secondaryContent', secondaryContent);
                 evtDialog.openByType(secondaryContent);
-                var list = parsedData.getNamedEntities()[vm.entityId].collectionId;
-                // if (config.globalMenuAvailable) {
-                    evtInterface.updateProperty('tabsContainerOpenedContent', 'entitiesLists');
-                    evtInterface.updateProperty('tabsContainerOpenedTab', list);                
-                // } else {
-                //     evtInterface.updateProperty('tabsContainerOpenedContent', list);
-                // }
-                evtInterface.updateState('currentNamedEntity', vm.entityId);
-                setTimeout(function() {
-                    evtList.scrollToElemById(list, vm.entityId);
-                }, 1000);
+                
+                // Handle multiple references by using the selected entity ID for navigation
+                var entityIdForNavigation = vm.entityId;
+                if (vm.entityId && vm.entityId.includes(' ')) {
+                    // Multiple references - use the selected one for navigation
+                    var entityIds = vm.entityId.split(' ');
+                    var selectedIndex = vm.activeReferenceTab || 0;
+                    entityIdForNavigation = entityIds[selectedIndex] || entityIds[0];
+                    console.log('Multiple references detected. Entity IDs:', entityIds, 'Selected index:', selectedIndex, 'Navigation ID:', entityIdForNavigation);
+                }
+                
+                console.log('Getting named entities for ID:', entityIdForNavigation);
+                var namedEntities = parsedData.getNamedEntities();
+                console.log('Named entities available:', Object.keys(namedEntities));
+                var entity = namedEntities[entityIdForNavigation];
+                console.log('Found entity:', entity);
+                
+                if (entity && entity.collectionId) {
+                    var list = entity.collectionId;
+                    console.log('List collection ID:', list);
+                    
+                    // if (config.globalMenuAvailable) {
+                        evtInterface.updateProperty('tabsContainerOpenedContent', 'entitiesLists');
+                        evtInterface.updateProperty('tabsContainerOpenedTab', list);                
+                    // } else {
+                    //     evtInterface.updateProperty('tabsContainerOpenedContent', list);
+                    // }
+                    evtInterface.updateState('currentNamedEntity', entityIdForNavigation);
+                    setTimeout(function() {
+                        evtList.scrollToElemById(list, entityIdForNavigation);
+                    }, 1000);
+                } else {
+                    console.error('Entity not found or missing collectionId:', entityIdForNavigation);
+                }
             }
             /**
              * @ngdoc method
@@ -444,6 +491,10 @@ angular.module('evtviewer.namedEntity')
                     goToOccurrence    : goToOccurrence,
                     toggleSubContent  : toggleSubContent,
                     isCurrentPageDoc  : isCurrentPageDoc,
+                    
+
+                    
+
 
                     // pin tool
                     isPinAvailable : isPinAvailable,
@@ -451,6 +502,32 @@ angular.module('evtviewer.namedEntity')
                     getPinnedState: getPinnedState,
                     togglePin: togglePin,
                     openEntity: openEntity,
+                    
+                    // Multiple reference tabs functionality
+                    activeReferenceTab : 0,
+                    setActiveReferenceTab : function(index) {
+                        this.activeReferenceTab = index;
+                    },
+                    
+                    loadOccurrencesForEntity : function(entityIndex) {
+                        var vm = this;
+                        if (vm.entity && vm.entity._multiple && vm.entity._entities[entityIndex]) {
+                            var entityId = vm.entity._entities[entityIndex].id || vm.entity._entities[entityIndex]._id;
+                            if (entityId) {
+                                // Use the evtNamedEntitiesParser directly to get occurrences
+                                var documentsCollection = parsedData.getDocuments(),
+                                    documentsIndexes = documentsCollection._indexes || [],
+                                    totOccurrences = [];
+                                for (var i = 0; i < documentsIndexes.length; i++) {
+                                    var currentDoc = documentsCollection[documentsIndexes[i]],
+                                        docPages = evtNamedEntitiesParser.parseEntitiesOccurrences(currentDoc, entityId);
+                                    totOccurrences = totOccurrences.concat(docPages);
+                                }
+                                vm.entity._entities[entityIndex].occurrences = totOccurrences;
+                            }
+                        }
+                    },
+                    
                     lfCenter: center,
                     lfDefaults: lfDefaults,
                     lfMarkers: { mainMarker : mainMarker }

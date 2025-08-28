@@ -112,7 +112,8 @@
 		"ENTITY_TYPE_RELATION": "Relation name",
 		"ENTITY_TYPE_BIBL": "Work",
 		"ENTITY_TYPE_PRINT": "Print Work",
-		"ENTITY_TYPE_MANUSCRIPT": "Manuscript Work",
+        "ENTITY_TYPE_MANUSCRIPT": "Manuscript Work",
+        "ENTITY_TYPE_PRINT": "Print Work",
 		"GENERIC": "Generic List",
 		"LIST": "List",
 		"NO_ELEMENTS": "No elements in this list",
@@ -167,7 +168,13 @@
 		"TEXT_OF_SOURCE_NOT_AVAILABLE": "Text of source {{source}} is not available.",
 		"TEXT_OF_VERSION_NOT_AVAILABLE": "Text of version {{version}} is not available.",
 		"TEXT_OF_WITNESS_NOT_AVAILABLE": "Text of witness {{witness}} is not available.",
-		"TRY_DIFFERENT_BROWSER_OR_CONTACT_DEVS": "Try a different browser or contact the developers."
+		"TRY_DIFFERENT_BROWSER_OR_CONTACT_DEVS": "Try a different browser or contact the developers.",
+		        "NO_MAP_AVAILABLE": "Map not available",
+        "LOAD_OCCURRENCES": "Load Occurrences",
+        "REFERENCE_COUNT_INFO": "{{count}} references",
+        "NO_REFERENCE_DATA": "Unidentified entity",
+        "NO_REFERENCE_DATA_DESC": "This entity has not been identified in the reference system.",
+        "NO_REFERENCE_DATA_NOTE": ""
 	},
 	"NAMED_ENTITIES": {
 		"MORE_INFO": "More Info",
@@ -260,9 +267,13 @@
 	"SELECTS": {
 		"CLEAR": "Clear",
 		"CLEAR_SELECTION": "Clear Selection",
-		"MULTIPLE_OPTIONS_SELECTED": "Multiple options selected",
-		"MULTIPLE_SELECTION": "Multiple Selection",
-		"NAMED_ENTITIES": "Named Entities",
+			"MULTIPLE_OPTIONS_SELECTED": "Multiple options selected",
+	"MULTIPLE_SELECTION": "Multiple Selection",
+	"MULTIPLE_REFERENCES": "Multiple References",
+	"MULTIPLE_REFERENCES_COUNT": "Multiple References ({{count}})",
+	"THIS_REFERENCE_INCLUDES": "This reference includes {{count}} sources:",
+
+	"NAMED_ENTITIES": "Named Entities",
 		"NO_SELECTION": "No Selection",
 		"OPEN_TO_SELECT_ELEMENT": "Open to chose an element to select.",
 		"OTHER_ENTITIES": "Other Entities",

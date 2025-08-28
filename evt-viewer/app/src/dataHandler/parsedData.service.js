@@ -846,6 +846,12 @@ angular.module('evtviewer.dataHandler')
 		 */
 		parsedData.getNamedEntity = function (namedEntityId) {
 			var namedEntity;
+			
+			// Handle multiple entity IDs (space-separated)
+			if (namedEntityId && namedEntityId.includes(' ')) {
+				return parsedData.getMultipleNamedEntities(namedEntityId);
+			}
+			
 			if (namedEntityId) {
 				var namedEntityRefs = namedEntities[namedEntityId];
 				if (namedEntityRefs !== undefined && namedEntityRefs.collectionId !== undefined &&
@@ -856,6 +862,72 @@ angular.module('evtviewer.dataHandler')
 				}
 			}
 			return namedEntity;
+		};
+
+		/**
+		 * @ngdoc method
+		 * @name evtviewer.dataHandler.parsedData#getMultipleNamedEntities
+		 * @methodOf evtviewer.dataHandler.parsedData
+		 *
+		 * @description
+		 * Get a combined object representing multiple named entities.
+		 * @param {string} namedEntityIds Space-separated unique identifiers of named entities
+		 * @returns {Object} Combined object representing multiple entities
+		 */
+		parsedData.getMultipleNamedEntities = function (namedEntityIds) {
+			var entityIds = namedEntityIds.split(' ').filter(function(id) { return id.trim() !== ''; });
+			var combinedEntity = {
+				id: namedEntityIds,
+				label: '',
+				content: {
+					_indexes: []
+				},
+				_multiple: true,
+				_entities: []
+			};
+
+			var labels = [];
+			var validEntities = 0;
+			for (var i = 0; i < entityIds.length; i++) {
+				var entityId = entityIds[i].trim();
+				// Direct lookup to avoid recursive calls
+				var entity = null;
+				var namedEntityRefs = namedEntities[entityId];
+				if (namedEntityRefs !== undefined && namedEntityRefs.collectionId !== undefined &&
+					namedEntityRefs.listKey !== undefined &&
+					namedEntities._collections[namedEntityRefs.collectionId] !== undefined &&
+					namedEntities._collections[namedEntityRefs.collectionId][namedEntityRefs.listKey] !== undefined) {
+					entity = namedEntities._collections[namedEntityRefs.collectionId][namedEntityRefs.listKey][entityId];
+				}
+				
+				if (entity) {
+					combinedEntity._entities.push(entity);
+					labels.push(entity.label || entityId);
+					validEntities++;
+					
+					// Don't merge content - we want to show each entity's content separately
+					// The template will access individual entity content via vm.entity._entities[vm.activeReferenceTab]
+				} else {
+					// If entity not found, still show the ID
+					labels.push(entityId);
+				}
+			}
+			
+			            // Create a better combined label that doesn't mislead users
+            if (validEntities > 1) {
+                // For multiple entities, use a generic but informative label
+                // Note: This will be translated by the template using the translate filter
+                combinedEntity.label = 'SELECTS.MULTIPLE_REFERENCES_COUNT';
+                combinedEntity.labelParams = { count: validEntities };
+            } else if (labels.length > 0) {
+                // Single entity - show its actual name
+                combinedEntity.label = labels[0];
+            } else {
+                // Note: This will be translated by the template using the translate filter
+                combinedEntity.label = 'SELECTS.MULTIPLE_REFERENCES';
+            }
+			
+			return combinedEntity;
 		};
 
 		/**
@@ -1041,7 +1113,7 @@ angular.module('evtviewer.dataHandler')
 				pagesCollection[pageId] = page;
 				pagesCollection.length++;
 				pagesCollection._indexes.push(pageId); // TODO: remove duplicate list of page ids. Use only _indexes.
-				// _console.log('parsedData - addPage ', page);
+
 			} else {
 				var parsedPage = pagesCollection[pageId];
 				if (parsedPage.docs && parsedPage.docs.indexOf(docId) < 0) {
@@ -1336,7 +1408,7 @@ angular.module('evtviewer.dataHandler')
 			if (documentsCollection[docId] === undefined) {
 				documentsCollection._indexes.push(docId);
 				documentsCollection[docId] = doc;
-				// _console.log('parsedData - addDocument ', doc);
+
 			}
 		};
 		/**
@@ -2996,7 +3068,7 @@ angular.module('evtviewer.dataHandler')
 				glyphIndexes[glyphIndexes.length] = glyphId;
 				glyphsCollection[glyphId] = glyph;
 				glyphIndexes.length++;
-				// _console.log('parsedData - addGlyph ', glyph);
+
 			}
 		};
 
@@ -3113,7 +3185,7 @@ angular.module('evtviewer.dataHandler')
 				zoneIndexes[zoneIndexes.length] = zoneId;
 				zonesCollection[zoneId] = zone;
 				zoneIndexes.length++;
-				// _console.log('parsedData - addZone ', zone);
+
 			}
 		};
 

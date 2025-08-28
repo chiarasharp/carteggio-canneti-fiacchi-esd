@@ -105,7 +105,7 @@ angular.module('evtviewer.list')
                 if (entity.length > 0 && entity[0]) {
                     scrollDiv.scrollTop = entity[0].offsetTop;
                 }
-                console.log(scrollDiv.scrollTop)
+
             }
 
             scope.$watch(function() {

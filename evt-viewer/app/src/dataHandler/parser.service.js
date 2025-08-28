@@ -13,8 +13,9 @@
 **/
 angular.module('evtviewer.dataHandler')
 
-	.service('evtParser', ['$q', 'xmlParser', 'parsedData', 'config', function ($q, xmlParser, parsedData, config) {
+	.service('evtParser', ['$q', 'xmlParser', 'parsedData', 'config', '$log', function ($q, xmlParser, parsedData, config, $log) {
 		var parser = {};
+		var _console = $log.getInstance('parser');
 		var idx = 0;
 		var svgs = config.visCollSvg;
 
@@ -451,8 +452,7 @@ angular.module('evtviewer.dataHandler')
 			} else {
 				parsedData.addExternalDocument(newExtDoc, type);
 			}
-			console.log('## Source Documents ##', parsedData.getSourceDocuments());
-			console.log('## External Documents ##', parsedData.getExternalDocuments());
+
 		};
 
 		/**
@@ -796,36 +796,71 @@ angular.module('evtviewer.dataHandler')
 		 * @author CDP
 		 */
 		parser.parseNamedEntity = function (doc, entityNode, skip) {
-			var entityElem = document.createElement('evt-named-entity-ref'),
-				entityRef = entityNode.getAttribute('ref'),
+			var entityRef = entityNode.getAttribute('ref'),
 				entityType = entityNode.getAttribute('type'),
-				entityId = entityRef ? entityRef.replace('#', '') : undefined
 				listType = null;
 
-			if (entityId && entityId !== '') {
-				entityElem.setAttribute('data-entity-id', entityId);
-			}
-			if(entityType != null && entityType != "religious" && entityType != "person") { 
-				entityElem.setAttribute('bibl-type', entityType);
-				listType = entityType;
-			}
-			else {
-				listType = entityNode.tagName ? entityNode.tagName : 'generic';
-			}
-			
-			entityElem.setAttribute('data-entity-type', listType);
+			// Handle multiple references in ref attribute (e.g., ref="#id1 #id2")
+			if (entityRef && entityRef.includes(' ')) {
+				// Multiple references - create a single entity ref with combined IDs
+				var entityElem = document.createElement('evt-named-entity-ref'),
+					entityIds = entityRef.replace(/#/g, '').split(' ').filter(function(id) { return id.trim() !== ''; });
 
-			var entityContent = '';
-			for (var i = 0; i < entityNode.childNodes.length; i++) {
-				var childElement = entityNode.childNodes[i].cloneNode(true),
-					parsedXmlElem;
+				// Store all IDs as a space-separated string for the popup system to handle
+				entityElem.setAttribute('data-entity-id', entityIds.join(' '));
+				entityElem.setAttribute('data-multiple-refs', 'true');
+				
+				if(entityType != null && entityType != "religious" && entityType != "person") { 
+					entityElem.setAttribute('bibl-type', entityType);
+					listType = entityType;
+				}
+				else {
+					listType = entityNode.tagName ? entityNode.tagName : 'generic';
+				}
+				
+				entityElem.setAttribute('data-entity-type', listType);
 
-				parsedXmlElem = parser.parseXMLElement(doc, childElement, {
-					skip: skip
-				});
-				entityElem.appendChild(parsedXmlElem);
+				// Add the original content
+				for (var i = 0; i < entityNode.childNodes.length; i++) {
+					var childElement = entityNode.childNodes[i].cloneNode(true),
+						parsedXmlElem;
+
+					parsedXmlElem = parser.parseXMLElement(doc, childElement, {
+						skip: skip
+					});
+					entityElem.appendChild(parsedXmlElem);
+				}
+				
+				return entityElem;
+			} else {
+				// Single reference - original behavior
+				var entityElem = document.createElement('evt-named-entity-ref'),
+					entityId = entityRef ? entityRef.replace('#', '') : undefined;
+
+				if (entityId && entityId !== '') {
+					entityElem.setAttribute('data-entity-id', entityId);
+				}
+				if(entityType != null && entityType != "religious" && entityType != "person") { 
+					entityElem.setAttribute('bibl-type', entityType);
+					listType = entityType;
+				}
+				else {
+					listType = entityNode.tagName ? entityNode.tagName : 'generic';
+				}
+				
+				entityElem.setAttribute('data-entity-type', listType);
+
+				for (var i = 0; i < entityNode.childNodes.length; i++) {
+					var childElement = entityNode.childNodes[i].cloneNode(true),
+						parsedXmlElem;
+
+					parsedXmlElem = parser.parseXMLElement(doc, childElement, {
+						skip: skip
+					});
+					entityElem.appendChild(parsedXmlElem);
+				}
+				return entityElem;
 			}
-			return entityElem;
 		};
 
 		/**
@@ -939,7 +974,7 @@ angular.module('evtviewer.dataHandler')
 					//TODO: decide how to structure content
 					parsedData.addGlyph(glyph);
 				});
-			console.log('# GLYPHS #', parsedData.getGlyphs());
+
 		};
 		/**
 		 * @ngdoc method
@@ -1024,7 +1059,7 @@ angular.module('evtviewer.dataHandler')
 					} */
 					parsedData.addPage(newPage, docId);
 				});
-			//console.log('## Pages ##', parsedData.getPages());
+
 		};
 		/**
 		 * @ngdoc method
@@ -1145,7 +1180,7 @@ angular.module('evtviewer.dataHandler')
 					}
 				});
 			parsedData.setViscollSVGToLoad(svgToLoad);
-			console.log('## parseViscollDatamodel ##', parsedData.getViscollSvgs());
+
 		};
 
 		parser.parseViscollImageList = function (doc) {
@@ -1362,7 +1397,7 @@ angular.module('evtviewer.dataHandler')
 			try {
 				// Validate input parameters
 				if (!element || !doc) {
-					console.error('parseDocument: Invalid parameters - element:', element, 'doc:', doc);
+					_console.error('parseDocument: Invalid parameters - element:', element, 'doc:', doc);
 					return;
 				}
 				
@@ -1427,9 +1462,9 @@ angular.module('evtviewer.dataHandler')
 					});
 			}
 			} catch (error) {
-				console.error('Error parsing document:', error);
-				console.error('Element:', element);
-				console.error('Document:', doc);
+				_console.error('Error parsing document:', error);
+				_console.error('Element:', element);
+				_console.error('Document:', doc);
 			}
 		}
 
