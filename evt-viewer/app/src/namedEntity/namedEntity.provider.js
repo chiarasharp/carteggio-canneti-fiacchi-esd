@@ -253,7 +253,7 @@ angular.module('evtviewer.namedEntity')
             };
             var openEntity = function() {
                 var vm = this;
-                console.log('openEntity called with entityId:', vm.entityId, 'activeReferenceTab:', vm.activeReferenceTab);
+                //console.log('openEntity called with entityId:', vm.entityId, 'activeReferenceTab:', vm.activeReferenceTab);
                 
                 // var secondaryContent = config.globalMenuAvailable ? 'toc' : 'entitiesList';
                 var secondaryContent = 'toc';

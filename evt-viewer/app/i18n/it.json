@@ -131,7 +131,14 @@
 		"RELATION_PASSIVE": "Passivo",
 		"RELATION_ACTIVE_ROLE": "Ruolo attivo in una relazione \"{{relationType}}\"",
 		"RELATION_MUTUAL_ROLE": "Ruolo mutuale in una relazione \"{{relationType}}\"",
-		"RELATION_PASSIVE_ROLE": "Ruolo passivo in una relazione \"{{relationType}}\""
+		"RELATION_PASSIVE_ROLE": "Ruolo passivo in una relazione \"{{relationType}}\"",
+		"CONFIG_PERSNAME": "Persone",
+		"CONFIG_PLACENAME": "Luoghi",
+		"CONFIG_ORGNAME": "Organizzazioni",
+		"CONFIG_RS": "Persone (Indirette)",
+		"CONFIG_PRINT": "Opere a Stampa",
+		"CONFIG_MANUSCRIPT": "Manoscritti",
+		"CONFIG_BIBL": "Altre Opere"
 	},
 	"MAIN_MENU": {
 		"GENERATE_BOOKMARK": "Genera Segnalibro",
@@ -198,6 +205,7 @@
 		"EDITOR": "Editore",
 		"EDITORIAL_DECL": "Principi e pratiche editoriali",
 		"ENCODING_METHOD_USED": "In questa edizione è stato utilizzato il metodo \"{{method}}\" per la codifica delle varianti critiche.",
+		"TITLE": "Edizione Digitale Carteggio Canneti Fiacchi",
 		"EXTENT": "Grandezza approssimativa del documento elettronico",
 		"FUNDER": "Finanziatore",
 		"HAND_DESC": "Descrizione delle mani",
@@ -275,6 +283,8 @@
 	"THIS_REFERENCE_INCLUDES": "Questo riferimento include {{count}} fonti:",
 
 	"NAMED_ENTITIES": "Named Entities",
+	"SELECT_NAMED_ENTITIES": "Seleziona entità",
+	"SELECTED_COUNT": "selezionate",
 		"NO_SELECTION": "Nessuna Selezione",
 		"OPEN_TO_SELECT_ELEMENT": "Apri il selettore per scegliere un elemento da selezionare.",
 		"OTHER_ENTITIES": "Altre Entità",
@@ -284,7 +294,9 @@
 		"SELECT_ALL_TYPES": "Seleziona tutte le tipologie",
 		"ALL_DIRECTORIES": "Tutte le Buste",
 		"SHOW_ALL_DOCUMENTS": "Mostra documenti da tutte le directory",
-		"SHOW_DOCUMENTS_FROM": "Mostra documenti da {{directory}}"
+		"SHOW_DOCUMENTS_FROM": "Mostra documenti da {{directory}}",
+		"BUSTA_10": "Busta 10",
+		"BUSTA_11": "Busta 11"
 	},
 	"SOURCES": {
 		"BIBLIOGRAPHIC_REFERENCE": "Riferimento Bibliografico",

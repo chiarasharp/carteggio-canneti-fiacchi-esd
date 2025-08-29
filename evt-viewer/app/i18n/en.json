@@ -130,7 +130,17 @@
 		"RELATION_PASSIVE": "Passive",
 		"RELATION_ACTIVE_ROLE": "Active role in a \"{{relationType}}\" relation",
 		"RELATION_MUTUAL_ROLE": "Mutual role in a \"{{relationType}}\" relation",
-		"RELATION_PASSIVE_ROLE": "Passive role in a \"{{relationType}}\" relation"
+		"RELATION_PASSIVE_ROLE": "Passive role in a \"{{relationType}}\" relation",
+		"CONFIG_PERSON": "People",
+		"CONFIG_PLACE": "Places",
+		"CONFIG_ORG": "Organizations",
+		"CONFIG_PERSNAME": "People",
+		"CONFIG_PLACENAME": "Places",
+		"CONFIG_ORGNAME": "Organizations",
+		"CONFIG_RS": "Indirectly Cited People",
+		"CONFIG_PRINT": "Printed Works",
+		"CONFIG_MANUSCRIPT": "Manuscripts",
+		"CONFIG_BIBL": "Other Works"
 	},
 	"MAIN_MENU": {
 		"GENERATE_BOOKMARK": "Get Bookmark",
@@ -197,6 +207,7 @@
 		"EDITOR": "Editor",
 		"EDITORIAL_DECL": "Editorial principles and practices",
 		"ENCODING_METHOD_USED": "This edition is using \"{{method}} method\" to encode text-critical variants.",
+	"TITLE": "Digital Edition Canneti Fiacchi Correspondence",
 		"EXTENT": "Approximate size of digital text",
 		"FUNDER": "Funder",
 		"HAND_DESC": "Description of Hands",
@@ -274,6 +285,8 @@
 	"THIS_REFERENCE_INCLUDES": "This reference includes {{count}} sources:",
 
 	"NAMED_ENTITIES": "Named Entities",
+	"SELECT_NAMED_ENTITIES": "Select Named Entities",
+	"SELECTED_COUNT": "selected",
 		"NO_SELECTION": "No Selection",
 		"OPEN_TO_SELECT_ELEMENT": "Open to chose an element to select.",
 		"OTHER_ENTITIES": "Other Entities",
@@ -281,9 +294,11 @@
 		"SELECT_ALL": "Select All",
 		"SELECT_ALL_NAMED_ENTITIES": "Select All Named Entities",
 		"SELECT_ALL_TYPES": "Select All Types",
-		"ALL_DIRECTORIES": "All Envelopes",
+		"ALL_DIRECTORIES": "All folders",
 		"SHOW_ALL_DOCUMENTS": "Show documents from all directories",
-		"SHOW_DOCUMENTS_FROM": "Show documents from {{directory}}"
+		"SHOW_DOCUMENTS_FROM": "Show documents from {{directory}}",
+		"BUSTA_10": "Folder 10",
+		"BUSTA_11": "Folder 11"
 	},
 	"SOURCES": {
 		"BIBLIOGRAPHIC_REFERENCE": "Bibliographic Reference",

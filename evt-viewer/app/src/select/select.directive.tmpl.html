@@ -7,9 +7,9 @@
       data-value="{{ vm.getOptionSelected().value }}">
       <span ng-if="vm.currentType === 'named-entities'">
         <i class="fa fa-tags" style="margin-right: 4px;"></i>
-        Seleziona entità
+        {{ 'SELECTS.SELECT_NAMED_ENTITIES' | translate }}
         <span ng-if="vm.optionSelected && vm.optionSelected.length > 0 && vm.optionSelected[0].value !== '' && vm.optionSelected[0].value !== 'NONE' && vm.optionSelected[0].value !== 'ALL'">
-          ({{vm.optionSelected.length}} selezionate)
+          ({{vm.optionSelected.length}} {{ 'SELECTS.SELECTED_COUNT' | translate }})
         </span>
       </span>
       <span ng-if="vm.currentType !== 'named-entities'">

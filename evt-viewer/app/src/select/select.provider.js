@@ -52,14 +52,14 @@ angular.module('evtviewer.select')
 				}
 
 				if (directory.endsWith('/busta-10') || directory === 'busta-10') {
-					label = 'Busta 10';
-					title = 'Show documents from Busta 10';
+					label = 'SELECTS.BUSTA_10';
+					title = 'SELECTS.SHOW_DOCUMENTS_FROM';
 				} else if (directory.endsWith('/busta-11') || directory === 'busta-11') {
-					label = 'Busta 11';
-					title = 'Show documents from Busta 11';
+					label = 'SELECTS.BUSTA_11';
+					title = 'SELECTS.SHOW_DOCUMENTS_FROM';
 				} else {
 					label = directory;
-					title = 'Show documents from ' + directory;
+					title = 'SELECTS.SHOW_DOCUMENTS_FROM';
 				}
 
 				return {
@@ -361,8 +361,8 @@ angular.module('evtviewer.select')
 							// Add an option for 'All Directories'
 							formattedList.push({
 								value: '',
-								label: $translate.instant('SELECTS.ALL_DIRECTORIES'),
-								title: $translate.instant('SELECTS.SHOW_ALL_DOCUMENTS')
+								label: 'SELECTS.ALL_DIRECTORIES',
+								title: 'SELECTS.SHOW_ALL_DOCUMENTS'
 							});
 							for (var i = 0; i < directories.length; i++) {
 								var directory = directories[i];
@@ -519,12 +519,14 @@ angular.module('evtviewer.select')
 										if (type === 'namedEntity') {
 											icon = parsedData.getNamedEntityTypeIcon(currentOption.tagName) || icon;
 										}
+										// Map tag names to translation keys
+										var translationKey = 'LISTS.CONFIG_' + currentOption.tagName.toUpperCase();
 										var option = {
 											icon: icon,
 											type: type,
 											value: currentOption.tagName,
-											label: currentOption.label,
-											title: currentOption.label,
+											label: translationKey,
+											title: translationKey,
 											color: currentOption.color
 										};
 										formattedList.push(option);

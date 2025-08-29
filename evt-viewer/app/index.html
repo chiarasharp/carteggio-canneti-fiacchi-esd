@@ -19,7 +19,7 @@
 		<![endif]-->
 	<header>
 		<img class="logo" ng-if="getProperty('logoUrl') !== ''" ng-src="{{getProperty('logoUrl')}}" />
-		{{ getProperty('indexTitle') }}
+		        {{ getProperty('indexTitle') | translate }}
 		<a class="webSiteLink" ng-if="getProperty('webSite') !== ''" href="{{getWebSite()}}" target="_blank">
 			<i class="fa fa-external-link"></i>
 		</a>

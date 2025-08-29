@@ -300,7 +300,10 @@ angular.module('evtviewer.box')
 				 */
 				var fontSize = function () {
 					var vm = this;
-					return 'font-size:' + vm.state.fontSize + '%' || '';
+					var size = vm.state.fontSize || 100;
+					// Ensure font size stays within bounds
+					size = Math.max(60, Math.min(150, parseInt(size)));
+					return 'font-size:' + size + '%';
 				};
 				/**
 				 * @ngdoc method
@@ -314,7 +317,10 @@ angular.module('evtviewer.box')
 				 */
 				var fontSizeIncrease = function () {
 					var vm = this;
-					vm.state.fontSize = parseInt(vm.state.fontSize) + 4;
+					var currentSize = parseInt(vm.state.fontSize);
+					var newSize = currentSize + 4;
+					// Set maximum font size to 150% (1.5x normal size)
+					vm.state.fontSize = Math.min(newSize, 150);
 				};
 				/**
 				 * @ngdoc method
@@ -328,8 +334,10 @@ angular.module('evtviewer.box')
 				 */
 				var fontSizeDecrease = function () {
 					var vm = this;
-					vm.state.fontSize = parseInt(vm.state.fontSize) - 4;
-
+					var currentSize = parseInt(vm.state.fontSize);
+					var newSize = currentSize - 4;
+					// Set minimum font size to 60% (0.6x normal size)
+					vm.state.fontSize = Math.max(newSize, 60);
 				};
 				/**
 				 * @ngdoc method

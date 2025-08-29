@@ -525,6 +525,15 @@ angular.module('evtviewer.interface')
              * @returns {any} value of property "name"
              */
             mainInterface.getProperty = function (name) {
+                if (name === 'indexTitle') {
+                    // Return translated title based on current language
+                    var currentLang = evtTranslation.getCurrentLanguage();
+                    if (currentLang === 'en') {
+                        return 'PROJECT_INFO.TITLE';
+                    } else {
+                        return properties[name];
+                    }
+                }
                 return properties[name];
             };
 

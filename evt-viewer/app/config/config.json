@@ -101,7 +101,7 @@
                     "tagName":"rs",
                     "label":"Persone (Indirette)",
                     "available":true,
-                    "color":"rgb(255,255,204)"
+                    "color":"rgb(255,231,204)"
                 },
                 {
                     "tagName":"print",
