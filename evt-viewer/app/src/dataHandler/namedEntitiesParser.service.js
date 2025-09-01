@@ -116,9 +116,12 @@ angular.module('evtviewer.dataHandler')
 											type: listType,
 											title: listTitle
 										};
+										// Skip staff entities - hide them from lists
 										if (elemtnType === 'staff') {
-											defCollection.title = 'LISTS.STAFF';
+											// Don't process staff entities, skip to next element
+											return;
 										}
+										
 										angular.forEach(element.childNodes, function (child) {
 											if (child.nodeType === 1) {
 												var collection = parseCollectionData(child, defCollection);
@@ -148,8 +151,10 @@ angular.module('evtviewer.dataHandler')
 											title: listTitle
 										};
 
+										// Skip staff entities - hide them from lists
 										if (elemtnType === 'staff') {
-											defCollection.title = 'LISTS.STAFF';
+											// Don't process staff entities, skip to next element
+											return;
 										}
 
 										angular.forEach(element.childNodes, function (child) {
@@ -191,7 +196,7 @@ angular.module('evtviewer.dataHandler')
 				});
 			}
 
-			console.log('## parseEntities ##', parsedData.getNamedEntitiesCollection());
+			// console.log('## parseEntities ##', parsedData.getNamedEntitiesCollection());
 		};
 		/**
 		 * @ngdoc method

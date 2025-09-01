@@ -158,7 +158,7 @@ angular.module('evtviewer.mobile')
         currentTextModeDipl = currentEditionTemplate;
         mobile.switchEditionDipl(currentEditionTemplate);
         // TODO: use $log for _console
-        console.log('Switch edition ' + currentEditionTemplate);
+        // console.log('Switch edition ' + currentEditionTemplate);
     };
 
 
@@ -172,7 +172,7 @@ angular.module('evtviewer.mobile')
         currentTextModeInt = currentEditionTemplate;
         mobile.switchEditionInt(currentEditionTemplate);
         // TODO: use $log for _console
-        console.log('Switch edition ' + currentEditionTemplate);
+        // console.log('Switch edition ' + currentEditionTemplate);
     };
 
     /**

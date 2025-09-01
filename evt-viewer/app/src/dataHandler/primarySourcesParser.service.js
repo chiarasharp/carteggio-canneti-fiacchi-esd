@@ -56,7 +56,7 @@ angular.module('evtviewer.dataHandler')
 					}
 				});
 		});
-		console.log('## ZONES ##', parsedData.getZones());
+		// console.log('## ZONES ##', parsedData.getZones());
 	};
 
 	return parser;

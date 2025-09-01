@@ -66,6 +66,7 @@
          <change when-iso="2024-08-29" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2024-09-18" who="#DLCL_CF_PS001">correzioni</change>
          <change when-iso="2024-11-25" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2025-08-22" who="#DLCL_CF_PS001">correzioni</change>
       </revisionDesc>
    </front><body>
          <div type="transcription">
@@ -173,7 +174,7 @@
                
                <p>
                   Al Molto Reverendo Padre mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
-                  <placeName ref="#DLCL_CF_L0109">Savignano per Ribano</placeName>
+                  <placeName ref="#DLCL_CF_L0006">Savignano per Ribano</placeName>
                </p>
             </postscript>
          </div>

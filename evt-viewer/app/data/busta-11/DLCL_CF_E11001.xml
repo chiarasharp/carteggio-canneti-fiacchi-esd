@@ -1,0 +1,132 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11001">
+   <facsimile sameAs="https://classense.unibo.it/iiif/2/20633/manifest">
+      <graphic n="1r" url="https://classense.unibo.it/iiif/2/24771/full/605,800/0/default.jpg"/>
+      <graphic n="1v" url="https://classense.unibo.it/iiif/2/20816/full/566,800/0/default.jpg"/>
+      <graphic n="2r" url="https://classense.unibo.it/iiif/2/24832/full/594,800/0/default.jpg"/>
+      <graphic n="2v" url="https://classense.unibo.it/iiif/2/24833/full/580,800/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11001">
+      <front>
+         <fileDesc>
+            <titleStmt>
+               <title xml:lang="it">Canneti a Fiacchi (Ribano, 31 Ottobre 1711)</title>
+               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+               </availability>
+            </publicationStmt>
+            <seriesStmt>
+               <title type="main">Carteggio Canneti Fiacchi</title>
+               <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+               <biblScope unit="letter">1</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country key="IT">Italia</country>
+                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                     <repository></repository>
+                     <collection></collection>
+                     <idno></idno>
+                     <altIdentifier>
+                        <idno></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <incipit>Con la gratissima lettera di V.P. ricevo la nota de' libri di Faenza e insieme la certa notizia...</incipit>
+                     </msItem>
+                  </msContents>
+               </msDesc>
+               <xi:include href="../../entities/prints.xml"/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+                  <date when-iso="1711-10-31"/>
+                  <placeName ref="#DLCL_CF_L0006" key="DLCL_CF_L0006">Ribano</placeName>
+               </correspAction>
+               <correspAction type="received">
+                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+               </correspAction>
+            </correspDesc>
+            <langUsage>
+               <language ident="it"/>
+            </langUsage>        
+         </profileDesc>
+         <revisionDesc status="created">
+            <change when-iso="2024-01-02" who="#DLCL_CF_PS001">creato</change>
+            <change when-iso="2024-01-29" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-04-16" who="#DLCL_CF_PS001">correzioni e riferimenti stampe</change>
+            <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2024-11-20" who="#DLCL_CF_PS001">nuove trascrizioni buste</change>
+         </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            
+            <pb xml:id="DLCL_CF_E11001_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/88fb79b59430e484857c54822f275880fd08b689.jpg"/>
+            
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            
+            <p>
+               Con la gratissima lettera di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> 
+               ricevo la nota de' libri di <placeName ref="#DLCL_CF_L0005" key="DLCL_CF_L0005">Faenza</placeName> 
+               e insieme la certa notizia dell'offerta già fatta dal mio <persName ref="#DLCL_CF_PC0004" key="DLCL_CF_PC0004">Marozzi.</persName> 
+               Con questo lume ora potrò regolarmi nel rispondere alla richiesta di dieci scudi. 
+               Mi spiace che ancora non siano giunti i <bibl type="manuscript" ref="#DLCL_CF_BM0001 #DLCL_CF_BM0002">due Manoscritti del Quadriregio;</bibl> 
+               perché non avrò costì l’ozio, che qui posso godere, per collazionarli con lo stampato. 
+               Avrò caro che presto arrivino i libri del <persName ref="#DLCL_CF_PC0005" key="DLCL_CF_PC0005">Ruinetti.</persName> 
+               Raccomando a <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> sollecitare la copia del <bibl type="religious">Calendario;</bibl> 
+               la qual fatta consegni subito al <rs type="person">Padre Camerlingo</rs> per la stampa. 
+               Indi converrà ch’ella applichi a fare il <bibl type="manuscript">Catalogo della Libreria Vecchia.</bibl> 
+               Con che raccomandandomi a suoi santi sagrifici, ed alle orazioni sue, mi confermo.
+            </p>
+            
+            <closer>
+               <dateline><placeName ref="#DLCL_CF_L0006" key="DLCL_CF_L0006">Ribano</placeName> <date when-iso="1711-10-31">31 ottobre 1711</date>.</dateline>
+               <salute>DVP</salute>
+            </closer>
+            
+            <postscript>
+               <p>
+                  Mi scrive il <persName ref="#DLCL_CF_PC0006" key="DLCL_CF_PC0006">Padre Amici</persName> che siano giunte 
+                  a <persName ref="#DLCL_CF_PC0007" key="DLCL_CF_PC0007">Don Bonifacio</persName> le tre copie del <bibl type="print" ref="#DLCL_CF_BS0001">Martelli.</bibl> 
+                  Faccia sapere a lui che si faccia venire da <rs type="person">quel Padre</rs> del <orgName ref="#DLCL_CF_O0003" key="DLCL_CF_O0003">Monte di Cesena</orgName> 
+                  la Copia delle <bibl ref="#DLCL_CF_BM0003" type="manuscript">Ipercrisi</bibl> del <persName ref="#DLCL_CF_PC0009" key="DLCL_CF_PC0009">Bacchini.</persName> 
+                  Veda col <rs type="person">Padre Camerlengo,</rs> che ha la chiave, trovare delle nostre camere due copie 
+                  del <bibl type="print" ref="#DLCL_CF_BS0002">Catullo</bibl> del <persName ref="#DLCL_CF_PC0011" key="DLCL_CF_PC0011">Volpi</persName> legato alla rustica; 
+                  e le mandi al <persName ref="#DLCL_CF_PC0006" key="DLCL_CF_PC0006">Padre Amici.</persName>  
+               </p>
+            </postscript>
+            
+            <closer>
+               <salute>Cordialissimo Padre nel Signore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName></signed>
+            </closer>
+            
+            <pb xml:id="DLCL_CF_E11001_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20633/DSC_5580.jpg"/>
+            
+            <pb xml:id="DLCL_CF_E11001_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/02b670944cc4d306b96efa29b4a4e10ccea5430f.jpg"/>
+            
+            <pb xml:id="DLCL_CF_E11001_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/0870a546cbe37ec8e6654e6a804c6ac6a3afcba3.jpg"/>
+            
+            <postscript>
+               <p>
+                  Al Molto Reverendo Padre mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

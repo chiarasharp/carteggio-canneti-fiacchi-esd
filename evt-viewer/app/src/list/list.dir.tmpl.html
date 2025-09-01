@@ -8,11 +8,27 @@
             </span>
         </div>
         <div class="evt-list__content">
-            <div class="scrollableDiv" infinite-scroll="vm.loadMoreElements()" infinite-scroll-distance="2" infinite-scroll-parent="true">
+            <div 
+                class="scrollableDiv" 
+                ng-class="{'no-scroll': vm.isNamedEntitiesList}"
+                ng-if="!vm.isNamedEntitiesList">
                 <evt-named-entity 
                     data-entity-id="{{::element}}" data-entity-type="{{::vm.listType}}"
                     ng-repeat="element in vm.visibleElements | orderBy ">
                 </evt-named-entity>
+            </div>
+            <div 
+                class="scrollableDiv no-scroll"
+                ng-if="vm.isNamedEntitiesList">
+                <evt-named-entity 
+                    data-entity-id="{{::element}}" data-entity-type="{{::vm.listType}}"
+                    ng-repeat="element in vm.visibleElements | orderBy ">
+                </evt-named-entity>
+            </div>
+            <div ng-if="vm.isNamedEntitiesList">
+                <button ng-disabled="vm.currentPage === 1" ng-click="vm.prevPage()" style="margin: 10px 5px;">{{ 'BUTTONS.PAGE_PREVIOUS' | translate }}</button>
+                <span>{{ 'PAGINATION.PAGE_OF' | translate:{ current: vm.currentPage, total: vm.totalPages } }}</span>
+                <button ng-disabled="vm.currentPage === vm.totalPages" ng-click="vm.nextPage()" style="margin: 10px 5px;">{{ 'BUTTONS.PAGE_NEXT' | translate }}</button>
             </div>
         </div>
     </div>

@@ -41,8 +41,7 @@ angular.module('evtviewer.dataHandler')
                 parser.parseMsDescription(element);
                 parser.parselistObjectDescription(element);
         });
-        console.log('## parseProjectInfo ##', parsedData.getProjectInfo());
-        //console.log('## parseProjectInfo ##');
+        // console.log('## parseProjectInfo ##', parsedData.getProjectInfo());
     };
 
     var editionStmt     = '<editionStmt>', //dichiarazione sul titolo
@@ -268,7 +267,7 @@ angular.module('evtviewer.dataHandler')
               var listObjectContent = evtParser.parseXMLElement(TEI, element, { skip: skipElementsFromParser, exclude: skipElementsFromInfo, context:'projectInfo' }).outerHTML;
               parsedData.updateProjectInfoContent(listObjectContent, 'listObject');
       });
-       console.log('## parselistObjectDescription ##', parsedData.getProjectInfo().listObject);
+               // console.log('## parselistObjectDescription ##', parsedData.getProjectInfo().listObject);
   };
     return parser;
 }]);

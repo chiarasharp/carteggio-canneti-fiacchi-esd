@@ -151,6 +151,30 @@ angular.module('evtviewer.select')
                 }, function(newItem, oldItem) {
                     if (oldItem !== newItem) {
                         currentSelect.selectOptionByValue(newItem);
+                        // Find the page selector instance and update its options
+                        var pageSelect = evtSelect.getById('pageSelectId'); // Assuming 'pageSelectId' is the ID of the page selector
+                        if (pageSelect && parsedData.documentsCollection[newItem]) {
+                            var docPages = parsedData.documentsCollection[newItem].pages;
+                            var pageOptions = docPages.map(function(pageId) {
+                                var page = parsedData.pagesCollection[pageId];
+                                return pageSelect.formatOption(page);
+                            });
+                            pageSelect.optionList = pageOptions;
+                            // Optionally, reset the selected page to the first page of the new document
+                            if (pageOptions.length > 0) {
+                                pageSelect.selectOption(pageOptions[0]);
+                            }
+                        }
+                    }
+                }, true);
+            }
+
+            if (scope.type === 'directory') {
+                scope.$watch(function() {
+                    return evtInterface.getState('currentDirectoryFilter');
+                }, function(newItem, oldItem) {
+                    if (oldItem !== newItem) {
+                        currentSelect.selectOptionByValue(newItem);
                     }
                 }, true);
             }

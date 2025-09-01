@@ -140,8 +140,9 @@
       }
 
       .search-result {
-         display: none;
+         display: block;
          margin-bottom: 30px;
+         background: #fffae6 !important; /* TEMP: pale yellow for visibility */
 
          .original-text {
             display: block;
@@ -149,6 +150,7 @@
             strong {
                color: $search-result-item;
             }
+            background: #ffe6e6 !important; /* TEMP: pale red for visibility */
          }
 
          .resultInfo {
@@ -181,4 +183,10 @@
    .ui-keyboard-input-current {
       @include noBoxShadow();
    }
+}
+
+.current-highlight {
+   background: #ffe066 !important;
+   border: 2px solid #ff9900 !important;
+   border-radius: 3px;
 }

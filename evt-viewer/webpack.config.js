@@ -21,6 +21,7 @@ module.exports = {
          { from: 'i18n', to: 'i18n' },
          { from: 'config', to: 'config' },
          { from: 'js-plugins', to: 'js-plugins' },
+         { from: 'data', to: 'data' },
       ]),
       new webpack.ProvidePlugin({
          $: 'jquery',

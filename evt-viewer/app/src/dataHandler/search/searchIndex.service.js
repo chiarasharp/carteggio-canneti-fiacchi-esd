@@ -5,7 +5,7 @@ angular.module('evtviewer.dataHandler')
       this.index = {};
 
       Index.prototype.createIndex = function (parsedElementsForIndexing) {
-         console.time('INDEX TIME');
+         // console.time('INDEX TIME');
 
          var document;
          this.index = lunr(function () {
@@ -48,7 +48,7 @@ angular.module('evtviewer.dataHandler')
                }
             }
          });
-         console.timeEnd('INDEX TIME');
+         // console.timeEnd('INDEX TIME');
          return this.index;
       };
 

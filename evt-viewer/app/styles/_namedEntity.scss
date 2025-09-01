@@ -884,3 +884,163 @@ $biblColor-darker: #f9aeae;
         right: -7px;
     }
 }
+
+// Multiple entity references styling
+.namedEntityRef[data-multiple-refs="true"] {
+    position: relative;
+    
+    &:after {
+        content: " ⁺";
+        font-size: 0.8em;
+        vertical-align: super;
+        color: #666;
+        margin-left: 1px;
+    }
+}
+
+// No reference data popup styling - similar to normal entity popups
+.namedEntityRef__no-data-popup {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    background: rgba($base-color-light, .9);
+    border: 1.5px solid $base-color-dark;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgba($base-color-dark, .6);
+    min-width: 200px;
+    max-width: 250px;
+    z-index: 99;
+    
+    .namedEntityRef__no-data-header {
+        background: $base-color-dark;
+        padding: 8px 12px;
+        border-radius: 3px 3px 0 0;
+        
+        i {
+            color: white;
+            margin-right: 6px;
+        }
+        
+        .namedEntityRef__no-data-title {
+            font-weight: 600;
+            color: white;
+            font-size: 0.9em;
+        }
+    }
+    
+    .namedEntityRef__no-data-content {
+        padding: 10px 12px;
+        
+        p {
+            margin: 0;
+            color: $base-color-dark;
+            line-height: 1.3;
+            font-size: 0.85em;
+        }
+    }
+}
+
+// Reference selection tabs for multiple entities
+.namedEntity__reference-tabs {
+    margin-bottom: 10px;
+    
+    .namedEntity__reference-tab-headers {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+        border-bottom: 3px double $base-color-middle;
+        margin-bottom: 10px;
+        max-height: 120px;
+        overflow-y: auto;
+        
+        // Custom scrollbar for webkit browsers
+        &::-webkit-scrollbar {
+            height: 6px;
+        }
+        
+        &::-webkit-scrollbar-track {
+            background: $named-entities-background-color;
+        }
+        
+        &::-webkit-scrollbar-thumb {
+            background: $named-entities-border-color;
+            border-radius: 3px;
+        }
+        
+        &::-webkit-scrollbar-thumb:hover {
+            background: darken($named-entities-border-color, 10%);
+        }
+        
+        .namedEntity__reference-tab-header {
+            padding: 5px 10px;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 90%;
+            border-left: 1px solid $named-entities-background-color-darker;
+            background-color: $named-entities-background-color;
+            transition: all 0.2s ease;
+            min-width: 120px;
+            max-width: 200px;
+            text-align: center;
+            flex-shrink: 0;
+            
+            &:first-child {
+                border-left: none;
+            }
+            
+            &:hover {
+                background-color: $named-entities-background-color-darker;
+            }
+            
+            &.active {
+                @include set(box-shadow, inset 0 2px 2px -1px $named-entities-border-color);
+                background-color: $named-entities-background-color-darker;
+                border-right: 1px solid $named-entities-background-color-darker;
+                
+                &:not(:first-child) {
+                    border-left: 1px solid $named-entities-background-color-darker;
+                }
+                
+                + .namedEntity__reference-tab-header {
+                    border-left: none;
+                }
+            }
+            
+            .namedEntity__reference-tab-title {
+                font-size: 0.85em;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: block;
+                line-height: 1.2;
+            }
+        }
+        
+        // Responsive behavior for many tabs
+        @media (max-width: 768px) {
+            .namedEntity__reference-tab-header {
+                min-width: 100px;
+                max-width: 150px;
+                font-size: 85%;
+                
+                .namedEntity__reference-tab-title {
+                    font-size: 0.8em;
+                }
+            }
+        }
+    }
+    
+    // Reference count indicator
+    .namedEntity__reference-count {
+        text-align: right;
+        margin-top: 2px;
+        padding: 1px 6px;
+        
+        small {
+            font-size: 0.7em;
+            color: lighten($named-entities-border-color, 15%);
+            font-style: italic;
+        }
+    }
+}
+

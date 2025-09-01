@@ -112,7 +112,8 @@
 		"ENTITY_TYPE_RELATION": "Relation name",
 		"ENTITY_TYPE_BIBL": "Work",
 		"ENTITY_TYPE_PRINT": "Print Work",
-		"ENTITY_TYPE_MANUSCRIPT": "Manuscript Work",
+        "ENTITY_TYPE_MANUSCRIPT": "Manuscript Work",
+        "ENTITY_TYPE_PRINT": "Print Work",
 		"GENERIC": "Generic List",
 		"LIST": "List",
 		"NO_ELEMENTS": "No elements in this list",
@@ -129,7 +130,17 @@
 		"RELATION_PASSIVE": "Passive",
 		"RELATION_ACTIVE_ROLE": "Active role in a \"{{relationType}}\" relation",
 		"RELATION_MUTUAL_ROLE": "Mutual role in a \"{{relationType}}\" relation",
-		"RELATION_PASSIVE_ROLE": "Passive role in a \"{{relationType}}\" relation"
+		"RELATION_PASSIVE_ROLE": "Passive role in a \"{{relationType}}\" relation",
+		"CONFIG_PERSON": "People",
+		"CONFIG_PLACE": "Places",
+		"CONFIG_ORG": "Organizations",
+		"CONFIG_PERSNAME": "People",
+		"CONFIG_PLACENAME": "Places",
+		"CONFIG_ORGNAME": "Organizations",
+		"CONFIG_RS": "Indirectly Cited People",
+		"CONFIG_PRINT": "Printed Works",
+		"CONFIG_MANUSCRIPT": "Manuscripts",
+		"CONFIG_BIBL": "Other Works"
 	},
 	"MAIN_MENU": {
 		"GENERATE_BOOKMARK": "Get Bookmark",
@@ -167,7 +178,13 @@
 		"TEXT_OF_SOURCE_NOT_AVAILABLE": "Text of source {{source}} is not available.",
 		"TEXT_OF_VERSION_NOT_AVAILABLE": "Text of version {{version}} is not available.",
 		"TEXT_OF_WITNESS_NOT_AVAILABLE": "Text of witness {{witness}} is not available.",
-		"TRY_DIFFERENT_BROWSER_OR_CONTACT_DEVS": "Try a different browser or contact the developers."
+		"TRY_DIFFERENT_BROWSER_OR_CONTACT_DEVS": "Try a different browser or contact the developers.",
+		        "NO_MAP_AVAILABLE": "Map not available",
+        "LOAD_OCCURRENCES": "Load Occurrences",
+        "REFERENCE_COUNT_INFO": "{{count}} references",
+        "NO_REFERENCE_DATA": "Unidentified entity",
+        "NO_REFERENCE_DATA_DESC": "This entity has not been identified in the reference system.",
+        "NO_REFERENCE_DATA_NOTE": ""
 	},
 	"NAMED_ENTITIES": {
 		"MORE_INFO": "More Info",
@@ -190,6 +207,7 @@
 		"EDITOR": "Editor",
 		"EDITORIAL_DECL": "Editorial principles and practices",
 		"ENCODING_METHOD_USED": "This edition is using \"{{method}} method\" to encode text-critical variants.",
+	"TITLE": "Digital Edition Canneti Fiacchi Correspondence",
 		"EXTENT": "Approximate size of digital text",
 		"FUNDER": "Funder",
 		"HAND_DESC": "Description of Hands",
@@ -260,16 +278,27 @@
 	"SELECTS": {
 		"CLEAR": "Clear",
 		"CLEAR_SELECTION": "Clear Selection",
-		"MULTIPLE_OPTIONS_SELECTED": "Multiple options selected",
-		"MULTIPLE_SELECTION": "Multiple Selection",
-		"NAMED_ENTITIES": "Named Entities",
+			"MULTIPLE_OPTIONS_SELECTED": "Multiple options selected",
+	"MULTIPLE_SELECTION": "Multiple Selection",
+	"MULTIPLE_REFERENCES": "Multiple References",
+	"MULTIPLE_REFERENCES_COUNT": "Multiple References ({{count}})",
+	"THIS_REFERENCE_INCLUDES": "This reference includes {{count}} sources:",
+
+	"NAMED_ENTITIES": "Named Entities",
+	"SELECT_NAMED_ENTITIES": "Select Named Entities",
+	"SELECTED_COUNT": "selected",
 		"NO_SELECTION": "No Selection",
 		"OPEN_TO_SELECT_ELEMENT": "Open to chose an element to select.",
 		"OTHER_ENTITIES": "Other Entities",
 		"SEE_FULL_TEXT": "See full text",
 		"SELECT_ALL": "Select All",
 		"SELECT_ALL_NAMED_ENTITIES": "Select All Named Entities",
-		"SELECT_ALL_TYPES": "Select All Types"
+		"SELECT_ALL_TYPES": "Select All Types",
+		"ALL_DIRECTORIES": "All folders",
+		"SHOW_ALL_DOCUMENTS": "Show documents from all directories",
+		"SHOW_DOCUMENTS_FROM": "Show documents from {{directory}}",
+		"BUSTA_10": "Folder 10",
+		"BUSTA_11": "Folder 11"
 	},
 	"SOURCES": {
 		"BIBLIOGRAPHIC_REFERENCE": "Bibliographic Reference",
@@ -380,5 +409,8 @@
 		"SHOW_EDGES": "Show edges",
 		"SHOW_SECTION_PLANES": "Show Section Planes",
 		"SHOW_SECTION_EDGES": "Show Section Edges"
+	},
+	"PAGINATION": {
+		"PAGE_OF": "Page {{current}} of {{total}}"
 	}
 }

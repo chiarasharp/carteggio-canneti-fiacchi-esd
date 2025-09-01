@@ -25,8 +25,8 @@
 **/
 angular.module('evtviewer.dataHandler')
 
-.service('baseData', ['$log', '$q', '$http', 'config', 'xmlParser', 'evtParser', 'evtCriticalApparatusParser', 'evtSourcesParser', 'evtProjectInfoParser', 'evtPrimarySourcesParser', 'evtAnaloguesParser', 'evtDialog', 'evtBibliographyParser', 'evtNamedEntitiesParser', 'evtHotSpotParser', 'parsedData',
-    function($log, $q, $http, config, xmlParser, evtParser, evtCriticalApparatusParser, evtSourcesParser, evtProjectInfoParser, evtPrimarySourcesParser, evtAnaloguesParser, evtDialog, evtBibliographyParser, evtNamedEntitiesParser, evtHotSpotParser, parsedData) {
+.service('baseData', ['$log', '$q', '$http', 'config', 'xmlParser', 'evtParser', 'evtCriticalApparatusParser', 'evtSourcesParser', 'evtProjectInfoParser', 'evtPrimarySourcesParser', 'evtAnaloguesParser', 'evtDialog', 'evtBibliographyParser', 'evtNamedEntitiesParser', 'evtHotSpotParser', 'parsedData', 'evtSearch',
+    function($log, $q, $http, config, xmlParser, evtParser, evtCriticalApparatusParser, evtSourcesParser, evtProjectInfoParser, evtPrimarySourcesParser, evtAnaloguesParser, evtDialog, evtBibliographyParser, evtNamedEntitiesParser, evtHotSpotParser, parsedData, evtSearch) {
     var baseData     = {},
         state        = {
             XMLDocuments: [],
@@ -296,7 +296,7 @@ angular.module('evtviewer.dataHandler')
        }
 
        // Init Search
-       //evtSearch.initSearch(docElements);
+       evtSearch.initSearch(docElements);
     };
 
     /**
@@ -341,6 +341,14 @@ angular.module('evtviewer.dataHandler')
                                 includedTextElem = includedDoc.documentElement;
                             }                 
                         }
+                        
+                        // Extract the directory from the fileUrl and add it as a data attribute
+                        var href = element.getAttribute('href');
+                        var originDirectory = href.substring(0, href.lastIndexOf('/'));
+                        if (includedTextElem && includedTextElem.setAttribute) {
+                             includedTextElem.setAttribute('data-origin-directory', originDirectory);
+                        }
+                        
                         element.parentNode.replaceChild(includedTextElem, element);
                         if (includedFilesLoaded === totFilesToInclude) {
                             deferred.resolve('success');

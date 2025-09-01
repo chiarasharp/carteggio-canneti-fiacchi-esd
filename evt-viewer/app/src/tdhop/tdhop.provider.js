@@ -11,8 +11,8 @@ angular.module('evtviewer.tdhop')
             var url_hs = config.tdhopViewerOptions.Hotspots ? config.tdhopViewerOptions.Hotspots.path : '';
             var type = config.tdhopViewerOptions.Hotspots ? config.tdhopViewerOptions.Hotspots.type : undefined;
             var annotations = config.tdhopViewerOptions.Hotspots ? JSON.stringify(config.tdhopViewerOptions.Hotspots.hotspotsdata) : [];
-            console.log("Check hotspotsdata " + annotations);
-            console.log("Check model path " + url1);
+            // console.log("Check hotspotsdata " + annotations);
+            // console.log("Check model path " + url1);
             var options = config.tdhopViewerOptions;
             options.id = "tdhop";
             var pluginFolder = 'js-plugins/tdhop/';
@@ -43,7 +43,7 @@ angular.module('evtviewer.tdhop')
                      loadFiles(fileIndex + 1);
                   } else {
                      initializeViewer();
-                     console.log("3dhop viewer setup and initialized");
+                     // console.log("3dhop viewer setup and initialized");
                   }
                })
             };

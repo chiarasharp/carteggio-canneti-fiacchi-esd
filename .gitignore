@@ -1,3 +1,5 @@
 
 evt-viewer/app/src/dataHandler/b.json
 .DS_Store
+dist/*
+dist/

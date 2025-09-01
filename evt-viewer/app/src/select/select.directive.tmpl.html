@@ -5,7 +5,16 @@
       class="label_selected" 
       title="{{ vm.getOptionSelected().title | translate }}"
       data-value="{{ vm.getOptionSelected().value }}">
-      {{ vm.getOptionSelected().label | translate  }}
+      <span ng-if="vm.currentType === 'named-entities'">
+        <i class="fa fa-tags" style="margin-right: 4px;"></i>
+        {{ 'SELECTS.SELECT_NAMED_ENTITIES' | translate }}
+        <span ng-if="vm.optionSelected && vm.optionSelected.length > 0 && vm.optionSelected[0].value !== '' && vm.optionSelected[0].value !== 'NONE' && vm.optionSelected[0].value !== 'ALL'">
+          ({{vm.optionSelected.length}} {{ 'SELECTS.SELECTED_COUNT' | translate }})
+        </span>
+      </span>
+      <span ng-if="vm.currentType !== 'named-entities'">
+        {{ vm.getOptionSelected().label | translate  }}
+      </span>
    </span>
    <div 
       class="open_options" 
@@ -16,7 +25,18 @@
       class="option_container"
       ng-class="{ 'expanded':vm.expanded,
                   'openUp': vm.openUp }" >
-      <div ng-repeat="option in vm.optionList" ng-switch="::option.type">
+      <div ng-if="vm.currentType === 'named-entities'">
+        <div class="option groupTitle" style="position:sticky;top:0;background:#fff;z-index:4;">
+          {{ 'SELECTS.NAMED_ENTITIES' | translate }}
+        </div>
+        <div class="option sticky-option" ng-click="vm.doCallback(vm.optionSelected, vm.optionList[vm.optionList.length-2]);">
+          <i class="fa fa-check-square-o option-icon-label"></i> {{ 'SELECTS.SELECT_ALL' | translate }}
+        </div>
+        <div class="option sticky-option" ng-click="vm.doCallback(vm.optionSelected, vm.optionList[vm.optionList.length-1]);">
+          <i class="fa fa-times option-icon-label"></i> {{ 'SELECTS.CLEAR' | translate }}
+        </div>
+      </div>
+      <div ng-repeat="option in vm.optionList" ng-switch="::option.type" ng-if="!(vm.currentType === 'named-entities' && (option.value === 'ALL' || option.value === 'NONE' || option.type === 'groupTitle'))">
          <div ng-switch-when="groupTitle" class="option groupTitle">
             {{ option.label | translate }}
          </div>

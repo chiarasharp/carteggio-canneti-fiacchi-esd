@@ -765,38 +765,9 @@ angular.module('evtviewer.buttonSwitch')
 						case 'search':
 							callback = function () {
 								var parentBoxId = scope.$parent.id,
-									inputValue = evtSearchBox.getInputValue(parentBoxId),
-									input,
-									placeholder = '';
-
-								evtSearchResult.setPlaceholder(parentBoxId, placeholder);
-								evtSearchBox.setSearchedTerm(parentBoxId, inputValue);
-
-								input = {
-									'': function () {
-										placeholder = 'Enter your query in the search box above';
-										evtSearchResult.setVisibleRes(parentBoxId, []);
-										evtSearchResult.setPlaceholder(parentBoxId, placeholder);
-									},
-									'default': function () {
-										var isCaseSensitive = evtSearchBox.getStatus(parentBoxId, 'searchCaseSensitive'),
-											isExactMatch = evtSearchBox.getStatus(parentBoxId, 'searchExactWord'),
-											results = evtSearchResults.getSearchResults(inputValue, isCaseSensitive, isExactMatch),
-											currentEdition = evtBox.getEditionById(parentBoxId),
-											currentEditionResults = evtSearchResults.getCurrentEditionResults(results, currentEdition),
-											visibleResults = evtSearchResults.getVisibleResults(currentEditionResults);
-
-										evtSearchResult.setCurrentEditionResults(parentBoxId, currentEditionResults);
-										evtSearchResult.setVisibleRes(parentBoxId, visibleResults);
-									}
-								};
-
-								(input[inputValue] || input['default'])();
-
-								evtSearchBox.setStatus(parentBoxId, 'searchResultBox', true);
-								evtSearchBox.hideBtn(parentBoxId, 'searchResultsShow');
-								evtSearchBox.showBtn(parentBoxId, 'searchResultsHide');
-								evtVirtualKeyboard.unselectCurrentKeyboard(button, parentBoxId);
+									inputValue = evtSearchBox.getInputValue(parentBoxId);
+								// Only trigger highlight, do not open any results panel or set placeholders
+								evtSearchResults.highlightSearchResults(parentBoxId, inputValue);
 							};
 							break;
 						case 'searchIndex':
@@ -855,18 +826,6 @@ angular.module('evtviewer.buttonSwitch')
 								}
 							};
 							break;
-						case 'searchResultsShow':
-							callback = function () {
-								var parentBoxId = scope.$parent.id,
-									placeholder = 'Enter your query in the search box above';
-
-								evtSearchResult.setPlaceholder(parentBoxId, placeholder);
-								evtSearchBox.updateStatus(parentBoxId, 'searchResultBox');
-								evtSearchBox.hideBtn(parentBoxId, 'searchResultsShow');
-								evtSearchBox.showBtn(parentBoxId, 'searchResultsHide');
-								evtVirtualKeyboard.unselectCurrentKeyboard(button, parentBoxId);
-							};
-							break;
 						case 'searchResultsHide':
 							callback = function () {
 								var parentBoxId = scope.$parent.id;
@@ -889,15 +848,8 @@ angular.module('evtviewer.buttonSwitch')
 							break;
 						case 'searchInternal':
 							btnType = 'standAlone';
-							disabled = (
-								function () {
-									if (evtInterface.getToolState('isDocumentIndexed') === 'true') {
-										return false;
-									}
-									else {
-										return true;
-									}
-								})();
+							// Always enabled now that index is built automatically
+							disabled = false;
 							var activeCallback = function () {
 								var parentBoxId = scope.$parent.id,
 									searchBoxStatus = evtBox.getState(parentBoxId, 'searchBox');
@@ -906,14 +858,19 @@ angular.module('evtviewer.buttonSwitch')
 								evtSearchBox.closeBox(parentBoxId, 'searchResultBox');
 								evtSearchBox.showBtn(parentBoxId, 'searchResultsShow');
 								evtSearchBox.hideBtn(parentBoxId, 'searchResultsHide');
+
+								// --- Actually perform the search and broadcast results ---
+								var searchInput = scope.$parent.vm.searchInput;
+								var currentEdition = scope.$parent.vm.getBoxEdition ? scope.$parent.vm.getBoxEdition(parentBoxId) : undefined;
+								if (searchInput && currentEdition) {
+									var searchResults = evtSearchResults.getSearchResults(searchInput, evtSearchBox.getStatus(parentBoxId, 'searchCaseSensitive'), evtSearchBox.getStatus(parentBoxId, 'searchExactWord'));
+									var currentEditionResults = evtSearchResults.getCurrentEditionResults(searchResults, currentEdition);
+									var eventData = { term: searchInput, results: currentEditionResults };
+									scope.$root.$broadcast('search:results', eventData);
+								}
 							};
 							callback = function () {
-								if (evtInterface.getToolState('isDocumentIndexed') === 'true') {
-									return activeCallback();
-								}
-								else {
-									scope.vm.active = false;
-								}
+								return activeCallback();
 							};
 							break;
 						case 'searchAdvanced':
@@ -958,12 +915,24 @@ angular.module('evtviewer.buttonSwitch')
 							};
 							break;
 						case 'searchPrevResult':
-							disabled = true;
-							callback = function () { };
+							btnType = 'standAlone';
+							disabled = false;
+							callback = function () {
+								var searchResultsScope = scope.$parent.$parent.searchResults;
+								if (searchResultsScope && searchResultsScope.goToPrevHighlight) {
+									searchResultsScope.goToPrevHighlight();
+								}
+							};
 							break;
 						case 'searchNextResult':
-							disabled = true;
-							callback = function () { };
+							btnType = 'standAlone';
+							disabled = false;
+							callback = function () {
+								var searchResultsScope = scope.$parent.$parent.searchResults;
+								if (searchResultsScope && searchResultsScope.goToNextHighlight) {
+									searchResultsScope.goToNextHighlight();
+								}
+							};
 							break;
 						case 'searchClear':
 							btnType = 'standAlone';

@@ -74,7 +74,16 @@ angular.module('evtviewer.reference')
 			} else { // Generic link
 				if (vm.target && vm.target !== '') {
 					var url = vm.target.indexOf('http') < 0 ? 'http://' + vm.target : vm.target;
-					window.open(url, '_blank');
+					
+					// *** SECURITY IMPROVEMENT: Validate URL scheme ***
+					// Ensure the URL starts with http:// or https:// to prevent potential issues
+					// with other schemes like javascript:
+					if (url.startsWith('http://') || url.startsWith('https://')) {
+						window.open(url, '_blank');
+					} else {
+						_console.warn('Blocked potentially unsafe URL scheme:', url);
+						// Optionally, provide user feedback here
+					}
 				}
 			}
 		};

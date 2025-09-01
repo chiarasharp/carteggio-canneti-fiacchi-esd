@@ -66,6 +66,7 @@
          <change when-iso="2024-07-03" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2024-09-12" who="#DLCL_CF_PS001">correzioni</change>
          <change when-iso="2024-11-22" who="#DLCL_CF_PS001">nuove trascrizioni</change>
+         <change when-iso="2025-08-22" who="#DLCL_CF_PS001">correzioni</change>
       </revisionDesc>
    </front><body>
          <div type="transcription">
@@ -113,7 +114,7 @@
             <p>
                Al ritorno del <rs type="person">Padre Priore mio</rs> da <placeName ref="#DLCL_CF_L0007">Bologna</placeName> 
                ebbi avviso del <bibl type="manuscript">Manoscritto</bibl> di <placeName ref="#DLCL_CF_L0013">Ferrara</placeName> 
-               osservato dal <placeName ref="#DLCL_CF_PC0004">Marozzi,</placeName> 
+               osservato dal <persName ref="#DLCL_CF_PC0004">Marozzi,</persName> 
                che al medesimo ne palesò la scoperta, e il pensiero di poterlo avere. 
                Non vedo come poterlo avere, senza <gap reason="illegible"/>[...] motivi di gelosia. 
                Convien’aspettare che il frutto maturi. 

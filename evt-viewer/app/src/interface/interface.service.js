@@ -95,6 +95,10 @@ angular.module('evtviewer.interface')
                 currentVersions: undefined,
                 currentVersionEntry: undefined,
                 currentVersion: undefined,
+                
+                // Directory filtering state
+                currentDirectoryFilter: '',
+                directoryFilterManuallySet: false,
 
                 mainMenu: false
             };
@@ -521,6 +525,15 @@ angular.module('evtviewer.interface')
              * @returns {any} value of property "name"
              */
             mainInterface.getProperty = function (name) {
+                if (name === 'indexTitle') {
+                    // Return translated title based on current language
+                    var currentLang = evtTranslation.getCurrentLanguage();
+                    if (currentLang === 'en') {
+                        return 'PROJECT_INFO.TITLE';
+                    } else {
+                        return properties[name];
+                    }
+                }
                 return properties[name];
             };
 
@@ -1188,6 +1201,7 @@ angular.module('evtviewer.interface')
              * @todo Add q(citazione), s(fonte), an(passo parallelo) e ap(apparato)
              */
             mainInterface.updateParams = function (params) {
+                // console.log('updateParams called with params:', params); // Log received parameters
                 var viewMode = config.defaultViewMode,
                     edition = config.defaultEdition,
                     comparingEdition,
@@ -1246,24 +1260,79 @@ angular.module('evtviewer.interface')
                 }
 
                 // PAGE
-                if (params.p !== undefined && parsedData.getEdition(params.ce)) {
+                if (params.p !== undefined) {
                     pageId = params.p;
-                } else {
-                    var pages = parsedData.getPages();
-                    if (pages.length > 0) {
-                        pageId = pages[pages[0]].value || undefined;
+                    // Also check for the document parameter 'd'
+                    if (params.d !== undefined) {
+                        docId = params.d;
+                    }
+                } else { // If page parameter is not defined, try to get the first page of the document
+                    var documents = parsedData.getDocuments();
+                    var targetDocId = params.d !== undefined ? params.d : state.currentDoc;
+                    if (targetDocId && documents[targetDocId] && documents[targetDocId].pages && documents[targetDocId].pages.length > 0) {
+                         pageId = documents[targetDocId].pages[0];
+                         docId = targetDocId; // Ensure docId is set if page is derived from it
+                    } else { // Fallback to the first page of the first document if no document or page is specified
+                        if (documents._indexes.length > 0) {
+                            var firstDocId = documents._indexes[0];
+                            docId = firstDocId;
+                             if (documents[firstDocId].pages && documents[firstDocId].pages.length > 0) {
+                                pageId = documents[firstDocId].pages[0];
+                             }
+                        }
                     }
                 }
 
+                // console.log('updateParams - extracted docId:', docId, 'pageId:', pageId); // Log extracted IDs
+
                 // DOCUMENT
+                // This block is now partially redundant with the updated PAGE block
+                // but keeping it for now to ensure original logic for docId when 'p' is not present is considered.
+                // We should refine this logic to have a single source for determining the initial doc/page.
                 if (params.d !== undefined && parsedData.getDocument(params.d) !== undefined) {
                     docId = params.d;
-                } else {
+                } else { // This else block might set docId again if params.d was not defined but a document exists
                     var documents = parsedData.getDocuments();
                     if (documents._indexes.length > 0) {
-                        docId = documents[documents._indexes[0]].value || undefined;
+                        // Only set docId if it hasn't been set by the 'PAGE' block and there's a document available
+                        if (docId === undefined) {
+                             docId = documents[documents._indexes[0]].value || undefined;
+                        }
                     }
                 }
+
+                // Smart directory filtering: Only auto-filter if there are multiple directories AND
+                // the user hasn't manually set a directory filter
+                var currentDirectoryFilter = mainInterface.getState('currentDirectoryFilter');
+                var isManuallySet = mainInterface.getState('directoryFilterManuallySet') || false;
+                
+                // Check if we have multiple directories
+                var uniqueDirectories = parsedData.getUniqueOriginDirectories();
+                var hasMultipleDirectories = uniqueDirectories.length > 1;
+                
+
+                
+                if (hasMultipleDirectories && !isManuallySet && docId !== undefined) {
+                    // Auto-filter only when we have multiple directories and user hasn't manually set filter
+                    var document = parsedData.getDocument(docId);
+                    if (document && document.originDirectory !== undefined) {
+                        mainInterface.updateState('currentDirectoryFilter', document.originDirectory);
+                    } else {
+                        // If no originDirectory, clear the filter
+                        mainInterface.updateState('currentDirectoryFilter', '');
+                    }
+                } else if (!hasMultipleDirectories) {
+                    // If only one directory, only clear filter if it wasn't manually set
+                    // This allows users to manually filter even with one directory
+                    if (!isManuallySet) {
+                        mainInterface.updateState('currentDirectoryFilter', '');
+                    }
+                    // Don't reset directoryFilterManuallySet - let user keep their manual choice
+                }
+                // If manually set, keep the current manual filter (don't auto-change)
+
+                // console.log('updateParams - final docId:', docId, 'pageId:', pageId); // Log final IDs
+
                 // DIV/SECTION
                 if (params.s && parsedData.getDiv(params.s)) {
                     divId = params.s;
@@ -1305,16 +1374,16 @@ angular.module('evtviewer.interface')
                             }
                         }
                     } else {
-                        if (config.versions.length > 1) {
-                            // Check if the main version of the text refers to some particular witnesses
-                            var mainVerWits = parsedData.getVersionEntries()._indexes.versionWitMap[config.versions[0]];
-                            if (mainVerWits !== undefined && mainVerWits.length > 0) {
-                                properties.availableWitnesses = mainVerWits.slice(0, mainVerWits.length);
-                            }
-                        } else {
-                            totWits = parsedData.getWitnessesList();
-                            properties.availableWitnesses = totWits.slice(0, totWits.length);
-                        }
+                         if (config.versions.length > 1) {
+                             // Check if the main version of the text refers to some particular witnesses
+                             var mainVerWits = parsedData.getVersionEntries()._indexes.versionWitMap[config.versions[0]];
+                             if (mainVerWits !== undefined && mainVerWits.length > 0) {
+                                 properties.availableWitnesses = mainVerWits.slice(0, mainVerWits.length);
+                             }
+                         } else {
+                             totWits = parsedData.getWitnessesList();
+                             properties.availableWitnesses = totWits.slice(0, totWits.length);
+                         }
                     }
                 }
                 // APP ENTRY
@@ -1332,7 +1401,7 @@ angular.module('evtviewer.interface')
                     mainInterface.updateState('currentEdition', 'critical');
                 }
 
-                mainInterface.updateState('currentComparingEdition', comparingEdition)
+                mainInterface.updateState('currentComparingEdition', comparingEdition);
 
                 if (pageId !== undefined) {
                     mainInterface.updateState('currentPage', pageId);
@@ -1344,15 +1413,35 @@ angular.module('evtviewer.interface')
                     }
                 }
 
-                if (docId !== undefined) {
-                    mainInterface.updateState('currentDoc', docId);
+                 if (docId !== undefined) {
+                     // Only update currentDoc if it's different or was not set
+                    if (state.currentDoc !== docId) {
+                         mainInterface.updateState('currentDoc', docId);
+                         // When document changes, reset page to the first page of the new document
+                         var newDocument = parsedData.getDocument(docId);
+                         if (newDocument && newDocument.pages && newDocument.pages.length > 0) {
+                             mainInterface.updateState('currentPage', newDocument.pages[0]);
+                             // console.log('updateParams - setting first page', newDocument.pages[0], 'for new doc', docId); // Log page reset
+                         } else {
+                              mainInterface.updateState('currentPage', undefined);
+                              // console.log('updateParams - no pages found for new doc', docId); // Log no pages found
+                         }
+                    }
+                } else if (pageId !== undefined) { // If no docId in params but pageId is present, try to infer docId from pageId
+                     var page = parsedData.getPage(pageId);
+                     if (page && page.docs && page.docs.length > 0) {
+                         if (state.currentDoc !== page.docs[0]) {
+                              mainInterface.updateState('currentDoc', page.docs[0]);
+                              // console.log('updateParams - inferring docId', page.docs[0], 'from pageId', pageId); // Log inferred docId
+                         }
+                     }
                 }
 
                 if (witIds !== undefined) {
                     mainInterface.updateState('currentWits', witIds);
                 }
 
-                if (witPageIds !== {}) {
+                if (Object.keys(witPageIds).length > 0) {
                     mainInterface.updateState('currentWitsPages', witPageIds);
                 }
 
@@ -1360,7 +1449,9 @@ angular.module('evtviewer.interface')
                     mainInterface.updateState('currentAppEntry', appId);
                     evtReading.setCurrentAppEntry(appId);
                 }
-                mainInterface.updateUrl();
+
+                // The URL is updated by the specific functions that change the application state based on user interaction.
+                // updateParams is only for reading URL and updating internal state, not for writing to URL.
             };
 
             /**
@@ -1378,9 +1469,9 @@ angular.module('evtviewer.interface')
 
                 searchPath += state.currentDoc === undefined ? '' : (searchPath === '' ? '' : '&') + 'd=' + state.currentDoc;
                 searchPath += state.currentPage === undefined ? '' : (searchPath === '' ? '' : '&') + 'p=' + state.currentPage;
-                //searchPath += !state.currentDivs[docId] ? '' : (searchPath === '' ? '' : '&')+'s='+state.currentDivs[docId];
-                //searchPath += state.currentEdition === undefined ? '' : (searchPath === '' ? '' : '&')+'e='+state.currentEdition;
-                //searchPath += state.currentComparingEdition === undefined ? '' : (searchPath === '' ? '' : '&')+'ce='+state.currentComparingEdition;
+                //searchPath += !state.currentDivs[docId] ? '' : (searchPath === '' ? '' : '&')+s='+state.currentDivs[docId];
+                //searchPath += state.currentEdition === undefined ? '' : (searchPath === '' ? '' : '&')+e='+state.currentEdition;
+                //searchPath += state.currentComparingEdition === undefined ? '' : (searchPath === '' ? '' : '&')+ce='+state.currentComparingEdition;
                 if (viewMode === 'collation') {
                     if (state.currentWits !== undefined && state.currentWits.length > 0) {
                         if (searchPath !== '') {
@@ -1409,7 +1500,7 @@ angular.module('evtviewer.interface')
                 }
 
                 if (viewMode !== undefined) {
-                    // window.history.pushState(null, null, '#/'+viewMode+'?'+searchPath.substr(1));
+                    // window.history.pushState(null, null, '#/'+viewMode+'?');
                     window.location = '#/' + viewMode + '?' + searchPath;
                 }
             };

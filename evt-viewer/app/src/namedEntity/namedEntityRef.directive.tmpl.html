@@ -3,10 +3,25 @@
 				 'highlighted': vm.initHighlight }" title="{{ 'LISTS.ENTITY_TYPE_'+vm.entityType | uppercase | translate }}"
 	ng-click="vm.goToEntityInList($event)" ng-transclude></span>
 
+<!-- Entity with reference data -->
 <evt-named-entity 
-	ng-if="!vm.detailsInPopup && vm.active" 
+	ng-if="!vm.detailsInPopup && vm.active && vm.realNamedEntity" 
 	data-location='mainText'
 	data-entity-id="{{::vm.entityId}}" data-entity-type="{{::vm.entityType}}"></evt-named-entity>
+
+<!-- Entity without reference data - show "no data" popup -->
+<div ng-if="!vm.detailsInPopup && vm.active && !vm.realNamedEntity" 
+     class="namedEntityRef__no-data-popup">
+
+    
+    <div class="namedEntityRef__no-data-header">
+        <i class="fa fa-info-circle"></i>
+        <span class="namedEntityRef__no-data-title">{{ 'MESSAGES.NO_REFERENCE_DATA' | translate }}</span>
+    </div>
+    <div class="namedEntityRef__no-data-content">
+        <p>{{ 'MESSAGES.NO_REFERENCE_DATA_DESC' | translate }}</p>
+    </div>
+</div>
 
 <!-- <span class="namedEntityRef__details" ng-if="vm.active">
 	<span class="namedEntityRef__details-before"></span>

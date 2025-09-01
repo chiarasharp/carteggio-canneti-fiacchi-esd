@@ -336,44 +336,36 @@ angular.module('evtviewer.dataHandler')
             isExactMatch = evtSearchBox.getStatus(mainBoxId, 'searchExactWord');
          
          instance.unmark(inputValue);
-         if(isExactMatch) {
-            markExactly(instance, inputValue, isCaseSensitive);
-         }
-         else {
-            markPartially(instance, inputValue, isCaseSensitive);
-         }
+         var markOptions = {
+            'wildcards': 'enable',
+            'acrossElements': true,
+            'caseSensitive': isCaseSensitive,
+            'accuracy': {
+               'value': isExactMatch ? 'exactly' : 'partially',
+               'limiters': ['.', ',', ';', ':', '\\', '/', '!', '?', '"', '\'', '\n', '\r', '\t', ' ']
+            },
+            'separateWordSearch': false,
+            'done': function() {
+               var highlights = document.querySelectorAll('#' + mainBoxId + ' mark');
+               var results = Array.prototype.map.call(highlights, function(el) {
+                  return {
+                     text: el.textContent,
+                     context: el.parentNode ? el.parentNode.textContent : ''
+                  };
+               });
+               // Store in shared service
+               if (window.angular) {
+                  var injector = window.angular.element(document.body).injector();
+                  var evtSearchResult = injector.get('evtSearchResult');
+                  evtSearchResult.setVisibleRes(mainBoxId, results);
+               }
+               // Broadcast event
+               if (window.angular) {
+                  var $rootScope = window.angular.element(document.body).injector().get('$rootScope');
+                  $rootScope.$broadcast('search:resultsUpdated', { boxId: mainBoxId });
+               }
+            }
+         };
+         instance.mark(inputValue, markOptions);
       };
-      
-      function markExactly(instance, inputValue, isCaseSensitive) {
-         instance.mark(inputValue, {
-            'wildcards': 'enable',
-            'acrossElements': true,
-            'caseSensitive': isCaseSensitive,
-            'accuracy': {
-               'value': 'exactly',
-               'limiters': ['.', ',', ';', ':', '\\', '/', '!', '?', '#', '$', '%', '^', '&', '*', '{', '}', '=', '-', '_', '`', '~', '(', ')']
-            },
-            'filter': function() {
-               return inputValue.match(regex) ? false : true;
-            },
-            'exclude': ['.lineN']
-         });
-      }
-      
-      function markPartially(instance, inputValue, isCaseSensitive) {
-         instance.mark(inputValue, {
-            'wildcards': 'enable',
-            'acrossElements': true,
-            'caseSensitive': isCaseSensitive,
-            'accuracy': {
-               'value': 'partially',
-               'limiters': ['.', ',', ';', ':', '\\', '/', '!', '?', '#', '$', '%', '^', '&', '*', '{', '}', '=', '-', '_', '`', '~', '(', ')']
-            },
-            'filter':
-               function(node) {
-                  return inputValue.match(regex) ? false : true;
-               },
-            'exclude': ['.lineN']
-         });
-      }
    }]);

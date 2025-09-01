@@ -29,14 +29,45 @@ angular.module('evtviewer.select')
 		defaults = _defaults;
 	};
 
-	this.$get = ['$log', 'config', 'Utils', 'parsedData', 'evtInterface', 'evtNamedEntityRef', 'evtGenericEntity', 'evtPinnedElements', 'evtSourcesApparatus',
-		function($log, config, Utils, parsedData, evtInterface, evtNamedEntityRef, evtGenericEntity, evtPinnedElements, evtSourcesApparatus) {
+	this.$get = ['$log', 'config', 'Utils', 'parsedData', 'evtInterface', 'evtNamedEntityRef', 'evtGenericEntity', 'evtPinnedElements', 'evtSourcesApparatus', '$translate',
+		function($log, config, Utils, parsedData, evtInterface, evtNamedEntityRef, evtGenericEntity, evtPinnedElements, evtSourcesApparatus, $translate) {
 			var select = {},
 				collection = {},
 				list = [],
 				idx = 0;
 
 			var _console = $log.getInstance('select');
+
+			// Helper function to format a single directory option
+			var _formatDirectoryOption = function(directory) {
+				var label, title, value;
+
+				// Determine the value to use for filtering (prefer full path if available)
+				value = directory;
+
+				if (typeof directory !== 'string') {
+					// Should not happen after the check in formatOptionList, but as a safeguard
+					_console.warn('Invalid directory item passed to _formatDirectoryOption:', directory);
+					return null; // Or handle as an error option
+				}
+
+				if (directory.endsWith('/busta-10') || directory === 'busta-10') {
+					label = 'SELECTS.BUSTA_10';
+					title = 'SELECTS.SHOW_DOCUMENTS_FROM';
+				} else if (directory.endsWith('/busta-11') || directory === 'busta-11') {
+					label = 'SELECTS.BUSTA_11';
+					title = 'SELECTS.SHOW_DOCUMENTS_FROM';
+				} else {
+					label = directory;
+					title = 'SELECTS.SHOW_DOCUMENTS_FROM';
+				}
+
+				return {
+					value: value,
+					label: label,
+					title: $translate.instant('SELECTS.SHOW_DOCUMENTS_FROM', { directory: directory }) || title
+				};
+			};
 
 			// 
 			// Select builder
@@ -204,30 +235,46 @@ angular.module('evtviewer.select')
 						callback = function(oldOption, newOption) {
 							if (newOption !== undefined) {
 								vm.selectOption(newOption);
-								var currentDocument = evtInterface.getState('currentDoc');
 								evtInterface.updateState('currentPage', newOption.value);
-								if (newOption.docs.length > 0 && newOption.docs.indexOf(currentDocument) < 0) { // The page is not part of the document
-									evtInterface.updateState('currentDoc', newOption.docs[0]);
-								}
 								evtInterface.updateUrl();
 							}
 						};
 						formatOptionList = function(optionList) {
-							var formattedList = []; 
+							var formattedList = [];
+							var currentDocument = evtInterface.getState('currentDoc');
 							// TODO: Handle duplicates ('_orig', '_reg')
 							for (var i = 0; i < optionList.length; i++) {
-								formattedList.push(optionList[optionList[i]]);
+								var page = optionList[optionList[i]];
+								// Filter pages by currentDocument
+								if (!currentDocument || (page.docs && page.docs.indexOf(currentDocument) > -1)) {
+									formattedList.push(page);
+								}
 							}
 							return formattedList;
 						};
 						formatOption = function(option) {
 							return option;
 						};
+
+						// Watch for changes in the currentDoc state and update page options
+						scope.$watch(function() {
+							return evtInterface.getState('currentDoc');
+						}, function(newDoc, oldDoc) {
+							if (newDoc !== oldDoc) {
+								vm.optionList = formatOptionList(parsedData.getPages());
+								// Select the first page of the new document if available
+								if (vm.optionList.length > 0) {
+									vm.selectOption(vm.optionList[0]);
+									evtInterface.updateState('currentPage', vm.optionList[0].value);
+									evtInterface.updateUrl();
+								}
+							}
+						});
+
 						optionList = formatOptionList(parsedData.getPages());
 						break;
 					case 'document':
 						callback = function(oldOption, newOption) {
-							// _console.log('document select callback ', newOption);
 							if (newOption !== undefined) {
 								vm.selectOption(newOption);
 								var currentPage = evtInterface.getState('currentPage');
@@ -243,8 +290,13 @@ angular.module('evtviewer.select')
 						};
 						formatOptionList = function(optionList) {
 							var formattedList = [];
+							var currentDirectoryFilter = evtInterface.getState('currentDirectoryFilter');
 							for (var i = 0; i < optionList._indexes.length; i++) {
-								formattedList.push(optionList[optionList._indexes[i]]);
+								var document = optionList[optionList._indexes[i]];
+								// Filter documents by originDirectory if a filter is selected
+								if (!currentDirectoryFilter || (document.originDirectory && document.originDirectory === currentDirectoryFilter)) {
+									formattedList.push(document);
+								}
 							}
 							return formattedList;
 						};
@@ -252,6 +304,86 @@ angular.module('evtviewer.select')
 							return option;
 						};
 						optionList = formatOptionList(parsedData.getDocuments());
+
+						// Watch for changes in the currentDirectoryFilter state and update document options
+						scope.$watch(function() {
+							return evtInterface.getState('currentDirectoryFilter');
+						}, function(newFilter, oldFilter) {
+							if (newFilter !== oldFilter) {
+								vm.optionList = formatOptionList(parsedData.getDocuments());
+								// Optionally, reset selected document if the current one is no longer in the filtered list
+								// var currentDoc = evtInterface.getState('currentDoc');
+								// if (!vm.optionList.find(doc => doc.value === currentDoc)) {
+								//     vm.selectOption(vm.optionList[0]); // Select the first document in the filtered list
+								// }
+
+								// Select the first document in the filtered list
+								if (vm.optionList.length > 0) {
+									vm.selectOption(vm.optionList[0]);
+									evtInterface.updateState('currentDoc', vm.optionList[0].value);
+
+									// Also update currentPage and currentDiv for the newly selected document
+									var firstDocument = vm.optionList[0];
+									if (firstDocument.pages && firstDocument.pages.length > 0) {
+										evtInterface.updateState('currentPage', firstDocument.pages[0]);
+									}
+									if (firstDocument.divs && firstDocument.divs.length > 0) {
+										evtInterface.updateDiv(firstDocument.value, firstDocument.divs[0]);
+									}
+
+									evtInterface.updateUrl();
+
+									// Broadcast an event to trigger content update in the box
+									scope.$root.$broadcast('evt-select:document-filtered');
+								}
+							}
+						});
+
+						break;
+					case 'directory':
+						callback = function(oldOption, newOption) {
+							// This callback will need to trigger filtering of the document selector
+							// We will implement the filtering logic in the document case later
+							vm.selectOption(newOption);
+							evtInterface.updateState('currentDirectoryFilter', newOption.value);
+							
+							// Mark manual flag based on selection
+							if (newOption.value === '') {
+								// "All Directories" selected - clear manual flag to allow auto-filtering
+								evtInterface.updateState('directoryFilterManuallySet', false);
+							} else {
+								// Specific directory selected - mark as manually set
+								evtInterface.updateState('directoryFilterManuallySet', true);
+							}
+						};
+						formatOptionList = function(directories) {
+							var formattedList = [];
+							// Add an option for 'All Directories'
+							formattedList.push({
+								value: '',
+								label: 'SELECTS.ALL_DIRECTORIES',
+								title: 'SELECTS.SHOW_ALL_DOCUMENTS'
+							});
+							for (var i = 0; i < directories.length; i++) {
+								var directory = directories[i];
+								
+								// Ensure the item is a string before processing
+								if (typeof directory !== 'string') {
+									_console.warn('Skipping invalid directory item:', directory);
+									continue; // Skip to the next item
+								}
+
+								var option = _formatDirectoryOption(directory);
+								if (option) {
+									formattedList.push(option);
+								}
+							}
+							return formattedList;
+						};
+						formatOption = function(option) {
+							return option;
+						};
+						optionList = formatOptionList(parsedData.getUniqueOriginDirectories());
 						break;
 					case 'div':
 						callback = function(oldOption, newOption) {
@@ -387,12 +519,14 @@ angular.module('evtviewer.select')
 										if (type === 'namedEntity') {
 											icon = parsedData.getNamedEntityTypeIcon(currentOption.tagName) || icon;
 										}
+										// Map tag names to translation keys
+										var translationKey = 'LISTS.CONFIG_' + currentOption.tagName.toUpperCase();
 										var option = {
 											icon: icon,
 											type: type,
 											value: currentOption.tagName,
-											label: currentOption.label,
-											title: currentOption.label,
+											label: translationKey,
+											title: translationKey,
 											color: currentOption.color
 										};
 										formattedList.push(option);
