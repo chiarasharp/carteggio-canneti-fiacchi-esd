@@ -78,7 +78,7 @@
             </front>
             <body>
                <div type="transcription">
-                  <pb xml:id="DLCL_CF_E10050_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20682/DSC_5889.jpg"/>
+                  <pb xml:id="DLCL_CF_E10050_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21108/full/800,/0/default.jpg"/>
                   
                   <opener>
                      <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -111,7 +111,7 @@
                      Inoltre possono darsi via <persName ref="#DLCL_CF_PC0141">Bembi</persName> <bibl type="print">Epistolae</bibl> in 8. Mureti Tom. 
                   </p>
                   
-                  <pb xml:id="DLCL_CF_E10050_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20682/DSC_5890.jpg"/>
+                  <pb xml:id="DLCL_CF_E10050_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21109/full/800,/0/default.jpg"/>
                   
                   <p>
                      [Si ricordi di quel, che le scrissi dell’Iscrizione di <orgName ref="#DLCL_CF_O0029">San Vitale.</orgName> 
@@ -153,7 +153,7 @@
                      Abbiamo in Duomo Predicatore il <persName ref="#DLCL_CF_PC0402">Padre Avogadro</persName> Barnabita forte, e zelante oratore]
                   </p>
                   
-                  <pb xml:id="DLCL_CF_E10050_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20682/DSC_5893.jpg"/>
+                  <pb xml:id="DLCL_CF_E10050_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21110/full/800,/0/default.jpg"/>
                   
                   <p>
                      [P.S. Mentre stò per mandar la lettera alla Posta, ricevo la gratissima sua, coll’Iscrizione sopra la quale farò attenta riflessione. 
@@ -222,7 +222,7 @@
                      </p>
                   </postscript>
                   
-                  <pb xml:id="DLCL_CF_E10050_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/679eb35528897cc316d8fd788f5fb5fc739766f4.jpg"/>
+                  <pb xml:id="DLCL_CF_E10050_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/24827/full/800,/0/default.jpg"/>
                   
                   <postscript>
                      <p>

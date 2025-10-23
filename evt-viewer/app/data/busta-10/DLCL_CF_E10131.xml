@@ -69,7 +69,7 @@
         </revisionDesc>
     </front><body>
             <div type="transcription">
-                <pb xml:id="DLCL_CF_E10131_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20763/DSC_6263.jpg"/>
+                <pb xml:id="DLCL_CF_E10131_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21320/full/800,/0/default.jpg"/>
                 
                 <opener>
                     <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -103,7 +103,7 @@
                     Mi rallegro con <persName ref="#DLCL_CF_PC0043">Frate Pietro</persName> 
                 </p>
                 
-                <pb xml:id="DLCL_CF_E10131_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20763/DSC_6264.jpg"/>
+                <pb xml:id="DLCL_CF_E10131_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21321/full/800,/0/default.jpg"/>
                 
                 <p>
                     <persName ref="#DLCL_CF_PC0809">Frate Natale,</persName> e <persName ref="#DLCL_CF_PC0810">Frate Lorenzo.</persName> 
@@ -131,7 +131,7 @@
                     Ma in 
                 </p>
                 
-                <pb xml:id="DLCL_CF_E10131_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20763/DSC_6265.jpg"/>
+                <pb xml:id="DLCL_CF_E10131_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21322/full/800,/0/default.jpg"/>
                 
                 <p>
                     avvenire mi guarderò anco dal replicare sopra certe materie. 
@@ -152,7 +152,7 @@
                     <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
                 </closer>
                 
-                <pb xml:id="DLCL_CF_E10131_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/ef37a83fc4dfc19888dc4fa64539bb3ec795d97b.jpg"/>
+                <pb xml:id="DLCL_CF_E10131_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25247/full/800,/0/default.jpg"/>
                 
                 <postscript>
                     <p>

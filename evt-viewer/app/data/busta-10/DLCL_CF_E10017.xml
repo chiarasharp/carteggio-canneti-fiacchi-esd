@@ -73,7 +73,7 @@
       <body>
          <div type="transcription">
 
-            <pb xml:id="DLCL_CF_E10017_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20649/DSC_5641.jpg"/>
+            <pb xml:id="DLCL_CF_E10017_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/20875/full/800,/0/default.jpg"/>
 
             <opener>
                <salute>Carissimo <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName>
@@ -105,7 +105,7 @@
 [...]. 
          </p>
 
-         <pb xml:id="DLCL_CF_E10017_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20649/DSC_5642.jpg"/>
+         <pb xml:id="DLCL_CF_E10017_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/20876/full/800,/0/default.jpg"/>
 
          <p>
                Sono altamente in collera col <persName ref="#DLCL_CF_PC0056">Sancassani,</persName> che mi ha stampato un prezzo di lettera ed ha lasciato ciò, ch’era contro di se. 
@@ -163,9 +163,9 @@
             </signed>
          </closer>
 
-         <pb xml:id="DLCL_CF_E10017_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/d673b60a92bfe377d0d679dbbfaab9109165bfe7.jpg"/>
+         <pb xml:id="DLCL_CF_E10017_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/24798/full/800,/0/default.jpg"/>
 
-         <pb xml:id="DLCL_CF_E10017_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/2a71e8aeeb38c844c0ec8ae7398a9697b28458f3.jpg"/>
+         <pb xml:id="DLCL_CF_E10017_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/24799/full/800,/0/default.jpg"/>
 
          <postscript>
             <p>

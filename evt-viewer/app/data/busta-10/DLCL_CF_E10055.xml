@@ -71,7 +71,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10055_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20687/DSC_5913.jpg"/>
+            <pb xml:id="DLCL_CF_E10055_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21120/full/800,/0/default.jpg"/>
             
             <opener>
                <salute><persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Carissimo</salute>
@@ -107,7 +107,7 @@
                tra le quali trovai altresì un’Istromento di <persName ref="#DLCL_CF_PC0435">Santa Argiride,</persName> che vi ho annesso. 
             </p>
             
-            <pb xml:id="DLCL_CF_E10055_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20687/DSC_5914.jpg"/>
+            <pb xml:id="DLCL_CF_E10055_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21121/full/800,/0/default.jpg"/>
             
             <p>
                In proposito di questa <persName ref="#DLCL_CF_PC0435">Argiride,</persName> 
@@ -138,9 +138,9 @@
                <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1717-04-27">27 Aprile 1717</date>.</dateline>
             </closer>
             
-            <pb xml:id="DLCL_CF_E10055_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/87becfa0d170398b7fb6176fa674c0fd98755057.jpg"/>
+            <pb xml:id="DLCL_CF_E10055_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/25082/full/800,/0/default.jpg"/>
             
-            <pb xml:id="DLCL_CF_E10055_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/eca417b3370ff535618732fd86d1b611624d9a5b.jpg"/>
+            <pb xml:id="DLCL_CF_E10055_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25083/full/800,/0/default.jpg"/>
             
             <postscript>
                <p>

@@ -100,6 +100,7 @@ require('./translation/translation.service.js');
 require('./UItools/UItools.service.js');
 require('./UItools/imageTextLinking.service.js');
 require('./UItools/pinnedElements.service.js');
+require('./UItools/lazyLoad.directive.js');
 
 require('./box/box.js');
 require('./box/box.configuration.js');
@@ -355,7 +356,8 @@ angular.module('evtviewer', [
 ]).config(["$sceDelegateProvider", function($sceDelegateProvider) {
 	$sceDelegateProvider.resourceUrlWhitelist([
 	  'self',
-	  'https://classense.unibo.it/**'
+	  'https://classense.unibo.it/**',
+	  'https://www.cdc.classense.ra.it/**'
 	]);
   }]);
 

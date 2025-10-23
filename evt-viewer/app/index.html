@@ -275,7 +275,7 @@
 			<figure class="thumbnail thumb_single" data-value="{{ thumb.value }}" data-src="{{ thumb.image }}"
 				ng-click="goToPageFromThumb(thumb)" ng-repeat="thumb in getThumbnails() track by $index"
 				ng-class="{'active': getCurrentPage() === thumb.value}">
-				<img class="thumb_single_img" ng-src="{{ thumb.image }}"
+				<img class="thumb_single_img" lazy-load="{{ thumb.image }}" placeholder="images/empty-image.jpg"
 					onerror="this.setAttribute('src', 'images/empty-image.jpg')" />
 				<figcaption>{{ thumb.label }}</figcaption>
 			</figure>

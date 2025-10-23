@@ -69,7 +69,7 @@
       </revisionDesc>
    </front><body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10116_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20748/DSC_6201.jpg"/>
+            <pb xml:id="DLCL_CF_E10116_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21284/full/800,/0/default.jpg"/>
             
             <opener>
                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -92,7 +92,7 @@
                Ora tutto il Corpo si vende in <placeName ref="#DLCL_CF_L0139">Livorno</placeName> dal <persName ref="#DLCL_CF_PC0766">Donati</persName> 200 piastre. 
             </p>
             
-            <pb xml:id="DLCL_CF_E10116_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/fb7e1b1004db942dd8fa19a44022fd26fda733a7.jpg"/>
+            <pb xml:id="DLCL_CF_E10116_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25222/full/800,/0/default.jpg"/>
             
             <closer>
                <salute>Resto in fretta con un caro abbraccio confermandomi.</salute>
@@ -111,9 +111,9 @@
                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
             </closer>
             
-            <pb xml:id="DLCL_CF_E10116_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/d571d1eeb47b2d7a879ba047f609b6d82be935d4.jpg"/>
+            <pb xml:id="DLCL_CF_E10116_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/25223/full/800,/0/default.jpg"/>
             
-            <pb xml:id="DLCL_CF_E10116_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/2dfc1995b3df20691b28dd93103f58f25f3e3e01.jpg"/>
+            <pb xml:id="DLCL_CF_E10116_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25224/full/800,/0/default.jpg"/>
             
             <postscript>
                <p>

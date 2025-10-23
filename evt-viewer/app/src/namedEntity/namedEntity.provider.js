@@ -437,7 +437,7 @@ angular.module('evtviewer.namedEntity')
                     draggable: false
                 };
                 var lfDefaults = {
-                    tileLayer: "http://{s}.tile.opencyclemap.org/cycle/{z}/{x}/{y}.png",
+                    tileLayer: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                     tileLayerOptions: {
                         opacity: 0.9,
                         detectRetina: true,

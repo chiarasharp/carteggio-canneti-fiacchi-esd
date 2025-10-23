@@ -69,7 +69,7 @@
       </revisionDesc>
    </front><body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10081_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20713/DSC_6042.jpg"/>
+            <pb xml:id="DLCL_CF_E10081_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21200/full/800,/0/default.jpg"/>
             
             <opener>
                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -108,7 +108,7 @@
                fa stampare in <placeName ref="#DLCL_CF_L0117">Narni</placeName> <bibl type="print">quattro tomi in foglio di materie</bibl> 
             </p>
             
-            <pb xml:id="DLCL_CF_E10081_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20713/DSC_6043.jpg"/>
+            <pb xml:id="DLCL_CF_E10081_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21201/full/800,/0/default.jpg"/>
             
             <p>
                <bibl type="print">Ecclesiastiche spettanti alla Storia, e al Dogma.</bibl> 
@@ -142,9 +142,9 @@
                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
             </closer>
             
-            <pb xml:id="DLCL_CF_E10081_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/890f37bde39a2f2ca41348923ee268a5e78e1695.jpg"/>
+            <pb xml:id="DLCL_CF_E10081_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/25102/full/800,/0/default.jpg"/>
             
-            <pb xml:id="DLCL_CF_E10081_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/5beb6850a2faa6e49b011f398dc83ae8a3d8cb47.jpg"/>
+            <pb xml:id="DLCL_CF_E10081_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25103/full/800,/0/default.jpg"/>
             
             <postscript>
                <p>

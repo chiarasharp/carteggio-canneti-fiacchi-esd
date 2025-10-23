@@ -71,7 +71,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10054_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20686/DSC_5911.jpg"/>
+            <pb xml:id="DLCL_CF_E10054_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21118/full/800,/0/default.jpg"/>
             
             <opener>
                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -108,7 +108,7 @@
                Ivi lo rappresenta Uomo Santo, quale in fatti convien dire ch’è fosse. 
             </p>
             
-            <pb xml:id="DLCL_CF_E10054_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20686/DSC_5912.jpg"/>
+            <pb xml:id="DLCL_CF_E10054_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21119/full/800,/0/default.jpg"/>
             
             <p>
                Care mi saranno le notizie della <orgName ref="#DLCL_CF_O0066">Famiglia Traversarj,</orgName> 
@@ -152,9 +152,9 @@
                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
             </closer>
             
-            <pb xml:id="DLCL_CF_E10054_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/6783099a5ca4e0523d86a4c684691e6db9928b9f.jpg"/>
+            <pb xml:id="DLCL_CF_E10054_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/25080/full/800,/0/default.jpg"/>
             
-            <pb xml:id="DLCL_CF_E10054_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/927f12f86aeeef152690787750f769a853e4fdd2.jpg"/>
+            <pb xml:id="DLCL_CF_E10054_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25081/full/800,/0/default.jpg"/>
             
             <postscript>
                <p>

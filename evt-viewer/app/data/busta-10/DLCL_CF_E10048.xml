@@ -71,7 +71,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10048_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20680/DSC_5882.jpg"/>
+            <pb xml:id="DLCL_CF_E10048_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21100/full/800,/0/default.jpg"/>
             
             <opener>
                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -103,7 +103,7 @@
                Utile in tal caso sarebbe <del rend="overstrike">più</del> non dispendiosa la stampa del nostro <bibl type="religious">Calendario.</bibl> 
             </p>
             
-            <pb xml:id="DLCL_CF_E10048_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20680/DSC_5883.jpg"/>
+            <pb xml:id="DLCL_CF_E10048_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21101/full/800,/0/default.jpg"/>
             
             <p>
                Nessuna copia finora è giunta in <placeName ref="#DLCL_CF_L0028">questa Città</placeName> del <bibl type="print">XXV Giornale,</bibl> che io aspetto con gran desiderio, 
@@ -144,7 +144,7 @@
                Trovata che io l’abbia, prometto che la manderò subito, bastano 
             </p>
             
-            <pb xml:id="DLCL_CF_E10048_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20680/DSC_5885.jpg"/>
+            <pb xml:id="DLCL_CF_E10048_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21102/full/800,/0/default.jpg"/>
             
             <p>
                a me ritenerne copia. 
@@ -190,7 +190,7 @@
                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
             </closer>
             
-            <pb xml:id="DLCL_CF_E10048_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/ae7d64c11f00dbf08e8c4c3e5d8f2a6bb4fc019b.jpg"/>
+            <pb xml:id="DLCL_CF_E10048_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/24826/full/800,/0/default.jpg"/>
             
             <postscript>
                <p>

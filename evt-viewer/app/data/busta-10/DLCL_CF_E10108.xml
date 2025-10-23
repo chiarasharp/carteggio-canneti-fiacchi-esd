@@ -69,7 +69,7 @@
       </revisionDesc>
    </front><body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10108_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20740/DSC_6166.jpg"/>
+            <pb xml:id="DLCL_CF_E10108_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21263/full/800,/0/default.jpg"/>
             
             <opener>
                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -92,7 +92,7 @@
                Il Signor Iddio le conceda le buone feste.                
             </p>
             
-            <pb xml:id="DLCL_CF_E10108_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/2234bdb24a23246cc1ec22a24bcdaf29b98ceed5.jpg"/>
+            <pb xml:id="DLCL_CF_E10108_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25207/full/800,/0/default.jpg"/>
             
             <closer>
                <salute>Addio.</salute>
@@ -102,9 +102,9 @@
                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
             </closer>
             
-            <pb xml:id="DLCL_CF_E10108_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/a1c0bcf1d358b18f2e3a044ee48d2f10e343abf7.jpg"/>
+            <pb xml:id="DLCL_CF_E10108_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/25208/full/800,/0/default.jpg"/>
             
-            <pb xml:id="DLCL_CF_E10108_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/fd541215bc62f2b83042e6985fc6eade908aa0a5.jpg"/>
+            <pb xml:id="DLCL_CF_E10108_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25209/full/800,/0/default.jpg"/>
             
             <postscript>
                <p>

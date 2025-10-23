@@ -68,7 +68,7 @@
       </revisionDesc>
    </front><body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10105_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20737/DSC_6154.jpg"/>
+            <pb xml:id="DLCL_CF_E10105_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21256/full/800,/0/default.jpg"/>
             
             <opener>
                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -104,7 +104,7 @@
                Del <bibl type="print">S. Ambrogio,</bibl> e del <bibl type="print">5° Tomo</bibl> ne parli al <rs type="person">Padre Abate.</rs>
             </p>
             
-            <pb xml:id="DLCL_CF_E10105_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20737/DSC_6155.jpg"/>
+            <pb xml:id="DLCL_CF_E10105_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21257/full/800,/0/default.jpg"/>
             
             <p>
                In <placeName ref="#DLCL_CF_L0135">Cagli</placeName> è ancor da vendere la <orgName ref="#DLCL_CF_O0111">Libreria de’ Luperti,</orgName> 
@@ -124,9 +124,9 @@
                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
             </closer>
             
-            <pb xml:id="DLCL_CF_E10105_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/c8744d450b7488c4d06e131b98540b19e79bb050.jpg"/>
+            <pb xml:id="DLCL_CF_E10105_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/25200/full/800,/0/default.jpg"/>
             
-            <pb xml:id="DLCL_CF_E10105_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/5fc4f88d3b8e3c0c463f7bc74814b77a840274a6.jpg"/>
+            <pb xml:id="DLCL_CF_E10105_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25201/full/800,/0/default.jpg"/>
             
             <postscript>
                <p>

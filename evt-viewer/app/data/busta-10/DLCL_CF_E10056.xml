@@ -81,7 +81,7 @@
             </front>
             <body>
                <div type="transcription">
-                  <pb xml:id="DLCL_CF_E10056_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20688/DSC_5915.jpg"/>
+                  <pb xml:id="DLCL_CF_E10056_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21122/full/800,/0/default.jpg"/>
                   
                   <opener>
                      <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -110,7 +110,7 @@
                      e ivi altresì ho scritto ch’essa fusse figliuola di <persName ref="#DLCL_CF_PC0446">Lodovico</persName> figlio di <persName ref="#DLCL_CF_PC0442">Giovanfrancesco.</persName> 
                   </p>
                   
-                  <pb xml:id="DLCL_CF_E10056_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20688/DSC_5916.jpg"/>
+                  <pb xml:id="DLCL_CF_E10056_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21123/full/800,/0/default.jpg"/>
                   
                   <p>
                      Se ciò fosse vero, la <persName ref="#DLCL_CF_PC0444 #DLCL_CF_PC0469" cert="unknown">Cecilia</persName> non saria la stessa fanciulla lodata da <persName ref="#DLCL_CF_PC0177">Ambrogio,</persName> 
@@ -154,7 +154,7 @@
                      Riverisca il <rs type="person">Padre Camerlingo,</rs> cui ricordo il servizio di <placeName ref="#DLCL_CF_L0001">Cremona.</placeName> 
                   </p>
                   
-                  <pb xml:id="DLCL_CF_E10056_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20688/DSC_5922.jpg"/>
+                  <pb xml:id="DLCL_CF_E10056_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21124/full/800,/0/default.jpg"/>
                   
                   <p>
                      Ho ricevuto il foglio colle notizie dell’Iscrizione, e del sepolcro, dell’anno 1711 scoperto in <orgName ref="#DLCL_CF_O0029">San Vitale;</orgName> 
@@ -191,7 +191,7 @@
                      Io non ho tutto il 
                   </p>
                   
-                  <pb xml:id="DLCL_CF_E10056_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/20688/DSC_5923.jpg"/>
+                  <pb xml:id="DLCL_CF_E10056_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21125/full/800,/0/default.jpg"/>
                   
                   <p>
                      comodo, anzi mi manca il principale, ch’è quello de’ libri. 

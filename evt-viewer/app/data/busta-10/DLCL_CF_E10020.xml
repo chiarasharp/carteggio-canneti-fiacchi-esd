@@ -68,7 +68,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10020_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20652/DSC_5651.jpg"/>
+            <pb xml:id="DLCL_CF_E10020_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/20887/full/800,/0/default.jpg"/>
 
             <opener>
                <salute>Carissimo <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName>
@@ -98,7 +98,7 @@
                <salute>L’abbraccio di cuore.</salute>
             </closer>
 
-            <pb xml:id="DLCL_CF_E10020_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20652/DSC_5652.jpg"/>
+            <pb xml:id="DLCL_CF_E10020_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/20888/full/800,/0/default.jpg"/>
 
          </div>
       </body>

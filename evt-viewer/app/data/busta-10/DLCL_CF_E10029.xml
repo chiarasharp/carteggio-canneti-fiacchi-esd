@@ -71,7 +71,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10029_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20661/DSC_5695.jpg"/>
+            <pb xml:id="DLCL_CF_E10029_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21039/full/800,/0/default.jpg"/>
             
             <opener>
                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -105,7 +105,7 @@
                Se egli, che ha l’occhio 
             </p>
             
-            <pb xml:id="DLCL_CF_E10029_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20661/DSC_5696.jpg"/>
+            <pb xml:id="DLCL_CF_E10029_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21040/full/800,/0/default.jpg"/>
             
             <p>
                avvezzo a <placeName ref="#DLCL_CF_L0008">Roma,</placeName> e a <placeName ref="#DLCL_CF_L0007">Bologna</placeName> 
@@ -137,7 +137,7 @@
                Il <persName ref="#DLCL_CF_PC0163">padre Mastri</persName> ride, ed io piango sopra la nuova di <orgName ref="#DLCL_CF_O0040">San Petronio.</orgName> 
             </p>
             
-            <pb xml:id="DLCL_CF_E10029_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20661/DSC_5697.jpg"/>
+            <pb xml:id="DLCL_CF_E10029_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21041/full/800,/0/default.jpg"/>
             
             <p>
                L’esito mostrerà se siano ragionevoli tali dimostrazioni. 
@@ -159,7 +159,7 @@
                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
             </closer>
             
-            <pb xml:id="DLCL_CF_E10029_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/b1a49e6d02caa94a6e3679870b36e2b5eedea8d8.jpg"/>
+            <pb xml:id="DLCL_CF_E10029_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/24808/full/800,/0/default.jpg"/>
             
             <postscript>
                <p>

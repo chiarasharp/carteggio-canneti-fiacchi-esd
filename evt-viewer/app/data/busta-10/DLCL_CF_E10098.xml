@@ -69,7 +69,7 @@
         </revisionDesc>
     </front><body>
             <div type="transcription">
-                <pb xml:id="DLCL_CF_E10098_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20730/DSC_6118.jpg"/>
+                <pb xml:id="DLCL_CF_E10098_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21238/full/800,/0/default.jpg"/>
                 
                 <opener>
                     <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -102,7 +102,7 @@
                     Ma...
                 </p>
                 
-                <pb xml:id="DLCL_CF_E10098_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20730/DSC_6119.jpg"/>
+                <pb xml:id="DLCL_CF_E10098_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21239/full/800,/0/default.jpg"/>
                 
                 <p>
                     Stia allegramente con la speranza di rivederci in breve in <placeName ref="#DLCL_CF_L0004">Fabriano,</placeName> verso dove penso di incaminarmi fra otto giorni. 
@@ -131,9 +131,9 @@
                     <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
                 </closer>
                 
-                <pb xml:id="DLCL_CF_E10098_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/4a5d762c603945a85af6f0a2657571293acf7cc9.jpg"/>
+                <pb xml:id="DLCL_CF_E10098_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/25190/full/800,/0/default.jpg"/>
                 
-                <pb xml:id="DLCL_CF_E10098_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/86709e474d04a6e899071bdc188833caab0f0a5b.jpg"/>
+                <pb xml:id="DLCL_CF_E10098_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25191/full/800,/0/default.jpg"/>
                 
                 <postscript>
                     <p>

@@ -68,7 +68,7 @@
       </revisionDesc>
    </front><body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10091_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20723/DSC_6083.jpg"/>
+            <pb xml:id="DLCL_CF_E10091_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21224/full/800,/0/default.jpg"/>
             
             <opener>
                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -110,7 +110,7 @@
                Son tomi 3 in 4°. paoli 36. 
             </p>
             
-            <pb xml:id="DLCL_CF_E10091_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20723/DSC_6084.jpg"/>
+            <pb xml:id="DLCL_CF_E10091_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21225/full/800,/0/default.jpg"/>
             
             <p>
                Il <bibl type="religious">Breviario</bibl> del <persName ref="#DLCL_CF_PC0638">Quignones</persName> 
@@ -126,9 +126,9 @@
                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
             </closer>
             
-            <pb xml:id="DLCL_CF_E10091_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/18b5e5017fb07e86f6e8f8c6e708d8bce51402ec.jpg"/>
+            <pb xml:id="DLCL_CF_E10091_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/25175/full/800,/0/default.jpg"/>
             
-            <pb xml:id="DLCL_CF_E10091_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/f66285c52d53b8ec880290be4ee3559faaed1ee4.jpg"/>
+            <pb xml:id="DLCL_CF_E10091_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25176/full/800,/0/default.jpg"/>
             
             <postscript>
                <p>

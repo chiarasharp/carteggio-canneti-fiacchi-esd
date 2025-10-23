@@ -70,7 +70,7 @@
         </revisionDesc>
     </front><body>
             <div type="transcription">
-                <pb xml:id="DLCL_CF_E10097_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20729/DSC_6111.jpg"/>
+                <pb xml:id="DLCL_CF_E10097_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21237/full/800,/0/default.jpg"/>
                 
                 <p>
                     Transumptum Epistolae <persName ref="#DLCL_CF_PC0668">Wilhelminae Amaliae</persName> Imper. Rom. 
@@ -111,11 +111,11 @@
                     <signed>Benevola <persName ref="#DLCL_CF_PC0668">Amalia</persName></signed>
                 </closer>
                 
-                <pb xml:id="DLCL_CF_E10097_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/eed10735199c94af5e91537119f8f44081c19a2e.jpg"/>
+                <pb xml:id="DLCL_CF_E10097_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25186/full/800,/0/default.jpg"/>
                 
-                <pb xml:id="DLCL_CF_E10097_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/73995c7829237fa96cb5056295e3387c654ffec1.jpg"/>
+                <pb xml:id="DLCL_CF_E10097_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/25187/full/800,/0/default.jpg"/>
                 
-                <pb xml:id="DLCL_CF_E10097_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/4391c2d845200477c4bb328023b1588b599c84c7.jpg"/>
+                <pb xml:id="DLCL_CF_E10097_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25188/full/800,/0/default.jpg"/>
                 
                 <postscript>
                     <p>
@@ -123,7 +123,7 @@
                     </p>
                 </postscript>
                 
-                <pb xml:id="DLCL_CF_E10097_L_C3R" n="3 - Recto" facs="https://classense.unibo.it/files/large/f6c0594de30a067b98208e02a632bd6272dcb533.jpg"/>
+                <pb xml:id="DLCL_CF_E10097_L_C3R" n="3 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/25189/full/800,/0/default.jpg"/>
                 
             </div>
         </body>
