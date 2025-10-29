@@ -76,7 +76,7 @@
             </front>
             <body>
                <div type="transcription">
-                  <pb xml:id="DLCL_CF_E10067_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/21165/full/595,800/0/default.jpg"/>
+                  <pb xml:id="DLCL_CF_E10067_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21165/full/800,/0/default.jpg"/>
                   
                   <opener>
                      <salute><persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Carissimo</salute>
@@ -109,7 +109,7 @@
                      </cit>
                   </p>
                   
-                  <pb xml:id="DLCL_CF_E10067_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/21166/full/618,800/0/default.jpg"/>
+                  <pb xml:id="DLCL_CF_E10067_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21166/full/800,/0/default.jpg"/>
                   
                   <p>
                      <cit>
@@ -146,7 +146,7 @@
                      e per certa <bibl type="print">Operetta di difesa contra i Giornalisti.</bibl> 
                   </p>
                   
-                  <pb xml:id="DLCL_CF_E10067_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/21167/full/595,800/0/default.jpg"/>
+                  <pb xml:id="DLCL_CF_E10067_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21167/full/800,/0/default.jpg"/>
                   
                   <p>
                      Mi rallegro delli <bibl type="print">due Valemburch.</bibl> 
@@ -187,7 +187,7 @@
                      <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
                   </closer>            
                   
-                  <pb xml:id="DLCL_CF_E10067_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/25091/full/614,800/0/default.jpg"/>
+                  <pb xml:id="DLCL_CF_E10067_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25091/full/800,/0/default.jpg"/>
                   
                   <postscript>
                      <p>
@@ -263,7 +263,7 @@
             </front>
             <body>
                <div type="transcription">
-                  <pb xml:id="DLCL_CF_E10067_A01_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/21168/full/590,800/0/default.jpg"/>
+                  <pb xml:id="DLCL_CF_E10067_A01_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21168/full/800,/0/default.jpg"/>
                   
                   <p>
                      Casus resolvendi a Reverendis Patribus Theologis
@@ -310,7 +310,7 @@
                      Quaeritur, an contrafecerint piae Testatoris intentioni; et sua Reverentia teneatur ad restitutionem stipendij male percepti.
                   </p>
                   
-                  <pb xml:id="DLCL_CF_E10067_A01_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/24768/full/618,800/0/default.jpg"/>
+                  <pb xml:id="DLCL_CF_E10067_A01_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/24768/full/800,/0/default.jpg"/>
                   
                </div>
             </body>

@@ -111,7 +111,7 @@ $named-entities-border-color : rgb(125, 125, 125);
                 padding: 10px 15px;
             }
 
-            max-height: 150px;
+            max-height: 400px;
             overflow-x: hidden;
             overflow-y: auto;
             background-color: $named-entities-background-color-darker;
@@ -138,23 +138,66 @@ $named-entities-border-color : rgb(125, 125, 125);
     }
 
     &__detail {
-        display: block;
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 0.8rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
 
         &-icon {
-            float: left;
-            margin-top: 0.1rem;
+            flex-shrink: 0;
+            width: 20px;
+            margin-right: 8px;
+            margin-top: 0.2rem;
         }
 
         &-text {
-            margin-left: 24px;
+            flex: 1;
             display: block;
+
+            &-label {
+                display: inline;
+                font-weight: 600;
+                margin-right: 0.4em;
+                text-transform: capitalize;
+            }
 
             &-content {
                 display: inline-block;
+                margin-left: 0.2em;
+
+                // Make identifiers (idno) and history display on separate lines
+                &--multiline {
+                    display: block;
+                    margin-bottom: 0.3em;
+                    margin-left: 0;
+                    padding-left: 15px;
+                    position: relative;
+
+                    &:before {
+                        content: "•";
+                        position: absolute;
+                        left: 0;
+                        color: #666;
+                    }
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
 
                 &:first-letter {
                     text-transform: uppercase;
                 }
+            }
+
+            &-type {
+                font-size: 85%;
+                color: rgba(0, 0, 0, 0.55);
+                font-style: italic;
+                margin-right: 0.5em;
 
                 //
                 // Specific TEI situations
@@ -170,35 +213,157 @@ $named-entities-border-color : rgb(125, 125, 125);
                 }
             }
 
-            &-attribute {
-                font-variant: small-caps;
-                font-size: 90%;
-                vertical-align: top;
-                display: inline-block;
-                padding-top: 0.2rem;
+            &-attributes {
+                display: block;
+                font-size: 80%;
+                color: rgba(0, 0, 0, 0.55);
+                margin-top: 0.3em;
+                padding-left: 1.2em;
+                line-height: 1.4;
 
-                &:first-letter {
-                    text-transform: uppercase;
-                }
-
-                &:first-of-type {
-                    &:before {
-                        //content: "(";
-                    }
+                &:before {
+                    content: "";
                 }
 
                 &:after {
-                    content: ", ";
-                    vertical-align: top;
-                    margin-right: 0.2em;
+                    content: "";
+                }
+            }
+
+            &-attribute {
+                font-variant: small-caps;
+                display: block;
+                margin-bottom: 0.2em;
+
+                &:before {
+                    content: "• ";
+                    margin-right: 0.3em;
+                }
+
+                &:after {
+                    content: "";
                 }
 
                 &:last-of-type {
+                    margin-bottom: 0;
+
                     &:after {
-                        content: ": ";
-                        margin-right: 0;
+                        content: "";
                     }
                 }
+            }
+        }
+    }
+
+    // Manuscript identifier styling
+    .msIdentifier-part {
+        display: inline-block;
+        margin-right: 0.3em;
+
+        &:not(:last-child):after {
+            content: " • ";
+            margin-left: 0.3em;
+            color: #999;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    .msIdentifier-label {
+        font-variant: small-caps;
+        font-size: 90%;
+    }
+
+    // Imprint styling
+    .imprint-part {
+        display: inline-block;
+        margin-right: 0.3em;
+
+        &:not(:last-child):after {
+            content: " • ";
+            margin-left: 0.3em;
+            color: #999;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    .imprint-label {
+        font-variant: small-caps;
+        font-size: 90%;
+    }
+
+    // History styling
+    .history-part {
+        display: inline-block;
+        margin-right: 0.3em;
+
+        &:not(:last-child):after {
+            content: " • ";
+            margin-left: 0.3em;
+            color: #999;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    .history-label {
+        font-variant: small-caps;
+        font-size: 90%;
+    }
+
+    // Event styling
+    .event-part {
+        display: inline-block;
+    }
+
+    .event-label {
+        font-variant: small-caps;
+        font-size: 90%;
+    }
+
+    // Birth and death styling
+    .life-part {
+        display: inline-block;
+        margin-right: 0.3em;
+
+        &:not(:last-child):after {
+            content: " • ";
+            margin-left: 0.3em;
+            color: #999;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    .life-label {
+        font-variant: small-caps;
+        font-size: 90%;
+    }
+
+    // External link spacing and styling
+    &__external-link-wrapper {
+        &:before {
+            content: " • ";
+            margin: 0 0.3em;
+            color: #999;
+        }
+
+        a {
+            color: $base-color-middle;
+            text-decoration: none;
+
+            &:hover {
+                color: $base-color-dark;
+                text-decoration: underline;
             }
         }
     }
@@ -237,19 +402,29 @@ $named-entities-border-color : rgb(125, 125, 125);
 
         &-occurrence {
             border-radius: 4px;
-            padding: 3px 6px;
+            padding: 5px 10px;
             display: inline-block;
             border: 1px solid rgba($base-color-middle, .3);
-            margin-right: 3px;
+            margin-right: 5px;
             font-size: 85%;
-            margin-bottom: 3px;
+            margin-bottom: 5px;
             display: inline-block !important;
             cursor: pointer;
+            transition: all 0.2s ease;
+            font-weight: 500;
+            letter-spacing: 0.3px;
 
             &:hover,
             &.active {
-                //text-shadow: 0px 0px 1px #000;
-                background: rgba($base-color-middle, .2);
+                background: rgba($base-color-middle, .25);
+                border-color: rgba($base-color-middle, .5);
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+                transform: translateY(-1px);
+            }
+
+            &.active {
+                font-weight: 600;
+                border-width: 2px;
             }
         }
     }
@@ -497,6 +672,13 @@ $biblColor-darker: #f9aeae;
 .namedEntityRef {
     color: $base-color-middle;
     cursor: pointer;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 2px;
+
+    &:hover {
+        text-decoration-style: solid;
+    }
 
     &.highlighted {
         background: #ffc !important;
@@ -504,11 +686,13 @@ $biblColor-darker: #f9aeae;
 
     &.fakeEntity {
         cursor: default;
+        text-decoration: none;
     }
 
     &.active {
         border: 1px solid #000;
         border-bottom: 5px solid #fff;
+        text-decoration-style: solid;
     }
 
     &-bibl {
@@ -560,6 +744,13 @@ $biblColor-darker: #f9aeae;
 .namedEntityRef {
     color: $base-color-middle;
     cursor: pointer;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 2px;
+
+    &:hover {
+        text-decoration-style: solid;
+    }
 
     &.highlighted {
         background: #ffc !important;
@@ -567,11 +758,13 @@ $biblColor-darker: #f9aeae;
 
     &.fakeEntity {
         cursor: default;
+        text-decoration: none;
     }
 
     &.active {
         border: 1px solid #000;
         border-bottom: 5px solid #fff;
+        text-decoration-style: solid;
     }
 
     &-person,
@@ -907,8 +1100,8 @@ $biblColor-darker: #f9aeae;
     border: 1.5px solid $base-color-dark;
     border-radius: 3px;
     box-shadow: 2px 2px 2px rgba($base-color-dark, .6);
-    min-width: 200px;
-    max-width: 250px;
+    min-width: 350px;
+    max-width: 400px;
     z-index: 99;
     
     .namedEntityRef__no-data-header {
@@ -932,10 +1125,43 @@ $biblColor-darker: #f9aeae;
         padding: 10px 12px;
         
         p {
-            margin: 0;
+            margin: 0 0 10px 0;
             color: $base-color-dark;
             line-height: 1.3;
             font-size: 0.85em;
+        }
+    }
+    
+    .namedEntityRef__no-data-actions {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .namedEntityRef__contact-button {
+        background: $base-color-dark;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 3px;
+        font-size: 0.8em;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        
+        &:hover {
+            background: darken($base-color-dark, 10%);
+            transform: translateY(-1px);
+            box-shadow: 0 2px 4px rgba($base-color-dark, 0.3);
+        }
+        
+        &:active {
+            transform: translateY(0);
+        }
+        
+        i {
+            font-size: 0.9em;
         }
     }
 }

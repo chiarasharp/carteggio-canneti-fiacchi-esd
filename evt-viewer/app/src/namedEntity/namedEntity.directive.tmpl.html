@@ -11,14 +11,15 @@
             data-icon="list"
             data-type="openEntity"
             ng-click="vm.openEntity()"></button-switch>
-          <button-switch 
+          <!-- Pin functionality disabled
+          <button-switch
                 title="BUTTONS.PIN_REMOVE"
                 ng-if="::vm.isPinAvailable() && vm.location === 'pinned'"
                 data-label=""
                 data-icon="remove"
                 data-type="pin-off"
                 ng-click="vm.togglePin()"></button-switch>
-          <button-switch 
+          <button-switch
                 title="BUTTONS.PIN_TOGGLE"
                 ng-if="::vm.isPinAvailable() && vm.location !== 'pinned'"
                 data-label=""
@@ -26,6 +27,7 @@
                 data-type="pin"
                 ng-class="{'active' : vm.isPinned()}"
                 ng-click="vm.togglePin()"></button-switch>
+          -->
         </div>
         <div ng-click="vm.toggle()">
             <i class="fa opener" ng-if="::vm.location !== 'mainText'"></i>
@@ -75,43 +77,147 @@
                             <!-- Multiple entities: Show content for selected reference only -->
                             <div ng-if="::vm.entity._multiple">
                                 <!-- Get the currently selected entity -->
-                                <div ng-repeat="singleEntity in ::vm.entity._entities track by $index" 
+                                <div ng-repeat="singleEntity in ::vm.entity._entities track by $index"
                                      ng-show="vm.activeReferenceTab === $index">
-                                    <span ng-if="::singleEntity.content && singleEntity.content._indexes.length > 0" 
+                                    <!-- Entity ID and SameAs link -->
+                                    <div class="namedEntity__detail namedEntity__detail--id">
+                                        <i class="fa fa-hashtag namedEntity__detail-icon"></i>
+                                        <span class="namedEntity__detail-text">
+                                            <span class="namedEntity__detail-text-label">{{ 'NAMED_ENTITY_FIELDS.dlclId' | translate }}:</span>
+                                            <span class="namedEntity__detail-text-content">{{ ::singleEntity.id }}</span>
+                                            <span ng-if="::singleEntity.sameAs" class="namedEntity__external-link-wrapper">
+                                                <a href="{{ ::singleEntity.sameAs }}" target="_blank">
+                                                    <i class="fa fa-external-link"></i> {{ 'NAMED_ENTITY_FIELDS.sameAs' | translate }}
+                                                </a>
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <span ng-if="::singleEntity.content && singleEntity.content._indexes.length > 0"
                                         ng-repeat="contentName in ::singleEntity.content._indexes">
-                                        <span class="namedEntity__detail" ng-if="::singleEntity.content[contentName].length > 0">
+                                        <span class="namedEntity__detail" ng-if="::singleEntity.content[contentName].length > 0 && contentName !== 'location' && contentName !== 'address' && contentName !== 'origin' && contentName !== 'provenance' && contentName !== 'acquisition' && contentName !== 'msContents'">
+                                            <!-- SWITCH to get icon -->
                                             <span ng-switch="contentName">
-                                                <i ng-switch-when="title"
-                                                    class="fa fa-circle namedEntity__detail-icon"></i>
+                                                <i ng-switch-when="idno"
+                                                    class="fa fa-barcode namedEntity__detail-icon"></i>
+                                                <i ng-switch-when="msIdentifier"
+                                                    class="fa fa-university namedEntity__detail-icon"></i>
+                                                <i ng-switch-when="history"
+                                                    class="fa fa-history namedEntity__detail-icon"></i>
+                                                <i ng-switch-when="imprint"
+                                                    class="fa fa-print namedEntity__detail-icon"></i>
                                                 <i ng-switch-when="note"
                                                     class="fa fa-sticky-note namedEntity__detail-icon"></i>
+                                                <i ng-switch-when="occupation"
+                                                    class="fa fa-briefcase namedEntity__detail-icon"></i>                                        
+                                                <i ng-switch-when="persName"
+                                                    class="fa fa-user namedEntity__detail-icon"></i>
+                                                <i ng-switch-when="copist"
+                                                    class="fa fa-pencil namedEntity__detail-icon"></i>
+                                                <i ng-switch-when="sex"
+                                                    class="fa fa-venus-mars namedEntity__detail-icon"></i>
+                                                <i ng-switch-when="birth"
+                                                    class="fa fa-birthday-cake namedEntity__detail-icon"></i>
+                                                <i ng-switch-when="death"
+                                                    class="fa fa-times fa-rotate-45 namedEntity__detail-icon"></i>
+                                                <i ng-switch-when="residence"
+                                                    class="fa fa-home namedEntity__detail-icon"></i>
+                                                <i ng-switch-when="orgName"
+                                                    class="fa fa-users namedEntity__detail-icon"></i>
+                                                <i ng-switch-when="geoName"
+                                                    class="fa fa-map-marker namedEntity__detail-icon"></i>
+                                                <i ng-switch-when="geogFeat"
+                                                    class="fa fa-map-marker namedEntity__detail-icon"></i>
+
+                                                <i ng-switch-when="title"
+                                                    class="fa fa-circle namedEntity__detail-icon"></i>
+
+                                                <i ng-switch-when="district"
+                                                    class="fa fa-map-marker namedEntity__detail-icon"></i>
+                                                <i ng-switch-when="settlement"
+                                                    class="fa fa-location-arrow namedEntity__detail-icon"></i>
+                                                <i ng-switch-when="region"
+                                                    class="fa fa-map-marker namedEntity__detail-icon"></i>    
+                                                <i ng-switch-when="country"
+                                                    class="fa fa-map-marker namedEntity__detail-icon"></i>
+                                                <i ng-switch-when="bloc"
+                                                    class="fa fa-map-marker namedEntity__detail-icon"></i>
+                                                
+                                                <i ng-switch-when="relations"
+                                                    class="fa fa-share-alt namedEntity__detail-icon"></i>
+                                                <i ng-switch-when="actors"
+                                                    class="fa fa-users namedEntity__detail-icon"></i>
+
                                                 <i ng-switch-default
                                                     class="fa fa-info-circle namedEntity__detail-icon"></i>
                                             </span>
-                                            <span class="namedEntity__detail-text"
-                                                ng-repeat="contentObj in ::singleEntity.content[contentName] track by $index">
-                                                <span class="namedEntity__detail-text-content" compile="::contentObj.text"></span>
+
+                                            <span class="namedEntity__detail-text">
+                                                <span class="namedEntity__detail-text-label">
+                                                    {{ ('NAMED_ENTITY_FIELDS.' + contentName) | translate }}:
+                                                </span>
+                                                <span ng-repeat="contentObj in ::singleEntity.content[contentName] track by $index" class="namedEntity__detail-text-content" ng-class="{'namedEntity__detail-text-content--multiline': (contentName === 'idno' || contentName === 'history' || contentName === 'msIdentifier' || contentName === 'title' || contentName === 'occupation' || contentName === 'orgName') && singleEntity.content[contentName].length > 1}">
+                                                    <span ng-if="::contentObj.text && contentObj.text.trim()">
+                                                        <span compile="::contentObj.text"></span><span ng-if="::contentObj.attributes.type && contentName !== 'occupation'" class="namedEntity__detail-text-type"> ({{ ('ATTRIBUTE_VALUES.' + contentObj.attributes.type) | translate }})</span><span ng-if="::(contentName === 'occupation' || contentName === 'title') && !$last && !((contentName === 'idno' || contentName === 'history' || contentName === 'msIdentifier' || contentName === 'title' || contentName === 'occupation' || contentName === 'orgName') && singleEntity.content[contentName].length > 1)">, </span><span ng-if="::(contentName === 'forename' || contentName === 'surname' || contentName === 'persName') && !$last"> </span>
+                                                    </span>
+                                                    <span ng-if="::(!contentObj.text || !contentObj.text.trim()) && contentObj.attributes.value">
+                                                        {{ ('ATTRIBUTE_VALUES.' + contentObj.attributes.value) | translate }}<span ng-if="::contentObj.attributes.type && contentName !== 'occupation'" class="namedEntity__detail-text-type"> ({{ ('ATTRIBUTE_VALUES.' + contentObj.attributes.type) | translate }})</span><span ng-if="::(contentName === 'occupation' || contentName === 'title') && !$last && !((contentName === 'idno' || contentName === 'history' || contentName === 'msIdentifier' || contentName === 'title' || contentName === 'occupation' || contentName === 'orgName') && singleEntity.content[contentName].length > 1)">, </span><span ng-if="::(contentName === 'forename' || contentName === 'surname' || contentName === 'persName') && !$last"> </span>
+                                                    </span>
+                                                    <span ng-if="::(!contentObj.text || !contentObj.text.trim()) && contentObj.attributes['when-iso']">
+                                                        {{ contentObj.attributes['when-iso'] | formatISODate }}<span ng-if="::contentObj.attributes.type && contentName !== 'occupation'" class="namedEntity__detail-text-type"> ({{ ('ATTRIBUTE_VALUES.' + contentObj.attributes.type) | translate }})</span><span ng-if="::(contentName === 'occupation' || contentName === 'title') && !$last && !((contentName === 'idno' || contentName === 'history' || contentName === 'msIdentifier' || contentName === 'title' || contentName === 'occupation') && singleEntity.content[contentName].length > 1)">, </span><span ng-if="::(contentName === 'forename' || contentName === 'surname' || contentName === 'persName') && !$last"> </span>
+                                                    </span>
+                                                    <span ng-if="::(!contentObj.text || !contentObj.text.trim()) && contentObj.attributes.when && !contentObj.attributes['when-iso']">
+                                                        {{ contentObj.attributes.when | formatISODate }}<span ng-if="::contentObj.attributes.type && contentName !== 'occupation'" class="namedEntity__detail-text-type"> ({{ ('ATTRIBUTE_VALUES.' + contentObj.attributes.type) | translate }})</span><span ng-if="::(contentName === 'occupation' || contentName === 'title') && !$last && !((contentName === 'idno' || contentName === 'history' || contentName === 'msIdentifier' || contentName === 'title' || contentName === 'occupation') && singleEntity.content[contentName].length > 1)">, </span><span ng-if="::(contentName === 'forename' || contentName === 'surname' || contentName === 'persName') && !$last"> </span>
+                                                    </span>
+                                                    <span ng-if="::(!contentObj.text || !contentObj.text.trim()) && contentObj.attributes.key">
+                                                        {{ contentObj.attributes.key }}<span ng-if="::(contentName === 'occupation' || contentName === 'title') && !$last && !((contentName === 'idno' || contentName === 'history' || contentName === 'msIdentifier' || contentName === 'title' || contentName === 'occupation') && singleEntity.content[contentName].length > 1)">, </span><span ng-if="::(contentName === 'forename' || contentName === 'surname' || contentName === 'persName') && !$last"> </span>
+                                                    </span>
+                                                </span>
                                             </span>
                                         </span>
+                                    </span>
+
+                                    <span ng-if="::singleEntity.content._indexes.length <= 0">
+                                        {{ 'MESSAGES.NO_MORE_INFO_AVAILABLE' | translate }}
                                     </span>
                                 </div>
                             </div>
 
                             <!-- Single entity display (original) -->
                             <div ng-if="::!vm.entity._multiple">
-                                <span ng-if="::vm.entity.content && vm.entity.content._indexes.length > 0" 
+                                <!-- Entity ID and SameAs link -->
+                                <div class="namedEntity__detail namedEntity__detail--id">
+                                    <i class="fa fa-hashtag namedEntity__detail-icon"></i>
+                                    <span class="namedEntity__detail-text">
+                                        <span class="namedEntity__detail-text-label">{{ 'NAMED_ENTITY_FIELDS.dlclId' | translate }}:</span>
+                                        <span class="namedEntity__detail-text-content">{{ ::vm.entity.id }}</span>
+                                        <span ng-if="::vm.entity.sameAs" class="namedEntity__external-link-wrapper">
+                                            <a href="{{ ::vm.entity.sameAs }}" target="_blank">
+                                                <i class="fa fa-external-link"></i> {{ 'NAMED_ENTITY_FIELDS.sameAs' | translate }}
+                                            </a>
+                                        </span>
+                                    </span>
+                                </div>
+                                <span ng-if="::vm.entity.content && vm.entity.content._indexes.length > 0"
                                     ng-repeat="contentName in ::vm.entity.content._indexes">
-                                    <span class="namedEntity__detail" ng-if="::vm.entity.content[contentName].length > 0">
+                                    <span class="namedEntity__detail" ng-if="::vm.entity.content[contentName].length > 0 && contentName !== 'location' && contentName !== 'address' && contentName !== 'origin' && contentName !== 'provenance' && contentName !== 'acquisition' && contentName !== 'msContents'">
                                         <!-- SWITCH to get icon -->
                                         <span ng-switch="contentName">
                                             <i ng-switch-when="idno"
                                                 class="fa fa-barcode namedEntity__detail-icon"></i>
+                                            <i ng-switch-when="msIdentifier"
+                                                class="fa fa-university namedEntity__detail-icon"></i>
+                                            <i ng-switch-when="history"
+                                                class="fa fa-history namedEntity__detail-icon"></i>
+                                            <i ng-switch-when="imprint"
+                                                class="fa fa-print namedEntity__detail-icon"></i>
                                             <i ng-switch-when="note"
                                                 class="fa fa-sticky-note namedEntity__detail-icon"></i>
                                             <i ng-switch-when="occupation"
                                                 class="fa fa-briefcase namedEntity__detail-icon"></i>                                        
                                             <i ng-switch-when="persName"
                                                 class="fa fa-user namedEntity__detail-icon"></i>
+                                            <i ng-switch-when="copist"
+                                                class="fa fa-pencil namedEntity__detail-icon"></i>
                                             <i ng-switch-when="sex"
                                                 class="fa fa-venus-mars namedEntity__detail-icon"></i>
                                             <i ng-switch-when="birth"
@@ -150,15 +256,28 @@
                                                 class="fa fa-info-circle namedEntity__detail-icon"></i>
                                         </span>
 
-                                        <span class="namedEntity__detail-text"
-                                            ng-repeat="contentObj in ::vm.entity.content[contentName] track by $index">
-                                                <span class="namedEntity__detail-text-attributes">
-                                                    <span class="namedEntity__detail-text-attribute" 
-                                                        ng-repeat="attribute in ::contentObj.attributes._indexes track by $index"
-                                                    >{{::contentObj.attributes[attribute] | translate | camelToSpaces | underscoresToSpaces }}</span>
-                                                </span>
-                                                <span class="namedEntity__detail-text-content" compile="::contentObj.text"></span>
+                                        <span class="namedEntity__detail-text">
+                                            <span class="namedEntity__detail-text-label">
+                                                {{ ('NAMED_ENTITY_FIELDS.' + contentName) | translate }}:
                                             </span>
+                                            <span ng-repeat="contentObj in ::vm.entity.content[contentName] track by $index" class="namedEntity__detail-text-content" ng-class="{'namedEntity__detail-text-content--multiline': (contentName === 'idno' || contentName === 'history' || contentName === 'msIdentifier' || contentName === 'title' || contentName === 'occupation' || contentName === 'orgName') && vm.entity.content[contentName].length > 1}">
+                                                <span ng-if="::contentObj.text && contentObj.text.trim()">
+                                                    <span compile="::contentObj.text"></span><span ng-if="::contentObj.attributes.type && contentName !== 'occupation'" class="namedEntity__detail-text-type"> ({{ ('ATTRIBUTE_VALUES.' + contentObj.attributes.type) | translate }})</span><span ng-if="::(contentName === 'occupation' || contentName === 'title') && !$last && !((contentName === 'idno' || contentName === 'history' || contentName === 'msIdentifier' || contentName === 'title' || contentName === 'occupation' || contentName === 'orgName') && vm.entity.content[contentName].length > 1)">, </span><span ng-if="::(contentName === 'forename' || contentName === 'surname' || contentName === 'persName') && !$last"> </span>
+                                                </span>
+                                                <span ng-if="::(!contentObj.text || !contentObj.text.trim()) && contentObj.attributes.value">
+                                                    {{ ('ATTRIBUTE_VALUES.' + contentObj.attributes.value) | translate }}<span ng-if="::contentObj.attributes.type && contentName !== 'occupation'" class="namedEntity__detail-text-type"> ({{ ('ATTRIBUTE_VALUES.' + contentObj.attributes.type) | translate }})</span><span ng-if="::(contentName === 'occupation' || contentName === 'title') && !$last && !((contentName === 'idno' || contentName === 'history' || contentName === 'msIdentifier' || contentName === 'title' || contentName === 'occupation' || contentName === 'orgName') && vm.entity.content[contentName].length > 1)">, </span><span ng-if="::(contentName === 'forename' || contentName === 'surname' || contentName === 'persName') && !$last"> </span>
+                                                </span>
+                                                <span ng-if="::(!contentObj.text || !contentObj.text.trim()) && contentObj.attributes['when-iso']">
+                                                    {{ contentObj.attributes['when-iso'] | formatISODate }}<span ng-if="::contentObj.attributes.type && contentName !== 'occupation'" class="namedEntity__detail-text-type"> ({{ ('ATTRIBUTE_VALUES.' + contentObj.attributes.type) | translate }})</span><span ng-if="::(contentName === 'occupation' || contentName === 'title') && !$last && !((contentName === 'idno' || contentName === 'history' || contentName === 'msIdentifier' || contentName === 'title' || contentName === 'occupation') && vm.entity.content[contentName].length > 1)">, </span><span ng-if="::(contentName === 'forename' || contentName === 'surname' || contentName === 'persName') && !$last"> </span>
+                                                </span>
+                                                <span ng-if="::(!contentObj.text || !contentObj.text.trim()) && contentObj.attributes.when && !contentObj.attributes['when-iso']">
+                                                    {{ contentObj.attributes.when | formatISODate }}<span ng-if="::contentObj.attributes.type && contentName !== 'occupation'" class="namedEntity__detail-text-type"> ({{ ('ATTRIBUTE_VALUES.' + contentObj.attributes.type) | translate }})</span><span ng-if="::(contentName === 'occupation' || contentName === 'title') && !$last && !((contentName === 'idno' || contentName === 'history' || contentName === 'msIdentifier' || contentName === 'title' || contentName === 'occupation') && vm.entity.content[contentName].length > 1)">, </span><span ng-if="::(contentName === 'forename' || contentName === 'surname' || contentName === 'persName') && !$last"> </span>
+                                                </span>
+                                                <span ng-if="::(!contentObj.text || !contentObj.text.trim()) && contentObj.attributes.key">
+                                                    {{ contentObj.attributes.key }}<span ng-if="::(contentName === 'occupation' || contentName === 'title') && !$last && contentName !== 'idno' && contentName !== 'history' && contentName !== 'msIdentifier'">, </span><span ng-if="::(contentName === 'forename' || contentName === 'surname' || contentName === 'persName') && !$last"> </span>
+                                                </span>
+                                            </span>
+                                        </span>
                                     </span>
                                 </span>
 
@@ -170,15 +289,20 @@
                         <div ng-switch-when="occurrences">
                             <!-- For multiple entities, show occurrences for the selected reference only -->
                             <div ng-if="::vm.entity._multiple">
-                                <div ng-repeat="singleEntity in ::vm.entity._entities track by $index" 
+                                <div ng-repeat="singleEntity in ::vm.entity._entities track by $index"
                                      ng-show="vm.activeReferenceTab === $index">
-                                    <span ng-if="::singleEntity.occurrences && singleEntity.occurrences.length > 0"
+                                    <span ng-if="singleEntity.occurrences && singleEntity.occurrences.length > 0"
                                         class="namedEntity__occurrences-occurrence"
                                         ng-class="{'active': vm.isCurrentPageDoc(occurrence) } "
-                                        ng-repeat="occurrence in ::singleEntity.occurrences track by $index"
+                                        ng-repeat="occurrence in singleEntity.occurrences | limitTo:vm.occurrencesLimit:vm.occurrencesStart track by $index"
                                         ng-click="vm.goToOccurrence(occurrence)">
                                         {{ 'LISTS.OCCURRENCE' | translate:occurrence }}
                                     </span>
+                                    <div ng-if="singleEntity.occurrences && singleEntity.occurrences.length > 10">
+                                        <button ng-if="vm.occurrencesStart > 0" ng-click="vm.prevOccurrences()" style="margin: 10px 5px;">{{ 'BUTTONS.PAGE_PREVIOUS' | translate }}</button>
+                                        <span>{{vm.occurrencesStart + 1}} - {{vm.occurrencesStart + vm.occurrencesLimit > singleEntity.occurrences.length ? singleEntity.occurrences.length : vm.occurrencesStart + vm.occurrencesLimit}} {{ 'OF' | translate }} {{singleEntity.occurrences.length}}</span>
+                                        <button ng-if="vm.occurrencesStart + vm.occurrencesLimit < singleEntity.occurrences.length" ng-click="vm.nextOccurrences(singleEntity.occurrences.length)" style="margin: 10px 5px;">{{ 'BUTTONS.PAGE_NEXT' | translate }}</button>
+                                    </div>
                                     <span class="italic" ng-if="::singleEntity.occurrences && singleEntity.occurrences.length <= 0">
                                         {{ 'MESSAGES.NO_RESULT_FOUND' | translate }}
                                     </span>
@@ -187,16 +311,21 @@
                                     </span>
                                 </div>
                             </div>
-                            
+
                             <!-- For single entities, show original behavior -->
                             <div ng-if="::!vm.entity._multiple">
-                                <span ng-if="::vm.occurrences && vm.occurrences.length > 0"
+                                <span ng-if="vm.occurrences && vm.occurrences.length > 0"
                                     class="namedEntity__occurrences-occurrence"
                                     ng-class="{'active': vm.isCurrentPageDoc(occurrence) } "
-                                    ng-repeat="occurrence in ::vm.occurrences track by $index"
+                                    ng-repeat="occurrence in vm.occurrences | limitTo:vm.occurrencesLimit:vm.occurrencesStart track by $index"
                                     ng-click="vm.goToOccurrence(occurrence)">
                                     {{ 'LISTS.OCCURRENCE' | translate:occurrence }}
                                 </span>
+                                <div ng-if="vm.occurrences && vm.occurrences.length > 10">
+                                    <button ng-if="vm.occurrencesStart > 0" ng-click="vm.prevOccurrences()" style="margin: 10px 5px;">{{ 'BUTTONS.PAGE_PREVIOUS' | translate }}</button>
+                                    <span>{{vm.occurrencesStart + 1}} - {{vm.occurrencesStart + vm.occurrencesLimit > vm.occurrences.length ? vm.occurrences.length : vm.occurrencesStart + vm.occurrencesLimit}} {{ 'OF' | translate }} {{vm.occurrences.length}}</span>
+                                    <button ng-if="vm.occurrencesStart + vm.occurrencesLimit < vm.occurrences.length" ng-click="vm.nextOccurrences(vm.occurrences.length)" style="margin: 10px 5px;">{{ 'BUTTONS.PAGE_NEXT' | translate }}</button>
+                                </div>
                                 <span class="italic" ng-if="::vm.occurrences && vm.occurrences.length <= 0">
                                     {{ 'MESSAGES.NO_RESULT_FOUND' | translate }}
                                 </span>

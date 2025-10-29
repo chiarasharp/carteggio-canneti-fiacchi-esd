@@ -236,7 +236,7 @@
    </front><body>
                <div type="transcription">
                   
-                  <pb xml:id="DLCL_CF_E10090_A01_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/21222/DSC_6081.jpg"/>
+                  <pb xml:id="DLCL_CF_E10090_A01_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21223/full/800,/0/default.jpg"/>
                   
                   <p>
                      <handShift scribeRef="#DLCL_CF_PC0002"/>
@@ -251,7 +251,7 @@
                      </foreign>
                   </p>
                   
-                  <pb xml:id="DLCL_CF_E10090_A01_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/f1a544a25a09d07f50625dc489cb1354d8104ec0.jpg"/>
+                  <pb xml:id="DLCL_CF_E10090_A01_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25112/full/800,/0/default.jpg"/>
                   
                </div>
             </body>

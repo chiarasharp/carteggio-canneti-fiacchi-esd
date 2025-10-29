@@ -1718,12 +1718,26 @@
       <occupation>monaco camaldolese</occupation>
       <occupation>giurista</occupation>
    </person>
-   <person xml:id="DLCL_CF_PC0120">
-      <persName xml:lang="it">
-         <roleName type="religious">Padre</roleName>
-         <surname>Ferranti</surname>
+   <person xml:id="DLCL_CF_PC0120" sameAs="http://viaf.org/viaf/51717250">
+      <persName xml:lang="fr">
+         <forename xml:lang="la">Dionysius</forename>
+         <surname xml:lang="la">Petavius</surname>
+         <surname xml:lang="it">Petavio</surname>
+         <forename>Denis</forename>
+         <surname>Pétau</surname>
       </persName>
+      <idno type="VIAF">51717250</idno>
+      <birth source="https://www.treccani.it/enciclopedia/denis-petau_(Enciclopedia-Italiana)/">
+         <date when-iso="21-08-1583"/>
+         <placeName ref="#DLCL_CF_L0153">Orléans</placeName>
+      </birth>
+      <death source="https://www.treccani.it/enciclopedia/denis-petau_(Enciclopedia-Italiana)/">
+         <date when-iso="11-12-1652"/>
+         <placeName ref="#DLCL_CF_L0017">Parigi</placeName>
+      </death>
       <sex value="m"/>
+      <occupation>filosofo</occupation>
+      <occupation>storico</occupation>
    </person>
    <person xml:id="DLCL_CF_PC0121" sameAs="http://viaf.org/viaf/170648482">
       <persName xml:lang="it">

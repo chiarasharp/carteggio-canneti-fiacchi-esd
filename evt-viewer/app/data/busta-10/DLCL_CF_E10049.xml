@@ -71,7 +71,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10049_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/21103/full/606,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10049_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21103/full/800,/0/default.jpg"/>
             
             <opener>
                <salute>Carissimo <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName></salute>
@@ -102,7 +102,7 @@
                Ma rifletto meglio, e considerata pre<pc force="inter">-</pc> 
             </p>
             
-            <pb xml:id="DLCL_CF_E10049_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/21104/full/627,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10049_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21104/full/800,/0/default.jpg"/>
             
             <p>
                <pc force="inter">-</pc>mura del <rs type="person" ref="#DLCL_CF_PC0056">Signor Dottore,</rs> la maniera facile di servirlo da esso proposta, 
@@ -136,9 +136,9 @@
                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
             </closer>
             
-            <pb xml:id="DLCL_CF_E10049_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/25075/full/608,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10049_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/25075/full/800,/0/default.jpg"/>
             
-            <pb xml:id="DLCL_CF_E10049_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/25076/full/619,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10049_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25076/full/800,/0/default.jpg"/>
             
             <postscript>
                <p>

@@ -312,7 +312,7 @@
             </front>
             <body>
                <div type="transcription">
-                  <pb xml:id="DLCL_CF_E10056_A01_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/21126/DSC_5917.jpg"/>
+                  <pb xml:id="DLCL_CF_E10056_A01_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21127/full/800,/0/default.jpg"/>
                
                   <p>
                      <persName ref="#DLCL_CF_PC0448">Susanna</persName> figlia 'maggiore' di <persName ref="#DLCL_CF_PC0446">Lodovico</persName> 
@@ -333,7 +333,7 @@
                      avvelenata, avvanti il 1476, pagina <bibl type="print">797.</bibl> 
                   </p>
                
-                  <pb xml:id="DLCL_CF_E10056_A01_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/21126/DSC_5919.jpg"/>
+                  <pb xml:id="DLCL_CF_E10056_A01_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21128/full/800,/0/default.jpg"/>
                
                   <p>
                      <persName ref="#DLCL_CF_PC0068">Maffei</persName> 
@@ -379,7 +379,7 @@
                      di <placeName ref="#DLCL_CF_L0099">Baviera</placeName><space quantity="8" unit="chars"/><surname>Sforza</surname> 
                   </p>
                   
-                  <pb xml:id="DLCL_CF_E10056_A01_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/21126/DSC_5920.jpg"/>
+                  <pb xml:id="DLCL_CF_E10056_A01_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21129/full/800,/0/default.jpg"/>
                   
                   <p>
                      <gap reason="illegible"/>[...]di di <persName ref="#DLCL_CF_PC0445">Paola Malatesta Maffei</persName> pagina <bibl type="print">749</bibl> anno 1410. 
@@ -423,7 +423,7 @@
                         22.septembris Ibidem pagina</foreign> <bibl type="print">538.</bibl> <bibl type="print">539.</bibl> <bibl type="print">540.</bibl> <bibl type="print">541.</bibl> 
                   </p>
                   
-                  <pb xml:id="DLCL_CF_E10056_A01_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/21126/DSC_5921.jpg"/>
+                  <pb xml:id="DLCL_CF_E10056_A01_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21130/full/800,/0/default.jpg"/>
                   
                   <p>
                      <foreign xml:lang="la">

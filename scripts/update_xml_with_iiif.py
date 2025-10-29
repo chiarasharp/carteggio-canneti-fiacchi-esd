@@ -45,8 +45,8 @@ def fetch_manifest(manifest_id):
         print(f"  ⚠️  Error fetching manifest: {e}")
         return []
 
-def extract_manifest_id_from_xml(xml_path):
-    """Extract manifest ID from facsimile/@sameAs in XML"""
+def extract_manifest_ids_from_xml(xml_path):
+    """Extract ALL manifest IDs from facsimile/@sameAs in XML"""
     try:
         tree = ET.parse(xml_path)
         root = tree.getroot()
@@ -54,24 +54,28 @@ def extract_manifest_id_from_xml(xml_path):
         # Handle TEI namespace
         namespaces = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
-        # Try with namespace
-        facsimile = root.find('.//tei:facsimile[@sameAs]', namespaces)
-        if facsimile is None:
-            # Try without namespace
-            facsimile = root.find('.//{http://www.tei-c.org/ns/1.0}facsimile[@sameAs]')
-        if facsimile is None:
-            facsimile = root.find('.//facsimile[@sameAs]')
+        manifest_ids = []
 
-        if facsimile is not None:
+        # Try to find all facsimile elements with sameAs
+        facsimiles = root.findall('.//tei:facsimile[@sameAs]', namespaces)
+        if not facsimiles:
+            facsimiles = root.findall('.//{http://www.tei-c.org/ns/1.0}facsimile[@sameAs]')
+        if not facsimiles:
+            facsimiles = root.findall('.//facsimile[@sameAs]')
+
+        for facsimile in facsimiles:
             manifest_url = facsimile.get('sameAs')
             if manifest_url:
                 # Extract ID from URL like: https://classense.unibo.it/iiif/20634/manifest
                 match = re.search(r'/iiif/(?:2/)?(\d+)/manifest', manifest_url)
                 if match:
-                    return match.group(1)
+                    manifest_ids.append(match.group(1))
 
-        print(f"  ⚠️  No manifest ID found in facsimile/@sameAs")
-        return None
+        if not manifest_ids:
+            print(f"  ⚠️  No manifest ID found in facsimile/@sameAs")
+            return None
+
+        return manifest_ids
     except Exception as e:
         print(f"  ⚠️  Error parsing XML: {e}")
         return None
@@ -124,8 +128,8 @@ def update_pb_elements(xml_path, iiif_images):
             old_facs = match.group(2)
             new_facs = iiif_images[i]
 
-            # Only update if it's not already a IIIF URL or if it's /files/large/
-            if '/files/large/' in old_facs or '/iiif/' not in old_facs:
+            # Update if: it's /files/large/, OR not IIIF yet, OR it's from classense.unibo.it (migrate to CDC)
+            if '/files/large/' in old_facs or '/iiif/' not in old_facs or 'classense.unibo.it' in old_facs:
                 print(f"  Updating pb #{i+1}:")
                 print(f"    FROM: {old_facs}")
                 print(f"    TO:   {new_facs}")
@@ -160,37 +164,142 @@ def process_xml_file(xml_path):
     print(f"Processing: {xml_path}")
     print('='*80)
 
-    # Extract manifest ID from XML
-    manifest_id = extract_manifest_id_from_xml(xml_path)
-    if not manifest_id:
+    # Extract ALL manifest IDs from XML
+    manifest_ids = extract_manifest_ids_from_xml(xml_path)
+    if not manifest_ids:
         print(f"  Skipping (no manifest ID found)")
         return False
 
-    print(f"  Manifest ID: {manifest_id}")
+    print(f"  Manifest ID(s): {', '.join(manifest_ids)}")
 
-    # Fetch IIIF images from manifest
-    iiif_images = fetch_manifest(manifest_id)
+    # Fetch IIIF images from ALL manifests
+    all_images = []
+    for manifest_id in manifest_ids:
+        iiif_images = fetch_manifest(manifest_id)
+        if iiif_images:
+            all_images.extend(iiif_images)
 
-    if not iiif_images:
-        print(f"  Skipping (no images in manifest)")
+    if not all_images:
+        print(f"  Skipping (no images in manifest(s))")
         return False
 
     # Update XML with IIIF URLs
-    return update_pb_elements(xml_path, iiif_images)
+    return update_pb_elements(xml_path, all_images)
+
+def generate_missing_images_report(results, xml_dir):
+    """Generate markdown report for files with missing images"""
+    from datetime import datetime
+
+    issues = [r for r in results if r['has_issues']]
+
+    report_path = xml_dir / 'missing-iiif-images-report.md'
+    report = f"# Missing IIIF Images Report\n\n"
+    report += f"Generated: {datetime.now().isoformat()}\n\n"
+    report += f"Directory: {xml_dir}\n\n"
+    report += f"## Summary\n\n"
+
+    total = len(results)
+    ok_count = total - len(issues)
+
+    report += f"- **Total files checked**: {total}\n"
+    report += f"- **Files with all images**: {ok_count}\n"
+    report += f"- **Files with issues**: {len(issues)}\n\n"
+
+    if not issues:
+        report += "✅ **All files have matching page and image counts!**\n\n"
+        report += "All XML files have been checked and every `<pb>` element has a corresponding image in the IIIF manifest(s).\n"
+        with open(report_path, 'w', encoding='utf-8') as f:
+            f.write(report)
+        print(f"\n📄 Report generated: {report_path}")
+        print("✅ All files have matching page and image counts!")
+        return
+
+    # Categorize issues
+    more_pages = [r for r in issues if r.get('pb_count', 0) > r.get('image_count', 0)]
+    more_images = [r for r in issues if r.get('pb_count', 0) < r.get('image_count', 0)]
+    no_manifest = [r for r in issues if r.get('issue', '').startswith('No manifest')]
+    manifest_errors = [r for r in issues if 'Error' in r.get('issue', '')]
+
+    if more_pages:
+        report += f"- **Files with MORE pages than images**: {len(more_pages)} (need to add/fix images in manifest)\n"
+    if more_images:
+        report += f"- **Files with MORE images than pages**: {len(more_images)} (need to add `<pb>` elements)\n"
+    if no_manifest:
+        report += f"- **Files without manifest ID**: {len(no_manifest)} (need to add `<facsimile sameAs=\"...\">`)\n"
+    if manifest_errors:
+        report += f"- **Files with manifest errors**: {len(manifest_errors)}\n"
+
+    report += "\n## Files with Issues\n\n"
+    report += "| File | Manifest ID | Pages (<pb>) | Images (IIIF) | Difference | Issue |\n"
+    report += "|------|-------------|--------------|---------------|------------|-------|\n"
+
+    for r in issues:
+        manifest = r.get('manifest_id', 'N/A')
+        pb_count = r.get('pb_count', 0)
+        img_count = r.get('image_count', 0)
+        issue = r.get('issue', 'Unknown')
+
+        # Calculate difference
+        if pb_count > 0 and img_count > 0:
+            diff = pb_count - img_count
+            diff_str = f"+{diff} pages" if diff > 0 else f"{diff} images"
+        else:
+            diff_str = "N/A"
+
+        report += f"| {r['file']} | {manifest} | {pb_count} | {img_count} | {diff_str} | {issue} |\n"
+
+    # Detailed sections by issue type
+    if more_pages:
+        report += "\n## Files with MORE Pages than Images (Missing Images in Manifest)\n\n"
+        report += "**Action needed**: Check if these images exist on CDC server but are missing from the manifest\n\n"
+        for r in more_pages:
+            diff = r.get('pb_count', 0) - r.get('image_count', 0)
+            report += f"### {r['file']}\n\n"
+            report += f"- **Manifest ID**: {r.get('manifest_id', 'N/A')}\n"
+            report += f"- **Manifest URL**: https://www.cdc.classense.ra.it/iiif/2/{r.get('manifest_id', 'N/A')}/manifest\n"
+            report += f"- **Pages in XML**: {r.get('pb_count', 0)}\n"
+            report += f"- **Images in Manifest**: {r.get('image_count', 0)}\n"
+            report += f"- **Missing images**: {diff}\n\n"
+
+    if more_images:
+        report += "\n## Files with MORE Images than Pages (Missing <pb> Elements)\n\n"
+        report += "**Action needed**: Add missing `<pb>` elements to XML files\n\n"
+        for r in more_images:
+            diff = r.get('image_count', 0) - r.get('pb_count', 0)
+            report += f"### {r['file']}\n\n"
+            report += f"- **Manifest ID**: {r.get('manifest_id', 'N/A')}\n"
+            report += f"- **Pages in XML**: {r.get('pb_count', 0)}\n"
+            report += f"- **Images in Manifest**: {r.get('image_count', 0)}\n"
+            report += f"- **Missing `<pb>` elements**: {diff}\n\n"
+
+    if no_manifest:
+        report += "\n## Files Without Manifest ID\n\n"
+        report += "**Action needed**: Add `<facsimile sameAs=\"https://classense.unibo.it/iiif/MANIFEST_ID/manifest\">` to XML\n\n"
+        for r in no_manifest:
+            report += f"- {r['file']}\n"
+
+    with open(report_path, 'w', encoding='utf-8') as f:
+        f.write(report)
+
+    print(f"\n📄 Missing images report generated: {report_path}")
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python3 update_xml_with_iiif.py <xml_directory>")
+        print("Usage: python3 update_xml_with_iiif.py <xml_directory> [--report-only]")
         print("Example: python3 update_xml_with_iiif.py evt-viewer/app/data/busta-10")
+        print("         python3 update_xml_with_iiif.py evt-viewer/app/data/busta-10 --report-only")
         sys.exit(1)
 
     xml_dir = Path(sys.argv[1])
+    report_only = '--report-only' in sys.argv
 
     if not xml_dir.exists():
         print(f"Error: Directory not found: {xml_dir}")
         sys.exit(1)
 
     print(f"\nScanning directory: {xml_dir}")
+    if report_only:
+        print("Mode: Report only (no files will be modified)")
     print(f"Looking for .xml files...\n")
 
     xml_files = sorted(xml_dir.glob('*.xml'))
@@ -203,12 +312,74 @@ def main():
     print(f"Found {len(xml_files)} XML files\n")
 
     updated_count = 0
+    results = []
+
     for xml_file in xml_files:
-        if process_xml_file(xml_file):
-            updated_count += 1
+        result = {'file': xml_file.name, 'has_issues': False}
+
+        # Extract ALL manifest IDs (files may have multiple manifests for attachments)
+        manifest_ids = extract_manifest_ids_from_xml(xml_file)
+
+        if not manifest_ids:
+            result['has_issues'] = True
+            result['issue'] = 'No manifest ID found'
+            result['pb_count'] = 0
+            result['image_count'] = 0
+            result['manifest_id'] = None
+            results.append(result)
+            if not report_only:
+                process_xml_file(xml_file)
+            continue
+
+        # Store manifest IDs for reporting
+        result['manifest_id'] = ', '.join(manifest_ids) if len(manifest_ids) > 1 else manifest_ids[0]
+        result['manifest_count'] = len(manifest_ids)
+
+        # Fetch ALL manifests and combine images
+        all_images = []
+        for manifest_id in manifest_ids:
+            iiif_images = fetch_manifest(manifest_id)
+            if iiif_images:
+                all_images.extend(iiif_images)
+
+        # Count pb elements
+        try:
+            with open(xml_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+            pb_pattern = r'<pb([^>]*?)facs="([^"]+)"([^>]*?)>'
+            pb_matches = list(re.finditer(pb_pattern, content))
+            pb_count = len(pb_matches)
+        except:
+            pb_count = 0
+
+        result['pb_count'] = pb_count
+        result['image_count'] = len(all_images)
+
+        # Check for issues
+        if len(all_images) == 0:
+            result['has_issues'] = True
+            result['issue'] = 'No images in manifest(s)'
+        elif pb_count != len(all_images):
+            result['has_issues'] = True
+            manifests_note = f" ({len(manifest_ids)} manifests)" if len(manifest_ids) > 1 else ""
+            result['issue'] = f'Mismatch: {pb_count} pages vs {len(all_images)} images{manifests_note}'
+
+        results.append(result)
+
+        # Process file if not report-only mode
+        if not report_only:
+            if process_xml_file(xml_file):
+                updated_count += 1
+
+    # Generate report
+    generate_missing_images_report(results, xml_dir)
 
     print(f"\n{'='*80}")
-    print(f"Summary: Updated {updated_count} out of {len(xml_files)} files")
+    if report_only:
+        ok_count = len([r for r in results if not r['has_issues']])
+        print(f"Summary: {ok_count}/{len(results)} files have all images")
+    else:
+        print(f"Summary: Updated {updated_count} out of {len(xml_files)} files")
     print('='*80)
 
 if __name__ == "__main__":

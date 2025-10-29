@@ -240,7 +240,7 @@
    </front><body>
                <div type="transcription">
                   
-                  <pb xml:id="DLCL_CF_E10071_A01_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20702/DSC_5986.jpg"/>
+                  <pb xml:id="DLCL_CF_E10071_A01_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21171/full/800,/0/default.jpg"/>
                   
                   <opener>
                      <salute><rs type="person" ref="#DLCL_CF_PC0001">Reverendissimo Padre</rs></salute>
@@ -265,7 +265,7 @@
                      <salute>Affettuosissimo</salute>
                   </closer> 
                   
-                  <pb xml:id="DLCL_CF_E10071_A01_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/fa1304eeb70d5362b2d0daec87403067777961a5.jpg"/>
+                  <pb xml:id="DLCL_CF_E10071_A01_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25093/full/800,/0/default.jpg"/>
                   
                </div>
             </body>

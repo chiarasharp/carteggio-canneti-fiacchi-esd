@@ -132,6 +132,7 @@
             "showRotationControl": true,
             "showNavigator": true,
             "sequenceMode": true,
+            "showSequenceControl": false,
             "initialPage": 0,
             "preserveViewport": true,
             "visibilityRatio": 1,

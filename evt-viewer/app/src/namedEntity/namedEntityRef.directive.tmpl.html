@@ -20,6 +20,12 @@
     </div>
     <div class="namedEntityRef__no-data-content">
         <p>{{ 'MESSAGES.NO_REFERENCE_DATA_DESC' | translate }}</p>
+        <div class="namedEntityRef__no-data-actions">
+            <button class="namedEntityRef__contact-button" ng-click="vm.contactForInfo()">
+                <i class="fa fa-envelope"></i>
+                {{ 'MESSAGES.CONTACT_BUTTON' | translate }}
+            </button>
+        </div>
     </div>
 </div>
 

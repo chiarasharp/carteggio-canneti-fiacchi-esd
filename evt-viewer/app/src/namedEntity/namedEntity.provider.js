@@ -294,6 +294,37 @@ angular.module('evtviewer.namedEntity')
                     console.error('Entity not found or missing collectionId:', entityIdForNavigation);
                 }
             }
+
+            /**
+             * @ngdoc method
+             * @name evtviewer.namedEntity.controller:NamedEntityCtrl#openExternalLink
+             * @methodOf evtviewer.namedEntity.controller:NamedEntityCtrl
+             *
+             * @description
+             * <p>Open the external sameAs link in a new tab.</p>
+             */
+            var openExternalLink = function() {
+                var vm = this;
+                var sameAsUrl = null;
+
+                // Check for single entity sameAs
+                if (vm.entity && vm.entity.sameAs) {
+                    sameAsUrl = vm.entity.sameAs;
+                }
+                // Check for multiple entities - use the selected one
+                else if (vm.entity && vm.entity._multiple && vm.entity._entities) {
+                    var selectedIndex = vm.activeReferenceTab || 0;
+                    var selectedEntity = vm.entity._entities[selectedIndex];
+                    if (selectedEntity && selectedEntity.sameAs) {
+                        sameAsUrl = selectedEntity.sameAs;
+                    }
+                }
+
+                if (sameAsUrl) {
+                    window.open(sameAsUrl, '_blank');
+                }
+            }
+
             /**
              * @ngdoc method
              * @name evtviewer.namedEntity.controller:NamedEntityCtrl#isCurrentPageDoc
@@ -430,7 +461,7 @@ angular.module('evtviewer.namedEntity')
                 }
 
                 var center = {
-                    zoom: 8
+                    zoom: 11
                 };
                 var mainMarker = {
                     focus: true,
@@ -454,6 +485,12 @@ angular.module('evtviewer.namedEntity')
                     center.lng = lng;
                     mainMarker.lat = lat;
                     mainMarker.lng = lng;
+                    // Add popup message with place name and Google Maps link
+                    var placeName = namedEntity.label || entityId;
+                    var googleMapsUrl = 'https://www.google.com/maps?q=' + lat + ',' + lng;
+                    mainMarker.message = '<strong>' + placeName + '</strong><br>' +
+                        '<a href="' + googleMapsUrl + '" target="_blank" style="color: #1a73e8;">Open in Google Maps</a>';
+                    mainMarker.getMessageScope = function() { return $rootScope.$new(); };
                 }
                 if (defaults.allowedTabs.indexOf('xmlSource') >= 0) {
                     tabs._indexes.push('xmlSource');
@@ -481,6 +518,10 @@ angular.module('evtviewer.namedEntity')
                     over              : false,
                     tabs              : tabs,
 
+                    // Pagination for occurrences
+                    occurrencesLimit : 10,
+                    occurrencesStart : 0,
+
                     defaults      : angular.copy(defaults),
 
                     // functions
@@ -491,6 +532,16 @@ angular.module('evtviewer.namedEntity')
                     goToOccurrence    : goToOccurrence,
                     toggleSubContent  : toggleSubContent,
                     isCurrentPageDoc  : isCurrentPageDoc,
+                    nextOccurrences   : function(totalLength) {
+                        if (this.occurrencesStart + this.occurrencesLimit < totalLength) {
+                            this.occurrencesStart += this.occurrencesLimit;
+                        }
+                    },
+                    prevOccurrences   : function() {
+                        if (this.occurrencesStart > 0) {
+                            this.occurrencesStart -= this.occurrencesLimit;
+                        }
+                    },
                     
 
                     
@@ -502,7 +553,8 @@ angular.module('evtviewer.namedEntity')
                     getPinnedState: getPinnedState,
                     togglePin: togglePin,
                     openEntity: openEntity,
-                    
+                    openExternalLink: openExternalLink,
+
                     // Multiple reference tabs functionality
                     activeReferenceTab : 0,
                     setActiveReferenceTab : function(index) {
@@ -514,16 +566,8 @@ angular.module('evtviewer.namedEntity')
                         if (vm.entity && vm.entity._multiple && vm.entity._entities[entityIndex]) {
                             var entityId = vm.entity._entities[entityIndex].id || vm.entity._entities[entityIndex]._id;
                             if (entityId) {
-                                // Use the evtNamedEntitiesParser directly to get occurrences
-                                var documentsCollection = parsedData.getDocuments(),
-                                    documentsIndexes = documentsCollection._indexes || [],
-                                    totOccurrences = [];
-                                for (var i = 0; i < documentsIndexes.length; i++) {
-                                    var currentDoc = documentsCollection[documentsIndexes[i]],
-                                        docPages = evtNamedEntitiesParser.parseEntitiesOccurrences(currentDoc, entityId);
-                                    totOccurrences = totOccurrences.concat(docPages);
-                                }
-                                vm.entity._entities[entityIndex].occurrences = totOccurrences;
+                                // Use the same method as getOccurrences for consistency
+                                vm.entity._entities[entityIndex].occurrences = namedEntity.getOccurrences(entityId);
                             }
                         }
                     },

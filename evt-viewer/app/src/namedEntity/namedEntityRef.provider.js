@@ -93,6 +93,40 @@ angular.module('evtviewer.namedEntity')
             }
         };
 
+        /**
+         * @ngdoc method
+         * @name evtviewer.namedEntity.controller:NamedEntityRefCtrl#contactForInfo
+         * @methodOf evtviewer.namedEntity.controller:NamedEntityRefCtrl
+         *
+         * @description
+         * Open contact form or email to report information about unidentified entity.
+         */
+        var contactForInfo = function() {
+            // Get entity information for the contact
+            var vm = this;
+            var entityInfo = {
+                entityId: vm.entityId,
+                entityType: vm.entityType,
+                text: vm.entityText || 'Unknown entity'
+            };
+            
+            // Create mailto link with entity information
+            var subject = encodeURIComponent('Informazioni su entità non identificata - ' + entityInfo.text);
+            var body = encodeURIComponent(
+                'Ciao,\n\n' +
+                'Ho trovato un\'entità non identificata nell\'edizione digitale del Carteggio Canneti-Fiacchi:\n\n' +
+                'Tipo: ' + entityInfo.entityType + '\n' +
+                'Testo: ' + entityInfo.text + '\n' +
+                'ID: ' + entityInfo.entityId + '\n\n' +
+                'Ho le seguenti informazioni che potrebbero essere utili per identificare questa entità:\n\n' +
+                '[Inserisci qui le tue informazioni]\n\n' +
+                'Grazie per il tuo contributo alla ricerca!'
+            );
+            
+            var mailtoLink = 'mailto:laboratorioludi@outlook.it?subject=' + subject + '&body=' + body;
+            window.open(mailtoLink, '_blank');
+        };
+
         // 
         // NamedEntityRef builder
         // 
@@ -171,7 +205,8 @@ angular.module('evtviewer.namedEntity')
                 defaults      : angular.copy(defaults),
 
                 // functions
-                goToEntityInList : goToEntityInList
+                goToEntityInList : goToEntityInList,
+                contactForInfo : contactForInfo
             };
 
             collection[currentId] = angular.extend(scope.vm, scopeHelper);

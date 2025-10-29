@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10122">
-   <facsimile sameAs="https://classense.unibo.it/s/Classense/item/20754">
+   <facsimile sameAs="https://classense.unibo.it/iiif/20754/manifest">
       <graphic n="1r" url="https://classense.unibo.it/iiif/2/21296/full/551,800/0/default.jpg"/>
       <graphic n="1v" url="https://classense.unibo.it/iiif/2/21297/full/615,800/0/default.jpg"/>
       <graphic n="2r" url="https://classense.unibo.it/iiif/2/21298/full/524,800/0/default.jpg"/>
@@ -69,7 +69,7 @@
       </revisionDesc>
    </front><body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10122_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20754/DSC_6231.jpg"/>
+            <pb xml:id="DLCL_CF_E10122_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21296/full/800,/0/default.jpg"/>
             
             <opener>
                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -95,7 +95,7 @@
                In ogni caso vedrò se posso 
             </p>
             
-            <pb xml:id="DLCL_CF_E10122_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20754/DSC_6232.jpg"/>
+            <pb xml:id="DLCL_CF_E10122_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21297/full/800,/0/default.jpg"/>
             
             <p>
                per lui impegnare una delle quattro Copie a <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> spedite, che non sento ancor sieno arrivate. 
@@ -121,7 +121,7 @@
                La ringrazio delle notizie del <bibl type="print">Vitellione,</bibl> ch’è in somma buon libro, e raro.
             </p>
             
-            <pb xml:id="DLCL_CF_E10122_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20754/DSC_6233.jpg"/>
+            <pb xml:id="DLCL_CF_E10122_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21298/full/800,/0/default.jpg"/>
             
             <p>
                I <bibl type="manuscript">versi</bibl> di <persName ref="#DLCL_CF_PC0778">Tideo elpidiense</persName> erano in 4to o in 8 grande Manoscritti in pergamena con miniatura sul principio: 
@@ -159,7 +159,7 @@
                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
             </closer>
             
-            <pb xml:id="DLCL_CF_E10122_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/2936ae5cbdfc4ae6ef9ff5e3e11912524ee6fb00.jpg"/>
+            <pb xml:id="DLCL_CF_E10122_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25233/full/800,/0/default.jpg"/>
             
             <postscript>
                <p>

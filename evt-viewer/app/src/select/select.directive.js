@@ -69,7 +69,18 @@ angular.module('evtviewer.select')
 
                 if (currentSelect !== undefined) {
                     if (scope.init !== undefined && scope.init !== '') {
-                        currentSelect.selectOptionByValue(scope.init);
+                        // Special handling for named-entities with 'ALL' initValue
+                        if (scope.type === 'named-entities' && scope.init === 'ALL') {
+                            // Find the 'ALL' option and trigger its callback
+                            var allOption = scope.vm.optionList.find(function(opt) {
+                                return opt && opt.value === 'ALL';
+                            });
+                            if (allOption) {
+                                currentSelect.callback(undefined, allOption);
+                            }
+                        } else {
+                            currentSelect.selectOptionByValue(scope.init);
+                        }
                     } else if (!scope.multiselect) {
                         var firstOption = scope.vm.optionList ? scope.vm.optionList[0] : undefined;
                         currentSelect.callback(undefined, firstOption);
