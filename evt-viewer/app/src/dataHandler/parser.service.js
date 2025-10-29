@@ -267,11 +267,12 @@ angular.module('evtviewer.dataHandler')
 								if (attrib.name !== 'xml:id') {
 									var date = new Date(attrib.value);
 									var formattedDate = date && !isNaN(date) ? date.toLocaleDateString() : attrib.value;
-									textContent += parser.camelToSpace(attrib.name.replace(':', '-')).toLowerCase() + ': ' + formattedDate + ', ';
+									// Don't show attribute names, just the formatted date value
+									textContent += formattedDate + ', ';
 								}
 							}
 						}
-						newElement.textContent = textContent.slice(0, -1);
+						newElement.textContent = textContent.slice(0, -2);
 
 					} else if ( // process named entities if enabled in config
 						config.namedEntitiesSelector &&
@@ -795,11 +796,20 @@ angular.module('evtviewer.dataHandler')
 		 *
 		 * @author CDP
 		 */
-		parser.parseNamedEntity = function (doc, entityNode, skip) {
+		parser.parseNamedEntity = function (doc, entityNode, skip, options) {
 			var entityRef = entityNode.getAttribute('ref'),
 				entityType = entityNode.getAttribute('type'),
 				listType = null;
-
+			options = options || {};
+			// If caller requested a plain-text representation (used for project info dialog),
+			// return a simple span/text node with the entity's text content so no interactive
+			// named-entity directives are generated.
+			if (options.asText) {
+				var textSpan = document.createElement('span');
+				// Use trimmed textContent to avoid surrounding whitespace
+				textSpan.textContent = (entityNode.textContent || '').trim();
+				return textSpan;
+			}
 			// Handle multiple references in ref attribute (e.g., ref="#id1 #id2")
 			if (entityRef && entityRef.includes(' ')) {
 				// Multiple references - create a single entity ref with combined IDs
@@ -1714,7 +1724,7 @@ angular.module('evtviewer.dataHandler')
 			
 			angular.forEach(authors, function(author) {
 				//const authorContent = author ? author.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
-				const authorEntity = parser.parseNamedEntity(document, author);
+				const authorEntity = parser.parseNamedEntity(document, author, undefined, { asText: true });
 
 				//titleStmtDiv.appendChild(authorEntity);
 				titleStmtDiv.appendChild(createLabeledBlock('PROJECT_INFO.AUTHOR', authorEntity));			
@@ -1748,7 +1758,7 @@ angular.module('evtviewer.dataHandler')
 
 					angular.forEach(people, function(person) {
 						//var personText = `${person ? person.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`}`;
-						var personElement = person ? parser.parseNamedEntity(document, person) : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
+						var personElement = person ? parser.parseNamedEntity(document, person, undefined, { asText: true }) : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
 
 						const listPersonItem = document.createElement('li');
 						listPersonItem.className = 'projectInfo-listItem';
@@ -1886,7 +1896,7 @@ angular.module('evtviewer.dataHandler')
 			// process settlements
 			angular.forEach(settlements, (settlement) => {
 				//const settlementContent = settlement ? settlement.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
-				const settlementElement = settlement ? parser.parseNamedEntity(document, settlement) : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
+				const settlementElement = settlement ? parser.parseNamedEntity(document, settlement, undefined, { asText: true }) : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
 
 				//const settlementRef = settlement.getAttribute("ref") || undefined;
 				sourceDescDiv.appendChild(createLabeledBlock('PROJECT_INFO.SETTLEMENT', settlementElement));
@@ -1895,7 +1905,7 @@ angular.module('evtviewer.dataHandler')
 			// process institutions
 			angular.forEach(institutions, (institution) => {
 				//const institutionContent = institution ? institution.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
-				const institutionElement = institution ? parser.parseNamedEntity(document, institution) : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
+				const institutionElement = institution ? parser.parseNamedEntity(document, institution, undefined, { asText: true }) : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
 
 				sourceDescDiv.appendChild(createLabeledBlock('PROJECT_INFO.INSTITUTION', institutionElement));
 			});
@@ -1941,7 +1951,7 @@ angular.module('evtviewer.dataHandler')
 				// process senders
 				angular.forEach(senders, (sender) => {
 					//const senderContent = sender ? sender.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
-					const senderElement = sender ? parser.parseNamedEntity(document, sender) : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
+					const senderElement = sender ? parser.parseNamedEntity(document, sender, undefined, { asText: true }) : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
 					correspDescDiv.appendChild(createLabeledBlock('PROJECT_INFO.SENDER', senderElement));
 				});
 
@@ -1954,7 +1964,7 @@ angular.module('evtviewer.dataHandler')
 				// Process each receiver
 				angular.forEach(receivers, (receiver) => {
 					//const receiverContent = receiver ? receiver.textContent : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
-					const receiverElement = receiver ? parser.parseNamedEntity(document, receiver) : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
+					const receiverElement = receiver ? parser.parseNamedEntity(document, receiver, undefined, { asText: true }) : `{{ 'PROJECT_INFO.NO_INFO' | translate }}`;
 
 					correspDescDiv.appendChild(createLabeledBlock('PROJECT_INFO.RECEIVER', receiverElement));
 				});

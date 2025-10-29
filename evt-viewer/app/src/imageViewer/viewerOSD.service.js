@@ -12,6 +12,29 @@
          viewerHandler.viewer = undefined;
          viewerHandler.scope = undefined;
 
+         // Page index cache for O(1) lookups instead of O(n)
+         var pageIndexCache = {};
+         var cacheBuilt = false;
+         var preloadTimeout = null;
+         var preloadedImages = [];
+
+         viewerHandler.buildPageIndexCache = function() {
+            if (!cacheBuilt) {
+               var pages = parsedData.getPages();
+               for (var i = 0; i < pages.length; i++) {
+                  pageIndexCache[pages[i]] = i;
+               }
+               cacheBuilt = true;
+            }
+         };
+
+         viewerHandler.getPageIndex = function(pageValue) {
+            if (!cacheBuilt) {
+               viewerHandler.buildPageIndexCache();
+            }
+            return pageIndexCache[pageValue];
+         };
+
          viewerHandler.setImgCoeff = function (coeff) {
             ImageNormalizationCoefficient = coeff;
          };
@@ -33,22 +56,69 @@
 
          viewerHandler.openPage = function (page) {
             var pageValue = page.userData;
-            var pidx = 0;
-            while (parsedData.getPages()[pidx] !== pageValue) {
-               pidx = pidx + 1;
-               if (pidx > parsedData.getPages().length) {
-                  _console.error('error in open page');
-                  break;
-               }
+            // Use cached index for O(1) lookup instead of O(n) loop
+            var pidx = viewerHandler.getPageIndex(pageValue);
+            if (pidx === undefined) {
+               _console.error('error in open page - page not found:', pageValue);
+               return;
             }
-            var p = pidx;
-            viewerHandler.viewer.goToPage(p);
+            viewerHandler.viewer.goToPage(pidx);
             var currPage = evtInterface.getState('currentPage');
             if (pageValue !== currPage) {
                viewerHandler.scope.$apply(function () {
                   evtInterface.updateState("currentPage", pageValue !== '' ? pageValue : currPage);
                });
             }
+            // Preload adjacent pages for better navigation performance
+            viewerHandler.preloadAdjacentPages(pidx);
+         };
+
+         viewerHandler.preloadAdjacentPages = function (currentIndex) {
+            // Cancel any pending preload operation
+            if (preloadTimeout) {
+               clearTimeout(preloadTimeout);
+               preloadTimeout = null;
+            }
+
+            // Clear previous preload references
+            preloadedImages = [];
+
+            // Delay preloading slightly to avoid wasting bandwidth if user is rapidly navigating
+            preloadTimeout = setTimeout(function() {
+               var pages = parsedData.getPages();
+               var pagesToPreload = [];
+
+               // Prioritize immediate neighbors (next/prev 1), then extend to 2
+               var preloadOrder = [
+                  currentIndex + 1,  // Next page (highest priority)
+                  currentIndex - 1,  // Previous page
+                  currentIndex + 2,  // Two pages ahead
+                  currentIndex - 2   // Two pages back
+               ];
+
+               preloadOrder.forEach(function(idx) {
+                  if (idx >= 0 && idx < pages.length && idx !== currentIndex) {
+                     var page = parsedData.getPage(pages[idx]);
+                     if (page && page.source) {
+                        pagesToPreload.push(page.source);
+                     }
+                  }
+               });
+
+               // Preload images using low-priority requests
+               pagesToPreload.forEach(function(source) {
+                  // For IIIF images, preload a small thumbnail for faster cache warming
+                  var preloadUrl = source;
+                  if (source.indexOf('/iiif/') > -1 && source.indexOf('/full/') > -1) {
+                     // Convert to IIIF thumbnail: /full/100,/0/default.jpg for quick preload
+                     preloadUrl = source.replace(/\/full\/[^\/]+\//, '/full/100,/');
+                  }
+
+                  var img = new Image();
+                  img.src = preloadUrl;
+                  preloadedImages.push(img); // Keep reference to prevent garbage collection
+               });
+            }, 300); // 300ms delay - faster preload for better responsiveness
          };
 
          viewerHandler.home = function () {
@@ -113,21 +183,21 @@
 
          viewerHandler.updateViewerPage = function (page) {
             var pageValue = page;
-            var pidx = 0;
-            while (parsedData.getPages()[pidx] !== pageValue) {
-               pidx = pidx + 1;
-               if (pidx > parsedData.getPages().length) {
-                  break;
-               }
+            // Use cached index for O(1) lookup instead of O(n) loop
+            var pidx = viewerHandler.getPageIndex(pageValue);
+            if (pidx === undefined) {
+               _console.error('error in updateViewerPage - page not found:', pageValue);
+               return;
             }
-            var p = pidx;
-            viewerHandler.viewer.goToPage(p);
+            viewerHandler.viewer.goToPage(pidx);
             var currPage = evtInterface.getState('currentPage');
             if (pageValue !== currPage) {
                viewerHandler.scope.$apply(function () {
                   evtInterface.updateState("currentPage", pageValue !== '' ? pageValue : currPage);
                });
             }
+            // Preload adjacent pages for better navigation performance
+            viewerHandler.preloadAdjacentPages(pidx);
          };
 
          viewerHandler.highlightOverlay = function (zone) {

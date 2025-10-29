@@ -75,7 +75,7 @@
       </revisionDesc>
    </front><body>
                <div type="transcription">
-                  <pb xml:id="DLCL_CF_E10071_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20703/DSC_5988.jpg"/>
+                  <pb xml:id="DLCL_CF_E10071_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21172/full/800,/0/default.jpg"/>
                   
                   <opener>
                      <salute><persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Carissimo</salute>
@@ -112,7 +112,7 @@
                      E non sò nulla. 
                   </p>
                   
-                  <pb xml:id="DLCL_CF_E10071_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20703/DSC_5989.jpg"/>
+                  <pb xml:id="DLCL_CF_E10071_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21173/full/800,/0/default.jpg"/>
                   
                   <p>
                      Un cordialissimo saluto al <rs type="person">Padre Lettore,</rs> da cui spero qualche rimasuglio dell’<orgName ref="#DLCL_CF_O0083">Accademia di San Gregorio.</orgName> 
@@ -147,7 +147,7 @@
                      Abusi sono questi, e altri simili introdotti o da ignoranza, o da irragionevole divozione. 
                   </p>
                   
-                  <pb xml:id="DLCL_CF_E10071_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20703/DSC_5990.jpg"/>
+                  <pb xml:id="DLCL_CF_E10071_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21174/full/800,/0/default.jpg"/>
                   
                   <p>
                      Seppi la morte del <persName ref="#DLCL_CF_PC0537">Signor Fabio,</persName> alla cui anima doni il Signore eterno riposo. 
@@ -161,7 +161,7 @@
                      <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
                   </closer>
                   
-                  <pb xml:id="DLCL_CF_E10071_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/9f6dfc7a7de4ba2fcc99af1555298ce89b323af3.jpg"/>
+                  <pb xml:id="DLCL_CF_E10071_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25094/full/800,/0/default.jpg"/>
                   
                   <postscript>
                      <p>
@@ -240,7 +240,7 @@
    </front><body>
                <div type="transcription">
                   
-                  <pb xml:id="DLCL_CF_E10071_A01_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20702/DSC_5986.jpg"/>
+                  <pb xml:id="DLCL_CF_E10071_A01_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21171/full/800,/0/default.jpg"/>
                   
                   <opener>
                      <salute><rs type="person" ref="#DLCL_CF_PC0001">Reverendissimo Padre</rs></salute>
@@ -265,7 +265,7 @@
                      <salute>Affettuosissimo</salute>
                   </closer> 
                   
-                  <pb xml:id="DLCL_CF_E10071_A01_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/fa1304eeb70d5362b2d0daec87403067777961a5.jpg"/>
+                  <pb xml:id="DLCL_CF_E10071_A01_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25093/full/800,/0/default.jpg"/>
                   
                </div>
             </body>

@@ -72,7 +72,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10008_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20640/DSC_5604.jpg"/>
+            <pb xml:id="DLCL_CF_E10008_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/20839/full/800,/0/default.jpg"/>
             
             <opener>
                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -102,7 +102,7 @@
                Scriverò col primo ordinario al <rs type="person" ref="#DLCL_CF_PC0006">Padre suddetto,</rs> studiando di raddolcire la nuova, come meglio sarà possibile.  
             </p>
             
-            <pb xml:id="DLCL_CF_E1E10008_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20640/DSC_5605.jpg"/>
+            <pb xml:id="DLCL_CF_E1E10008_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/20840/full/800,/0/default.jpg"/>
             
             <p>
                Non l’ho fatto prima; perché fino ad ora qui non ho provato migliore ozio, di quello io godessi già costì; 
@@ -135,7 +135,7 @@
                Ordinai per l’uso mio par<pc force="inter">-</pc> 
             </p>
             
-            <pb xml:id="DLCL_CF_E1E10008_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20640/DSC_5606.jpg"/>
+            <pb xml:id="DLCL_CF_E1E10008_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/20841/full/800,/0/default.jpg"/>
             
             <p>
                ticolare il <bibl type="print">Tomai,</bibl> anzi il <persName ref="#DLCL_CF_PC0011">Signor Volpi</persName> ne fece a me dono. 
@@ -171,7 +171,7 @@
                una per <placeName ref="#DLCL_CF_L0020">Classe,</placeName> e tre per me. 
             </p>
             
-            <pb xml:id="DLCL_CF_E1E10008_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/20640/DSC_5607.jpg"/>
+            <pb xml:id="DLCL_CF_E1E10008_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/20842/full/800,/0/default.jpg"/>
             
             <p>                        
                Mi mandi ancora, oltre gli altri, il libretto della <bibl type="print">Traslazione di S. Bartolommeo,</bibl> e i due Tomi della <bibl type="print" ref="#DLCL_CF_BS0027">Biblioteca Critica franzese.</bibl> 

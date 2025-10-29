@@ -79,7 +79,7 @@
             </front>
             <body>
                <div type="transcription">
-                  <pb xml:id="DLCL_CF_E10035_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20667/DSC_5720.jpg"/>
+                  <pb xml:id="DLCL_CF_E10035_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21058/full/800,/0/default.jpg"/>
                   
                   <opener>
                      <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendissimo Padre mio Osservandissimo</rs></salute>
@@ -108,7 +108,7 @@
                      Il che solo quando fosse non sarebbe poco, in una Città, ch’era spopolata, e contava dianzi unici mila anime. 
                   </p>
                   
-                  <pb xml:id="DLCL_CF_E10035_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20667/DSC_5721.jpg"/>
+                  <pb xml:id="DLCL_CF_E10035_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21059/full/800,/0/default.jpg"/>
                   
                   <p>
                      I preservativi comuni introdotti sono, un’aria di fuoco la mattina, un biscottino da romper’il digiuno con un poco di vino rosso, 
@@ -134,7 +134,7 @@
                      Tutti gli altri siamo, grazie a Dio sani, al quale piace 
                   </p>
                   
-                  <pb xml:id="DLCL_CF_E10035_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20667/DSC_5726.jpg"/>
+                  <pb xml:id="DLCL_CF_E10035_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21062/full/800,/0/default.jpg"/>
                   
                   <p>
                      conservarci tali. 
@@ -155,7 +155,7 @@
                      <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
                   </closer>
                
-                  <pb xml:id="DLCL_CF_E10035_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/bcff840d8200d116afbb7608879d958ffc1dc580.jpg"/>
+                  <pb xml:id="DLCL_CF_E10035_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/24811/full/800,/0/default.jpg"/>
                   
                   <postscript>
                      <p>
@@ -233,7 +233,7 @@
             <body>
                <div type="transcription">
             
-               <pb xml:id="DLCL_CF_E10035_A01_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/23170/DSC_5722.jpg"/>
+               <pb xml:id="DLCL_CF_E10035_A01_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/23171/full/800,/0/default.jpg"/>
             
                <p>
                   <cit>
@@ -259,7 +259,7 @@
 
                   </p>
                   
-                  <pb xml:id="DLCL_CF_E10035_A01_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/23170/DSC_5723.jpg"/>
+                  <pb xml:id="DLCL_CF_E10035_A01_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/23172/full/800,/0/default.jpg"/>
                   
                   <p>
                      <cit>
@@ -281,9 +281,9 @@
                      dell’<orgName ref="#DLCL_CF_O0046">Oratorio di Perugia</orgName> in data delli <date when-iso="1716-07-09">9 Luglio 1716</date>
                   </p>
                   
-                  <pb xml:id="DLCL_CF_E10035_A01_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/16e2c7bc8c8fea0ef7eb6c4a4fac30c281fd75f5.jpg"/>
+                  <pb xml:id="DLCL_CF_E10035_A01_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/24812/full/800,/0/default.jpg"/>
                   
-                  <pb xml:id="DLCL_CF_E10035_A01_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/aa845d4a3272338e0240514baacbe523c56d3160.jpg"/>
+                  <pb xml:id="DLCL_CF_E10035_A01_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/24813/full/800,/0/default.jpg"/>
                   
                </div>
             </body>

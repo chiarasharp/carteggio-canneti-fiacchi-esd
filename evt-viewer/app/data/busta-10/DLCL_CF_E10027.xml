@@ -71,7 +71,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10027_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20659/DSC_5686.jpg"/>
+            <pb xml:id="DLCL_CF_E10027_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21032/full/800,/0/default.jpg"/>
             
             <opener>
                <salute><persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Amatissimo</salute>
@@ -101,7 +101,7 @@
                che caris<gap reason="illegible"/>[...] cotesti pochi stracci <gap reason="illegible"/>[...] nostri libri, il quale quanto <gap reason="illegible"/>[...]
             </p>
             
-            <pb xml:id="DLCL_CF_E10027_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20659/DSC_5687.jpg"/>
+            <pb xml:id="DLCL_CF_E10027_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21033/full/800,/0/default.jpg"/>
             
             <p>
                La ringrazio della testimonianza tratta dall’opera <bibl type="print" source="#DLCL_CF_BS0110" cert="unknown">Cronologia</bibl> di <persName>Seto Calvisio</persName> 
@@ -130,7 +130,7 @@
                e questa emendazione di lui sta nella libreria di S<gap reason="illegible"/>[...]
             </p>
             
-            <pb xml:id="DLCL_CF_E10027_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20659/DSC_5688.jpg"/>
+            <pb xml:id="DLCL_CF_E10027_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21034/full/800,/0/default.jpg"/>
             
             <p>
                Murano ch’è diversissimo da quella del Laureto, e dall’altra di <persName ref="#DLCL_CF_PC0219">Angelo della Noce</persName> che ambe sono in cotesta <orgName ref="#DLCL_CF_O0001">Biblioteca.</orgName> 
@@ -167,7 +167,7 @@
                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
             </closer>            
             
-            <pb xml:id="DLCL_CF_E10027_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/2bf80127fab73f8bc9e6359e5b923ab8f11e6ff7.jpg"/>
+            <pb xml:id="DLCL_CF_E10027_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/24807/full/800,/0/default.jpg"/>
             
             <postscript>
                <p>

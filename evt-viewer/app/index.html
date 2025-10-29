@@ -8,6 +8,9 @@
 	<meta name="description" content="Edizione digitale del carteggio fra i monaci camaldolesi del 700 Pietro Canneti e Mariangelo Fiacchi, tra i fondatori della Biblioteca Classense di Ravenna.">
 	<meta name="viewport" content="width=device-width">
 
+	<!-- Favicon using emoji -->
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🪶</text></svg>">
+
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="config/custom-style.css">
 </head>
@@ -19,7 +22,7 @@
 		<![endif]-->
 	<header>
 		<img class="logo" ng-if="getProperty('logoUrl') !== ''" ng-src="{{getProperty('logoUrl')}}" />
-		        {{ getProperty('indexTitle') | translate }}
+		{{ getProperty('indexTitle') | translate }}
 		<a class="webSiteLink" ng-if="getProperty('webSite') !== ''" href="{{getWebSite()}}" target="_blank">
 			<i class="fa fa-external-link"></i>
 		</a>
@@ -275,7 +278,7 @@
 			<figure class="thumbnail thumb_single" data-value="{{ thumb.value }}" data-src="{{ thumb.image }}"
 				ng-click="goToPageFromThumb(thumb)" ng-repeat="thumb in getThumbnails() track by $index"
 				ng-class="{'active': getCurrentPage() === thumb.value}">
-				<img class="thumb_single_img" ng-src="{{ thumb.image }}"
+				<img class="thumb_single_img" lazy-load="{{ thumb.image }}" placeholder="images/empty-image.jpg"
 					onerror="this.setAttribute('src', 'images/empty-image.jpg')" />
 				<figcaption>{{ thumb.label }}</figcaption>
 			</figure>

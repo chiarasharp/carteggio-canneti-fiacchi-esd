@@ -69,7 +69,7 @@
         </revisionDesc>
     </front><body>
             <div type="transcription">
-                <pb xml:id="DLCL_CF_E10127_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20759/DSC_6255.1.jpg"/>
+                <pb xml:id="DLCL_CF_E10127_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21310/full/800,/0/default.jpg"/>
                 
                 <opener>
                     <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -95,7 +95,7 @@
                     ch’è tornato senza detto <bibl type="print">Catalogo,</bibl> e perciò è piccolissimo in paragone degli altri due. 
                 </p>
                 
-                <pb xml:id="DLCL_CF_E10127_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20759/DSC_6255.2.jpg"/>
+                <pb xml:id="DLCL_CF_E10127_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21311/full/800,/0/default.jpg"/>
                 
                 <p>
                     Ch’è dunque stato di quel <bibl type="print">Catalogo?</bibl> 
@@ -127,7 +127,7 @@
                     e quivi nella Città di <placeName ref="#DLCL_CF_L0148">Cosenza</placeName> trattenersi ad insegnar lettere umane. 
                 </p>
                 
-                <pb xml:id="DLCL_CF_E10127_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20759/DSC_6255.3.jpg"/>
+                <pb xml:id="DLCL_CF_E10127_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21312/full/800,/0/default.jpg"/>
                 
                 <p>
                     Altronde si ha che fioriva a quella stagione nella <placeName ref="#DLCL_CF_L0149">Terra di S. Elpidio</placeName> 
@@ -159,7 +159,7 @@
                     <hi rend="underline"><foreign xml:lang="la">Parmae Dominus</foreign></hi> 
                 </p>
                 
-                <pb xml:id="DLCL_CF_E10127_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/20759/DSC_6255.4.jpg"/>
+                <pb xml:id="DLCL_CF_E10127_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21313/full/800,/0/default.jpg"/>
                 
                 <p>
                     Mi saluti caramente il <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli:</persName> lo faccia guarire, se non è guarito: e si guardi per sé dall’ammalarsi. 

@@ -71,7 +71,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10051_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20683/DSC_5898.jpg"/>
+            <pb xml:id="DLCL_CF_E10051_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21111/full/800,/0/default.jpg"/>
             
             <opener>
                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -111,7 +111,7 @@
                indi abbandonata la Corte si ritirò tra Camaldolesi, da quelli estratto passò a risedere in <placeName ref="#DLCL_CF_L0077">Costantinopoli</placeName> Patriarca. 
             </p>
             
-            <pb xml:id="DLCL_CF_E10051_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20683/DSC_5899.jpg"/>
+            <pb xml:id="DLCL_CF_E10051_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21112/full/800,/0/default.jpg"/>
             
             <p>
                Con sommo contento riceverò la nuova che al <bibl type="print">Corpo del Bollando</bibl> si aggiungano i due Tomi ultimamente usciti in luce. 
@@ -155,10 +155,10 @@
             </closer>
             
             
-            <pb xml:id="DLCL_CF_E10051_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/c56e501d3090b33999f7fffbc8562d9e3631587c.jpg"/>
+            <pb xml:id="DLCL_CF_E10051_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/24830/full/800,/0/default.jpg"/>
             
             
-            <pb xml:id="DLCL_CF_E10051_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/e896b364fe555c0e45bd72a366c2da5490d3d218.jpg"/>
+            <pb xml:id="DLCL_CF_E10051_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/24831/full/800,/0/default.jpg"/>
             
             <postscript>
                <p>

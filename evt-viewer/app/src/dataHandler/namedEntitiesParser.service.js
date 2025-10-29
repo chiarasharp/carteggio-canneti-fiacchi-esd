@@ -510,6 +510,7 @@ angular.module('evtviewer.dataHandler')
 				listDef = listToParse.listDef,
 				contentForLabelDef = listToParse.contentForLabelDef;
 			var elId = nodeElem.getAttribute(idAttributeDef) || evtParser.xpath(nodeElem);
+			var sameAs = nodeElem.getAttribute('sameAs');
 			var el = {
 				id: elId,
 				label: '',
@@ -517,12 +518,13 @@ angular.module('evtviewer.dataHandler')
 					_indexes: []
 				},
 				_listPos: elId.substr(0, 1).toLowerCase(),
-				_xmlSource: nodeElem.outerHTML.replace(/ xmlns="http:\/\/www\.tei-c\.org\/ns\/1\.0"/g, '')
+				_xmlSource: nodeElem.outerHTML.replace(/ xmlns="http:\/\/www\.tei-c\.org\/ns\/1\.0"/g, ''),
+				sameAs: sameAs
 			};
 
 			var elementForLabel = nodeElem.getElementsByTagName(contentForLabelDef.replace(/[<>]/g, ''));
 			if (elementForLabel && elementForLabel.length > 0) {
-				var parsedLabel = evtParser.parseXMLElement(elementForLabel[0], elementForLabel[0], { skip: '<evtNote>' });
+				var parsedLabel = evtParser.parseXMLElement(elementForLabel[0], elementForLabel[0], { skip: '<evtNote><persName><orgName><placeName>' });
 				el.label = parsedLabel ? parsedLabel.innerHTML : elId;
 				
 				// CHANGE: Improved entity sorting by using surname for people
@@ -548,12 +550,259 @@ angular.module('evtviewer.dataHandler')
 			angular.forEach(nodeElem.childNodes, function (child) {
 
 				if (child.nodeType === 1) {
-					if (child.tagName === 'monogr' || child.tagName === 'msContents') {
+					if (child.tagName === 'msIdentifier') {
+						// Special handling for msIdentifier - group all children together
+						if (child.children && child.children.length > 0) {
+							var msIdentifierParts = [];
+							angular.forEach(child.children, function (subChild) {
+								if (subChild.nodeType === 1) {
+									var parsedSubChild = evtParser.parseXMLElement(subChild, subChild, { skip: '<evtNote><persName><orgName><placeName>' });
+									var text = parsedSubChild ? parsedSubChild.innerHTML : subChild.innerHTML;
+									if (text && text.trim()) {
+										msIdentifierParts.push('<span class="msIdentifier-part"><span class="msIdentifier-label">{{ (\'NAMED_ENTITY_FIELDS.' +
+											subChild.tagName + '\') | translate }}:</span> ' + text + '</span>');
+									}
+								}
+							});
+
+							if (msIdentifierParts.length > 0) {
+								if (el.content['msIdentifier'] === undefined) {
+									el.content['msIdentifier'] = [];
+									el.content._indexes.push('msIdentifier');
+								}
+								el.content['msIdentifier'].push({
+									text: msIdentifierParts.join(' '),
+									attributes: evtParser.parseElementAttributes(child)
+								});
+							}
+						}
+					} else if (child.tagName === 'imprint') {
+						// Special handling for imprint - group all children together
+						if (child.children && child.children.length > 0) {
+							var imprintParts = [];
+							angular.forEach(child.children, function (subChild) {
+								if (subChild.nodeType === 1) {
+									var parsedSubChild = evtParser.parseXMLElement(subChild, subChild, { skip: '<evtNote><persName><orgName><placeName>' });
+									var text = parsedSubChild ? parsedSubChild.innerHTML : subChild.innerHTML;
+									if (text && text.trim()) {
+										imprintParts.push('<span class="imprint-part"><span class="imprint-label">{{ (\'NAMED_ENTITY_FIELDS.' +
+											subChild.tagName + '\') | translate }}:</span> ' + text + '</span>');
+									}
+								}
+							});
+
+							if (imprintParts.length > 0) {
+								if (el.content['imprint'] === undefined) {
+									el.content['imprint'] = [];
+									el.content._indexes.push('imprint');
+								}
+								el.content['imprint'].push({
+									text: imprintParts.join(' '),
+									attributes: evtParser.parseElementAttributes(child)
+								});
+							}
+						}
+					} else if (child.tagName === 'event') {
+						// Special handling for event - format date and label/content
+						var eventParts = [];
+						var attributes = evtParser.parseElementAttributes(child);
+						var eventDate = attributes.when || attributes.notBefore || attributes.notAfter;
+						var dateRange = '';
+
+						// Helper function to format date from ISO to DD/MM/YYYY
+						var formatDate = function(isoDate) {
+							if (!isoDate) return isoDate;
+							var dateParts = isoDate.split('-');
+							if (dateParts.length === 3) {
+								return dateParts[2] + '/' + dateParts[1] + '/' + dateParts[0];
+							}
+							return isoDate;
+						};
+
+						if (attributes.notBefore && attributes.notAfter) {
+							dateRange = formatDate(attributes.notBefore) + ' - ' + formatDate(attributes.notAfter);
+						} else if (attributes.notBefore) {
+							dateRange = '{{ \'GENERIC.FROM\' | translate }} ' + formatDate(attributes.notBefore);
+						} else if (attributes.notAfter) {
+							dateRange = '{{ \'GENERIC.TO\' | translate }} ' + formatDate(attributes.notAfter);
+						} else if (eventDate) {
+							dateRange = formatDate(eventDate);
+						}
+
+						// Check for label child
+						var eventLabel = '';
+						var eventContent = '';
+						if (child.children && child.children.length > 0) {
+							angular.forEach(child.children, function (subChild) {
+								if (subChild.nodeType === 1) {
+									if (subChild.tagName === 'label') {
+										eventLabel = subChild.textContent || subChild.innerText;
+									} else if (subChild.tagName === 'ab') {
+										var parsedAb = evtParser.parseXMLElement(subChild, subChild, { skip: '<evtNote><persName><orgName><placeName>' });
+										eventContent = parsedAb ? parsedAb.innerHTML : subChild.innerHTML;
+									}
+								}
+							});
+						}
+
+						if (eventLabel) {
+							// If there's a label, show it as the event type
+							if (dateRange) {
+								eventParts.push('<span class="event-part"><span class="event-label">{{ (\'NAMED_ENTITY_FIELDS.' +
+									eventLabel + '\') | translate }}:</span> ' + dateRange + '</span>');
+							}
+						} else if (eventContent) {
+							// If there's content in ab, show it with date
+							if (dateRange) {
+								eventParts.push('<span class="event-part"><span class="event-label">{{ (\'NAMED_ENTITY_FIELDS.event\') | translate }}:</span> ' +
+									eventContent + ' (' + dateRange + ')</span>');
+							} else {
+								eventParts.push('<span class="event-part"><span class="event-label">{{ (\'NAMED_ENTITY_FIELDS.event\') | translate }}:</span> ' +
+									eventContent + '</span>');
+							}
+						} else if (dateRange) {
+							// Just date without label or content
+							eventParts.push('<span class="event-part"><span class="event-label">{{ (\'NAMED_ENTITY_FIELDS.event\') | translate }}:</span> ' +
+								dateRange + '</span>');
+						}
+
+						if (eventParts.length > 0) {
+							if (el.content['event'] === undefined) {
+								el.content['event'] = [];
+								el.content._indexes.push('event');
+							}
+							el.content['event'].push({
+								text: eventParts.join(' '),
+								attributes: attributes
+							});
+						}
+					} else if (child.tagName === 'birth' || child.tagName === 'death') {
+						// Special handling for birth and death - group date and place
+						if (child.children && child.children.length > 0) {
+							var lifeParts = [];
+							angular.forEach(child.children, function (subChild) {
+								if (subChild.nodeType === 1) {
+									var parsedSubChild = evtParser.parseXMLElement(subChild, subChild, { skip: '<evtNote><persName><orgName><placeName>' });
+									var text = parsedSubChild ? parsedSubChild.innerHTML : subChild.innerHTML;
+
+									// For date elements, extract the when-iso attribute and format it
+									if (subChild.tagName === 'date') {
+										var dateAttr = subChild.getAttribute('when-iso') ||
+										               subChild.getAttribute('notBefore-iso') ||
+										               subChild.getAttribute('notAfter-iso');
+										if (dateAttr) {
+											// Convert from YYYY-MM-DD to DD/MM/YYYY
+											var dateParts = dateAttr.split('-');
+											if (dateParts.length === 3) {
+												text = dateParts[2] + '/' + dateParts[1] + '/' + dateParts[0];
+											} else {
+												text = dateAttr;
+											}
+										}
+									}
+
+									if (text && text.trim()) {
+										lifeParts.push('<span class="life-part"><span class="life-label">{{ (\'NAMED_ENTITY_FIELDS.' +
+											subChild.tagName + '\') | translate }}:</span> ' + text + '</span>');
+									}
+								}
+							});
+
+							if (lifeParts.length > 0) {
+								if (el.content[child.tagName] === undefined) {
+									el.content[child.tagName] = [];
+									el.content._indexes.push(child.tagName);
+								}
+								el.content[child.tagName].push({
+									text: lifeParts.join(' '),
+									attributes: evtParser.parseElementAttributes(child)
+								});
+							}
+						}
+					} else if (child.tagName === 'history') {
+						// Special handling for history - group all nested information together
+						if (child.children && child.children.length > 0) {
+							var historyParts = [];
+							angular.forEach(child.children, function (subChild) {
+								if (subChild.nodeType === 1) {
+									// For origin, provenance, acquisition - get their children
+									if (subChild.tagName === 'origin' || subChild.tagName === 'provenance' || subChild.tagName === 'acquisition') {
+										if (subChild.children && subChild.children.length > 0) {
+											angular.forEach(subChild.children, function (subSubChild) {
+												if (subSubChild.nodeType === 1) {
+													var parsedSubSubChild = evtParser.parseXMLElement(subSubChild, subSubChild, { skip: '<evtNote><persName><orgName><placeName>' });
+													var text = parsedSubSubChild ? parsedSubSubChild.innerHTML : subSubChild.innerHTML;
+													if (text && text.trim()) {
+														// Determine the label to use
+														var labelKey = subSubChild.tagName;
+
+														// For persName with type="copist", use "copist" as label
+														if (subSubChild.tagName === 'persName' && subSubChild.getAttribute('type') === 'copist') {
+															labelKey = 'copist';
+														}
+														// For orgName, persName, placeName inside provenance/acquisition, use parent's name
+														else if ((subSubChild.tagName === 'orgName' || subSubChild.tagName === 'persName' || subSubChild.tagName === 'placeName') &&
+														         (subChild.tagName === 'provenance' || subChild.tagName === 'acquisition')) {
+															labelKey = subChild.tagName;
+														}
+
+														historyParts.push('<span class="history-part"><span class="history-label">{{ (\'NAMED_ENTITY_FIELDS.' +
+															labelKey + '\') | translate }}:</span> ' + text + '</span>');
+													}
+												}
+											});
+										}
+									}
+								}
+							});
+
+							if (historyParts.length > 0) {
+								if (el.content['history'] === undefined) {
+									el.content['history'] = [];
+									el.content._indexes.push('history');
+								}
+								el.content['history'].push({
+									text: historyParts.join(' '),
+									attributes: evtParser.parseElementAttributes(child)
+								});
+							}
+						}
+					} else if (child.tagName === 'monogr' || child.tagName === 'msContents' ||
+					    child.tagName === 'origin' || child.tagName === 'provenance' ||
+					    child.tagName === 'acquisition') {
 						if (child.children && child.children.length > 0) {
 
 							angular.forEach(child.children, function (subChild) {
 								if (subChild.nodeType === 1) {
-									if (subChild.tagName === 'msItem') {
+									// Special handling for imprint inside monogr
+									if (subChild.tagName === 'imprint') {
+										if (subChild.children && subChild.children.length > 0) {
+											var imprintParts = [];
+											angular.forEach(subChild.children, function (imprintChild) {
+												if (imprintChild.nodeType === 1) {
+													var parsedImprintChild = evtParser.parseXMLElement(imprintChild, imprintChild, { skip: '<evtNote><persName><orgName><placeName>' });
+													var text = parsedImprintChild ? parsedImprintChild.innerHTML : imprintChild.innerHTML;
+													if (text && text.trim()) {
+														imprintParts.push('<span class="imprint-part"><span class="imprint-label">{{ (\'NAMED_ENTITY_FIELDS.' +
+															imprintChild.tagName + '\') | translate }}:</span> ' + text + '</span>');
+													}
+												}
+											});
+
+											if (imprintParts.length > 0) {
+												if (el.content['imprint'] === undefined) {
+													el.content['imprint'] = [];
+													el.content._indexes.push('imprint');
+												}
+												el.content['imprint'].push({
+													text: imprintParts.join(' '),
+													attributes: evtParser.parseElementAttributes(subChild)
+												});
+											}
+										}
+									}
+									else if (subChild.tagName === 'msItem' || subChild.tagName === 'origin' ||
+									    subChild.tagName === 'provenance' || subChild.tagName === 'acquisition') {
 										if (subChild.children && subChild.children.length > 0) {
 											angular.forEach(subChild.children, function (subSubChild) {
 												if (subSubChild.nodeType === 1) {
@@ -568,6 +817,17 @@ angular.module('evtviewer.dataHandler')
 									else {
 										parseAndAddContentToEntity(el, subChild, contentDef, listDef);
 									}
+								}
+							});
+						} else {
+							parseAndAddContentToEntity(el, child, contentDef, listDef);
+						}
+					} else if (child.tagName === 'location' || child.tagName === 'address') {
+						// Handle location and address elements - extract all nested information
+						if (child.children && child.children.length > 0) {
+							angular.forEach(child.children, function (subChild) {
+								if (subChild.nodeType === 1) {
+									parseAndAddContentToEntity(el, subChild, contentDef, listDef);
 								}
 							});
 						} else {
@@ -595,20 +855,34 @@ angular.module('evtviewer.dataHandler')
 		var parseAndAddContentToEntity = function (el, child, contentDef, listDef) {
 			var parsedChild;
 
-			if (el.content[child.tagName] === undefined) {
-				el.content[child.tagName] = [];
-				el.content._indexes.push(child.tagName);
+			// For persName with type="copist", store it separately as "copist"
+			var contentKey = child.tagName;
+			var childType = child.getAttribute('type');
+			var isCopist = (child.tagName === 'persName' && childType === 'copist');
+			if (isCopist) {
+				contentKey = 'copist';
+			}
+
+			if (el.content[contentKey] === undefined) {
+				el.content[contentKey] = [];
+				el.content._indexes.push(contentKey);
 			}
 
 			if (contentDef.indexOf('<' + child.tagName + '>') >= 0) {
 				parsedChild = NEparser.parseSubEntity(child, contentDef, listDef);
 			} else {
-				parsedChild = evtParser.parseXMLElement(child, child, { skip: '<evtNote>' });
+				parsedChild = evtParser.parseXMLElement(child, child, { skip: '<evtNote><persName><orgName><placeName>' });
 			}
 
-			el.content[child.tagName].push({
+			// Parse attributes, but exclude 'type' for copist to avoid duplication
+			var attributes = evtParser.parseElementAttributes(child);
+			if (isCopist && attributes.type) {
+				delete attributes.type;
+			}
+
+			el.content[contentKey].push({
 				text: parsedChild ? parsedChild.innerHTML : child.innerHTML,
-				attributes: evtParser.parseElementAttributes(child)
+				attributes: attributes
 			});
 			//}
 		};

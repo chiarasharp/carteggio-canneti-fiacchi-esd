@@ -69,7 +69,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10041_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20673/DSC_5751.jpg"/>
+            <pb xml:id="DLCL_CF_E10041_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21080/full/800,/0/default.jpg"/>
             
             <opener>
                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -95,7 +95,7 @@
                Se <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> ha fatto legare il libro 
             </p>
             
-            <pb xml:id="DLCL_CF_E10041_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20673/DSC_5752.jpg"/>
+            <pb xml:id="DLCL_CF_E10041_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21081/full/800,/0/default.jpg"/>
             
             <p>
                del <persName ref="#DLCL_CF_PC0113">Signor Zappata,</persName> lo faccia legar bene; 

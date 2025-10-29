@@ -70,7 +70,7 @@
         </front>
         <body>
             <div type="transcription">
-                <pb xml:id="DLCL_CF_E10099_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/21240/full/567,800/0/default.jpg"/>
+                <pb xml:id="DLCL_CF_E10099_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21240/full/800,/0/default.jpg"/>
                 
                 <opener>
                     <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -93,7 +93,7 @@
                     Mi sarà opportuno ricevere per la fiera di <placeName ref="#DLCL_CF_L0030">Sinigaglia</placeName> 
                 </p>
                 
-                <pb xml:id="DLCL_CF_E10099_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/21241/full/610,800/0/default.jpg"/>
+                <pb xml:id="DLCL_CF_E10099_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21241/full/800,/0/default.jpg"/>
                 
                 <p>
                     il <bibl type="print">Giornale XXXI.</bibl> 
@@ -120,9 +120,9 @@
                     <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
                 </closer>
                 
-                <pb xml:id="DLCL_CF_E10099_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/25192/full/572,800/0/default.jpg"/>
+                <pb xml:id="DLCL_CF_E10099_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/25192/full/800,/0/default.jpg"/>
                 
-                <pb xml:id="DLCL_CF_E10099_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/25193/full/618,800/0/default.jpg"/>
+                <pb xml:id="DLCL_CF_E10099_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25193/full/800,/0/default.jpg"/>
                 
                 <postscript>
                     <p>

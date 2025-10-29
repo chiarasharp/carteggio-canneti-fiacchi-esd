@@ -71,7 +71,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10053_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20685/DSC_5907.jpg"/>
+            <pb xml:id="DLCL_CF_E10053_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21115/full/800,/0/default.jpg"/>
             
             <opener>
                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -105,7 +105,7 @@
                Vi entrerebbe l’anacronismo; e converrebbe ponderar se possa salvarsi. 
             </p>
             
-            <pb xml:id="DLCL_CF_E10053_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20685/DSC_5908.jpg"/>
+            <pb xml:id="DLCL_CF_E10053_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21116/full/800,/0/default.jpg"/>
             
             <p>
                Oggi hà otto giorni che ricevei l’involto da <placeName ref="#DLCL_CF_L0023">Foligno,</placeName> della cui spedizione la ringrazio. 
@@ -140,7 +140,7 @@
                Basta farlo avere alla Nunziata di <placeName ref="#DLCL_CF_L0007">Bologna</placeName> con soprascritta al <rs type="person">Padre Reverendo Lettore</rs> 
             </p>
             
-            <pb xml:id="DLCL_CF_E10053_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20685/DSC_5909.jpg"/>
+            <pb xml:id="DLCL_CF_E10053_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21117/full/800,/0/default.jpg"/>
             
             <p>
                <rs type="person">Cavedo Esprovinciale</rs> [<orgName ref="#DLCL_CF_O0063">San Luca.</orgName> <placeName ref="#DLCL_CF_L0001">Cremona].</placeName> 
@@ -188,7 +188,7 @@
                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
             </closer>
             
-            <pb xml:id="DLCL_CF_E10053_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/6e47ce7469abafeb7d194c5b30b9e30386427b3b.jpg"/>
+            <pb xml:id="DLCL_CF_E10053_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25079/full/800,/0/default.jpg"/>
             
             <postscript>
                <p>

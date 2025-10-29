@@ -771,7 +771,7 @@ angular.module('evtviewer.box')
 
 							topMenuList.buttons.push({
 								title: 'BUTTONS.INFO_ABOUT_TEXT',
-								label: 'BUTTONS.INFO',
+								label: 'BUTTONS.INFO_ABOUT_TEXT',
 								icon: 'info-alt',
 								type: 'front'
 							});
@@ -807,7 +807,7 @@ angular.module('evtviewer.box')
 								bottomMenuList.selectors.push({
 									id: 'namedEntities_' + currentId,
 									type: 'named-entities',
-									initValue: 'NONE',
+									initValue: 'ALL',
 									multiselect: true
 								});
 							}
@@ -830,7 +830,7 @@ angular.module('evtviewer.box')
 							}
 							bottomMenuList.buttons.push({
 								title: 'BUTTONS.FONT_CHANGE',
-								label: '',
+								label: 'BUTTONS.FONT_CHANGE',
 								icon: 'font-size',
 								type: 'fontSizeTools',
 								show: function () {
@@ -977,7 +977,7 @@ angular.module('evtviewer.box')
 
 							topMenuList.buttons.push({
 								title: 'BUTTONS.INFO_ABOUT_TEXT',
-								label: 'BUTTONS.INFO',
+								label: 'BUTTONS.INFO_ABOUT_TEXT',
 								icon: 'info-alt',
 								type: 'toggleInfoWit'
 							}, {
@@ -1007,7 +1007,7 @@ angular.module('evtviewer.box')
 
 							bottomMenuList.buttons.push({
 								title: 'BUTTONS.FONT_CHANGE',
-								label: '',
+								label: 'BUTTONS.FONT_CHANGE',
 								icon: 'font-size',
 								type: 'fontSizeTools',
 								show: function () {
@@ -1075,7 +1075,7 @@ angular.module('evtviewer.box')
 
 							bottomMenuList.buttons.push({
 								title: 'BUTTONS.FONT_CHANGE',
-								label: '',
+								label: 'BUTTONS.FONT_CHANGE',
 								icon: 'font-size',
 								type: 'fontSizeTools',
 								show: function () {
@@ -1146,7 +1146,7 @@ angular.module('evtviewer.box')
 							}
 							bottomMenuList.buttons.push({
 								title: 'BUTTONS.FONT_CHANGE',
-								label: '',
+								label: 'BUTTONS.FONT_CHANGE',
 								icon: 'font-size',
 								type: 'fontSizeTools',
 								show: function () {

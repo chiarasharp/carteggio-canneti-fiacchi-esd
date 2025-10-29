@@ -3,3 +3,7 @@ evt-viewer/app/src/dataHandler/b.json
 .DS_Store
 dist/*
 dist/
+*.backup
+**/*.xml.backup
+evt-viewer/app/data/busta-10/missing-iiif-images-report.md
+evt-viewer/app/data/busta-10/url-sources-report.md

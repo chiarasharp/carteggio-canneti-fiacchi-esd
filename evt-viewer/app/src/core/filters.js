@@ -83,4 +83,65 @@ angular.module('evtviewer.core')
     return function(input) {
 		return input.replace(/\s{2,}/g, ' ');
     };
-});
+})
+/**
+ * @ngdoc filter
+ * @module evtviewer.core
+ * @name evtviewer.core.filter:formatISODate
+ * @description
+ * # formatISODate
+ * Transform ISO date strings (YYYY-MM-DD, YYYY-MM, YYYY) into human-readable format based on current language.
+**/
+.filter('formatISODate', ['$translate', function($translate) {
+    return function(input) {
+        if (!input || typeof input !== 'string') {
+            return input;
+        }
+
+        // Match ISO date patterns
+        var fullDateMatch = input.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+        var yearMonthMatch = input.match(/^(\d{4})-(\d{2})$/);
+        var yearMatch = input.match(/^(\d{4})$/);
+
+        var currentLang = $translate.use() || 'en';
+
+        if (fullDateMatch) {
+            // Full date: YYYY-MM-DD
+            var year = fullDateMatch[1];
+            var month = parseInt(fullDateMatch[2], 10);
+            var day = parseInt(fullDateMatch[3], 10);
+
+            var months_it = ['gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno',
+                           'luglio', 'agosto', 'settembre', 'ottobre', 'novembre', 'dicembre'];
+            var months_en = ['January', 'February', 'March', 'April', 'May', 'June',
+                           'July', 'August', 'September', 'October', 'November', 'December'];
+
+            var monthName = (currentLang === 'it') ? months_it[month - 1] : months_en[month - 1];
+
+            return currentLang === 'it'
+                ? day + ' ' + monthName + ' ' + year
+                : monthName + ' ' + day + ', ' + year;
+
+        } else if (yearMonthMatch) {
+            // Year-Month: YYYY-MM
+            var year = yearMonthMatch[1];
+            var month = parseInt(yearMonthMatch[2], 10);
+
+            var months_it = ['gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno',
+                           'luglio', 'agosto', 'settembre', 'ottobre', 'novembre', 'dicembre'];
+            var months_en = ['January', 'February', 'March', 'April', 'May', 'June',
+                           'July', 'August', 'September', 'October', 'November', 'December'];
+
+            var monthName = (currentLang === 'it') ? months_it[month - 1] : months_en[month - 1];
+
+            return monthName + ' ' + year;
+
+        } else if (yearMatch) {
+            // Year only: YYYY
+            return yearMatch[1];
+        }
+
+        // Not an ISO date, return as is
+        return input;
+    };
+}]);

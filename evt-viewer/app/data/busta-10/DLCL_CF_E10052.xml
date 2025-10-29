@@ -71,7 +71,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10052_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20684/DSC_5900.jpg"/>
+            <pb xml:id="DLCL_CF_E10052_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21113/full/800,/0/default.jpg"/>
             
             <opener>
                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -99,7 +99,7 @@
                Lo stesso <rs type="person" ref="#DLCL_CF_PC0216">Monsignore</rs> del mio <bibl type="print">Discorso</bibl> scrive ch’è forbito, sano, proprio, e degno dell’Autore. 
             </p>
             
-            <pb xml:id="DLCL_CF_E10052_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20684/DSC_5902.jpg"/>
+            <pb xml:id="DLCL_CF_E10052_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21114/full/800,/0/default.jpg"/>
             
             <p>
                Mandandomi il <bibl type="print">Giornale XXVI</bibl> o altra cosa, 
@@ -118,7 +118,7 @@
                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
             </closer>
             
-            <pb xml:id="DLCL_CF_E10052_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/d8e569f136b3e67128d771e8dc55d7088a120f39.jpg"/>
+            <pb xml:id="DLCL_CF_E10052_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/25077/full/800,/0/default.jpg"/>
             
             <postscript>
                <p>
@@ -171,7 +171,7 @@
                </p>
             </postscript>
             
-            <pb xml:id="DLCL_CF_E10052_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/ef2a2f0f8af0adeb522c60ffd25b29c1a0ad4015.jpg"/>
+            <pb xml:id="DLCL_CF_E10052_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25078/full/800,/0/default.jpg"/>
             
             <postscript>
                <p>

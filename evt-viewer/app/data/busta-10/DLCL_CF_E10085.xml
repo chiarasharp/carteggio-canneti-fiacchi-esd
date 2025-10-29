@@ -67,7 +67,7 @@
       </revisionDesc>
    </front><body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10085_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20717/DSC_6060.jpg"/>
+            <pb xml:id="DLCL_CF_E10085_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21211/full/800,/0/default.jpg"/>
             
             <opener>
                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -116,7 +116,7 @@
                </p>
             </postscript>
             
-            <pb xml:id="DLCL_CF_E10085_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/f2466b9fdcf4699dddf2a91614468cc61af63bfe.jpg"/>
+            <pb xml:id="DLCL_CF_E10085_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25107/full/800,/0/default.jpg"/>
          </div>
       </body>
    </text>

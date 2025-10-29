@@ -70,7 +70,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10106_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/iiif/2/21258/full/561,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10106_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21258/full/800,/0/default.jpg"/>
             
             <opener>
                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -104,7 +104,7 @@
                che sono in <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> e de’ quali io non son per avere più che tanto bisogno.
             </p>
             
-            <pb xml:id="DLCL_CF_E10106_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/iiif/2/21259/full/601,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10106_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21259/full/800,/0/default.jpg"/>
             
             <p>
                Ma in primo luogo avvertasi che il <bibl type="print">Polidoro Virgilio</bibl> 
@@ -157,9 +157,9 @@
                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
             </closer>
             
-            <pb xml:id="DLCL_CF_E10106_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/iiif/2/25203/full/557,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10106_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/25203/full/800,/0/default.jpg"/>
             
-            <pb xml:id="DLCL_CF_E10106_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/iiif/2/25204/full/613,800/0/default.jpg"/>
+            <pb xml:id="DLCL_CF_E10106_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25204/full/800,/0/default.jpg"/>
             
             <postscript>
                <p>

@@ -20,12 +20,14 @@ button-switch {
         align-items: center;
         overflow: visible;
         left: 0px;
+        padding: 0 8px;
 
         font-size: 1em;
         text-align: left;
 
         &.only-icon {
             text-align: center;
+            padding: 0;
         }
         &.only-text {
             padding-right: 10px;
@@ -77,12 +79,11 @@ button-switch {
         }
         &.iconLeft {
             .buttonSwitch-icon {
-                top: 8px;
+                margin-right: 4px;
             }
 
             .buttonSwitch-label {
                 margin-left: 0;
-                margin-right: 4px;
             }
         }
     }

@@ -72,7 +72,7 @@
       </front>
       <body>
          <div type="transcription">
-            <pb xml:id="DLCL_CF_E10005_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20637/DSC_5591.jpg"/>
+            <pb xml:id="DLCL_CF_E10005_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/20823/full/800,/0/default.jpg"/>
             
             <opener>
                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -105,7 +105,7 @@
                Son’ arrivati i libri di <placeName ref="#DLCL_CF_L0023">Foligno;</placeName> e vi ho trovate di belle cose. 
             </p>
             
-            <pb xml:id="DLCL_CF_E10005_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20637/DSC_5592.jpg"/>
+            <pb xml:id="DLCL_CF_E10005_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/20824/full/800,/0/default.jpg"/>
             
             <p>
                Ieri, dovendosi consegnare al <persName ref="#DLCL_CF_PC0034">Signor Veratti</persName> la sua porzione de’ libri 
@@ -122,9 +122,9 @@
                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
             </closer>
             
-            <pb xml:id="DLCL_CF_E10005_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/257beed304062791ef9e2d7be79e2e461b715f88.jpg"/>
+            <pb xml:id="DLCL_CF_E10005_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/24836/full/800,/0/default.jpg"/>
             
-            <pb xml:id="DLCL_CF_E10005_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/77eec566da586e4994da61e0ba1555d028b51a13.jpg"/>
+            <pb xml:id="DLCL_CF_E10005_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/24837/full/800,/0/default.jpg"/>
             
             <postscript>
                <p>

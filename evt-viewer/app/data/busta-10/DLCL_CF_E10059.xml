@@ -76,7 +76,7 @@
       </revisionDesc>
    </front><body>
                <div type="transcription">
-                  <pb xml:id="DLCL_CF_E10059_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20691/DSC_5937.jpg"/>
+                  <pb xml:id="DLCL_CF_E10059_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21138/full/800,/0/default.jpg"/>
                   
                   <opener>
                      <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -112,7 +112,7 @@
                      Non per me solo ne ho necessità, ma per servire il <persName ref="#DLCL_CF_PC0318">Signor Apostolo Zeno,</persName> e per corrispondere a’ favori, ch’egli cortesemente 
                   </p>
                   
-                  <pb xml:id="DLCL_CF_E10059_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20691/DSC_5938.jpg"/>
+                  <pb xml:id="DLCL_CF_E10059_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21139/full/800,/0/default.jpg"/>
                   
                   <p>   
                      mi và compartendo. 
@@ -165,7 +165,7 @@
                      </p>
                   </postscript>
                   
-                  <pb xml:id="DLCL_CF_E10059_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/20691/DSC_5947.jpg"/>
+                  <pb xml:id="DLCL_CF_E10059_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21146/full/800,/0/default.jpg"/>
                   
                   <postscript>
                      <p>
@@ -175,7 +175,7 @@
                      </p>
                   </postscript>
                   
-                  <pb xml:id="DLCL_CF_E10059_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/7dddfe0ca0d9adb932c7fb9d77d45fa710615b8b.jpg"/>
+                  <pb xml:id="DLCL_CF_E10059_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25085/full/800,/0/default.jpg"/>
                   
                   <postscript>
                      <p>
@@ -250,7 +250,7 @@
       </revisionDesc>
    </front><body>
                <div type="transcription">
-                  <pb xml:id="DLCL_CF_E10059_A01_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/21140/DSC_5939.jpg"/>
+                  <pb xml:id="DLCL_CF_E10059_A01_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21141/full/800,/0/default.jpg"/>
                   
                   <p>
                      <placeName ref="#DLCL_CF_L0101">Europa Orientale</placeName>  
@@ -271,7 +271,7 @@
                      </foreign>
                   </p>
                   
-                  <pb xml:id="DLCL_CF_E10059_A01_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/21140/DSC_5940.jpg"/>
+                  <pb xml:id="DLCL_CF_E10059_A01_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21142/full/800,/0/default.jpg"/>
                   
                </div>
             </body>

@@ -110,7 +110,7 @@
                   <ul ng-if="::(vm.content.attributes._keys.length > 1 || vm.content.attributes._keys.length === 1 && vm.content.attributes._keys.indexOf('xml:id') < 0)">
                       <li ng-repeat="attr in ::vm.content.attributes._keys track by $index"
                           ng-if="::attr !== 'xml:id'">
-                          <span class="moreInfo-label">{{ ::attr }}</span> {{ ::vm.content.attributes.values[attr] }}
+                          <span class="moreInfo-label">{{ ('ATTRIBUTE_NAMES.' + attr) | translate }}</span> {{ ::vm.content.attributes.values[attr] }}
                       </li>
                   </ul>
                   <ul ng-if="::(vm.content.attributes._keys.length <= 0 || vm.content.attributes._keys.length === 1 && vm.content.attributes._keys.indexOf('xml:id') > 0)">

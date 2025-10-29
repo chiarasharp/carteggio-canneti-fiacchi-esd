@@ -69,7 +69,7 @@
         </revisionDesc>
     </front><body>
             <div type="transcription">
-                <pb xml:id="DLCL_CF_E10129_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20761/DSC_6259.jpg"/>
+                <pb xml:id="DLCL_CF_E10129_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21316/full/800,/0/default.jpg"/>
                 
                 <opener>
                     <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -106,7 +106,7 @@
                     ch’è in <orgName ref="#DLCL_CF_O0001">Libreria</orgName> 
                 </p>
                 
-                <pb xml:id="DLCL_CF_E10129_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/20761/DSC_6260.jpg"/>
+                <pb xml:id="DLCL_CF_E10129_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21317/full/800,/0/default.jpg"/>
                 
                 <p>
                     <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> ne faccia permuta.
@@ -132,9 +132,9 @@
                     <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
                 </closer>
                 
-                <pb xml:id="DLCL_CF_E10129_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/b040dda73fabcf988d8fdbaf327b333a71ac2768.jpg"/>
+                <pb xml:id="DLCL_CF_E10129_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/25243/full/800,/0/default.jpg"/>
                 
-                <pb xml:id="DLCL_CF_E10129_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/a466cd9527b5d10708e534f2de5582fff7c40b93.jpg"/>
+                <pb xml:id="DLCL_CF_E10129_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25244/full/800,/0/default.jpg"/>
                 
                 <postscript>
                     <p>

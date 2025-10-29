@@ -68,7 +68,7 @@
         </revisionDesc>
     </front><body>
             <div type="transcription">
-                <pb xml:id="DLCL_CF_E10094_L_C1R" n="1 - Recto" facs="https://classense.unibo.it/files/large/20726/DSC_6099.jpg"/>
+                <pb xml:id="DLCL_CF_E10094_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21230/full/800,/0/default.jpg"/>
                 
                 <opener>
                     <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
@@ -112,11 +112,11 @@
                     <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
                 </closer>
                 
-                <pb xml:id="DLCL_CF_E10094_L_C1V" n="1 - Verso" facs="https://classense.unibo.it/files/large/825de50047cd1ed9a8a6fa996a591524bb1048a5.jpg"/>
+                <pb xml:id="DLCL_CF_E10094_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25179/full/800,/0/default.jpg"/>
                 
-                <pb xml:id="DLCL_CF_E10094_L_C2R" n="2 - Recto" facs="https://classense.unibo.it/files/large/40dec0c522495ef9b55872ecf8d03a50cbab7b1d.jpg"/>
+                <pb xml:id="DLCL_CF_E10094_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/25180/full/800,/0/default.jpg"/>
                 
-                <pb xml:id="DLCL_CF_E10094_L_C2V" n="2 - Verso" facs="https://classense.unibo.it/files/large/766094175faf6aa09a20a5763ae5c7dc1b436cbd.jpg"/>
+                <pb xml:id="DLCL_CF_E10094_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25181/full/800,/0/default.jpg"/>
                 
                 <postscript>
                     <p>
