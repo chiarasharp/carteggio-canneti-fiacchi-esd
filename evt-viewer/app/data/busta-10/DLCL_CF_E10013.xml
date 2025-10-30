@@ -1,10 +1,10 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10013">
-   <facsimile sameAs="https://classense.unibo.it/iiif/20645/manifest">
-      <graphic n="1r" url="https://classense.unibo.it/iiif/2/20859/full/598,800/0/default.jpg"/>
-      <graphic n="1v" url="https://classense.unibo.it/iiif/2/20860/full/575,800/0/default.jpg"/>
-      <graphic n="2r" url="https://classense.unibo.it/iiif/2/20861/full/585,800/0/default.jpg"/>
-      <graphic n="2v" url="https://classense.unibo.it/iiif/2/24794/full/569,800/0/default.jpg"/>
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20645/manifest">
+      <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/20859/full/800,/0/default.jpg"/>
+      <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/20860/full/800,/0/default.jpg"/>
+      <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/20861/full/800,/0/default.jpg"/>
+      <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/24794/full/800,/0/default.jpg"/>
    </facsimile>
    <text type="letter" xml:id="DLCL_CF_E10013">
       <front>

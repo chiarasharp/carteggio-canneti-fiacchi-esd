@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10056">
-   <facsimile sameAs="https://classense.unibo.it/iiif/20688/manifest">
-      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21122/full/595,800/0/default.jpg"/>
-      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21123/full/629,800/0/default.jpg"/>
-      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21124/full/593,800/0/default.jpg"/>
-      <graphic n="2v" url="https://classense.unibo.it/iiif/2/21125/full/614,800/0/default.jpg"/>
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20688/manifest">
+      <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21122/full/800,/0/default.jpg"/>
+      <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21123/full/800,/0/default.jpg"/>
+      <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21124/full/800,/0/default.jpg"/>
+      <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/21125/full/800,/0/default.jpg"/>
    </facsimile>
-   <facsimile sameAs="https://classense.unibo.it/iiif/21126/manifest">
-      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21127/full/591,800/0/default.jpg"/>
-      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21128/full/631,800/0/default.jpg"/>
-      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21129/full/584,800/0/default.jpg"/>
-      <graphic n="2v" url="https://classense.unibo.it/iiif/2/21130/full/620,800/0/default.jpg"/>
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/21126/manifest">
+      <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21127/full/800,/0/default.jpg"/>
+      <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21128/full/800,/0/default.jpg"/>
+      <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21129/full/800,/0/default.jpg"/>
+      <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/21130/full/800,/0/default.jpg"/>
    </facsimile>
    <text>
       <group>

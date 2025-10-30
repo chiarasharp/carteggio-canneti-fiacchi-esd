@@ -1,13 +1,13 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10067">
-   <facsimile sameAs="https://classense.unibo.it/iiif/20699/manifest">
-      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21165/full/595,800/0/default.jpg"/>
-      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21166/full/618,800/0/default.jpg"/>
-      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21167/full/595,800/0/default.jpg"/>
-      <graphic n="2v" url="https://classense.unibo.it/iiif/2/25091/full/614,800/0/default.jpg"/>
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20699/manifest">
+      <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21165/full/800,/0/default.jpg"/>
+      <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21166/full/800,/0/default.jpg"/>
+      <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21167/full/800,/0/default.jpg"/>
+      <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/25091/full/800,/0/default.jpg"/>
    </facsimile>
-   <facsimile sameAs="https://classense.unibo.it/iiif/20700/manifest">
-      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21168/full/590,800/0/default.jpg"/>
-      <graphic n="1v" url="https://classense.unibo.it/iiif/2/24768/full/618,800/0/default.jpg"/>
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20700/manifest">
+      <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21168/full/800,/0/default.jpg"/>
+      <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/24768/full/800,/0/default.jpg"/>
    </facsimile>
    <text>  
       <group>

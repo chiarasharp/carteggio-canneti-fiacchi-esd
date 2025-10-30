@@ -1,7 +1,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10033">
-   <facsimile sameAs="https://classense.unibo.it/iiif/20665/manifest">
-      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21052/full/608,800/0/default.jpg"/>
-      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21053/full/604,800/0/default.jpg"/>
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20665/manifest">
+      <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21052/full/800,/0/default.jpg"/>
+      <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21053/full/800,/0/default.jpg"/>
    </facsimile>
    <text type="letter" xml:id="DLCL_CF_E10033">
       <front>

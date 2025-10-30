@@ -1,15 +1,15 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10035">
-   <facsimile sameAs="https://classense.unibo.it/iiif/20667/manifest">
-      <graphic n="1r" url="https://classense.unibo.it/iiif/2/21058/full/601,800/0/default.jpg"/>
-      <graphic n="1v" url="https://classense.unibo.it/iiif/2/21059/full/608,800/0/default.jpg"/>
-      <graphic n="2r" url="https://classense.unibo.it/iiif/2/21062/full/610,800/0/default.jpg"/>
-      <graphic n="2v" url="https://classense.unibo.it/iiif/2/24811/full/603,800/0/default.jpg"/>
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20667/manifest">
+      <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21058/full/800,/0/default.jpg"/>
+      <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21059/full/800,/0/default.jpg"/>
+      <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21062/full/800,/0/default.jpg"/>
+      <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/24811/full/800,/0/default.jpg"/>
    </facsimile>
-   <facsimile sameAs="https://classense.unibo.it/iiif/23170/manifest">
-      <graphic n="1r" url="https://classense.unibo.it/iiif/2/23171/full/601,800/0/default.jpg"/>
-      <graphic n="1v" url="https://classense.unibo.it/iiif/2/23172/full/600,800/0/default.jpg"/>
-      <graphic n="2r" url="https://classense.unibo.it/iiif/2/24812/full/602,800/0/default.jpg"/>
-      <graphic n="2v" url="https://classense.unibo.it/iiif/2/24813/full/603,800/0/default.jpg"/>
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/23170/manifest">
+      <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/23171/full/800,/0/default.jpg"/>
+      <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/23172/full/800,/0/default.jpg"/>
+      <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/24812/full/800,/0/default.jpg"/>
+      <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/24813/full/800,/0/default.jpg"/>
    </facsimile>
    <text>
       <group>
