@@ -66,6 +66,7 @@
          <change when-iso="2024-07-16" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2024-09-16" who="#DLCL_CF_PS001">correzioni</change>
          <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni riferimenti entità</change>
       </revisionDesc>
    </front><body>
          <div type="transcription">
@@ -150,7 +151,7 @@
                La Storia d’<placeName ref="#DLCL_CF_L0019">Arezzo</placeName> <foreign xml:lang="la">nec nominetur</foreign>. 
                Ho sentito il gran male che se ne dice in quella Città; e l’ho inteso da Cavalieri di prima sfera, e intendenti della prima letteratura. 
                Si trattava di farla bruciare per mano infame, e non merita altr’onore, né altro lume. 
-               L’opera in foglio del <persName ref="#DLCL_CF_PC0627">Macchiarelli</persName> della <bibl type="print">Vita</bibl> 
+               L’opera in foglio del <persName ref="#DLCL_CF_PC0495">Macchiarelli</persName> della <bibl type="print">Vita</bibl> 
                del <persName ref="#DLCL_CF_PC0017">Padre San Romualdo,</persName> in cui è impegnato il <persName ref="#DLCL_CF_PC0132">Padre Abate Grandi,</persName> io l’hò; 
                ed è cosa cattiva, ma in paragone della <bibl type="print">Farulleide</bibl> è squisita. 
                L’ha data fuori il <persName ref="#DLCL_CF_PC0628">Padre Sebastiano Paoli</persName> della <orgName ref="#DLCL_CF_O0098">Congregazione della Madre di Dio,</orgName> 
@@ -160,7 +161,7 @@
             <pb xml:id="DLCL_CF_E10089_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21219/full/800,/0/default.jpg"/>
             
             <p>
-               tace che <persName ref="#DLCL_CF_PC0627">Macchiarelli</persName> sia stato Chierico Regolare de’ <rs type="person">Ministri degli Infermi,</rs> avanti di farsi Romito. 
+               tace che <persName ref="#DLCL_CF_PC0495">Macchiarelli</persName> sia stato Chierico Regolare de’ <rs type="person">Ministri degli Infermi,</rs> avanti di farsi Romito. 
                Con tuttociò lo fà parer qualche cosa. 
                È Opera postuma. 
                Basta fin quì. 

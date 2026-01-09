@@ -65,6 +65,7 @@
       <revisionDesc status="created">
          <change when-iso="2024-07-12" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni riferimenti entità</change>
       </revisionDesc>
    </front><body>
          <div type="transcription">
@@ -141,7 +142,7 @@
             <closer>
                <salute>Addio.</salute>
                <salute>L’abbraccio <foreign xml:lang="la">toto cordis affectu</foreign>.</salute>
-               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName>, <date when-iso="1718-05-17">17 Maggio 1718</date>.</dateline>
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia,</placeName> <date when-iso="1718-05-17">17 Maggio 1718</date>.</dateline>
                <salute>DVPMR.</salute>
                <salute>Affettuosissimo servitore Cordialissimo Padre nel Signore</salute> 
                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>

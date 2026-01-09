@@ -66,6 +66,7 @@
          <change when-iso="2024-08-29" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
          <change when-iso="2025-05-22" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni riferimenti entità</change>
       </revisionDesc>
    </front><body>
          <div type="transcription">
@@ -106,7 +107,7 @@
             <closer>
                <salute>
                   Resto abbracciandola caramente insieme col <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina</persName> 
-                  e <persName ref="#DLCL_CF_PC0090">Padre Don Leandro</persName>.
+                  e <persName ref="#DLCL_CF_PC0090">Padre Don Leandro.</persName>
                </salute>
                <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1720-07-15">15 Luglio 1720</date></dateline>
                <salute>DVPMR.</salute>

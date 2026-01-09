@@ -63,6 +63,7 @@
       <revisionDesc status="created">
          <change when-iso="2024-07-16" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni riferimenti entità</change>
       </revisionDesc>
    </front><body>
          <div type="transcription">
@@ -78,9 +79,9 @@
                insieme con un fagotto levato dallo stesso <persName ref="#DLCL_CF_PC0585">Poletti,</persName> 
                era stato consegnato al <persName ref="#DLCL_CF_PC0475">Signor Paolo Sgherri,</persName> da inviarmi quà a dirittura. 
                Ma nulla infino ad ora è comparso, benché vengano continuamente a <placeName ref="#DLCL_CF_L0028">Perugia</placeName> mulattieri da quelle parti. 
-               Che però ho scritto, e rescrivo oggi la terza volta al <persName ref="#DLCL_CF_PC0610">Massaccio,</persName> 
+               Che però ho scritto, e rescrivo oggi la terza volta al <placeName ref="#DLCL_CF_L0179">Massaccio,</placeName> 
                perché si mandino a levare, e mi si spediscano subito i detti involti. 
-               Insieme scrivo perché si trovi conto dell’involto, che tanto tempo fa mandai al <persName ref="#DLCL_CF_PC0610">Massaccio,</persName> 
+               Insieme scrivo perché si trovi conto dell’involto, che tanto tempo fa mandai al <placeName ref="#DLCL_CF_L0179">Massaccio,</placeName> 
                e raccomandai di nuovo per la fiera che si trasmettesse a <placeName ref="#DLCL_CF_L0002">Ravenna,</placeName> 
                con soprascritto a <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità.</rs> 
             </p>

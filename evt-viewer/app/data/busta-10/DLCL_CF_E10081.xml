@@ -66,6 +66,7 @@
          <change when-iso="2024-07-13" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2024-09-16" who="#DLCL_CF_PS001">correzioni</change>
          <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni riferimenti entità</change>
       </revisionDesc>
    </front><body>
          <div type="transcription">
@@ -100,7 +101,7 @@
             </p>
             
             <p>
-               Dalla nobile, pulita, e corretta stampa de’ <persName ref="#DLCL_CF_PC0011">Volpi</persName> 
+               Dalla nobile, pulita, e corretta stampa de’ <persName ref="#DLCL_CF_PC0011 #DLCL_CF_PC0518">Volpi</persName> 
                ho ricevuto le <bibl type="print">Cento Favole</bibl> di <persName ref="#DLCL_CF_PC0587">Gabriello Faerno</persName> mio Paesano, 
                gran Letterato, e tersissimo Poeta Latino, la cui maggior lode stimo essere stato diletto familiare di <persName ref="#DLCL_CF_PC0588">S. Carlo.</persName> 
                Altri versi del medesimo sono aggiunti alle <bibl type="print">Favole,</bibl> con alcuni opuscoli degni d’immortalità. 

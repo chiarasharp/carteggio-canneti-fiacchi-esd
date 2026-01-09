@@ -66,6 +66,7 @@
             <change when-iso="2024-04-16" who="#DLCL_CF_PS001">correzioni e riferimenti stampe</change>
             <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
             <change when-iso="2024-11-20" who="#DLCL_CF_PS001">nuove trascrizioni buste</change>
+            <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni riferimenti entità</change>
          </revisionDesc>
       </front>
       <body>
@@ -103,7 +104,7 @@
                   Faccia sapere a lui che si faccia venire da <rs type="person">quel Padre</rs> del <orgName ref="#DLCL_CF_O0003" key="DLCL_CF_O0003">Monte di Cesena</orgName> 
                   la Copia delle <bibl ref="#DLCL_CF_BM0003" type="manuscript">Ipercrisi</bibl> del <persName ref="#DLCL_CF_PC0009" key="DLCL_CF_PC0009">Bacchini.</persName> 
                   Veda col <rs type="person">Padre Camerlengo,</rs> che ha la chiave, trovare delle nostre camere due copie 
-                  del <bibl type="print" ref="#DLCL_CF_BS0002">Catullo</bibl> del <persName ref="#DLCL_CF_PC0011" key="DLCL_CF_PC0011">Volpi</persName> legato alla rustica; 
+                  del <bibl type="print" ref="#DLCL_CF_BS0002">Catullo</bibl> del <persName ref="#DLCL_CF_PC0011" key="DLCL_CF_PC0011 #DLCL_CF_PC0518">Volpi</persName> legato alla rustica; 
                   e le mandi al <persName ref="#DLCL_CF_PC0006" key="DLCL_CF_PC0006">Padre Amici.</persName>  
                </p>
             </postscript>

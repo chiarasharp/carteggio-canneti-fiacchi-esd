@@ -66,6 +66,7 @@
             <change when-iso="2024-02-15" who="#DLCL_CF_PS001">creato</change>
             <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
             <change when-iso="2024-11-21" who="#DLCL_CF_PS001">stampe</change>
+            <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni riferimenti entità</change>
          </revisionDesc>
       </front>
       <body>
@@ -227,7 +228,7 @@
                   [Aspetto risposta al rimanente; e segnatamente desidero nuova del fagotto de’ libri di <placeName ref="#DLCL_CF_L0013">Ferrara.</placeName> 
                   Mi saluti il caro <persName ref="#DLCL_CF_PC0091">Frate Fausto.</persName> 
                   Mi spiace la morte della <persName ref="#DLCL_CF_PC0247">Signora Anna Fattorini.</persName> 
-                  E del <persName ref="#DLCL_CF_PC0248">Padre Abate Pasolini</persName> defunto nulla mi dice? 
+                  E del <persName ref="#DLCL_CF_PC0016">Padre Abate Pasolini</persName> defunto nulla mi dice? 
                   Il <bibl type="print" source="#DLCL_CF_BS0109">Tomo XXII del Giornale</bibl> è arrivato?]
                </p>
             </postscript>

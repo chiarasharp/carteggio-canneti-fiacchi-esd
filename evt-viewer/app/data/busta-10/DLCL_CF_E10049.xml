@@ -67,6 +67,7 @@
             <change when-iso="2024-04-11" who="#DLCL_CF_PS001">creato</change>
             <change when-iso="2024-09-10" who="#DLCL_CF_PS001">correzioni</change>
             <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni riferimenti entità</change>
          </revisionDesc>
       </front>
       <body>
@@ -80,15 +81,15 @@
             <p>
                Ricevo con obbligata cordialità corrispondente al di lei amore i favori a me trasmessi 
                dalla <rs type="person" ref="#DLCL_CF_PC0002">Paternità Vostra</rs> nel <bibl type="religious">Calendario,</bibl> 
-               e ne’ quattro fogli spettanti al punto de’ <orgName ref="#DLCL_CF_O0065">Catanei</orgName>. 
+               e ne’ quattro fogli spettanti al punto de’ <orgName ref="#DLCL_CF_O0065">Catanei.</orgName> 
                Mi rallegro con esso lei dell’opportuna congiuntura di portarsi alla Patria, 
                e godervi della geniale conversazione del <persName ref="#DLCL_CF_PC0006">Padre Filippo Amici</persName> verso la persona di lei sommamente sviscerato, e suo Benefattore. 
                Mi consola la cara riflessione che ne’ loro discorsi qualche volta io vi occuperò il mio luogo, come son certo di possederlo ne’ cuori d’ambidue. 
             </p>
             
             <p>
-               Ritornato a <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>, quando che sia, non si scordi rispondermi sopra gli altri particolari tutti. 
-               Quanto a <orgName ref="#DLCL_CF_O0065">Catanei</orgName>, non si affatichi più che tanto intorno l’<bibl type="print">Epitome</bibl> 
+               Ritornato a <placeName ref="#DLCL_CF_L0002">Ravenna,</placeName> quando che sia, non si scordi rispondermi sopra gli altri particolari tutti. 
+               Quanto a <orgName ref="#DLCL_CF_O0065">Catanei,</orgName> non si affatichi più che tanto intorno l’<bibl type="print">Epitome</bibl> 
                dell’<persName ref="#DLCL_CF_PC0101">Olivetano,</persName> della quale io fo’ poco conto, a misura del merito dell’Opera. 
                Basterà accennare un succinto ristretto delle principali notizie, le quali possano conferire all’intento. 
                Intanto comincerò col <persName ref="#DLCL_CF_PC0125">Signor Abate Ferri</persName> il carteggio. 
@@ -117,14 +118,14 @@
             </p>
             
             <p>
-               Porti i miei ossequiosi rispetti al <persName ref="#DLCL_CF_PC0391">Reverendissimo Gasparini</persName>: 
+               Porti i miei ossequiosi rispetti al <persName ref="#DLCL_CF_PC0391">Reverendissimo Gasparini:</persName> 
                e mi riverisca il <persName ref="#DLCL_CF_PC0392">Padre Lettore Giusti</persName> con distinzione, 
                e il <persName ref="#DLCL_CF_PC0393">Padre Curato Bolognini</persName> e il Degnissimo <persName ref="#DLCL_CF_PC0394">Signor Dottor Malisardi,</persName> 
                come ancora il <persName ref="#DLCL_CF_PC0260">Signor Marcantonio Sbaraglia,</persName> e il <persName ref="#DLCL_CF_PC0395">Signor Sante Fattorini.</persName> 
             </p>
             
             <p>
-               Se per divertimento in ore disoccupate ella potesse vedere i manoscritti della <orgName ref="#DLCL_CF_O0009">Libreria di San Salvatore</orgName>, 
+               Se per divertimento in ore disoccupate ella potesse vedere i manoscritti della <orgName ref="#DLCL_CF_O0009">Libreria di San Salvatore,</orgName> 
                osservi se in <bibl type="manuscript">Miscellanee o altri Codici d’Autori</bibl> di quell’età si trovi menzione di <persName ref="#DLCL_CF_PC0326">S. Ambrogio.</persName> 
             </p>
             

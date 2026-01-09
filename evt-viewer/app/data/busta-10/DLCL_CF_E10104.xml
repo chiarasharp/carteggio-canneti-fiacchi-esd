@@ -67,6 +67,7 @@
          <change when-iso="2024-09-17" who="#DLCL_CF_PS001">correzioni</change>
          <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
          <change when-iso="2025-08-22" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni riferimenti entità</change>
       </revisionDesc>
    </front><body>
          <div type="transcription">
@@ -80,7 +81,7 @@
                È partito il nostro <rs type="person">Padre Lettore</rs> senza mie lettere a <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità,</rs> 
                perché dopo essere stata già stabilita per oggi la sua mossa di ritorno, 
                volle anticipar tre giorni; onde non mi permise soddisfarmi la sua improvvisa risoluzione. 
-               Per questo motivo, e molto più per essersi a cavallo incaminato per la strada del <persName ref="#DLCL_CF_PC0610">Massaccio,</persName> 
+               Per questo motivo, e molto più per essersi a cavallo incaminato per la strada del <placeName ref="#DLCL_CF_L0179">Massaccio,</placeName> 
                non ho potuto inviar seco una Cassetta, 
                che per mare manderò a <placeName ref="#DLCL_CF_L0002">Ravenna</placeName> con il <bibl type="manuscript">Manoscritto consaputo,</bibl> 
                col <bibl type="print">Corpo delle Istruzioni</bibl> del <persName ref="#DLCL_CF_PC0688">Lohner,</persName> con diversi libri da legare, e altri da aggiungere a nostri. 

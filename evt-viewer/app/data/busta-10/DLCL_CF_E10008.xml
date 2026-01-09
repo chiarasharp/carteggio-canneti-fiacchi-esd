@@ -68,6 +68,7 @@
             <change when-iso="2024-04-16" who="#DLCL_CF_PS001">riferimenti stampe</change>
             <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
             <change when-iso="2025-05-22" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni riferimenti entità</change>
          </revisionDesc>
       </front>
       <body>
@@ -122,7 +123,7 @@
                Si prenda pur cura <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> 
                di ricuperare la <bibl type="print" ref="#DLCL_CF_BS0011">Scanzia</bibl> del <persName ref="#DLCL_CF_PC0038">Cinelli,</persName> 
                e la unisca alle altre, osservando se ora il Corpo sia intiero, e come possa legarsi con meno deformità possibile. 
-               Godo che i libri del <persName ref="#DLCL_CF_PC0011">Volpi</persName> siano arrivati. 
+               Godo che i libri del <persName ref="#DLCL_CF_PC0011 #DLCL_CF_PC0518">Volpi</persName> siano arrivati. 
                <bibl type="print" ref="#DLCL_CF_BS0020">Le Satire</bibl> del <persName ref="#DLCL_CF_PC0045">Duca di Bracciano</persName> (se non erro) dovranno segnarsi alla lettera O; 
                essendo l’Autor di Casa Orsini. 
                Vegga nell’<bibl type="print" ref="#DLCL_CF_BS0021" cert="unknown">Indice Imperialense.</bibl> 

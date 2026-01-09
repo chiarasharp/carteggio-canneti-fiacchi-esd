@@ -69,6 +69,7 @@
             <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
             <change when-iso="2024-11-21" who="#DLCL_CF_PS001">stampe</change>
             <change when-iso="2025-05-22" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni riferimenti entità</change>
          </revisionDesc>
       </front>
       <body>
@@ -176,7 +177,7 @@
                Dentro il prossimo Ottobre, a Dio piacendo, sarà terminata. 
                Novamente le raccomando la spedizione de’ libri. 
                Ho bisogno d’una copia intiera dell’<bibl type="manuscript">Istromento di donazione dell’Ospitale della Misericordia</bibl> 
-               fatta dal <persName ref="#DLCL_CF_PC0187">Polentano</persName> al <persName ref="#DLCL_CF_PC0124">Generale Ambrogio;</persName> 
+               fatta dal <persName ref="#DLCL_CF_PC0187">Polentano</persName> al <persName ref="#DLCL_CF_PC0177">Generale Ambrogio;</persName> 
                ed è in <orgName ref="#DLCL_CF_O0001">Archivio</orgName> nella Cassetta <foreign xml:lang="la">de <hi rend="underline">Hospitali Misericordiae</hi>
       </foreign>. 
                Voglio inserirlo nelle Annotazioni. 

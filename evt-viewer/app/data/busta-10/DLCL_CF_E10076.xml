@@ -66,6 +66,7 @@
          <change when-iso="2024-07-12" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2024-09-13" who="#DLCL_CF_PS001">correzioni</change>
          <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni riferimenti entità</change>
       </revisionDesc>
    </front><body>
          <div type="transcription">
@@ -82,7 +83,7 @@
                dentro un fagotto di libri da me ordinati al medesimo per servizio di diversi Amici. 
                Non potrà ora pertanto <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> aver’ il godimento di vederlo, come io stesso ne averei avuta compiacenza; 
                ma ad altro tempo si differirà una tal sua soddisfazione. 
-               Il <persName ref="#DLCL_CF_PC0518">Signor Volpi</persName> mi ha altresì spedita una balletta delle opere finora uscite de’ suoi nobili torchi, 
+               Il <persName ref="#DLCL_CF_PC0011 #DLCL_CF_PC0518">Signor Volpi</persName> mi ha altresì spedita una balletta delle opere finora uscite de’ suoi nobili torchi, 
                affinche io gliene procuri l’esito; 
                come spero non mi sia per essere impossibile. 
             </p>

@@ -8,3 +8,4 @@ dist/
 evt-viewer/app/data/busta-10/missing-iiif-images-report.md
 evt-viewer/app/data/busta-10/url-sources-report.md
 evt-viewer/app/data/busta-10/iiif-update-report.md
+scripts/*

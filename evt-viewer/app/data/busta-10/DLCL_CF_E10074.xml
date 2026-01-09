@@ -66,6 +66,7 @@
          <change when-iso="2024-07-11" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2024-09-13" who="#DLCL_CF_PS001">correzioni</change>
          <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni riferimenti entità</change>
       </revisionDesc>
    </front><body>
          <div type="transcription">
@@ -135,7 +136,7 @@
                <hi rend="underline"><foreign xml:lang="la">Non est in tanto corpore mica salis</foreign></hi>. 
                E se ha fatto da critico sopra l’età del <persName ref="#DLCL_CF_PC0017">Padre San Romualdo,</persName> 
                quella censura non è sua ma del <persName ref="#DLCL_CF_PC0562">Bollando</persName> abbastanza già convinto, e confutato. 
-               Stimo più il <bibl type="print">libretto</bibl> dello <persName ref="#DLCL_CF_PC0204">Spreti,</persName> che tutto il [<persName ref="#DLCL_CF_PC0123">Fabri]</persName>.
+               Stimo più il <bibl type="print">libretto</bibl> dello <persName ref="#DLCL_CF_PC0204">Spreti,</persName> che tutto il [<persName ref="#DLCL_CF_PC0123">Fabri].</persName>
             </p>
             
             <p>
