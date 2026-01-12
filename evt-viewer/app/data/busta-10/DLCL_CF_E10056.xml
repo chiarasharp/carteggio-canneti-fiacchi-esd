@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10056">
    <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20688/manifest">
       <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21122/full/800,/0/default.jpg"/>
@@ -13,72 +12,74 @@
       <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/21130/full/800,/0/default.jpg"/>
    </facsimile>
    <text>
+      
       <group>
          <text type="letter" xml:id="DLCL_CF_E10056_L">
-            <front>
-               <fileDesc>
-                  <titleStmt>
-                     <title xml:lang="it">Canneti a Fiacchi (Perugia, 18 Maggio 1717)</title>
-                     <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
-                  </titleStmt>
-                  <publicationStmt>
-                     <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
-                     <availability>
-                        <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
-                     </availability>
-                  </publicationStmt>
-                  <seriesStmt>
-                     <title type="main">Carteggio Canneti Fiacchi</title>
-                     <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
-                     <biblScope unit="letter">56</biblScope>
-                  </seriesStmt>
-                  <sourceDesc>
-                     <msDesc>
-                        <msIdentifier>
-                           <country key="IT">Italia</country>
-                           <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
-                           <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                           <repository/>
-                           <collection/>
-                           <idno/>
-                           <altIdentifier>
-                              <idno/>
-                           </altIdentifier>
-                        </msIdentifier>
-                     </msDesc>
-                  </sourceDesc>
-               </fileDesc>
-               <profileDesc>
-                  <correspDesc>
-                     <correspAction type="sent">
-                        <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
-                        <date when-iso="1717-05-18"/>
-                        <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
-                     </correspAction>
-                     <correspAction type="received">
-                        <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
-                     </correspAction>
-                  </correspDesc>
-                  <langUsage>
-                     <language ident="it"/>
-                  </langUsage>
-                  <settingDesc>
-                     <xi:include href="../../entities/places.xml"/>
-                  </settingDesc>
-                  <particDesc>
-                     <xi:include href="../../entities/people/cited-people.xml"/>
-                     <xi:include href="../../entities/people/staff.xml"/>
-                     <xi:include href="../../entities/orgs.xml"/>
-                  </particDesc>
-               </profileDesc>
-               <revisionDesc status="created">
-                  <change when-iso="2024-04-18" who="#DLCL_CF_PS001">creato</change>
-                  <change when-iso="2024-09-11" who="#DLCL_CF_PS001">correzioni</change>
-                  <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
-                  <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
-                  <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
-               </revisionDesc>
-            </front>
+            <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 18 Maggio 1717)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">56</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
+                     <idno></idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1717-05-18"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-04-18" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-11" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
+         <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni errori markup</change>
+      </revisionDesc>
+   </front>
             <body>
                <div type="transcription">
                   <pb xml:id="DLCL_CF_E10056_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21122/full/800,/0/default.jpg"/>
@@ -213,13 +214,13 @@
                      </p>
                      
                      <p>
-                        [<foreign xml:lang="la"><persName ref="#DLCL_CF_PC0462">Jo(annes) [Fischerus'</persName> To. 14 Bibl. Roc.] 
+                        [<foreign xml:lang="la"><persName ref="#DLCL_CF_PC0462">Jo(annes) [Fischerus</persName>' To. 14 Bibl. Roc.] 
                            Roffensis Ep. scripsit contra <persName ref="#DLCL_CF_PC0463">Lutheri</persName> errores articulos a <persName ref="#DLCL_CF_PC0592">Leone X</persName> damnatus</foreign>.
                      </p>
                      
                      <p>
                         <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0439">Jo. Cocleus</persName></foreign> 
-                        <bibl type="print"><foreign xml:lang="la">de Actis et Scriptis Lutheri</foreign></bibl> et <bibl type="print">.<foreign xml:lang="la">Septicipium Lutherum</foreign></bibl> 
+                        <bibl type="print"><foreign xml:lang="la">de Actis et Scriptis Lutheri</foreign></bibl> et <bibl type="print"><foreign xml:lang="la">Septicipium Lutherum</foreign>.</bibl> 
                      </p>
                      
                      <p>
@@ -228,7 +229,7 @@
                      </p>
                      
                      <p>
-                        <bibl type="print">.<foreign xml:lang="la">It Calvinistas, Lutheranos et alios</foreign></bibl> A 
+                        <bibl type="print"><foreign xml:lang="la">It Calvinistas, Lutheranos et alios</foreign>.</bibl> A 
                      </p>
                      
                      <p>
@@ -244,72 +245,74 @@
                   
                </div>
             </body>
+         
          </text>
          <text type="attachment" xml:id="DLCL_CF_E10056_A01">
-            <front>
-               <fileDesc>
-                  <titleStmt>
-                     <title xml:lang="it">Canneti a Fiacchi (Perugia, 18 Maggio 1717)</title>
-                     <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
-                  </titleStmt>
-                  <publicationStmt>
-                     <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
-                     <availability>
-                        <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
-                     </availability>
-                  </publicationStmt>
-                  <seriesStmt>
-                     <title type="main">Carteggio Canneti Fiacchi</title>
-                     <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
-                     <biblScope unit="letter">56</biblScope>
-                  </seriesStmt>
-                  <sourceDesc>
-                     <msDesc>
-                        <msIdentifier>
-                           <country key="IT">Italia</country>
-                           <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
-                           <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                           <repository/>
-                           <collection/>
-                           <idno/>
-                           <altIdentifier>
-                              <idno/>
-                           </altIdentifier>
-                        </msIdentifier>
-                     </msDesc>
-                  </sourceDesc>
-               </fileDesc>
-               <profileDesc>
-                  <correspDesc>
-                     <correspAction type="sent">
-                        <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
-                        <date when-iso="1717-05-18"/>
-                        <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
-                     </correspAction>
-                     <correspAction type="received">
-                        <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
-                     </correspAction>
-                  </correspDesc>
-                  <langUsage>
-                     <language ident="it"/>
-                  </langUsage>
-                  <settingDesc>
-                     <xi:include href="../../entities/places.xml"/>
-                  </settingDesc>
-                  <particDesc>
-                     <xi:include href="../../entities/people/cited-people.xml"/>
-                     <xi:include href="../../entities/people/staff.xml"/>
-                     <xi:include href="../../entities/orgs.xml"/>
-                  </particDesc>
-               </profileDesc>
-               <revisionDesc status="created">
-                  <change when-iso="2024-04-18" who="#DLCL_CF_PS001">creato</change>
-                  <change when-iso="2024-09-11" who="#DLCL_CF_PS001">correzioni</change>
-                  <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
-                  <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
-                  <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
-               </revisionDesc>
-            </front>
+            <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 18 Maggio 1717)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">56</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
+                     <idno></idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1717-05-18"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-04-18" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-11" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
+         <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni errori markup</change>
+      </revisionDesc>
+   </front>
             <body>
                <div type="transcription">
                   <pb xml:id="DLCL_CF_E10056_A01_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21127/full/800,/0/default.jpg"/>
@@ -350,7 +353,7 @@
                   </p>
                
                   <p>
-                     <persName ref="DLCL_CF_PC0451">Mogl. Barbara</persName><space quantity="4" unit="chars"/>di <persName ref="#DLCL_CF_PC0457">Leonello</persName> di 
+                     <persName ref="#DLCL_CF_PC0451">Mogl. Barbara</persName><space quantity="4" unit="chars"/>di <persName ref="#DLCL_CF_PC0457">Leonello</persName> di 
                   </p>
       
                   <p>
@@ -413,7 +416,7 @@
                      <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0454">Sigismondus Imperator</persName> Nabiam venit et <placeName ref="#DLCL_CF_L0058">Mantuam,</placeName> 
                         ubi <persName ref="#DLCL_CF_PC0442">Jo. Franciscum</persName> <placeName ref="#DLCL_CF_L0058">Mantuae</placeName> 
                         Marchionem primum dicitet quatuor <gap reason="illegible"/>[...] ipsi concedit 
-                        [vidi de hoc <persName ref="#DLCL_CF_PC0068">Maffej</persName> id. pagina</foreign> <bibl type="print">756]</bibl> 
+                        [vidi de hoc <persName ref="#DLCL_CF_PC0068">Maffej</persName> id. pagina</foreign> <bibl type="print">756</bibl>] 
                   </p>
                   
                   <p>
@@ -440,7 +443,7 @@
                         Primogenito <persName ref="#DLCL_CF_PC0451">Barbara</persName> Marchionis Electoris Bandeburgensis filia desponsata est. Ibidem pagina
                      </foreign> <bibl type="print">541.</bibl> 
                      [<foreign xml:lang="la">Quae in novembr. <placeName ref="#DLCL_CF_L0058">Mantuam</placeName> 
-                        debeo acta <persName ref="#DLCL_CF_PC0068">Maffei</persName> pag.</foreign> <bibl type="print">757'</bibl> 
+                        debeo acta <persName ref="#DLCL_CF_PC0068">Maffei</persName> pag.</foreign> <bibl type="print">757</bibl>' 
                   </p>
                   
                   <p>
@@ -477,7 +480,9 @@
                   </note>
                </div>
             </body>
+         
          </text>
       </group>
-   </text> 
+   
+   </text>
 </TEI>

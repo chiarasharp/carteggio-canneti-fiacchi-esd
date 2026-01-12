@@ -1,0 +1,133 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11047">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20940/manifest">
+      <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21448/full/800,/0/default.jpg"/>
+      <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21449/full/800,/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11047">
+      <front>
+         <fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 19 Ottobre 1722)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+                <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+            <biblScope unit="letter">47</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
+                     <idno></idno>
+                  </altIdentifier>
+               </msIdentifier>
+                <msContents>
+                  <msItem>
+                     <incipit>In fretta. Mille grazie al Padre Don Angelo, e tre...</incipit>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+         <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1722-10-19"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+         <revisionDesc status="created">
+         <change when-iso="2025-12-21" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2025-12-22" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+         <change when-iso="2025-12-31" who="#DLCL_CF_PS001">markup</change>
+      </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E11._C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21448/full/800,/0/default.jp"/>
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+            </opener>
+            <p>In fretta. Mille grazie al 
+               <persName ref="#DLCL_CF_PC0730">Padre Don Angelo,</persName> 
+               e tre o quattro appena a 
+               <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> 
+               per la notizia della sottoscrizione molto a me cara. Ho bisogno di notizie intorno alla persona di 
+               <persName ref="#DLCL_CF_PC0969">Uguccione della Fagiuola,</persName> 
+               e della perdita nel tempo stesso del dominio, ch’è teneva di 
+               <placeName ref="#DLCL_CF_L0085">Lucca,</placeName> 
+               e di 
+               <placeName ref="#DLCL_CF_L0075">Pisa.</placeName> 
+               Il tutto in succinto, da par suo, con additare i principali Autori.</p>
+            <p>Stranissimo è il nodo, che occorre alli 30. Ottobre nel Calendario. Altro non sò dire, se non che diasi alla Vigilia ciò, che si può nel 3.° Notturno, cioè il Responsorio: e non sò vedere che altro si possa fare. E nella Messa non hà certamente a dirsi due volte lo stesso Vangelo. Quanto all’Aprile, io persisto che non si ha a trasportar l’Officio de’ Sette Dolori al tempo Pascale, senza nuovo Decreto, o Risposta della 
+               <orgName ref="#DLCL_CF_O0011">Sacra Congregazione,</orgName> 
+               non ostante che sia di precetto.</p>
+            <p>Non sarà male un’altro anno ridurre il Calendario nostro alla forma di quel di 
+               <orgName ref="#DLCL_CF_O0034">Monte Corona</orgName> 
+               con gli Officj di tutti i Monasteri, che tanti in circa sono, o poco più de loro Eremi.</p>
+            <p>Degli 
+               <bibl type="print">Officj</bibl> 
+               di 
+               <persName ref="#DLCL_CF_PC0364">Sant’Isidoro</persName> 
+               uno a me basta in 12. Se altri ne verranno farò esitargli. Queste 
+               <rs type="person" ref="#">Monache</rs> 
+               li prenderanno in grande. Inaspettato sarebbe, com’è incredibile, il ritorno di 
+               <persName ref="#DLCL_CF_PC0007">Collina.</persName> 
+               Il 
+               <persName ref="#DLCL_CF_PC1032">Padre Priore Conti</persName> 
+               è ritornato: ma si teme che il viaggio, e la spesa possano esser gettati. Almeno sarà inevitabile il litigio.</p>
+            <pb xml:id="DLCL_CF_E11047_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21449/full/800,/0/default.jpg"/>
+            <p>Tutto con comodo si riceverà da 
+               <placeName ref="# DLCL_CF_L0001">Cremona.</placeName> 
+               Il 
+               <bibl type="print">Lino</bibl> 
+               sia dieci 
+               p<gap reason="illegible"/>. 
+               Un caro saluto al 
+               <persName ref="#DLCL_CF_PC0090">Padre Don Leandro.</persName> 
+               Se siamo in tempo, mi mandi i libretti di 
+               <placeName ref="#DLCL_CF_L0010">Padova,</placeName> 
+               i 
+               <bibl type="print">Baccanali,</bibl> 
+               e il 
+               <bibl type="manuscript">Manoscritto legati.</bibl> 
+               Resto di cuore.</p>
+            <closer>
+               <salute>DVPMR</salute>
+               <dateline><placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1722-10-19"></date>19. Ottobre 1722.</dateline>
+               <salute>Cordialissimo Servo Vero</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

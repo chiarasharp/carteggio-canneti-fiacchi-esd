@@ -8,66 +8,68 @@
    <text type="letter" xml:id="DLCL_CF_E10029">
       <front>
          <fileDesc>
-            <titleStmt>
-               <title xml:lang="it">Canneti a Fiacchi (Perugia, 10 Dicembre 1715)</title>
-               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
-            </titleStmt>
-            <publicationStmt>
-               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
-               <availability>
-                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
-               </availability>
-            </publicationStmt>
-            <seriesStmt>
-               <title type="main">Carteggio Canneti Fiacchi</title>
-               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
-               <biblScope unit="letter">29</biblScope>
-            </seriesStmt>
-            <sourceDesc>
-               <msDesc>
-                  <msIdentifier>
-                     <country key="IT">Italia</country>
-                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
-                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                     <repository></repository>
-                     <collection></collection>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 10 Dicembre 1715)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">29</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
                      <idno></idno>
-                     <altIdentifier>
-                        <idno></idno>
-                     </altIdentifier>
-                  </msIdentifier>
-               </msDesc>
-            </sourceDesc>
-         </fileDesc>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
          <profileDesc>
-            <correspDesc>
-               <correspAction type="sent">
-                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
-                  <date when-iso="1715-12-10"/>
-                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
-               </correspAction>
-               <correspAction type="received">
-                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
-               </correspAction>
-            </correspDesc>
-            <langUsage>
-               <language ident="it"/>
-            </langUsage>
-            <settingDesc>
-               <xi:include href="../../entities/places.xml"/>
-            </settingDesc>
-            <particDesc>
-               <xi:include href="../../entities/people/cited-people.xml"/>
-               <xi:include href="../../entities/people/staff.xml"/>
-               <xi:include href="../../entities/orgs.xml"/>
-            </particDesc>
-         </profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1715-12-10"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
          <revisionDesc status="created">
-            <change when-iso="2024-02-14" who="#DLCL_CF_PS001">creato</change>
-            <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
-            <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
-            <change when-iso="2024-11-21" who="#DLCL_CF_PS001">stampe</change>
-         </revisionDesc>
+         <change when-iso="2024-02-14" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-21" who="#DLCL_CF_PS001">stampe</change>
+         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
+
+      </revisionDesc>
       </front>
       <body>
          <div type="transcription">
@@ -79,7 +81,7 @@
             
             <p>
                Molto mi consola l’avviso della spedizione fatta del fagotto a <placeName ref="#DLCL_CF_L0028">Pesaro.</placeName> 
-               Attenderò con altra prima occasione i <bibl type="religious">Calendarj,</bibl> il <bibl type="print" source="#DLCL_CF_BS0109">Giornale XXII;</bibl> l’<bibl type="print" source="#DLCL_CF_BS0114">Ateneo Augusto,</bibl> 
+               Attenderò con altra prima occasione i <bibl type="religious">Calendarj,</bibl> il <bibl type="print" ref="#DLCL_CF_BS0109">Giornale XXII;</bibl> l’<bibl type="print" ref="#DLCL_CF_BS0114">Ateneo Augusto,</bibl> 
                e l’involto (ch’ella potrà unire spedito finalmente da <placeName ref="#DLCL_CF_L0013">Ferrara,</placeName> 
                e dal <persName ref="#DLCL_CF_PC0143">signor Baruffaldi</persName> consegnato 
                al <persName ref="#DLCL_CF_PC0113">Signore Dottore Zappata</persName> da trasmettersi a <placeName ref="#DLCL_CF_L0002">Ravenna.</placeName> 
@@ -89,8 +91,8 @@
                se la passa scrivendo che <hi rend="underline">il <persName ref="#DLCL_CF_PC0056">gran Sancassani</persName> poteva dir peggio, ma conveniva che dicesse meglio</hi>. 
                Mi sarà caro sopra ogni credere l’<bibl type="print">Indice.</bibl> 
                Son dispostissimo a vendere il <bibl type="print">Convivio</bibl> di <persName ref="#DLCL_CF_PC0233">Dante</persName> 
-               (quando un’altra copia ne sia in <orgName ref="#DLCL_CF_O0001">Libreria)</orgName> 
-               e le <bibl type="print" source="#DLCL_CF_BS0115">Azioni Morali</bibl> del <persName ref="#DLCL_CF_PC0234">Landi,</persName> 
+               (quando un’altra copia ne sia in <orgName ref="#DLCL_CF_O0001">Libreria</orgName>) 
+               e le <bibl type="print" ref="#DLCL_CF_BS0115">Azioni Morali</bibl> del <persName ref="#DLCL_CF_PC0234">Landi,</persName> 
                e il <persName ref="#DLCL_CF_PC0235">Possevino</persName> <bibl type="print">dell’Onore.</bibl> 
                Ho ancora qui il <bibl type="print">Duello</bibl> del <persName ref="#DLCL_CF_PC0152">Puteo,</persName> 
                del <persName ref="#DLCL_CF_PC0236">Fausto,</persName> e dell’<persName ref="#DLCL_CF_PC0151">Alciato,</persName> che esiterò. 
@@ -99,7 +101,7 @@
                Oh perché io non fui quì! 
                Avrei certamente voluto acquistare quei tometti del <persName ref="#DLCL_CF_PC0064">Marracci.</persName> 
                Quando quì mi capita qualche cosuccia, non tralascio di prenderla, per quanto mi permette la mia povertà. 
-               Ho acquistati diversi Manoscritti, e fra gli altri un <bibl type="manuscript" source="#DLCL_CF_BM0007">Dante in membrana</bibl> scritto l’anno 1369; assai corretto, e buono. 
+               Ho acquistati diversi Manoscritti, e fra gli altri un <bibl type="manuscript" ref="#DLCL_CF_BM0007">Dante in membrana</bibl> scritto l’anno 1369; assai corretto, e buono. 
                Con prima occasione manderò i <persName ref="#DLCL_CF_PC0033">Crescimbeni</persName> per la <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> e da legare. 
                Il <persName ref="#DLCL_CF_PC0237">Signor Abate Giuseppe Conti</persName> ha troppa bontà per le cose nostre. 
                Se egli, che ha l’occhio 

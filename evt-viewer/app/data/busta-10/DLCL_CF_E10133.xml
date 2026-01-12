@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10133">
-    <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20765/manifest">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20765/manifest">
         <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21324/full/800,/0/default.jpg"/>
         <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/24772/full/800,/0/default.jpg"/>
         <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/24773/full/800,/0/default.jpg"/>
         <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/24774/full/800,/0/default.jpg"/>
     </facsimile>
-    <text type="letter" xml:id="DLCL_CF_E10133">
-        <front><fileDesc>
+   <text type="letter" xml:id="DLCL_CF_E10133">
+      <front>
+         <fileDesc>
             <titleStmt>
                 <title xml:lang="it">Canneti a Fiacchi (Fabriano, 30 Dicembre 1720)</title>
                 <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
@@ -29,17 +29,17 @@
                         <country key="IT">Italia</country>
                         <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
                         <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                        <repository/>
-                        <collection/>
-                        <idno/>
+                        <repository></repository>
+                        <collection></collection>
+                        <idno></idno>
                         <altIdentifier>
-                            <idno/>
+                            <idno></idno>
                         </altIdentifier>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
+         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
@@ -62,11 +62,14 @@
                 <xi:include href="../../entities/orgs.xml"/>
             </particDesc>
         </profileDesc>
-        <revisionDesc status="created">
+         <revisionDesc status="created">
             <change when-iso="2024-09-04" who="#DLCL_CF_PS001">creato</change>
             <change when-iso="2024-11-24" who="#DLCL_CF_PS001">correzioni</change>
+            <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
+
         </revisionDesc>
-    </front><body>
+      </front>
+      <body>
             <div type="transcription">
                 <pb xml:id="DLCL_CF_E10133_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21324/full/800,/0/default.jpg"/>
                 
@@ -85,7 +88,7 @@
                     per la munificenza usata al Capitolo di <placeName ref="#DLCL_CF_L0013">Ferrara</placeName> nel fargli fabbricare un Coro per l’inverno: 
                     il libro è latino, per quanto mi ricordo, di buona lega, col rame del nuovo Coro. 
                     E ciò seguì, quando era Arciprete di quella Cattedrale. 
-                    Diede mano alla stampa del libro (se non erro, del <persName ref="#DLCL_CF_PC0293" cert="unknown">Bernini)</persName> degli <rs type="person">Auditori di Ruota,</rs> 
+                    Diede mano alla stampa del libro (se non erro, del <persName ref="#DLCL_CF_PC0293" cert="unknown">Bernini</persName>) degli <rs type="person">Auditori di Ruota,</rs> 
                     consimile a quello degli <rs type="person">Avvocati Concistoriali</rs> del <persName ref="#DLCL_CF_PC0242">Cartari,</persName> 
                     e degli <rs type="person">Abbreviatori</rs> di <persName ref="#DLCL_CF_PC0051" cert="unknown">Ciampini.</persName>
                 </p>
@@ -97,7 +100,7 @@
                 <p>
                     Ricevo il foglio VII dell’<bibl type="manuscript">Indice.</bibl> 
                     Quei <bibl type="print">due Tometti in 12 franzesi della Biblioteca Critica di Sainjoure</bibl> 
-                    (ma veramente di <persName ref="#DLCL_CF_PC0164">Monsieur Richard Simon)</persName> l’ho io qui duplicata. 
+                    (ma veramente di <persName ref="#DLCL_CF_PC0164">Monsieur Richard Simon</persName>) l’ho io qui duplicata. 
                     Cotesta (trovandosene l’esito) può vendersi. 
                     Spesi tredici paoli per corpo sciolto. 
                     È cosa buona di molto, e proibita.
@@ -125,5 +128,5 @@
                 </postscript>
             </div>
         </body>
-    </text>
+   </text>
 </TEI>

@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10082">
    <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20714/manifest">
       <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21202/full/800,/0/default.jpg"/>
@@ -7,7 +6,8 @@
       <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/25104/full/800,/0/default.jpg"/>
    </facsimile>
    <text type="letter" xml:id="DLCL_CF_E10082">
-      <front><fileDesc>
+      <front>
+         <fileDesc>
          <titleStmt>
             <title xml:lang="it">Canneti a Fiacchi (Perugia, 25 Giugno 1718)</title>
             <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
@@ -29,17 +29,17 @@
                   <country key="IT">Italia</country>
                   <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
                   <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                  <repository/>
-                  <collection/>
-                  <idno/>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
                   <altIdentifier>
-                     <idno/>
+                     <idno></idno>
                   </altIdentifier>
                </msIdentifier>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
+         <profileDesc>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
@@ -62,12 +62,15 @@
             <xi:include href="../../entities/orgs.xml"/>
          </particDesc>
       </profileDesc>
-      <revisionDesc status="created">
+         <revisionDesc status="created">
          <change when-iso="2024-07-15" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2024-09-16" who="#DLCL_CF_PS001">correzioni</change>
          <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
+
       </revisionDesc>
-   </front><body>
+      </front>
+      <body>
          <div type="transcription">
             <pb xml:id="DLCL_CF_E10082_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21202/full/800,/0/default.jpg"/>
             
@@ -86,7 +89,7 @@
                l’anno 1467 a tempi di <persName ref="#DLCL_CF_PC0580">Paolo secondo,</persName> 
                senza esprimervisi il nome dello stampatore, né la casa de’ Massimi, ove mi persuado che non seguisse l’impressione suddetta. 
                In fatti diverso molto è il carattere dell’edizione famosa, la quale costì abbiamo, 
-               <hi rend="underline"><bibl type="print"><foreign xml:lang="la">in Domo Petri de Maximo</foreign>,</bibl></hi> dell’anno seguente 1468. 
+               <hi rend="underline"><bibl type="print"><foreign xml:lang="la">in Domo Petri de Maximo</foreign></bibl></hi>, dell’anno seguente 1468. 
                Il <persName ref="#DLCL_CF_PC0579">Padre Montfaucon</persName> nel suo <bibl type="print">Diario Italico</bibl> cap. 18 pag. 255 scrive = 
                <cit>
                   <quote>
@@ -149,7 +152,7 @@
             
             <p>
                È uscita delle stampe la <bibl type="print">Dissertazione</bibl> del <persName ref="#DLCL_CF_PC0114">Padre Quirini</persName> 
-               <bibl type="print"><hi rend="underline"><foreign xml:lang="la">De Monastica Italiae historia conscribenda</foreign></hi></bibl> ch’è veramente bellissima per ogni capo. 
+               <hi rend="underline"><bibl type="print"><foreign xml:lang="la">De Monastica Italiae historia conscribenda</foreign></bibl></hi> ch’è veramente bellissima per ogni capo. 
                Si trattiene chiusa finattanto che esca unitamente col primo Tomo dell’<bibl type="print">Istoria Monastica d’Italia.</bibl> 
                Io ne ho avuta una copia per finezza del <rs type="person">Padre Reverendissimo Presidente</rs> della <orgName ref="#DLCL_CF_O0149">Congregazione Casinense,</orgName> 
                che risiede qui <rs type="person">Abate</rs> di <orgName ref="#DLCL_CF_O0019">S. Pietro,</orgName> mio amico e Padrone. 

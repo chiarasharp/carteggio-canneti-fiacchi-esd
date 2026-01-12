@@ -8,66 +8,68 @@
    <text type="letter" xml:id="DLCL_CF_E10032">
       <front>
          <fileDesc>
-            <titleStmt>
-               <title xml:lang="it">Canneti a Fiacchi (Perugia, 24 Marzo 1716)</title>
-               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
-            </titleStmt>
-            <publicationStmt>
-               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
-               <availability>
-                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
-               </availability>
-            </publicationStmt>
-            <seriesStmt>
-               <title type="main">Carteggio Canneti Fiacchi</title>
-               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
-               <biblScope unit="letter">32</biblScope>
-            </seriesStmt>
-            <sourceDesc>
-               <msDesc>
-                  <msIdentifier>
-                     <country key="IT">Italia</country>
-                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
-                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                     <repository></repository>
-                     <collection></collection>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 24 Marzo 1716)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">32</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
                      <idno></idno>
-                     <altIdentifier>
-                        <idno></idno>
-                     </altIdentifier>
-                  </msIdentifier>
-               </msDesc>
-            </sourceDesc>
-         </fileDesc>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
          <profileDesc>
-            <correspDesc>
-               <correspAction type="sent">
-                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
-                  <date when-iso="1716-03-24"/>
-                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
-               </correspAction>
-               <correspAction type="received">
-                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
-               </correspAction>
-            </correspDesc>
-            <langUsage>
-               <language ident="it"/>
-            </langUsage>
-            <settingDesc>
-               <xi:include href="../../entities/places.xml"/>
-            </settingDesc>
-            <particDesc>
-               <xi:include href="../../entities/people/cited-people.xml"/>
-               <xi:include href="../../entities/people/staff.xml"/>
-               <xi:include href="../../entities/orgs.xml"/>
-            </particDesc>
-         </profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1716-03-24"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
          <revisionDesc status="created">
-            <change when-iso="2024-02-20" who="#DLCL_CF_PS001">creato</change>
-            <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
-            <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
-            <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
-         </revisionDesc>
+         <change when-iso="2024-02-20" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
+
+      </revisionDesc>
       </front>
       <body>
          <div type="transcription">
@@ -109,7 +111,7 @@
                di quell’età, che il <persName ref="#DLCL_CF_PC0059">Baronio</persName> giustamente appellò del ferro, del piombo e oscure, 
                facendo insieme vedere che tanto la disciplina de’ Monaci non rimane pregiudicata, che anzi non fosse profittevole alla Chiesa. 
                Tutto ciò mirabilmente con minor proporzione per tutti i lati, 
-               si addatta al secolo X di cui nella prefazione all’<bibl type="manuscript" source="#DLCL_CF_BM0006">Epistole Ambrogiane</bibl> 
+               si addatta al secolo X di cui nella prefazione all’<bibl type="manuscript" ref="#DLCL_CF_BM0006">Epistole Ambrogiane</bibl> 
                spero scrivere in modo che i pochi difetti servano a far spiccare il molto bene con gloria di Dio e dell’<orgName ref="#DLCL_CF_O0034">Ordine nostro.</orgName> 
                Se il passo, o più passi che sieno del <persName ref="#DLCL_CF_PC0129">Mabillone</persName> e si potessero trascrivere, mi sarebbero di gran lume. 
                <hi rend="underline"><foreign xml:lang="la">Amanti sat est in <gap reason="illegible"/>[...] casse</foreign></hi>. 

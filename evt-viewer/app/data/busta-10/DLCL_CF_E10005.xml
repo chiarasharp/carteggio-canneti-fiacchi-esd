@@ -8,37 +8,37 @@
    <text type="letter" xml:id="DLCL_CF_E10005">
       <front>
          <fileDesc>
-            <titleStmt>
-               <title xml:lang="it">Canneti a Fiacchi (Ravenna, 6 Agosto 1713)</title>
-               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
-            </titleStmt>
-            <publicationStmt>
-               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
-               <availability>
-                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
-               </availability>
-            </publicationStmt>
-            <seriesStmt>
-               <title type="main">Carteggio Canneti Fiacchi</title>
-               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
-               <biblScope unit="letter">5</biblScope>
-            </seriesStmt>
-            <sourceDesc>
-               <msDesc>
-                  <msIdentifier>
-                     <country key="IT">Italia</country>
-                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
-                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                     <repository></repository>
-                     <collection></collection>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Ravenna, 6 Agosto 1713)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">5</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
                      <idno></idno>
-                     <altIdentifier>
-                        <idno></idno>
-                     </altIdentifier>
-                  </msIdentifier>
-               </msDesc>
-            </sourceDesc>
-         </fileDesc>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
          <profileDesc>
          <correspDesc>
             <correspAction type="sent">
@@ -62,12 +62,14 @@
             <xi:include href="../../entities/orgs.xml"/>
          </particDesc>
       </profileDesc>
-      <revisionDesc status="created">
+         <revisionDesc status="created">
          <change when-iso="2024-01-19" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2024-01-29" who="#DLCL_CF_PS001">correzioni</change>
          <change when-iso="2024-04-17" who="#DLCL_CF_PS001">riferimenti stampe</change>
          <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
          <change when-iso="2024-11-20" who="#DLCL_CF_PS001">nuove trascrizioni buste</change>
+         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
+         <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni errori markup</change>
       </revisionDesc>
       </front>
       <body>
@@ -99,7 +101,7 @@
                Quando potrà andare alla <orgName ref="#DLCL_CF_O0009">Libreria di S. Salvatore,</orgName> 
                si ricordi vedere nell’<bibl type="manuscript">Epistole manoscritte</bibl> del <persName ref="#DLCL_CF_PC0031">Candido</persName> 
                se vi è menzione del nostro <persName ref="#DLCL_CF_PC0032">Ambrogio.</persName> 
-               Mi riverisca il <persName ref="DLCL_CF_PC0006">Padre Amici;</persName> 
+               Mi riverisca il <persName ref="#DLCL_CF_PC0006">Padre Amici;</persName> 
                e gli dica che in quest’ordinario mando a <placeName ref="#DLCL_CF_L0008">Roma</placeName> al <persName ref="#DLCL_CF_PC0033">Signore Crescimbeni</persName> 
                un’esemplare del <bibl type="print">Sonetto di San Filippo</bibl> nobilissimamente stampato costì, essendomi stato chiesto con grande istanza. 
                Son’ arrivati i libri di <placeName ref="#DLCL_CF_L0023">Foligno;</placeName> e vi ho trovate di belle cose. 
@@ -168,7 +170,7 @@
                   </foreign>
                </p>
             </postscript>
-            
+
          </div>
       </body>
    </text>

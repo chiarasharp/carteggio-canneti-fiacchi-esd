@@ -8,66 +8,67 @@
    <text type="letter" xml:id="DLCL_CF_E10001">
       <front>
          <fileDesc>
-            <titleStmt>
-               <title xml:lang="it">Canneti a Fiacchi (Ribano, 31 Ottobre 1711)</title>
-               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
-            </titleStmt>
-            <publicationStmt>
-               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
-               <availability>
-                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
-               </availability>
-            </publicationStmt>
-            <seriesStmt>
-               <title type="main">Carteggio Canneti Fiacchi</title>
-               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
-               <biblScope unit="letter">1</biblScope>
-            </seriesStmt>
-            <sourceDesc>
-               <msDesc>
-                  <msIdentifier>
-                     <country key="IT">Italia</country>
-                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
-                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                     <repository></repository>
-                     <collection></collection>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Ribano, 31 Ottobre 1711)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">1</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
                      <idno></idno>
-                     <altIdentifier>
-                        <idno></idno>
-                     </altIdentifier>
-                  </msIdentifier>
-                  <msContents>
-                     <msItem>
-                        <incipit>Con la gratissima lettera di V.P. ricevo la nota de' libri di Faenza e insieme la certa notizia...</incipit>
-                     </msItem>
-                  </msContents>
-               </msDesc>
-               <xi:include href="../../entities/prints.xml"/>
-            </sourceDesc>
-         </fileDesc>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <incipit>Con la gratissima lettera di V.P. ricevo la nota de' libri di Faenza e insieme la certa notizia...</incipit>
+                  </msItem>
+               </msContents>
+            </msDesc>
+            <xi:include href="../../entities/prints.xml"/>
+         </sourceDesc>
+      </fileDesc>
          <profileDesc>
-            <correspDesc>
-               <correspAction type="sent">
-                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
-                  <date when-iso="1711-10-31"/>
-                  <placeName ref="#DLCL_CF_L0006" key="DLCL_CF_L0006">Ribano</placeName>
-               </correspAction>
-               <correspAction type="received">
-                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
-               </correspAction>
-            </correspDesc>
-            <langUsage>
-               <language ident="it"/>
-            </langUsage>        
-         </profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1711-10-31"/>
+               <placeName ref="#DLCL_CF_L0006" key="DLCL_CF_L0006">Ribano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>        
+      </profileDesc>
          <revisionDesc status="created">
-            <change when-iso="2024-01-02" who="#DLCL_CF_PS001">creato</change>
-            <change when-iso="2024-01-29" who="#DLCL_CF_PS001">correzioni</change>
-            <change when-iso="2024-04-16" who="#DLCL_CF_PS001">correzioni e riferimenti stampe</change>
-            <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
-            <change when-iso="2024-11-20" who="#DLCL_CF_PS001">nuove trascrizioni buste</change>
-            <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni riferimenti entità</change>
-         </revisionDesc>
+         <change when-iso="2024-01-02" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-01-29" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-04-16" who="#DLCL_CF_PS001">correzioni e riferimenti stampe</change>
+         <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-20" who="#DLCL_CF_PS001">nuove trascrizioni buste</change>
+         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+
+      </revisionDesc>
       </front>
       <body>
          <div type="transcription">
@@ -91,9 +92,9 @@
                Indi converrà ch’ella applichi a fare il <bibl type="manuscript">Catalogo della Libreria Vecchia.</bibl> 
                Con che raccomandandomi a suoi santi sagrifici, ed alle orazioni sue, mi confermo.
             </p>
-            
+     
             <closer>
-               <dateline><placeName ref="#DLCL_CF_L0006" key="DLCL_CF_L0006">Ribano</placeName> <date when-iso="1711-10-31">31 ottobre 1711</date>.</dateline>
+               <dateline><placeName ref="#DLCL_CF_L0006" key="DLCL_CF_L0006">Ribano</placeName> <date when-iso="1711-10-31">31 ottobre 1711.</date></dateline>
                <salute>DVP</salute>
             </closer>
             
@@ -104,7 +105,7 @@
                   Faccia sapere a lui che si faccia venire da <rs type="person">quel Padre</rs> del <orgName ref="#DLCL_CF_O0003" key="DLCL_CF_O0003">Monte di Cesena</orgName> 
                   la Copia delle <bibl ref="#DLCL_CF_BM0003" type="manuscript">Ipercrisi</bibl> del <persName ref="#DLCL_CF_PC0009" key="DLCL_CF_PC0009">Bacchini.</persName> 
                   Veda col <rs type="person">Padre Camerlengo,</rs> che ha la chiave, trovare delle nostre camere due copie 
-                  del <bibl type="print" ref="#DLCL_CF_BS0002">Catullo</bibl> del <persName ref="#DLCL_CF_PC0011" key="DLCL_CF_PC0011 #DLCL_CF_PC0518">Volpi</persName> legato alla rustica; 
+                  del <bibl type="print" ref="#DLCL_CF_BS0002">Catullo</bibl> del <persName ref="#DLCL_CF_PC0011 #DLCL_CF_PC0518" key="DLCL_CF_PC0011">Volpi</persName> legato alla rustica; 
                   e le mandi al <persName ref="#DLCL_CF_PC0006" key="DLCL_CF_PC0006">Padre Amici.</persName>  
                </p>
             </postscript>

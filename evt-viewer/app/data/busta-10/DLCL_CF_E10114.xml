@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10114">
    <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20746/manifest">
       <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21279/full/800,/0/default.jpg"/>
@@ -7,7 +6,8 @@
       <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/25219/full/800,/0/default.jpg"/>
    </facsimile>
    <text type="letter" xml:id="DLCL_CF_E10114">
-      <front><fileDesc>
+      <front>
+         <fileDesc>
          <titleStmt>
             <title xml:lang="it">Canneti a Fiacchi (Fabriano, 26 Aprile 1720)</title>
             <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
@@ -29,17 +29,17 @@
                   <country key="IT">Italia</country>
                   <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
                   <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                  <repository/>
-                  <collection/>
-                  <idno/>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
                   <altIdentifier>
-                     <idno/>
+                     <idno></idno>
                   </altIdentifier>
                </msIdentifier>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
+         <profileDesc>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
@@ -62,12 +62,15 @@
             <xi:include href="../../entities/orgs.xml"/>
          </particDesc>
       </profileDesc>
-      <revisionDesc status="created">
+         <revisionDesc status="created">
          <change when-iso="2024-08-28" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2024-09-18" who="#DLCL_CF_PS001">correzioni</change>
          <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
+
       </revisionDesc>
-   </front><body>
+      </front>
+      <body>
          <div type="transcription">
             <pb xml:id="DLCL_CF_E10114_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21279/full/800,/0/default.jpg"/>
             
@@ -93,8 +96,8 @@
                A queste prede non mi lascia applicar la povertà. 
                Io credeva fosse una nota di libri vecchi, da trascegliere con vantaggio qualche rarità; 
                ma osservo essere l’Indice di un Librajo notato con prezzi di tutto rigore. 
-               Con tuttociò prendo l’<persName ref="#DLCL_CF_PC0758">Oudin</persName> <bibl type="print">,<foreign xml:lang="la">de Scriptoribus a Bellarmino omissis</foreign></bibl> 
-               e la <bibl type="print">,<foreign xml:lang="la">Bibliotheca Benedictino Mauriana</foreign></bibl> che forse serviranno alle mie Annotazioni. 
+               Con tuttociò prendo l’<persName ref="#DLCL_CF_PC0758">Oudin</persName> <bibl type="print"><foreign xml:lang="la">de Scriptoribus a Bellarmino omissis</foreign>,</bibl> 
+               e la <bibl type="print"><foreign xml:lang="la">Bibliotheca Benedictino Mauriana</foreign>,</bibl> che forse serviranno alle mie Annotazioni. 
                Anco dal <persName ref="#DLCL_CF_PC0006">Padre Amici</persName> ho nuove della prossima vestitura. 
                Me ne rallegro con lei, che nel <rs type="person">Fratello</rs> vi averà tanta parte di consolazione. 
                Così seco mi consolo della 

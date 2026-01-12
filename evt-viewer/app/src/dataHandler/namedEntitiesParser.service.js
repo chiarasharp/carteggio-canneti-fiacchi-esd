@@ -526,9 +526,11 @@ angular.module('evtviewer.dataHandler')
 			if (elementForLabel && elementForLabel.length > 0) {
 				var parsedLabel = evtParser.parseXMLElement(elementForLabel[0], elementForLabel[0], { skip: '<evtNote><persName><orgName><placeName>' });
 				el.label = parsedLabel ? parsedLabel.innerHTML : elId;
-				
+
 				// CHANGE: Improved entity sorting by using surname for people
 				if(contentForLabelDef === '<persName>') {
+					// Note: genName is already included in parsedLabel, no need to append it again
+
 					var surname = nodeElem.getElementsByTagName("surname")[0];
 					if (surname && typeof surname !== "undefined") {
 						// Sort by first letter of surname
@@ -691,12 +693,17 @@ angular.module('evtviewer.dataHandler')
 										               subChild.getAttribute('notBefore-iso') ||
 										               subChild.getAttribute('notAfter-iso');
 										if (dateAttr) {
-											// Convert from YYYY-MM-DD to DD/MM/YYYY
-											var dateParts = dateAttr.split('-');
-											if (dateParts.length === 3) {
-												text = dateParts[2] + '/' + dateParts[1] + '/' + dateParts[0];
-											} else {
+											// Check if it's just a year (4 digits, no dashes) - display as-is
+											if (/^\d{4}$/.test(dateAttr)) {
 												text = dateAttr;
+											} else {
+												// Convert from YYYY-MM-DD to DD/MM/YYYY
+												var dateParts = dateAttr.split('-');
+												if (dateParts.length === 3) {
+													text = dateParts[2] + '/' + dateParts[1] + '/' + dateParts[0];
+												} else {
+													text = dateAttr;
+												}
 											}
 										}
 									}
@@ -861,6 +868,15 @@ angular.module('evtviewer.dataHandler')
 			var isCopist = (child.tagName === 'persName' && childType === 'copist');
 			if (isCopist) {
 				contentKey = 'copist';
+			}
+
+			// Special handling for genName: append it to forename instead of creating a separate field
+			if (child.tagName === 'genName' && el.content['forename'] && el.content['forename'].length > 0) {
+				// Append genName to the last forename entry
+				var lastForenameIndex = el.content['forename'].length - 1;
+				var genNameText = child.innerHTML || child.textContent;
+				el.content['forename'][lastForenameIndex].text += ' ' + genNameText;
+				return; // Don't create a separate genName field
 			}
 
 			if (el.content[contentKey] === undefined) {

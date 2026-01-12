@@ -1,0 +1,120 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11053">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20946/manifest">
+      <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21462/full/800,/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11053">
+      <front>
+         <fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 07 Dicembre 1722)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+            <biblScope unit="letter">53</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
+                     <idno></idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <incipit>Non bene intesi quel, che Vostra Paternità mi scrisse del...</incipit>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+         <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1722-12-07"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+         <revisionDesc status="created">
+         <change when-iso="2025-12-22" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2025-12-28" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+         <change when-iso="2025-12-31" who="#DLCL_CF_PS001">markup</change>
+      </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E11053_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21462/full/800,/0/default.jpg"/>
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+            </opener>
+            <p>Non bene intesi quel, che 
+               <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> 
+               mi scrisse del primo Tomo del 
+               <bibl type="print">Tasso.</bibl> 
+               Dal 
+               <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina</persName> 
+               ho notizia del nobile regalo, ch’egli mi fà. Ella non me lo mandi sciolto, né legato bene, ma alla rustica, perché poi possa in ultimo legarsi unitamente tutto il corpo. Ma quando verrà accompagnato dagli altri libri? E de’ Calendarj che si risolve, e de’ conti mandati?</p>
+            <p>Una persona molto degna desidera un’esemplare delle 
+               <bibl type="print">Memorie Sacre di Ravenna</bibl> 
+               del 
+               <persName ref="#DLCL_CF_PC0205">Fabri.</persName> 
+               La prego usar diligenza per averlo, e comprarlo. Si ricordi delle altre faccende, mi conservi l’amor suo, massimamente nel 
+               <hi rend="underline">Memento</hi>; 
+               e creda che sempre più sono.</p>
+            <closer>
+               <dateline><placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1722-12-07">7. Dicembre 1722.</date></dateline>
+               <salute>DVPMR</salute>
+            </closer>
+            
+            <postscript>
+                <p>che prego mandarmi quel, che il 
+                  <persName ref="#DLCL_CF_PC1005">Vanderlinden o sia Lindenio</persName> 
+                  Rinnovato (non mi ricordo da chi) scrive di 
+                  <hi rend="underline">
+                     <persName ref="#DLCL_CF_PC1006">Gentile da Foligno</persName></hi>, 
+                  e di 
+                  <hi rend="underline"><persName ref="#DLCL_CF_PC1007">Niccolo Fava</persName></hi> 
+                  (latinè 
+                  <hi rend="underline"><foreign xml:lang="la">Fabius</foreign></hi>) 
+                  Bolognese, se pure scrive di questo secondo. E ciò si 
+                  <gap reason="illegible"/> 
+                  subito.</p>
+            </postscript>
+            
+              <closer>
+               <salute>Par Cordialissimo Servo Vostro</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

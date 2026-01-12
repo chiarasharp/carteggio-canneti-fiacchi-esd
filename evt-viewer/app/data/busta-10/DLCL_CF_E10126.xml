@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10126">
-    <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20758/manifest">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20758/manifest">
         <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21307/full/800,/0/default.jpg"/>
         <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/25239/full/800,/0/default.jpg"/>
         <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/25240/full/800,/0/default.jpg"/>
         <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/25241/full/800,/0/default.jpg"/>
     </facsimile>
-    <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/21308/manifest">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/21308/manifest">
         <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21309/full/800,/0/default.jpg"/>
         <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/25242/full/800,/0/default.jpg"/>
     </facsimile>
-    <text>
+   <text>
+      
         <group>
             <text type="letter" xml:id="DLCL_CF_E10126_L">
-                <front><fileDesc>
+            <front><fileDesc>
             <titleStmt>
                 <title xml:lang="it">Canneti a Fiacchi (Fabriano, 16 Settembre 1720)</title>
                 <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
@@ -35,17 +35,17 @@
                         <country key="IT">Italia</country>
                         <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
                         <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                        <repository/>
-                        <collection/>
-                        <idno/>
+                        <repository></repository>
+                        <collection></collection>
+                        <idno></idno>
                         <altIdentifier>
-                            <idno/>
+                            <idno></idno>
                         </altIdentifier>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
+      <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
@@ -68,13 +68,16 @@
                 <xi:include href="../../entities/orgs.xml"/>
             </particDesc>
         </profileDesc>
-        <revisionDesc status="created">
+      <revisionDesc status="created">
             <change when-iso="2024-09-03" who="#DLCL_CF_PS001">creato</change>
             <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
             <change when-iso="2024-11-24" who="#DLCL_CF_PS001">nuove trascrizioni</change>
-            <change when-iso="2025-08-22" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2025-08-22" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
+         <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni errori markup</change>
         </revisionDesc>
-    </front><body>
+   </front>
+                <body>
                     <div type="transcription">
                         <pb xml:id="DLCL_CF_E10126_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21307/full/800,/0/default.jpg"/>
                         
@@ -123,15 +126,16 @@
                         <postscript>
                             <p>
                                 Al Molto Reverendo Padre mio Osservandissimo Il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
-                                <placeName ref="DLCL_CF_L0006">Ribano</placeName>
+                                 <placeName ref="#DLCL_CF_L0006">Ribano</placeName>
                             </p>
                         </postscript>
                         
                     </div>
                 </body>
-            </text>
+            
+         </text>
             <text type="attachment" xml:id="DLCL_CF_E10126_A01">
-                <front><fileDesc>
+            <front><fileDesc>
             <titleStmt>
                 <title xml:lang="it">Canneti a Fiacchi (Fabriano, 16 Settembre 1720)</title>
                 <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
@@ -153,17 +157,17 @@
                         <country key="IT">Italia</country>
                         <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
                         <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                        <repository/>
-                        <collection/>
-                        <idno/>
+                        <repository></repository>
+                        <collection></collection>
+                        <idno></idno>
                         <altIdentifier>
-                            <idno/>
+                            <idno></idno>
                         </altIdentifier>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
+      <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
@@ -186,12 +190,16 @@
                 <xi:include href="../../entities/orgs.xml"/>
             </particDesc>
         </profileDesc>
-        <revisionDesc status="created">
+      <revisionDesc status="created">
             <change when-iso="2024-09-03" who="#DLCL_CF_PS001">creato</change>
             <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
             <change when-iso="2024-11-24" who="#DLCL_CF_PS001">nuove trascrizioni</change>
+         <change when-iso="2025-08-22" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
+         <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni errori markup</change>
         </revisionDesc>
-    </front><body>
+   </front>
+                <body>
                     <div type="transcription">
                         
                         <pb xml:id="DLCL_CF_E10126_A01_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21309/full/800,/0/default.jpg"/>
@@ -249,7 +257,9 @@
                         
                     </div>
                 </body>
-            </text>
+            
+         </text>
         </group>
-    </text> 
+    
+   </text>
 </TEI>

@@ -8,66 +8,67 @@
    <text type="letter" xml:id="DLCL_CF_E10030">
       <front>
          <fileDesc>
-            <titleStmt>
-               <title xml:lang="it">Canneti a Fiacchi (Perugia, 21 Gennaio 1716)</title>
-               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
-            </titleStmt>
-            <publicationStmt>
-               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
-               <availability>
-                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
-               </availability>
-            </publicationStmt>
-            <seriesStmt>
-               <title type="main">Carteggio Canneti Fiacchi</title>
-               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
-               <biblScope unit="letter">30</biblScope>
-            </seriesStmt>
-            <sourceDesc>
-               <msDesc>
-                  <msIdentifier>
-                     <country key="IT">Italia</country>
-                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
-                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                     <repository></repository>
-                     <collection></collection>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 21 Gennaio 1716)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">30</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
                      <idno></idno>
-                     <altIdentifier>
-                        <idno></idno>
-                     </altIdentifier>
-                  </msIdentifier>
-               </msDesc>
-            </sourceDesc>
-         </fileDesc>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
          <profileDesc>
-            <correspDesc>
-               <correspAction type="sent">
-                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
-                  <date when-iso="1716-01-21"/>
-                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
-               </correspAction>
-               <correspAction type="received">
-                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
-               </correspAction>
-            </correspDesc>
-            <langUsage>
-               <language ident="it"/>
-            </langUsage>
-            <settingDesc>
-               <xi:include href="../../entities/places.xml"/>
-            </settingDesc>
-            <particDesc>
-               <xi:include href="../../entities/people/cited-people.xml"/>
-               <xi:include href="../../entities/people/staff.xml"/>
-               <xi:include href="../../entities/orgs.xml"/>
-            </particDesc>
-         </profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1716-01-21"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
          <revisionDesc status="created">
-            <change when-iso="2024-02-15" who="#DLCL_CF_PS001">creato</change>
-            <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
-            <change when-iso="2024-11-21" who="#DLCL_CF_PS001">stampe</change>
-            <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni riferimenti entità</change>
-         </revisionDesc>
+         <change when-iso="2024-02-15" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-21" who="#DLCL_CF_PS001">stampe</change>
+         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
+         <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni riferimenti entità</change>
+      </revisionDesc>
       </front>
       <body>
          <div type="transcription">
@@ -87,9 +88,9 @@
                La riflessione prudenziale del <persName ref="#DLCL_CF_PC0143">Baruffaldi,</persName> che dice essersi astenuto dal mostrarsi amico di un <rs type="person">Letterato,</rs> 
                che <gap reason="illegible"/>[...] la sua figura in paese (per lui) sospetto, 
                dovea ragionevolmente appagare il <persName ref="#DLCL_CF_PC0056">Signor Sancassani</persName> 
-               dal <persName ref="#DLCL_CF_PC0143">Baruffaldi</persName> nominato nella sua penultima opera, che fu quella delle <bibl type="print" source="#DLCL_CF_BS0116" cert="unknown">Prefiche.</bibl> 
+               dal <persName ref="#DLCL_CF_PC0143">Baruffaldi</persName> nominato nella sua penultima opera, che fu quella delle <bibl type="print" ref="#DLCL_CF_BS0116" cert="unknown">Prefiche.</bibl> 
                Sò che egli mostra non curarsi di aver luogo in quel ditirambo da lui disprezzato. 
-               Ma questa è un’affettazione renduta manifesta dalla passione, che dà a conoscere nella <bibl type="print" source="#DLCL_CF_BS0101">Scanzia XVII</bibl> 
+               Ma questa è un’affettazione renduta manifesta dalla passione, che dà a conoscere nella <bibl type="print" ref="#DLCL_CF_BS0101">Scanzia XVII</bibl> 
                con una puntura <gap reason="illegible"/>[...], ma necessaria, e meritevole di biasimo, e di censura. 
                Se non se ne <gap reason="illegible"/>[...] perché investire quella Poesia? 
                Perché scriver’a me ch’egli <gap reason="illegible"/>[...]? 
@@ -147,23 +148,23 @@
                e conservar così memoria di tante <bibl type="print">Operette</bibl> <gap reason="illegible"/>[...]. 
                Insigni, è faccenda, che merita la sua lode. 
                Il <persName ref="#DLCL_CF_PC0038">Cinelli</persName> ne riportò grandi applausi, anco da più fini <rs type="person">Critici Oltramontani,</rs> 
-               aiutato dal celebratissimo <persName ref="#DLCL_CF_PC0060">Magliabechi</persName> e nel tessere la <bibl type="print" source="#DLCL_CF_BS0011">Biblioteca Volante,</bibl> 
+               aiutato dal celebratissimo <persName ref="#DLCL_CF_PC0060">Magliabechi</persName> e nel tessere la <bibl type="print" ref="#DLCL_CF_BS0011">Biblioteca Volante,</bibl> 
                e nell’<gap reason="illegible"/>[...] per tutta <placeName ref="#DLCL_CF_L0061">Europa</placeName> le lodi. 
                Ancora il buon vecchio <persName ref="#DLCL_CF_PC0242">Carlo Cartari</persName> Avvocato Concistoriale, mio Amico si accinse a questo lavoro, 
                per gli soli <bibl type="religious">Opuscoli</bibl> della <orgName ref="#DLCL_CF_O0041">Libreria</orgName> del <persName ref="#DLCL_CF_PC0243">Cardinale Altieri,</persName> 
-               e ne stampò il primo tometto in 4to con certo titolo di cattivo gusto intitolandolo <bibl type="print" source="#DLCL_CF_BS0117">“Pallade Bambina”</bibl> <gap reason="illegible"/>[...] 
+               e ne stampò il primo tometto in 4to con certo titolo di cattivo gusto intitolandolo <bibl type="print" ref="#DLCL_CF_BS0117">“Pallade Bambina”</bibl> <gap reason="illegible"/>[...] 
                ne ordinasse una Raccolta con metodo, e scelta (lo che non han fatto né <persName ref="#DLCL_CF_PC0038">Cinelli</persName> 
-               né <persName ref="#DLCL_CF_PC0242">Cartari)</persName> occuperebbe un nuovo posto <gap reason="illegible"/>[...] Repubblica Letterata. 
-               <persName ref="#DLCL_CF_PC0038">Cinelli</persName> (e colla penna di lui il <persName ref="#DLCL_CF_PC0060">Magliabechi)</persName> <gap reason="illegible"/>[...] tutta l’Opera. 
+               né <persName ref="#DLCL_CF_PC0242">Cartari</persName>) occuperebbe un nuovo posto <gap reason="illegible"/>[...] Repubblica Letterata. 
+               <persName ref="#DLCL_CF_PC0038">Cinelli</persName> (e colla penna di lui il <persName ref="#DLCL_CF_PC0060">Magliabechi</persName>) <gap reason="illegible"/>[...] tutta l’Opera. 
                Né in ciò dovea seguirne le pedate il <persName ref="#DLCL_CF_PC0056">Sancassiani,</persName> riflettendo all’infelice frutto, 
                che ne ricolse il <persName ref="#DLCL_CF_PC0038">Cinelli</persName> stesso <gap reason="illegible"/>[...] e, 
-               dopo ristampato per mano del <rs type="person">Carnefice</rs> un tomo della <bibl type="print" source="#DLCL_CF_BS0011">Biblioteca sua Volante,</bibl> esiliato, ramingo, mendico, 
+               dopo ristampato per mano del <rs type="person">Carnefice</rs> un tomo della <bibl type="print" ref="#DLCL_CF_BS0011">Biblioteca sua Volante,</bibl> esiliato, ramingo, mendico, 
                e morto in gran povertà in <placeName ref="#DLCL_CF_L0062">Dalmazia.</placeName>
             </p>
             
             <p>
                Vorrei finire di querelarmi de <persName ref="#DLCL_CF_PC0056">Sancassani.</persName> 
-               Eppur bisogna che io mi dolga che di 50 Copie della <bibl type="print" source="#DLCL_CF_BS0118">Notomia dell’acqua</bibl> andate in sue mani 
+               Eppur bisogna che io mi dolga che di 50 Copie della <bibl type="print" ref="#DLCL_CF_BS0118">Notomia dell’acqua</bibl> andate in sue mani 
                io con tutto l’onore della Dedicatoria non ne ho avuto pur’un esemplare. 
                Come posso servirne di due il <persName ref="#DLCL_CF_PC0244">Signor Arisi?</persName> 
                Da questo ho lettera nel presente ordinario. 
@@ -189,15 +190,15 @@
             
             <p>
                Io riceverò volentieri, e con tutta la stima, il giudicio degli <rs type="person">Amici</rs> 
-               sopra l’edizione delle <bibl type="manuscript" source="#DLCL_CF_BM0006">Pistole</bibl> del nostro <persName ref="#DLCL_CF_PC0177">Ambrogio,</persName> 
+               sopra l’edizione delle <bibl type="manuscript" ref="#DLCL_CF_BM0006">Pistole</bibl> del nostro <persName ref="#DLCL_CF_PC0177">Ambrogio,</persName> 
                quando essi formino prima buon gusto di questo genere di erudizione, e poi legghino tutta la Raccolta delle Lettere, 
                e le Annotazioni, e i Prolegomeni; senza queste previe notizie non possono in conto veruno giudicare 
                se l’<bibl type="print">Opera</bibl> per esser’utile all’Istoria sacra, all’istoria Camaldolese, all’Istoria Letteraria, 
                all’istoria de’ Concilii, alla Cronologia; come io tengo per evidente che sarà utilissima; 
                così lo tengono i più eruditi della nostra <placeName ref="#DLCL_CF_L0026">Italia.</placeName> 
                Bisogna aver’occhi per veder i colori, e darne giudizio. 
-               Può <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> far vedere negli <bibl type="print" source="#DLCL_CF_BS0119">atti Bollandiani</bibl> la luce, 
-               che ha dato l’<bibl type="print" source="#DLCL_CF_BS0107">Odeporico</bibl> di <persName ref="#DLCL_CF_PC0177">Ambrogio</persName> alla Vita di <persName ref="#DLCL_CF_PC0254" cert="unknown">Eugenio</persName> 
+               Può <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> far vedere negli <bibl type="print" ref="#DLCL_CF_BS0119">atti Bollandiani</bibl> la luce, 
+               che ha dato l’<bibl type="print" ref="#DLCL_CF_BS0107">Odeporico</bibl> di <persName ref="#DLCL_CF_PC0177">Ambrogio</persName> alla Vita di <persName ref="#DLCL_CF_PC0254" cert="unknown">Eugenio</persName> 
                avendosi unicamente da quell’<bibl type="religious">Opuscolo</bibl> il <gap reason="illegible"/>[...] 
                del ricevimento di questo <rs type="person">Papa</rs> in <placeName ref="#DLCL_CF_L0018">Firenze.</placeName> 
                Ed oh quanto di <gap reason="illegible"/>[...] Generale, e nel nome Camaldolese ciò, 
@@ -229,7 +230,7 @@
                   Mi saluti il caro <persName ref="#DLCL_CF_PC0091">Frate Fausto.</persName> 
                   Mi spiace la morte della <persName ref="#DLCL_CF_PC0247">Signora Anna Fattorini.</persName> 
                   E del <persName ref="#DLCL_CF_PC0016">Padre Abate Pasolini</persName> defunto nulla mi dice? 
-                  Il <bibl type="print" source="#DLCL_CF_BS0109">Tomo XXII del Giornale</bibl> è arrivato?]
+                  Il <bibl type="print" ref="#DLCL_CF_BS0109">Tomo XXII del Giornale</bibl> è arrivato?]
                </p>
             </postscript>
          </div>

@@ -1,0 +1,201 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11043">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20936/manifest">
+      <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21442/full/800,/0/default.jpg"/>
+      <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21443/full/800,/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11043">
+      <front>
+         <fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 28 Settembre 1722)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+            <biblScope unit="letter">43</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
+                     <idno></idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <incipit>Credo che Vostra Paternità abbia finalmente ricevuto il Calendario di...</incipit>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+         <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1722-09-28"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+         <revisionDesc status="created">
+         <change when-iso="2025-12-20" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2025-12-22" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+         <change when-iso="2025-12-31" who="#DLCL_CF_PS001">markup</change>
+      </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E11043_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21442/full/800,/0/default.jpg"/>
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            <p>Godo che 
+               <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> 
+               abbia finalmente ricevuto il 
+               <bibl type="print">Calendario di Santa Giuliana.</bibl> 
+               Intorno al metodo di cotesto da farsi per le 
+               <rs type="person" ref="#">Monache</rs> 
+               di 
+               <orgName ref="#DLCL_CF_O0031">Sant’Andrea,</orgName> 
+               stimo bene che ella si accomodi appunto a quel della 
+               <orgName ref="#DLCL_CF_O0158">Chiesa di Ravenna,</orgName> 
+               cui quelle Religiose sono avvezze. Così è sicura che sarà inteso da loro, e piacerà: altrimenti, usando maggior brevità, o lunghezza, o diverse abbreviature, corre pericolo che non si trovi tutto il gradimento. Lodo che 
+               <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> 
+               aggiunga al Calendario gli officj di 
+               <orgName ref="#DLCL_CF_O0178">San Mattia,</orgName> 
+               e di 
+               <orgName ref="#DLCL_CF_O0058">San Michele di Murano.</orgName> 
+               In tal forma si stabilirà maggiormente l’uso, e il credito del 
+               <bibl type="print">Calendario,</bibl> 
+               con vantaggio dell’Economia oltre di che verrassi ad introdurre l’uniformità nell’officio del 
+               <persName ref="#DLCL_CF_PC0017">Padre San Romualdo</persName> 
+               infer. 3. 
+               <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> 
+               senza veruno scrupolo v’inserisca succintamente i detti officj, nella forma, che avrà osservato praticarsi nel 
+               <bibl type="print">Calendario</bibl> 
+               di 
+               <orgName ref="#DLCL_CF_O0013">Monte Corona.</orgName> 
+               E potrà anche ristringersi, ove può farsi di meno, nel rimanente. Ma crede Ella che io non vi voglia quei del <hi rend="underline"><orgName ref="#DLCL_CF_O0002">Monasterio Fabrianense</orgName></hi>? 
+               Certo ve li voglio. Eccoli. 
+               <hi rend="underline">
+                  <foreign xml:lang="la">Februar. 3. 
+                     <persName ref="#DLCL_CF_PC1021">Blasij Ep. M.</persName> 
+                     Titul. dup. I cl. cum Oct. 7. Translatio 
+                     <persName ref="#DLCL_CF_PC0017">S. P. Romualdi</persName> 
+                     cum Oct. Martius. 13. 
+                     <persName ref="#DLCL_CF_PC1022">Ansovini Ep. Conf.</persName> 
+                     Patroni 
+                     <placeName ref="#DLCL_CF_L0132">Camerini</placeName> 
+                     minus princip. dup. mai. Maius. 18.</foreign></hi>
+                  <foreign xml:lang="la">
+                     <persName ref="#DLCL_CF_PC1023"><hi rend="underline">Venantij</hi>Mart.</persName></foreign>
+               <hi rend="underline">Patroni 
+                  <foreign xml:lang="la">
+                     <placeName ref="#DLCL_CF_L0132">Camerin.</placeName>
+                     dupl. I. clas. 25. 
+                     <persName ref="#DLCL_CF_PC1020">Urbani Pape Mart.</persName> 
+                     Titul. unius ex tribus Abbatijs dup. I. cl. cum Oct. Iun. 24. Credo in Nativ. 
+                     <persName ref="#DLCL_CF_PC1024">S. Io. Bapt.</persName> 
+                     Patroni 
+                     <placeName ref="#DLCL_CF_L0004">Fabrian.,</placeName> 
+                     et in Oct. Octob. 3.a Dominic. Dedic. 
+                     <orgName ref="#DLCL_CF_O0170">Cathedr. Camerini</orgName> 
+                     dup. 2. class. Novembr. 9. Festum SS.mi Salvatoris Tit. Eccl. 
+                     <orgName ref="#DLCL_CF_O0002">Vallis Castri</orgName> 
+                     dup. I. class. cum Oct. 26. 
+                     <orgName ref="#DLCL_CF_O0162">Silvestri Abb.</orgName>
+                     <del rend="overstrike">dup.</del> 
+                     Patron. 
+                     <placeName ref="#DLCL_CF_L0004">Fabrian.</placeName> 
+                     dup. maius.</foreign></hi></p>
+            <pb xml:id="DLCL_CF_E11043_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21443/full/800,/0/default.jpg"/>
+            <p>Benché tutti e tre non siano dell’ottima edizione i Volumi delle 
+               <bibl type="print">Lettere de’ Principi,</bibl> 
+               non è da lasciar la congiuntura di prendergli, tanto meno valutandogli §. A 
+               <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> 
+               rimetto § come per gli altri.</p>
+            <p>I Tomi del 
+               <bibl type="print">Lirano,</bibl> 
+               simili a cotesti della 
+               <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> 
+               che ho io da esitare sono i seguenti: 
+               <hi rend="underline">
+                  <foreign xml:lang="la">
+                     I. </foreign>
+                  <bibl type="print"><foreign xml:lang="la">Genesis. Exodus. Levitic. Numer. Deuteron. Iosue. Iudic. Ruth. Regum 1. 2. 3. 4. Paralipomenon 1. et 2.</foreign></bibl> 
+                  <foreign xml:lang="la">II. </foreign>
+                     <bibl type="print"><foreign xml:lang="la">Esdr. 1. et 2. Tobias. Iudith. Esther. Iob. Proverbia. Ecclesiaste. Cantica Canticorum. Liber Sapientiȩ. Ecclesiastic.</foreign></bibl> 
+                     <foreign xml:lang="la">III. </foreign>
+                        <bibl type="print"><foreign xml:lang="la">Psalterium.</foreign></bibl> 
+                        <foreign xml:lang="la">IV. </foreign>
+                           <bibl type="print"><foreign xml:lang="la">Mattheus, et alij Evangelista</foreign></bibl></hi>. 
+               Prenderei ancora qualche libro buono in cambio per una parte del prezzo, computandogli con agevole proporzionata a quella del valore, in cui si facilita l’esito del 
+               <bibl type="print">Lirano.</bibl></p>
+            <p>Mi consola l’avviso de’ libri arrivati da 
+               <placeName ref="#DLCL_CF_L0010">Padova.</placeName> 
+               Il 
+               <bibl type="print">Lessico</bibl> 
+               del 
+               <persName ref="#DLCL_CF_PC0886">Varchi</persName> 
+               si dia per Messe 20., o 18. ancora. Riceverò con buona occasione il 
+               <bibl type="print">Petrarca.</bibl> 
+               Faccia legare simili l’
+               <bibl type="print">Aminta,</bibl> 
+               e l’
+               <bibl type="print">Alceo.</bibl> 
+               Se trova da vendere il 
+               <bibl type="print">Polifilo,</bibl> 
+               lo dia per 12. paoli.</p>
+            <p>La 
+               <bibl type="print">Bibbia</bibl> 
+               da 
+               <placeName ref="#DLCL_CF_L0013">Ferrara</placeName> 
+               è unica, e giungerà sola. Da 
+               <persName ref="#DLCL_CF_PC0313">Paolino</persName> 
+               potrebbe farsi dar’ una copia ben legata de’ 
+               <bibl type="print">Baccanali,</bibl> 
+               per pagargli la legatura, e rendergli in cambio quella, che verrà da 
+               <placeName ref="#DLCL_CF_L0013">Ferrara,</placeName> 
+               per mandarmela, venendo occasione col 
+               <bibl type="print">Petrarca,</bibl> 
+               e gli altri due Libretti. Un cordialissimo saluto al 
+               <persName ref="#DLCL_CF_PC0873">Padre Calogerà,</persName> 
+               e un altro a [lei] col quale chiudo la lettera, confermandomi.</p>     
+            <closer>
+               <dateline><placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1722-09-28">28. 7bre 1722</date></dateline>
+               <salute>DVPMR</salute>
+               <salute>Pa. Cordialissimo <gap reason="illegible"/></salute>
+               <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,136 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11048">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20941/manifest">
+      <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21450/full/800,/0/default.jpg"/>
+      <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21451/full/800,/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11048">
+      <front>
+         <fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 30 Ottobre 1722)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+            <biblScope unit="letter">48</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
+                     <idno></idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <incipit>Sano, e salvo parte questa mattina per l’Abruzzo il Padre...</incipit>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+         <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1722-10-30"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+         <revisionDesc status="created">
+         <change when-iso="2025-12-21" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2025-12-22" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+         <change when-iso="2025-12-31" who="#DLCL_CF_PS001">markup</change>
+      </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E11048_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21450/full/800,/0/default.jpg"/>
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+            </opener>
+            <p>Sano, e salvo parte questa mattina per l’
+               <placeName ref="#DLCL_CF_L0171">Abruzzo</placeName> 
+               il 
+               <rs type="person" ref="#">Padre Priore.</rs> 
+               Col ritorno di 
+               <persName ref="#DLCL_CF_PC0027">Romualdo</persName> 
+               mando a 
+               <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> 
+               uno straccio di 
+               <bibl type="manuscript">Manoscritto da far rilegare.</bibl> 
+               Ancorche mal’ in arnese, perché contiene delle cose buone, merita che se ne faccia conto. Legato che sia, mi rimandi questo 
+               <bibl type="manuscript">Miscellaneo.</bibl> 
+               La prima carta se fosse possibile, sarebbe bene che si conservasse: ma non mi pare ciò possa riuscire onde penso che sia di maggiore riputazione del 
+               <bibl type="manuscript">Codice</bibl> 
+               levarla affatto: pure a lei, che avrà maggior comodo di considerarla, mi rimetto. Non si scordi di tante altre cose le quali altre volte ho scritto, e massimamente di far compire il 
+               <bibl type="print">Corpo</bibl> 
+               del 
+               <persName ref="#DLCL_CF_PC0530">Pedrusi.</persName> 
+               Ha dieci mesi, anzi dieci mesi, e quasi undici, che in 
+               <placeName ref="#DLCL_CF_L0005">Faenza</placeName> 
+               ne parlai al 
+               <persName ref="#DLCL_CF_PC0529">Signor Conte Vincenzio Piazza,</persName> 
+               per avere i tre Tomi, e in 
+               <placeName ref="#DLCL_CF_L0016">Bagnacavallo</placeName> 
+               al 
+               <persName ref="#DLCL_CF_PC0952">Signor Conte Paolo Biancoli</persName> 
+               per fargli venire da 
+               <placeName ref="#DLCL_CF_L0054">Parma</placeName> 
+               in 
+               <placeName ref="#DLCL_CF_L0063">Romagna.</placeName> 
+               È necessaria più precisa, e affettuosa attenzione. Ho fatte le parti mie.</p>
+            <pb xml:id="DLCL_CF_E11048_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21451/full/800,/0/default.jpg"/>
+            <p>Ieri dal 
+               <rs type="person" ref="#">Padre Lettore</rs> 
+               intesi le querele del 
+               <persName ref="#DLCL_CF_PC0244">Signore Dottor Arisi.</persName> 
+               Sarà adempita la brama del medesimo. Sarà forse torn[ato] da 
+               <placeName ref="#DLCL_CF_L0001">Cremona</placeName> 
+               il 
+               <persName ref="#DLCL_CF_PC0970">Padre Fromond.</persName> 
+               Ha portato nulla per me? L’abbraccio caramente col 
+               <persName ref="#DLCL_CF_PC0090">Padre Don Leandro,</persName> 
+               e la prego 
+               umili<gap reason="illegible"/> 
+               i miei ossequj al suo 
+               <rs type="person" ref="#">Padre Reverendissimo,</rs> 
+               se ancora è costì.</p>
+            <closer>
+               <salute>DVPMR</salute>
+               <dateline><placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1722-10-30">30. Ottobre 17[22].</date></dateline>
+               <salute>Cordialissimo Servo Vero</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

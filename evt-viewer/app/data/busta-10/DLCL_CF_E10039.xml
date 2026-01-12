@@ -10,66 +10,68 @@
    <text type="letter" xml:id="DLCL_CF_E10039">
       <front>
          <fileDesc>
-            <titleStmt>
-               <title xml:lang="it">Canneti a Fiacchi (Perugia, 7 Novembre 1716)</title>
-               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
-            </titleStmt>
-            <publicationStmt>
-               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
-               <availability>
-                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
-               </availability>
-            </publicationStmt>
-            <seriesStmt>
-               <title type="main">Carteggio Canneti Fiacchi</title>
-               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
-               <biblScope unit="letter">39</biblScope>
-            </seriesStmt>
-            <sourceDesc>
-               <msDesc>
-                  <msIdentifier>
-                     <country key="IT">Italia</country>
-                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
-                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                     <repository></repository>
-                     <collection></collection>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 7 Novembre 1716)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">39</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
                      <idno></idno>
-                     <altIdentifier>
-                        <idno></idno>
-                     </altIdentifier>
-                  </msIdentifier>
-               </msDesc>
-            </sourceDesc>
-         </fileDesc>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
          <profileDesc>
-            <correspDesc>
-               <correspAction type="sent">
-                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
-                  <date when-iso="1716-11-07"/>
-                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
-               </correspAction>
-               <correspAction type="received">
-                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
-               </correspAction>
-            </correspDesc>
-            <langUsage>
-               <language ident="it"/>
-            </langUsage>
-            <settingDesc>
-               <xi:include href="../../entities/places.xml"/>
-            </settingDesc>
-            <particDesc>
-               <xi:include href="../../entities/people/cited-people.xml"/>
-               <xi:include href="../../entities/people/staff.xml"/>
-               <xi:include href="../../entities/orgs.xml"/>
-            </particDesc>
-         </profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1716-11-07"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
          <revisionDesc status="created">
-            <change when-iso="2024-03-05" who="#DLCL_CF_PS001">creato</change>
-            <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
-            <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
-            <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
-         </revisionDesc>
+         <change when-iso="2024-03-05" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
+
+      </revisionDesc>
       </front>
       <body>
          <div type="transcription">
@@ -224,13 +226,13 @@
                <bibl type="print"><foreign xml:lang="la">Martyrologium</foreign></bibl> <persName ref="#DLCL_CF_PC0059"><foreign xml:lang="la">Baronij</foreign></persName> in 4 = 
                <bibl type="print">Torto e Dritto</bibl> in 12 = <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0153">Ciceronis</persName></foreign> 
                <bibl type="print"><foreign xml:lang="la">Tusculanae</foreign></bibl> = <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0153">Ciceronis</persName></foreign> 
-               <bibl type="print"><foreign xml:lang="la">de Officijs</foreign></bibl> = <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0298">Cornelius Celsus</persName></foreign> in 16. 
+               <bibl type="print"><foreign xml:lang="la">de Officijs</foreign></bibl>= <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0298">Cornelius Celsus</persName></foreign> in 16. 
                = <persName ref="#DLCL_CF_PC0233">Dante</persName> <bibl type="print">della Volgar Eloquenza</bibl> in 8= 
                <bibl type="print"><foreign xml:lang="la">Lactantius Firmianus</foreign></bibl> in 16 = 
                <bibl type="print"><foreign xml:lang="la">Lettere Facete</foreign></bibl> lib. 1 = <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0025">Petrarcha</persName></foreign> 
                <bibl type="print"><foreign xml:lang="la">De Remedijs utriusque Fortunae</foreign></bibl> = 
                <persName ref="#DLCL_CF_PC0300">Redi</persName> <bibl type="print">Bacco in Toscana</bibl> in 8 = 
-               <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0285">Symmachi</persName></foreign> <bibl type="print"><foreign xml:lang="la">Epistolae</foreign></bibl> = 
+               <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0285">Symmachi</persName></foreign> <bibl type="print"><foreign xml:lang="la">Epistolae</foreign></bibl>= 
                <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0301">Epictetus</persName></foreign> = 
                Quanto al prezzo, rimetto l’arbitrio al <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina.</persName> 
                E più <bibl type="print">Arcadi le Vite</bibl> parte 1 sciolta baiocchi 50 <bibl type="print"><foreign xml:lang="la">Sallustius ad usum Delphini</foreign></bibl> 

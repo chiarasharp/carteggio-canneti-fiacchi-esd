@@ -1,0 +1,203 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11049">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20942/manifest">
+      <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21452/full/800,/0/default.jpg"/>
+      <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21453/full/800,/0/default.jpg"/>
+      <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21454/full/800,/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11049">
+      <front>
+         <fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 01 Novembre 1722)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+            <biblScope unit="letter">49</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
+                     <idno></idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <incipit>Da erudito, e valente Bibliotecario Vostra Paternità si è bravamente...</incipit>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+         <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1722-11-01"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+         <revisionDesc status="created">
+         <change when-iso="2025-12-22" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2025-12-22" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+         <change when-iso="2025-12-31" who="#DLCL_CF_PS001">markup</change>
+      </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E11049_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21452/full/800,/0/default.jpg"/>
+                        <opener>
+               <salute><persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Amatissimo</salute>
+            </opener>
+            <p>Da erudito, e valente Bibliotecario 
+               <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> 
+               si è bravamente portata nel ristretto giudicioso delle notizie di 
+               <persName ref="#DLCL_CF_PC0969">Uguccione dalla Fagiuola.</persName> 
+               Copiosissime grazie ne rendo al suo amore. 
+               Io pensava che niuno degli 
+               <rs type="person" ref="#">Autori,</rs> 
+               i quali stanno presso di me, ne parlasse: ma ho poi trovato farsene menzione da 
+               <persName ref="#DLCL_CF_PC0975">Raffaello Volterrano</persName> 
+               ne’ 
+               <bibl type="print">Commentarj,</bibl> 
+               da 
+               <persName ref="#DLCL_CF_PC0630">Pio Secondo</persName> 
+               nel 
+               <bibl type="print">Compendio delle Storie del Biondo,</bibl> 
+               da 
+               <persName ref="#DLCL_CF_PC0976">Giugurta Tommasi</persName> 
+               nelle 
+               <bibl type="print">Istorie di Siena,</bibl> 
+               e nel Poema Istorico intitolato 
+               
+               <bibl type="manuscript"><foreign xml:lang="la">de Proęlijs Tuscię</foreign>,</bibl> 
+               di 
+               <persName ref="#DLCL_CF_PC0977">Ranieri Granchi</persName> 
+               Manoscritto antico, appresso di me. Tutta la fatica mia or consiste in estrarre da tanta copia quel poco, ch’è necessario al mio intento; e deve esser poco. Nuovamente le rendo mille grazie di tutto cuore, e mi rallegro del di lei valore.</p>
+            <p>Se svanì l’opportunità di mandarmi il 
+               <bibl type="manuscript">rotolo,</bibl> 
+               e i 
+               <bibl type="print">libretti</bibl> 
+               del 
+               <persName ref="#DLCL_CF_PC0025">Petrarca,</persName> 
+               e delli 
+               <bibl type="print">Drammi Pastorale,</bibl> 
+               e 
+               <bibl type="print">Pescatorio</bibl> 
+               stampati in 
+               <placeName ref="#DLCL_CF_L0010">Padova,</placeName> 
+               ora ecco rinvende l’occasione. Me li mandi sicuri dalle piogge, e con essi il 
+               <bibl type="manuscript">Manoscritto Miscellaneo rilegato,</bibl> 
+               con altro se hà da trasmettermi, v.g. i 
+               <bibl type="print">Discorsi Politici</bibl> 
+               del 
+               <persName ref="#DLCL_CF_PC0962">Paruta,</persName> 
+               se non son di troppo peso, ed ingombro, potendo la spedizione di questo differirsi ad altro tempo per prima occasione. Così a me spiace dover prolungare</p>
+            <pb xml:id="DLCL_CF_E11049_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21453/full/800,/0/default.jpg"/>
+            <p>il contento a chi aspetta costì le Colonnette. Io non manco di sollecitare: ma la persona, che le tiene ha più contrapesi, che la rendono più del solito tarda; e per altro convien maneggiarla delicatamente, e con gelosia di non guastar la buona intenzione di donare le Colonnette. Si concepisce che costì non vi sia disegno di far le cose a dovere, e non si voglia far l’onore, che meritano, alle Colonnette co’ i capitelli, e basi di rame dorato.</p>
+            <p>Se mai fosse finita la stampa del 
+               <bibl type="print">Calendario,</bibl> 
+               me ne mandi almeno una copia. Quanto alle querele per gli anni passati, il 
+               <rs type="person" ref="#">Padre Camerlengo mio</rs> 
+               è pronto a cassarle. Intanto ha scritto a 
+               <persName ref="#DLCL_CF_PC0971">Frate Marino</persName> 
+               per sapere come và il conto del di lui credito, il quale a me par di avere bonificato alla sua partenza; ma in oggi precisamente non me ne ricordo; né io ne feci memoria, pensando di dover fra pochi giorni aggiustare i conti. Questo 
+               <persName ref="#DLCL_CF_PC0971">Padre Bolognetti</persName> 
+               disse allora avere scritto a cotesto 
+               <persName ref="#DLCL_CF_PC0528" cert="unknown">Padre Binda Camerlengo,</persName> 
+               senza averne risposta. Intanto ancor’io vi sono di mezzo. Di grazia mi riversca il 
+               <rs type="person" ref="#">Padre Camerlengo suo,</rs> 
+               e gli dica che ci dia lume del credito suo più chiaramente, e del debito a 
+               <persName ref="#DLCL_CF_PC0704">Frate Marino,</persName> 
+               il quale pur si doleva di esser privo di risposte. Non nega il 
+               <rs type="person" ref="#">mio Camerlengo</rs> 
+               di aver avuto i 
+               <bibl type="print">Calendarj,</bibl> 
+               né ricusa pagargli: anzi tiene il danaro a</p>
+            <pb xml:id="DLCL_CF_E11049_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21454/full/800,/0/default.jpg"/>
+            <p>parte di quei dell’anno 1721. prossimo passato.</p>
+            <p>Il 
+               <persName ref="#DLCL_CF_PC0193">Reverendissimo Amigoni</persName> 
+               mi scrive che aveva pronti i libri consaputi da mandare 
+               <hi rend="underline">
+                  al 
+                  <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Gran Bibliotecario</rs> 
+                  di 
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName></hi>. 
+               E il 
+               <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Gran Bibliotecario</rs> 
+               li riceva, e paghi, e tenga conto. Suppongo che le Messe in 
+               <placeName ref="#DLCL_CF_L0005">Faenza</placeName> 
+               si dicano, e sia stato riscosso il danaro. Aspetto nuove de contratti posti in bucato a 
+               <placeName ref="#DLCL_CF_L0007">Bologna,</placeName> 
+               e raccomandati a quel 
+               <rs type="person" ref="#">Padre Priore</rs> 
+               contra i pericoli della lutricità, e fallacia di 
+               <persName ref="#DLCL_CF_PC0004">Marozzi.</persName> 
+               Dell’affare col 
+               <persName ref="#DLCL_CF_PC0625">Padre Reggente Pugnetti</persName> 
+               Ella non vuol saperne eh? Mi par vederla tirarsi addietro, quando Ella dovrebbe muoversi avanti. Almeno colla sua dolcezza gli cavi dalle mani la nota de’ Manoscritti e di altri libri, che baratterebbe con libri segnati nel 
+               <bibl type="print">Catalogo</bibl> 
+               di 
+               <persName ref="#DLCL_CF_PC0216">Fontanini.</persName> 
+               E noi manderemo la nota di questi, che abbiamo duplicati. Costì ancor ve ne sono, e tra gli altri il 
+               <bibl type="print">Petrarca</bibl> 
+               del 
+               <persName ref="#DLCL_CF_PC1025">Castelvetro,</persName> 
+               e quì ne hò io pure parecchi. Potrebbesi ancora esitar per danaro cotesta 
+               <bibl type="print">Difesa di Dante</bibl> 
+               del 
+               <persName ref="#DLCL_CF_PC0978">Mazzoni,</persName> 
+               essendo migliore, quella, che hò qui meco.</p>
+            <p>Aspetto da 
+               <placeName ref="#DLCL_CF_L0065">Amsterdam</placeName> 
+               la 2.a parte degli 
+               <bibl type="print">Annali Tipografici</bibl> 
+               del 
+               <persName ref="#DLCL_CF_PC0901">Maittaire.</persName> 
+               Le 
+               <rs type="person" ref="#">Britanniche Maestà</rs> 
+               hanno onorata la Biblioteca? Il 
+               <rs type="person" ref="#">Bibliotecario</rs> 
+               in tal caso era tenuto far loro un’orazione latina per ricevere i 
+               <rs type="person" ref="#">Regnanti.</rs> 
+               Oh questo è altro che il ballo dell’oche. La riverisco e sono.</p>
+            <closer>
+               <salute>DVPMR</salute>
+               <dateline><placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1722-11-01">primo Novembre 1722.</date></dateline>
+               <salute>Cordialissimo Servo Vero</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,98 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11040">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20933/manifest">
+    <graphic n="1r" url="https://classense.unibo.it/files/large/20933/6502.jpg"/>
+    <graphic n="1v" url="https://classense.unibo.it/files/large/20933/6503.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11040">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 17 Settembre 1722)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">40</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1722-09-17"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-30" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+
+    </revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb n="1 - Recto" xml:id="DLCL_CF_E11040_C1R_L" facs="https://www.cdc.classense.ra.it/iiif/2/21435/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+        <p>Iersera ricevei la Scanzia Cinelliana fatta ristampare dal nostro Signore Sancassani, il quale seguita a mirabilmente imitare e contraffare il primo Autore, nelle aggiunte, che vi ha appiccate. Averebbe mostrata prudenza, se astenuto si fosse dal rammemorare l’Opuscolo contra Magliabechi, del quale è spediente se ne perda la memoria. È raro, ed a pochissimi noto; ed io ebbi a caso la copia, lasciata in cotesta Libreria: il farne più menzione non serve che a ravvivare il vituperio. Comunque operi il cervello del Sancassani, ringrazio VP, che mi ha favorito.</p>
+        <p>Un gran favore mi han fatto i Moderni Giornalisti, facendo autore del Libro genealogico di sua casa il Signore Filippo Meniconi. Così mi han liberato dal render conto delle tante aggiunte, con cui egli accrebbe il libro, e delle tante alterazioni di ortografia. Ma se dicono sempre il vero nella maniera, che han fatto nel riferire quel libro, e l’Autore, poco meritano di fede.</p>
+        <p>Tempo fa mandai due esemplari de Il Polifilo libro rarissimo, perché si tenesse l’intiero, tra i nostri libri, e l’altro, compito che fosse colla penna si esitasse a prezzo competente. Ultimamente poi trasmisi due Copie di diverse edizioni dell’Opera del Balbi, per trattenere l’intiero, e vendere il solo Opuscolo de Coronatione (ch’è proibito). Ricordisi dell’uno e dell’altro.</p>
+        <pb n="1 - Verso" xml:id="DLCL_CF_E11040_C1V_L" facs="https://www.cdc.classense.ra.it/iiif/2/21436/full/800,/0/default.jpg"/>
+        <p>Stampate che siano le nuove lezioni di S. Isidoro in 12., me le [...] di con alcune ancora in 4to.</p>
+        <p>Il Signore Baruffaldi mi scrive aver costà mandate varie copie de’ suoi Baccanali, tra le quali giurerebbe esservene stata una per me. Credo che abbia preso errore. Gli rescrivo che davero la mandi a lei, con una certa Bibbia antica: anzi ne manderà due copie, dovendo l’altra essere per questo Monsignor Ercolani. Una ne faccia legar per me e la mandi. </p>
+        <closer>
+          <salute>Resto confermandomi di tutto cuore.</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName><date when-iso="1721-09-17">17 settembre 1722.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Cordialissimo Servitore e Padre nel Signore Affettuosissimo</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">D. Pietro Canneti</persName>
+          </signed>
+        </closer>
+        <postscript>
+          <p>Io tutto lasciai disposto per avere i tre Tomi del Museo Farn[...] che mancano. VP non lasci d’incessantemente operare per avergli da Parma: e se il mezzo del Singore Co. Paolo Bianchi non serve, si muti. Se l’intenda col Padre Lettore Collina, che riverisco, e veda sollecitamente avergli dal Signore Co. Vincenzo Piazza, che promise consegnargli.</p>
+        </postscript>
+        <closer>
+          <salute>Cordialissimo Servo Vero</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">D. Pietro Canneti</persName>
+          </signed>
+        </closer>
+      </div>
+    </body>
+   </text>
+</TEI>

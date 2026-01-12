@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10089">
    <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20721/manifest">
       <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21217/full/800,/0/default.jpg"/>
@@ -7,7 +6,8 @@
       <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/25109/full/800,/0/default.jpg"/>
    </facsimile>
    <text type="letter" xml:id="DLCL_CF_E10089">
-      <front><fileDesc>
+      <front>
+         <fileDesc>
          <titleStmt>
             <title xml:lang="it">Canneti a Fiacchi (Perugia, 6 Dicembre 1718)</title>
             <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
@@ -29,17 +29,17 @@
                   <country key="IT">Italia</country>
                   <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
                   <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                  <repository/>
-                  <collection/>
-                  <idno/>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
                   <altIdentifier>
-                     <idno/>
+                     <idno></idno>
                   </altIdentifier>
                </msIdentifier>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
+         <profileDesc>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
@@ -62,13 +62,15 @@
             <xi:include href="../../entities/orgs.xml"/>
          </particDesc>
       </profileDesc>
-      <revisionDesc status="created">
+         <revisionDesc status="created">
          <change when-iso="2024-07-16" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2024-09-16" who="#DLCL_CF_PS001">correzioni</change>
          <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
          <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni riferimenti entità</change>
       </revisionDesc>
-   </front><body>
+      </front>
+      <body>
          <div type="transcription">
             <pb xml:id="DLCL_CF_E10089_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21217/full/800,/0/default.jpg"/>
             
@@ -91,7 +93,7 @@
                <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0647">Nicolai Perotti</persName> 
                Rudimenta Grammaticae <placeName ref="#DLCL_CF_L0008">Romae</placeName> 1474. fol.</foreign>”, 
                che io penso sia la prima edizione di tal’opera, ignota a’ <rs type="person">Giornalisti</rs> di <placeName ref="#DLCL_CF_L0024">Venezia</placeName> [XIII pag. 467]. 
-               Il nostro <bibl type="print">Plinio</bibl> [1472](che mi comprò il buon <persName ref="#DLCL_CF_PC0034">Dottor Veratti)</persName> di quale stampa è? 
+               Il nostro <bibl type="print">Plinio</bibl> [1472](che mi comprò il buon <persName ref="#DLCL_CF_PC0034">Dottor Veratti</persName>) di quale stampa è? 
                Ho ancora alle mani un <bibl type="print">Aulio Gellio,</bibl> di <placeName ref="#DLCL_CF_L0125">Brescia</placeName> 
                1485 per <persName ref="#DLCL_CF_PC0699">Boninum de Boninis</persName> fol. 
                Ma questi tra i libri non si avranno per meno di cinque scudi. 

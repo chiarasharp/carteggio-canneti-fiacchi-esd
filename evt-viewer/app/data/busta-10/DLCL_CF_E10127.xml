@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10127">
-    <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20759/manifest">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20759/manifest">
         <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21310/full/800,/0/default.jpg"/>
         <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21311/full/800,/0/default.jpg"/>
         <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21312/full/800,/0/default.jpg"/>
         <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/21313/full/800,/0/default.jpg"/>
     </facsimile>
-    <text type="letter" xml:id="DLCL_CF_E10127">
-        <front><fileDesc>
+   <text type="letter" xml:id="DLCL_CF_E10127">
+      <front>
+         <fileDesc>
             <titleStmt>
                 <title xml:lang="it">Canneti a Fiacchi (Fabriano, 27 Settembre 1720)</title>
                 <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
@@ -29,17 +29,17 @@
                         <country key="IT">Italia</country>
                         <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
                         <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                        <repository/>
-                        <collection/>
-                        <idno/>
+                        <repository></repository>
+                        <collection></collection>
+                        <idno></idno>
                         <altIdentifier>
-                            <idno/>
+                            <idno></idno>
                         </altIdentifier>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
+         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
@@ -62,13 +62,15 @@
                 <xi:include href="../../entities/orgs.xml"/>
             </particDesc>
         </profileDesc>
-        <revisionDesc status="created">
+         <revisionDesc status="created">
             <change when-iso="2024-09-03" who="#DLCL_CF_PS001">creato</change>
             <change when-iso="2024-09-19" who="#DLCL_CF_PS001">correzioni</change>
             <change when-iso="2024-11-24" who="#DLCL_CF_PS001">correzioni</change>
-            <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni riferimenti entità</change>
+            <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
+
         </revisionDesc>
-    </front><body>
+      </front>
+      <body>
             <div type="transcription">
                 <pb xml:id="DLCL_CF_E10127_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21310/full/800,/0/default.jpg"/>
                 
@@ -117,7 +119,7 @@
                 
                 <p>
                     Il <persName ref="#DLCL_CF_PC0232">Signor Boccolini</persName> desidera sapere se ne’ <bibl type="print">due Tometti della Cronaca Ascolana</bibl> 
-                    siavi menzione d’altri Letterati, oltre <hi rend="underline">allo povero <persName>Cicco.</persName></hi> 
+                    siavi menzione d’altri Letterati, oltre <hi rend="underline">allo povero <persName>Cicco</persName></hi>. 
                     Vorrebbe altresì che ne’ Versi Latini Manoscritti: in 8 <del rend="overstrike">di t</del> <bibl type="manuscript"><hi rend="underline">Tidei Elpidiensis</hi>,</bibl> 
                     vi sia cosa, che dia notizia dell’Autore, e della sua Vita. 
                     Quel <persName ref="#DLCL_CF_PC0778">Tideo da S. Elpidio</persName> si comprende con soda, 
@@ -165,7 +167,7 @@
                 <p>
                     Mi saluti caramente il <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli:</persName> lo faccia guarire, se non è guarito: e si guardi per sé dall’ammalarsi. 
                     Non ha Ella testa di complessione capace a resistere alla fatica dello scrivere; e non l’ho io. 
-                    Se ne guardi, perché si rovinerà: e per volere scriver troppo, <del rend="overstrike">no</del> si ridurrà a passare mesi e mesi senza potere scrivere nulla. 
+                    Se ne guardi, perché si rovinerà: e per volere scriver troppo, <del rend="overstrike">no </del>si ridurrà a passare mesi e mesi senza potere scrivere nulla. 
                     Questi son guai, che ho provati, e provo di quando in quando. 
                     In quest’anno non ho potuto applicare. 
                     La <bibl type="manuscript">copia dell’Epistole Ambrosiane</bibl> si accostava al fine; quando mi è mancato il <rs type="person">Pretino Copista,</rs> 
@@ -204,5 +206,5 @@
 
             </div>
         </body>
-    </text>
+   </text>
 </TEI>

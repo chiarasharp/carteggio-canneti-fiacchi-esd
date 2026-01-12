@@ -10,66 +10,68 @@
    <text type="letter" xml:id="DLCL_CF_E10046">
       <front>
          <fileDesc>
-            <titleStmt>
-               <title xml:lang="it">Canneti a Fiacchi (Perugia, 22 Dicembre 1716)</title>
-               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
-            </titleStmt>
-            <publicationStmt>
-               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
-               <availability>
-                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
-               </availability>
-            </publicationStmt>
-            <seriesStmt>
-               <title type="main">Carteggio Canneti Fiacchi</title>
-               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
-               <biblScope unit="letter">46</biblScope>
-            </seriesStmt>
-            <sourceDesc>
-               <msDesc>
-                  <msIdentifier>
-                     <country key="IT">Italia</country>
-                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
-                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                     <repository></repository>
-                     <collection></collection>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 22 Dicembre 1716)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">46</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
                      <idno></idno>
-                     <altIdentifier>
-                        <idno></idno>
-                     </altIdentifier>
-                  </msIdentifier>
-               </msDesc>
-            </sourceDesc>
-         </fileDesc>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
          <profileDesc>
-            <correspDesc>
-               <correspAction type="sent">
-                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
-                  <date when-iso="1716-12-22"/>
-                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
-               </correspAction>
-               <correspAction type="received">
-                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
-               </correspAction>
-            </correspDesc>
-            <langUsage>
-               <language ident="it"/>
-            </langUsage>
-            <settingDesc>
-               <xi:include href="../../entities/places.xml"/>
-            </settingDesc>
-            <particDesc>
-               <xi:include href="../../entities/people/cited-people.xml"/>
-               <xi:include href="../../entities/people/staff.xml"/>
-               <xi:include href="../../entities/orgs.xml"/>
-            </particDesc>
-         </profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1716-12-22"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
          <revisionDesc status="created">
-            <change when-iso="2024-04-04" who="#DLCL_CF_PS001">creato</change>
-            <change when-iso="2024-09-05" who="#DLCL_CF_PS001">correzioni</change>
-            <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
-            <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
-         </revisionDesc>
+         <change when-iso="2024-04-04" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-05" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
+
+      </revisionDesc>
       </front>
       <body>
          <div type="transcription">
@@ -173,7 +175,7 @@
                <persName ref="#DLCL_CF_PC0361">Ammiano Marcellino</persName> <bibl type="print">libro 14</bibl> 
                <hi rend="underline"><foreign xml:lang="la">Matronae complures opertis capitibus, et basternis per latera Civitatis cuncta discurrunt</foreign></hi>. 
                E <persName ref="#DLCL_CF_PC0362">San Girolamo</persName> nella <bibl type="print">lettera 22</bibl> ad <persName ref="#DLCL_CF_PC0363">Eustochio</persName> 
-               <hi rend="underline"><bibl type="print"><foreign xml:lang="la">de Custodia Virginitatis</foreign>:</bibl></hi> 
+               <hi rend="underline"><bibl type="print"><foreign xml:lang="la">de Custodia Virginitatis</foreign></bibl></hi>: 
                <hi rend="underline"><foreign xml:lang="la">Praecedit caveas Basternarum ordo semivirorum</foreign></hi> 
                intendendo per <hi rend="underline"><foreign xml:lang="la">caveas</foreign></hi> la parte di dentro delle basterne, come ora diressimo noi delle carrozze. 
                Sopra il qual luogo di <persName ref="#DLCL_CF_PC0362">San Girolamo</persName> i Dottissimi <rs type="person">Monaci</rs> 
@@ -184,7 +186,7 @@
                Che da due animali fosse portata la basterna ce lo ridice <persName ref="#DLCL_CF_PC0364">Sant’Isidoro</persName> <bibl type="print">libro 20. Origines</bibl> carta 12, 
                e perciò <persName ref="#DLCL_CF_PC0172">Santo Agostino</persName> <bibl type="print">epistola 116</bibl> 
                adoperò a spiegarne il moto, il verbo <hi rend="underline"><foreign xml:lang="la">veho</foreign></hi>. 
-               Finalmente un antico <hi rend="underline">Epigramma <bibl type="print">libro 4. Epigr.</bibl></hi> 
+               Finalmente un antico <hi rend="underline">Epigramma <bibl type="print">libro 4. Epigr</bibl></hi>. 
             </p>
             
             <pb xml:id="DLCL_CF_E10046_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21094/full/800,/0/default.jpg"/>
@@ -209,7 +211,8 @@
                <persName ref="#DLCL_CF_PC0366">Gregorius Turonensis</persName> <bibl type="print">Libro 3. Istoria capitolo 16. 26</bibl> 
                <persName ref="#DLCL_CF_PC0021">Ughelli</persName> <bibl type="print">Tomo 1. parte 2, pagina 200.</bibl> 
                <persName ref="#DLCL_CF_PC0367">Rosvveid</persName> alle <bibl type="print">Vite de’ Padri d’Oriente,</bibl> 
-               ove <hi rend="underline"><foreign xml:lang="la">de Basternis multa</foreign></hi>, e lo <persName ref="#DLCL_CF_PC0368">Scheffero</persName> <bibl type="print"><foreign xml:lang="la">De re vehiculari</foreign>.</bibl> 
+               ove <hi rend="underline"><foreign xml:lang="la">de Basternis multa</foreign></hi>, 
+               e lo <persName ref="#DLCL_CF_PC0368">Scheffero</persName> <bibl type="print"><foreign xml:lang="la">De re vehiculari</foreign>.</bibl> 
                Così sù due piedi, e in somma fretta concludo, e penso che fosse uno strumento similissimo alla Lettica de’ nostri tempi, 
                a distinzione della lettica degli antichi, la qual portata era dagli uomini, 
                come si portano in oggi le seggette in <placeName ref="#DLCL_CF_L0082">Napoli,</placeName> e in <placeName ref="#DLCL_CF_L0083">Genova.</placeName> 
@@ -275,7 +278,7 @@
                <persName ref="#DLCL_CF_PC0022">Du Cange</persName> Lo stesso <persName ref="#DLCL_CF_PC0245">San Gregorio</persName> <bibl type="print">libro 4 epistola 33.</bibl> 
                <hi rend="underline"><foreign xml:lang="la">In <placeName ref="#DLCL_CF_L0056">Sicilia</placeName> autem Insula Stephanus quidam marinarum partium Chartularius tanta praeiudicia, tantasque oppressiones operari dicitur, invadendo loca singulorum, atque sine dictione causarum per possessiones, ac domos titulos ponendo</foreign></hi>. 
                <persName ref="#DLCL_CF_PC0350" cert="unknown">Adone</persName> nel <bibl type="print">Martitologio 29.</bibl> Agost. cit. dal <persName ref="#DLCL_CF_PC0022">Du Cange</persName> 
-               (e forse parlando di <persName ref="#DLCL_CF_PC0370">Santa Sabina)</persName> <foreign xml:lang="la">Omnes</foreign> 
+               (e forse parlando di <persName ref="#DLCL_CF_PC0370">Santa Sabina</persName>) <foreign xml:lang="la">Omnes</foreign> 
             </p>
             
             <pb xml:id="DLCL_CF_E10046_L_C3R" n="3 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/24823/full/800,/0/default.jpg"/>
@@ -319,7 +322,7 @@
                <salute>Resto di vero cuore confermandomi.</salute> 
                <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName></dateline> 
                <salute>DVPMR.</salute> 
-               <dateline><date when-iso="1716-12-22">22 dicembre 1716</date>.</dateline> 
+               <dateline><date when-iso="1716-12-22">22 dicembre 1716.</date></dateline> 
                <salute>Affettuosissimo Servitore e Cordialissimo Padre nel Signore</salute> 
                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
             </closer>

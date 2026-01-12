@@ -1,0 +1,148 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11055">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20948/manifest">
+      <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21467/full/800,/0/default.jpg"/>
+      <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21468/full/800,/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11055">
+      <front>
+         <fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 27 Dicembre 1722)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+            <biblScope unit="letter">55</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                   <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
+                     <idno></idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <incipit>L’Antivigilia del Santo Natale consolò l’aspettazione mia con l’arrivo dell’involto...</incipit>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+         <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1722-12-27"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+         <revisionDesc status="created">
+         <change when-iso="2025-12-22" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2025-12-28" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+         <change when-iso="2025-12-31" who="#DLCL_CF_PS001">markup</change>
+      </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E11055_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21467/full/800,/0/default.jpg"/>
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+            </opener>
+            <p>L’Antivigilia del Santo Natale consolò l’aspettazione mia con l’arrivo dell’involto spedito dalla diligenza del degnissimo 
+               <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Bibliotecario.</rs> 
+               Tutto quel, ch’eravi dentro, molto mi piacque; i due Tometti di 
+               <placeName ref="#DLCL_CF_L0010">Padova,</placeName> 
+               al solito bellissimi, 
+               <bibl type="print">Le Memorie Sacre</bibl> 
+               del 
+               <persName ref="#DLCL_CF_PC0205">Fabri</persName> 
+               ben conservate; il primo volume del 
+               <bibl type="print">Gran Corpo</bibl> 
+               del 
+               <persName ref="#DLCL_CF_PC0979">Tasso</persName> 
+               veramente meraviglioso; il cencioso 
+               <bibl type="manuscript">Miscellaneo Manoscritto</bibl> 
+               in abito vescovile rivestito; l’altro 
+               <bibl type="manuscript">Manoscritto in pergamena</bibl> 
+               venuto a ricondurre l’altro 
+               <bibl type="manuscript">Codice Acefalo,</bibl> 
+               ch’era venuto innanzi; e finalmente i 
+               <bibl type="print">Baccanali Ferraresi.</bibl> 
+               Ringrazio nuovamente l’attenzione di 
+               <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità.</rs></p>
+            <p>Avrà osservata nel 
+               <bibl type="print">Petrarca</bibl> 
+               la serie dell’edizioni. Ve ne manca una, che ho io del 1473. di 
+               <placeName ref="#DLCL_CF_L0008">Roma</placeName> 
+               appresso 
+               <persName ref="#DLCL_CF_PC0980">Giovanni Filippo de Lignamine</persName> 
+               Nobile Messinese. Meriterebbono d’essere anco mentovati due 
+               <bibl type="manuscript">manuscritti in cartapecora,</bibl> 
+               che stanno in mie mani. |1503. 8.| Ho ancora la 
+               <bibl type="print">rinomata edizione</bibl> 
+               di 
+               <placeName ref="#DLCL_CF_L0048">Fano,</placeName> 
+               colle sue particolari variazioni.</p>
+            <p>Ritornerà il 
+               <bibl type="print">Paruta,</bibl> 
+               dopo che avrà colla penna del 
+               <rs type="person" ref="#">Padre Lettore</rs> 
+               lasciato in copia più bello il suo frontispizio, per compire un Tomo per altro intiero di margine assai più grande.</p>
+            <p>Faccia aggiustare i conti dal 
+               <rs type="person" ref="#">Padre Lettore</rs> 
+               con dargli s. 3:90; e ritenersi però il 
+               <bibl type="print">Filippo,</bibl> 
+               prezzo del 
+               <bibl type="print">Fabri.</bibl></p>
+            <pb xml:id="DLCL_CF_E11055_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21468/full/800,/0/default.jpg"/>
+            <p>Desidero distinta notizia del 
+               <bibl type="print">Fior di Virtù,</bibl> 
+               ch’è in 
+               <orgName ref="#DLCL_CF_O0001">cotesta Libreria.</orgName> 
+               La stampa, la figura, le parole del principio, e del fine.</p>
+            <p>Con quest’ordinario abbiamo la morte di 
+               <rs type="person" ref="#">Monsignor Elemosiniere</rs> 
+               Fratello del nostro 
+               <persName ref="#DLCL_CF_PC0178">Padre Abate Ferranti.</persName> 
+               Pensi quanto deve esser questi afflitto. L’amor’ era tra loro, più che con l’altro Fratello, stretto, e teneva assai. Al 
+               <persName ref="#DLCL_CF_PC0730">Padre Don Angelo</persName> 
+               i miei cordiali rispetti. E di tutto cuore resto.</p>
+            <closer>
+               <salute>DVPMR</salute>
+               <dateline><placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1722-12-27">27. Xbre 1722.</date></dateline>
+               <salute>Parzmo Cordialissimo Servitore</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

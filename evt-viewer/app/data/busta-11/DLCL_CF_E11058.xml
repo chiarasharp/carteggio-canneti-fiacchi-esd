@@ -1,0 +1,124 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11058">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20951/manifest">
+      <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21474/full/800,/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11058">
+      <front>
+         <fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 25 Gennaio 1723)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+            <biblScope unit="letter">58</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+               <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
+                     <idno></idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <incipit>Dalla Vita di Santa Francesca Romana, che sarà nel Bollando...</incipit>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+         <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1723-01-25"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+         <revisionDesc status="created">
+         <change when-iso="2025-12-22" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2025-12-22" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+         <change when-iso="2025-12-31" who="#DLCL_CF_PS001">markup</change>
+      </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E11058_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21474/full/800,/0/default.jpg"/>
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+            </opener>
+            <p>Dalla 
+               <bibl type="print">Vita di Santa Francesca Romana,</bibl> 
+               che sarà nel 
+               <persName ref="#DLCL_CF_PC0562">Bollando,</persName> 
+               mi bisogna avere un passo, cioè di una visione concernente le turbolenze di 
+               <placeName ref="#DLCL_CF_L0008">Roma,</placeName> 
+               e di 
+               <persName ref="#DLCL_CF_PC0254">Eugenio IIII.,</persName> 
+               nella quale fu comandato alla 
+               <rs type="person" ref="#DLCL_CF_PC0987">Santa</rs> 
+               che parlasse al 
+               <rs type="person" ref="#DLCL_CF_PC0254">Papa,</rs> 
+               e distintamente lo avvertisse aver’ umiltà. Prego 
+               <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> 
+               trascriverlo, notando l’
+               <rs type="person" ref="#">Autor degli Atti,</rs> 
+               e il capo, o paragrafo, o numero.</p>
+            <p>Io tengo necessità del libro di 
+               <persName ref="#DLCL_CF_PC0988">Angelo Decembio</persName> 
+               intitolato 
+               <hi rend="underline"><bibl type="print"><foreign xml:lang="la">Politię Litterarię Libri VII.</foreign></bibl></hi> 
+               ch’è stampato in foglio, ed è anco in 8.vo. Ella faccia cercarlo, e prenderlo o in 
+               <placeName ref="#DLCL_CF_L0024">Venezia,</placeName> 
+               o in 
+               <placeName ref="#DLCL_CF_L0007">Bologna</placeName> 
+               trà libri vecchi. Gliel raccomando; e con tutto ‘l cuore in fretta mi confermo.</p>
+            
+            <closer>
+               <dateline><placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1723-01-25">25. Gennaio 1723.</date></dateline>
+               <salute>DVPMR</salute>
+            </closer>
+            
+            <postscript>
+               <p>pag. x95. ed. 2.</p>
+               <p>x143. ed. 2.</p>
+               <p>x201. ed. 1.</p>
+            </postscript>
+            
+            <closer>  
+               <salute>Cordialissimo Servitore Affezionatissimo</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

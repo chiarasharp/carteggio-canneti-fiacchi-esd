@@ -9,78 +9,80 @@
       <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21168/full/800,/0/default.jpg"/>
       <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/24768/full/800,/0/default.jpg"/>
    </facsimile>
-   <text>  
+   <text>
+      
       <group>
          <text type="letter" xml:id="DLCL_CF_E10067_L">
-            <front>
-               <fileDesc>
-                  <titleStmt>
-                     <title xml:lang="it">Canneti a Fiacchi (31 Gennaio/1 Febbraio 1718)</title>
-                     <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
-                  </titleStmt>
-                  <publicationStmt>
-                     <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
-                     <availability>
-                        <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
-                     </availability>
-                  </publicationStmt>
-                  <seriesStmt>
-                     <title type="main">Carteggio Canneti Fiacchi</title>
-                     <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
-                     <biblScope unit="letter">67</biblScope>
-                  </seriesStmt>
-                  <sourceDesc>
-                     <msDesc>
-                        <msIdentifier>
-                           <country key="IT">Italia</country>
-                           <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
-                           <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                           <repository></repository>
-                           <collection></collection>
-                           <idno></idno>
-                           <altIdentifier>
-                              <idno></idno>
-                           </altIdentifier>
-                        </msIdentifier>
-                     </msDesc>
-                  </sourceDesc>
-               </fileDesc>
-               <profileDesc>
-                  <correspDesc>
-                     <correspAction type="sent">
-                        <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
-                        <date from-iso="1718-01-31" to-iso="1718-02-01"/>
-                     </correspAction>
-                     <correspAction type="received">
-                        <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
-                     </correspAction>
-                  </correspDesc>
-                  <langUsage>
-                     <language ident="it"/>
-                     <language ident="la"/>
-                  </langUsage>
-                  <settingDesc>
-                     <xi:include href="../../entities/places.xml"/>
-                  </settingDesc>
-                  <particDesc>
-                     <xi:include href="../../entities/people/cited-people.xml"/>
-                     <xi:include href="../../entities/people/staff.xml"/>
-                     <xi:include href="../../entities/orgs.xml"/>
-                  </particDesc>
-               </profileDesc>
-               <revisionDesc status="created">
-                  <change when-iso="2024-07-09" who="#DLCL_CF_PS001">creato</change>
-                  <change when-iso="2024-09-13" who="#DLCL_CF_PS001">correzioni</change>
-                  <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
-               </revisionDesc>
-            </front>
+            <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (31 Gennaio/1 Febbraio 1718)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">67</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
+                     <idno></idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date from-iso="1718-01-31" to-iso="1718-02-01"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+            <language ident="la"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-07-09" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-13" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
+         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
+
+      </revisionDesc>
+   </front>
             <body>
                <div type="transcription">
                   <pb xml:id="DLCL_CF_E10067_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21165/full/800,/0/default.jpg"/>
                   
                   <opener>
                      <salute><persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Carissimo</salute>
-                     <dateline>[scritta sù l’ultimo di Gennajo o 'l principio di Febbrajo del 1718 <del rend="overstrike">il mezzo di Febbrajo del 1718</del>]</dateline>
+                     <dateline>[scritta sù l’ultimo di Gennajo o ‘l principio di Febbrajo del 1718 <del rend="overstrike">il mezzo di Febbrajo del 1718</del>]</dateline>
                   </opener>
                   
                   <p>
@@ -91,7 +93,7 @@
                      che parmi guasta sì appresso il <persName ref="#DLCL_CF_PC0342">Papebrochio,</persName> 
                      come il <persName ref="#DLCL_CF_PC0129">Mabillone</persName> nella famosa <bibl type="print">epistola del culto de’ Santi Ignoti.</bibl> 
                      E mio fine era che <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> si facesse onore, 
-                     e da <orgName ref="#DLCL_CF_O0005" cert="unknown">Classe</orgName> uscissero notizie abili a reggere a cappella. 
+                     e da <orgName ref="#DLCL_CF_O0005 #DLCL_CF_O0001" cert="unknown">Classe</orgName> uscissero notizie abili a reggere a cappella. 
                      Per altro non vo’ entrarvi, né mi vo’ impicciare con certi spiriti, i quali si regolano con massime, e studiano con principj diversi dagli altri. 
                   </p>
                   
@@ -197,70 +199,72 @@
                   </postscript>
                </div>
             </body>
+         
          </text>
          <text type="attachment" xml:id="DLCL_CF_E10067_A01">
-            <front>
-               <fileDesc>
-                  <titleStmt>
-                     <title xml:lang="it">Canneti a Fiacchi (31 Gennaio/1 Febbraio 1718)</title>
-                     <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
-                  </titleStmt>
-                  <publicationStmt>
-                     <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
-                     <availability>
-                        <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
-                     </availability>
-                  </publicationStmt>
-                  <seriesStmt>
-                     <title type="main">Carteggio Canneti Fiacchi</title>
-                     <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
-                     <biblScope unit="letter">67</biblScope>
-                  </seriesStmt>
-                  <sourceDesc>
-                     <msDesc>
-                        <msIdentifier>
-                           <country key="IT">Italia</country>
-                           <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
-                           <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                           <repository></repository>
-                           <collection></collection>
-                           <idno></idno>
-                           <altIdentifier>
-                              <idno></idno>
-                           </altIdentifier>
-                        </msIdentifier>
-                     </msDesc>
-                  </sourceDesc>
-               </fileDesc>
-               <profileDesc>
-                  <correspDesc>
-                     <correspAction type="sent">
-                        <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
-                        <date from-iso="1718-01-31" to-iso="1718-02-01"/>
-                     </correspAction>
-                     <correspAction type="received">
-                        <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
-                     </correspAction>
-                  </correspDesc>
-                  <langUsage>
-                     <language ident="it"/>
-                     <language ident="la"/>
-                  </langUsage>
-                  <settingDesc>
-                     <xi:include href="../../entities/places.xml"/>
-                  </settingDesc>
-                  <particDesc>
-                     <xi:include href="../../entities/people/cited-people.xml"/>
-                     <xi:include href="../../entities/people/staff.xml"/>
-                     <xi:include href="../../entities/orgs.xml"/>
-                  </particDesc>
-               </profileDesc>
-               <revisionDesc status="created">
-                  <change when-iso="2024-07-09" who="#DLCL_CF_PS001">creato</change>
-                  <change when-iso="2024-09-13" who="#DLCL_CF_PS001">correzioni</change>
-                  <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
-               </revisionDesc>
-            </front>
+            <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (31 Gennaio/1 Febbraio 1718)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">67</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
+                     <idno></idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date from-iso="1718-01-31" to-iso="1718-02-01"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+            <language ident="la"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2024-07-09" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-09-13" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
+         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
+
+      </revisionDesc>
+   </front>
             <body>
                <div type="transcription">
                   <pb xml:id="DLCL_CF_E10067_A01_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21168/full/800,/0/default.jpg"/>
@@ -314,7 +318,9 @@
                   
                </div>
             </body>
+         
          </text>
       </group>
-   </text> 
+   
+   </text>
 </TEI>

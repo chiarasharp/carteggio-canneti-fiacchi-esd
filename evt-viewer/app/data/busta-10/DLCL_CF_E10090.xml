@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10090">
    <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20722/manifest">
       <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21220/full/800,/0/default.jpg"/>
@@ -11,6 +10,7 @@
       <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/25112/full/800,/0/default.jpg"/>
    </facsimile>
    <text>
+      
       <group>
          <text type="letter" xml:id="DLCL_CF_E10090_L">
             <front><fileDesc>
@@ -36,11 +36,11 @@
                   <country key="IT">Italia</country>
                   <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
                   <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                  <repository/>
-                  <collection/>
-                  <idno/>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
                   <altIdentifier>
-                     <idno/>
+                     <idno></idno>
                   </altIdentifier>
                </msIdentifier>
             </msDesc>
@@ -73,8 +73,11 @@
          <change when-iso="2024-07-17" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2024-09-16" who="#DLCL_CF_PS001">correzioni</change>
          <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
+         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
+
       </revisionDesc>
-   </front><body>
+   </front>
+            <body>
                <div type="transcription">
                   <pb xml:id="DLCL_CF_E10090_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21220/full/800,/0/default.jpg"/>
                   
@@ -170,6 +173,7 @@
                   </postscript>
                </div>
             </body>
+         
          </text>
          <text type="attachment" xml:id="DLCL_CF_E10090_A01">
             <front><fileDesc>
@@ -195,11 +199,11 @@
                   <country key="IT">Italia</country>
                   <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
                   <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                  <repository/>
-                  <collection/>
-                  <idno/>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
                   <altIdentifier>
-                     <idno/>
+                     <idno></idno>
                   </altIdentifier>
                </msIdentifier>
             </msDesc>
@@ -232,8 +236,11 @@
          <change when-iso="2024-07-17" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2024-09-16" who="#DLCL_CF_PS001">correzioni</change>
          <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
+         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
+
       </revisionDesc>
-   </front><body>
+   </front>
+            <body>
                <div type="transcription">
                   
                   <pb xml:id="DLCL_CF_E10090_A01_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21223/full/800,/0/default.jpg"/>
@@ -255,7 +262,9 @@
                   
                </div>
             </body>
+         
          </text>
       </group>
+   
    </text>
 </TEI>

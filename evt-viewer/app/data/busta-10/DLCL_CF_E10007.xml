@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10007">  
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10007">
    <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20639/manifest">
       <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/20827/full/800,/0/default.jpg"/>
       <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/20828/full/800,/0/default.jpg"/>
@@ -8,67 +8,69 @@
    <text type="letter" xml:id="DLCL_CF_E10007">
       <front>
          <fileDesc>
-            <titleStmt>
-               <title xml:lang="it">Canneti a Fiacchi (Bertinoro, 2 Maggio 1714)</title>
-               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
-            </titleStmt>
-            <publicationStmt>
-               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
-               <availability>
-                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
-               </availability>
-            </publicationStmt>
-            <seriesStmt>
-               <title type="main">Carteggio Canneti Fiacchi</title>
-               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
-               <biblScope unit="letter">7</biblScope>
-            </seriesStmt>
-            <sourceDesc>
-               <msDesc>
-                  <msIdentifier>
-                     <country key="IT">Italia</country>
-                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
-                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                     <repository></repository>
-                     <collection></collection>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Bertinoro, 2 Maggio 1714)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">7</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
                      <idno></idno>
-                     <altIdentifier>
-                        <idno></idno>
-                     </altIdentifier>
-                  </msIdentifier>
-               </msDesc>
-            </sourceDesc>
-         </fileDesc>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
          <profileDesc>
-            <correspDesc>
-               <correspAction type="sent">
-                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
-                  <date when-iso="1714-05-02"/>
-                  <placeName ref="#DLCL_CF_L0025" key="DLCL_CF_L0025">Bertinoro</placeName>
-               </correspAction>
-               <correspAction type="received">
-                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
-               </correspAction>
-            </correspDesc>
-            <langUsage>
-               <language ident="it"/>
-            </langUsage>
-            <settingDesc>
-               <xi:include href="../../entities/places.xml"/>
-            </settingDesc>
-            <particDesc>
-               <xi:include href="../../entities/people/cited-people.xml"/>
-               <xi:include href="../../entities/people/staff.xml"/>
-               <xi:include href="../../entities/orgs.xml"/>
-            </particDesc>
-         </profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1714-05-02"/>
+               <placeName ref="#DLCL_CF_L0025" key="DLCL_CF_L0025">Bertinoro</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
          <revisionDesc status="created">
-            <change when-iso="2024-01-22" who="#DLCL_CF_PS001">creato</change>
-            <change when-iso="2024-01-29" who="#DLCL_CF_PS001">correzioni</change>
-            <change when-iso="2024-04-16" who="#DLCL_CF_PS001">riferimenti stampe</change>
-            <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
-            <change when-iso="2024-11-20" who="#DLCL_CF_PS001">nuove trascrizioni buste</change>
-         </revisionDesc>
+         <change when-iso="2024-01-22" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-01-29" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-04-16" who="#DLCL_CF_PS001">riferimenti stampe</change>
+         <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-20" who="#DLCL_CF_PS001">nuove trascrizioni buste</change>
+         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
+
+      </revisionDesc>
       </front>
       <body>
          <div type="transcription">
@@ -112,20 +114,20 @@
             <postscript>
                <p>
                   Vi metta il libro <bibl type="manuscript"><foreign xml:lang="la">Acta Translationis S. Bartholomei Apostoli</foreign>,</bibl> ch’è veramente nostro. 
-                  Servito che io me ne sia, lo cederò, con altri, in dono alla <orgName ref="#DLCL_CF_O0001">Libreria.</orgName>
+                  Servito che io me ne sia, lo cederò, con altri, in dono alla <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
                </p>
                <p>
                   Con gli accennati <bibl type="print" ref="#DLCL_CF_BS0009">due libri del Concilio Fiorentino</bibl> 
                   vi deve essere il <bibl xml:id="DLCL_CF_E10007_N001" type="print">Bauldry delle Cerimonie.</bibl> 
                   Ne ho necessità.
                </p>
-            </postscript> 
-            
+             </postscript> 
+ 
             <closer>
                <salute>Affettuosissimo Servo e Padre nel Signore</salute>
                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
             </closer>
-            
+
             <pb xml:id="DLCL_CF_E10007_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/20828/full/800,/0/default.jpg"/>
             
             <pb xml:id="DLCL_CF_E10007_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/24838/full/800,/0/default.jpg"/>
@@ -139,7 +141,7 @@
                </p>
             </postscript>
             
-         </div>  
+         </div>         
          <div type="notes">
             <note type="bibliography" resp="#DLCL_CF_PS002" target="DLCL_CF_E10007_N001">
                Dell’opera Manuale Sacrarum Caeremoniarum di Michel Bauldry sono nove le edizioni stampate entro la data della lettera. 

@@ -8,66 +8,68 @@
    <text type="letter" xml:id="DLCL_CF_E10042">
       <front>
          <fileDesc>
-            <titleStmt>
-               <title xml:lang="it">Canneti a Fiacchi (Perugia, 21 Novembre 1716)</title>
-               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
-            </titleStmt>
-            <publicationStmt>
-               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
-               <availability>
-                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
-               </availability>
-            </publicationStmt>
-            <seriesStmt>
-               <title type="main">Carteggio Canneti Fiacchi</title>
-               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
-               <biblScope unit="letter">42</biblScope>
-            </seriesStmt>
-            <sourceDesc>
-               <msDesc>
-                  <msIdentifier>
-                     <country key="IT">Italia</country>
-                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
-                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                     <repository></repository>
-                     <collection></collection>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 21 Novembre 1716)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">42</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
                      <idno></idno>
-                     <altIdentifier>
-                        <idno></idno>
-                     </altIdentifier>
-                  </msIdentifier>
-               </msDesc>
-            </sourceDesc>
-         </fileDesc>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
          <profileDesc>
-            <correspDesc>
-               <correspAction type="sent">
-                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
-                  <date when-iso="1716-11-21"/>
-                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
-               </correspAction>
-               <correspAction type="received">
-                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
-               </correspAction>
-            </correspDesc>
-            <langUsage>
-               <language ident="it"/>
-            </langUsage>
-            <settingDesc>
-               <xi:include href="../../entities/places.xml"/>
-            </settingDesc>
-            <particDesc>
-               <xi:include href="../../entities/people/cited-people.xml"/>
-               <xi:include href="../../entities/people/staff.xml"/>
-               <xi:include href="../../entities/orgs.xml"/>
-            </particDesc>
-         </profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1716-11-21"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
          <revisionDesc status="created">
-            <change when-iso="2024-03-18" who="#DLCL_CF_PS001">creato</change>
-            <change when-iso="2024-04-04" who="#DLCL_CF_PS001">correzioni</change>
-            <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
-            <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
-         </revisionDesc>
+         <change when-iso="2024-03-18" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-04-04" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
+
+      </revisionDesc>
       </front>
       <body>
          <div type="transcription">
@@ -126,7 +128,7 @@
             
             <p>
                Ho cancellato dalla <bibl type="manuscript">nota de’ nostri libri</bibl> 
-               <hi rend="underline"><bibl type="print">La Difesa del Giudizio</bibl> nella Causa della <placeName ref="#DLCL_CF_L0072">Cina,</placeName></hi> 
+               <hi rend="underline"><bibl type="print">La Difesa del Giudizio nella Causa della <placeName ref="#DLCL_CF_L0072">Cina</placeName></bibl></hi>, 
                e di più l’<bibl type="print">Opera</bibl> del <persName ref="#DLCL_CF_PC0316">Tassoni</persName> 
                sopra il <persName ref="#DLCL_CF_PC0025">Petrarca</persName> (ma mi aveggo non 
             </p>
@@ -134,13 +136,13 @@
             <pb xml:id="DLCL_CF_E10042_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21084/full/800,/0/default.jpg"/>
             
             <p>
-               esser questa nota: segno è che già trovasi in <orgName ref="#DLCL_CF_O0001">Libreria).</orgName>  
+               esser questa nota: segno è che già trovasi in <orgName ref="#DLCL_CF_O0001">Libreria</orgName>).  
                Vi metta dunque l’altro libro, scrivendovi sul frontispizio il nome mio al solito. 
             </p>
             
             <p>
                Riceverò da <placeName ref="#DLCL_CF_L0030">Sinigaglia</placeName> comodamente (venendo ogni settimana di là Pescatori, 
-               e Vetturali a <placeName ref="#DLCL_CF_L0028">Perugia)</placeName> l’involto. 
+               e Vetturali a <placeName ref="#DLCL_CF_L0028">Perugia</placeName>) l’involto. 
                Ed io tengo pronto un’altro da spedir costà quanto prima. 
                Mi saranno carissimi i <bibl type="religious">Calendarj:</bibl> 
                e vedrò volentieri il <bibl type="religious">nuovo Decreto del Giovedì Santo,</bibl> cadendo in esso la festa dell’Annunziata. 
@@ -151,7 +153,7 @@
             
             <closer>
                <salute>DVPMR.</salute> 
-               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1716-11-21">21 Novembre 1716</date>.</dateline> 
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1716-11-21">21 Novembre 1716.</date></dateline> 
                <salute>Cordialissimo Servitore e Padre nel Signore Affettuosissimo</salute> 
                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
             </closer>        

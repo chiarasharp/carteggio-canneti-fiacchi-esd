@@ -1,5 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10026">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10026">
    <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20658/manifest">
       <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21027/full/800,/0/default.jpg"/>
       <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21028/full/800,/0/default.jpg"/>
@@ -11,76 +10,77 @@
    <text type="letter" xml:id="DLCL_CF_E10026">
       <front>
          <fileDesc>
-            <titleStmt>
-               <title xml:lang="it">Canneti a Fiacchi (Perugia, 16 Novembre 1715)</title>
-               <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
-            </titleStmt>
-            <publicationStmt>
-               <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
-               <availability>
-                  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
-               </availability>
-            </publicationStmt>
-            <seriesStmt>
-               <title type="main">Carteggio Canneti Fiacchi</title>
-               <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
-               <biblScope unit="letter">26</biblScope>
-            </seriesStmt>
-            <sourceDesc>
-               <msDesc>
-                  <msIdentifier>
-                     <country key="IT">Italia</country>
-                     <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
-                     <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                     <repository></repository>
-                     <collection></collection>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Perugia, 16 Novembre 1715)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
+            <biblScope unit="letter">26</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
                      <idno></idno>
-                     <altIdentifier>
-                        <idno></idno>
-                     </altIdentifier>
-                  </msIdentifier>
-               </msDesc>
-            </sourceDesc>
-         </fileDesc>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
          <profileDesc>
-            <correspDesc>
-               <correspAction type="sent">
-                  <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
-                  <date when-iso="1715-11-16"/>
-                  <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
-               </correspAction>
-               <correspAction type="received">
-                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
-               </correspAction>
-            </correspDesc>
-            <langUsage>
-               <language ident="it"/>
-            </langUsage>
-            <settingDesc>
-               <xi:include href="../../entities/places.xml"/>
-            </settingDesc>
-            <particDesc>
-               <xi:include href="../../entities/people/cited-people.xml"/>
-               <xi:include href="../../entities/people/staff.xml"/>
-               <xi:include href="../../entities/orgs.xml"/>
-            </particDesc>
-         </profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1715-11-16"/>
+               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
          <revisionDesc status="created">
-            <change when-iso="2024-02-12" who="#DLCL_CF_PS001">creato</change>
-            <change when-iso="2024-03-20" who="#DLCL_CF_PS001">correzioni</change>
-            <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
-            <change when-iso="2024-11-21" who="#DLCL_CF_PS001">stampe</change>
-         </revisionDesc>
+         <change when-iso="2024-02-12" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2024-03-20" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
+         <change when-iso="2024-11-21" who="#DLCL_CF_PS001">stampe</change>
+         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
+
+      </revisionDesc>
       </front>
       <body>
          <div type="transcription">
             <pb xml:id="DLCL_CF_E10026_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21027/full/800,/0/default.jpg"/>
-
+            
             <opener>
-               <salute>
-                  <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Amatissimo</salute>
+               <salute><persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Amatissimo</salute>
             </opener>
-
+            
             <p>
                <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> è di coscienza retta, e timorata. 
                Se differisce qualche volta il rispondere, supplisce poi, e risarcisce la dilazione con una lettera, che può bastare per tre, o quattro settimane. 
@@ -96,8 +96,7 @@
                Quando io mi son’attaccato all’opinione per undici anni espressa nel <bibl type="religious">Calendario,</bibl> non ho derogato all’opinione opposta. 
                Perché l’opinione opposta dee ora prevalere alla nostra? 
                Io non trovo motivo di abbandonarsi a tale incostanza. 
-               Quel <hi rend="underline">
-               <foreign xml:lang="la">rationabile obsequium nostrum</foreign></hi> gli anni addietro stampato 
+               Quel <hi rend="underline"><foreign xml:lang="la">rationabile obsequium nostrum</foreign></hi> gli anni addietro stampato 
                ne’ <bibl type="religious">Calendarj</bibl> in proposito dell’<bibl type="religious">Officio</bibl> in fer. 3 non si addatta punto a’ discorsi del <persName ref="#DLCL_CF_PC0178">Padre Ferranti.</persName> 
                Sbrighiamoci da questa questione col principio adotto di sopra. 
                Al più al più evvi probabilità dall’una, e dall’altra parte. 
@@ -105,14 +104,13 @@
                la quale non ci toglie poter fare de’ Santi di precetto, 
                per fare una commemorazione (che tale, e non più, e non festa propria è l’<bibl type="religious">Officio</bibl> in fer. 3) 
                Bensi estato <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> usar’ogni attenzione, 
-               perché non avvanzino <rs type="person">Santi,</rs> da trasportar da un’anno all’altro, e a tal fine lasciare i <rs type="person">Santi</rs>
-            <foreign xml:lang="la">ad libitum</foreign> 
+               perché non avvanzino <rs type="person">Santi,</rs> da trasportar da un’anno all’altro, e a tal fine lasciare i <rs type="person">Santi</rs> <foreign xml:lang="la">ad libitum</foreign> 
                (che perciò sono <foreign xml:lang="la">ad libitum</foreign>, e il libito qui è ragionevole, ed è 
-         </p>
-
-         <pb xml:id="DLCL_CF_E10026_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21028/full/800,/0/default.jpg"/>
-
-         <p>
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10026_L_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21028/full/800,/0/default.jpg"/>
+            
+            <p>
                anzi necessità) e lasciar’ancora per tal motivo qualche volta l’<bibl type="religious">officio del Santo Padre</bibl> fer. 3a. 
                In ciò ponga ogni cura, per non cagionare una deformità. 
                Ho osservato quest’anno che una, o forse più volte <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> ha messo il martedì 
@@ -123,7 +121,7 @@
                La ragione pare troppo studiata, ma al mio intelletto è chiarissima. 
                Quanto alle altre occorrenze di pari rito, non v’ha dubbio che in oggi deesi far prima de’ nostri dell’<orgName ref="#DLCL_CF_O0034">Ordine,</orgName> 
                poi di quei della Città (e costì bastar far della <bibl type="religious">Dedicazione della Metropolitana,</bibl> 
-            <bibl type="religious">de’ Santi Protettori,</bibl> di quei <bibl type="religious">della Colomba,</bibl> 
+               <bibl type="religious">de’ Santi Protettori,</bibl> di quei <bibl type="religious">della Colomba,</bibl> 
                e <bibl type="religious">di San Pier Grisologo</bibl> comune come quei <bibl type="religious">della Colomba</bibl> a tutta la Provincia), 
                poi di quei della <orgName>Chiesa Universale.</orgName> 
                Perché la regola non debba aver luogo nell’occorrenza di <persName ref="#DLCL_CF_PC0080">Sant’Odone,</persName> 
@@ -133,39 +131,39 @@
                Io aveva fatto fermo proposito di non mettere penna in carta sopra queste materie, 
                delle quali non è facile, come taluno crede, scriver bene; ed io men d’ogni altro ne son capace ecco come ho prevaricato. 
                Passiamo ad altro. 
-         </p>
-
-         <p>
+            </p>
+            
+            <p>
                Poco male sarà, che <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> non mi abbia ancor favorito; 
                quando ella si compiaccia usar la sua diligenza in tener conto de’ particolari, tutti, di cui l’ho pregata. 
-               Venga dunque l’Involto con la Carta (che mi servirà per il 2° Tomo dell’<bibl type="manuscript" source="#DLCL_CF_BM0006">Opera Ambrosiana)</bibl> 
-               l’<bibl type="print" source="#DLCL_CF_BS0063">Orlandi,</bibl> la <bibl type="print" source="#DLCL_CF_BS0069">Tabaccheide</bibl> i <bibl type="print" source="#DLCL_CF_BS0103">Giornali XXI.</bibl> 
-               E se son’a tempo, seco partano il <persName ref="#DLCL_CF_PC0188">Cavacci</persName> dell’<bibl type="print" source="#DLCL_CF_BS0095 #DLCL_CF_BS0096">Istoria</bibl> di <orgName ref="#DLCL_CF_O0021">Santa Giustina,</orgName> 
-               e di più la <bibl type="print" source="#DLCL_CF_BS0106">vita</bibl> del <persName ref="#DLCL_CF_PC0010">Beato Gomezio</persName> in 4. sottile legato in cartone. 
+               Venga dunque l’Involto con la Carta (che mi servirà per il 2° Tomo dell’<bibl type="manuscript" ref="#DLCL_CF_BM0006">Opera Ambrosiana</bibl>) 
+               l’<bibl type="print" ref="#DLCL_CF_BS0063">Orlandi,</bibl> la <bibl type="print" ref="#DLCL_CF_BS0069">Tabaccheide</bibl> i <bibl type="print" ref="#DLCL_CF_BS0103">Giornali XXI.</bibl> 
+               E se son’a tempo, seco partano il <persName ref="#DLCL_CF_PC0188">Cavacci</persName> dell’<bibl type="print" ref="#DLCL_CF_BS0095 #DLCL_CF_BS0096">Istoria</bibl> di <orgName ref="#DLCL_CF_O0021">Santa Giustina,</orgName> 
+               e di più la <bibl type="print" ref="#DLCL_CF_BS0106">vita</bibl> del <persName ref="#DLCL_CF_PC0010">Beato Gomezio</persName> in 4. sottile legato in cartone. 
                E se non sono in tempo, stiano pronti per altra congiuntura. 
-               Ho a caro che unitamente arrivino le Copie della <bibl type="print" source="#DLCL_CF_BS0001">Poetica</bibl> del <persName ref="#DLCL_CF_PC0008">Martelli.</persName> 
-               Riceverò, quando che sia, la <bibl type="print" source="#DLCL_CF_BS0101">Scanzia XVII</bibl> regalatami dal <persName ref="#DLCL_CF_PC0056">Signor Sancassani</persName>
-         </p>
-
-         <pb xml:id="DLCL_CF_E10026_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21029/full/800,/0/default.jpg"/>
-
-         <p>
+               Ho a caro che unitamente arrivino le Copie della <bibl type="print" ref="#DLCL_CF_BS0001">Poetica</bibl> del <persName ref="#DLCL_CF_PC0008">Martelli.</persName> 
+               Riceverò, quando che sia, la <bibl type="print" ref="#DLCL_CF_BS0101">Scanzia XVII</bibl> regalatami dal <persName ref="#DLCL_CF_PC0056">Signor Sancassani</persName> 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10026_L_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21029/full/800,/0/default.jpg"/>
+            
+            <p>
                * Immagatito. 
-               Mi dia qualche nuova delle Copie della <bibl type="print" source="#DLCL_CF_BS0045">9a,</bibl> delle quali scrissi già al <persName ref="#DLCL_CF_PC0193">Reverendissimo Amigoni.</persName> 
+               Mi dia qualche nuova delle Copie della <bibl type="print" ref="#DLCL_CF_BS0045">9a,</bibl> delle quali scrissi già al <persName ref="#DLCL_CF_PC0193">Reverendissimo Amigoni.</persName> 
                Ma egli non pensa punto a quelli scartabelli, ma allo spoglio di <persName ref="#DLCL_CF_PC0203">Frate Bonaventura.</persName> 
-            <rs type="person" ref="#DLCL_CF_PC0203">Gran Frate,</rs> che dà tanto da studiare a due nostri Teologi <persName ref="#DLCL_CF_PC0003">Galamini,</persName> e <persName ref="#DLCL_CF_PC0193">Amigoni.</persName> 
-               La <bibl type="print" source="#DLCL_CF_BS0118">Notomia dell’acqua</bibl> si è venduta da un pezzo grande in <placeName ref="#DLCL_CF_L0028">Perugia.</placeName> 
+               <rs type="person" ref="#DLCL_CF_PC0203">Gran Frate,</rs> che dà tanto da studiare a due nostri Teologi <persName ref="#DLCL_CF_PC0003">Galamini,</persName> e <persName ref="#DLCL_CF_PC0193">Amigoni.</persName> 
+               La <bibl type="print" ref="#DLCL_CF_BS0118">Notomia dell’acqua</bibl> si è venduta da un pezzo grande in <placeName ref="#DLCL_CF_L0028">Perugia.</placeName> 
                Me ne han parlato fin d’allora alcuni <rs type="person">Amici.</rs> 
                Ma io non l’ho ancor veduta. 
                Quando verrà, io la vedrò, e la leggerò. 
                Aspettiamo che leghisi col <persName ref="#DLCL_CF_PC0186">Corno.</persName> 
-               In proposito di legare; io manderò subito, il <bibl type="print" source="#DLCL_CF_BS0024">3° Tomo delle Vite degli Arcadi,</bibl> 
-               e la <bibl type="print" source="#DLCL_CF_BS0023" cert="unknown">Nuova storia della Poesia Volgare</bibl> (ch’è una cosa diversa dal Tomo già stampato collo stesso titolo). 
+               In proposito di legare; io manderò subito, il <bibl type="print" ref="#DLCL_CF_BS0024">3° Tomo delle Vite degli Arcadi,</bibl> 
+               e la <bibl type="print" ref="#DLCL_CF_BS0023" cert="unknown">Nuova storia della Poesia Volgare</bibl> (ch’è una cosa diversa dal Tomo già stampato collo stesso titolo). 
                Non sò se basti ch’io faccia questo dono alla <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> per meritare che mi si leghino compagni i duplicati (che manderei per me). 
                Alla risposta, gli spedirò o soli, o accompagnati co’ duplicati nostri. 
-         </p>
-
-         <p>
+            </p>
+            
+            <p>
                Il <bibl type="print">Libro</bibl> del <persName ref="#DLCL_CF_PC0186">Signor del Corno</persName> è una cosa tanto cattiva, 
                che per giustizia non si può non dire male in tutto, e per tutto; per verità non se ne può dir bene; solo si può tacerne per carità. 
                Nulla v’ha di lodevole, fuorché l’intenzione dell’<rs type="person">Autore.</rs> 
@@ -178,17 +176,17 @@
                Il sistema, lo stile, i pensieri, la scelta degli <rs type="person">Autori citati</rs>  son da per se, e nel complesso cattivi: 
                ed ivi son pessimi, dove più vi ha studiato l’<rs type="person">Autore.</rs> 
                Quest’è il mio giudicio libero insieme, e verace, e certo di essere lontano da ogni abbaglio. 
-         </p>
-
-         <p>
+            </p>
+            
+            <p>
                Mi rallegro che si applichi a disseppellire il musaico del pavimento. 
                Le ossa trovatevi e ‘l sepolcro mostrano che quella non era Chiesa; 
                perché anticamente nelle Chiese non si riponevano i cadaveri de’ fedeli; ma ne’ cimiteri, o conditorj, 
-         </p>
-
-         <pb xml:id="DLCL_CF_E10026_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21030/full/800,/0/default.jpg"/>
-
-         <p>
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10026_L_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21030/full/800,/0/default.jpg"/>
+            
+            <p>
                o al di più ne’ Saccelli, o Capelle contigue al corpo della Chiesa, che l’<persName ref="#DLCL_CF_PC0206">Agnello</persName> 
                chiama con singolarità di suo vocabolo <hi rend="underline">Monasterj</hi>. 
                Ma questa è una faccenda che può dare argomento ad una intera dissertazione. 
@@ -201,9 +199,9 @@
                Né so se fuor di <placeName ref="#DLCL_CF_L0002">Ravenna,</placeName> e del porto di <placeName ref="#DLCL_CF_L0057">Miseno</placeName> 
                nel <orgName ref="#DLCL_CF_O0043">Regno di Napoli</orgName> sia facile trovarne altrove. 
                Sò io quel che dico, e quel che sono. 
-         </p>
-
-         <p>
+            </p>
+            
+            <p>
                La storietta è bella, e curiosa, e ben descritta. 
                Ma l’argomento poterat adesse, <foreign xml:lang="la">et * abesse</foreign> senza che il mondo se ne risentisse punto, né poco. 
                Anzi era meglio che l’incidente non fosse accaduto. 
@@ -221,64 +219,56 @@
                riceve dal <rs type="person">signore Conte,</rs> or ch’egli è <rs type="person">Maestro del Nipote.</rs> 
                Al <rs type="person">Padre Lettore</rs> e al <persName ref="#DLCL_CF_PC0090">Padre Don Leandro</persName> i miei saluti. 
                Scrivo al <rs type="person">Padre Camerlengo</rs> a dirittura. 
-         </p>
-
-         <p>
+            </p>
+            
+            <p>
                Ma con tutte queste belle cose, non si parla della <bibl type="manuscript">nota de’ libri.</bibl> 
                Hò bisogno, anzi necessità, ma <hi rend="underline">subito</hi> della copia dell’<bibl type="manuscript">epistola</bibl> 
-               del <persName ref="#DLCL_CF_PC0209">Beato Alberto da Sartiano</persName> in foglio <foreign xml:lang="la">ad <persName ref="#DLCL_CF_PC0208">Nicolaum Nicolum,</persName></foreign> tutta <foreign xml:lang="la">per extensum</foreign>; 
+               del <persName ref="#DLCL_CF_PC0209">Beato Alberto da Sartiano</persName> in foglio <foreign xml:lang="la">ad <persName ref="#DLCL_CF_PC0208">Nicolaum Nicolum</persName></foreign>, tutta <foreign xml:lang="la">per extensum</foreign>; 
                dove si fa menzione d’<persName ref="#DLCL_CF_PC0177">Ambrogio.</persName> 
                Con un poco poi di comodo aspetto copia dell’
-      </p>
-
-      <pb xml:id="DLCL_CF_E10026_L_C3R" n="3 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21031/full/800,/0/default.jpg"/>
-
-      <p>
-         <bibl type="religious">Istromento della donazione dello Spedale della Misericordia,</bibl> da cotesto nostro <orgName ref="#DLCL_CF_O0001">Archivio.</orgName> 
+            </p>
+            
+            <pb xml:id="DLCL_CF_E10026_L_C3R" n="3 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21031/full/800,/0/default.jpg"/>
+            
+            <p>
+               <bibl type="religious">Istromento della donazione dello Spedale della Misericordia,</bibl> da cotesto nostro <orgName ref="#DLCL_CF_O0001">Archivio.</orgName> 
                Veda un poco se trova in <persName ref="#DLCL_CF_PC0210">Aulo Gellio,</persName> dove dice che <hi rend="underline"><foreign xml:lang="la">Homo</foreign></hi> 
-               non è detto <hi rend="underline"><foreign xml:lang="la">ab humo</foreign></hi> (Il luogo nol’ so. 
+               non è detto <hi rend="underline"><foreign xml:lang="la">ab humo</foreign></hi> 
+               (Il luogo nol’ so. 
                Ma coll’aiuto dell’indice migliore, e colla diligenza di qualcheduno, che mi favorisca, si troverà. 
                Notesi ancora ciò, che i <persName ref="#DLCL_CF_PC0211 #DLCL_CF_PC0212">Gronovj</persName> sopra tal passo hanno scritto. 
-</p>
-
-<p>
+            </p>
+            
+            <p>
                S’informi bene se siansi trovate iscrizioni, medaglie, bronzi antichi, come vasi, patere, tripodi. 
                Mi dia nuova della porta della <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
-               </p>
-               <p>
                Siamo con questa. 
                Io metto sossosopra il mondo per arrivare a trovar’il vero Ritratto, se è possibile, del nostro <persName ref="#DLCL_CF_PC0177">Ambrogio,</persName> 
-               non tenendo io per tale la stampa posta in fronte dell’<bibl type="print" source="#DLCL_CF_BS0107">Odeporico,</bibl> donde in pittura costì se ne trovano due copie. 
+               non tenendo io per tale la stampa posta in fronte dell’<bibl type="print" ref="#DLCL_CF_BS0107">Odeporico,</bibl> donde in pittura costì se ne trovano due copie. 
                Mi sovviene che il buon vecchio del <persName ref="#DLCL_CF_PC0213">Reverendissimo Botta</persName> era del mio sentimento: 
                e pensava più tosto che tale fosse un certo suo disegno di lapis rosso di mezza figura in un quadretto incorniciato di nero alla buona. 
                Era con altri disegni di paesi di mano del <persName ref="#DLCL_CF_PC0214">Vecchio Abate Antonelli</persName> nella Torretta dell’Appartamento abbaziale. 
                Veda un poco se se ne potesse trovar conto.
-</p>
-
-<closer>
-   <salute>Resto abbracciandola <foreign xml:lang="la">toto cordis affectu</foreign>.
-   </salute>
-   <dateline>
-      <placeName ref="#DLCL_CF_L0028">Perugia</placeName>
-      <date when-iso="1715-11-16">16 novembre 1715</date>
-   </dateline>
-   <salute>DVPMR</salute>
-   <salute>Affettuosissimo Servo e Padre nel Signore Cordialissimo</salute>
-   <signed>
-      <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
-   </signed>
-</closer>
-
-<pb xml:id="DLCL_CF_E10026_L_C3V" n="3 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/24806/full/800,/0/default.jpg"/>
-
-<postscript>
-   <p>
+            </p>
+            
+            <closer>
+               <salute>Resto abbracciandola <foreign xml:lang="la">toto cordis affectu</foreign>.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1715-11-16">16 novembre 1715</date></dateline>
+               <salute>DVPMR</salute>
+               <salute>Affettuosissimo Servo e Padre nel Signore Cordialissimo</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+          
+            <pb xml:id="DLCL_CF_E10026_L_C3V" n="3 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/24806/full/800,/0/default.jpg"/>
+            
+            <postscript>
+               <p>
                   Al Molto Reverendo Padre mio Osservandissimo il <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi</persName> Monaco Camaldolese 
-      <placeName ref="#DLCL_CF_L0020">Classe</placeName>
-      <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
-   </p>
-</postscript>
-</div>
-</body>
-</text>
+                  <placeName ref="#DLCL_CF_L0020">Classe</placeName> <placeName ref="#DLCL_CF_L0002">Ravenna</placeName>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
 </TEI>

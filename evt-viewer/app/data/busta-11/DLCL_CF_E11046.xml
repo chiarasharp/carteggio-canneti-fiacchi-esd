@@ -1,0 +1,201 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11046">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20939/manifest">
+      <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21446/full/800,/0/default.jpg"/>
+      <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21447/full/800,/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11046">
+      <front>
+         <fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 16 Ottobre 1722)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+            <biblScope unit="letter">46</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
+                     <idno></idno>
+                  </altIdentifier>
+               </msIdentifier>
+                <msContents>
+                  <msItem>
+                     <incipit>Col presente ordinario il Padre Priore Conti scrive a cotesto...</incipit>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+         <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1722-10-16"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+         <revisionDesc status="created">
+         <change when-iso="2025-12-21" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2025-12-22" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+         <change when-iso="2025-12-31" who="#DLCL_CF_PS001">markup</change>
+      </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E11046_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21446/full/800,/0/default.jpg"/>
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+            </opener>
+            <p>Col presente ordinario il 
+               <persName ref="#DLCL_CF_PC1032">Padre Priore Conti</persName> 
+               scrive a 
+               <rs type="person" ref="#">cotesto Reverendissimo</rs> 
+               perché rimandi quà 
+               <persName ref="#DLCL_CF_PC1028">Focaccia</persName> 
+               con una cavalcatura. Ora prego 
+               <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> 
+               non mancare di trasmettermi con tal’ occasione il 
+               <bibl type="manuscript">rotolo,</bibl> 
+               i 
+               <bibl type="print">Baccanali</bibl> 
+               legati, e quel di più, che in altre lettere ho scritto, ma ora non mi ricordo. E se mai fosse capitata la roba da 
+               <placeName ref="#DLCL_CF_L0001">Cremona,</placeName> 
+               e non fosse incomodo portarla, la congiuntura sarebbe propria. In oltre, avendo io comprato ultimamente con altri libri, i 
+               <bibl type="print">Discorsi Politici</bibl> 
+               del 
+               <persName ref="#DLCL_CF_PC0962">Paruta</persName> 
+               dell’edizione ottima 
+               <placeName ref="#DLCL_CF_L0024">Venezia</placeName> 
+               per 
+               <persName ref="#DLCL_CF_PC0963">Domenico Nicolini</persName> 
+               1599. in 4.to grande, ma senza frontespizio; ho necessità di aver la copia intiera, che stà nella 
+               <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> 
+               per far formare un similissimo frontespizio dell’accuratissimo 
+               <persName ref="#DLCL_CF_PC0676">Padre Lettore Grilli,</persName> 
+               che si dispone a legger 
+               <bibl type="print">Logica</bibl> 
+               a’ Secolari dopo la festa d’Ognissanti. Di grazia, me lo mandi con licenza del 
+               <rs type="person" ref="#DLCL_CF_PC0003">Padre Reverendissimo Abate,</rs> 
+               rappresentandogli ch’è interesse della 
+               <orgName ref="#DLCL_CF_O0001">Libreria;</orgName> 
+               poiché aggiustato il Libro mancante, lo baratterò con vantaggio, e rimanderò l’altro sollecitamente.</p>
+            <p>Nel 
+               <bibl type="print">Catalogo</bibl> 
+               del 
+               <persName ref="#DLCL_CF_PC0216">Fontanini</persName> 
+               in 4.to potrà segnare car. 59. 
+               <bibl type="print"><hi rend="underline">La Gelosia</hi> Commedia</bibl> 
+               del 
+               <persName ref="#DLCL_CF_PC0964">Grazini</persName> 
+               § car. 61. L’
+               <bibl type="print">Erofilomachia</bibl> 
+               di 
+               <persName ref="#DLCL_CF_PC0965">Sforza</persName></p>
+            <pb xml:id="DLCL_CF_E11046_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21447/full/800,/0/default.jpg"/>
+            <p><persName ref="#DLCL_CF_PC0965">d’Oddi</persName> 
+               con quest’aggiunta. 
+               <hi rend="underline">
+                  In 
+                  <placeName ref="#DLCL_CF_L0018">Fiorenza</placeName> 
+                  per 
+                  <persName ref="#DLCL_CF_PC0966">Filippo Giu[nti]</persName> 
+                  1595. in 8.</hi> 
+               car. 89. 
+               <hi rend="underline">
+                  La medesima</hi> 
+               (cioè La 
+               <bibl type="print">Tebaide</bibl> 
+               di 
+               <persName ref="#DLCL_CF_PC0871">Stazio</persName> 
+               tradotta da 
+               <persName ref="#DLCL_CF_PC0967">Giacinto Nini.</persName> 
+               in 
+               <placeName ref="#DLCL_CF_L0008">Roma</placeName> 
+               1630. in 8.vo senza 
+               stamp<gap reason="illegible"/> 
+               ma si cancelli 
+               <hi rend="underline">in ottava rima</hi>; 
+               perch’è in verso sciolto. 
+               <gap reason="illegible"/> 
+               a car. 105. 
+               <hi rend="underline">
+                  <bibl type="print">Istorie</bibl> 
+                  d’
+                  <persName ref="#DLCL_CF_PC0968">Eliodoro</persName></hi> 
+               § si corregga 
+               <hi rend="underline">
+                  <persName ref="#DLCL_CF_PC1016">Ghini</persName></hi>; 
+               dove 
+               <gap reason="illegible"/> 
+               dire 
+               <hi rend="underline">
+                  <persName ref="#DLCL_CF_PC1016">Glinci</persName></hi> 
+               all’anno aggiungasi 
+               <hi rend="underline">et 1588.</hi></p>
+            <p>Molto ho aggiunto all’
+               <bibl type="manuscript">Indice</bibl> 
+               delle antiche edizioni per nuo[vi] acquisti. Si è scoperto quì un 
+               <bibl type="print">Lattanzio</bibl> 
+               stampato della prima edizione nel 
+               <orgName ref="#DLCL_CF_O0175">Monastero di Subiaco</orgName> 
+               1465., ch’è rarissim[o] stà in un 
+               <orgName ref="#">Conventino</orgName> 
+               di cinque Frati con sei o sette altri libri soli, e tutti antichissimi, tra quali il 
+               <bibl type="print">Leggendario</bibl> 
+               del 
+               <persName ref="#DLCL_CF_PC0822">Malerbi</persName>
+               nostro. Iddio mi aiuti per avergli!</p>
+            <p>Se occorre a lei mandare a 
+               <placeName ref="#DLCL_CF_L0002">Ravenna,</placeName> 
+               per qualche cosa da spedire, preghi il 
+               <rs type="person" ref="#">Padre Reverendissimo</rs> 
+               mandar subito, e trattenere 
+               <persName ref="#DLCL_CF_PC0027">Romualdo</persName> 
+               fino al ritorno, non essendovi fretta. Intanto la cavalla si anderà riavendo. Il 
+               <persName ref="#DLCL_CF_PC0676">Padre Lettore Grilli</persName> 
+               entra come i grilli in ogni buco, e scuopre le gioie nascoste. E il 
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> 
+               non fà stima di 
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano?</placeName> 
+               Resto confermandovi di cuore.</p>
+            <closer>
+               <salute>DVPMR.</salute>
+               <dateline><placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1722-10-16"></date>16. Ottobre 1722.</dateline>
+               <salute>Cordialissimo Servo Vero</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,118 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11044">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20937/manifest">
+      <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21444/full/800,/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11044">
+      <front>
+         <fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 05 Ottobre 1722)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+            <biblScope unit="letter">44</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
+                     <idno></idno>
+                  </altIdentifier>
+               </msIdentifier>
+                <msContents>
+                  <msItem>
+                     <incipit>Non posso credere che sia andato a male il Libretto...</incipit>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+         <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1722-10-05"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+         <revisionDesc status="created">
+         <change when-iso="2025-12-21" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2025-12-31" who="#DLCL_CF_PS001">markup</change>
+      </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E11044_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21444/full/800,/0/default.jpg"/>
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Bibliotecario Carissimo</rs></salute>
+            </opener>
+            <dateline><placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1722-10-05">5. Ottobre 1722.</date></dateline>
+            <p>Non posso credere che sia andato a male il 
+               <bibl type="print">Libretto degli Officj de’ Santi di Pollonia</bibl> 
+               stampato in 
+               <placeName ref="#DLCL_CF_L0024">Venezia,</placeName> 
+               e legato in cartone. Forse sarà tra gli Opuscoli confuso. Mi ricordo che il 
+               <persName ref="#DLCL_CF_PC0959">Padre Giampè Procuratore Generale</persName> 
+               in oggi de’ 
+               <orgName ref="#DLCL_CF_O0034">Romiti di Monte Corona,</orgName> 
+               stato Priore in quelle parti mi disse una volta che si chiamavano i Santi sette Fratelli colà, i nostri Santi Eremiti, compresivi di 
+               <persName ref="#DLCL_CF_PC0949">Santi Giusto,</persName> 
+               e 
+               <persName ref="#DLCL_CF_PC0950">Barnaba.</persName></p>
+            <p>Non si scordi di far vedere nella 
+               <bibl type="print">Collezione de’ Concili</bibl> 
+               del 
+               <persName ref="#DLCL_CF_PC0728">Bini</persName> 
+               se vi sia alla Sessione XX. la sottoscrizione del 
+               <persName ref="#DLCL_CF_PC0823">Vescovo di Foligno Federico.</persName></p>
+            <p>Mi provvegga de’ Tometti del 
+               <bibl type="print">Giornale</bibl> 
+               tradotto usciti finora, legati insieme alla rustica.</p>
+            <p>Avvisi il 
+               <persName ref="#DLCL_CF_PC1014">Landi</persName> 
+               che non si richiede, di necessità, il 
+               <bibl type="print">Livello.</bibl> 
+               Per l’acconcio, che chiamano, o corredo si tassano (come scrissi) cento scudi: ma con risparmio si possono far da se in casa le biancherie.</p>
+            <p>Uscito che sia in 12. l’
+               <bibl type="print">Officio</bibl> 
+               di 
+               <persName ref="#DLCL_CF_PC0364">Sant’Isidoro,</persName> 
+               l’aspetto. Intanto caramente l’abbraccio, ringraziandola della nuova de’ Tometti, e altri simili inviti Letterari.</p>
+            <closer>
+               <salute>DVPMR</salute>
+               <salute>Cordialissimo Servo Vostro</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

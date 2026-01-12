@@ -1,0 +1,205 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11042">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20935/manifest">
+      <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21439/full/800,/0/default.jpg"/>
+   </facsimile>
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21440/manifest">
+      <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21441/full/578,800/0/default.jpg"/>
+   </facsimile>
+   <text>
+      
+      <group>
+         <text type="letter" xml:id="DLCL_CF_E11042_L">
+            <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 25 Settembre 1722)</title>
+            <author role="main-author" ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            <author role="attachment-author" ref="#DLCL_CF_PC0193">Floriano Maria Amigoni</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+            <biblScope unit="letter">42</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
+                     <idno></idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <incipit>A caso mi è venuta alle mani una lettera del...</incipit>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1722-09-25"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2025-12-20" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2025-12-22" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+         <change when-iso="2025-12-31" who="#DLCL_CF_PS001">markup</change>
+      </revisionDesc>
+   </front>
+         <body>
+            <div type="transcription">
+               <pb xml:id="DLCL_CF_E11042_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21439/full/800,/0/default.jpg"/>
+               <opener>
+                  <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Bibliotecario Carissimo</rs></salute>
+               </opener>
+               <p>A caso mi è venuta alle mani una lettera del 
+                  <persName ref="#DLCL_CF_PC0193">Padre Abate Amigoni</persName> 
+                  scritta già sono sei mesi col prezzo de’ libri consaputi: Ne accludo lo scampolo, che fa’ al nostro proposito. Del 
+                  <persName ref="#DLCL_CF_PC1029">Sanchez</persName> 
+                  non mi sovviene che opera sia. Il 
+                  <bibl type="print">Romei</bibl> 
+                  è caro: ma poco importa se per otto paoli si ha il 
+                  <bibl type="print">Baccone</bibl> intiero.</p>
+               <p>Nel tempo del silenzio di 
+                  <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> 
+                  perì la memoria de’ baratti da farsi col 
+                  <persName ref="#DLCL_CF_PC0625">Padre Reggente Pugnetti.</persName> 
+                  Ora si risvegli. Addio.</p>
+               <closer>
+                  <dateline><placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1722-09-25">25. 7bre 1722</date></dateline>
+                  <salute>DVPMR</salute>
+               </closer>
+               
+               <postscript>
+                  <p>Presto avremo fuor de’ torchi il <bibl type="print">Quadriregio.</bibl></p>
+                  <p>Nell’<bibl type="print">Istoria del Concilio di Costanza</bibl> vegga se vi è memoria di 
+                     <persName ref="#DLCL_CF_PC0823">Fr. Federico Vescovo di Foligno,</persName> 
+                     di sua sottoscrizione, di sua accesso, discesso, morte arme §. Risponda subito.</p>
+               </postscript>
+               
+               <closer>
+                  <salute>Parz. Cordialissimo Servo Vero</salute> 
+                  <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+               </closer>
+            </div>
+         </body>
+         
+         </text>
+         <text type="attachment" xml:id="DLCL_CF_E11042_A01">
+            <front><fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 25 Settembre 1722)</title>
+            <author role="main-author" ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+            <author role="attachment-author" ref="#DLCL_CF_PC0193">Floriano Maria Amigoni</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+            <biblScope unit="letter">42</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
+                     <idno></idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <incipit>A caso mi è venuta alle mani una lettera del...</incipit>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1722-09-25"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc status="created">
+         <change when-iso="2025-12-20" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2025-12-22" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+         <change when-iso="2025-12-31" who="#DLCL_CF_PS001">markup</change>
+      </revisionDesc>
+   </front>
+         <body>
+            <div type="transcription">
+               <pb xml:id="DLCL_CF_E11042_A01_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21441/full/578,800/0/default.jpg"/>
+               <p><gap reason="illegible"/></p>
+               <p>Siigue</p>
+               <p><bibl type="print">Bacconiago</bibl> – 8o</p>
+               <p><bibl type="print">Sanchez J</bibl> – 7o</p>
+               <p><bibl type="print">Vita S. Eusebyo</bibl> - 25</p>
+               <p><bibl type="print">Discorsi del C. Romii</bibl> – 40</p>
+               <p>Che così mi scrissi l’<rs type="person" ref="#">Amico di Mereano.</rs> 
+                  Mi scriva un poco <rs type="person" ref="#">V.P.</rs> 
+                  Reverendissima che vi potrebbe essere all’<orgName ref="#DLCL_CF_O0026">Avellana</orgName> di sarogati ò a <persName ref="#">d. Lorenzo,</persName> ò al imra<gap reason="illegible"/> molto, se mai mi riuscisse sgravarmene alla direz. ed elez. non manchi di comandarmi per sgravarmi d<gap reason="illegible"/></p>
+            </div>
+         </body>
+         
+         </text>      
+      </group>
+   
+   </text>
+</TEI>

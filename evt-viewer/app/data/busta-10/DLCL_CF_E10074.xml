@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10074">
    <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20706/manifest">
       <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21181/full/800,/0/default.jpg"/>
@@ -7,7 +6,8 @@
       <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/21184/full/800,/0/default.jpg"/>
    </facsimile>
    <text type="letter" xml:id="DLCL_CF_E10074">
-      <front><fileDesc>
+      <front>
+         <fileDesc>
          <titleStmt>
             <title xml:lang="it">Canneti a Fiacchi (Perugia, 8 Marzo 1718)</title>
             <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
@@ -29,17 +29,17 @@
                   <country key="IT">Italia</country>
                   <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
                   <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                  <repository/>
-                  <collection/>
-                  <idno/>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
                   <altIdentifier>
-                     <idno/>
+                     <idno></idno>
                   </altIdentifier>
                </msIdentifier>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
+         <profileDesc>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
@@ -62,13 +62,15 @@
             <xi:include href="../../entities/orgs.xml"/>
          </particDesc>
       </profileDesc>
-      <revisionDesc status="created">
+         <revisionDesc status="created">
          <change when-iso="2024-07-11" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2024-09-13" who="#DLCL_CF_PS001">correzioni</change>
          <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
-         <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni riferimenti entità</change>
+         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
+
       </revisionDesc>
-   </front><body>
+      </front>
+      <body>
          <div type="transcription">
             <pb xml:id="DLCL_CF_E10074_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21181/full/800,/0/default.jpg"/>
             
@@ -92,7 +94,7 @@
                come nel <bibl type="print">Capitolare</bibl> di <persName ref="#DLCL_CF_PC0555">Gregorio Secondo</persName> per gli Bavari, 
                e nell’<bibl type="print">Epistola II</bibl> di <persName ref="#DLCL_CF_PC0556">Adriano II.</persName> 
                Antica è la formola, e derivata da’ fonti della buona latinità, leggendosi in <persName ref="#DLCL_CF_PC0557">Plauto</persName> 
-               (<bibl type="print"><foreign xml:lang="la">Truculens</foreign>)</bibl> 
+               (<bibl type="print"><foreign xml:lang="la">Truculens</foreign></bibl>) 
                <hi rend="underline"><foreign xml:lang="la">Spectatores bene valete</foreign></hi>, 
                e concludendosi le <bibl type="print">lettere</bibl> di <persName ref="#DLCL_CF_PC0153">Cicerone</persName> 
                col <hi rend="underline"><foreign xml:lang="la">Vale</foreign></hi>. 
@@ -136,7 +138,7 @@
                <hi rend="underline"><foreign xml:lang="la">Non est in tanto corpore mica salis</foreign></hi>. 
                E se ha fatto da critico sopra l’età del <persName ref="#DLCL_CF_PC0017">Padre San Romualdo,</persName> 
                quella censura non è sua ma del <persName ref="#DLCL_CF_PC0562">Bollando</persName> abbastanza già convinto, e confutato. 
-               Stimo più il <bibl type="print">libretto</bibl> dello <persName ref="#DLCL_CF_PC0204">Spreti,</persName> che tutto il [<persName ref="#DLCL_CF_PC0123">Fabri].</persName>
+               Stimo più il <bibl type="print">libretto</bibl> dello <persName ref="#DLCL_CF_PC0204">Spreti,</persName> che tutto il [<persName ref="#DLCL_CF_PC0123">Fabri</persName>].
             </p>
             
             <p>
@@ -154,7 +156,7 @@
                <hi rend="underline"><foreign xml:lang="la">Interpretatus etiam est difficillimas quasque Ciceronis Orationes</foreign></hi>. 
                <persName ref="#DLCL_CF_PC0563">Antonio Angeli</persName> fu fratello di <persName ref="#DLCL_CF_PC0261">Pietro,</persName> 
                Letterato anch’esso famoso, Poeta Latino e Maestro de’ Granduchi <persName ref="#DLCL_CF_PC0564">Francesco,</persName> 
-               e <persName ref="#DLCL_CF_PC0565">Ferdinando I,</persName> [e poi vescovo di <placeName ref="#DLCL_CF_L0113">Massa].</placeName> 
+               e <persName ref="#DLCL_CF_PC0565">Ferdinando I,</persName> [e poi vescovo di <placeName ref="#DLCL_CF_L0113">Massa</placeName>]. 
                Delle <bibl type="print">Opere</bibl> de’ <persName ref="#DLCL_CF_PC0521 #DLCL_CF_PC0522">due Pichi,</persName> 
                mi figuro che cotesta edizione, come posteriore, meriti per qualche maggior diligenza usatavi, esser preferita; 
                siccome l’<bibl type="print">Opera Cabalistica</bibl> del <persName ref="#DLCL_CF_PC0525">Reuclino,</persName> 
@@ -209,7 +211,7 @@
             
             <closer>
                <salute>Resto con abbracciarla <foreign xml:lang="la">toto cordis affectus</foreign>.</salute>
-               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1718-03-08">8 Marzo 1718</date>.</dateline>
+               <dateline><placeName ref="#DLCL_CF_L0028">Perugia</placeName> <date when-iso="1718-03-08">8 Marzo 1718.</date></dateline>
                <salute>DVPMR.</salute>
                <salute>Cordialissimo Servitore e Affettuosissimo Padre nel Signore</salute> 
                <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>

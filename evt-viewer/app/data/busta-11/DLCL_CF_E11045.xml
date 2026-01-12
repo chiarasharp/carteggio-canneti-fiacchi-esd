@@ -1,0 +1,114 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11045">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20938/manifest">
+      <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21445/full/800,/0/default.jpg"/>
+   </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11045">
+      <front>
+         <fileDesc>
+         <titleStmt>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 09 Ottobre 1722)</title>
+            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main">Carteggio Canneti Fiacchi</title>
+            <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+            <biblScope unit="letter">45</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="IT">Italia</country>
+                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+                   <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <altIdentifier>
+                     <idno></idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <incipit>Riceverò a suo tempo i favori del Padre Bibliotecario, il...</incipit>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+         <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+               <date when-iso="1722-10-09"/>
+               <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it"/>
+         </langUsage>
+         <settingDesc>
+            <xi:include href="../../entities/places.xml"/>
+         </settingDesc>
+         <particDesc>
+            <xi:include href="../../entities/people/cited-people.xml"/>
+            <xi:include href="../../entities/people/staff.xml"/>
+            <xi:include href="../../entities/orgs.xml"/>
+         </particDesc>
+      </profileDesc>
+         <revisionDesc status="created">
+         <change when-iso="2025-12-21" who="#DLCL_CF_PS001">creato</change>
+         <change when-iso="2025-12-22" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+         <change when-iso="2025-12-31" who="#DLCL_CF_PS001">markup</change>
+      </revisionDesc>
+      </front>
+      <body>
+         <div type="transcription">
+            <pb xml:id="DLCL_CF_E11045_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21445/full/800,/0/default.jpg"/>
+            <opener>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs></salute>
+            </opener>
+            <p>Riceverò a suo tempo i favori del 
+               <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Bibliotecario,</rs> 
+               il quale vorrei tenesse un taccuino di ricordo di quanto io chiedo, ed ella promette. Egli dice bene che io dovrei procurar esito alle 
+               <bibl type="print">Opere</bibl> 
+               del 
+               <persName ref="#DLCL_CF_PC0011 #DLCL_CF_PC0518" cert="unknown">Volpi,</persName> 
+               o alle 
+               <bibl type="print">sue stampe,</bibl> 
+               non meno che a 
+               <bibl type="print">Baccanali</bibl> 
+               del 
+               <persName ref="#DLCL_CF_PC0143">Baruffaldi:</persName> 
+               ma non riflette che io sono in paese; che applica ad ogni altra sorte di merci. Un caro saluto al 
+               <persName ref="#DLCL_CF_PC0090">Don Leandro.</persName> 
+               Aspetterò l’arrivo della tela, e del fustagno, il quale ora sarebbe tempo di impiegare in vestiti.</p>
+            <p>Quando s’inseriscano gli Officj de’ Monasteri particolari, non è già da farne una distesa lunga delle lezioni, della Messa, §. Basterebbe accennargli, come fanno quei di 
+               <orgName ref="#DLCL_CF_O0013">Monte Corona.</orgName> 
+               Tanto, e non più. Anco il rimanente del Calendario potrebbe abbreviarsi, ora che i nostri sono abbastanza istruiti. Preveggo difficile potere introdur novità in questa angustia di tempo. In tal caso starebbe anco bene inserir gli Officj particolari al fin de mesi. Nel frontespizio basta lasciare 
+               <hi rend="underline">Ubi et ea</hi> 
+               § così si esce di tutti gli impegni. Aspetto qui presto le Colonnette: subito ne manderò il disegno colorito. Mi duole l’infermità del 
+               <persName ref="#DLCL_CF_PC0973">Padre Don Eugenio.</persName> 
+               Al 
+               <rs type="person" ref="#">Padre Reverendissimo</rs> 
+               il mio umilissimo ossequio. Saluto distintamente il 
+               <persName ref="#DLCL_CF_PC0035">Padre Priore Buti.</persName>
+               L’abbraccio caramente; e resto.</p>                   
+            <closer>
+               <dateline><placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1722-10-09"></date>9. Ottobre 1722.</dateline>
+               <salute>DVPMR</salute>
+               <salute>Cordialissimo Servo Vostro</salute> 
+               <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
