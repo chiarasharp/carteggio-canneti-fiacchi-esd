@@ -1,6 +1,6 @@
 <listPlace type="places" xmlns="http://www.tei-c.org/ns/1.0">
    <place xml:id="DLCL_CF_L0001" type="settlement" sameAs="https://www.geonames.org/3177838/">
-      <placeName>Cremona</placeName>
+      <placeName xml:lang="it">Cremona</placeName>
       <location>
          <country key="IT"/>
          <geo>45.13325, 10.02129</geo>
@@ -9,7 +9,7 @@
       <idno type="geonames">3177838</idno>
    </place>
    <place xml:id="DLCL_CF_L0002" type="settlement" sameAs="https://www.geonames.org/3169561/">
-      <placeName>Ravenna</placeName>
+      <placeName xml:lang="it">Ravenna</placeName>
       <location>
          <country key="IT"/>
          <geo>44.41344, 12.20121</geo>
@@ -18,7 +18,7 @@
       <idno type="geonames">3169561</idno>
    </place>
    <place xml:id="DLCL_CF_L0003" type="settlement" sameAs="https://www.geonames.org/3171173/">
-      <placeName>Pesaro</placeName>
+      <placeName xml:lang="it">Pesaro</placeName>
       <location>
          <country key="IT"/>
          <geo>43.90921, 12.9164</geo>
@@ -27,7 +27,7 @@
       <idno type="geonames">3171173</idno>
    </place>
    <place xml:id="DLCL_CF_L0004" type="settlement" sameAs="https://www.geonames.org/3177315/">
-      <placeName>Fabriano</placeName>
+      <placeName xml:lang="it">Fabriano</placeName>
       <location>
          <country key="IT"/>
          <geo>43.33941, 12.90327</geo>
@@ -35,7 +35,7 @@
       <idno type="geonames">3177315</idno>
    </place>
    <place xml:id="DLCL_CF_L0005" type="settlement" sameAs="https://www.geonames.org/3177300/">
-      <placeName>Faenza</placeName>
+      <placeName xml:lang="it">Faenza</placeName>
       <location>
          <country key="IT"/>
          <geo>44.29007, 11.87948</geo>
@@ -44,14 +44,14 @@
       <idno type="geonames">3177300</idno>
    </place>
    <place xml:id="DLCL_CF_L0006" type="hill">
-      <placeName>Ribano</placeName>
+      <placeName xml:lang="it">Ribano</placeName>
       <location>
          <country key="IT"/>
          <geo>44.06987, 12.38385</geo>
       </location>
    </place>
    <place xml:id="DLCL_CF_L0007" type="settlement" sameAs="https://www.geonames.org/3181928/">
-      <placeName>Bologna</placeName>
+      <placeName xml:lang="it">Bologna</placeName>
       <location>
          <country key="IT"/>
          <geo>44.49381, 11.33875</geo>
@@ -60,7 +60,7 @@
       <idno type="geonames">3181928</idno>
    </place>
    <place xml:id="DLCL_CF_L0008" type="settlement" sameAs="https://www.geonames.org/3169070/">
-      <placeName>Roma</placeName>
+      <placeName xml:lang="it">Roma</placeName>
       <location>
          <country key="IT"/>
          <geo>41.89193, 12.51133</geo>
@@ -69,7 +69,7 @@
       <idno type="geonames">3169070</idno>
    </place>
    <place xml:id="DLCL_CF_L0009" type="settlement" sameAs="https://www.geonames.org/3178957/">
-      <placeName>Cesena</placeName>
+      <placeName xml:lang="it">Cesena</placeName>
       <location>
          <country key="IT"/>
          <geo>44.1391, 12.24315</geo>
@@ -78,7 +78,7 @@
       <idno type="geonames">3178957</idno>
    </place>
    <place xml:id="DLCL_CF_L0010" type="settlement" sameAs="https://www.geonames.org/3171728/">
-      <placeName>Padova</placeName>
+      <placeName xml:lang="it">Padova</placeName>
       <location>
          <country key="IT"/>
          <geo>45.40797, 11.88586</geo>
@@ -87,7 +87,7 @@
       <idno type="geonames">3171728</idno>
    </place>
    <place xml:id="DLCL_CF_L0011" type="settlement" sameAs="https://www.geonames.org/3168700/">
-      <placeName>Sala Bolognese</placeName>
+      <placeName xml:lang="it">Sala Bolognese</placeName>
       <location>
          <country key="IT"/>
          <geo>44.61387, 11.25669</geo>
@@ -96,7 +96,7 @@
       <idno type="geonames">3168700</idno>
    </place>
    <place xml:id="DLCL_CF_L0012" type="settlement" sameAs="https://www.geonames.org/3173331/">
-      <placeName>Modena</placeName>
+      <placeName xml:lang="it">Modena</placeName>
       <location>
          <country key="IT"/>
          <geo>44.64783, 10.92539</geo>
@@ -105,7 +105,7 @@
       <idno type="geonames">3173331</idno>
    </place>
    <place xml:id="DLCL_CF_L0013" type="settlement" sameAs="https://www.geonames.org/3177090/">
-      <placeName>Ferrara</placeName>
+      <placeName xml:lang="it">Ferrara</placeName>
       <location>
          <country key="IT"/>
          <geo>44.83804, 11.62057</geo>
@@ -114,7 +114,7 @@
       <idno type="geonames">3177090</idno>
    </place>
    <place xml:id="DLCL_CF_L0014" type="settlement" sameAs="https://www.geonames.org/3178956/">
-      <placeName>Cesenatico</placeName>
+      <placeName xml:lang="it">Cesenatico</placeName>
       <location>
          <country key="IT"/>
          <geo>44.19987, 12.3991</geo>
@@ -123,7 +123,7 @@
       <idno type="geonames">3178956</idno>
    </place>
    <place xml:id="DLCL_CF_L0015" type="settlement" sameAs="https://www.geonames.org/3172700/">
-      <placeName>Montiano</placeName>
+      <placeName xml:lang="it">Montiano</placeName>
       <location>
          <country key="IT"/>
          <geo>44.08232, 12.30455</geo>
@@ -132,7 +132,7 @@
       <idno type="geonames">3172700</idno>
    </place>
    <place xml:id="DLCL_CF_L0016" type="settlement" sameAs="https://www.geonames.org/3182552/">
-      <placeName>Bagnacavallo</placeName>
+      <placeName xml:lang="it">Bagnacavallo</placeName>
       <location>
          <country key="IT"/>
          <geo>44.41402, 11.97813</geo>
@@ -141,7 +141,7 @@
       <idno type="geonames">3182552</idno>
    </place>
    <place xml:id="DLCL_CF_L0017" type="settlement" sameAs="https://www.geonames.org/2988507/">
-      <placeName>Parigi</placeName>
+      <placeName xml:lang="it">Parigi</placeName>
       <location>
          <country key="FR"/>
          <geo>48.85341, 2.3488</geo>
@@ -150,7 +150,7 @@
       <idno type="geonames">2988507</idno>
    </place>
    <place xml:id="DLCL_CF_L0018" type="settlement" sameAs="https://www.geonames.org/3176959/">
-      <placeName>Firenze</placeName>
+      <placeName xml:lang="it">Firenze</placeName>
       <location>
          <country key="IT"/>
          <geo>43.77925, 11.24626</geo>
@@ -159,7 +159,7 @@
       <idno type="geonames">3176959</idno>
    </place>
    <place xml:id="DLCL_CF_L0019" type="settlement" sameAs="https://www.geonames.org/3182884/">
-      <placeName>Arezzo</placeName>
+      <placeName xml:lang="it">Arezzo</placeName>
       <location>
          <country key="IT"/>
          <geo>43.46276, 11.88068</geo>
@@ -168,7 +168,7 @@
       <idno type="geonames">3182884</idno>
    </place>
    <place xml:id="DLCL_CF_L0020" type="settlement" sameAs="https://www.geonames.org/3178555/">
-      <placeName>Classe</placeName>
+      <placeName xml:lang="it">Classe</placeName>
       <location>
          <country key="IT"/>
          <geo>44.2246, 12.1412</geo>
@@ -176,20 +176,20 @@
       <idno type="geonames">3178555</idno>
    </place>
    <place xml:id="DLCL_CF_L0021" type="park">
-      <placeName>Pineta di Classe</placeName>
+      <placeName xml:lang="it">Pineta di Classe</placeName>
       <location source="https://it.wikipedia.org/wiki/Pineta_di_Ravenna">
          <country key="IT"/>
          <settlement ref="#DLCL_CF_L0002">Ravenna</settlement>
       </location>
    </place>
    <place xml:id="DLCL_CF_L0022" type="settlement">
-      <placeName>Ragazina</placeName>
+      <placeName xml:lang="it">Ragazina</placeName>
       <location>
          <country key="IT"/>
       </location>
    </place>
    <place xml:id="DLCL_CF_L0023" type="settlement" sameAs="https://www.geonames.org/3176854/">
-      <placeName>Foligno</placeName>
+      <placeName xml:lang="it">Foligno</placeName>
       <location>
          <country key="IT"/>
          <geo>42.95488, 12.70268</geo>
@@ -197,7 +197,7 @@
       <idno type="geonames">3176854</idno>
    </place>
    <place xml:id="DLCL_CF_L0024" type="settlement" sameAs="https://www.geonames.org/3164603/">
-      <placeName>Venezia</placeName>
+      <placeName xml:lang="it">Venezia</placeName>
       <location>
          <country key="IT"/>
          <geo>45.43713, 12.33265</geo>
@@ -205,7 +205,7 @@
       <idno type="geonames">3164603</idno>
    </place>
    <place xml:id="DLCL_CF_L0025" type="settlement" sameAs="https://www.geonames.org/3182133/">
-      <placeName>Bertinoro</placeName>
+      <placeName xml:lang="it">Bertinoro</placeName>
       <location>
          <country key="IT"/>
          <geo>44.14874, 12.1365</geo>
@@ -213,7 +213,7 @@
       <idno type="geonames">3182133</idno>
    </place>
    <place xml:id="DLCL_CF_L0026" type="nation" sameAs="https://www.geonames.org/3175395/">
-      <placeName>Italia</placeName>
+      <placeName xml:lang="it">Italia</placeName>
       <location>
          <country key="IT"/>
          <geo>42.83333, 12.83333</geo>
@@ -221,7 +221,7 @@
       <idno type="geonames">3175395</idno>
    </place>
    <place xml:id="DLCL_CF_L0027" type="settlement" sameAs="https://www.geonames.org/3173435/">
-      <placeName>Milano</placeName>
+      <placeName xml:lang="it">Milano</placeName>
       <location>
          <country key="IT"/>
          <geo>45.46427, 9.18951</geo>
@@ -229,7 +229,7 @@
       <idno type="geonames">3173435</idno>
    </place>
    <place xml:id="DLCL_CF_L0028" type="settlement" sameAs="https://www.geonames.org/3171180/">
-      <placeName>Perugia</placeName>
+      <placeName xml:lang="it">Perugia</placeName>
       <location>
          <country key="IT"/>
          <geo>43.1122, 12.38878</geo>
@@ -237,7 +237,7 @@
       <idno type="geonames">3171180</idno>
    </place>
    <place xml:id="DLCL_CF_L0029" type="settlement" sameAs="https://www.geonames.org/3174567/">
-      <placeName>Loreto</placeName>
+      <placeName xml:lang="it">Loreto</placeName>
       <location>
          <country key="IT"/>
          <geo>43.43617, 13.61232</geo>
@@ -245,7 +245,7 @@
       <idno type="geonames">3174567</idno>
    </place>
    <place xml:id="DLCL_CF_L0030" type="settlement" sameAs="https://www.geonames.org/3166740/">
-      <placeName>Senigallia</placeName>
+      <placeName xml:lang="it">Senigallia</placeName>
       <location>
          <country key="IT"/>
          <geo>43.71626, 13.20882</geo>
@@ -253,7 +253,7 @@
       <idno type="geonames">3166740</idno>
    </place>
    <place xml:id="DLCL_CF_L0031" type="settlement" sameAs="https://www.geonames.org/3178245/">
-      <placeName>Comacchio</placeName>
+      <placeName xml:lang="it">Comacchio</placeName>
       <location>
          <country key="IT"/>
          <geo>44.69478, 12.18194</geo>
@@ -261,7 +261,7 @@
       <idno type="geonames">3178245</idno>
    </place>
    <place xml:id="DLCL_CF_L0032" type="settlement" sameAs="https://www.geonames.org/2803138/">
-      <placeName>Anversa</placeName>
+      <placeName xml:lang="it">Anversa</placeName>
       <location>
          <country key="BE"/>
          <geo>51.22047, 4.40026</geo>
@@ -269,7 +269,7 @@
       <idno type="geonames">2803138</idno>
    </place>
    <place xml:id="DLCL_CF_L0033" type="settlement" sameAs="https://www.geonames.org/3169361/">
-      <placeName>Rimini</placeName>
+      <placeName xml:lang="it">Rimini</placeName>
       <location>
          <country key="IT"/>
          <geo>44.05755, 12.56528</geo>
@@ -277,13 +277,13 @@
       <idno type="geonames">3169361</idno>
    </place>
    <place xml:id="DLCL_CF_L0034" type="hill">
-      <placeName>Colle di Porta Sole</placeName>
-      <location >
+      <placeName xml:lang="it">Colle di Porta Sole</placeName>
+      <location>
          <country key="IT"/>
       </location>
    </place>
    <place xml:id="DLCL_CF_L0035" type="settlement" sameAs="https://www.geonames.org/3182164/">
-      <placeName>Bergamo</placeName>
+      <placeName xml:lang="it">Bergamo</placeName>
       <location>
          <country key="IT"/>
          <geo>45.69601, 9.66721</geo>
@@ -291,7 +291,7 @@
       <idno type="geonames">3182164</idno>
    </place>
    <place xml:id="DLCL_CF_L0036" type="settlement" sameAs="https://www.geonames.org/3175687/">
-      <placeName>Gubbio</placeName>
+      <placeName xml:lang="it">Gubbio</placeName>
       <location>
          <country key="IT"/>
          <geo>43.34996, 12.57309</geo>
@@ -299,7 +299,7 @@
       <idno type="geonames">3175687</idno>
    </place>
    <place xml:id="DLCL_CF_L0037" type="nation" sameAs="https://www.geonames.org/3017382/">
-      <placeName>Francia</placeName>
+      <placeName xml:lang="it">Francia</placeName>
       <location>
          <country key="FR"/>
          <geo>46, 2</geo>
@@ -307,7 +307,7 @@
       <idno type="geonames">3017382</idno>
    </place>
    <place xml:id="DLCL_CF_L0038" type="nation" sameAs="https://www.geonames.org/2750405/">
-      <placeName>Olanda</placeName>
+      <placeName xml:lang="it">Olanda</placeName>
       <location>
          <country key="NL"/>
          <geo>52.25, 5.75</geo>
@@ -315,7 +315,7 @@
       <idno type="geonames">2750405</idno>
    </place>
    <place xml:id="DLCL_CF_L0039" type="nation" sameAs="https://www.geonames.org/6269131/">
-      <placeName>Inghilterra</placeName>
+      <placeName xml:lang="it">Inghilterra</placeName>
       <location>
          <country key="GB"/>
          <geo>52.16045, -0.70312</geo>
@@ -323,7 +323,7 @@
       <idno type="geonames">6269131</idno>
    </place>
    <place xml:id="DLCL_CF_L0040" type="settlement" sameAs="https://www.geonames.org/3175537/">
-      <placeName>Imola</placeName>
+      <placeName xml:lang="it">Imola</placeName>
       <location>
          <country key="IT"/>
          <geo>44.35916, 11.7132</geo>
@@ -331,7 +331,7 @@
       <idno type="geonames">3175537</idno>
    </place>
    <place xml:id="DLCL_CF_L0041" type="settlement" sameAs="https://www.geonames.org/3165048/">
-      <placeName>Umbria</placeName>
+      <placeName xml:lang="it">Umbria</placeName>
       <location>
          <country key="IT"/>
          <geo>43, 12.5</geo>
@@ -339,7 +339,7 @@
       <idno type="geonames">3165048</idno>
    </place>
    <place xml:id="DLCL_CF_L0042" type="settlement" sameAs="https://www.geonames.org/2661604/">
-      <placeName>Basilea</placeName>
+      <placeName xml:lang="it">Basilea</placeName>
       <location>
          <country key="CH"/>
          <geo>47.55839, 7.57327</geo>
@@ -347,7 +347,7 @@
       <idno type="geonames">2661604</idno>
    </place>
    <place xml:id="DLCL_CF_L0043" type="settlement" sameAs="https://www.geonames.org/3176746/">
-      <placeName>Forlì</placeName>
+      <placeName xml:lang="it">Forlì</placeName>
       <location>
          <country key="IT"/>
          <geo>44.22177, 12.04144</geo>
@@ -355,7 +355,7 @@
       <idno type="geonames">3176746</idno>
    </place>
    <place xml:id="DLCL_CF_L0044" type="settlement" sameAs="https://www.geonames.org/2996944/">
-      <placeName>Lione</placeName>
+      <placeName xml:lang="it">Lione</placeName>
       <location>
          <country key="FR"/>
          <geo>45.74846, 4.84671</geo>
@@ -363,7 +363,7 @@
       <idno type="geonames">2996944</idno>
    </place>
    <place xml:id="DLCL_CF_L0045" type="settlement" sameAs="https://www.geonames.org/2643743/">
-      <placeName>Londra</placeName>
+      <placeName xml:lang="it">Londra</placeName>
       <location>
          <country key="GB"/>
          <geo>51.50853, -0.12574</geo>
@@ -371,7 +371,7 @@
       <idno type="geonames">2643743</idno>
    </place>
    <place xml:id="DLCL_CF_L0046" type="nation" sameAs="https://www.geonames.org/2510769/">
-      <placeName>Spagna</placeName>
+      <placeName xml:lang="it">Spagna</placeName>
       <location>
          <country key="ES"/>
          <geo>40, -4</geo>
@@ -379,7 +379,7 @@
       <idno type="geonames">2510769</idno>
    </place>
    <place xml:id="DLCL_CF_L0047" type="settlement" sameAs="https://www.geonames.org/6544491/">
-      <placeName>Salamanca</placeName>
+      <placeName xml:lang="it">Salamanca</placeName>
       <location>
          <country key="ES"/>
          <geo>40.42972, -3.67975</geo>
@@ -387,7 +387,7 @@
       <idno type="geonames">6544491</idno>
    </place>
    <place xml:id="DLCL_CF_L0048" type="settlement" sameAs="https://www.geonames.org/3177219/">
-      <placeName>Fano</placeName>
+      <placeName xml:lang="it">Fano</placeName>
       <location>
          <country key="IT"/>
          <geo>43.84052, 13.01665</geo>
@@ -395,7 +395,7 @@
       <idno type="geonames">3177219</idno>
    </place>
    <place xml:id="DLCL_CF_L0049" type="settlement" sameAs="https://www.geonames.org/3174618/">
-      <placeName>Lombardia</placeName>
+      <placeName xml:lang="it">Lombardia</placeName>
       <location>
          <country key="IT"/>
          <geo>45.66667, 9.5</geo>
@@ -403,7 +403,7 @@
       <idno type="geonames">3174618</idno>
    </place>
    <place xml:id="DLCL_CF_L0050" type="settlement" sameAs="https://www.geonames.org/2751773/">
-      <placeName>Leiden</placeName>
+      <placeName xml:lang="it">Leiden</placeName>
       <location>
          <country key="NL"/>
          <geo>52.15833, 4.49306</geo>
@@ -411,22 +411,23 @@
       <idno type="geonames">2751773</idno>
    </place>
    <place xml:id="DLCL_CF_L0051" type="settlement" sameAs="https://www.geonames.org/3172242/">
-      <placeName>Nocera Umbra</placeName>
+      <placeName xml:lang="it">Nocera Umbra</placeName>
       <location>
          <country key="IT"/>
          <geo>43.114, 12.78925</geo>
       </location>
       <idno type="geonames">3172242</idno>
    </place>
-   <place xml:id="DLCL_CF_L0052" type="settlement" source="https://it.wikipedia.org/wiki/Nocera_dei_Pagani">
-      <placeName>Nocera dei Pagani</placeName>
+   <place xml:id="DLCL_CF_L0052" type="settlement"
+      source="https://it.wikipedia.org/wiki/Nocera_dei_Pagani">
+      <placeName xml:lang="it">Nocera dei Pagani</placeName>
       <location>
          <country key="IT"/>
          <geo>40.7333, 14.6167</geo>
       </location>
    </place>
    <place xml:id="DLCL_CF_L0053" type="settlement" sameAs="https://www.geonames.org/2874225/">
-      <placeName>Magonza</placeName>
+      <placeName xml:lang="it">Magonza</placeName>
       <location>
          <country key="DE"/>
          <geo>49.98419, 8.2791</geo>
@@ -434,15 +435,15 @@
       <idno type="geonames">2874225</idno>
    </place>
    <place xml:id="DLCL_CF_L0054" type="settlement" sameAs="https://www.geonames.org/3171457/">
-      <placeName>Parma</placeName>
+      <placeName xml:lang="it">Parma</placeName>
       <location>
          <country key="IT"/>
          <geo>44.79935, 10.32618</geo>
       </location>
       <idno type="geonames">3171457</idno>
    </place>
-   <place xml:id="DLCL_CF_L0055" type="stream" sameAs="https://www.geonames.org/3170550">
-      <placeName>Po</placeName>
+   <place xml:id="DLCL_CF_L0055" type="stream" sameAs="https://www.geonames.org/3170550/">
+      <placeName xml:lang="it">Po</placeName>
       <location>
          <country key="IT"/>
          <geo>44.97472, 12.05444</geo>
@@ -450,7 +451,7 @@
       <idno type="geonames">3170550</idno>
    </place>
    <place xml:id="DLCL_CF_L0056" type="region" sameAs="https://www.geonames.org/2523119/">
-      <placeName>Sicilia</placeName>
+      <placeName xml:lang="it">Sicilia</placeName>
       <location>
          <country key="IT"/>
          <geo>37.75, 14.25</geo>
@@ -458,7 +459,7 @@
       <idno type="geonames">2523119</idno>
    </place>
    <place xml:id="DLCL_CF_L0057" type="bay" sameAs="https://www.geonames.org/3173353/">
-      <placeName>Porto di Miseno</placeName>
+      <placeName xml:lang="it">Porto di Miseno</placeName>
       <location>
          <country key="IT"/>
          <geo>40.78333, 14.08333</geo>
@@ -466,7 +467,7 @@
       <idno type="geonames">3173353</idno>
    </place>
    <place xml:id="DLCL_CF_L0058" type="settlement" sameAs="https://www.geonames.org/3174051/">
-      <placeName>Mantova</placeName>
+      <placeName xml:lang="it">Mantova</placeName>
       <location>
          <country key="IT"/>
          <geo>45.16031, 10.79784</geo>
@@ -474,7 +475,7 @@
       <idno type="geonames">3174051</idno>
    </place>
    <place xml:id="DLCL_CF_L0059" type="stream" sameAs="https://www.geonames.org/3165709/">
-      <placeName>Tevere</placeName>
+      <placeName xml:lang="it">Tevere</placeName>
       <location>
          <country key="IT"/>
          <geo>41.74032, 12.23371</geo>
@@ -482,7 +483,7 @@
       <idno type="geonames">3165709</idno>
    </place>
    <place xml:id="DLCL_CF_L0060" type="settlement" sameAs="https://www.geonames.org/3167104/">
-      <placeName>Sarzana</placeName>
+      <placeName xml:lang="it">Sarzana</placeName>
       <location>
          <country key="IT"/>
          <geo>44.11178, 9.9622</geo>
@@ -490,14 +491,14 @@
       <idno type="geonames">3167104</idno>
    </place>
    <place xml:id="DLCL_CF_L0061" type="continent" sameAs="https://www.geonames.org/6255148/">
-      <placeName>Europa</placeName>
+      <placeName xml:lang="it">Europa</placeName>
       <location>
          <geo>48.69096, 9.14062</geo>
       </location>
       <idno type="geonames">6255148</idno>
    </place>
-   <place xml:id="DLCL_CF_L0062" type="historic-region" sameAs="https://www.geonames.org/3202210">
-      <placeName>Dalmazia</placeName>
+   <place xml:id="DLCL_CF_L0062" type="historic-region" sameAs="https://www.geonames.org/3202210/">
+      <placeName xml:lang="it">Dalmazia</placeName>
       <location>
          <country key="HR"/>
          <geo>43, 17</geo>
@@ -505,7 +506,7 @@
       <idno type="geonames">3202210</idno>
    </place>
    <place xml:id="DLCL_CF_L0063" type="region" sameAs="https://www.geonames.org/3169068/">
-      <placeName>Romagna</placeName>
+      <placeName xml:lang="it">Romagna</placeName>
       <location>
          <country key="IT"/>
          <geo>44.5, 12.25</geo>
@@ -513,7 +514,7 @@
       <idno type="geonames">3169068</idno>
    </place>
    <place xml:id="DLCL_CF_L0064" type="settlement" sameAs="https://www.geonames.org/3182722/">
-      <placeName>Assisi</placeName>
+      <placeName xml:lang="it">Assisi</placeName>
       <location>
          <country key="IT"/>
          <geo>43.06671, 12.62109</geo>
@@ -521,7 +522,7 @@
       <idno type="geonames">3182722</idno>
    </place>
    <place xml:id="DLCL_CF_L0065" type="settlement" sameAs="https://www.geonames.org/2759794/">
-      <placeName>Amsterdam</placeName>
+      <placeName xml:lang="it">Amsterdam</placeName>
       <location>
          <country key="NL"/>
          <geo>52.37403, 4.88969</geo>
@@ -529,7 +530,7 @@
       <idno type="geonames">2759794</idno>
    </place>
    <place xml:id="DLCL_CF_L0066" type="settlement" sameAs="https://www.geonames.org/2935022/">
-      <placeName>Dresda</placeName>
+      <placeName xml:lang="it">Dresda</placeName>
       <location>
          <country key="DE"/>
          <geo>51.05089, 13.73832</geo>
@@ -537,7 +538,7 @@
       <idno type="geonames">2935022</idno>
    </place>
    <place xml:id="DLCL_CF_L0067" type="settlement" sameAs="https://www.geonames.org/3171848/">
-      <placeName>Osimo</placeName>
+      <placeName xml:lang="it">Osimo</placeName>
       <location>
          <country key="IT"/>
          <geo>43.48539, 13.48222</geo>
@@ -545,7 +546,7 @@
       <idno type="geonames">3171848</idno>
    </place>
    <place xml:id="DLCL_CF_L0068" type="settlement" sameAs="https://www.geonames.org/3166236/">
-      <placeName>Spoleto</placeName>
+      <placeName xml:lang="it">Spoleto</placeName>
       <location>
          <country key="IT"/>
          <geo>42.74071, 12.73899</geo>
@@ -553,7 +554,7 @@
       <idno type="geonames">3166236</idno>
    </place>
    <place xml:id="DLCL_CF_L0069" type="settlement" sameAs="https://www.geonames.org/3172941/">
-      <placeName>Montefalco</placeName>
+      <placeName xml:lang="it">Montefalco</placeName>
       <location>
          <country key="IT"/>
          <geo>42.89084, 12.64827</geo>
@@ -561,7 +562,7 @@
       <idno type="geonames">3172941</idno>
    </place>
    <place xml:id="DLCL_CF_L0070" type="settlement" sameAs="https://www.geonames.org/3182179/">
-      <placeName>Benevento</placeName>
+      <placeName xml:lang="it">Benevento</placeName>
       <location>
          <country key="IT"/>
          <geo>41.1307, 14.77816</geo>
@@ -569,7 +570,7 @@
       <idno type="geonames">3182179</idno>
    </place>
    <place xml:id="DLCL_CF_L0071" type="settlement" sameAs="https://www.geonames.org/3164039/">
-      <placeName>Viterbo</placeName>
+      <placeName xml:lang="it">Viterbo</placeName>
       <location>
          <country key="IT"/>
          <geo>42.41937, 12.1056</geo>
@@ -577,7 +578,7 @@
       <idno type="geonames">3164039</idno>
    </place>
    <place xml:id="DLCL_CF_L0072" type="nation" sameAs="https://www.geonames.org/1814991/">
-      <placeName>Cina</placeName>
+      <placeName xml:lang="it">Cina</placeName>
       <location>
          <country key="CN"/>
          <geo>35, 105</geo>
@@ -585,7 +586,7 @@
       <idno type="geonames">1814991</idno>
    </place>
    <place xml:id="DLCL_CF_L0073" type="settlement" sameAs="https://www.geonames.org/3181521/">
-      <placeName>Brisighella</placeName>
+      <placeName xml:lang="it">Brisighella</placeName>
       <location>
          <country key="IT"/>
          <geo>44.22228, 11.77358</geo>
@@ -593,7 +594,7 @@
       <idno type="geonames">3181521</idno>
    </place>
    <place xml:id="DLCL_CF_L0074" type="settlement" sameAs="https://www.geonames.org/2885679/">
-      <placeName>Costanza</placeName>
+      <placeName xml:lang="it">Costanza</placeName>
       <location>
          <country key="DE"/>
          <geo>47.66033, 9.17582</geo>
@@ -601,7 +602,7 @@
       <idno type="geonames">2885679</idno>
    </place>
    <place xml:id="DLCL_CF_L0075" type="settlement" sameAs="https://www.geonames.org/3170647/">
-      <placeName>Pisa</placeName>
+      <placeName xml:lang="it">Pisa</placeName>
       <location>
          <country key="IT"/>
          <geo>43.70853, 10.4036</geo>
@@ -609,7 +610,7 @@
       <idno type="geonames">3170647</idno>
    </place>
    <place xml:id="DLCL_CF_L0076" type="settlement" sameAs="https://www.geonames.org/8964560/">
-      <placeName>Doccia</placeName>
+      <placeName xml:lang="it">Doccia</placeName>
       <location>
          <country key="IT"/>
          <geo>43.17816, 11.81286</geo>
@@ -617,7 +618,7 @@
       <idno type="geonames">8964560</idno>
    </place>
    <place xml:id="DLCL_CF_L0077" type="settlement" sameAs="https://www.geonames.org/745044/">
-      <placeName>Costantinopoli</placeName>
+      <placeName xml:lang="it">Costantinopoli</placeName>
       <location>
          <country key="TR"/>
          <geo>41.01384, 28.94966</geo>
@@ -625,7 +626,7 @@
       <idno type="geonames">745044</idno>
    </place>
    <place xml:id="DLCL_CF_L0078" type="mountain" sameAs="https://www.geonames.org/6697959/">
-      <placeName>Montecassino</placeName>
+      <placeName xml:lang="it">Montecassino</placeName>
       <location>
          <country key="IT"/>
          <geo>41.49166, 13.81335</geo>
@@ -633,7 +634,7 @@
       <idno type="geonames">6697959</idno>
    </place>
    <place xml:id="DLCL_CF_L0079" type="region" sameAs="https://www.geonames.org/3165361/">
-      <placeName>Toscana</placeName>
+      <placeName xml:lang="it">Toscana</placeName>
       <location>
          <country key="IT"/>
          <geo>43.41667, 11</geo>
@@ -641,7 +642,7 @@
       <idno type="geonames">3165361</idno>
    </place>
    <place xml:id="DLCL_CF_L0080" type="hill" sameAs="https://www.geonames.org/3182644/">
-      <placeName>Aventino</placeName>
+      <placeName xml:lang="it">Aventino</placeName>
       <location>
          <country key="IT"/>
          <geo>41.88333, 12.48333</geo>
@@ -649,7 +650,7 @@
       <idno type="geonames">3182644</idno>
    </place>
    <place xml:id="DLCL_CF_L0081" type="region" sameAs="https://www.geonames.org/622404/">
-      <placeName>Sarmazia</placeName>
+      <placeName xml:lang="it">Sarmazia</placeName>
       <location>
          <country key="BY"/>
          <geo>51, 32</geo>
@@ -657,7 +658,7 @@
       <idno type="geonames">622404</idno>
    </place>
    <place xml:id="DLCL_CF_L0082" type="settlement" sameAs="https://www.geonames.org/3172394/">
-      <placeName>Napoli</placeName>
+      <placeName xml:lang="it">Napoli</placeName>
       <location>
          <country key="IT"/>
          <geo>40.85216, 14.26811</geo>
@@ -665,7 +666,7 @@
       <idno type="geonames">3172394</idno>
    </place>
    <place xml:id="DLCL_CF_L0083" type="settlement" sameAs="https://www.geonames.org/3176219/">
-      <placeName>Genova</placeName>
+      <placeName xml:lang="it">Genova</placeName>
       <location>
          <country key="IT"/>
          <geo>44.40478, 8.94439</geo>
@@ -673,7 +674,7 @@
       <idno type="geonames">3176219</idno>
    </place>
    <place xml:id="DLCL_CF_L0084" type="region" sameAs="https://www.geonames.org/3170831/">
-      <placeName>Piemonte</placeName>
+      <placeName xml:lang="it">Piemonte</placeName>
       <location>
          <country key="IT"/>
          <geo>45, 8</geo>
@@ -681,7 +682,7 @@
       <idno type="geonames">3170831</idno>
    </place>
    <place xml:id="DLCL_CF_L0085" type="settlement" sameAs="https://www.geonames.org/3174530/">
-      <placeName>Lucca</placeName>
+      <placeName xml:lang="it">Lucca</placeName>
       <location>
          <country key="IT"/>
          <geo>43.84369, 10.50447</geo>
@@ -689,7 +690,7 @@
       <idno type="geonames">3174530</idno>
    </place>
    <place xml:id="DLCL_CF_L0086" type="settlement" sameAs="https://www.geonames.org/3177489/">
-      <placeName>Dozza</placeName>
+      <placeName xml:lang="it">Dozza</placeName>
       <location>
          <country key="IT"/>
          <geo>44.36195, 11.63547</geo>
@@ -697,7 +698,7 @@
       <idno type="geonames">3177489</idno>
    </place>
    <place xml:id="DLCL_CF_L0087" type="settlement" sameAs="https://www.geonames.org/3178998/">
-      <placeName>Cervia</placeName>
+      <placeName xml:lang="it">Cervia</placeName>
       <location>
          <country key="IT"/>
          <geo>44.26204, 12.34812</geo>
@@ -705,7 +706,7 @@
       <idno type="geonames">3178998</idno>
    </place>
    <place xml:id="DLCL_CF_L0088" type="nation" sameAs="https://www.geonames.org/163843/">
-      <placeName>Siria</placeName>
+      <placeName xml:lang="it">Siria</placeName>
       <location>
          <country key="SY"/>
          <geo>35, 38</geo>
@@ -713,25 +714,27 @@
       <idno type="geonames">163843</idno>
    </place>
    <place xml:id="DLCL_CF_L0089" type="nation" sameAs="https://www.geonames.org/357994/">
-      <placeName>Egitto</placeName>
+      <placeName xml:lang="it">Egitto</placeName>
       <location>
          <country key="EG"/>
          <geo>27, 30</geo>
       </location>
       <idno type="geonames">357994</idno>
    </place>
-   <place xml:id="DLCL_CF_L0090" type="monastic-site" source="https://en.wikipedia.org/wiki/Nitria_(monastic_site)">
-      <placeName>Nitria</placeName>
+   <place xml:id="DLCL_CF_L0090" type="monastic-site"
+      source="https://en.wikipedia.org/wiki/Nitria_(monastic_site)">
+      <placeName xml:lang="it">Nitria</placeName>
       <location>
          <country key="EG"/>
          <geo>30.9287, 30.3856</geo>
       </location>
    </place>
-   <place xml:id="DLCL_CF_L0091" type="historic-region" source="https://it.wikipedia.org/wiki/Mesopotamia">
-      <placeName>Mesopotamia</placeName>
+   <place xml:id="DLCL_CF_L0091" type="historic-region"
+      source="https://it.wikipedia.org/wiki/Mesopotamia">
+      <placeName xml:lang="it">Mesopotamia</placeName>
    </place>
    <place xml:id="DLCL_CF_L0092" type="settlement" sameAs="https://www.geonames.org/2849483/">
-      <placeName>Ratisbona</placeName>
+      <placeName xml:lang="it">Ratisbona</placeName>
       <location>
          <country key="DE"/>
          <geo>49.01513, 12.10161</geo>
@@ -739,7 +742,7 @@
       <idno type="geonames">2849483</idno>
    </place>
    <place xml:id="DLCL_CF_L0093" type="settlement" sameAs="https://www.geonames.org/3172629/">
-      <placeName>Monza</placeName>
+      <placeName xml:lang="it">Monza</placeName>
       <location>
          <country key="IT"/>
          <geo>45.58005, 9.27246</geo>
@@ -747,7 +750,7 @@
       <idno type="geonames">3172629</idno>
    </place>
    <place xml:id="DLCL_CF_L0094" type="settlement" sameAs="https://www.geonames.org/3173635/">
-      <placeName>Meldola</placeName>
+      <placeName xml:lang="it">Meldola</placeName>
       <location>
          <country key="IT"/>
          <geo>44.12775, 12.0626</geo>
@@ -755,18 +758,19 @@
       <idno type="geonames">3173635</idno>
    </place>
    <place xml:id="DLCL_CF_L0095" type="settlement" sameAs="https://www.geonames.org/3174638/">
-      <placeName>Lodi</placeName>
+      <placeName xml:lang="it">Lodi</placeName>
       <location>
          <country key="IT"/>
          <geo>45.30989, 9.50085</geo>
       </location>
       <idno type="geonames">3174638</idno>
    </place>
-   <place xml:id="DLCL_CF_L0096" type="historic-region" source="https://it.wikipedia.org/wiki/Prussia">
-      <placeName>Prussia</placeName>
+   <place xml:id="DLCL_CF_L0096" type="historic-region"
+      source="https://it.wikipedia.org/wiki/Prussia">
+      <placeName xml:lang="it">Prussia</placeName>
    </place>
    <place xml:id="DLCL_CF_L0097" type="settlement" sameAs="https://www.geonames.org/7303020/">
-      <placeName>Wittenberg</placeName>
+      <placeName xml:lang="it">Wittenberg</placeName>
       <location>
          <country key="DE"/>
          <geo>51.8661, 12.64973</geo>
@@ -774,7 +778,7 @@
       <idno type="geonames">7303020</idno>
    </place>
    <place xml:id="DLCL_CF_L0098" type="settlement" sameAs="https://www.geonames.org/2945356/">
-      <placeName>Brandeburgo</placeName>
+      <placeName xml:lang="it">Brandeburgo</placeName>
       <location>
          <country key="DE"/>
          <geo>52.45905, 13.01582</geo>
@@ -782,7 +786,7 @@
       <idno type="geonames">2945356</idno>
    </place>
    <place xml:id="DLCL_CF_L0099" type="settlement" sameAs="https://www.geonames.org/2951839/">
-      <placeName>Baviera</placeName>
+      <placeName xml:lang="it">Baviera</placeName>
       <location>
          <country key="DE"/>
          <geo>49, 11.5</geo>
@@ -790,7 +794,7 @@
       <idno type="geonames">2951839</idno>
    </place>
    <place xml:id="DLCL_CF_L0100" type="nation" sameAs="https://www.geonames.org/719819/">
-      <placeName>Ungheria</placeName>
+      <placeName xml:lang="it">Ungheria</placeName>
       <location>
          <country key="HU"/>
          <geo>47, 20</geo>
@@ -798,14 +802,14 @@
       <idno type="geonames">719819</idno>
    </place>
    <place xml:id="DLCL_CF_L0101" type="region" sameAs="https://www.geonames.org/7729884/">
-      <placeName>Europa Orientale</placeName>
+      <placeName xml:lang="it">Europa Orientale</placeName>
       <location>
          <geo>51.72703, 28.38867</geo>
       </location>
       <idno type="geonames">7729884</idno>
    </place>
    <place xml:id="DLCL_CF_L0102" type="nation" sameAs="https://www.geonames.org/2017370/">
-      <placeName>Russia</placeName>
+      <placeName xml:lang="it">Russia</placeName>
       <location>
          <country key="RU"/>
          <geo>60, 100</geo>
@@ -813,7 +817,7 @@
       <idno type="geonames">2017370</idno>
    </place>
    <place xml:id="DLCL_CF_L0103" type="nation" sameAs="https://www.geonames.org/798544/">
-      <placeName>Polonia</placeName>
+      <placeName xml:lang="it">Polonia</placeName>
       <location>
          <country key="PL"/>
          <geo>52, 20</geo>
@@ -821,7 +825,7 @@
       <idno type="geonames">798544</idno>
    </place>
    <place xml:id="DLCL_CF_L0104" type="nation" sameAs="https://www.geonames.org/597427/">
-      <placeName>Lituania</placeName>
+      <placeName xml:lang="it">Lituania</placeName>
       <location>
          <country key="LT"/>
          <geo>55.41667, 24</geo>
@@ -829,15 +833,15 @@
       <idno type="geonames">597427</idno>
    </place>
    <place xml:id="DLCL_CF_L0105" type="nation" sameAs="https://www.geonames.org/617790/">
-      <placeName>Moldavia</placeName>
+      <placeName xml:lang="it">Moldavia</placeName>
       <location>
          <country key="MD"/>
          <geo>47.25, 28.58333</geo>
       </location>
       <idno type="geonames">617790</idno>
    </place>
-   <place xml:id="DLCL_CF_L0106" type="historic-region" sameAs="https://www.geonames.org/664661">
-      <placeName>Transilvania</placeName>
+   <place xml:id="DLCL_CF_L0106" type="historic-region" sameAs="https://www.geonames.org/664661/">
+      <placeName xml:lang="it">Transilvania</placeName>
       <location>
          <country key="RO"/>
          <geo>46.5, 25</geo>
@@ -845,7 +849,7 @@
       <idno type="geonames">664661</idno>
    </place>
    <place xml:id="DLCL_CF_L0107" type="settlement" sameAs="https://www.geonames.org/3165524/">
-      <placeName>Torino</placeName>
+      <placeName xml:lang="it">Torino</placeName>
       <location>
          <country key="IT"/>
          <geo>45.07049, 7.68682</geo>
@@ -853,7 +857,7 @@
       <idno type="geonames">3165524</idno>
    </place>
    <place xml:id="DLCL_CF_L0108" type="settlement" sameAs="https://www.geonames.org/3165035/">
-      <placeName>Urbino</placeName>
+      <placeName xml:lang="it">Urbino</placeName>
       <location>
          <country key="IT"/>
          <geo>43.72621, 12.63633</geo>
@@ -861,7 +865,7 @@
       <idno type="geonames">3165035</idno>
    </place>
    <place xml:id="DLCL_CF_L0109" type="settlement" sameAs="https://www.geonames.org/3167030/">
-      <placeName>Savignano sul Rubicone</placeName>
+      <placeName xml:lang="it">Savignano sul Rubicone</placeName>
       <location>
          <country key="IT"/>
          <geo>44.09009, 12.39935</geo>
@@ -869,7 +873,7 @@
       <idno type="geonames">3167030</idno>
    </place>
    <place xml:id="DLCL_CF_L0110" type="settlement" sameAs="https://www.geonames.org/2886242/">
-      <placeName>Colonia</placeName>
+      <placeName xml:lang="it">Colonia</placeName>
       <location>
          <country key="DE"/>
          <geo>50.93333, 6.95</geo>
@@ -877,7 +881,7 @@
       <idno type="geonames">2886242</idno>
    </place>
    <place xml:id="DLCL_CF_L0111" type="settlement" sameAs="https://www.geonames.org/3183098/">
-      <placeName>Anagni</placeName>
+      <placeName xml:lang="it">Anagni</placeName>
       <location>
          <country key="IT"/>
          <geo>41.7435, 13.15542</geo>
@@ -885,7 +889,7 @@
       <idno type="geonames">3183098</idno>
    </place>
    <place xml:id="DLCL_CF_L0112" type="settlement" sameAs="https://www.geonames.org/3180177/">
-      <placeName>Casalmaggiore</placeName>
+      <placeName xml:lang="it">Casalmaggiore</placeName>
       <location>
          <country key="IT"/>
          <geo>44.98981, 10.42055</geo>
@@ -893,7 +897,7 @@
       <idno type="geonames">3180177</idno>
    </place>
    <place xml:id="DLCL_CF_L0113" type="settlement" sameAs="https://www.geonames.org/3173775/">
-      <placeName>Massa</placeName>
+      <placeName xml:lang="it">Massa</placeName>
       <location>
          <country key="IT"/>
          <geo>44.03541, 10.13927</geo>
@@ -901,7 +905,7 @@
       <idno type="geonames">3173775</idno>
    </place>
    <place xml:id="DLCL_CF_L0114" type="settlement" sameAs="https://www.geonames.org/3175628/">
-      <placeName>Jesi</placeName>
+      <placeName xml:lang="it">Jesi</placeName>
       <location>
          <country key="IT"/>
          <geo>43.52142, 13.24368</geo>
@@ -909,7 +913,7 @@
       <idno type="geonames">3175628</idno>
    </place>
    <place xml:id="DLCL_CF_L0115" type="settlement" sameAs="https://www.geonames.org/2761369/">
-      <placeName>Vienna</placeName>
+      <placeName xml:lang="it">Vienna</placeName>
       <location>
          <country key="AT"/>
          <geo>48.20849, 16.37208</geo>
@@ -917,7 +921,7 @@
       <idno type="geonames">2761369</idno>
    </place>
    <place xml:id="DLCL_CF_L0116" type="settlement" sameAs="https://www.geonames.org/3167110/">
-      <placeName>Sarsina</placeName>
+      <placeName xml:lang="it">Sarsina</placeName>
       <location>
          <country key="IT"/>
          <geo>43.91981, 12.14255</geo>
@@ -925,7 +929,7 @@
       <idno type="geonames">3167110</idno>
    </place>
    <place xml:id="DLCL_CF_L0117" type="settlement" sameAs="https://www.geonames.org/3172377/">
-      <placeName>Narni</placeName>
+      <placeName xml:lang="it">Narni</placeName>
       <location>
          <country key="IT"/>
          <geo>42.51956, 12.52758</geo>
@@ -933,7 +937,7 @@
       <idno type="geonames">3172377</idno>
    </place>
    <place xml:id="DLCL_CF_L0118" type="nation" sameAs="https://www.geonames.org/2921044/">
-      <placeName>Germania</placeName>
+      <placeName xml:lang="it">Germania</placeName>
       <location>
          <country key="DE"/>
          <geo>51.5, 10.5</geo>
@@ -941,7 +945,7 @@
       <idno type="geonames">2921044</idno>
    </place>
    <place xml:id="DLCL_CF_L0119" type="settlement" sameAs="https://www.geonames.org/3165612/">
-      <placeName>Todi</placeName>
+      <placeName xml:lang="it">Todi</placeName>
       <location>
          <country key="IT"/>
          <geo>42.77881, 12.41202</geo>
@@ -949,7 +953,7 @@
       <idno type="geonames">3165612</idno>
    </place>
    <place xml:id="DLCL_CF_L0120" type="settlement" sameAs="https://www.geonames.org/3036938/">
-      <placeName>Arles</placeName>
+      <placeName xml:lang="it">Arles</placeName>
       <location>
          <country key="FR"/>
          <geo>43.67681, 4.63031</geo>
@@ -957,7 +961,7 @@
       <idno type="geonames">3036938</idno>
    </place>
    <place xml:id="DLCL_CF_L0121" type="settlement" sameAs="https://www.geonames.org/3175693/">
-      <placeName>Guastalla</placeName>
+      <placeName xml:lang="it">Guastalla</placeName>
       <location>
          <country key="IT"/>
          <geo>44.91172, 10.66186</geo>
@@ -965,7 +969,7 @@
       <idno type="geonames">3175693</idno>
    </place>
    <place xml:id="DLCL_CF_L0122" type="settlement" sameAs="https://www.geonames.org/3168726/">
-      <placeName>Camaldoli</placeName>
+      <placeName xml:lang="it">Camaldoli</placeName>
       <location>
          <country key="IT"/>
          <geo>43.79359, 11.82031</geo>
@@ -973,7 +977,7 @@
       <idno type="geonames">3168726</idno>
    </place>
    <place xml:id="DLCL_CF_L0123" type="historic-region" sameAs="https://www.geonames.org/3035876/">
-      <placeName>Alvernia</placeName>
+      <placeName xml:lang="it">Alvernia</placeName>
       <location>
          <country key="FR"/>
          <geo>45.66667, 3.16667</geo>
@@ -981,7 +985,7 @@
       <idno type="geonames">3035876</idno>
    </place>
    <place xml:id="DLCL_CF_L0124" type="settlement" sameAs="https://www.geonames.org/3178619/">
-      <placeName>Città di Castello</placeName>
+      <placeName xml:lang="it">Città di Castello</placeName>
       <location>
          <country key="IT"/>
          <geo>43.46556, 12.2375</geo>
@@ -989,7 +993,7 @@
       <idno type="geonames">3178619</idno>
    </place>
    <place xml:id="DLCL_CF_L0125" type="settlement" sameAs="https://www.geonames.org/3181554/">
-      <placeName>Brescia</placeName>
+      <placeName xml:lang="it">Brescia</placeName>
       <location>
          <country key="IT"/>
          <geo>45.53558, 10.21472</geo>
@@ -997,7 +1001,7 @@
       <idno type="geonames">3181554</idno>
    </place>
    <place xml:id="DLCL_CF_L0126" type="settlement" sameAs="https://www.geonames.org/3165201/">
-      <placeName>Treviso</placeName>
+      <placeName xml:lang="it">Treviso</placeName>
       <location>
          <country key="IT"/>
          <geo>45.66673, 12.2416</geo>
@@ -1005,7 +1009,7 @@
       <idno type="geonames">3165201</idno>
    </place>
    <place xml:id="DLCL_CF_L0127" type="settlement" sameAs="https://www.geonames.org/3167363/">
-      <placeName>Santa Sofia</placeName>
+      <placeName xml:lang="it">Santa Sofia</placeName>
       <location>
          <country key="IT"/>
          <geo>43.94724, 11.90867</geo>
@@ -1013,7 +1017,7 @@
       <idno type="geonames">3167363</idno>
    </place>
    <place xml:id="DLCL_CF_L0128" type="settlement" sameAs="https://www.geonames.org/2523630/">
-      <placeName>Reggio Calabria</placeName>
+      <placeName xml:lang="it">Reggio Calabria</placeName>
       <location>
          <country key="IT"/>
          <geo>38.11047, 15.66129</geo>
@@ -1021,7 +1025,7 @@
       <idno type="geonames">2523630</idno>
    </place>
    <place xml:id="DLCL_CF_L0129" type="settlement" sameAs="https://www.geonames.org/3170621/">
-      <placeName>Pistoia</placeName>
+      <placeName xml:lang="it">Pistoia</placeName>
       <location>
          <country key="IT"/>
          <geo>43.93064, 10.92365</geo>
@@ -1029,7 +1033,7 @@
       <idno type="geonames">3170621</idno>
    </place>
    <place xml:id="DLCL_CF_L0130" type="settlement" sameAs="https://www.geonames.org/3166052/">
-      <placeName>Subiaco</placeName>
+      <placeName xml:lang="it">Subiaco</placeName>
       <location>
          <country key="IT"/>
          <geo>41.92619, 13.08906</geo>
@@ -1037,7 +1041,7 @@
       <idno type="geonames">3166052</idno>
    </place>
    <place xml:id="DLCL_CF_L0131" type="settlement" sameAs="https://www.geonames.org/3163962/">
-      <placeName>Volterra</placeName>
+      <placeName xml:lang="it">Volterra</placeName>
       <location>
          <country key="IT"/>
          <geo>43.40251, 10.86152</geo>
@@ -1045,7 +1049,7 @@
       <idno type="geonames">3163962</idno>
    </place>
    <place xml:id="DLCL_CF_L0132" type="settlement" sameAs="https://www.geonames.org/3181094/">
-      <placeName>Camerino</placeName>
+      <placeName xml:lang="it">Camerino</placeName>
       <location>
          <country key="IT"/>
          <geo>43.13866, 13.06785</geo>
@@ -1053,7 +1057,7 @@
       <idno type="geonames">3181094</idno>
    </place>
    <place xml:id="DLCL_CF_L0133" type="settlement" sameAs="https://www.geonames.org/2792482/">
-      <placeName>Lovanio</placeName>
+      <placeName xml:lang="it">Lovanio</placeName>
       <location>
          <country key="BE"/>
          <geo>50.87959, 4.70093</geo>
@@ -1061,7 +1065,7 @@
       <idno type="geonames">2792482</idno>
    </place>
    <place xml:id="DLCL_CF_L0134" type="settlement" sameAs="https://www.geonames.org/2936974/">
-      <placeName>Dilinga</placeName>
+      <placeName xml:lang="it">Dilinga</placeName>
       <location>
          <country key="DE"/>
          <geo>48.58153, 10.49527</geo>
@@ -1069,7 +1073,7 @@
       <idno type="geonames">2936974</idno>
    </place>
    <place xml:id="DLCL_CF_L0135" type="settlement" sameAs="https://www.geonames.org/3181277/">
-      <placeName>Cagli</placeName>
+      <placeName xml:lang="it">Cagli</placeName>
       <location>
          <country key="IT"/>
          <geo>43.54771, 12.65229</geo>
@@ -1077,7 +1081,7 @@
       <idno type="geonames">3181277</idno>
    </place>
    <place xml:id="DLCL_CF_L0136" type="settlement" sameAs="https://www.geonames.org/3183089/">
-      <placeName>Ancona</placeName>
+      <placeName xml:lang="it">Ancona</placeName>
       <location>
          <country key="IT"/>
          <geo>43.5942, 13.50337</geo>
@@ -1085,7 +1089,7 @@
       <idno type="geonames">3183089</idno>
    </place>
    <place xml:id="DLCL_CF_L0137" type="settlement" sameAs="https://www.geonames.org/3182650/">
-      <placeName>Avellino</placeName>
+      <placeName xml:lang="it">Avellino</placeName>
       <location>
          <country key="IT"/>
          <geo>40.91494, 14.79103</geo>
@@ -1093,7 +1097,7 @@
       <idno type="geonames">3182650</idno>
    </place>
    <place xml:id="DLCL_CF_L0138" type="settlement" sameAs="https://www.geonames.org/3176533/">
-      <placeName>Frigento</placeName>
+      <placeName xml:lang="it">Frigento</placeName>
       <location>
          <country key="IT"/>
          <geo>41.01103, 15.10026</geo>
@@ -1101,7 +1105,7 @@
       <idno type="geonames">3176533</idno>
    </place>
    <place xml:id="DLCL_CF_L0139" type="settlement" sameAs="https://www.geonames.org/3174659/">
-      <placeName>Livorno</placeName>
+      <placeName xml:lang="it">Livorno</placeName>
       <location>
          <country key="IT"/>
          <geo>43.54427, 10.32615</geo>
@@ -1109,7 +1113,7 @@
       <idno type="geonames">3174659</idno>
    </place>
    <place xml:id="DLCL_CF_L0140" type="settlement" sameAs="https://www.geonames.org/3173722/">
-      <placeName>Matelica</placeName>
+      <placeName xml:lang="it">Matelica</placeName>
       <location>
          <country key="IT"/>
          <geo>43.25788, 13.0075</geo>
@@ -1117,7 +1121,7 @@
       <idno type="geonames">3173722</idno>
    </place>
    <place xml:id="DLCL_CF_L0141" type="settlement" sameAs="https://www.geonames.org/3166655/">
-      <placeName>Serra di San Quirico</placeName>
+      <placeName xml:lang="it">Serra di San Quirico</placeName>
       <location>
          <country key="IT"/>
          <geo>43.44637, 13.02266</geo>
@@ -1125,7 +1129,7 @@
       <idno type="geonames">3166655</idno>
    </place>
    <place xml:id="DLCL_CF_L0142" type="settlement" sameAs="https://www.geonames.org/3194379/">
-      <placeName>Cittanova</placeName>
+      <placeName xml:lang="it">Cittanova</placeName>
       <location>
          <country key="HR"/>
          <geo>45.315, 13.55806</geo>
@@ -1133,7 +1137,7 @@
       <idno type="geonames">3194379</idno>
    </place>
    <place xml:id="DLCL_CF_L0143" type="region" sameAs="https://www.geonames.org/3337514/">
-      <placeName>Istria</placeName>
+      <placeName xml:lang="it">Istria</placeName>
       <location>
          <country key="HR"/>
          <geo>45.25, 13.91667</geo>
@@ -1141,7 +1145,7 @@
       <idno type="geonames">3337514</idno>
    </place>
    <place xml:id="DLCL_CF_L0144" type="settlement" sameAs="https://www.geonames.org/3164527/">
-      <placeName>Verona</placeName>
+      <placeName xml:lang="it">Verona</placeName>
       <location>
          <country key="IT"/>
          <geo>45.43854, 10.9938</geo>
@@ -1149,7 +1153,7 @@
       <idno type="geonames">3164527</idno>
    </place>
    <place xml:id="DLCL_CF_L0145" type="settlement" sameAs="https://www.geonames.org/3176743/">
-      <placeName>Forlimpopoli</placeName>
+      <placeName xml:lang="it">Forlimpopoli</placeName>
       <location>
          <country key="IT"/>
          <geo>44.19107, 12.12873</geo>
@@ -1157,7 +1161,7 @@
       <idno type="geonames">3176743</idno>
    </place>
    <place xml:id="DLCL_CF_L0146" type="settlement" sameAs="https://www.geonames.org/3170660/">
-      <placeName>Pioraco</placeName>
+      <placeName xml:lang="it">Pioraco</placeName>
       <location>
          <country key="IT"/>
          <geo>43.18074, 12.97676</geo>
@@ -1165,7 +1169,7 @@
       <idno type="geonames">3170660</idno>
    </place>
    <place xml:id="DLCL_CF_L0147" type="region" sameAs="https://www.geonames.org/2525468/">
-      <placeName>Calabria</placeName>
+      <placeName xml:lang="it">Calabria</placeName>
       <location>
          <country key="IT"/>
          <geo>39, 16.5</geo>
@@ -1173,7 +1177,7 @@
       <idno type="geonames">2525468</idno>
    </place>
    <place xml:id="DLCL_CF_L0148" type="settlement" sameAs="https://www.geonames.org/2524907/">
-      <placeName>Cosenza</placeName>
+      <placeName xml:lang="it">Cosenza</placeName>
       <location>
          <country key="IT"/>
          <geo>39.2989, 16.25307</geo>
@@ -1181,7 +1185,7 @@
       <idno type="geonames">2524907</idno>
    </place>
    <place xml:id="DLCL_CF_L0149" type="settlement" sameAs="https://www.geonames.org/3167333/">
-      <placeName>Sant'Elpidio a Mare</placeName>
+      <placeName xml:lang="it">Sant'Elpidio a Mare</placeName>
       <location>
          <country key="IT"/>
          <geo>43.23024, 13.68819</geo>
@@ -1189,7 +1193,7 @@
       <idno type="geonames">3167333</idno>
    </place>
    <place xml:id="DLCL_CF_L0150" type="settlement" sameAs="https://www.geonames.org/3165243/">
-      <placeName>Trento</placeName>
+      <placeName xml:lang="it">Trento</placeName>
       <location>
          <country key="IT"/>
          <geo>46.06787, 11.12108</geo>
@@ -1197,7 +1201,7 @@
       <idno type="geonames">3165243</idno>
    </place>
    <place xml:id="DLCL_CF_L0151" type="settlement" sameAs="https://www.geonames.org/3177099/">
-      <placeName>Fermo</placeName>
+      <placeName xml:lang="it">Fermo</placeName>
       <location>
          <country key="IT"/>
          <geo>43.16296, 13.72274</geo>
@@ -1205,13 +1209,13 @@
       <idno type="geonames">3177099</idno>
    </place>
    <place xml:id="DLCL_CF_L0152" type="settlement">
-      <placeName>Isola del Pereo</placeName>
+      <placeName xml:lang="it">Isola del Pereo</placeName>
       <location>
          <country key="IT"/>
       </location>
    </place>
    <place xml:id="DLCL_CF_L0153" type="settlement" sameAs="https://www.geonames.org/2989317/">
-      <placeName>Orléans</placeName>
+      <placeName xml:lang="it">Orléans</placeName>
       <location>
          <country key="FR"/>
          <geo>47.90289, 1.90389</geo>
@@ -1219,15 +1223,16 @@
       <idno type="geonames">2989317</idno>
    </place>
    <place xml:id="DLCL_CF_L0154" type="settlement" sameAs="https://www.geonames.org/3182520/">
-      <placeName>Bagno di Romagna</placeName>
+      <placeName xml:lang="it">Bagno di Romagna</placeName>
       <location>
          <country key="IT"/>
          <geo>43.83546, 11.96016</geo>
       </location>
       <idno type="geonames">3182520</idno>
    </place>
-   <place xml:id="DLCL_CF_L0155" type="settlement" sameAs="https://www.geonames.org/3181983/" source="https://it.wikipedia.org/wiki/Blera">
-      <placeName>Blera</placeName>
+   <place xml:id="DLCL_CF_L0155" type="settlement" sameAs="https://www.geonames.org/3181983/"
+      source="https://it.wikipedia.org/wiki/Blera">
+      <placeName xml:lang="it">Blera</placeName>
       <location>
          <country key="IT"/>
          <geo>42.27293, 12.03016</geo>
@@ -1235,196 +1240,263 @@
       <idno type="geonames">3181983</idno>
    </place>
    <place xml:id="DLCL_CF_L0156" type="settlement" sameAs="https://www.geonames.org/3176400/">
-      <placeName>Galeata</placeName>
+      <placeName xml:lang="it">Galeata</placeName>
       <location>
          <country key="IT"/>
          <geo>43.99607, 11.91057</geo>
       </location>
       <idno type="geonames">3176400</idno>
    </place>
-   <place xml:id="DLCL_CF_L0157" type="settlement" sameAs="https://www.geonames.org/3178572/" source="https://it.wikipedia.org/wiki/Civitella_di_Romagna">
-      <placeName>Civitella di Romagna</placeName>
+   <place xml:id="DLCL_CF_L0157" type="settlement" sameAs="https://www.geonames.org/3178572/"
+      source="https://it.wikipedia.org/wiki/Civitella_di_Romagna">
+      <placeName xml:lang="it">Civitella di Romagna</placeName>
       <location>
          <country key="IT"/>
          <geo>44.00785, 11.94398</geo>
       </location>
       <idno type="geonames">3178572</idno>
    </place>
-<place xml:id="DLCL_CF_L0158" type="settlement" sameAs="https://www.geonames.org/3174380/">
-   <placeName>Macerata</placeName>
-   <location>
-      <country key="IT"/>
-      <geo>43.1752, 13.2711</geo>
-   </location>
-   <idno type="geonames">3174380</idno>
-</place>
-<place xml:id="DLCL_CF_L0159" type="settlement" sameAs="https://www.geonames.org/3176630/">
-   <placeName>Fossombrone</placeName>
-   <location>
-      <country key="IT"/>
-      <geo>43.4125, 12.4842</geo>
-   </location>
-   <idno type="geonames">3176630</idno>
-</place>
-<place xml:id="DLCL_CF_L0160" type="settlement" sameAs="https://www.geonames.org/3164419/">
-   <placeName>Vicenza</placeName>
-   <location>
-      <country key="IT"/>
-      <geo>45.5454787, 11.5354214</geo>
-   </location>
-   <idno type="geonames">3164419</idno>
-</place>
-<place xml:id="DLCL_CF_L0161" type="settlement" sameAs="https://www.geonames.org/281184/">
-   <placeName>Gerusalemme</placeName>
-   <location>
-      <country key="IL"/>
-      <geo>31.4609, 35.1259</geo>
-   </location>
-   <idno type="geonames">281184</idno>
-</place>
-<place xml:id="DLCL_CF_L0162" type="settlement" sameAs="https://www.geonames.org/284315/">
-   <placeName>Betlemme</placeName>
-   <location>
-      <country key="PS"/>
-      <geo>31.4218, 35.1214</geo>
-   </location>
-   <idno type="geonames">284315</idno>
-</place>
-<place xml:id="DLCL_CF_L0163" type="settlement" sameAs="https://www.geonames.org/2954172/">
-   <placeName>Augusta</placeName>
-   <location>
-      <country key="DE"/>
-      <geo>48.2218, 10.5355</geo>
-   </location>
-   <idno type="geonames">2954172</idno>
-</place>
+   <place xml:id="DLCL_CF_L0158" type="settlement" sameAs="https://www.geonames.org/3174380/">
+      <placeName xml:lang="it">Macerata</placeName>
+      <location>
+         <country key="IT"/>
+         <geo>43.1752, 13.2711</geo>
+      </location>
+      <idno type="geonames">3174380</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0159" type="settlement" sameAs="https://www.geonames.org/3176630/">
+      <placeName xml:lang="it">Fossombrone</placeName>
+      <location>
+         <country key="IT"/>
+         <geo>43.4125, 12.4842</geo>
+      </location>
+      <idno type="geonames">3176630</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0160" type="settlement" sameAs="https://www.geonames.org/3164419/">
+      <placeName xml:lang="it">Vicenza</placeName>
+      <location>
+         <country key="IT"/>
+         <geo>45.5454787, 11.5354214</geo>
+      </location>
+      <idno type="geonames">3164419</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0161" type="settlement" sameAs="https://www.geonames.org/281184/">
+      <placeName xml:lang="it">Gerusalemme</placeName>
+      <location>
+         <country key="IL"/>
+         <geo>31.4609, 35.1259</geo>
+      </location>
+      <idno type="geonames">281184</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0162" type="settlement" sameAs="https://www.geonames.org/284315/">
+      <placeName xml:lang="it">Betlemme</placeName>
+      <location>
+         <country key="PS"/>
+         <geo>31.4218, 35.1214</geo>
+      </location>
+      <idno type="geonames">284315</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0163" type="settlement" sameAs="https://www.geonames.org/2954172/">
+      <placeName xml:lang="it">Augusta</placeName>
+      <location>
+         <country key="DE"/>
+         <geo>48.2218, 10.5355</geo>
+      </location>
+      <idno type="geonames">2954172</idno>
+   </place>
    <place xml:id="DLCL_CF_L0164" type="river" sameAs="https://www.geonames.org/3167026/">
-   <placeName>Savio</placeName>
-   <location>
-      <country key="IT"/>
-   </location>
-   <idno type="geonames">3167026</idno>
-</place>
+      <placeName xml:lang="it">Savio</placeName>
+      <location>
+         <country key="IT"/>
+      </location>
+      <idno type="geonames">3167026</idno>
+   </place>
    <place xml:id="DLCL_CF_L0165" type="settlement" sameAs="https://www.geonames.org/3171787/">
-   <placeName>Ostra</placeName>
-   <placeName type="variant">Montalboddo</placeName>
-   <location>
-      <country key="IT"/>
-      <geo>43.612527, 13.1580611</geo>
-   </location>
-   <idno type="geonames">3171787</idno>
-</place>
+      <placeName xml:lang="it">Ostra</placeName>
+      <placeName type="variant" xml:lang="it">Montalboddo</placeName>
+      <location>
+         <country key="IT"/>
+         <geo>43.612527, 13.1580611</geo>
+      </location>
+      <idno type="geonames">3171787</idno>
+   </place>
    <place xml:id="DLCL_CF_L0166" type="settlement" sameAs="https://www.geonames.org/2806914/">
-   <placeName>Wolfenbüttel</placeName>
-   <location>
-      <country key="DE"/>
-      <geo>52.1640413, 10.5408484</geo>
-   </location>
-   <idno type="geonames">2806914</idno>
-</place>
-<place xml:id="DLCL_CF_L0167" type="settlement" sameAs="https://www.geonames.org/2861650/">
-   <placeName>Norimberga</placeName>
-   <location>
-      <country key="DE"/>
-      <geo>49.2714, 11.0439</geo>
-   </location>
-   <idno type="geonames">2861650</idno>
-</place>
-<place xml:id="DLCL_CF_L0168" type="settlement" sameAs="https://www.geonames.org/2867714/">
-   <placeName>Monaco</placeName>
-   <location>
-      <country key="DE"/>
-      <geo>48.0815, 11.3432</geo>
-   </location>
-   <idno type="geonames">2867714</idno>
-</place>
-<place xml:id="DLCL_CF_L0169" type="settlement" sameAs="https://www.geonames.org/3172011/">
-   <placeName>Nonantola</placeName>
-   <location>
-      <country key="IT"/>
-   </location>
-   <idno type="geonames">3172011</idno>
-</place>
-<place xml:id="DLCL_CF_L0170" type="settlement" sameAs="https://www.geonames.org/3182749/">
-   <placeName>Ascoli</placeName>
-   <location>
-      <country key="IT"/>
-      <geo>42.5113, 13.3426</geo>
-   </location>
-   <idno type="geonames">3182749</idno>
-</place>
+      <placeName xml:lang="it">Wolfenbüttel</placeName>
+      <location>
+         <country key="DE"/>
+         <geo>52.1640413, 10.5408484</geo>
+      </location>
+      <idno type="geonames">2806914</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0167" type="settlement" sameAs="https://www.geonames.org/2861650/">
+      <placeName xml:lang="it">Norimberga</placeName>
+      <location>
+         <country key="DE"/>
+         <geo>49.2714, 11.0439</geo>
+      </location>
+      <idno type="geonames">2861650</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0168" type="settlement" sameAs="https://www.geonames.org/2867714/">
+      <placeName xml:lang="it">Monaco</placeName>
+      <location>
+         <country key="DE"/>
+         <geo>48.0815, 11.3432</geo>
+      </location>
+      <idno type="geonames">2867714</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0169" type="settlement" sameAs="https://www.geonames.org/3172011/">
+      <placeName xml:lang="it">Nonantola</placeName>
+      <location>
+         <country key="IT"/>
+      </location>
+      <idno type="geonames">3172011</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0170" type="settlement" sameAs="https://www.geonames.org/3182749/">
+      <placeName xml:lang="it">Ascoli</placeName>
+      <location>
+         <country key="IT"/>
+         <geo>42.5113, 13.3426</geo>
+      </location>
+      <idno type="geonames">3182749</idno>
+   </place>
    <place xml:id="DLCL_CF_L0171" type="region" sameAs="https://www.geonames.org/3183560/">
-   <placeName>Abruzzo</placeName>
-   <location>
-      <country key="IT"/>
-   </location>
-   <idno type="geonames">3183560</idno>
-</place>
-<place xml:id="DLCL_CF_L0172" type="settlement" sameAs="https://www.geonames.org/3181912/">
-   <placeName>Bolzano</placeName>
-   <location>
-      <country key="IT"/>
-   </location>
-   <idno type="geonames">3181912</idno>
-</place>
-<place xml:id="DLCL_CF_L0173" type="settlement" sameAs="https://www.geonames.org/6542822/">
-   <placeName>San Ginesio</placeName>
-   <location>
-      <country key="IT"/>
-   </location>
-   <idno type="geonames">6542822</idno>
-</place>
-<place xml:id="DLCL_CF_L0174" type="settlement" sameAs="https://www.geonames.org/6541635/">
-   <placeName>Cotignola</placeName>
-   <location>
-      <country key="IT"/>
-   </location>
-   <idno type="geonames">6541635</idno>
-</place>
-<place xml:id="DLCL_CF_L0175" type="settlement" sameAs="https://www.geonames.org/3038354/">
-   <placeName>Aix-en-Provence</placeName>
-   <location>
-      <country key="FR"/>
-   </location>
-   <idno type="geonames">3038354</idno>
-</place>
-<place xml:id="DLCL_CF_L0176" type="settlement" sameAs="https://www.geonames.org/2523964/">
-   <placeName>Oristano</placeName>
-   <placeName type="variant">Arborea</placeName>
-   <placeName type="variant">Oristagni</placeName>
-   <location>
-      <country key="IT"/>
-   </location>
-   <idno type="geonames">2523964</idno>
-</place>
-<place xml:id="DLCL_CF_L0177" type="region" sameAs="https://www.geonames.org/2523228/">
-   <placeName>Sardegna</placeName>
-   <location>
-      <country key="IT"/>
-   </location>
-   <idno type="geonames">2523228</idno>
-</place>
-<place xml:id="DLCL_CF_L0179" type="settlement" sameAs="https://www.geonames.org/3165595/">
-   <placeName>Tolentino</placeName>
-   <placeName type="district">Massaccio</placeName>
-   <location>
-      <country key="IT"/>
-   </location>
-   <idno type="geonames">3165595</idno>
-</place>
-<place xml:id="DLCL_CF_L0180" type="settlement" sameAs="https://www.geonames.org/6540117/">
-   <placeName>Belluno</placeName>
-   <location>
-      <country key="IT"/>
-   </location>
-   <idno type="geonames">6540117</idno>
-</place>
-<place xml:id="DLCL_CF_L0181" type="settlement" sameAs="https://www.geonames.org/3171058/">
-   <placeName>Piacenza</placeName>
-   <location>
-      <country key="IT"/>
-      <geo>45.0309, 9.4136</geo>
-   </location>
-   <idno type="geonames">3171058</idno>
-</place>
+      <placeName xml:lang="it">Abruzzo</placeName>
+      <location>
+         <country key="IT"/>
+      </location>
+      <idno type="geonames">3183560</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0172" type="settlement" sameAs="https://www.geonames.org/3181912/">
+      <placeName xml:lang="it">Bolzano</placeName>
+      <location>
+         <country key="IT"/>
+      </location>
+      <idno type="geonames">3181912</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0173" type="settlement" sameAs="https://www.geonames.org/6542822/">
+      <placeName xml:lang="it">San Ginesio</placeName>
+      <location>
+         <country key="IT"/>
+      </location>
+      <idno type="geonames">6542822</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0174" type="settlement" sameAs="https://www.geonames.org/6541635/">
+      <placeName xml:lang="it">Cotignola</placeName>
+      <location>
+         <country key="IT"/>
+      </location>
+      <idno type="geonames">6541635</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0175" type="settlement" sameAs="https://www.geonames.org/3038354/">
+      <placeName xml:lang="it">Aix-en-Provence</placeName>
+      <location>
+         <country key="FR"/>
+      </location>
+      <idno type="geonames">3038354</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0176" type="settlement" sameAs="https://www.geonames.org/2523964/">
+      <placeName xml:lang="it">Oristano</placeName>
+      <placeName type="variant" xml:lang="it">Arborea</placeName>
+      <placeName type="variant" xml:lang="it">Oristagni</placeName>
+      <location>
+         <country key="IT"/>
+      </location>
+      <idno type="geonames">2523964</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0177" type="region" sameAs="https://www.geonames.org/2523228/">
+      <placeName xml:lang="it">Sardegna</placeName>
+      <location>
+         <country key="IT"/>
+      </location>
+      <idno type="geonames">2523228</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0178" sameAs="https://www.geonames.org/3170114/" type="settlement">
+      <placeName xml:lang="it">Portico e San Benedetto</placeName>
+      <location>
+         <country key="IT"/>
+         <geo>44.02, 11.47</geo>
+      </location>
+      <idno type="geonames">3170114</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0179" type="settlement" sameAs="https://www.geonames.org/3165595/">
+      <placeName xml:lang="it">Tolentino</placeName>
+      <placeName type="district" xml:lang="it">Massaccio</placeName>
+      <location>
+         <country key="IT"/>
+      </location>
+      <idno type="geonames">3165595</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0180" type="settlement" sameAs="https://www.geonames.org/6540117/">
+      <placeName xml:lang="it">Belluno</placeName>
+      <location>
+         <country key="IT"/>
+      </location>
+      <idno type="geonames">6540117</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0181" type="settlement" sameAs="https://www.geonames.org/3171058/">
+      <placeName xml:lang="it">Piacenza</placeName>
+      <location>
+         <country key="IT"/>
+         <geo>45.0309, 9.4136</geo>
+      </location>
+      <idno type="geonames">3171058</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0182" sameAs="https://www.geonames.org/3178263/" type="settlement">
+      <placeName xml:lang="it">Colorno</placeName>
+      <location>
+         <country key="IT"/>
+         <geo>44.5533, 10.2225</geo>
+      </location>
+      <idno type="geonames">3178263</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0183" sameAs="https://www.geonames.org/6324600/" type="settlement">
+      <placeName xml:lang="it">Fratte Rosa</placeName>
+      <location>
+         <country key="IT"/>
+         <geo>43.375556, 12.540421</geo>
+      </location>
+      <idno type="geonames">6324600</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0184" sameAs="https://www.geonames.org/2929670/" type="settlement">
+      <placeName xml:lang="it">Erfurt</placeName>
+      <location>
+         <country key="DE"/>
+         <geo>50.5838, 11.0207</geo>
+      </location>
+      <idno type="geonames">2929670</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0185" sameAs="https://www.geonames.org/3164670/" type="nation">
+      <placeName xml:lang="it">Stato del Vaticano</placeName>
+      <placeName type="variant" xml:lang="it">Stato della Chiesa</placeName>
+      <location>
+         <country key="VA"/>
+         <geo>41.90225, 12.4533</geo>
+      </location>
+      <idno type="geonames">3164670</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0186" sameAs="https://www.geonames.org/3164630/" type="settlement">
+      <placeName xml:lang="it">Velletri</placeName>
+      <location>
+         <country key="IT"/>
+         <geo>41.4109, 12.4639</geo>
+      </location>
+      <idno type="geonames">3164630</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0187" sameAs="https://www.geonames.org/2879139/" type="settlement">
+      <placeName xml:lang="it">Lipsia</placeName>
+      <location>
+         <country key="DE"/>
+         <geo>51.33962, 12.37129</geo>
+      </location>
+      <idno type="geonames">2879139</idno>
+   </place>
+   <place xml:id="DLCL_CF_L0188" sameAs="https://www.geonames.org/3165052/" type="settlement">
+      <placeName xml:lang="it">Umbertide</placeName>
+      <placeName type="variant" xml:lang="it">Fratta</placeName>
+      <location>
+         <country key="IT"/>
+         <geo>43.1812, 12.2015</geo>
+      </location>
+      <idno type="geonames">3165052</idno>
+   </place>
 </listPlace>

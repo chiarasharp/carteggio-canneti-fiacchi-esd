@@ -8,14 +8,16 @@
                     <surname>Martello</surname>
                 </persName>
             </author>
-            <title level="m">Della poetica Sermoni di Pier Jacopo Martello. Al reverendissimo signore il p. d. Pietro Canneti camaldolese abate di Classe fra gli arcadi Cariteo Nesio</title>
+            <title level="m">Della poetica Sermoni di Pier Jacopo Martello. Al reverendissimo
+                signore il p. d. Pietro Canneti camaldolese abate di Classe fra gli arcadi Cariteo
+                Nesio</title>
             <idno type="SBN">RAVE003869</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0007">Bologna</pubPlace>
                 <date when-iso="1713"/>
                 <publisher>
                     <persName xml:lang="it">
-                        <forename>Costantino</forename> 
+                        <forename>Costantino</forename>
                         <surname>Pisarri</surname>
                     </persName>
                 </publisher>
@@ -31,14 +33,16 @@
                     <surname>Catullus</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">C. Valerius Catullus, Albius Tibullus e.R. Sex. Aurelius Propertius ex recensione Jo. Antonii Vulpii Bergomensis j.u.d. Cum ejusdem observationibus, atque indice locupletissimo...</title>
+            <title level="m" xml:lang="la">C. Valerius Catullus, Albius Tibullus e.R. Sex. Aurelius
+                Propertius ex recensione Jo. Antonii Vulpii Bergomensis j.u.d. Cum ejusdem
+                observationibus, atque indice locupletissimo...</title>
             <idno type="SBN">UBOE042686</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0010" xml:lang="la">Patavii</pubPlace>
                 <date when-iso="1710"/>
                 <publisher>
                     <persName ref="#DLCL_CF_PC0011" xml:lang="it">
-                        <forename>Giovanni</forename> 
+                        <forename>Giovanni</forename>
                         <forename>Antonio</forename>
                         <surname>Volpi</surname>
                     </persName>
@@ -54,12 +58,14 @@
                     <surname>Rossi</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Hieronymi Rubei Historiarum Rauennatum libri. decem</title>
+            <title level="m" xml:lang="la">Hieronymi Rubei Historiarum Rauennatum libri.
+                decem</title>
             <idno type="SBN">BVEE010926</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0024" xml:lang="la">Venetiis</pubPlace>
                 <date when-iso="1589"/>
-                <publisher xml:lang="la">ex Typ. Guerraea (Guerra, Domenico &amp; Guerra, Giovanni Battista)</publisher>
+                <publisher xml:lang="la">ex Typ. Guerraea (Guerra, Domenico &amp; Guerra, Giovanni
+                    Battista)</publisher>
             </imprint>
         </monogr>
     </biblStruct>
@@ -71,14 +77,16 @@
                     <surname>Pasolini</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Lustri rauennati dall'anno seicento doppo l'vniuersal diluuio \-sino all'anno mille, e cinquecento ottantaotto! breuemente descritti da d. Serafino Pasolino rauennate ... Parte prima [-quarta]</title>
+            <title level="m" xml:lang="la">Lustri rauennati dall'anno seicento doppo l'vniuersal
+                diluuio \-sino all'anno mille, e cinquecento ottantaotto! breuemente descritti da d.
+                Serafino Pasolino rauennate ... Parte prima [-quarta]</title>
             <idno type="SBN">FERE001270</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0007">Bologna</pubPlace>
                 <date from-iso="1678" to-iso="1682"/>
                 <publisher>
                     <persName xml:lang="it">
-                        <forename>Giacomo</forename> 
+                        <forename>Giacomo</forename>
                         <surname>Monti</surname>
                     </persName>
                 </publisher>
@@ -93,7 +101,12 @@
                     <surname>Ughelli</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Italia sacra siue De episcopis Italiæ et insularum adiacentium, rebusque ab iis praeclare gestis, deducta serie ad nostram vsque ætatem. Opus singulare prouincijs 20. distinctum. In quo ecclesiarum origines, urbium conditiones, principum donationes, recondita monumenta in lucem proferuntur. Tomus primus [-nonus] ... Authore D. Ferdinando Vghello Florentino abbate SS. Vincentij, &amp; Anastasij ad Aquas Saluias Ordinis Cisterciensis</title>
+            <title level="m" xml:lang="la">Italia sacra siue De episcopis Italiæ et insularum
+                adiacentium, rebusque ab iis praeclare gestis, deducta serie ad nostram vsque
+                ætatem. Opus singulare prouincijs 20. distinctum. In quo ecclesiarum origines,
+                urbium conditiones, principum donationes, recondita monumenta in lucem proferuntur.
+                Tomus primus [-nonus] ... Authore D. Ferdinando Vghello Florentino abbate SS.
+                Vincentij, &amp; Anastasij ad Aquas Saluias Ordinis Cisterciensis</title>
             <idno type="SBN">SBLE019409</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0008" xml:lang="la">Romae</pubPlace>
@@ -115,7 +128,15 @@
                     <surname>Du Cange</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Glossarium ad scriptores mediae &amp; infimae graecitatis in quo graeca vocabulanovatae significationis, aut usus rarioris, barbara, exotica, ecclesiastica,liturgica, ... eorum notiones &amp; originationes reteguntur: complures aevi mediiritus&amp; mores; dignitates ecclesiasticae ... &amp; ad Historia Byzantinam praesertimspectantia, recensentur et enucleantur. E libris editis, ineditis, veteribusquemonumentis. Accedit Appendix ad Glossarium mediae &amp; infimae Latinitatis, una cum brevi etymologico linguae gallicae ex utroque glossario. Auctore Carolo Du Fresne, domino du Cange ... Tomus primus [- secundus]</title>
+            <title level="m" xml:lang="la">Glossarium ad scriptores mediae &amp; infimae graecitatis
+                in quo graeca vocabulanovatae significationis, aut usus rarioris, barbara, exotica,
+                ecclesiastica,liturgica, ... eorum notiones &amp; originationes reteguntur:
+                complures aevi mediiritus&amp; mores; dignitates ecclesiasticae ... &amp; ad
+                Historia Byzantinam praesertimspectantia, recensentur et enucleantur. E libris
+                editis, ineditis, veteribusquemonumentis. Accedit Appendix ad Glossarium mediae
+                &amp; infimae Latinitatis, una cum brevi etymologico linguae gallicae ex utroque
+                glossario. Auctore Carolo Du Fresne, domino du Cange ... Tomus primus [-
+                secundus]</title>
             <idno type="SBN">USME033649</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0044" xml:lang="la">Lugduni</pubPlace>
@@ -149,7 +170,11 @@
                     <surname>Du Cange</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Historia byzantina duplici commentario illustrata. Prior familias ac stemmata imperatorum Constantinopolitarum , cum eorumdem Augustorum nomismatibus, &amp; aliquot iconibus ... complectitur: Alter descriptionem urbis Constantinopolitanæ, qualis exstitit sub imperatoris christianis. Auctore Carolo Du Fresne ...</title>
+            <title level="m" xml:lang="la">Historia byzantina duplici commentario illustrata. Prior
+                familias ac stemmata imperatorum Constantinopolitarum , cum eorumdem Augustorum
+                nomismatibus, &amp; aliquot iconibus ... complectitur: Alter descriptionem urbis
+                Constantinopolitanæ, qualis exstitit sub imperatoris christianis. Auctore Carolo Du
+                Fresne ...</title>
             <idno type="SBN">TO0E114115</idno>
             <imprint>
                 <pubPlace xml:lang="la">Lutetiae Parisiorum</pubPlace>
@@ -171,7 +196,11 @@
                     <surname>Du Cange</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Historia byzantina duplici commentario illustrata. Prior familias ac stemmata imperatorum Constantinopolitanorum, cum eorundem augustorum nomismatibus, et aliquot iconibus; praeterea familias Dalmaticas et Turcicas complectitur: alter descriptionem urbis Constantinopolitanae, qualis extitit sub imperatoribus christianis. Auctore Carolo du Fresne domino Du Cange ...</title>
+            <title level="m" xml:lang="la">Historia byzantina duplici commentario illustrata. Prior
+                familias ac stemmata imperatorum Constantinopolitanorum, cum eorundem augustorum
+                nomismatibus, et aliquot iconibus; praeterea familias Dalmaticas et Turcicas
+                complectitur: alter descriptionem urbis Constantinopolitanae, qualis extitit sub
+                imperatoribus christianis. Auctore Carolo du Fresne domino Du Cange ...</title>
             <idno type="SBN">PUVE022072</idno>
             <imprint>
                 <pubPlace xml:lang="la">Lutetiae Parisiorum</pubPlace>
@@ -190,7 +219,9 @@
             <author>
                 <orgName xml:lang="it">Concilio di Firenze</orgName>
             </author>
-            <title level="m" xml:lang="el">Ē agia kai oikoumenikē en Phlorentia synodos. Tomos protos -deuteros!. Sancta generalis Florentina synodus. Tomus primus [-secundus]</title>
+            <title level="m" xml:lang="el">Ē agia kai oikoumenikē en Phlorentia synodos. Tomos
+                protos -deuteros!. Sancta generalis Florentina synodus. Tomus primus
+                [-secundus]</title>
             <idno type="SBN">RMLE017735</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0008">Roma</pubPlace>
@@ -213,7 +244,7 @@
                 <date when-iso="1713"/>
                 <publisher>
                     <persName xml:lang="it">
-                        <forename>Anton</forename> 
+                        <forename>Anton</forename>
                         <forename>Maria</forename>
                         <surname>Landi</surname>
                     </persName>
@@ -230,7 +261,8 @@
                     <surname>Cinelli</surname>
                 </persName>
             </author>
-            <title level="m">Della biblioteca volante di Giovanni Cinelli. Scanzia prima [-23.]</title>
+            <title level="m">Della biblioteca volante di Giovanni Cinelli. Scanzia prima
+                [-23.]</title>
             <idno type="SBN">TSAE019780</idno>
             <imprint>
                 <date from-iso="1677" to-iso="1739"/>
@@ -246,7 +278,7 @@
                 <date when-iso="1713"/>
                 <publisher>
                     <persName xml:lang="it">
-                        <forename>Giovanni</forename> 
+                        <forename>Giovanni</forename>
                         <forename>Gabriele</forename>
                         <surname>Hertz</surname>
                     </persName>
@@ -262,7 +294,11 @@
                     <surname>Marracci</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Bibliotheca Mariana alphabetico ordine digesta, &amp; in duas partes diuisa, qua auctores, qui de Maria Deiparente Virgine scripsere. Cum recensione operum, continentur. Adiecto quintuplici indice, scilicet, cognominum, dignitatum, religionum, nationum, &amp; sæculorum, scriptorum Marianorum. Auctore p. Hippolyto Marraccio ...</title>
+            <title level="m" xml:lang="la">Bibliotheca Mariana alphabetico ordine digesta, &amp; in
+                duas partes diuisa, qua auctores, qui de Maria Deiparente Virgine scripsere. Cum
+                recensione operum, continentur. Adiecto quintuplici indice, scilicet, cognominum,
+                dignitatum, religionum, nationum, &amp; sæculorum, scriptorum Marianorum. Auctore p.
+                Hippolyto Marraccio ...</title>
             <idno type="SBN">VEAE002424</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0008" xml:lang="la">Romae</pubPlace>
@@ -284,7 +320,11 @@
                     <surname>Sansovino</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">La Historia delle cose fatte in diuersi tempi da' signori di casa Orsina di m. Francesco Sansovino nella quale, oltre alla origine della predetta famiglia, si contengono molte altre notabili imprese, successe in Italia &amp; in divers' altre provincie per spatio di mille &amp; cento anni fino a tempi nostri</title>
+            <title level="m" xml:lang="it">La Historia delle cose fatte in diuersi tempi da' signori
+                di casa Orsina di m. Francesco Sansovino nella quale, oltre alla origine della
+                predetta famiglia, si contengono molte altre notabili imprese, successe in Italia
+                &amp; in divers' altre provincie per spatio di mille &amp; cento anni fino a tempi
+                nostri</title>
             <idno type="SBN">RLZE006192</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0024" xml:lang="la">Venetia</pubPlace>
@@ -306,7 +346,9 @@
                     <surname>Sansovino</surname>
                 </persName>
             </author>
-            <title level="m">L'historia di casa Orsina di Francesco Sansouino nella quale oltre all'origine sua, si contengono molte nobili imprese ... Con quattro libri de gli huomini illustri della famiglia, ...</title>
+            <title level="m">L'historia di casa Orsina di Francesco Sansouino nella quale oltre
+                all'origine sua, si contengono molte nobili imprese ... Con quattro libri de gli
+                huomini illustri della famiglia, ...</title>
             <idno type="SBN">BVEE018919</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0024" xml:lang="la">Venetia</pubPlace>
@@ -320,7 +362,7 @@
                         <forename>Domenico</forename>
                         <surname>da Sabbio</surname>
                         <surname>Nicolini</surname>
-                    </persName> 
+                    </persName>
                     <persName xml:lang="it">
                         <forename>Bernardino</forename>
                         <surname>Stagnino</surname>
@@ -365,14 +407,16 @@
                     <surname>Doni</surname>
                 </persName>
             </author>
-            <title level="m">I marmi del Doni academico peregrino, cioè ragionamenti introdotti à farsi da varie conditioni d'huomini, à luoghi di honesto piacere in Firenze ... Diuiso in quattro libri. ...</title>
+            <title level="m">I marmi del Doni academico peregrino, cioè ragionamenti introdotti à
+                farsi da varie conditioni d'huomini, à luoghi di honesto piacere in Firenze ...
+                Diuiso in quattro libri. ...</title>
             <idno type="SBN">TO0E003006</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0024">Venetia</pubPlace>
                 <date when-iso="1609"/>
                 <publisher>
                     <persName>
-                        <forename>Giovanni</forename> 
+                        <forename>Giovanni</forename>
                         <forename>Battista</forename>
                         <surname>Bertoni</surname>
                     </persName>
@@ -389,7 +433,8 @@
                     <surname>Fontei</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">De prisca Caesiorum gente Io. Baptistae Fonteii primionis commentariorum libri duo. Cum Iulii Iacobonii appendice</title>
+            <title level="m" xml:lang="la">De prisca Caesiorum gente Io. Baptistae Fonteii primionis
+                commentariorum libri duo. Cum Iulii Iacobonii appendice</title>
             <idno type="SBN">TO0E003861</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0007" xml:lang="la">Bononiae</pubPlace>
@@ -411,7 +456,9 @@
                     <surname>Berlinghieri</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">In questo volume si contengono septe giornate della Geographia di Francesco Berlingeri fiorentino allo illustrissimo Federigo duca durbino</title>
+            <title level="m" xml:lang="it">In questo volume si contengono septe giornate della
+                Geographia di Francesco Berlingeri fiorentino allo illustrissimo Federigo duca
+                durbino</title>
             <idno type="SBN">CFIE031260</idno>
             <imprint>
                 <date notAfter-iso="1482-09"/>
@@ -427,7 +474,8 @@
                     <surname>Orsini</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Paralello fra la citta e la villa satire vndici. Intendesi della citta di residenza oue monarca abiti. A Mario Stellanteposto</title>
+            <title level="m" xml:lang="it">Paralello fra la citta e la villa satire vndici.
+                Intendesi della citta di residenza oue monarca abiti. A Mario Stellanteposto</title>
             <idno type="SBN">VEAE003522</idno>
             <imprint>
                 <pubPlace ref="https://www.geonames.org/3181628/">Bracciano</pubPlace>
@@ -449,14 +497,17 @@
                     <surname>Fontanini</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Bibliothecæ Josephi Renati Imperialis Sanctæ Romanæ Ecclesiæ diaconi cardinalis Sancti Georgii Catalogus secundum auctorum cognomina ordine alphabetico dispositus una cum altero catalogo scientiarum &amp; artium</title>
+            <title level="m" xml:lang="la">Bibliothecæ Josephi Renati Imperialis Sanctæ Romanæ
+                Ecclesiæ diaconi cardinalis Sancti Georgii Catalogus secundum auctorum cognomina
+                ordine alphabetico dispositus una cum altero catalogo scientiarum &amp;
+                artium</title>
             <idno type="SBN">TO0E006916</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0008" xml:lang="la">Romae</pubPlace>
                 <date when-iso="1711"/>
                 <publisher>
                     <persName>
-                        <forename>Francesco</forename> 
+                        <forename>Francesco</forename>
                         <surname>Gonzaga</surname>
                     </persName>
                 </publisher>
@@ -472,14 +523,16 @@
                     <surname>Crescimbeni</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Comentarj di Gio. Mario de' Crescimbeni collega dell'imperiale Accademia Leopoldina, e custode d'Arcadia intorno alla sua istoria della volgar poesia. Volume primo [-quinto]</title>
+            <title level="m" xml:lang="it">Comentarj di Gio. Mario de' Crescimbeni collega
+                dell'imperiale Accademia Leopoldina, e custode d'Arcadia intorno alla sua istoria
+                della volgar poesia. Volume primo [-quinto]</title>
             <idno type="SBN">TO0E007213</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0008">Roma</pubPlace>
                 <date from-iso="1702" to-iso="1711"/>
                 <publisher>
                     <persName>
-                        <forename>Antonio</forename> 
+                        <forename>Antonio</forename>
                         <surname>De Rossi</surname>
                     </persName>
                 </publisher>
@@ -495,14 +548,15 @@
                     <surname>Crescimbeni</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">L'istoria della volgar poesia scritta da Giovan Mario Crescimbeni ...</title>
+            <title level="m" xml:lang="it">L'istoria della volgar poesia scritta da Giovan Mario
+                Crescimbeni ...</title>
             <idno type="SBN">RAVE005753</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0008">Roma</pubPlace>
                 <date when-iso="1714"/>
                 <publisher>
                     <persName xml:lang="it">
-                        <forename>Antonio</forename> 
+                        <forename>Antonio</forename>
                         <surname>De Rossi</surname>
                     </persName>
                 </publisher>
@@ -511,14 +565,16 @@
     </biblStruct>
     <biblStruct xml:id="DLCL_CF_BS0024" sameAs="http://id.sbn.it/bid/TO0E007669">
         <monogr>
-            <title level="m" xml:lang="it">Le vite degli Arcadi illustri scritte da diversi autori, e pubblicate d'ordine delle generale adunanza da Giovanni Mario Crescimbeni ... Parte terza</title>
+            <title level="m" xml:lang="it">Le vite degli Arcadi illustri scritte da diversi autori,
+                e pubblicate d'ordine delle generale adunanza da Giovanni Mario Crescimbeni ...
+                Parte terza</title>
             <idno type="SBN">TO0E007669</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0008">Roma</pubPlace>
                 <date when-iso="1714"/>
                 <publisher>
                     <persName xml:lang="it">
-                        <forename>Antonio</forename> 
+                        <forename>Antonio</forename>
                         <surname>De Rossi</surname>
                     </persName>
                 </publisher>
@@ -533,26 +589,31 @@
                     <surname>Gamurrini</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Istoria genealogica delle famiglie nobili toscane, et vmbre. Descritta dal p. d. Eugenio Gamurrini, monaco casinense, nobile aretino, accademico apatista; abate, consigliero, &amp; elemosiniero ordinario della maestà cristianissima di Lodouico 14. re di Francia, e di Nauarra; teologo, e familiare dell'altezza serenissima di Cosimo 3. principe di Toscana consecrata alla medesima altezza. Volume primo [-quinto]</title>
+            <title level="m" xml:lang="it">Istoria genealogica delle famiglie nobili toscane, et
+                vmbre. Descritta dal p. d. Eugenio Gamurrini, monaco casinense, nobile aretino,
+                accademico apatista; abate, consigliero, &amp; elemosiniero ordinario della maestà
+                cristianissima di Lodouico 14. re di Francia, e di Nauarra; teologo, e familiare
+                dell'altezza serenissima di Cosimo 3. principe di Toscana consecrata alla medesima
+                altezza. Volume primo [-quinto]</title>
             <idno type="SBN">TSAE002503</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0018">Fiorenza</pubPlace>
                 <date from-iso="1668" to-iso="1685"/>
                 <publisher>
                     <persName xml:lang="it">
-                        <forename>Francesco</forename> 
+                        <forename>Francesco</forename>
                         <surname>Onofri</surname>
                     </persName>
                     <persName xml:lang="it">
-                        <forename>Guccio</forename> 
+                        <forename>Guccio</forename>
                         <surname>Navesi</surname>
                     </persName>
                     <persName xml:lang="it">
-                        <forename>Francesco</forename> 
+                        <forename>Francesco</forename>
                         <surname>Livi</surname>
                     </persName>
                     <persName xml:lang="it">
-                        <forename>Giovanni</forename> 
+                        <forename>Giovanni</forename>
                         <surname>Gugliantini</surname>
                     </persName>
                     <orgName xml:lang="it">Stamperia di S.A.S.</orgName>
@@ -569,7 +630,7 @@
                 <date from-iso="1710" to-iso="1726"/>
                 <publisher>
                     <persName>
-                        <forename>Giovanni</forename> 
+                        <forename>Giovanni</forename>
                         <forename>Gabriele</forename>
                         <surname>Hertz</surname>
                     </persName>
@@ -579,7 +640,10 @@
     </biblStruct>
     <biblStruct xml:id="DLCL_CF_BS0027" sameAs="http://id.sbn.it/bid/PUV0126793">
         <monogr>
-            <title level="m" xml:lang="fr">Bibliotheque critique ou Recueil de diverses pieces critiques, dont la plûpart ne sont point imprimées, ou ne se trouvent que très-difficilement, publiées par Mr. de Sainjore qui y a ajouté quelques notes - Tome premier (1708) - Tome quatrième (1710)</title>
+            <title level="m" xml:lang="fr">Bibliotheque critique ou Recueil de diverses pieces
+                critiques, dont la plûpart ne sont point imprimées, ou ne se trouvent que
+                très-difficilement, publiées par Mr. de Sainjore qui y a ajouté quelques notes -
+                Tome premier (1708) - Tome quatrième (1710)</title>
             <idno type="SBN">PUV0126793</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0017" xml:lang="fr">Paris</pubPlace>
@@ -587,7 +651,7 @@
                 <date from-iso="1708" to-iso="1710"/>
                 <publisher>
                     <persName xml:lang="fr">
-                        <forename>Jean</forename> 
+                        <forename>Jean</forename>
                         <forename>Louis</forename>
                         <surname>de Lorme</surname>
                     </persName>
@@ -603,14 +667,18 @@
                     <surname>Calbi</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Risposta di Pandolfo Marauiglia alla difesa de' dritti di Cesare Magati discorso responsiuo alle riflessioni dello stesso Pandolfo Marauiglia del sig. dottore Domenico Cecchini romano in fauore de'cinque disinganni chirurgici per la cura delle ferite pubblicati da Antonio Boccaccini chirurgo di Comacchio</title>
+            <title level="m" xml:lang="it">Risposta di Pandolfo Marauiglia alla difesa de' dritti di
+                Cesare Magati discorso responsiuo alle riflessioni dello stesso Pandolfo Marauiglia
+                del sig. dottore Domenico Cecchini romano in fauore de'cinque disinganni chirurgici
+                per la cura delle ferite pubblicati da Antonio Boccaccini chirurgo di
+                Comacchio</title>
             <idno type="SBN">RAVE072099</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0002">Rauena</pubPlace>
                 <date when-iso="1714"/>
                 <publisher>
                     <persName xml:lang="it">
-                        <forename>Anton</forename> 
+                        <forename>Anton</forename>
                         <forename>Maria</forename>
                         <surname>Landi</surname>
                     </persName>
@@ -620,14 +688,15 @@
     </biblStruct>
     <biblStruct xml:id="DLCL_CF_BS0029" sameAs="http://id.sbn.it/bid/RLZE009947">
         <monogr>
-            <title level="m" xml:lang="it">17: Giornale de' letterati d'Italia. Tomo decimosettimo. Anno 1714</title>
+            <title level="m" xml:lang="it">17: Giornale de' letterati d'Italia. Tomo decimosettimo.
+                Anno 1714</title>
             <idno type="SBN">RLZE009947</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0024">Venezia</pubPlace>
                 <date when-iso="1714"/>
                 <publisher>
                     <persName xml:lang="it">
-                        <forename>Giovanni</forename> 
+                        <forename>Giovanni</forename>
                         <forename>Gabriele</forename>
                         <surname>Hertz</surname>
                     </persName>
@@ -643,7 +712,9 @@
                     <surname>Salviati</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Del secondo volume Degli auuertimenti della lingua sopra il Decamerone libri due del caualier Lionardo Saluiati. Il primo del nome, e d'vna parte, che l'accompagna. Il secondo dell'articolo, e del vicecaso</title>
+            <title level="m" xml:lang="it">Del secondo volume Degli auuertimenti della lingua sopra
+                il Decamerone libri due del caualier Lionardo Saluiati. Il primo del nome, e d'vna
+                parte, che l'accompagna. Il secondo dell'articolo, e del vicecaso</title>
             <idno type="SBN">BVEE007277</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0018">Firenze</pubPlace>
@@ -665,14 +736,16 @@
                     <surname>Salviati</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">2: Volume secondo del cavalier Lionardo Salviati diviso in due libri. Il primo del nome, e d'una parte, che l'accompagna. Il secondo dell'articolo, e del vicecaso</title>
+            <title level="m" xml:lang="it">2: Volume secondo del cavalier Lionardo Salviati diviso
+                in due libri. Il primo del nome, e d'una parte, che l'accompagna. Il secondo
+                dell'articolo, e del vicecaso</title>
             <idno type="SBN">RAVE009259</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0082">Napoli</pubPlace>
                 <date when-iso="1712"/>
                 <publisher>
                     <persName>
-                        <forename>Bernardo</forename> 
+                        <forename>Bernardo</forename>
                         <forename>Michele</forename>
                         <surname>Raillard</surname>
                     </persName>
@@ -685,7 +758,10 @@
             <author>
                 <orgName xml:lang="it">Chiesa Cattolica</orgName>
             </author>
-            <title level="m" xml:lang="la">Martyrologium Romanum ad nouam kalendarii rationem et ecclesiasticae historiae veritatem resitutum Gregori 13. pont. max. iussu editum. Accesserunt notationes atque tractatio de Martyrologio Romano, auctore Caesare Baronio ...</title>
+            <title level="m" xml:lang="la">Martyrologium Romanum ad nouam kalendarii rationem et
+                ecclesiasticae historiae veritatem resitutum Gregori 13. pont. max. iussu editum.
+                Accesserunt notationes atque tractatio de Martyrologio Romano, auctore Caesare
+                Baronio ...</title>
             <idno type="SBN">BVEE002264</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0008" xml:lang="la">Romae</pubPlace>
@@ -701,7 +777,9 @@
             <author>
                 <orgName xml:lang="it">Chiesa Cattolica</orgName>
             </author>
-            <title level="m" xml:lang="la">Martyrologium Romanum Gregorii 13. Pont. Max. iussu editum. Et Vrbani 8. auctoritate recognitum accesserunt notationes atque tractatio de martyrologio Romano. Auctore Cesare Baronio Sorano</title>
+            <title level="m" xml:lang="la">Martyrologium Romanum Gregorii 13. Pont. Max. iussu
+                editum. Et Vrbani 8. auctoritate recognitum accesserunt notationes atque tractatio
+                de martyrologio Romano. Auctore Cesare Baronio Sorano</title>
             <idno type="SBN">UBOE014751</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0008" xml:lang="la">Romae</pubPlace>
@@ -717,7 +795,9 @@
             <author>
                 <orgName xml:lang="it">Chiesa Cattolica</orgName>
             </author>
-            <title level="m" xml:lang="la">Martyrologium Romanum Gregorii 13. pont. max. iussu editum. Et Vrbani 8. auctoritate recognitum accesserunt notationes atque tractatio de Martylogio Romano. Auctore Caesare Baronio Sorano ...</title>
+            <title level="m" xml:lang="la">Martyrologium Romanum Gregorii 13. pont. max. iussu
+                editum. Et Vrbani 8. auctoritate recognitum accesserunt notationes atque tractatio
+                de Martylogio Romano. Auctore Caesare Baronio Sorano ...</title>
             <idno type="SBN">BRIE000187</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0008" xml:lang="la">Romae</pubPlace>
@@ -733,14 +813,17 @@
             <author>
                 <orgName xml:lang="it">Chiesa Cattolica</orgName>
             </author>
-            <title level="m" xml:lang="la">Martyrologium romanum, ad nouam kalendarii rationem, et ecclesiasticae historiae veritatem restitum. Gregorii 13. pont.max. iussu editum. Accesserunt notationes atque tractatio de martyrologio Romano: auctore Caesare Baronio ...</title>
+            <title level="m" xml:lang="la">Martyrologium romanum, ad nouam kalendarii rationem, et
+                ecclesiasticae historiae veritatem restitum. Gregorii 13. pont.max. iussu editum.
+                Accesserunt notationes atque tractatio de martyrologio Romano: auctore Caesare
+                Baronio ...</title>
             <idno type="SBN">BVEE002024</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0032" xml:lang="la">Antuerpiae</pubPlace>
                 <date when-iso="1589"/>
                 <publisher>
                     <persName xml:lang="fr">
-                        <forename>Christophe</forename> 
+                        <forename>Christophe</forename>
                         <surname>Plantin</surname>
                     </persName>
                 </publisher>
@@ -752,7 +835,11 @@
             <author>
                 <orgName xml:lang="it">Chiesa Cattolica</orgName>
             </author>
-            <title level="m" xml:lang="la">Martyrologium romanum ad nouam kalendarij rationem &amp; ecclesiasticae historiae veritatem restitutum. Gregorii 13. Pont. Max. iussu editum, Caesaris Baronii sorani ... notationibus illustratum. Nouissimae &amp; correctissimae hiuc editionis seorsim accedit Vetus Romanum Martyrologium, ... una cum Martyrologio Adonis ...</title>
+            <title level="m" xml:lang="la">Martyrologium romanum ad nouam kalendarij rationem &amp;
+                ecclesiasticae historiae veritatem restitutum. Gregorii 13. Pont. Max. iussu editum,
+                Caesaris Baronii sorani ... notationibus illustratum. Nouissimae &amp;
+                correctissimae hiuc editionis seorsim accedit Vetus Romanum Martyrologium, ... una
+                cum Martyrologio Adonis ...</title>
             <idno type="SBN">RAVE003708</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0032" xml:lang="la">Antuerpiae</pubPlace>
@@ -775,7 +862,8 @@
                     <surname>Baronio</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Annales ecclesiastici. Auctore Caesare Baronio ... Tomus primus [-duodecimus]</title>
+            <title level="m" xml:lang="la">Annales ecclesiastici. Auctore Caesare Baronio ... Tomus
+                primus [-duodecimus]</title>
             <idno type="SBN">RMLE004790</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0008" xml:lang="la">Romae</pubPlace>
@@ -795,14 +883,16 @@
                     <surname>Maffei</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Vita di s. Pio quinto sommo pontefice, dell'Ordine dei predicatori, scritta da Paolo Alessandro Maffei patrizio volterrano, ... pubblicata sotto i gloriosi auspici della santità di nostro signore papa Clemente 11</title>
+            <title level="m" xml:lang="it">Vita di s. Pio quinto sommo pontefice, dell'Ordine dei
+                predicatori, scritta da Paolo Alessandro Maffei patrizio volterrano, ... pubblicata
+                sotto i gloriosi auspici della santità di nostro signore papa Clemente 11</title>
             <idno type="SBN">SBLE013101</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0024">Venezia</pubPlace>
                 <date when-iso="1712"/>
                 <publisher>
                     <persName xml:lang="it">
-                        <forename>Giacomo</forename> 
+                        <forename>Giacomo</forename>
                         <surname>Tommasini</surname>
                     </persName>
                 </publisher>
@@ -818,14 +908,16 @@
                     <surname>Maffei</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Vita di s. Pio quinto sommo pontefice, dell'ordine de Predicatori, scritta da Paolo Alessandro Maffei patrizio Volterrano ... pubblicata sotto i gloriosi auspici della santità di nostro signore papa Clemente 11</title>
+            <title level="m" xml:lang="it">Vita di s. Pio quinto sommo pontefice, dell'ordine de
+                Predicatori, scritta da Paolo Alessandro Maffei patrizio Volterrano ... pubblicata
+                sotto i gloriosi auspici della santità di nostro signore papa Clemente 11</title>
             <idno type="SBN">RMLE022198</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0008">Roma</pubPlace>
                 <date when-iso="1712"/>
                 <publisher>
                     <persName xml:lang="it">
-                        <forename>Francesco</forename> 
+                        <forename>Francesco</forename>
                         <surname>Gonzaga</surname>
                     </persName>
                 </publisher>
@@ -841,7 +933,9 @@
                     <surname>Poggi</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Memorie della vita del servo di Dio p. Giulio Arrighetti Fiorentino ... raccolte, e descritte da monsignore F. Gio. Franc. Maria Poggi fiorentino ...</title>
+            <title level="m" xml:lang="it">Memorie della vita del servo di Dio p. Giulio Arrighetti
+                Fiorentino ... raccolte, e descritte da monsignore F. Gio. Franc. Maria Poggi
+                fiorentino ...</title>
             <idno type="SBN">MODE016804</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0085">Lucca</pubPlace>
@@ -870,7 +964,7 @@
                 <date when-iso="1714"/>
                 <publisher>
                     <persName xml:lang="it">
-                        <forename>Giacomo</forename> 
+                        <forename>Giacomo</forename>
                         <surname>Tommasini</surname>
                     </persName>
                 </publisher>
@@ -885,7 +979,9 @@
                     <surname>Maffei</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Merope tragedia del marchese Scipione Maffei dedicata all'altezza serenissima di Rinaldo 1. duca di Modena, Reggio, Mirandola, &amp;c. e illustrata colla giunta d'essa dedicatoria, e d'una prefazione</title>
+            <title level="m" xml:lang="it">Merope tragedia del marchese Scipione Maffei dedicata
+                all'altezza serenissima di Rinaldo 1. duca di Modena, Reggio, Mirandola, &amp;c. e
+                illustrata colla giunta d'essa dedicatoria, e d'una prefazione</title>
             <idno type="SBN">NAPE015522</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0012">Modena</pubPlace>
@@ -908,7 +1004,8 @@
                     <surname>Dati</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Vite de pittori antichi scritte e illustrate da Carlo Dati nell'Accademia della Crusca lo Smarrito. ...</title>
+            <title level="m" xml:lang="it">Vite de pittori antichi scritte e illustrate da Carlo
+                Dati nell'Accademia della Crusca lo Smarrito. ...</title>
             <idno type="SBN">UFIE003696</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0018">Firenze</pubPlace>
@@ -927,14 +1024,15 @@
                     <surname>Simon</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="fr">Lettres choisies de M. Simon, ou l'on trouve un grand nombre de faits anecdotes de literature</title>
+            <title level="m" xml:lang="fr">Lettres choisies de M. Simon, ou l'on trouve un grand
+                nombre de faits anecdotes de literature</title>
             <idno type="SBN">UM1E027616</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0065">Amsterdam</pubPlace>
                 <date when-iso="1700"/>
                 <publisher>
                     <persName xml:lang="fr">
-                        <forename>Jean</forename> 
+                        <forename>Jean</forename>
                         <forename>Louis</forename>
                         <surname>De Lorme</surname>
                     </persName>
@@ -951,7 +1049,8 @@
                     <surname>Calvoli</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Della biblioteca volante di Gio. Cinelli Caluoli patrizio fiorentino e forliuese, Academico gelato di Bologna ... Scanzia nona</title>
+            <title level="m" xml:lang="it">Della biblioteca volante di Gio. Cinelli Caluoli patrizio
+                fiorentino e forliuese, Academico gelato di Bologna ... Scanzia nona</title>
             <idno type="SBN">TSAE019782</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0024">Venezia</pubPlace>
@@ -974,7 +1073,8 @@
                     <surname>Calvoli</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Della biblioteca volante di Gio. Cinelli Caluoli patrizio fiorentino ... scanzia sesta</title>
+            <title level="m" xml:lang="it">Della biblioteca volante di Gio. Cinelli Caluoli patrizio
+                fiorentino ... scanzia sesta</title>
             <idno type="SBN">TO0E006873</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0008">Roma</pubPlace>
@@ -997,7 +1097,10 @@
                     <surname>Bianchini</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Tre lezioni del dottore Giuseppe Bianchini di Prato accademico fiorentino dette da esso pubblicamente nell'Accademia fiorentina sotto il consolato del conte Gio. Batista Fantoni al serenissimo Ferdinando principe di Toscana</title>
+            <title level="m" xml:lang="it">Tre lezioni del dottore Giuseppe Bianchini di Prato
+                accademico fiorentino dette da esso pubblicamente nell'Accademia fiorentina sotto il
+                consolato del conte Gio. Batista Fantoni al serenissimo Ferdinando principe di
+                Toscana</title>
             <idno type="SBN">UBOE010012</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0018">Firenze</pubPlace>
@@ -1020,7 +1123,8 @@
                     <surname>de Haitze</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="fr">Les moines empruntez. Par mr Pierre Joseph. Tome premier [-second]</title>
+            <title level="m" xml:lang="fr">Les moines empruntez. Par mr Pierre Joseph. Tome premier
+                [-second]</title>
             <idno type="SBN">VEAE008206</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0110">Cologne</pubPlace>
@@ -1043,7 +1147,9 @@
                     <surname>de Haitze</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="fr">Les moines empruntez. Propter quod deponentes mendacium, loquimini veritatem, unusquique cum proximo suo: quoniam sumus invicem membra ... Par ... Pierre Joseph. Tome premier .-second</title>
+            <title level="m" xml:lang="fr">Les moines empruntez. Propter quod deponentes mendacium,
+                loquimini veritatem, unusquique cum proximo suo: quoniam sumus invicem membra ...
+                Par ... Pierre Joseph. Tome premier .-second</title>
             <idno type="SBN">MODE029094</idno>
             <imprint>
                 <date when-iso="1698"/>
@@ -1060,7 +1166,9 @@
                     <surname>Lactantius</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Lucii Coelii siue Caecilii Lactantii Firmiani Opera omnia, quae extant Christophorus Cellarius recensuit et adnotationibus illustrauit</title>
+            <title level="m" xml:lang="la">Lucii Coelii siue Caecilii Lactantii Firmiani Opera
+                omnia, quae extant Christophorus Cellarius recensuit et adnotationibus
+                illustrauit</title>
             <idno type="SBN">TO0E038629</idno>
             <imprint>
                 <pubPlace xml:lang="la">Lipsiæ</pubPlace>
@@ -1083,7 +1191,8 @@
                     <surname>Manzolli</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Marcelli Palingenii Stellati ... Zodiacus vitae, hoc est. De hominis vita, studio, ac moribus optime instituendis, libri 12</title>
+            <title level="m" xml:lang="la">Marcelli Palingenii Stellati ... Zodiacus vitae, hoc est.
+                De hominis vita, studio, ac moribus optime instituendis, libri 12</title>
             <idno type="SBN">PARE030279</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0065">Amstelodami</pubPlace>
@@ -1106,14 +1215,17 @@
                     <surname>Travini</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Difesa delle Considerazioni intorno alla generazione de' viventi del sig. dottore Francesco Maria Nigrisoli. Dalla Lettera critica del sig. abate co. Antonio Conti inserita ne' Giornali de' letterati d'Italia tom. 12. art. 10. pag. 240</title>
+            <title level="m" xml:lang="it">Difesa delle Considerazioni intorno alla generazione de'
+                viventi del sig. dottore Francesco Maria Nigrisoli. Dalla Lettera critica del sig.
+                abate co. Antonio Conti inserita ne' Giornali de' letterati d'Italia tom. 12. art.
+                10. pag. 240</title>
             <idno type="SBN">MILE032463</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0013">Ferrara</pubPlace>
                 <date when-iso="1714"/>
                 <publisher>
                     <persName xml:lang="it">
-                        <forename>Bernardino</forename> 
+                        <forename>Bernardino</forename>
                         <surname>Barbieri</surname>
                     </persName>
                 </publisher>
@@ -1122,7 +1234,9 @@
     </biblStruct>
     <biblStruct xml:id="DLCL_CF_BS0053" sameAs="http://id.sbn.it/bid/CFIE001940">
         <monogr>
-            <title level="m" xml:lang="la">Vetus [-Nouum] testamentum multiplici lingua nunc primo impressum. Et imprimis Pentateuchus Hebraico Greco atque Chaldaico idiomate. Adiuncta vnicuique sua latina interpretatione</title>
+            <title level="m" xml:lang="la">Vetus [-Nouum] testamentum multiplici lingua nunc primo
+                impressum. Et imprimis Pentateuchus Hebraico Greco atque Chaldaico idiomate.
+                Adiuncta vnicuique sua latina interpretatione</title>
             <idno type="SBN">CFIE001940</idno>
             <imprint>
                 <pubPlace xml:lang="la">In hac preclarissima Complutensi vniuersitate</pubPlace>
@@ -1145,14 +1259,20 @@
                     <surname>Banduri</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Imperium orientale sive Antiquitates Constantinopolitanae in quatuor partes distributae: quae ex variis scriptorum Graecorum operibus &amp; presertim ineditis adornatae, commentariis, &amp; geographicis, topographicis, aliisque quam plurimis monumentorum ac nomismatum tabellis illustrantur, &amp; ad intelligentiam cum sacrae tum profanae historiae apprime conducunt. Opera &amp; studio domni Anselmi Banduri Ragusini, presbyteri ac monachi benedectini e congregatione Melitensi. Tomus primus [-secundus]</title>
+            <title level="m" xml:lang="la">Imperium orientale sive Antiquitates Constantinopolitanae
+                in quatuor partes distributae: quae ex variis scriptorum Graecorum operibus &amp;
+                presertim ineditis adornatae, commentariis, &amp; geographicis, topographicis,
+                aliisque quam plurimis monumentorum ac nomismatum tabellis illustrantur, &amp; ad
+                intelligentiam cum sacrae tum profanae historiae apprime conducunt. Opera &amp;
+                studio domni Anselmi Banduri Ragusini, presbyteri ac monachi benedectini e
+                congregatione Melitensi. Tomus primus [-secundus]</title>
             <idno type="SBN">SBLE017894</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0017" xml:lang="la">Parisiis</pubPlace>
                 <date when-iso="1711"/>
                 <publisher>
                     <persName xml:lang="fr">
-                        <forename>Jean</forename> 
+                        <forename>Jean</forename>
                         <forename>Baptiste</forename>
                         <surname>Coignard</surname>
                     </persName>
@@ -1168,7 +1288,11 @@
                     <surname>Mongitore</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Bibliotheca sicula sive de scriptoribus siculis qui tum vetera, tum recentiora saecula illustrarunt : *notitiae locupletissimae .. Accessit apparatus priliminaris operi privius, complectens Sicani historii prospectum, disquisitiones de nomine Sicilii, siculorum ingenio &amp; literis &amp; de computo Olympiadum / Auctore ... Antonino Mongitore ... Tomus primus -secundus!</title>
+            <title level="m" xml:lang="la">Bibliotheca sicula sive de scriptoribus siculis qui tum
+                vetera, tum recentiora saecula illustrarunt : *notitiae locupletissimae .. Accessit
+                apparatus priliminaris operi privius, complectens Sicani historii prospectum,
+                disquisitiones de nomine Sicilii, siculorum ingenio &amp; literis &amp; de computo
+                Olympiadum / Auctore ... Antonino Mongitore ... Tomus primus -secundus!</title>
             <idno type="SBN">RLZE010240</idno>
             <imprint>
                 <pubPlace>Palermo</pubPlace>
@@ -1178,7 +1302,7 @@
                         <forename>Diego</forename>
                         <surname>Bua</surname>
                     </persName>
-                    <persName xml:lang="it"> 
+                    <persName xml:lang="it">
                         <forename>Angelo</forename>
                         <surname>Felicella</surname>
                     </persName>
@@ -1195,7 +1319,9 @@
                     <surname>Nigrisoli</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Considerazioni intorno alla generazione de' viventi e particolarmente de' mostri fatte dal dottore Francesco Maria Nigrisoli, e da lui scritte al sig. dottor Dionisio Andrea Sancassani</title>
+            <title level="m" xml:lang="it">Considerazioni intorno alla generazione de' viventi e
+                particolarmente de' mostri fatte dal dottore Francesco Maria Nigrisoli, e da lui
+                scritte al sig. dottor Dionisio Andrea Sancassani</title>
             <idno type="SBN">USME023464</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0013">Ferrara</pubPlace>
@@ -1217,7 +1343,13 @@
                     <surname>Parisi</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Prosperi Parisii, ... Rariora Magnae Graeciae numismata, maximis Philippis, regi ac principi Hispaniarum, A.C. 1592. primùm oblata, cum enumeratione sanctorum, pontificum, imperatorum, ... familiarùmque illustrium, ex Calabria, Sicilia, regnoque Neapolitano, originem suam trahentium; &amp; ipsis Magnae Graeciae tabulis, inter se divisis, altera editione renovata. Accurante Joh. Georgio Volckamero, med. d. Accedit praefatio epistolica Christophori Arnoldi</title>
+            <title level="m" xml:lang="la">Prosperi Parisii, ... Rariora Magnae Graeciae numismata,
+                maximis Philippis, regi ac principi Hispaniarum, A.C. 1592. primùm oblata, cum
+                enumeratione sanctorum, pontificum, imperatorum, ... familiarùmque illustrium, ex
+                Calabria, Sicilia, regnoque Neapolitano, originem suam trahentium; &amp; ipsis
+                Magnae Graeciae tabulis, inter se divisis, altera editione renovata. Accurante Joh.
+                Georgio Volckamero, med. d. Accedit praefatio epistolica Christophori
+                Arnoldi</title>
             <idno type="SBN">BVEE036905</idno>
             <imprint>
                 <date when-iso="1683"/>
@@ -1229,7 +1361,12 @@
             <author>
                 <orgName xml:lang="it">Chiesa Cattolica</orgName>
             </author>
-            <title level="m" xml:lang="la">Vetvstivs occidentalis Ecclesiae martyrologivm D. Hieronymo a Cassiodoro, Beda, Vvalfrido, Notkero, aliisqve scriptoribvs tribvtvm, quod nuncupandum esse Romanvm a Magno Gregorio descriptvm, ab Adone lavdatvm ... Franciscus Maria Florentinivs ... ex suo praesertim, ac Patriae Maioris Ecclesiae, pluribusque alijs probatae fidei codicibus, quà notis, quà exercitationibus explicatum, integrè vulgauit</title>
+            <title level="m" xml:lang="la">Vetvstivs occidentalis Ecclesiae martyrologivm D.
+                Hieronymo a Cassiodoro, Beda, Vvalfrido, Notkero, aliisqve scriptoribvs tribvtvm,
+                quod nuncupandum esse Romanvm a Magno Gregorio descriptvm, ab Adone lavdatvm ...
+                Franciscus Maria Florentinivs ... ex suo praesertim, ac Patriae Maioris Ecclesiae,
+                pluribusque alijs probatae fidei codicibus, quà notis, quà exercitationibus
+                explicatum, integrè vulgauit</title>
             <idno type="SBN">TO0E014762</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0085">Lucae</pubPlace>
@@ -1251,14 +1388,16 @@
                     <surname>Pascoli</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Sofilo senza maschera. All'illustrissimo, e reverendissimo signore monsignor Banchieri assessore del S. Offizio. Di Alessandro Pascoli perugino</title>
+            <title level="m" xml:lang="it">Sofilo senza maschera. All'illustrissimo, e
+                reverendissimo signore monsignor Banchieri assessore del S. Offizio. Di Alessandro
+                Pascoli perugino</title>
             <idno type="SBN">RMLE023147</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0008">Roma</pubPlace>
                 <date when-iso="1711"/>
                 <publisher>
                     <persName xml:lang="it">
-                        <forename>Giovanni</forename> 
+                        <forename>Giovanni</forename>
                         <forename>Francesco</forename>
                         <surname>Buagni</surname>
                     </persName>
@@ -1275,7 +1414,10 @@
                     <surname>Travini</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Difesa delle Considerazioni intorno alla generazione de' viventi del sig. dottore Francesco Maria Nigrisoli. Dalla Lettera critica del sig. abate co. Antonio Conti inserita ne' Giornali de' letterati d'Italia tom. 12. art. 10. pag. 240</title>
+            <title level="m" xml:lang="it">Difesa delle Considerazioni intorno alla generazione de'
+                viventi del sig. dottore Francesco Maria Nigrisoli. Dalla Lettera critica del sig.
+                abate co. Antonio Conti inserita ne' Giornali de' letterati d'Italia tom. 12. art.
+                10. pag. 240</title>
             <idno type="SBN">MILE032463</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0013">Ferrara</pubPlace>
@@ -1298,7 +1440,8 @@
                     <surname>Zappata</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Della imitazione servile comentario di Giovam-Battista Zappata accademico intrepido</title>
+            <title level="m" xml:lang="it">Della imitazione servile comentario di Giovam-Battista
+                Zappata accademico intrepido</title>
             <idno type="SBN">CFIE008584</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0007">Bologna</pubPlace>
@@ -1314,7 +1457,8 @@
     </biblStruct>
     <biblStruct xml:id="DLCL_CF_BS0062" sameAs="http://id.sbn.it/bid/RLZE009948">
         <monogr>
-            <title level="m" xml:lang="it">18: Giornale de' letterati d'Italia. Tomo decimottavo. Anno 1714</title>
+            <title level="m" xml:lang="it">18: Giornale de' letterati d'Italia. Tomo decimottavo.
+                Anno 1714</title>
             <idno type="SBN">RLZE009948</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0024">Venezia</pubPlace>
@@ -1331,7 +1475,9 @@
                     <surname>Orlandi</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Notizie degli scrittori bolognesi e dell'opere loro stampate e manoscritte raccolte da fr. Pellegrino Antonio Orlandi da Bologna .</title>
+            <title level="m" xml:lang="it">Notizie degli scrittori bolognesi e dell'opere loro
+                stampate e manoscritte raccolte da fr. Pellegrino Antonio Orlandi da Bologna
+                .</title>
             <idno type="SBN">TO0E007630</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0007">Bologna</pubPlace>
@@ -1353,7 +1499,10 @@
                     <surname>Mabillon</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Annales ordinis S. Benedicti occidentalium monachorum patriarchae. In quibus non modo res monasticae, sed etiam ecclesiasticae historiae non minima pars continetur. Auctore domno Johanne Mabillon ... Tomus primus [-sextus]</title>
+            <title level="m" xml:lang="la">Annales ordinis S. Benedicti occidentalium monachorum
+                patriarchae. In quibus non modo res monasticae, sed etiam ecclesiasticae historiae
+                non minima pars continetur. Auctore domno Johanne Mabillon ... Tomus primus
+                [-sextus]</title>
             <idno type="SBN">RMLE028215</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0017" xml:lang="la">Luteciae Parisiorum</pubPlace>
@@ -1379,7 +1528,11 @@
                     <surname>Grandi</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Dissertationes Camaldulenses in quibus agitur 1. De institutione Ordinis Camaldulensis. 2. De ætate s.p. Romualdi. 3. De visione scalæ ejusdem, et habitus mutatione prætensa. 4. De s. Petri Damiani, et Avellanitarum instituto Camaldulensi ... Auctore d. Guidone Grando Cremonensi monacho Camaldulensi ...</title>
+            <title level="m" xml:lang="la">Dissertationes Camaldulenses in quibus agitur 1. De
+                institutione Ordinis Camaldulensis. 2. De ætate s.p. Romualdi. 3. De visione scalæ
+                ejusdem, et habitus mutatione prætensa. 4. De s. Petri Damiani, et Avellanitarum
+                instituto Camaldulensi ... Auctore d. Guidone Grando Cremonensi monacho Camaldulensi
+                ...</title>
             <idno type="SBN">NAPE011489</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0085">Lucæ</pubPlace>
@@ -1402,14 +1555,16 @@
                     <surname>Germain</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Museum Italicum seu Collectio veterum scriptorum ex bibliothecis Italicis, eruta a D. Johanne Mabillon, &amp; D. Michaele Germain presbyteris &amp; monachis Benedectinae Cong. S. Mauri. Tomus 1. [- 2.]</title>
+            <title level="m" xml:lang="la">Museum Italicum seu Collectio veterum scriptorum ex
+                bibliothecis Italicis, eruta a D. Johanne Mabillon, &amp; D. Michaele Germain
+                presbyteris &amp; monachis Benedectinae Cong. S. Mauri. Tomus 1. [- 2.]</title>
             <idno type="SBN">BVEE035889</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0017" xml:lang="la">Luteciae Parisiorum</pubPlace>
                 <date from-iso="1687" to-iso="1689"/>
                 <publisher>
                     <persName xml:lang="fr">
-                        <forename>Veuve</forename> 
+                        <forename>Veuve</forename>
                         <forename>d'Edme</forename>
                         <surname>Martin</surname>
                     </persName>
@@ -1434,7 +1589,9 @@
                     <surname>Graziani</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="fr">La vie du cardinal Jean François Commendon divisée en quatre livres. Écrite en latin par Antoine Maria Gratiani evesque d'Amélia. Et traduite en françois par m. Flechier ...</title>
+            <title level="m" xml:lang="fr">La vie du cardinal Jean François Commendon divisée en
+                quatre livres. Écrite en latin par Antoine Maria Gratiani evesque d'Amélia. Et
+                traduite en françois par m. Flechier ...</title>
             <idno type="SBN">TO0E005215</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0017" xml:lang="fr">Paris</pubPlace>
@@ -1457,14 +1614,16 @@
                     <surname>Graziani</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Antonij Mariae Gratiani a Burgo S. Sepulchri episcopi Amerini De vita Ioannis Francisci Commendoni cardinalis libri quatuor. Accessere Vitae Petri Bembi, &amp; Gasparis Contareni cardinalium. Auctore Ioanne Casa</title>
+            <title level="m" xml:lang="la">Antonij Mariae Gratiani a Burgo S. Sepulchri episcopi
+                Amerini De vita Ioannis Francisci Commendoni cardinalis libri quatuor. Accessere
+                Vitae Petri Bembi, &amp; Gasparis Contareni cardinalium. Auctore Ioanne Casa</title>
             <idno type="SBN">PUVE004795</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0010">Patavij</pubPlace>
                 <date when-iso="1685"/>
                 <publisher>
                     <persName xml:lang="it">
-                        <forename>Pietro</forename> 
+                        <forename>Pietro</forename>
                         <forename>Maria</forename>
                         <surname>Frambotto</surname>
                     </persName>
@@ -1480,7 +1639,8 @@
                     <surname>Baruffaldi</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">La tabaccheide ditirambo di Girolamo Baruffaldi ferrarese accademico intrepido con le annotazioni</title>
+            <title level="m" xml:lang="it">La tabaccheide ditirambo di Girolamo Baruffaldi ferrarese
+                accademico intrepido con le annotazioni</title>
             <idno type="SBN">VIAE001766</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0013">Ferrara</pubPlace>
@@ -1497,7 +1657,8 @@
                     <surname>Lanzoni</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Josephi Lanzoni Ferrariensis ... Adversariorum libri quatuor. Accedunt ejusdem viginti breves Consultationes medicae</title>
+            <title level="m" xml:lang="la">Josephi Lanzoni Ferrariensis ... Adversariorum libri
+                quatuor. Accedunt ejusdem viginti breves Consultationes medicae</title>
             <idno type="SBN">UFEE013820</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0013" xml:lang="la">Ferrariae</pubPlace>
@@ -1508,14 +1669,17 @@
     </biblStruct>
     <biblStruct xml:id="DLCL_CF_BS0071" sameAs="http://id.sbn.it/bid/FERE002320">
         <monogr>
-            <title level="m" xml:lang="it">Compendio della vita del B. Giovanni da Tossignano vescouo di Ferrara il di cui sacro corpo riposa nella Chiesa di S. Girolamo di detta citta. Compilata in occasione della sua traslazione da Nicolo Baruffaldi ferrarese</title>
+            <title level="m" xml:lang="it">Compendio della vita del B. Giovanni da Tossignano
+                vescouo di Ferrara il di cui sacro corpo riposa nella Chiesa di S. Girolamo di detta
+                citta. Compilata in occasione della sua traslazione da Nicolo Baruffaldi
+                ferrarese</title>
             <idno type="SBN">FERE002320</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0013">Ferrara</pubPlace>
                 <date when-iso="1712"/>
                 <publisher>
                     <persName xml:lang="it">
-                        <forename>Bernardino</forename> 
+                        <forename>Bernardino</forename>
                         <surname>Barbieri</surname>
                     </persName>
                 </publisher>
@@ -1531,7 +1695,9 @@
                     <surname>Bianchini</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Della satira italiana trattato del dottore Giuseppe Bianchini di Prato accademico fiorentino. All'illustrissimo signore il signor abate Anton Maria Salvini</title>
+            <title level="m" xml:lang="it">Della satira italiana trattato del dottore Giuseppe
+                Bianchini di Prato accademico fiorentino. All'illustrissimo signore il signor abate
+                Anton Maria Salvini</title>
             <idno type="SBN">LO1E023267</idno>
             <imprint>
                 <pubPlace>Massa</pubPlace>
@@ -1554,7 +1720,9 @@
                     <surname>Muratori</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Del governo della peste, e delle maniere di guardarsene, trattato di Lodovico Antonio Muratori ... diviso in politico, medico, et ecclesiastico ...</title>
+            <title level="m" xml:lang="it">Del governo della peste, e delle maniere di guardarsene,
+                trattato di Lodovico Antonio Muratori ... diviso in politico, medico, et
+                ecclesiastico ...</title>
             <idno type="SBN">UBOE005995</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0012">Modena</pubPlace>
@@ -1576,7 +1744,10 @@
                     <surname>Locatelli</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Vita del glorioso padre San Giouangualberto fondatore dell'ordine di Vallombrosa. Insieme con le vite di tuttii [!] generali, beati, e beate, che ha di tempo in tempo hauuto la sua religione; raccolte dal p.d. Eudosio Loccatelli da Santa Sofia monaco del medesimo ordine</title>
+            <title level="m" xml:lang="it">Vita del glorioso padre San Giouangualberto fondatore
+                dell'ordine di Vallombrosa. Insieme con le vite di tuttii [!] generali, beati, e
+                beate, che ha di tempo in tempo hauuto la sua religione; raccolte dal p.d. Eudosio
+                Loccatelli da Santa Sofia monaco del medesimo ordine</title>
             <idno type="SBN">BVEE004913</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0018">Fiorenza</pubPlace>
@@ -1659,14 +1830,19 @@
                     <surname>Kramer</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Il nuovo dizzionario delle due lingue italiana-tedesca e tedesca-italiana, amplificato di ricchissima fraseologia overo uso genuino e nazio de' vocaboli, fornito de' termini e locuzioni proprie di stato, di guerra, mercanzia ... opera compita, utilissima, e da molti desiderata. Distinta in due tomi, compilata con essattissima diligenza e fatica da' più famosi scrittori ... da Mattia Kramer maestro delle lingue</title>
+            <title level="m" xml:lang="it">Il nuovo dizzionario delle due lingue italiana-tedesca e
+                tedesca-italiana, amplificato di ricchissima fraseologia overo uso genuino e nazio
+                de' vocaboli, fornito de' termini e locuzioni proprie di stato, di guerra, mercanzia
+                ... opera compita, utilissima, e da molti desiderata. Distinta in due tomi,
+                compilata con essattissima diligenza e fatica da' più famosi scrittori ... da Mattia
+                Kramer maestro delle lingue</title>
             <idno type="SBN">CFIE023709</idno>
             <imprint>
                 <pubPlace>Norimberga</pubPlace>
                 <date from-iso="1676" to-iso="1678"/>
                 <publisher>
                     <persName xml:lang="de">
-                        <forename>Johann</forename> 
+                        <forename>Johann</forename>
                         <forename>Andreas</forename>
                         <forename>Erben</forename>
                         <surname>Endter</surname>
@@ -1683,14 +1859,17 @@
                     <surname>Kramer</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="de">Matthiae Kramers Grössere Italiänische Grammatica oder ausführliche Toscanisch-Romanische Sprach-Lehre : aus ihren untersten Fundamentis und Füglichkeit bis zur höchsten Perfection und Zierlichkeit für die Teutsche Nation aufs klärlichst- ordentlichst- und fleissigst- ausgeführet und vorgetragen</title>
+            <title level="m" xml:lang="de">Matthiae Kramers Grössere Italiänische Grammatica oder
+                ausführliche Toscanisch-Romanische Sprach-Lehre : aus ihren untersten Fundamentis
+                und Füglichkeit bis zur höchsten Perfection und Zierlichkeit für die Teutsche Nation
+                aufs klärlichst- ordentlichst- und fleissigst- ausgeführet und vorgetragen</title>
             <idno type="SBN">TO0E161594</idno>
             <imprint>
                 <pubPlace xml:lang="de">Nürnberg</pubPlace>
                 <date when-iso="1694"/>
                 <publisher>
                     <persName xml:lang="de">
-                        <forename>Wolfgang</forename> 
+                        <forename>Wolfgang</forename>
                         <forename>Moritz</forename>
                         <surname>Endter</surname>
                     </persName>
@@ -1706,7 +1885,9 @@
                     <surname>Malpighi</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Marcelli Malpighii ... Opera omnia, figuris elegantissimis in aes incisis illustrata. Tomis duobus comprehensa. Quorum catalogum sequens pagina exhibet</title>
+            <title level="m" xml:lang="la">Marcelli Malpighii ... Opera omnia, figuris
+                elegantissimis in aes incisis illustrata. Tomis duobus comprehensa. Quorum catalogum
+                sequens pagina exhibet</title>
             <idno type="SBN">MILE014094</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0045" xml:lang="la">Londini</pubPlace>
@@ -1728,7 +1909,9 @@
                     <surname>Malpighi</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Marcelli Malpighii ... Opera omnia, figuris elegantissimis in aes incisis illustrata. Tomis duobus comprehensa. Quorum catalogum sequens pagina exhibet</title>
+            <title level="m" xml:lang="la">Marcelli Malpighii ... Opera omnia, figuris
+                elegantissimis in aes incisis illustrata. Tomis duobus comprehensa. Quorum catalogum
+                sequens pagina exhibet</title>
             <idno type="SBN">VEAE122196</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0045" xml:lang="la">Londini</pubPlace>
@@ -1754,7 +1937,9 @@
                     <surname>Malpighi</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Marcelli Malpighii ... opera omnia, figuris elegantissimis in aes incisis illustrata. Tomis duobus comprehensa. Quorum catalogum sequens pagina exhibet</title>
+            <title level="m" xml:lang="la">Marcelli Malpighii ... opera omnia, figuris
+                elegantissimis in aes incisis illustrata. Tomis duobus comprehensa. Quorum catalogum
+                sequens pagina exhibet</title>
             <idno type="SBN">UFIE000622</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0045" xml:lang="la">Londini</pubPlace>
@@ -1776,7 +1961,10 @@
                     <surname>di Capua</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Del parere del signor Lionardo di Capoa divisato in otto ragionamenti, ne' quali partitamente narrandosi l'origine, e'l progresso della medicina, chiaramente l'incertezza della medesima si fa manifesta ... Volume 1. -3.!</title>
+            <title level="m" xml:lang="it">Del parere del signor Lionardo di Capoa divisato in otto
+                ragionamenti, ne' quali partitamente narrandosi l'origine, e'l progresso della
+                medicina, chiaramente l'incertezza della medesima si fa manifesta ... Volume 1.
+                -3.!</title>
             <idno type="SBN">PUVE010465</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0082">In Cologna i.e. Napoli!</pubPlace>
@@ -1792,7 +1980,8 @@
                     <surname>di Capua</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">3: Lezioni intorno alla natura delle mofete del signor Lionardo di Capoa ...</title>
+            <title level="m" xml:lang="it">3: Lezioni intorno alla natura delle mofete del signor
+                Lionardo di Capoa ...</title>
             <idno type="SBN">PUVE010468</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0082">In Cologna [i.e. Napoli]</pubPlace>
@@ -1808,7 +1997,10 @@
                     <surname>Cavalcanti</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">La retorica di M. Bartolomeo Caualcanti, gentilhuomo Fiorentino. Diuisa in sette libri, doue si contiene tutto quello che appartiene all' arte oratoria, in questa seconda editione di nuouo dall' istesso autore reuista, &amp; in molti luoghi accresciuta. Con tre tauole ...</title>
+            <title level="m" xml:lang="it">La retorica di M. Bartolomeo Caualcanti, gentilhuomo
+                Fiorentino. Diuisa in sette libri, doue si contiene tutto quello che appartiene all'
+                arte oratoria, in questa seconda editione di nuouo dall' istesso autore reuista,
+                &amp; in molti luoghi accresciuta. Con tre tauole ...</title>
             <idno type="SBN">BVEE011456</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0024">Vinegia</pubPlace>
@@ -1831,7 +2023,10 @@
                     <surname>Cavalcanti</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">La retorica di M. Bartolomeo Caualcanti, gentilhuomo fiorentino. Diuisa in sette libri: doue si contiene tutto quello, che appartiene all'arte oratoria. Con la tauola de i capi principali, contenuti nella presente opera. ...</title>
+            <title level="m" xml:lang="it">La retorica di M. Bartolomeo Caualcanti, gentilhuomo
+                fiorentino. Diuisa in sette libri: doue si contiene tutto quello, che appartiene
+                all'arte oratoria. Con la tauola de i capi principali, contenuti nella presente
+                opera. ...</title>
             <idno type="SBN">BVEE021223</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0024">Vinegia</pubPlace>
@@ -1854,7 +2049,10 @@
                     <surname>Cavalcanti</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">La retorica di m. Bartolomeo Caualcanti, gentilhuomo fiorentino. Diuisa in sette libri, doue si contiene tutto quello, che appartiene all'arte oratoria, ... All'illustrissimo, et reuerendissimo signore, il cardinale di Ferrara</title>
+            <title level="m" xml:lang="it">La retorica di m. Bartolomeo Caualcanti, gentilhuomo
+                fiorentino. Diuisa in sette libri, doue si contiene tutto quello, che appartiene
+                all'arte oratoria, ... All'illustrissimo, et reuerendissimo signore, il cardinale di
+                Ferrara</title>
             <idno type="SBN">UBOE000696</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0024">Vinegia</pubPlace>
@@ -1877,7 +2075,8 @@
                     <surname>Valla</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Laurentii Vallensis Patritii Romani, De falso credita &amp; ementita Constantini donatione, declamatio</title>
+            <title level="m" xml:lang="la">Laurentii Vallensis Patritii Romani, De falso credita
+                &amp; ementita Constantini donatione, declamatio</title>
             <idno type="SBN">VIAE022345</idno>
             <imprint>
                 <pubPlace xml:lang="la">Westphaliae</pubPlace>
@@ -1894,7 +2093,8 @@
                     <surname>Fabri</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Rauenna ricercata ouero Compendio istorico delle cose più notabili dell'antica città di Rauenna ore disoccupate di Girolamo Fabri ...</title>
+            <title level="m" xml:lang="it">Rauenna ricercata ouero Compendio istorico delle cose più
+                notabili dell'antica città di Rauenna ore disoccupate di Girolamo Fabri ...</title>
             <idno type="SBN">RAVE007757</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0007">Bologna</pubPlace>
@@ -1916,7 +2116,10 @@
                     <surname>Vermeulen</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">De picturis et imaginibus sacris, liber vnus: tractans de vitandis circa eas abusibus, &amp; de earundem significationibus. Authore Ioanne Molano Louaniensi, ...Eiusdem Responsio quodlibetica, ad tres quaestiones ...</title>
+            <title level="m" xml:lang="la">De picturis et imaginibus sacris, liber vnus: tractans de
+                vitandis circa eas abusibus, &amp; de earundem significationibus. Authore Ioanne
+                Molano Louaniensi, ...Eiusdem Responsio quodlibetica, ad tres quaestiones
+                ...</title>
             <idno type="SBN">RMLE001021</idno>
             <imprint>
                 <pubPlace>Louanii</pubPlace>
@@ -1938,7 +2141,9 @@
                     <surname>Pérez</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Dissertationes ecclesiasticae in quibus pleraque ad historiam ecclesiasticam, &amp; politicam Hispaniae, remque diplomaticam spectantia accuratè discutiuntur. Auctore ... fr. Iosepho Perezio, Benedictino, ...</title>
+            <title level="m" xml:lang="la">Dissertationes ecclesiasticae in quibus pleraque ad
+                historiam ecclesiasticam, &amp; politicam Hispaniae, remque diplomaticam spectantia
+                accuratè discutiuntur. Auctore ... fr. Iosepho Perezio, Benedictino, ...</title>
             <idno type="SBN">BVEE044957</idno>
             <imprint>
                 <pubPlace xml:lang="la">Salmanticae</pubPlace>
@@ -1954,14 +2159,15 @@
     </biblStruct>
     <biblStruct xml:id="DLCL_CF_BS0092" sameAs="http://id.sbn.it/bid/RLZE009950">
         <monogr>
-            <title level="m" xml:lang="it">20: Giornale de' letterati d'Italia. Tomo ventesimo. Anno 1715</title>
+            <title level="m" xml:lang="it">20: Giornale de' letterati d'Italia. Tomo ventesimo. Anno
+                1715</title>
             <idno type="SBN">RLZE009950</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0024">Venezia</pubPlace>
                 <date when-iso="1715"/>
                 <publisher>
                     <persName xml:lang="it">
-                        <forename>Giovanni</forename> 
+                        <forename>Giovanni</forename>
                         <forename>Gabriele</forename>
                         <surname>Hertz</surname>
                     </persName>
@@ -1977,13 +2183,17 @@
                     <surname>Augustinus</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Sancti Aurelii Augustini ... Operum tomus primus [- decimus]. Post Lovaniensium theologorum recensionem castigatus denuo ad manuscriptos codices Gallicanos, Vaticanos, Anglicanos, Belgicos &amp;c. nec non ad editiones antiquiores &amp; castigatiores. Opera et studio monachorum Ordinis S. Benedicti è Congregatione S. Mauri</title>
+            <title level="m" xml:lang="la">Sancti Aurelii Augustini ... Operum tomus primus [-
+                decimus]. Post Lovaniensium theologorum recensionem castigatus denuo ad manuscriptos
+                codices Gallicanos, Vaticanos, Anglicanos, Belgicos &amp;c. nec non ad editiones
+                antiquiores &amp; castigatiores. Opera et studio monachorum Ordinis S. Benedicti è
+                Congregatione S. Mauri</title>
             <idno type="SBN">TO0E078327</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0017" xml:lang="la">Parisiis</pubPlace>
                 <date from-iso="1679" to-iso="1700"/>
                 <publisher>
-                    <persName xml:lang="fr"> 
+                    <persName xml:lang="fr">
                         <forename>François</forename>
                         <surname>Muguet</surname>
                     </persName>
@@ -1999,7 +2209,11 @@
                     <surname>Augustinus</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Sancti Aurelii Augustini Hipponensis Episcopi Operum tomus primus[-12.]. Post Lovaniensium theologorum recensionem castigatus denuo ad manuscriptos codices Gallicanos, Vaticanos, Anglicanos, Belgicos &amp; c. nec non ad editiones antiquiores &amp; castigatiores. Opera &amp; studio monachorum Ordinis Sancti Benedicti, Congregatione Sancti Mauri</title>
+            <title level="m" xml:lang="la">Sancti Aurelii Augustini Hipponensis Episcopi Operum
+                tomus primus[-12.]. Post Lovaniensium theologorum recensionem castigatus denuo ad
+                manuscriptos codices Gallicanos, Vaticanos, Anglicanos, Belgicos &amp; c. nec non ad
+                editiones antiquiores &amp; castigatiores. Opera &amp; studio monachorum Ordinis
+                Sancti Benedicti, Congregatione Sancti Mauri</title>
             <idno type="SBN">TO0E067480</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0032" xml:lang="la">Antwerpiæ</pubPlace>
@@ -2018,7 +2232,10 @@
                     <surname>Cavaccio</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Historiarum coenobii d. Iustinae Patauinae, libri sex. Quibus Casinensis Congregationis origo &amp; plurima ad vrbem Patauium, ac finitimos, attinentia opportune interseruntur, auctore d. Iacobo Cauacio patauino monacho eiusdem congregationis ...</title>
+            <title level="m" xml:lang="la">Historiarum coenobii d. Iustinae Patauinae, libri sex.
+                Quibus Casinensis Congregationis origo &amp; plurima ad vrbem Patauium, ac
+                finitimos, attinentia opportune interseruntur, auctore d. Iacobo Cauacio patauino
+                monacho eiusdem congregationis ...</title>
             <idno type="SBN">PUVE002957</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0024" xml:lang="la">Venetiis</pubPlace>
@@ -2040,7 +2257,9 @@
                     <surname>Cavaccio</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Historiarum coenobii d. Justinæ Patavinæ libri sex. Quibus Cassinensis congregationis origo, &amp; plurima ad urbem Patavium, ac finitimos attinentia opportune interferuntur. Auctore d. Jacobo Cavacio ...</title>
+            <title level="m" xml:lang="la">Historiarum coenobii d. Justinæ Patavinæ libri sex.
+                Quibus Cassinensis congregationis origo, &amp; plurima ad urbem Patavium, ac
+                finitimos attinentia opportune interferuntur. Auctore d. Jacobo Cavacio ...</title>
             <idno type="SBN">VIAE006326</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0010" xml:lang="la">Patavii</pubPlace>
@@ -2060,7 +2279,8 @@
                     <surname>Nomi</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Liber satyrarum sexdecim Frederici Nomii, Anglariensis, presbyteri, arguti inter concordes academici Insensati</title>
+            <title level="m" xml:lang="la">Liber satyrarum sexdecim Frederici Nomii, Anglariensis,
+                presbyteri, arguti inter concordes academici Insensati</title>
             <idno type="SBN">CFIE005088</idno>
             <imprint>
                 <pubPlace xml:lang="la">Lugduni in Batavis</pubPlace>
@@ -2084,9 +2304,7 @@
             </author>
             <title level="m" xml:lang="la">Q. Sectani Satyrae</title>
             <idno type="SBN">NAPE004922</idno>
-            <note xml:lang="it">
-                Note tipografiche false
-            </note>
+            <note xml:lang="it"> Note tipografiche false </note>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0008" xml:lang="la">Foro Palladio</pubPlace>
                 <date when-iso="1696"/>
@@ -2102,11 +2320,10 @@
                     <surname>Sergardi</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Q. Sectani Satyræ in Phylodemum cum notis variorum</title>
+            <title level="m" xml:lang="la">Q. Sectani Satyræ in Phylodemum cum notis
+                variorum</title>
             <idno type="SBN">NAPE004923</idno>
-            <note xml:lang="it">
-                Il nome del tipografo è fittizio
-            </note>
+            <note xml:lang="it"> Il nome del tipografo è fittizio </note>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0085">Coloniæ [i.e. Lucca]</pubPlace>
                 <date when-iso="1698"/>
@@ -2127,11 +2344,12 @@
                     <surname>Sergardi</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Q. Sectani Satyræ numero auctæ, mendis purgatæ, &amp; singulæ locupletiores ... Accedunt argumenta, ac indices rerum, verborum, &amp; nominum, necnon commentaria ex notis Anonimi: concinnante p. Antoniano liber primus[-secundus]</title>
+            <title level="m" xml:lang="la">Q. Sectani Satyræ numero auctæ, mendis purgatæ, &amp;
+                singulæ locupletiores ... Accedunt argumenta, ac indices rerum, verborum, &amp;
+                nominum, necnon commentaria ex notis Anonimi: concinnante p. Antoniano liber
+                primus[-secundus]</title>
             <idno type="SBN">UM1E003068</idno>
-            <note xml:lang="it">
-                Note tip. false, probabilmente stampato a Roma o Napoli 
-            </note>
+            <note xml:lang="it"> Note tip. false, probabilmente stampato a Roma o Napoli  </note>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0065">Amstelodami</pubPlace>
                 <date when-iso="1700"/>
@@ -2146,7 +2364,9 @@
                     <surname>Magati</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Della biblioteca volante di Giovanni Cinelli Calvoli patrizio fiorentino, e forlivese. Scanzia 17. All'Illustrissimo ... il signor Apostolo Zeno gentiluomo veneto ...</title>
+            <title level="m" xml:lang="it">Della biblioteca volante di Giovanni Cinelli Calvoli
+                patrizio fiorentino, e forlivese. Scanzia 17. All'Illustrissimo ... il signor
+                Apostolo Zeno gentiluomo veneto ...</title>
             <idno type="SBN">TSAE019882</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0012">Modena</pubPlace>
@@ -2168,7 +2388,10 @@
                     <surname>Magati</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Della Biblioteca volante di Giovanni Cinelli Calvoli patrizio fiorentino, e forlivese, Accademico Gelato, Dissonante, Concorde, Incitato, ed Intronato. Scanzia 18. Dedicata al merito sopragrande dell'Illustriss. ... Anton-Francesco Marmi</title>
+            <title level="m" xml:lang="it">Della Biblioteca volante di Giovanni Cinelli Calvoli
+                patrizio fiorentino, e forlivese, Accademico Gelato, Dissonante, Concorde, Incitato,
+                ed Intronato. Scanzia 18. Dedicata al merito sopragrande dell'Illustriss. ...
+                Anton-Francesco Marmi</title>
             <idno type="SBN">TSAE019883</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0013">Ferrara</pubPlace>
@@ -2184,14 +2407,15 @@
     </biblStruct>
     <biblStruct xml:id="DLCL_CF_BS0103" sameAs="http://id.sbn.it/bid/RLZE009951">
         <monogr>
-            <title level="m" xml:lang="it">21: Giornale de' letterati d'Italia. Tomo ventesimoprimo. Anno 1715</title>
+            <title level="m" xml:lang="it">21: Giornale de' letterati d'Italia. Tomo ventesimoprimo.
+                Anno 1715</title>
             <idno type="SBN">RLZE009951</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0024">Venezia</pubPlace>
                 <date when-iso="1715"/>
                 <publisher>
                     <persName xml:lang="it">
-                        <forename>Giovanni</forename> 
+                        <forename>Giovanni</forename>
                         <forename>Gabriele</forename>
                         <surname>Hertz</surname>
                     </persName>
@@ -2207,12 +2431,12 @@
                     <surname>Favorino</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="el">
-                Varinos, To mega lexikon, i o thisauros pasis tis Hellinikis glossis, ... para Varinou Favorinou Kamirtos ... Varini Phavorini Camertis ... 
-            </title>
-            <title level="m" xml:lang="la">
-                Magnum dictionarium sive thesaurus universae linguae graecae studiosorum usui valde perutilis, ex multis variisque authoribus collectus ...
-            </title>
+            <title level="m" xml:lang="el"> Varinos, To mega lexikon, i o thisauros pasis tis
+                Hellinikis glossis, ... para Varinou Favorinou Kamirtos ... Varini Phavorini
+                Camertis ... </title>
+            <title level="m" xml:lang="la"> Magnum dictionarium sive thesaurus universae linguae
+                graecae studiosorum usui valde perutilis, ex multis variisque authoribus collectus
+                ... </title>
             <idno type="SBN">VEAE142250</idno>
             <imprint>
                 <pubPlace xml:lang="el" ref="#DLCL_CF_L0024">Enetiisin</pubPlace>
@@ -2234,7 +2458,11 @@
                     <surname>Favorino</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="el">Mega, kai pany ōphelimon lexicon oper Garinos, Phabōrinos, Kamērs, o Noukairias episkopos, ek pollōn kai diaphorōn bibliōn, kata stoicheion synelexato. Magnum ac perutile dictionarium. Quodquidem Varinus Phauorinus Camers Nucerinus episcopus ex multis variisque auctoribus in ordinem alphabeti collegit. ...</title>
+            <title level="m" xml:lang="el">Mega, kai pany ōphelimon lexicon oper Garinos,
+                Phabōrinos, Kamērs, o Noukairias episkopos, ek pollōn kai diaphorōn bibliōn, kata
+                stoicheion synelexato. Magnum ac perutile dictionarium. Quodquidem Varinus
+                Phauorinus Camers Nucerinus episcopus ex multis variisque auctoribus in ordinem
+                alphabeti collegit. ...</title>
             <idno type="SBN">UBOE000904</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0008">Roma</pubPlace>
@@ -2256,14 +2484,17 @@
                     <surname>Puccinelli</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Historia dell'eroiche attioni de' bb. Gometio portughese abbate di Badia, e di Teuzzone romito, con la serie delle badesse dell'insigne monastero delle Murate di Fiorenza. Di d. Placido Puccinelli monaco casinense, &amp; antiquario di detta badia ...</title>
+            <title level="m" xml:lang="it">Historia dell'eroiche attioni de' bb. Gometio portughese
+                abbate di Badia, e di Teuzzone romito, con la serie delle badesse dell'insigne
+                monastero delle Murate di Fiorenza. Di d. Placido Puccinelli monaco casinense, &amp;
+                antiquario di detta badia ...</title>
             <idno type="SBN">LIAE005815</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0027">Milano</pubPlace>
                 <date when-iso="1645"/>
                 <publisher>
                     <persName xml:lang="it">
-                        <forename>Giovanni</forename> 
+                        <forename>Giovanni</forename>
                         <forename>Pietro</forename>
                         <surname>Ramellati</surname>
                     </persName>
@@ -2279,7 +2510,9 @@
                     <surname>Traversari</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Beati Ambrosii abbatis generalis Camaldulensis Hodoeporicon. a Nicolao Bartholini Bargensi C.R. Congregationis Matris Dei publicæ luci assertum, ex Bibliotheca Medicea ad ... Antonium Magliabechi ...</title>
+            <title level="m" xml:lang="la">Beati Ambrosii abbatis generalis Camaldulensis
+                Hodoeporicon. a Nicolao Bartholini Bargensi C.R. Congregationis Matris Dei publicæ
+                luci assertum, ex Bibliotheca Medicea ad ... Antonium Magliabechi ...</title>
             <idno type="SBN">BVEE043762</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0018" xml:lang="la">Florentiae</pubPlace>
@@ -2298,7 +2531,10 @@
                     <surname>Ruinart</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Vita Joannis Mabillonii presbyteri &amp; monachi Ordinis S. Benedicti, Congregationis Sancti Mauri, a Theodorico Ruinarto ejus socio olim Gallice scripta, nunc vero ab alio ejusdem Congragationis Monacho in Latinum sermonem translata, rerumque nova accessione aucta</title>
+            <title level="m" xml:lang="la">Vita Joannis Mabillonii presbyteri &amp; monachi Ordinis
+                S. Benedicti, Congregationis Sancti Mauri, a Theodorico Ruinarto ejus socio olim
+                Gallice scripta, nunc vero ab alio ejusdem Congragationis Monacho in Latinum
+                sermonem translata, rerumque nova accessione aucta</title>
             <idno type="SBN">RMSE056080</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0010">Patavii</pubPlace>
@@ -2312,14 +2548,15 @@
     </biblStruct>
     <biblStruct xml:id="DLCL_CF_BS0109" sameAs="http://id.sbn.it/bid/RLZE009952">
         <monogr>
-            <title level="m" xml:lang="it">22: Giornale de' letterati d'Italia. Tomo ventesimosecondo. Anno 1715</title>
+            <title level="m" xml:lang="it">22: Giornale de' letterati d'Italia. Tomo
+                ventesimosecondo. Anno 1715</title>
             <idno type="SBN">RLZE009952</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0024">Venezia</pubPlace>
                 <date when-iso="1715"/>
                 <publisher>
                     <persName xml:lang="it">
-                        <forename>Giovanni</forename> 
+                        <forename>Giovanni</forename>
                         <forename>Gabriele</forename>
                         <surname>Hertz</surname>
                     </persName>
@@ -2335,7 +2572,10 @@
                     <surname>Calvisius</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Chronologia, ex autoritate potissimum Sacrae Scripturae, et historicorum fide dignissimorum, ad motum luminarium coelestium, tempora &amp; annos distinguentium, secundum characteres chronologicos contexta &amp; deducta. Cui praemissa est Isagoge chronologica ... Studio &amp; opera Sethi Caluisii</title>
+            <title level="m" xml:lang="la">Chronologia, ex autoritate potissimum Sacrae Scripturae,
+                et historicorum fide dignissimorum, ad motum luminarium coelestium, tempora &amp;
+                annos distinguentium, secundum characteres chronologicos contexta &amp; deducta. Cui
+                praemissa est Isagoge chronologica ... Studio &amp; opera Sethi Caluisii</title>
             <idno type="SBN">RMLE076023</idno>
             <imprint>
                 <pubPlace xml:lang="la">Lipsiæ</pubPlace>
@@ -2357,7 +2597,10 @@
                     <surname>Razzi</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Delle vite delle donne illustri per santita, raccolte dal P. abate don Siluano Razzi camaldolense. Contenente (à immitazione del P. Surio) quelle di gennaio, e febbraio [-nouembre, e dicembre]. Nuouamente date in luce</title>
+            <title level="m" xml:lang="it">Delle vite delle donne illustri per santita, raccolte dal
+                P. abate don Siluano Razzi camaldolense. Contenente (à immitazione del P. Surio)
+                quelle di gennaio, e febbraio [-nouembre, e dicembre]. Nuouamente date in
+                luce</title>
             <idno type="SBN">RMLE004418</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0018">Fiorenza</pubPlace>
@@ -2371,14 +2614,16 @@
             <author>
                 <orgName xml:lang="it">Chiesa Cattolica</orgName>
             </author>
-            <title level="m" xml:lang="ut">Officio della beata vergine Maria con alcune dichiarazioni, e meditazioni cavate da' sacri espositori: dedicato a s. Gioacchino padre dell'istessa vergine Maria</title>
+            <title level="m" xml:lang="ut">Officio della beata vergine Maria con alcune
+                dichiarazioni, e meditazioni cavate da' sacri espositori: dedicato a s. Gioacchino
+                padre dell'istessa vergine Maria</title>
             <idno type="SBN">UBOE027892</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0008">Roma</pubPlace>
                 <date when-iso="1714"/>
                 <publisher>
                     <persName xml:lang="it" ref="#DLCL_CF_PC0228">
-                        <forename>Giovanni</forename> 
+                        <forename>Giovanni</forename>
                         <forename>Maria</forename>
                         <surname>Salvioni</surname>
                     </persName>
@@ -2394,14 +2639,17 @@
                     <surname>Bibliothecarius</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Anastasii bibliothecarii De vitis Romanorum pontificum a b. Petro apostolo ad Nicolaum 1. Adjectis vitis Hadriani 2. et Stephani 6. Auctore Guillelmo bibliothecario sub auspiciis ... Clementis 11. ... Tomus primus [-quartus]</title>
+            <title level="m" xml:lang="la">Anastasii bibliothecarii De vitis Romanorum pontificum a
+                b. Petro apostolo ad Nicolaum 1. Adjectis vitis Hadriani 2. et Stephani 6. Auctore
+                Guillelmo bibliothecario sub auspiciis ... Clementis 11. ... Tomus primus
+                [-quartus]</title>
             <idno type="SBN">SBLE015864</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0008" xml:lang="la">Romae</pubPlace>
                 <date from-iso="1718" to-iso="1735"/>
                 <publisher>
                     <persName xml:lang="it" ref="#DLCL_CF_PC0228">
-                        <forename>Giovanni</forename> 
+                        <forename>Giovanni</forename>
                         <forename>Maria</forename>
                         <surname>Salvioni</surname>
                     </persName>
@@ -2417,7 +2665,9 @@
                     <surname>Oldoini</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Athenæum Augustum in quo Perusinorum scripta publice exponuntur studio Augustini Oldoini Societatis Iesu erectum. Raimundo Capisucco Palatii Apostolici magistro consecratum</title>
+            <title level="m" xml:lang="la">Athenæum Augustum in quo Perusinorum scripta publice
+                exponuntur studio Augustini Oldoini Societatis Iesu erectum. Raimundo Capisucco
+                Palatii Apostolici magistro consecratum</title>
             <idno type="SBN">VEAE003090</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0028" xml:lang="la">Perusiæ</pubPlace>
@@ -2443,7 +2693,9 @@
                     <surname>Landi</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Delle azioni morali dell'illust. sig. conte Giulio Landi piacentino, nelle quali, oltre la facile, e spedita introduzione all'Etica d'Aristotele, si discorre con vere massime christiane intorno al duello: ...</title>
+            <title level="m" xml:lang="it">Delle azioni morali dell'illust. sig. conte Giulio Landi
+                piacentino, nelle quali, oltre la facile, e spedita introduzione all'Etica
+                d'Aristotele, si discorre con vere massime christiane intorno al duello: ...</title>
             <idno type="SBN">CFIE018954</idno>
             <imprint>
                 <pubPlace>Piacenza</pubPlace>
@@ -2469,7 +2721,9 @@
                     <surname>Baruffaldi</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Hieronymi Baruffaldi Ph. D. Ferrariensis Dissertatio de praeficis ad illustrationem urnae sepulcralis Fl. Quartillae praeficae. Accedunt Josephi Lanzoni ... Aduersaria de luctu mortuali veterum</title>
+            <title level="m" xml:lang="la">Hieronymi Baruffaldi Ph. D. Ferrariensis Dissertatio de
+                praeficis ad illustrationem urnae sepulcralis Fl. Quartillae praeficae. Accedunt
+                Josephi Lanzoni ... Aduersaria de luctu mortuali veterum</title>
             <idno type="SBN">UBOE033158</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0013">Ferrariae</pubPlace>
@@ -2486,13 +2740,16 @@
                     <surname>Cartari</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">Pallade bambina, ouero Biblioteca delli opuscoli volanti che si conseruano nel palazzo delli signori Altieri. Trattenimento estiuo di Carlo Cartari oruietano ... Parte prima. Composta l'anno 1680. Ma data in luce l'anno 1694. ...</title>
+            <title level="m" xml:lang="it">Pallade bambina, ouero Biblioteca delli opuscoli volanti
+                che si conseruano nel palazzo delli signori Altieri. Trattenimento estiuo di Carlo
+                Cartari oruietano ... Parte prima. Composta l'anno 1680. Ma data in luce l'anno
+                1694. ...</title>
             <idno type="SBN">LO1E020753</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0008">Roma</pubPlace>
                 <date when-iso="1694"/>
                 <publisher>
-                    <persName xml:lang="it"> 
+                    <persName xml:lang="it">
                         <forename>Francesco</forename>
                         <surname>Lazzari</surname>
                     </persName>
@@ -2508,13 +2765,15 @@
                     <surname>Magati</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="it">La notomia dell'acqua osservazioni, e sperienze di un non volgare filosofo. Pubblicate, e dedicate da Dionisio Andrea Sancassani Magati da Scandiano ...</title>
+            <title level="m" xml:lang="it">La notomia dell'acqua osservazioni, e sperienze di un non
+                volgare filosofo. Pubblicate, e dedicate da Dionisio Andrea Sancassani Magati da
+                Scandiano ...</title>
             <idno type="SBN">UFIE002664</idno>
             <imprint>
                 <pubPlace ref="#DLCL_CF_L0010">Padova</pubPlace>
                 <date when-iso="1715"/>
                 <publisher>
-                    <persName xml:lang="it"> 
+                    <persName xml:lang="it">
                         <forename>Giuseppe</forename>
                         <surname>Corona</surname>
                     </persName>
@@ -2530,7 +2789,11 @@
                     <surname>Bolland</surname>
                 </persName>
             </author>
-            <title level="m" xml:lang="la">Acta sanctorum quotquot toto orbe coluntur, vel a catholicis scriptoribus celebrantur, quae ex Latinis &amp; Graecis, aliarumque gentium antiquis monumentis collegit, digessit, notis illustrauit Ioannes Bollandus Societatis Iesu theologus, seruata primigenia scriptorum phrasi. Operam et studium contulit Godefridus Henschenius ...</title>
+            <title level="m" xml:lang="la">Acta sanctorum quotquot toto orbe coluntur, vel a
+                catholicis scriptoribus celebrantur, quae ex Latinis &amp; Graecis, aliarumque
+                gentium antiquis monumentis collegit, digessit, notis illustrauit Ioannes Bollandus
+                Societatis Iesu theologus, seruata primigenia scriptorum phrasi. Operam et studium
+                contulit Godefridus Henschenius ...</title>
             <idno type="SBN">UBOE056609</idno>
             <imprint>
                 <pubPlace xml:lang="la">Antuerpiae</pubPlace>

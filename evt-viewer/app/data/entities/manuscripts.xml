@@ -8,8 +8,13 @@
         <msContents>
             <msItem>
                 <author xml:lang="it">Girolamo Rossi</author>
-                <title type="uniform" xml:lang="la">Incomencia el libro di Regni al Mag.co et Excelso Signor Ugolino de Trinci di Fuligno diviso in quatro libri.</title>
-                <title xml:lang="la">Incomencia el libro di Regni al Mag.co et Excelso Signor Ugolino de Trinci di Fuligno diviso in quatro libri. El primo tracta del Reame de Cupido dio del' amore, el secundo di regni di Sathan, el terzo di regni de vicii, el quarto di regni de la virtude. Capitolo primo del primo libro. La Dea che '1 terzo cielo volvendo move</title>
+                <title type="uniform" xml:lang="la">Incomencia el libro di Regni al Mag.co et
+                    Excelso Signor Ugolino de Trinci di Fuligno diviso in quatro libri.</title>
+                <title xml:lang="la">Incomencia el libro di Regni al Mag.co et Excelso Signor
+                    Ugolino de Trinci di Fuligno diviso in quatro libri. El primo tracta del Reame
+                    de Cupido dio del' amore, el secundo di regni di Sathan, el terzo di regni de
+                    vicii, el quarto di regni de la virtude. Capitolo primo del primo libro. La Dea
+                    che '1 terzo cielo volvendo move</title>
             </msItem>
         </msContents>
         <history>
@@ -20,8 +25,7 @@
             <provenance>
                 <orgName>Biblioteca Estense <placeName>Modena</placeName></orgName>
             </provenance>
-            <acquisition>          
-            </acquisition>
+            <acquisition> </acquisition>
         </history>
     </msDesc>
     <msDesc xml:id="DLCL_CF_BM0002">
@@ -33,15 +37,15 @@
         <msContents>
             <msItem>
                 <author xml:lang="it">Girolamo Rossi</author>
-                <title xml:lang="la">Incomincia el libro de' Regni al magnifico et exceliente signore Ugolino de Tringi de Fulingno diviso in quattro libri </title>
+                <title xml:lang="la">Incomincia el libro de' Regni al magnifico et exceliente
+                    signore Ugolino de Tringi de Fulingno diviso in quattro libri </title>
             </msItem>
         </msContents>
         <history>
             <origin>
                 <origDate notBefore-iso="1401">XV sec.</origDate>
             </origin>
-            <provenance>
-            </provenance>
+            <provenance> </provenance>
             <acquisition>
                 <persName>Ludovico Antonio Muratori</persName>
             </acquisition>
@@ -55,16 +59,14 @@
         </msIdentifier>
         <msContents>
             <msItem>
-                <title xml:lang="la">Hypercrises ad Crises p. M. Gerhardi Capassii et Anticrises Tyronis Laderchiani super actis SS. Crescii et Sociorume</title>
+                <title xml:lang="la">Hypercrises ad Crises p. M. Gerhardi Capassii et Anticrises
+                    Tyronis Laderchiani super actis SS. Crescii et Sociorume</title>
             </msItem>
         </msContents>
         <history>
-            <origin>
-            </origin>
-            <provenance>
-            </provenance>
-            <acquisition>
-            </acquisition>
+            <origin> </origin>
+            <provenance> </provenance>
+            <acquisition> </acquisition>
         </history>
     </msDesc>
     <msDesc xml:id="DLCL_CF_BM0004">
@@ -79,12 +81,9 @@
             </msItem>
         </msContents>
         <history>
-            <origin>
-            </origin>
-            <provenance>
-            </provenance>
-            <acquisition>
-            </acquisition>
+            <origin> </origin>
+            <provenance> </provenance>
+            <acquisition> </acquisition>
         </history>
     </msDesc>
     <msDesc xml:id="DLCL_CF_BM0005">
@@ -98,18 +97,15 @@
                 <author xml:lang="">
                     <persName xml:lang="it" ref="#DLCL_CF_PC0153">
                         <surname>Cicerone</surname>
-                    </persName>    
+                    </persName>
                 </author>
                 <title xml:lang="la">Tuscolane</title>
             </msItem>
         </msContents>
         <history>
-            <origin>
-            </origin>
-            <provenance>
-            </provenance>
-            <acquisition>          
-            </acquisition>
+            <origin> </origin>
+            <provenance> </provenance>
+            <acquisition> </acquisition>
         </history>
     </msDesc>
     <msDesc xml:id="DLCL_CF_BM0006">
@@ -136,11 +132,9 @@
             </msItem>
         </msContents>
         <history>
-            <origin></origin>
-            <provenance>
-            </provenance>
-            <acquisition>          
-            </acquisition>
+            <origin/>
+            <provenance> </provenance>
+            <acquisition> </acquisition>
         </history>
     </msDesc>
     <msDesc xml:id="DLCL_CF_BM0007">
@@ -163,10 +157,8 @@
             <origin>
                 <origDate when-iso="1369" cert="unknown">1369</origDate>
             </origin>
-            <provenance>
-            </provenance>
-            <acquisition>          
-            </acquisition>
+            <provenance> </provenance>
+            <acquisition> </acquisition>
         </history>
     </msDesc>
     <msDesc xml:id="DLCL_CF_BM0008">
@@ -181,12 +173,9 @@
             </msItem>
         </msContents>
         <history>
-            <origin>
-            </origin>
-            <provenance>
-            </provenance>
-            <acquisition>          
-            </acquisition>
+            <origin> </origin>
+            <provenance> </provenance>
+            <acquisition> </acquisition>
         </history>
     </msDesc>
     <msDesc xml:id="DLCL_CF_BM0009">
@@ -201,12 +190,9 @@
             </msItem>
         </msContents>
         <history>
-            <origin>
-            </origin>
-            <provenance>
-            </provenance>
-            <acquisition>          
-            </acquisition>
+            <origin> </origin>
+            <provenance> </provenance>
+            <acquisition> </acquisition>
         </history>
     </msDesc>
 </listBibl>
