@@ -1,0 +1,102 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11020">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20913/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21382/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21383/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11020">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 13 Ottobre 1721)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">20</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1721-10-13"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+  </revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11020_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21382/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+        <p>
+          Mi scordai nell’ultima mia soggiungere il gradimento, e la stima, con cui ho ricevuto i favori del <persName ref="#DLCL_CF_PC0056">Signor Dottor Sancassani</persName> mio Pregiatissimo Prone’, non meno che la memoria di me suo buon’Amico, e antico servitore.
+          Prego <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> portare al medesimo queste sincerissime mie espressioni, e ringraziarlo in nome mio dell’<bibl type="print">Opuscoletto Boccacciniano</bibl> da aggiungersi alla serie delle <bibl type="print">Vindicie Magatesche,</bibl> le quali non sono state infruttuose.
+        </p>
+        <p>
+          Con tal’occasione procuri insinuargli il comune nostro desiderio di accrescere a prezzi agevoli la raccolta de’ libri stampati nell’infanzia dell’Arte Tipografica.
+        </p>
+        <p> Mi comunicò tempo fa <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra
+            Paternità</rs> un’Iscrizione, o frammento, in cui era la voce <foreign xml:lang="la"><hi
+              rend="ul">Orrearius</hi></foreign> scorrettamente intagliata in vece di <foreign
+            xml:lang="la"><hi rend="ul">Horrearius</hi></foreign>, voce per altro fuor di <placeName
+            ref="#DLCL_CF_L0002">Ravenna</placeName> ignota anco nella barbara latinità. Or’ella la
+          legga nella par. 2. dell’<bibl type="print">Agnello</bibl> pag. 49. et 61., come esprimere
+          un’oficio peculiare di cotesta Chiesa, forse, a parer del dottissimo <persName
+            ref="#DLCL_CF_PC0009">Bacchini</persName> per la gran </p>
+        <pb xml:id="DLCL_CF_E11020_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21383/full/800,/0/default.jpg"/>
+        <p>quantità di frumento, ch’essa raccoglieva ne’ suoi beni do <placeName ref="#DLCL_CF_L0056">Sicilia.</placeName>
+          Un cortesissimoo saluto al <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina.</persName></p>
+        
+        <closer>
+          <salute>Resto abbracciandola caramente.</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName><date when-iso="1721-10-13">13. Ottobre 1721.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Affettuosissimo Servitore Cordialissimo Padre nel Signore</salute>
+          <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+   </text>
+</TEI>

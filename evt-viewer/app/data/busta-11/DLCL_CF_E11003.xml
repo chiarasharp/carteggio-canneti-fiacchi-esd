@@ -1,0 +1,157 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11003">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20896/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21330/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21331/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21332/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11003">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 24 Gennaio 1721)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">3</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1721-01-24"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-01-29" who="#DLCL_CF_PS001">markup testo</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+    
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11003_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21330/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+
+        <p> 
+          Con l’ordinaria passata la ragguagliai del gran diffetto osservato nel <bibl type="print">Corpo</bibl> del <persName ref="#DLCL_CF_PC0655">Lirano.</persName> 
+          Ora
+          chiamo il mio <persName ref="#DLCL_CF_PC0002">Padre Don Mariangelo</persName> a parte del
+          contento provato al ricever subito nuova che si è trovato quanto manca, essendo per
+          equivoco restato addietro un Tomo creduto superfluo, e duplicato. Io stimo sia da farsi
+          conto di questo <bibl type="print">Corpo,</bibl> non solo per la rara, ed insigne prima edizione, ma ancora perché
+          in <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> ove stanno due Corpi di questo <rs type="person" ref="#DLCL_CF_PC0655">Autore,</rs> dubito non vi sia quest’Opera, la quale
+          forma sette Tomi maiuscoli in foglio, e non abbraccia il Testo della <bibl type="print">Bibbia.</bibl> Mi figuro che
+          altro siano le postille brevi, e marginali, altro le diffuse; le quali servono di un
+          Commento pieno alla Sacra Scrittura. Dal <bibl type="print">Cave,</bibl> che ho presso di
+          me, non posso essere chiarito. L’intiero lume potrà forse aversi dal <persName ref="#DLCL_CF_PC0052">Dupin,</persName> della cui <bibl type="print">Biblioteca</bibl>
+          mi 
+        </p>
+        <pb xml:id="DLCL_CF_E11003_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21331/full/800,/0/default.jpg"/>
+        <p>
+          occorre dire essere stata proseguita fino a tempi nostri, fino al <persName ref="#DLCL_CF_PC0436">Padre Laderchi.</persName> E non si pensa a compire il corpo; ne
+          si risolve di perfezionar l’altro de’ <orgName ref="#DLCL_CF_O0152">Bollandisti.</orgName>
+          E sopra tutto importa avere il 5.° Tomo degli <bibl type="print">Annali</bibl> del
+          <persName ref="#DLCL_CF_PC0129">Mabillon.</persName> Una volta si vorrà, e non potrà
+          aversi separato. Così ora io voleva comprare il 3. e 4.to Tomo della <bibl type="print">Biblioteca Critica</bibl> di <persName ref="#DLCL_CF_PC0164">Monsignor Richard
+            Simon</persName> in francese, che va sotto nome di <persName ref="#DLCL_CF_PC0164">Sainjoure,</persName> ed ho in risposta che mi si da il <bibl type="print">Corpo</bibl> intiero di quattro
+          Tometti, ma non i due separati posteriori. Ecco ciò, che accade. Se pertanto <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> può esitare cotesti Tometti
+          p.mo, e 2.° a persona, che abbia licenza, fa un gran bene. A me costano 13. paoli sciolti.
+          Se non può cavar’ il prezzo della legatura, gliela doni.
+        </p>
+        <p>
+          Un bellissimo Manoscritto in
+          pergamena, oltre più altri ho
+        </p>
+        <pb xml:id="DLCL_CF_E11003_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21332/full/800,/0/default.jpg"/>
+        <p> acquistato, in cui, senza nome degli Autori stanno i seguenti quattro Opuscoli: 
+          <bibl type="manuscript"><hi rend="ul"><foreign xml:lang="la">Cordiale de quatuor Novissimis</foreign></hi>.</bibl> Comincia: <hi rend="ul">
+        <foreign xml:lang="la">Memorare novissima tua §</foreign>
+      </hi> Indi <bibl type="manuscript">
+      <foreign xml:lang="la">
+        <hi rend="ul">Speculum Monachorum</hi>
+      </foreign>
+    </bibl> che stimo sia
+          tra le Opere dubie di <persName ref="#DLCL_CF_PC0820">San Bernardo.</persName> Primo
+          considerare debet: è il principio. Segue: <bibl type="manuscript">
+    <foreign xml:lang="la">
+      <hi rend="ul">De Imitatione Christi, et contemptu omnium vanitatum
+              mundi</hi>
+    </foreign>
+  .</bibl> ed è il primo libro della famosa opera del <persName ref="#DLCL_CF_PC0821">Gersen.</persName> Il 4.° è <bibl type="manuscript">
+  <foreign xml:lang="la">
+    <hi rend="ul">de disciplina Claustralium</hi>
+  </foreign>
+</bibl> distinto
+          in 16. Capi. Comincia <foreign xml:lang="la">
+<hi rend="ul">Apprehendite
+            disciplinam</hi>
+</foreign>. Il primo, e l’ultimo non so di qual <rs type="person" ref="#DLCL_CF_PC0655">Autore</rs> sieno. Il
+          carattere è del secolo XIV., bello in quel genere, e corretto. Torniamo al <bibl type="print">Lirano.</bibl> Fra libri acquistati euvi un’antica edizione della <bibl type="print">Bibbia</bibl> colle postille di <persName ref="#DLCL_CF_PC0655">Niccolò di
+            Lira</persName> in fogl. reale grande. <placeName ref="#DLCL_CF_L0024">
+<foreign xml:lang="la">Venetjis</foreign>
+</placeName>
+<foreign xml:lang="la">o.p[er]e et sumptibus</foreign>
+<persName ref="#DLCL_CF_PC0829">Octavij Scotti</persName> 1489. di carattere semigottico.
+          Mi dica <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> se occorre tenerla
+          per noi. E v’è in 4.to senza luogo, né anno, né stampatore di bella stampa antica <bibl type="print">L’Apocalisse Volgare</bibl> con l[’]esposizione del <persName ref="#DLCL_CF_PC0655">Lirano.</persName> Libro di grande rarità. Veda se ne parla
+<persName ref="#DLCL_CF_PC0164">Monsu Simon..</persName> 
+</p>
+
+<closer>
+<salute>Resto abbracciandola caramente Suo Parz. Osservandissimo Servitore</salute>
+<salute>DV PMR</salute>
+<dateline>
+<placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+<date when-iso="1721-01-24">24. Gennaio 1721.</date>
+</dateline>
+<signed>
+<persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+</signed>
+</closer>
+</div>
+</body>
+   </text>
+</TEI>

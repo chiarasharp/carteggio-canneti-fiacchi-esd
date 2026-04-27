@@ -70,7 +70,10 @@
          <change when-iso="2025-12-22" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2025-12-28" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
          <change when-iso="2025-12-31" who="#DLCL_CF_PS001">markup</change>
-      </revisionDesc>
+        <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+      
+        <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+</revisionDesc>
       </front>
       <body>
          <div type="transcription">
@@ -82,7 +85,7 @@
                <persName ref="#DLCL_CF_PC0906">Monsignor Ercolani</persName> 
                mi diede ordine di fargli legare il 
                <bibl type="print">Tomo</bibl> 
-               del Tasso in forma simile a quella degli altri, che si legano per 
+               del <bibl type="print">Tasso</bibl> in forma simile a quella degli altri, che si legano per 
                <orgName ref="#DLCL_CF_O0001">cotesta Libreria,</orgName> 
                per me, e pel 
                <persName ref="#DLCL_CF_PC0015">Signor Pagliarini.</persName> 
@@ -105,9 +108,9 @@
                di 
                <persName ref="#DLCL_CF_PC0984">Lionardo Giustiniano</persName> 
                sono stampate 
-               <hi rend="undeline"><foreign xml:lang="la">MCCCCLXXIIII. <persName ref="#DLCL_CF_PC0989">Nicolao Marcello</persName> Duce Venetiarum regnate</foreign></hi> 
+               <hi rend="ul"><foreign xml:lang="la">MCCCCLXXIIII. <persName ref="#DLCL_CF_PC0989">Nicolao Marcello</persName> Duce Venetiarum regnate</foreign></hi> 
                E avanti questa indicazione dell’anno leggonsi i sei versi 
-               <cit><quote><hi rend="undeline"><foreign xml:lang="la">Quem legis impressus</foreign></hi></quote></cit>
+               <cit><quote><hi rend="ul"><foreign xml:lang="la">Quem legis impressus</foreign></hi></quote></cit>
                § i quali sono altresì stampati in fine delle prediche latine di 
                <persName ref="#DLCL_CF_PC0887">Roberto da Lecce,</persName> 
                e accennano essere stati da un 
@@ -153,13 +156,13 @@
                <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> 
                mi faccia provvedere del 
                <bibl type="print">Tomo</bibl> 
-               <hi rend="undeline"><persName ref="#DLCL_CF_PC0991">Guidi Panciroli</persName></hi>
+               <hi rend="ul"><persName ref="#DLCL_CF_PC0991">Guidi Panciroli</persName></hi>
                § riferito sull'ultimo del Tometto 6.°, e del primo volume del 
                <bibl type="print">Giornale Oltramontano;</bibl> 
                e non si scordi. Raro era dianzi il 
                <bibl type="print">detto libro</bibl> 
                del 
-               <persName ref="#DLCL_CF_PC0991">Pancirolo;</persName> 
+               <persName ref="#DLCL_CF_PC0892">Pancirolo;</persName> 
                ed io ne faceva gran conto. Ora è stimabile, per esservisi aggiunte le altre opere, e in particolare 
                <bibl type="print">quella</bibl> 
                di 
@@ -173,7 +176,7 @@
                ma era veramente da 
                <persName ref="#DLCL_CF_L0173">San Genesio</persName> 
                Terra nobile di questa 
-               <orgName ref="#DLCL_CF_O0176">Diocesi di Camerino</orgName>) 
+               <orgName ref="#DLCL_CF_O0176">Diocesi di Camerino)</orgName> 
                fratello di 
                <persName ref="#DLCL_CF_PC0993">Scipio Gentili,</persName> 
                un di que’ Letterati, che scrissero sopra il 

@@ -1,0 +1,163 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11015">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20908/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21368/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21369/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21370/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11015">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 19 Agosto 1721)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">15</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1721-08-19"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">conversione lacune in gap</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11015_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21368/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+        
+        <p> A piè di questa leggerà <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002"
+            >Vostra Paternità</rs> il titolo del libretto, di cui si desiderano 12. copie da
+            <placeName ref="#DLCL_CF_L0005">Faenza,</placeName> le quali potrà Ella mandar presto al
+            <persName ref="#DLCL_CF_PC0884">Padre Don Emiliano</persName> destinato quà di famiglia.
+          I dodici cingoli saranno pronti a venire per prima occasione. Venghiamo al Musaico. Per
+          non dimenticarmi più i nomi de’ quattro Arcivescovi, gli ho scritti a penna nella tavola
+          in rame del Tomo 2. di <bibl type="print">Ciampini.</bibl> Giova la notizia a stabilire il
+          tempo, o l’età del Musaico medesimo. Così è, vicino alla cornice fu scoperta la parola
+            <foreign xml:lang="la">tronca <hi rend="ul">sedec</hi></foreign>, la quale bisogna con
+          tutto lo studio proccurar di conservare: e fu quella che mi diede lume a penetrare il
+          misterio espresso in quel quadro, non conosciuto, né inteso prima da verun’altro. La
+          memoria confusamente mi avea ingannato, rappresentandomi quelli tronchi caratteri sopra il
+          capo della figura di mezzo, quando veramente stanno al di sotto. Ho tutto in ordine per
+          una Dissertazione sopra il Musaico. Rimane la necessità indispensabile di avere un’esatto
+          disegno, per cui il <rs type="person">Pittore</rs> non ha obbligo stretto di osservare la
+          rigorosa geometrica proporzione de’ siti, in cui sono ripartite le figure. Or via, faccia
+          il <persName ref="#DLCL_CF_PC0885">Signor Carlo</persName> il disegno del quadro guasto,
+          per prendere il gusto a fare l’intiero di tutto il Musaico. Godo che abbia mutata aria: e
+          vorrei che <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra
+            Paternità</rs> ancor la mutasse. Quì vi è bisogno di far l’indice de’ nostri libri, e
+          quindi seco recare la scrittura autentica dell’applicazione de medesimi. Siamo mortali; e
+          in un caso § i libri </p>
+        
+        <pb xml:id="DLCL_CF_E11015_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21369/full/800,/0/default.jpg"/>
+        <p>
+          resterebbero qui, o anderebbero all’<orgName ref="#DLCL_CF_O0026">Avellana.</orgName>
+          Io sò quel, che dico.
+          Non ho [tempo] per fare il <bibl type="manuscript">Catalogo,</bibl> benché non siano molti, come và fatto.
+          Aiuto per lo scrivere non mancherebbe.
+          Nel sepolcro rotto vidi il cadavero dentro l’arca di leg<gap reason="lost"/> poco meno che consumata, con la cappa magna, e i capelli.
+          Sarebbe stata opera ben' impiegata osservare se vi era veramente la tonicella, e dal mat<gap reason="lost"/> col camice, e notar la figura delle vesti suddette.
+        </p>
+        <p> Passiamo a’ libri. Aspetto il <bibl type="print">Vossio.</bibl> <bibl type="print"
+              ><foreign xml:lang="fr"><hi rend="ul">La Biblioteque Critique</hi></foreign></bibl>
+          Tom.2 è costì duplicato. Costò a me tredici paoli sciolta: non voglio perdervi, anzi
+          vorrei si pagasse anco la legatura, se è possibile; quando no’, si doni. Veda di vendersi.
+          Mi sono capitati un Tomone grandissimo, e grossissimo delle <bibl type="print">Vite di
+            Plutarco</bibl> 1472. <persName ref="#DLCL_CF_PC0636">Jenson.</persName> un <bibl
+            type="print">Macrobio</bibl> dello stesso anno, e del medesimo Stampatore, un <persName
+            ref="#DLCL_CF_PC0172">Santo Agostino</persName>
+          <bibl type="print"><foreign xml:lang="la">De Civitate Dei</foreign></bibl> 1475. pure del
+            <persName ref="#DLCL_CF_PC0636">Jenson.</persName> un <persName ref="#DLCL_CF_PC0887"
+            >Roberto De Litio</persName>
+          <bibl type="print">Quaresimale</bibl> della stampa stessa di cotesto, ch’è in <orgName
+            ref="#DLCL_CF_O0001">Libreria</orgName> stampato in <placeName ref="#DLCL_CF_L0001"
+            >Cremona;</placeName> ma questo è migliore. E in oltre un <bibl type="print"
+            >Teofilato</bibl> in 8. dopo il 1500. tradotto da <persName ref="#DLCL_CF_PC0824"
+            >Cristofano Persona,</persName> ivi stampato <hi rend="ul">Porsena</hi>; che non sò se
+          trovisi in <orgName ref="#DLCL_CF_O0001">Libreria</orgName> tra’ Santi Padri colla <bibl
+            type="print">Dedicatoria a Sisto IV.</bibl> Attendo risposta sopra il <bibl type="print"
+            >Florido Sabino,</bibl> di cui nuovamente scrissi, e sopra altri particolari forse
+          rimasi indietro. È uscita la famosa <bibl type="print">Storia</bibl> del <persName
+            ref="#DLCL_CF_PC0886">Varchi</persName> delle stampe di <placeName ref="#DLCL_CF_L0163"
+            >Augusta,</placeName> Opera stata più di un secolo, e mezzo inedita. Mi scrive il
+            <persName ref="#DLCL_CF_PC0143">Signor Baruffaldi</persName> ch’è stato in <placeName
+            ref="#DLCL_CF_L0002">Ravenna</placeName> alcuni giorni </p><pb xml:id="DLCL_CF_E11015_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21370/full/800,/0/default.jpg"/>
+        <p>
+          presso <rs type="person">Monsignore Arcivescovo,</rs> ed ha veduta la <orgName ref="#DLCL_CF_O0001">nostra Libreria,</orgName> di cui scrive con gran lode.
+          <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> l’ha veduto, ed egli ha veduto ciò che meritava la distinzione del suo guardo erudito, e versatissimo ne’ libri?
+        </p>
+        
+        <closer>
+          <salute>Resto in fretta con abbraccio.</salute>
+          <salute>DvPMR</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName><date when-iso="1721-08-19">19. Agosto 1721.</date></dateline>
+        </closer>
+        
+        <postscript>
+          <p>
+            Ho necessità di vedere <bibl type="print">Paride Grassi,</bibl> ch’è libro de’ nostri.
+            Di grazia me lo mandi.
+            Se per caso fosse stato riposto fuor della serie de’ nostri libri, è stato sbaglio: e lo rimanderò.
+            Il titolo del Libretto si manderà un’altro ordinario.
+            E il <persName ref="#DLCL_CF_PC0646">Padre Maestro Greco</persName> non risponde? 
+          </p>
+        </postscript>
+        
+        <closer>
+          <salute>Affezionatissimo Cordialissimo Servitore Padre nel Signore</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+        </closer>
+        
+        </div>
+    </body>
+   </text>
+</TEI>

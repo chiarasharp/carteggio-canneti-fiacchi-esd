@@ -1,0 +1,102 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11024">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20917/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21395/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11024">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 30 Marzo 1722)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">24</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1722-03-30"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11024_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21395/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+        <p> Non anderà a <placeName ref="#DLCL_CF_L0008">Roma</placeName> il <persName
+            ref="#DLCL_CF_PC0178">Reverendissimo Ferranti</persName> prima che andiamo unitamente a
+          veder la massa de’ libri, al cui trasporto non basteranno due some di muli. Mi avvisi se
+          la <bibl type="print">Storia</bibl> del <persName ref="#DLCL_CF_PC0886">Varchi</persName>
+          è della <orgName ref="#DLCL_CF_O0001">Libreria;</orgName> perché in tal caso mi priverò
+          della nostra. Godo che le tre casse siano state spedite a <placeName ref="#DLCL_CF_L0030"
+            >Sinigaglia,</placeName> dove sarà pagato il porto anco da <placeName
+            ref="#DLCL_CF_L0002">Ravenna</placeName> fino là. Con prima occasione mi mandi i libri
+          di <placeName ref="#DLCL_CF_L0010">Padova,</placeName> ma con somma diligenza, perché
+          punto non si guastino. Ed io in prima congiuntura trasmetterò costà i libri, che più ho
+          del <persName ref="#DLCL_CF_PC0900">Gelli,</persName> perché <rs type="person"
+            ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> gli accompagni; e seco
+          verranno le Cartepecore ordinate, con certe altre venute da <placeName
+            ref="#DLCL_CF_L0008">Roma,</placeName> sopra le quali c’intenderemo un’altra volta. Se
+          verrà il <persName ref="#DLCL_CF_PC0770">famoso Mario,</persName> gli sarà consegnato
+          tutto. Ho la licenza de’ <bibl type="print">Libri proibiti,</bibl> che farò confermare. È
+          consolandomi colla dolce memoria del dì lieto, e felice, che io la collocai in seno alla
+          Santa Religione, resto abbracciandola <foreign xml:lang="la">toto cordis
+          affectu</foreign>. </p>
+        <closer>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName><date when-iso="1722-03-30">30. Marzo 1722.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Affezionatissimo Cordialissimo Padre e Servitore nel Signore</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+        </closer>
+      </div>
+    </body>
+   </text>
+</TEI>

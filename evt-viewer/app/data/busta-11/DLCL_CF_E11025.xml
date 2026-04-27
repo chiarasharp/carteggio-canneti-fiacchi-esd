@@ -1,0 +1,212 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11025">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20918/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21396/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21397/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21398/full/800,/0/default.jpg"/>
+    <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/21399/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11025">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 13 Aprile 1722)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">25</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1722-04-13"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">conversione lacune in gap</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11025_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21396/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Bibliotecario Amatissimo</rs>
+          </salute>
+        </opener>
+        <p>
+          Ricevei ier l’altro le tre Cassette da <placeName ref="#DLCL_CF_L0030">Sinigaglia</placeName> ben condizionate, dentro le quali non mi pare che altro manchi, se non il mio <bibl type="print">Discorso.</bibl>
+          Quando fosse questo andato a male, e passato anzi tra le cose, che non sono state mai, poco, o nulla importerebbe.
+          Io considero un’altro pericolo, che mi affligge, ancora perché è possibile.
+          Alla fede di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità,</rs> cui troppo facile lo lasciai, tocca liberarmene, con tenerlo lontano da tutti gli occhi, e poi mandarmelo insieme co’ libri di <placeName ref="#DLCL_CF_L0010">Padova.</placeName>
+        </p>
+        <p>
+          Mi persuado che il <rs type="person">Padre Priore</rs> di <orgName ref="#DLCL_CF_O0165 #DLCL_CF_O0164" cert="unknown">San Damiano</orgName> abbia a lei rimesso certo residuo del denaro ritratto dalla vendita delli due Tomi de’ <bibl type="print">Mirandolani.</bibl>
+          Con esso credo che avrà Ella soddisfatto alla spesa delle legature, e del porto degli accennati libri spediti già dal <persName ref="#DLCL_CF_PC0011 #DLCL_CF_PC0518" cert="unknown">Signor Volpi.</persName>
+          Per qual soprapiù, che occorra, preghi il <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli,</persName> al quale io venderò prontamente lo sborso.
+          Il <persName ref="#DLCL_CF_PC0004">Marozzi</persName> mi dà speranza di potere per sei scudi esitar i due Tomi della <bibl type="print">Musurgia,</bibl> gli replico che approvo il prezzo.
+          Del <bibl type="print">Uvillis</bibl> mi vien concordemente asserito essere troppo alto il prezzo di trenta paoli, che dal <persName ref="#DLCL_CF_PC0831">Casolari</persName> fu tassato.
+          Diasi pertanto con quella diminuzione, che all’arbitrio di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> parerà propria, per disfarsene.
+          Così della medesima autorità si vaglia per qualche agevolezza nel <bibl type="print">Lessico</bibl> del <persName ref="#DLCL_CF_PC0902">Vitali,</persName> e nell’<bibl type="print">Efemeridi</bibl> del <persName ref="#DLCL_CF_PC0889">Manfredi.</persName>
+          Suppongo avere a lei data la nota de’ prezzi, che a me furono prescritti
+        </p><pb xml:id="DLCL_CF_E11025_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21397/full/800,/0/default.jpg"/>
+        <p>
+          Se io avessi avuto presso di me gli <bibl type="print">Annali Tipografici</bibl> del <persName ref="#DLCL_CF_PC0901">Maittaire,</persName> avanti [da] far legare il <bibl type="print">Lirano,</bibl> avrei con qualche diversità regolata la divisione de’ To[mi.] Ecco quel, che ne scrive costui alle pagg. 94. e 95.
+        </p>
+        <p>
+          <persName ref="#DLCL_CF_PC0655">Nicol de’ Lyra</persName> in Bibl. <hi rend="ul">per
+              <persName ref="#DLCL_CF_PC0684">Conr. Svveynh.</persName> et <persName
+              ref="#DLCL_CF_PC0685">Arn. Pann.</persName></hi>, fol. <placeName ref="#DLCL_CF_L0008"
+            >Roma,</placeName> 1472. </p>
+        <p>
+          <foreign xml:lang="la">Hic liber distinguitur quinque Voluminibus.</foreign>
+        </p>
+        <p> 1. <foreign xml:lang="la">Prefat. <persName ref="#DLCL_CF_PC0637">Jo. Andr.</persName>
+            ad <persName ref="#DLCL_CF_PC0915">Xyst. IIII.</persName> Dein </foreign><bibl
+            type="print"><foreign xml:lang="la">Genes. usque ad Paralipom.</foreign></bibl>
+          <foreign xml:lang="la">et in fine <hi rend="ul">Aspicis</hi></foreign>
+        </p>
+        <p><foreign xml:lang="la"><hi rend="ul"> illustres § In </hi><orgName ref="#DLCL_CF_O0109"
+                ><hi rend="ul">domo Petri de Maximis</hi></orgName><hi rend="ul"> MCCCCLXXI. XVIII.
+              Nov.</hi></foreign>
+        </p>
+        <p> 2. <bibl type="print"><foreign xml:lang="la">Usque ad Eccles</foreign>.</bibl>
+          <foreign xml:lang="la">et in fine <hi rend="ul">Aspicis illustres</hi> §. In <orgName
+              ref="#DLCL_CF_O0109"><hi rend="ul">domo Petri de Maximis</hi></orgName><hi rend="ul">
+              MCCCCLX[X…]</hi></foreign>
+        </p>
+        <p><hi rend="ul"> XXVI. Mai. </hi></p>
+        <p> 3. <bibl type="print"><foreign xml:lang="la">Usque ad Maccab.</foreign></bibl>
+          <foreign xml:lang="la">cum prefat. <persName ref="#DLCL_CF_PC0637">Jo. Andr.</persName> ad
+              <persName ref="#DLCL_CF_PC0915">Xyst. IIII.</persName> Et in fine <hi rend="ul"
+              >Aspicis illustres</hi></foreign> §. </p>
+        <p>
+          <foreign xml:lang="la"><hi rend="ul">In </hi><orgName ref="#DLCL_CF_O0109"><hi rend="ul"
+                >domo Petri de Maximis</hi></orgName><hi rend="ul"> MCCCCLXXII. XIV.
+            Januar.</hi></foreign>
+        </p>
+        <p> 4. <foreign xml:lang="la">Quattor</foreign>
+          <bibl type="print"><foreign xml:lang="la">Evangelia</foreign>.</bibl>
+        </p>
+        <p> 5. <bibl type="print"><foreign xml:lang="la">Act. Epistol. et
+            Apocalyps.</foreign></bibl><foreign xml:lang="la"> cum prefat. <persName
+              ref="#DLCL_CF_PC0637">Jo. Andr.</persName> ad <persName ref="#DLCL_CF_PC0915">Xyst.
+              IIII.</persName> et in fine <hi rend="ul">Aspicis illus</hi></foreign>
+        </p>
+        <p>
+          <foreign xml:lang="la"><hi rend="ul">tres</hi> §. In <orgName ref="#DLCL_CF_00109"><hi
+                rend="ul">domo Petri de Maximis</hi></orgName><hi rend="ul"> MCCCCLXXII.XIII.
+              Mart.</hi></foreign>
+        </p>
+        <p>
+          Benché l’intenzione di chi stampò pare sia stata di far soliti quattro volumi, posciaché i quattro <bibl type="print">Evangeli</bibl> non hanno infine la nota del tempo, del luogo, e della stampa, come gli altri.
+          Lo che se è vero, può condonarsi anco al legatore l’arbitrio di separare, ed accrescere un’altro Tomo.
+          Anco nel corpo, che tengo quì imperfetto, il <bibl type="print">Salterio,</bibl> forse per qualche maggior comodo, è separato da ogni altro volume.
+        </p>
+        <p>
+          [[...]p<gap reason="lost"/>ria non lascia di esser pericolosa..]
+        </p>
+        
+        <pb xml:id="DLCL_CF_E11025_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21398/full/800,/0/default.jpg"/>
+        <p> Si va disponendo l’acquisto de tre <bibl type="manuscript">Codici in pergamena
+            Manoscritti <hi rend="ul"><foreign xml:lang="la">Missale Cisterciensium</foreign></hi></bibl><hi rend="ul">, </hi><bibl
+              type="manuscript"><hi rend="ul"><foreign xml:lang="la">Missale Silvestrinorum</foreign></hi></bibl><hi rend="ul">, et
+              </hi><bibl type="manuscript"><hi rend="ul"><foreign xml:lang="la">Breviarium Monasticum</foreign></hi>.</bibl> 
+        </p>
+        <p>
+          Ho pagato per le Cartapecore n° 25., ch’ebbe <persName ref="#DLCL_CF_PC0313">Paolino,</persName> sc. due bai. 50.
+          Ora mi avvisi <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> quante ne vuol delle grandi da due libri in foglio.
+          Penso poterle aver già fatte, o le farò far subito.
+          Ma ho bisogno di un servizio da lui.
+          Si erano fatti venire da <placeName ref="#DLCL_CF_L0008">Roma</placeName> 39.
+          Cartepecore per farne il <bibl type="print">libro degl’Inni,</bibl> che sarà un famoso lavoro del <persName ref="#DLCL_CF_PC0259">Padre Bianconi.</persName>
+          Ma chi ne aveva l’incombenza, benché supposto persona pratica, capace, e dalla professione; ha mandata roba che non serve all’intento, per alcune macchiette.
+          Le cartepecore son per altro belle, e buone, e son riquadrate.
+          L’innocente <persName ref="#DLCL_CF_PC0313">Paolino</persName> si prenderà la penitenza di rimetterle ne’ lavori di sua bottega.
+          Intanto <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> mi mandi i conti dandomi credito delli 25. paoli per le Cartepecore.
+          Se vuol la pelle rossa del caprone, vale quì 35. bai.
+          Son pure da valutar qualche cosa gli avvanzi dell’altre, che possono darsi almeno al <persName ref="#DLCL_CF_PC0917">Calzolaro;</persName> se pur non vogliamo farne impiego per noi.
+          Ma di questa mercanzia non manca dell’altra da mandarne, occorrendo.
+          Dal <persName ref="#DLCL_CF_PC1014">Signor Landi</persName> sento la nuova del <bibl type="print">Discorso</bibl> del <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina.</persName>
+          Ma da quanto è goffo non accennando ^di qual <rs type="person">Papa Innocenzo</rs> fosse il <bibl type="print">Breviario</bibl> donato al <rs type="person">Papa</rs> dal <rs type="person">Prevosto</rs> di <placeName ref="#DLCL_CF_L0111">Anagni!</placeName>
+        </p>
+        
+        <closer>
+          <salute>Al <rs type="person" ref="#DLCL_CF_PC0007">Padre Lettore</rs> medesimo i miei cordialissimi rispetti.</salute>
+          <salute>Resto con tutto il cuore abbracciandola</salute>
+          <salute>Cordialissimo Servitore e Padre Affezionatissimo nel Signore</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+          <salute>DVPMR</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1722-04-13">13. Aprile 1722.</date></dateline>
+        </closer>
+        
+        <postscript>
+          <p>
+            Le Cartepecore di <placeName ref="#DLCL_CF_L0008">Roma</placeName> sono in oltre pulite, raschiate, e bellissime.
+            Nel prezzo vi perderò qualche cosa.
+            Mi mandi la Nota de’ libri antichi nostri ^e della <orgName ref="#DLCL_CF_O0001">Libreria;</orgName> nè tardi.
+            Raccomando alle orazioni di lei e di tutti gli altri <gap reason="lost"/> la quale
+          </p>
+          <pb xml:id="DLCL_CF_E11025_C2V_L" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21399/full/800,/0/default.jpg"/>
+          <p>
+            Se ella può sollecitamente andar a <placeName ref="#DLCL_CF_L0009">Cesena,</placeName> seco portando la nota di tutti cotesti Libri nostri, che sono nel <bibl type="print">Catalogo Fontanini,</bibl> vada con piena autorità a far contratto col <persName ref="#DLCL_CF_PC0625">Padre Reggente Pugnetti</persName> facendo baratto co’i <bibl type="manuscript">Manoscritti,</bibl> particolarmente col <bibl type="manuscript">Virgilio,</bibl> che dice a lui costare una doppia co’ i libri di antiche edizioni, e con quei del suddetto Catalogo, che noi non abbiamo, tra quali vi son le <bibl type="print">Prediche</bibl> del <persName ref="#DLCL_CF_PC0904">Seripando.</persName>
+            A me fece ample offerte.
+            Se ne vaglia.
+            Lo riverisca. infinitamente per mia parte col di lui Collega.
+            Operi con la libertà piena.
+            Riverisco il <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina,</persName> il qu[ale] oh quanto goderei venisse a dar mano §.
+            Nel tempo della Dieta non si suole leggere.
+            Si dice che [in] <placeName ref="#DLCL_CF_L0017">Parigi</placeName> si fa una ristampa delle <bibl type="print">Lettere</bibl> del <persName ref="#DLCL_CF_PC0258">Delfino</persName> con un’aggiunta di 300.
+            Io non lo credo.
+            L’<bibl type="manuscript">Ovidio imperfetto, antico</bibl> non fà per noi.
+            Aspetto le <bibl type="print">Rime</bibl> del <persName ref="#DLCL_CF_PC0767">Bentivoglio</persName> legate.
+            Sono in trattato per l’esito de’ libri del <persName ref="#DLCL_CF_PC0831">Casolari,</persName> con lo s[cia]gurato <persName ref="#DLCL_CF_PC0004">Marozzi.</persName>
+            Occorrendo, se l’intenda con esso i[n] modo che non ci buttiamo affatto a pericolo!
+          </p>
+        </postscript>
+
+        </div>
+    </body>
+   </text>
+</TEI>

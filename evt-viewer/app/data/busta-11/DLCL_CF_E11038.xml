@@ -1,0 +1,162 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11038">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20931/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21429/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21430/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21431/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11038">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 7 Settembre 1722)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">38</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1722-09-07"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-30" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+    
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">correzione entità</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb n="1 - Recto" xml:id="DLCL_CF_E11038_C1R_L" facs="https://www.cdc.classense.ra.it/iiif/2/21429/full/800,/0/default.jpg"/>
+        <opener>
+          <salute><persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre D. Mariangelo</persName> Amatissimo,</salute>
+        </opener>
+        
+        <p>
+          [Veda ne’ due <bibl type="print">Libretti de’ Santi di Pollonia, e di Moravia,</bibl> se vi è officio o menzione de’ Santi nostri <persName ref="#DLCL_CF_PC0949">Giusto,</persName> e <persName ref="#DLCL_CF_PC0950">Barnaba.</persName>
+          Stimoli il <persName ref="#DLCL_CF_PC0193">Reverendissimo Amigoni</persName> a mandare costà certi libri per me, in particolare le <bibl type="print">Opere</bibl> di <persName ref="#DLCL_CF_PC0941">Bacone da Verulamio.</persName>
+          Farò pagar il danaro richiesto.] 
+        </p>
+        
+        <p>
+        
+          Rispondo a due cordialissime di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità.</rs>
+          E quanto al successo del <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina,</persName> io lo riguardo come una pittura di due opposte facce, che mi cagiona consolazione insieme, e rammarico, secondo le diverse riflessioni.
+          La provvidenza, che regge tutte le cose, ha disposto, e permesso questa inaspettata novità: a noi giova credere per lo meglio.
+          Così spero, e prego che sia.
+          L’affare di <placeName ref="#DLCL_CF_L0165">Monte Alboddo</placeName> non richiedeva prontezza di pecunia, la qual’ entrare non doveva in contratto, ma sollecitudine di chi andasse colà a battere il ferro, mentr’ era caldo.
+          Il buon <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Bibliotecario,</rs> il quale della colpa vorrebbe farne parte ad altri, tutta la tiri a se, ed alla sua ritrosia.
+          È convenuto rimandare ancora tutti i Manoscritti antichi, de quali un mezzo sacco aveva quà recato il <rs type="person">Padre Lettore.</rs>
+        
+        </p>
+        
+        <p>
+        
+          Il <bibl type="manuscript">Rotolo</bibl> non giunse in tempo a <placeName ref="#DLCL_CF_L0007">Bologna,</placeName> perché, avendo il <rs type="person">Reverendissimo</rs> dell’<orgName ref="#DLCL_CF_O0026">Avellana</orgName> negata la proroga al suo <persName ref="#DLCL_CF_PC1015">Padre Casanova,</persName> convenne al <persName ref="#DLCL_CF_PC0259">Padre Bianconi</persName> suo compagno di viaggio anticipar la partenza.
+          Ella non lo disfaccia, ma aspetti mandarlo per occasione sicura, e vi aggiunga il mio <bibl type="print">Discorso,</bibl> di cui più Ella non parla.
+          Quanto alle notizie da comunicarsi al <persName ref="#DLCL_CF_PC0127">Padre Orlandi,</persName> ho mutato parere, dopo che ho inteso non mostrar lui di curarsene, e creder vanamente di aver raccolto quanto può raccogliersi, né essere stata tralasciata alcuna edizione.
+          Non dubito che il libro non sia per riuscir cattivo: ma pure penso che avrà spaccio, e seco porterà utilità, e comodo.
+          <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> stia sull’avviso, e spinga il <bibl type="manuscript">rotolo</bibl> ben raccomandato fino, a <placeName ref="#DLCL_CF_L0003">Pesaro,</placeName> o a <placeName ref="#DLCL_CF_L0030">Sinigaglia,</placeName> o a <placeName ref="#DLCL_CF_L0023">Foligno..</placeName>
+        
+        </p><pb n="1 - Verso" xml:id="DLCL_CF_E11038_C1V_L" facs="https://www.cdc.classense.ra.it/iiif/2/21430/full/800,/0/default.jpg"/>
+        <p>
+          Ora passiamo alle Materie Rituali.
+          <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> mi favorisce destinarmi i suoi favori nelle stampe delle <bibl type="print">Lezioni</bibl> in 12. di <persName ref="#DLCL_CF_PC0227">San Pier Damiano,</persName> e di <persName ref="#DLCL_CF_PC0974">San A[nsel]mo Abate;</persName> e mi accenna essere uscite le <bibl type="print">seconde lezioni</bibl> ritoccate del nostro <persName ref="#DLCL_CF_PC0364">Santo Isidoro,</persName> con <bibl type="print">quelle del 3.° Notturno,</bibl> non pensando però di farmele venir’ alle mani.
+          Mi figuro ch’Ella pensi non doversene servire i Monaci, come né pur si servono di quelle di <persName ref="#DLCL_CF_PC0974">Santo Anselmo A[r]civescovo</persName> inserite nel Corpo del <bibl type="print">Breviario Romano</bibl> non meno che in quello del <bibl type="print">Monastico.</bibl>
+          Intendo.
+          <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> riflette che abbracciandosi le nuove lezioni, converrebbe che noi tralasciassimo l’antifona O Doctor, nell’Offi
+        </p>
+        <p>
+          [[…] prè tassata paoli 18. in un baratto.
+          A lei rimetto l’arbitrio..]
+        </p>
+        <pb n="2 - Recto" xml:id="DLCL_CF_E11038_C2R_L" facs="https://www.cdc.classense.ra.it/iiif/2/21431/full/800,/0/default.jpg"/>
+        <p>
+          e il Credo nella Messa prescritti, e conceduti negli Officj antichi, a parte vaganti fuor dell’Ordinario del Tempo.
+        </p>
+        <p>
+          Non è fondata la maraviglia di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità,</rs> la qual credeva doversi fare l’officio d[oppio] di prima classe di <persName ref="#DLCL_CF_PC0937">San Massimiano</persName> in <orgName ref="#DLCL_CF_O0158">cotesta Chiesa,</orgName> e <orgName ref="#DLCL_CF_O0031">Monastero di Sant’Andrea,</orgName> p[er]ché ivi è il corpo del <rs type="person" ref="#DLCL_CF_PC0937">Santo.</rs>
+          Una tal’ esistenza non porta altro, secon[do] le rubriche, che il doppio minore col Credo nella Messa.
+          Il <persName ref="#DLCL_CF_PC0938">Quintanad venas</persName> ne’ suoi <bibl type="print">Singolari</bibl> insegna potersi elevare il rito ad un grado d[i] più, rispetto alla Chiesa, la quale ha il Corpo, o Insigne Reliquia.
+          Secon[do] tal dottrina spagnuola, in <orgName ref="#DLCL_CF_O0031">Sant’Andrea</orgName> doverebbe farsi rito di doppio magg[i]ore l’officio del <rs type="person" ref="#DLCL_CF_PC0937">Santo,</rs> ch’è nella <orgName ref="#DLCL_CF_O0158">Chiesa di Ravenna</orgName> doppio minore.
+          Tu[tto] il di più diasi nella consuetudine già introdotta, e da non esamina[re] non però mai da stendersi, o alzarsi.
+          Coteste medesime Monache sono immediatamente soggette all’Ordinario, e del Corpo della Chiesa <orgName ref="#DLCL_CF_O0158">Ravenna</orgName>te
+        </p><p>
+          onde sono tenute far tutti gli Officj di essa Chiesa nella maniera, che li fanno i Preti secolari, aggiungendovi tutti anco gli officj dell’Ordine <bibl type="print">Monastico.</bibl>
+          Così fanno le <rs type="person">Monache Cistercensi</rs> di <orgName ref="#DLCL_CF_O0169">Santa Giuliana</orgName> di <placeName ref="#DLCL_CF_L0028">Perugia,</placeName> le quali da qualche tempo in quà hanno ancor lasciato il proprio <bibl type="print">Breviario,</bibl> e usano il <bibl type="print">Romano,</bibl> con un libro a parte, ove sono stampati gli officj dell’Ordine Cistercense addattati al rito <bibl type="print">Romano.</bibl>
+        </p>
+        <p>
+          [Sp]ero che dentro la corrente settimana le Colonnette saranno in mie mani.
+          Intendo che son dodici, di alabastro orientale, ben fatte, sei lunghe quanto porta dal cubito a tutta la mano, e sei minori.
+          Non sò se si addatteranno al disegno e all’Idea di chi dovrà rifarlo.
+          Non entrando, in opera, non si spediranno.
+        </p>
+        <p>
+          Riceverò volentieri la ristampa della <bibl type="print">Scanzia XV.</bibl>
+          E di buon cuore il nostro <persName ref="#DLCL_CF_PC0056">Signor Sancassani.</persName>
+          Iddio volesse che fosse così di buon giudicio, e applicasse ad altro che alli due impegni <bibl type="print">Cinelliano,</bibl> e <bibl type="print">Magatiano.</bibl>
+        </p>
+        <p>
+          Le ricordo far fare una degna legatura alla <bibl type="manuscript">Sfera</bibl> del <persName ref="#DLCL_CF_PC0940">Dati</persName> <bibl type="manuscript">in versi Manoscritto,</bibl> e scritta colla rara lucida vernice.
+          Il <persName ref="#DLCL_CF_PC0178">Reverendissimo Ferranti</persName> è stato agli estremi del suo vivere: si è rimesso in sicuro.
+          Afferma essergli apparsi il <persName ref="#DLCL_CF_PC0017">Padre San Romualdo,</persName> e <persName ref="#DLCL_CF_PC0939">San Filippo Neri,</persName> a quali erasi caldissimamente raccomandato.
+        </p>
+        
+        <p>
+          [Si ricordi che duplicati è costì il <bibl type="print">Quaresimale</bibl> del <persName ref="#DLCL_CF_PC0887">Licio</persName> di antica edizione […]]
+        </p>
+        
+        <closer>
+          <salute>Con che di tutto cuore abbracciandola mi confermo.</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1722-09-07">7. 7bre 1722.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Affettuosissimo Servo Cordialissimo</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+        </closer>
+          
+        </div>
+    </body>
+   </text>
+</TEI>

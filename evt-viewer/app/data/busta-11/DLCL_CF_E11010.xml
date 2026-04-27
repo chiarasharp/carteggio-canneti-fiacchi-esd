@@ -1,0 +1,195 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11010">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20903/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21351/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21352/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21353/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11010">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Valdicastro, 2 Luglio 1721)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">10</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1721-07-02"/>
+          <placeName ref="#DLCL_CF_L0004">Abbazia di Valdicastro, Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+     
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11010_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21351/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+        <p>
+          Io sono un creditore galantuomo, che non mi prendo picca di esiggere tutta intiera la
+          somma del debito, e mi contento anzi di riceverla a poco a poco spicciolata. Per l’opposta
+            <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità,</rs> ch’è l’idea della
+          puntualità, appunto per volere pagar’ intieramente, fà stridere chi aspetta. Sia detto
+          ciò, non per rimprovero, ma per dichiarazione del piede, su cui dovrà in avvenire
+          camminar’ il nostro commercio. Per altro mi creda che dopo tre mesi, e due giorni di
+          desiderio, molto mi han consolato i caratteri del mio Amatissimo <persName
+            ref="#DLCL_CF_PC0002">Padre Don Mariangelo.</persName> Or via non lasci di scrivere, se
+          non può scrivere appieno. La scusa non l’ammetto; quando anzi considero che la scusa
+          stessa dà maggiore, e distinto motivo di scrivere, accendendo la curiosità di chi ama
+          l’antichità di <orgName ref="#DLCL_CF_O0005">cotesta Basilica,</orgName> e nudriva un
+          vivissimo desiderio di far quanto cotesto <rs type="person" ref="#DLCL_CF_PC0002"
+            >Reverendissimo</rs> opera, senza invidia, e con mia inesplicabile consolazione. L’unica
+          pena, che provo, nasce da gelosia della salute di <rs type="person" ref="#DLCL_CF_PC0002"
+            >Vostra Paternità</rs> in quell’aria, e in questa stagione. Si abbia cura, e non
+          pretenda mettere Santo Apollinare in impegno di conservarla con miracolo. Si abbia cura. A
+          proposito della <orgName ref="#DLCL_CF_O0005">Basilica di Classe,</orgName> ha <rs
+            type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> trovato alcun documento, che
+          basti ad assodare l’esistenza del pozzo del sangue de’ Martiri, e il fatto dell’anello
+          calatovi da <persName ref="#DLCL_CF_PC0919">Giulio Secondo?</persName> Confesso che io ne
+          dubito di maniera che forse non vi credo punto. L’<persName ref="#DLCL_CF_PC0852"
+            >Acquedotti</persName> sì minuto non ne parla; e viveva a quella stagione.
+        </p>
+        
+        <pb xml:id="DLCL_CF_E11010_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21352/full/800,/0/default.jpg"/>
+        
+        <p>
+          La lapida di <orgName ref="#DLCL_CF_O0165">San Damiano</orgName> a me deve il suo
+          essere, il suo sito, il suo onore. Istromento è stato il <persName ref="#DLCL_CF_PC0105"
+            >Padre Giorgini Priore,</persName> anco quanto alla spesa. Si è fatto comparir promotore
+          il <persName ref="#DLCL_CF_PC0132">Reverendissimo Grandi,</persName> che per altro ne avea
+          grande zelo, perché riuscisse meglio l’opera. Ora <rs type="person" ref="#DLCL_CF_PC0002"
+            >Vostra Paternità</rs> ha da farsi onore con metter’ all’onore del mondo i Sassi
+          Ravennati raccolti già, e da lei accresciuti. Animo. Aspetto l’iscrizione mandata al
+            <orgName ref="#DLCL_CF_O0002 #DLCL_CF_O0005">Monastero,</orgName> che mi promette
+          trascrivere. Non sarà a lei difficile cavar di matto al <persName ref="#DLCL_CF_PC0920"
+            >Toschini</persName> con un baratto l’altra, che ora mi ha comunicata. Ella è
+          imperfetta, e tronca: pur’ è da farsene conto, per esser’ una di quelle altrove rarissime,
+          che fà menzione della trieri, o triremi. Io la leggo trieri <hi rend="ul">Minerva</hi>.
+        </p>
+        
+        <p>
+          Il <bibl type="print">Corpo</bibl> del <persName ref="#DLCL_CF_PC0655">Lirano</persName>
+          sarà da me fatto rilegare, per averlo intierissimo, e perfettissimo, e perciò
+          arcirarissimo, aggiungendovi la <bibl type="print">3.a lettera</bibl> del <persName
+            ref="#DLCL_CF_PC0637">Vescovo Aleriense.</persName> Sarà nulla di meno, ancorché non
+          intiero, stimabile l’altro proposto al <persName ref="#DLCL_CF_PC0646">Padre Maestro
+            Greco,</persName> insieme col <bibl type="print">Plinio</bibl> del <persName
+            ref="#DLCL_CF_PC0636">Jenson.</persName> Ogni Tomo separato è una gioia rara. Noi avremo
+          la versione di un’<bibl type="print">Opera di Santo Atanasio</bibl> fatta da <persName
+            ref="#DLCL_CF_PC0824">Cristoforo Persona,</persName> di cui a lungo i Giornalisti. È
+          pregio di questo libro che i medesimi affermino non avere mai veduta questa versione. 
+        </p>
+        
+        <p>
+          Al
+            <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina</persName> do parte di alcuni
+          pochi libri da me acquistati, e da aggiungersi all’<bibl type="print">Indice
+            Fontaniniano,</bibl> non meno che di un<bibl type="manuscript"> Manoscritto in pergamena
+            di Stazio,</bibl> assai bello. Ho anco trovato un’<bibl type="manuscript">Opuscolo a
+            penna Geometrico</bibl> di <persName ref="#DLCL_CF_PC0853">Don Jacopo Torricelli da
+            Faenza</persName> nostro Monaco Zio, ed educatore del famosissimo Matematico <persName
+            ref="#DLCL_CF_PC0854">Evangelista Torricelli,</persName> che illustrò il secolo passato.
+          Di questo <bibl type="manuscript">Don Jacopo,</bibl> e di un’altra <bibl type="manuscript"
+            >Opera di Esso a penna</bibl> si parla nella <bibl type="print">Vita di
+            Evangelista</bibl> stampata in fronte alle <bibl type="print">Lezioni</bibl>
+        </p>
+        
+        <pb xml:id="DLCL_CF_E11010_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21353/full/800,/0/default.jpg"/>
+        
+        <p>
+          di questo date non ha molto in luce. 
+        </p>
+        
+        <p>
+          Avrò a caso intendere di qual’anno sia la stampa
+          del <bibl type="print">San Bernardo,</bibl> che abbiamo in <orgName ref="#DLCL_CF_O0001"
+            >Libreria.</orgName> Attenderò il <bibl type="print">Vossio</bibl> per altra occasione,
+          che quella della fiera di <placeName ref="#DLCL_CF_L0030">Sinigaglia,</placeName> poiché
+          quest’anno non si è per fare. Ha ragione di rampognarmi per non aver mandati i prezzi de’
+          libri da esitare. Qualche cosa scriverò quanto prima, e il resto rimetterò a chi
+          maneggierà la vendita. Per opportuna occasione riceverò la <bibl type="print">Istoria di
+            Santa Maria in Cosmodin</bibl> con le Opere di <persName ref="#DLCL_CF_PC0855">Galeotto
+            Marzio.</persName> A <placeName ref="#DLCL_CF_L0024">Venezia</placeName> ho ordinate le
+          Opere ultime del <persName ref="#DLCL_CF_PC0068">Marchese Maffei,</persName> e
+          nominatamente l’<bibl type="print">Operetta de’ Traduttori.</bibl> Del <bibl type="print"
+            >Giornale de’ Letterati</bibl> non posso dar nuova alcuna. Lo suppongo se non morto,
+          almeno in agonia. 
+        </p>
+        
+        <p> Godo siano stati riconosciuti per diversi i due Tomi del <bibl type="print"
+            >Mantovano,</bibl> e tra loro distinti: perché, se non erro, in una nota <rs
+            type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> avea notato il piccolo per
+          duplicato. Sarà bene notar ciò nel <bibl type="manuscript">Catalogo.</bibl> </p>
+        
+        <p> Al <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli</persName> i miei
+          cordialissimi rispetti. Questa mattina è da me partito il <persName ref="#DLCL_CF_PC0178"
+            >Padre Ferranti,</persName> che la riverisce caramente. Sono stato seco undici giorni al
+            <placeName ref="#DLCL_CF_L0179">Massaccio,</placeName> ove ho vedute le feste per la
+          creazione di Nostro Signore. Esso è stato parecchi giorni meco quì. Aspetta lettere da
+          lei, e non se ne scorda anco tra le allegrezze concepite per <rs type="person">Monsignor
+            Elemosiniere</rs> di lui Fratello. Con lei mi rallegro della professione di <persName
+            ref="#DLCL_CF_PC0764">Don Carlo</persName> suo Germano. </p>
+        
+        <p>[Ho un <bibl type="religious">Messale monastico</bibl> della <orgName
+            ref="#DLCL_CF_O0021">Congregazione di Santa Giustina</orgName> in fol. 1526. Ne abbiamo
+          altra copia in <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> Uno ne ho <bibl
+            type="print">Romano</bibl> 1491.]</p>
+        
+        <closer>
+          <salute>L’abbraccio caramente DVPMR.</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Valdicastro</placeName><date when-iso="1721-07-02">2. luglio 1721.</date></dateline>
+          <salute>Suo Cordialissimo Servitore Affettuosissimo Padre nel Signore</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+        </closer>
+      </div>
+    </body>
+   </text>
+</TEI>

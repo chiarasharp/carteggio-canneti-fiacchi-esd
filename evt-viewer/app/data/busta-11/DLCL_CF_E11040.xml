@@ -1,7 +1,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11040">
    <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20933/manifest">
-    <graphic n="1r" url="https://classense.unibo.it/files/large/20933/6502.jpg"/>
-    <graphic n="1v" url="https://classense.unibo.it/files/large/20933/6503.jpg"/>
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21435/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21436/full/800,/0/default.jpg"/>
   </facsimile>
    <text type="letter" xml:id="DLCL_CF_E11040">
       <front>
@@ -57,8 +57,12 @@
          <revisionDesc status="created">
       <change when-iso="2025-06-30" who="#DLCL_CF_PS001">creato</change>
       <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
-
-    </revisionDesc>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+        <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+      
+        <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">conversione lacune in gap</change>
+</revisionDesc>
       </front>
       <body>
       <div type="transcription">
@@ -68,30 +72,53 @@
             <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
           </salute>
         </opener>
-        <p>Iersera ricevei la Scanzia Cinelliana fatta ristampare dal nostro Signore Sancassani, il quale seguita a mirabilmente imitare e contraffare il primo Autore, nelle aggiunte, che vi ha appiccate. Averebbe mostrata prudenza, se astenuto si fosse dal rammemorare l’Opuscolo contra Magliabechi, del quale è spediente se ne perda la memoria. È raro, ed a pochissimi noto; ed io ebbi a caso la copia, lasciata in cotesta Libreria: il farne più menzione non serve che a ravvivare il vituperio. Comunque operi il cervello del Sancassani, ringrazio VP, che mi ha favorito.</p>
-        <p>Un gran favore mi han fatto i Moderni Giornalisti, facendo autore del Libro genealogico di sua casa il Signore Filippo Meniconi. Così mi han liberato dal render conto delle tante aggiunte, con cui egli accrebbe il libro, e delle tante alterazioni di ortografia. Ma se dicono sempre il vero nella maniera, che han fatto nel riferire quel libro, e l’Autore, poco meritano di fede.</p>
-        <p>Tempo fa mandai due esemplari de Il Polifilo libro rarissimo, perché si tenesse l’intiero, tra i nostri libri, e l’altro, compito che fosse colla penna si esitasse a prezzo competente. Ultimamente poi trasmisi due Copie di diverse edizioni dell’Opera del Balbi, per trattenere l’intiero, e vendere il solo Opuscolo de Coronatione (ch’è proibito). Ricordisi dell’uno e dell’altro.</p>
-        <pb n="1 - Verso" xml:id="DLCL_CF_E11040_C1V_L" facs="https://www.cdc.classense.ra.it/iiif/2/21436/full/800,/0/default.jpg"/>
-        <p>Stampate che siano le nuove lezioni di S. Isidoro in 12., me le [...] di con alcune ancora in 4to.</p>
-        <p>Il Signore Baruffaldi mi scrive aver costà mandate varie copie de’ suoi Baccanali, tra le quali giurerebbe esservene stata una per me. Credo che abbia preso errore. Gli rescrivo che davero la mandi a lei, con una certa Bibbia antica: anzi ne manderà due copie, dovendo l’altra essere per questo Monsignor Ercolani. Una ne faccia legar per me e la mandi. </p>
+        <p>
+          Iersera ricevei la <bibl type="print">Scanzia Cinelliana</bibl> fatta ristampare dal nostro <persName ref="#DLCL_CF_PC0056">Signore Sancassani,</persName> il quale seguita a mirabilmente imitare, e contraffare il <rs type="person">primo Autore,</rs> nelle aggiunte, che vi ha appiccate.
+          Averebbe mostrata prudenza, se astenuto si fosse dal rammemorare l’<bibl type="print">Opuscolo contra Magliabechi,</bibl> del quale è spediente se ne perda la memoria.
+          È raro, ed a pochissimi noto; ed io ebbi a caso la copia, lasciata in <orgName ref="#DLCL_CF_O0001">cotesta Libreria:</orgName> il farne più menzione non serve che a ravvivare il vituperio.
+          Comunque operi il cervello del <persName ref="#DLCL_CF_PC0056">Sancassani,</persName> ringrazio <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità,</rs> che mi ha favorito.
+        </p>
+        <p>
+          Un gran favore mi han fatto i <rs type="person">Moderni Giornalisti,</rs> facendo autore del <bibl type="print">Libro genealogico di sua Casa</bibl> il <persName ref="#DLCL_CF_PC0549">Signore Filippo Meniconi.</persName>
+          Così mi han liberato dal render conto delle tante aggiunte, con cui egli accrebbe il libro, e delle tante alterazioni di ortografia.
+          Ma se dicono sempre il vero nella maniera, che han fatto nel riferire quel libro, e l’<rs type="person">Autore,</rs> poco meritano di fede.
+        </p>
+        <p>
+          Tempo fa mandai due Esemplari del <bibl type="print">Polifilo</bibl> libro rarissimo, perché si tenesse l’intiero, tra’ nostri libri, e l’altro, compito che fosse colla penna si esitasse a prezzo competente.
+          Ultimamente poi trasmisi due Copie di diverse edizioni dell’<bibl type="print">Opera</bibl> del <persName ref="#DLCL_CF_PC0953">Balbi,</persName> per trattenere l’intiero, e vendere il solo <bibl type="print">Opuscolo de Coronatione</bibl> (ch’è proibito).
+          Ricordisi dell’uno, e dell’altro..
+        </p><pb n="1 - Verso" xml:id="DLCL_CF_E11040_C1V_L" facs="https://www.cdc.classense.ra.it/iiif/2/21436/full/800,/0/default.jpg"/>
+        <p>
+          Stampate che siano le <bibl type="print">nuove lezioni</bibl> di <persName ref="#DLCL_CF_PC0364">Sant’Isidoro</persName> in 12., me le m[an]di con alcune ancora in 4.to
+        </p>
+        <p>
+          Il <persName ref="#DLCL_CF_PC0143">Signore Baruffaldi</persName> mi scrive aver costà mandate varie Copie de’ suoi <bibl type="print">Baccanali,</bibl> tra le quali giurerebbe esservene stata una per me.
+          Credo che abbia preso errore.
+          Gli rescrivo che davero la mandi a lei, con una certa <bibl type="print">Bibbia antica:</bibl> anzi ne manderà due copie, dovendo l’altra essere per questo <persName ref="#DLCL_CF_PC0906">Monsignor Ercolani.</persName>
+          Una ne faccia legar per me; e la mandi.
+        </p>
+        
         <closer>
           <salute>Resto confermandomi di tutto cuore.</salute>
-          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName><date when-iso="1721-09-17">17 settembre 1722.</date></dateline>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1722-09-17">17. 7bre 1722.</date></dateline>
           <salute>DVPMR</salute>
-          <salute>Cordialissimo Servitore e Padre nel Signore Affettuosissimo</salute>
-          <signed>
-            <persName ref="#DLCL_CF_PC0001">D. Pietro Canneti</persName>
-          </signed>
         </closer>
+        
         <postscript>
-          <p>Io tutto lasciai disposto per avere i tre Tomi del Museo Farn[...] che mancano. VP non lasci d’incessantemente operare per avergli da Parma: e se il mezzo del Singore Co. Paolo Bianchi non serve, si muti. Se l’intenda col Padre Lettore Collina, che riverisco, e veda sollecitamente avergli dal Signore Co. Vincenzo Piazza, che promise consegnargli.</p>
+          <p>
+            Io tutto lasciai disposto per avere i tre Tomi del <bibl type="print">Museo Farne<gap reason="lost"/></bibl> che mancano.
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> non lasci d’incessantemente operare per avergli da <placeName ref="#DLCL_CF_L0054">Parma:</placeName> e se il mezzo del <persName ref="#DLCL_CF_PC0952">Signore Conte Paolo Biancoli</persName> non serve, si muti.
+            Se l’intenda col <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina,</persName> che riverisco, e veda di sollecitamente avergli dal <persName ref="#DLCL_CF_PC0529">Signore Conte Vincenzo Piazza,</persName> che promise consegnargli §.
+          </p>
         </postscript>
+        
         <closer>
           <salute>Cordialissimo Servo Vero</salute>
           <signed>
-            <persName ref="#DLCL_CF_PC0001">D. Pietro Canneti</persName>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
           </signed>
         </closer>
+      
       </div>
     </body>
    </text>

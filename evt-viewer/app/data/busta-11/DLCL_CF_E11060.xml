@@ -69,13 +69,17 @@
          <revisionDesc status="created">
          <change when-iso="2025-12-22" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2025-12-28" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
-      </revisionDesc>
+         <change when-iso="2025-12-31" who="#DLCL_CF_PS001">markup</change>
+        <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+      
+        <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+</revisionDesc>
       </front>
       <body>
          <div type="transcription">
             <pb xml:id="DLCL_CF_E11060_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21481/full/800,/0/default.jpg"/>
             <opener>
-               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo<//rs>salute>
+               <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
             </opener>
             <p>Sarà ben fatto che il Tomo primo del 
                <bibl type="print">Tasso</bibl> 
@@ -89,7 +93,7 @@
                <persName ref="#DLCL_CF_PC0996">Signor Loreto Olivieri Droghiere,</persName> 
                il quale ne ha l’ordine per ricevere quanto se gli spedirà, dal 
                <persName ref="#DLCL_CF_PC0178">Reverendissimo Padre Abate Ferranti.</persName> 
-               Mi sarà caro avere i due tomi dell’Enfant per la stessa via.</p>
+               Mi sarà caro avere i due tomi dell’<bibl type="print">Enfant</bibl> per la stessa via.</p>
             <p>La medicina ha cominciato ad operare, avendo io lettera da 
                <placeName ref="#DLCL_CF_L0007">Bologna,</placeName> 
                che serve di scusa, e di promessa, ma adeguatamente non risponde alle parecchie mie, delle quali per l’avanti io non sapeva che fosse stato. Ringrazio la di lei attenzione, alla quale raccomando di provvedermi di due copie del libro ultimamente dato fuori da 
@@ -169,7 +173,7 @@
                ebbe nove scudi per il 
                <bibl type="print">Plinio,</bibl> 
                e il 
-               <bibl type="print">Quintiliano.<//bibl>p>
+               <bibl type="print">Quintiliano.</bibl></p>
             <p>Scrissi ancora a 
                <placeName ref="#DLCL_CF_L0007">Bologna</placeName> 
                per intendere se si trovano, e per qual prezzi, tutte le Opere di 
@@ -192,10 +196,10 @@
                <persName ref="#DLCL_CF_PC0730">Padre Don Angelo</persName> 
                Amatissimo e mi confermo.</p>
             <closer>
-               <dateline><placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano<</placeName>date when-iso="1723-02-01">primo Febbraio 1723.<//date>dateline>
+               <dateline><placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1723-02-01">primo Febbraio 1723.</date></dateline>
                <salute>DVPMR</salute>
                <salute>Cordialissimo Servitore Affezionatissimo</salute> 
-               <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti<//persName>signed>
+               <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
             </closer>
          </div>
       </body>

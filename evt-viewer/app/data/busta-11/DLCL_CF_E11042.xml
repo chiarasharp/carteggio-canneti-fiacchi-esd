@@ -74,7 +74,9 @@
          <change when-iso="2025-12-20" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2025-12-22" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
          <change when-iso="2025-12-31" who="#DLCL_CF_PS001">markup</change>
-      </revisionDesc>
+      
+         <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+</revisionDesc>
    </front>
          <body>
             <div type="transcription">
@@ -181,7 +183,9 @@
          <change when-iso="2025-12-20" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2025-12-22" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
          <change when-iso="2025-12-31" who="#DLCL_CF_PS001">markup</change>
-      </revisionDesc>
+      
+         <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+</revisionDesc>
    </front>
          <body>
             <div type="transcription">

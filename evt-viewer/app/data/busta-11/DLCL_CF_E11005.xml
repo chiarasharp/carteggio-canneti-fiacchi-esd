@@ -1,0 +1,277 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+  xml:id="DLCL_CF_E11005">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20898/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21335/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21336/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21337/full/800,/0/default.jpg"/>
+    <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/21338/full/800,/0/default.jpg"/>
+    <graphic n="3r" url="https://www.cdc.classense.ra.it/iiif/2/21339/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11005">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 24 Febbraio 1721)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+            >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">5</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca
+              Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1721-02-24"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-26" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-01-29" who="#DLCL_CF_PS001">markup testo</change>
+      <change when-iso="2026-02-03" who="#DLCL_CF_PS001">correzioni</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+    
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11005_C1R_L" n="1 - Recto"
+          facs="https://www.cdc.classense.ra.it/iiif/2/21335/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio
+              Osservandissimo</rs>
+          </salute>
+        </opener>
+        <p>
+          Ripiglio le due ultime lettere di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità,</rs> e proseguisco la risposta ad esse, premettendo prima, e fuor d’ordine,
+          la notizia dell’onore, in cui finalmente è stata messa l’antica iscrizione da lei scoperta
+          tra l’obbrobrio affumicato della cucina di <orgName ref="#DLCL_CF_O0165">San Damiano.</orgName> 
+          Vi ha voluto il maneggio del <persName ref="#DLCL_CF_PC0132">Padre Abate Grandi</persName> da me eccitato nella presente sua dimora in 
+          <placeName ref="#DLCL_CF_L0007">Bologna</placeName> per superare la trascuraggine, e il disprezzo
+          dell’Ignoranza. 
+          E per ultimo vi si è impiegata la liberalità del nostro buon <persName ref="#DLCL_CF_PC0105">Giorgini Priore,</persName> che ha fatta la spesa per incastrarla
+          con cornice nel muro dell’andito, dirimpetto alle finestre. Io intendo che quando fu dalla
+          osservazione, e buon gusto di <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> tratta quella lapide dal sudiciume delle pentole, essa era intiera: ma
+          ora, dopo essere gettata quà, e là, risentendosi per le ingiurie del fuoco, è guasta, e
+          rotta in tre pezzi: onde si può difficilmente leggere. 
+          È dunque fortuna grande che <rs type="person">due Scrittori Bolognesi</rs> l’abbiano riportata nelle loro <bibl type="print">Storie.</bibl> 
+          Per altro appena serve in oggi per giustificare la verità
+          della lapide, che non è finta. 
+          Comunque sia, è stato pregio dell’opera salvarla
+          dall’ultimo eccidio: ed al <persName ref="#DLCL_CF_PC0002">Padre Fiacchi</persName> se ne
+          dee il merito, come a Vindicatore erudito della più antica memoria, che in sasso veggasi
+          scolpita, delle cose nostre. Ma ritorniamo alle due lettere. 
+        </p>
+        <p>
+          Parmi averle già significato
+          che si è trovato un’altro <bibl type="print">Corpo</bibl> del <persName ref="#DLCL_CF_PC0655">Lirano</persName> mancante di un Tomo, che servirà a perfezionare
+          compitissimamente quello venuto da <placeName ref="#DLCL_CF_L0023">Foligno,</placeName> e
+          acquistato mercè l’amore, applicazione, e disinvoltura del <persName ref="#DLCL_CF_PC0015">Signor Giustiniano Pagliarini,</persName> il quale cinque giorni quì è stato a
+          favorirmi nella scorsa settimana col <persName ref="#DLCL_CF_PC0232">Signor Boccolini.</persName> 
+        </p>
+        
+        <pb xml:id="DLCL_CF_E11005_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21336/full/800,/0/default.jpg"/>
+        
+        <p>
+          Si è conferito, e lavorato intorno alla ristampa del <bibl>Quadriregio</bibl> del
+            <persName ref="#DLCL_CF_PC0823">Frezzi.</persName> Col <persName ref="#DLCL_CF_PC0655">Lirano</persName> si avrà il <bibl type="print">Sant’Atanasio tradotto</bibl> da
+            <persName ref="#DLCL_CF_PC0824">Cristoforo Persona,</persName> di cui il <bibl type="print">Giornale ^di Venezia</bibl> al Tomo 19., e qualche altro pezzo insigne. 
+          Il <bibl type="print">Giornale de’ Letterati di Francia</bibl> rapporta un’<bibl type="print">Istoria</bibl> poco fà uscita in luce della <orgName ref="#DLCL_CF_O0151">Congregazione de’ Monaci Celestini</orgName> 
+          di <placeName ref="#DLCL_CF_L0037">Francia,</placeName> ove, trattandosi della <orgName ref="#DLCL_CF_O0153" cert="low">Libreria del Monastero di Parigi,</orgName> si annovera tra’ libri rari il nostro
+            <persName ref="#DLCL_CF_PC0655">Lirano</persName> in quattro Tomi. 
+          Questo <bibl type="print">Corpo</bibl> non comprende che la <bibl type="print">Postilla Letterale;</bibl> né vi stà punto la <bibl type="print">Postilla Morale,</bibl> 
+          che manca altresì nella <bibl type="print">Bibbia</bibl> del 1489., e nel <persName ref="#DLCL_CF_PC0655">Lirano</persName> del
+            <persName ref="#DLCL_CF_PC0825">Gadolo</persName> del 1495. com’Ella mi scrive.
+        </p>
+        
+        <p>
+          Ritornando poi alla <bibl type="print">Traduzione dell’Apocalisse;</bibl> se quella, ch’è
+          in <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> è del <persName ref="#DLCL_CF_PC0827" cert="high">Gilberto,</persName> e questa del <persName ref="#DLCL_CF_PC0655">Lirano,</persName> 
+          convien dire che in latino uno di essi sia stato plagiario
+          dell’altro. 
+        </p>
+        
+        <p>
+          In proposito dell’Opuscolo intitolato <bibl type="manuscript"><foreign xml:lang="la"><hi rend="ul">Speculum Monachorum</hi></foreign>;</bibl> mi occorre in
+          primo luogo interrogare qual delle due edizioni di <bibl type="print">San Bernardo</bibl>
+          del <persName ref="#DLCL_CF_PC0129">Mabillon</persName> sia la nostra. 
+          Mi stupij che per
+          otto scudi mi fossero dati que’ due Tomi; quando cinque scudi almeno sono stati pagati gli
+          altri Tomi de’ <persName>San</persName>ti Padri de’ <rs type="person">Monaci di San Mauro.</rs> 
+          Ma io penso che
+          l’agevolezza provenisse dall’esser cotesta l’edizione più antica, e meno considerata in
+          paragone della seconda. 
+        </p>
+        
+        <p>
+          Essendo sciolto il <bibl type="print">Vossio,</bibl> <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> dia ordine che sia legato in
+          quella maniera, ch’Ella, come bravo Bibliotecario giudica spediente, avvertendo che si
+          abbia tutta l’attenzione a non diminuire il margine. Se si lega con oro, vi faccia mettere
+          sul corpo la marca di <placeName ref="#DLCL_CF_L0020">Classe.</placeName> 
+          Per isfuggire le 
+        </p>
+        
+        <pb xml:id="DLCL_CF_E11005_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21337/full/800,/0/default.jpg"/>
+        <p>
+          spese superflue, potrà differirsi alla Fiera di <placeName ref="#DLCL_CF_L0030">Sinigaglia</placeName> il mandarlo quà. Starà frattanto appresso di lei. 
+          Il danaro per
+          la legatura si esigga dal <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli,</persName> con cui m’intenderò. 
+          Quanto alla <bibl type="print">Biblioteca Critica</bibl> di <persName ref="#DLCL_CF_PC0164">Simon sotto nome di
+            Sainjourè</persName> crederei fosse bene vendere i due Tometti per 15. paoli a persona,
+          che abbia licenza di leggergli, e far venire il <bibl type="print">Corpo</bibl> intiero di quattro, o forse più
+          Tometti. 
+          Si prenda questo pensiero; mentre io mi adopro per esitare i due altri, che hò
+          duplicati. 
+          Quel <persName ref="#DLCL_CF_PC0831">Signore Casolari</persName> è Libraio? 
+        </p>
+        
+        <p>
+          Sul
+          cominciar della Quaresima si ripiglierà la nota de’ libri. 
+          Farò che il <rs type="person">Padre Camerlengo</rs> nostro si rimborsi degli otto paoli. Fin qui alla prima. 
+          Passo
+          alla seconda. 
+        </p>
+        
+        <p>
+          Ho ricevuto per <persName ref="#DLCL_CF_PC0832">Frate Biagio</persName>
+            l’<bibl type="print">Indice degli Arcadi,</bibl> e la <bibl type="print">Vita di San Carlo del Bascapè,</bibl> con la mappa di cotesti fiumi, 
+          e il Panegirico del <persName ref="#DLCL_CF_PC0833">Padre Grassi Agostiniano.</persName> 
+          Già ho scorto che questo
+          secondo è un cibo da’ svogliati: avrò caro considerar la carta de’ fiumi. Mille grazie.
+          Presto manderò le altre carte al <persName ref="#DLCL_CF_PC0178">Padre Ferranti.</persName> 
+          La ringrazio pure de’ libri spediti a <placeName ref="#DLCL_CF_L0013">Ferrara,</placeName> ed a <placeName ref="#DLCL_CF_L0001">Cremona,</placeName> e già
+          ricapitati. 
+          Io le mando ora un’involtino con dentro lo <bibl type="print">Stato della Basilica di Santa Maria in Cosmedin</bibl> del <persName ref="#DLCL_CF_PC0033">Crescimbeni,</persName> ove farà correggere l’errore corso nella legatura sul
+          principio, rimettendo a suo luogo il quinternetto, che ora stà fuori d’ordine. 
+          Mi faccia rilegare il <bibl type="print">Galeotto Marzio</bibl> tradotto, che mando insieme col
+            <bibl type="print">Latino,</bibl> perché si accompagnino quanto si può, essendo
+          impossibile far’ esattamente le due legature eguali. 
+          Il <bibl type="print">Latino</bibl> è raro, il Volgare rarissimo. 
+          Appresso troverà una <bibl type="print">Copia della Vita del Beato Michele,</bibl> la quale in mio nome 
+        </p>
+        
+        <pb xml:id="DLCL_CF_E11005_C2V_L" n="2 - Verso"
+          facs="https://www.cdc.classense.ra.it/iiif/2/21338/full/800,/0/default.jpg"/>
+        
+        <p>
+          mandi in dono al <persName ref="#DLCL_CF_PC0006">Padre Amici</persName> nostro buon’
+          Amico. In oltre dal <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli</persName>
+          riceverà due copie dell’<bibl type="print">Opera stravagante del Polifilo.</bibl> Una di
+          esse è legata insieme colle <bibl type="print">Prose</bibl> del <persName
+            ref="#DLCL_CF_PC0141">Bembo</persName> in fol., che mi par’ un’esemplare miglior del
+          nostro. Se così è, lo faccia separare, e legar per noi, esitando l’altro. Faccia poi
+          scioglier le due copie del <bibl type="print">Polifilo,</bibl> ed a foglio a foglio ^con
+          la scelta di quà e di là componga una copia di libro più pulito che si può, e lo faccia
+          ben legare, riponendolo poi tra nostri libri. L’altra copia meno pulita con entrovi i
+          fogli suppliti a penna, vegga venderla con riputazione, essendo libro raro, o almeno non
+          obvio, e da alcuni tenuto in istima. Una copia, che feci compire a penna, mi costò otto
+          paoli, ma era imperfetta: l’altra intiera ho pagata quindici paoli. Stà bene in una
+          <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> 
+          </p>
+        
+        <p>
+          Se potrà mai aver’ una copia della <bibl type="manuscript">Lettera
+            Pastorale</bibl> di <persName ref="#DLCL_CF_PC0590">Monsignor Crispi,</persName> la
+          vederò volentieri. Quando sarà in <placeName ref="#DLCL_CF_L0002">Ravenna,</placeName>
+          pensi il modo di avere da esso due libri, uno da lui composto in nome del <orgName
+            ref="#DLCL_CF_O0154">Capitolo di Ferrara,</orgName> quando era <rs type="person"
+            ref="#DLCL_CF_PC0590">Arciprete della Cattedrale</rs> colà, in sentimento di grazie a
+            <persName ref="#DLCL_CF_PC0504">Clemente XI.</persName> per aver loro fatto fabbricare
+          un loco per l’inverno, del quale in rame si dà il disegno. L’altro è degli <orgName
+            ref="#DLCL_CF_O0155">Auditori di Rota</orgName> composto da <persName
+            ref="#DLCL_CF_PC0834">Domenico Bernini,</persName> e fatto stampare dagli <orgName
+            ref="#DLCL_CF_O0155">Auditori</orgName> medesimi. <rs type="person"
+            ref="#DLCL_CF_PC0590">Monsignore</rs> ne mandò in dono una copia a <rs type="person"
+            ref="#DLCL_CF_PC0094">Monsignor Vescovo di Perugia,</rs> un’altra a <persName
+            ref="#DLCL_CF_PC0535">Monsignor Lercari</persName> di quel tempo Governatore, e parmi
+          anco una alla <orgName ref="#DLCL_CF_O0135">Libreria Pubblica di Perugia.</orgName>
+        </p>
+        
+        <pb xml:id="DLCL_CF_E11005_C3R_L" n="3 - Recto"
+          facs="https://www.cdc.classense.ra.it/iiif/2/21339/full/800,/0/default.jpg"/>
+        
+        <p>
+          Ricevei i fogli della nota de’ libri, di cui aspetto il compimento. Ripiglierò la
+          faccenda presto, come ho accennato di sopra. Sono stato occupatissimo le settimane
+          addietro. Sabbato il nostro <persName ref="#DLCL_CF_PC0044">Padre Pancaldi</persName>
+          fecesi onore incredibile con un Discorso del Sacramento nella Chiesa delli Padri
+          dell’Oratorio. E la composizione, e l’azione, e lo spirito superano ogni aspettazione. Ha
+          finito di rapire i cuori, e conciliarsi un’alta stima. Veramente è Uomo, e Uomo capace,
+          quando abbia sanità per far’ un Quaresimale, di salire al primo rango. Dico assai, ma non
+          esaggero. Se io da lontano sentissi tal relazione, la crederei esaggerata: e pur’è vera.
+          Ha un certo penetrante, e impressivo, massimamente negli affetti, che non è mediocre.
+          Nelli nove discorsi della Novena mandò ogni sera l’Uditorio compunto. Mi han detto diversi
+          ch’è un tesoro stato finora nascosto. Ora stà lavorando intorno al Panegirico di <persName
+            ref="#DLCL_CF_PC0546">San <del rend="overstrike">Filippo</del> Giuseppe</persName> per
+          gli stessi Padri dell’Oratorio. 
+          </p>
+        
+        <p>
+          Le fatiche da <persName ref="#DLCL_CF_PC0832">Frate
+            Biagio</persName> impiegato in servizio della <orgName ref="#DLCL_CF_O0001"
+            >Libreria,</orgName> e l’amore officioso di <rs type="person" ref="#DLCL_CF_PC0002"
+            >Vostra Paternità</rs> sono due titoli di merito a favore di esso, che mi terranno
+          attento al bene del medesimo con amorevolezza, e carità. Ne spero bene. </p>
+        <closer>
+          <salute>Resto con tutto lo spirito abbracciandola strettamente; e mi confermo senza
+            fine.</salute>
+          <dateline>
+            <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+            <date when-iso="1721-02-24">24 Febbraio 1721.</date> </dateline>
+          <salute>DVPMR.</salute>
+        </closer>
+        <postscript>
+          <p>Al <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina,</persName> al <persName
+              ref="#DLCL_CF_PC0090">Padre Don Leandro</persName> e al <persName
+              ref="#DLCL_CF_PC0676">Padre Grilli</persName> i miei cordialissimi rispetti.</p>
+        </postscript>
+        <closer>
+          <salute>Affezionatissimo Servitore Cordialissimo Padre nel <persName>Signor</persName>e</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+        </closer>
+      </div>
+    </body>
+   </text>
+</TEI>

@@ -1,0 +1,192 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11012">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20905/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21357/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21358/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21359/full/800,/0/default.jpg"/>
+    <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/21360/full/800,/0/default.jpg"/>
+    <graphic n="3r" url="https://www.cdc.classense.ra.it/iiif/2/21361/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11012">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 14 Luglio 1721)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">12</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1721-07-14"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>   
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">conversione lacune in gap</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">aggiunta annotazione marginale</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11012_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21357/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+        <p> Con sommo godimento ricevo descritti per mano del diligente <persName
+            ref="#DLCL_CF_PC0885">Signor Carlo Onestini</persName> i caratteri, che stanno sopra la
+          Croce di Musaico nella Tribuna della <orgName ref="#DLCL_CF_O0005">Basilica di
+            Classe</orgName> veduti da <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002"
+            >Vostra Paternità,</rs> e da lui ben da vicino con gli occhi, toccati con le mani. La
+          vista è stata per l’addietro ingannata dalla lontananza: onde hanno preso sbaglio non meno
+            l’<persName ref="#DLCL_CF_PC0852">Acquedotti,</persName> che <persName
+            ref="#DLCL_CF_PC0051">Monsignore Ciampini,</persName> il quale si lusinga di avere avuto
+          un fedele disegno del Musaico. Io son di parere, che siccome la lettera di mezzo <del
+            rend="overstrike">O</del> senza dubbio è greca così tutte le altre quattro sieno greche,
+          e l’ultima non sia il C. latino ma il Sigma greco, solito esprimersi col nostro C. Leggo
+          adunque così. I. <hi rend="ul"><foreign xml:lang="la">Jisus</foreign>.</hi> X. <hi
+            rend="ul"><foreign xml:lang="la">Christos</foreign>.</hi>
+          <del rend="overstrike">O</del>. <foreign xml:lang="la">Theos</foreign>. YC. <hi rend="ul"
+              ><foreign xml:lang="la">Ischiros</foreign></hi>, trovandosi anco ne’ moderni scritto
+          Yschiros con l’ipsilon, benché scriversi debba con l’ita. Sicché in latino suona: <hi
+            rend="ul"><foreign xml:lang="la">Iesus Christus Deus Fortis</foreign></hi>. La quale
+          interpretazione, se vogliam riferirla all’altra posta sotto alla Croce <hi rend="ul"
+              ><foreign xml:lang="la">Salus mundi</foreign></hi>, viene sostenuta mirabilmente, e
+          illustrata da varj passi della Divina Scrittura; come per cagion di esempio: <hi rend="ul"
+              ><foreign xml:lang="la">Deus fortis salutis meę</foreign></hi>. 2 Reg. 22.4 <hi
+            rend="ul"><foreign xml:lang="la">Dominus Deus tuus in medio tui fortis ipse
+              salvabit</foreign></hi>. Sophon. 3.17., tralasciando altri molti, che si potrebbero
+          addurre. Fu disgrazia di <persName ref="#DLCL_CF_PC0051">Ciampini</persName> ricevere il
+          disegno stranamente alterato. Quindi inciampò in gravissimi errori nella spiegazione delle
+          due Istorie laterali, mal guidato ancora dall’<persName ref="#DLCL_CF_PC0852"
+            >Acquedotti,</persName> di cui io gli avea comunicati certi squarci copiati da </p><pb xml:id="DLCL_CF_E11012_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21358/full/800,/0/default.jpg"/>
+        <p>
+          <bibl type="manuscript">originale Manoscritto.</bibl>
+          Se io non avessi scoperto le lettere, chi coperte dianzi dalla polvere, stanno sopra il capo delle figure rappresentanti i tre sacrifici, avessimo perseverato nell’errore di chi intendeva tutt’altro in quel Musaico.
+          <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità,</rs> se ben mi ricordo si trovò presente alla scoperta, che una mattina si fece, operando con tanto gusto il buon <persName ref="#DLCL_CF_PC0238">Frate Bastiano Zabaroni:</persName> e v’era eziandio il <persName ref="#DLCL_CF_PC0916">Padre Don Alfonso Maria,</persName> in cui godo siasi trasfuso il buon gusto di vendicare l’antichità dimostrato nel liberare dall’obbrobrio il sepolcro dell’<persName ref="#DLCL_CF_PC0895">Arcivescovo Teodoro.</persName>
+          Un favore desidero dal mio Carissimo <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo,</persName> ed è che mi faccia fare un’esatto disegno in carta di tutto il Musaico, con le lettere a suo luogo, di tal grandezza, che comodamente si possa mettere in un ramo intagliato, e stampare in un foglio da inserirsi piegato in un libro.
+          Lo faccia fare al <persName ref="#DLCL_CF_PC0895">Signor Onestini,</persName> con usargli una propria, non rigorosa, ricognizione, secondo il consiglio del <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli,</persName> da cui levi per mia parte il danaro.
+          Mi pare che un’altra volta io facessi a lei una simile istanza ma poi ce n’eravamo scordati.
+          Ora è tempo di far’ il disegno con proprietà di buon gusto.
+        </p>
+        <p>
+          Quanto al supplire quel, che manca corroso dalle ingiurie dell’antichità, io sono del parere che vi resti arbitrio di farlo, ove non vi sia punto pericoli di sbagli[o] come sarebbe a dire nella palma, che suppongo si sarà col pennello suppli[to] dal corno dell’Evangelo, prendendone tutto il disegno dall’altra, ch’è intiera
+        </p><pb xml:id="DLCL_CF_E11012_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21359/full/800,/0/default.jpg"/>
+        <p>
+          dal corno dell’epistola.
+          Il San Matteo assolutamente non lo supplirei, appunto perché, secondo il di lei accorgimento non potiamo sapere se l’altra mano fosse, o no scoperta, e se tenesse il libro del suo Evangelio, e se questo fosse un libro, ovvero un volume involto.
+          Così pure lascerei stare, qual’è, l’altra figura opposta, non mancando modo al <rs type="person">Pittore</rs> di dar’ una tal quale soddisfazione all’occhio del volgo con qualche intonacatura di color dilavato, senza offendere lo sguardo erudito, che non ama le arbitrarie rappezzature.
+          Il quadro delli [2] sacrificj nella carta del disegno di <persName ref="#DLCL_CF_PC0051">Ciampini</persName> è intiero: credo pertanto che poco sia offeso, e possa o supplirsi senza temerità, o lasciarsi senza deformità qual si trova.
+          Importa che le lettere esprimenti i nomi delle persone rappresentate in quelle figure appariscano ben chiare, e lucide, per disingannare chi credeva ivi espressa la concessione de’ privilegi, la quale anzi è rappresentata nel quadro opposto; se crediamo al moderno supplemento, che in certo volume ha i caratteri <hi rend="ul">vil.</hi> o altri simili rimasti dell’antico <hi rend="ul">privil.</hi>
+          Io non ho dubbio che legittimo, e sincero non sia quel supplemento, e però che non debba ora rifarsi.
+          Le figure son tutte di <rs type="person">Uomini di Chiesa;</rs> e tali si conoscono alla tonsura.
+          Direi pertanto che si possa dipingere la testa, che manca, imitandola a similitudine delle altre, e imitar similmente gli abiti, le mani, e i piedi.
+          Ma non così è da arrischiarsi di metter mano nella figura di mezzo diademata.
+          Loderei per ultimo che il <rs type="person" ref="#DLCL_CF_PC0003">Padre Abate</rs> facesse fare un quadro, ch’esprimesse co’ i colori il musaico nello stato, in cui al presente si trova..
+        </p><pb xml:id="DLCL_CF_E11012_C2V_L" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21360/full/800,/0/default.jpg"/>
+        <p>
+          Se i nostri Antecessori avessero fatta una simile diligenza, ora francamente potressimo supplire quel, che manca.
+        </p>
+        <p>
+          Osservo meglio la lettera di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> sopra i difetti de’ Musaici: e resto ammirato che le figure degli <rs type="person">Arcivescovi</rs> abbiano pur qualche ^poco patito, le quali, se non m’inganno, erano intiere.
+          Una volta Ella mi mandò i nomi di essi.
+          Di grazia me li mandi un’altra volta.
+          I tre sacrificj stanno intieramente descritti nel Tomo 2.° di <bibl type="print">Monsignor Ciampini.</bibl>
+          È bene veder quel rame.
+          Il libro sarà in <placeName ref="#DLCL_CF_L0002">Ravenna</placeName> presso il <persName ref="#DLCL_CF_PC0169">Signor Butrighelli,</persName> o altri.
+          Benché non sia fatto diligentissimamente, può aiutar molto il vederlo.
+          L’altro opposto non era forse tanto rovinato in tempo, che se ne fece il disegno: che però non sarà se non profittevole averlo sotto a gli occhi.
+        </p>
+        <p>
+          Nel Tomo 2. di <bibl type="print">Ciampini</bibl> sopraccennato alla pag. 6.
+          Tav. 3. sul principio stà il disegno del Sepolcro più bello, figurato; ma non esattamente delineato.
+          Sarebbe bene farlo fare di nuovo, anco della parte dietro, che non sò ora come resti salvata dalle tenebre, a cui era prima condannata.
+          Farò la predica per ricuperar’ a <placeName ref="#DLCL_CF_L0020">Classe,</placeName> donde è stato levato, il sepolcro di <persName ref="#DLCL_CF_PC0895">Teodoro.</persName>
+          <persName ref="#DLCL_CF_PC0009">Bacchini</persName> a riguardo mio non ne fece menzione.
+        </p>
+        <p>
+          Quello <hi rend="ul"><foreign xml:lang="la">Exnaufragus</foreign></hi> non mi quadra; né vale l’esempio di <hi rend="ul"><foreign xml:lang="la">Exconsul</foreign></hi> § nomi di dignità altre volte ottenute.
+          Mi riverisca di vero cuore il <persName ref="#DLCL_CF_PC0056">Signor Sancassani.</persName>
+          Lo stuzzichi a trovare anticaglie di prime stampe, o di Manoscritto.
+          I Medici, ch’entrano da per tutto, possono far de’ buoni servizi.
+          Ho acquistato adesso un 
+        </p><pb xml:id="DLCL_CF_E11012_C3R_L" n="3 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21361/full/800,/0/default.jpg"/>
+        <p>
+          <bibl type="manuscript">Poema in ottava Rima intiero Manoscritto</bibl> in fogl. tratto dall’<bibl type="print">Eneide,</bibl> ch’è stimabile, benché altro non sia che una storpiatura di <persName ref="#DLCL_CF_PC0360">Virgilio.</persName>
+          Scuopro che l’<rs type="person">Autore</rs> è da <placeName ref="#DLCL_CF_L0036">Gubbio,</placeName> fiorì, e poetò intorno a[ll’a]nno 1450. con quel pessimo gusto, che allora correva.
+          Ho ancora trovate le Opere di <persName ref="#DLCL_CF_PC0896">Francesco Florido Sabino,</persName> di <placeName ref="#DLCL_CF_L0042">Basilea,</placeName> 1540. intiere.
+          Misi questo libro in fol. piccolo nella <orgName ref="#DLCL_CF_O0001">Libreria;</orgName> ma era imperfetto, e non conteneva il Volume tutto ciò, che promette nel frontispizio.
+          Lo veda, e osservi bene.
+          La prima Opera è <bibl type="print"><hi rend="ul"><foreign xml:lang="la">Contra <gap reason="lost"/>uti et linguę latine Calumniatores</foreign></hi>.</bibl>
+          Credo manchino costì <bibl type="print"><gap reason="lost"/> <foreign xml:lang="la"><hi rend="ul">Subsecivę</hi></foreign>,</bibl> ch’è il meglio.
+        </p>
+        <p>
+          Con dolore grandissimo ho inteso il danno dalle passate piogge recato alla <placeName ref="#DLCL_CF_L0022">Ragazina.</placeName>
+          Nel tempo stesso venuto da me il <rs type="person">Padre Guardiano de’ Cappuccini</rs> mi avea detto per relazione di un passaggero che l’acqua avea portato via il ponte del <placeName ref="#DLCL_CF_L0164">Savio.</placeName>
+          Anco in queste parti le piogge di que’ giorni medesimi han fatto delle rovine.
+          Il Martedì 8. feci esporre la Reliquia del <persName ref="#DLCL_CF_PC0017">Padre San Romualdo</persName> con la consueta solennità, e pienissimo concorso.
+          Ebbimo subito la grazia della serenità.
+          Ieri però ripigliò la pioggia, è durata questa notte, e seguita il tempo turbato.
+        </p>
+        
+        <p>
+          [Mi faccia venir da <placeName ref="#DLCL_CF_L0005">Faenza</placeName> 12. copie legate del libro descritto <gap reason="lost"/>]
+        </p>
+        
+        <closer>
+          <salute>Resto di vero cuore confermandomi, e abbracciandola caramente.</salute>
+          <salute>DVPMR</salute>
+          <dateline>
+            <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+            <date when-iso="1721-07-14">14. Luglio 1721.</date>
+          </dateline>
+          <salute>Cordialissimo Affezionatissimo Servitore <rs type="person">Padre</rs> nel Signore</salute>
+        </closer>
+        <p>[[Mi faccia venir da <placeName ref="#DLCL_CF_L0005">Faenza</placeName> 12. copie legate del libro descritto <gap reason="lost"/>]]</p>
+
+        </div>
+    </body>
+   </text>
+</TEI>

@@ -1,0 +1,127 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11036">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20929/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21423/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21424/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21425/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11036">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Valdicastro, 23 Luglio 1722)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">36</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1722-07-23"/>
+          <placeName ref="#DLCL_CF_L0004">Valdicastro, Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-30" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+    
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">conversione lacune in gap</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb n="1 - Recto" xml:id="DLCL_CF_E11036_C1R_L" facs="https://www.cdc.classense.ra.it/iiif/2/21423/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+        <p>
+          È egli possibile che nella gran turba de’ pensieri, che la solitudine avrà mossi nella mente di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> non siasi mai fatto vedere il pentimento di non essere venuto in queste parti a soddisfare al desiderio di chi ve l’aspettava, e a godere delle applicazioni più geniali? Non accade ch’Ella s’incomodi per rispondermi sì, o no.
+          Starò osservando se abbraccia la congiuntura di venirsene al ritorno del <persName ref="#DLCL_CF_PC0259">Padre Bianconi</persName> in compagnia del medesimo.
+          E quando ciò non segua, mi sottoscriverò all’opinione del <persName ref="#DLCL_CF_PC0811">Padre Tinti,</persName> che non sapeva compatir l’ostinazione negli altri, e la detestava al pari dell’eresia.
+          Or via non abbia timore di quell’ineguale, e spaventevole guardatura.
+          Intanto mi dia avviso se ha ricevuto il libro, e se per entro vi ha osservata cosa degna di riflessione.
+          Quanto al <persName ref="#DLCL_CF_PC0676">Padre Lettore Grilli,</persName> egli è di sentimento che tutto bene stia a <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> in pena di non averlo voluto accompagnare in queste parti.
+          È pronto a far con lei la pace: ma vuol farla non altrove che nella visita della <orgName ref="#DLCL_CF_O0091">Santa Casa,</orgName> ove pensa portarsi nel prossimo Autunno.
+          Egli stà quì meco, e col <persName ref="#DLCL_CF_PC0073">Padre Bruno[ri]</persName> nella solitudine di <orgName ref="#DLCL_CF_O0002">Valdicastro,</orgName> donde ritorneremo dimani a <placeName ref="#DLCL_CF_L0004">Fabriano,</placeName> per ripassare poi in breve con una numerosa comitiva al <placeName ref="#DLCL_CF_L0179">Massaccio</placeName> per la festa di <persName ref="#DLCL_CF_PC0932">San Lorenzo,</persName> che si celebrerà più solennemente del solito coll’esposizione la prima volta di alcune Reliquie del <rs type="person" ref="#DLCL_CF_PC0932">Santo Levita.</rs>
+          Ho colà ne’ giorni addietro intese grandi querele del <persName ref="#DLCL_CF_PC0178">Reverendissimo Ferranti.</persName>
+          Scriva a chi là ama..
+        </p><pb n="1 - Verso" xml:id="DLCL_CF_E11036_C1V_L" facs="https://www.cdc.classense.ra.it/iiif/2/21424/full/800,/0/default.jpg"/>
+        <p>
+          Subito che avrà risposte da <placeName ref="#DLCL_CF_L0010">Padova</placeName> intorno al <bibl type="print">Lessico Matematico,</bibl> me le partecipi: e si compiaccia fare il medesimo intorno alla risoluz[ione] del <persName ref="#DLCL_CF_PC0954">Signor Zanotti</persName> di <placeName ref="#DLCL_CF_L0005">Faenza.</placeName>
+          Attendo pure avviso della <bibl type="print">Musurgia,</bibl> e dell’<bibl type="print">Opera</bibl> del <persName ref="#DLCL_CF_PC0908">Zahn,</persName> <bibl type="print">dell’Occhio Artificiale.</bibl>
+          Se il <persName ref="#DLCL_CF_PC0625">Padre Reggente Pug[netti]</persName> và a <placeName ref="#DLCL_CF_L0048">Fano,</placeName> non si accosta a me in modo che più comodo riesca il trattar seco; anzi si allontanerà da lei, e da cotesti libri.
+          Or<gap reason="lost"/> risolva a pensar modo di seco abboccarsi con sollecitudine.
+        </p>
+        <p>
+          Il mio <rs type="person">Padre Camerlengo</rs> non è andato alla fiera di <placeName ref="#DLCL_CF_L0030">Sinigaglia.</placeName>
+          Lunedì avanti di partire dal <placeName ref="#DLCL_CF_L0179">Massaccio</placeName> consegnai un’ordine in scritto a persona, <gap reason="lost"/> doveva portarsi, colà il giorno appresso, perché si facesse conseg[nare] il danaro, e l’involto dal <persName ref="#DLCL_CF_PC0923">Brocchi,</persName> o da chi l’avesse avuto da <gap reason="lost"/>.
+          Ieri poi doveva andarvi il <persName ref="#DLCL_CF_PC0178">Padre Abate Ferranti,</persName> il quale in pass<gap reason="lost"/> e fermandosi in <placeName ref="#DLCL_CF_L0165">Monte Alboddo,</placeName> aveva animo di concludere l’[acquis]to di tutti quei libri, de’ quali già ho avuto un bel pezzo, in cui s[ia]no legati un <bibl type="print">Giustino,</bibl> e un <bibl type="print">Floro.</bibl>
+          Occorrendo al <persName ref="#DLCL_CF_PC0923">Brocchi,</persName> altre C[arte]pecore, me ne scriva per tempo anticipatamente.
+          Ho trovato chi da<gap reason="lost"/> i Capretti per quattro bai.
+          Crederei a proporzione poter godere de’ [van]taggi nelle pelli più più grandi ancora.
+          Non mi ricordo che cosa ri[ma]nesse costì delle pelli rosse di capra, che recai meco.
+          Me lo avvisi.
+          Quanto al danaro, non s’intende la prontezza col sommo rigore <gap reason="lost"/> mandarlo unitamente colla commissione.
+          Il <persName ref="#DLCL_CF_PC0933">Pomatelli stampatore</persName> di <placeName ref="#DLCL_CF_L0013">Ferrara</placeName> mi scrive aver finalmente dato fuori il libro del <persName ref="#DLCL_CF_PC0505"><gap reason="lost"/> Negri</persName> degli <bibl type="print">Scrittori Fiorentini..</bibl>
+        </p><pb n="2 - Recto" xml:id="DLCL_CF_E11036_C2R_L" facs="https://www.cdc.classense.ra.it/iiif/2/21425/full/800,/0/default.jpg"/>
+        <p>
+          Con quest’ordinario nuovamente scrivo a <placeName ref="#DLCL_CF_L0028">Perugia</placeName> perché costà sia per la posta mandato il <bibl type="print">Calendario del Monastero di Santa Giuliana.</bibl>
+          A noi quest’anno occorre appunto il caso da <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> accennatomi una volta.
+          Il dì 18.
+          Ottobre cadono <persName ref="#DLCL_CF_PC0933">San Luca,</persName> e la Dedicazione della <orgName ref="#DLCL_CF_O0170">Cattedrale di Camerino,</orgName> l’uno e l’altra feste di rito doppio di 2.a classe.
+          Faremo della 2.a, trasferiremo la prima.
+        </p>
+        
+        <closer>
+          <salute>L’abbraccio caramente, e resto.</salute>
+          <salute>DVPMR</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Valdicastro</placeName> <date when-iso="1722-07-23">23. Luglio 1722.</date></dateline>
+          <salute>Cordialissimo Servitore e Affezionatissimo Padre nel Signore</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+        </closer>
+      
+      </div>
+    </body>
+   </text>
+</TEI>

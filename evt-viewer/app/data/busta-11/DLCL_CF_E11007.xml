@@ -1,0 +1,124 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11007">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20900/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21343/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21344/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11007">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 19 Maggio 1721)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">7</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1721-05-19"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-02-02" who="#DLCL_CF_PS001">markup testo</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+    
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11007_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21343/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+        <p>
+          Sarò breve, perché stà la posta sul partire. Il <rs type="person" ref="#DLCL_CF_PC0002"
+            >Padre Bibliotecario</rs> è divenuto in verità un de’ capitelli della <orgName
+            ref="#DLCL_CF_O0005">Basilica di Classe;</orgName> ed io il provo, per cui non ha egli
+          più cuore, né pensiero alcuno, dopo avermi mossa la scialiva colla prima notizia della
+          ristorazione delle Antichità. Iddio gli perdoni la sua barbarie inumana. Almeno per mezzo
+          di <rs type="person">VPMR</rs> mi dia contezza della legatura del <bibl type="print"
+            >Vossio</bibl> a lui commessa. Non vi è tempo da perdere, volendolo io ricevere per la
+          fiera di <placeName ref="#DLCL_CF_L0030">Sinigaglia.</placeName> Quanto alla nota de’
+          libri descritti nel <bibl type="manuscript">Catalogo</bibl> di <persName
+            ref="#DLCL_CF_PC0216">Fontanini,</persName> basta mi si additi la pagina di detto
+          <bibl type="manuscript">Catalogo;</bibl> e de’ libri da segnarsi col frego si accenni tanto che basti a me per intendere
+          quali sieno gli aggiunti. Talvolta basterà il solo cognome dell’Autore, se una sola Opera
+          di esso stà descritta in quella pagina. La facilità, che addito, non tolga a me la
+          chiarezza; e basta. A lei rimetto l’affare della permuta delle <bibl type="print"
+            >Memorie</bibl> del <persName ref="#DLCL_CF_PC0836">Cardinale Bentivoglio.</persName> Si
+          serva secondo la mente mia, e a suo piacere. Se l’elezione del <persName
+            ref="#DLCL_CF_PC0246">Padre Don Abondio</persName> è necessaria, o almeno spediente, la
+          lodo, e l’approvo. L’idea del <hi rend="ul">secolo non poetico</hi>, non è mia: l’ho presa
+          dal <bibl type="print">Buon Gusto</bibl> del <persName ref="#DLCL_CF_PC0013"
+            >Muratori,</persName> e lei non ha presa di mira; e se l’avesse mirata, non sarebbe
+          stata
+        </p>
+        <pb xml:id="DLCL_CF_E11007_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21344/full/800,/0/default.jpg"/>
+        <p>
+          guidata la mossa che da vero, e sincero Amore, il quale vorrebbe in due Fratelli vedere
+          il lume di due Castori. Se poi ha peccato la <bibl type="print">Critica dell’Autore del
+            Buon Gusto,</bibl> e della <bibl type="print">Moderazione degli ingegni nelle Cause
+            della religione,</bibl> e di tante altre Opere, il <persName ref="#DLCL_CF_PC0216"
+            >Furlano</persName> con l’ultima scritturetta gli ha riveduto le bucce, non
+          contentandosi di lavargli il capo con sale, e aceto, ma tormentandolo con ferro, e fuoco
+          in guisa, che lo lascia come’ un Marsia scorticato.
+        </p>
+        
+        <closer>
+          <salute>Resto in fretta con tutto ‘l cuore.</salute>
+          <salute>D<rs type="person">VPMR</rs></salute>
+          <dateline>
+            <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+            <date when-iso="1721-05-19">19. Maggio 1721.</date>
+          </dateline>
+          <salute>Parz.mo Cordialissimo Servitore</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+        </closer>
+      </div>
+    </body>
+   </text>
+</TEI>

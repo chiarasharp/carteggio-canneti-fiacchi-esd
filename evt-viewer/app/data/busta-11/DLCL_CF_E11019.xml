@@ -1,0 +1,185 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11019">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20912/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21377/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21378/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21379/full/800,/0/default.jpg"/>
+    <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/21380/full/800,/0/default.jpg"/>
+    <graphic n="3r" url="https://www.cdc.classense.ra.it/iiif/2/21381/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11019">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 6 Ottobre 1721)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">19</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1721-10-06"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11019_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21377/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+        <p>
+          Come io previdi quasi certo, e indubitato l’incomodo delle febbri, che <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> mi significa aver patito; così probabilmente temo che non sia pienamente uscito nel suo sfogo tutto quel di cattivo, che la continuata applicazione in un’aria pessima ha potuto cagionarle.
+          Si abbia cura in tutto ciò, che abbia attività a fermentare il male concepito.
+          Mi rallegro delle febbri superate, e più me ne rallegrerò, se non torneranno.
+          La mutazione dell’aria sarebbe in avvenire a lei proficua: ma dubito di non potervi contribuire colla venuta mia in coteste parti, potendosi facilmente cambiare il sistema delle cose, che mi pareva fosse per mettermi in necessità di fare un giro.
+          Conserviamo la speranza di rivederci presto, lasciando che la provvidenza disponga quel, ch‘é per essere il meglio.
+        </p>
+        <p>
+          Caro mi è l’avviso delli due involti a lei ricapitati.
+          Il <persName ref="#DLCL_CF_PC0547">Padre Abate Tassis</persName> spasima per la tardanza.
+          I libri, che gli spedisco, ritrorneranno accompagnati da altri, e con essi averò l’intiera <bibl type="print">Biblioteca Critica</bibl> in quattro Tomi.
+          Delli primi due, ch’erano appresso di me, ne ho fatto esito, ricavandone il costo di tredici paoli, e perdendovi la legatura.
+          Un’altra copia se ne trova costì del primo e 2.° Tomo, de’ quali sarà bene sbrigarsene, con dargli a persona, la qual ne abbia la licenza.
+          Appresso a Cingoli già arrivati, giungeranno le Cinte, che stanno pronte per essere secondo l’ordine di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> consegnate al <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli.</persName>
+          Per gli uni, e per le altre servirà intieramente lo sborso degli sc. due bai. 44., o sia di lire 24. e
+        </p><pb xml:id="DLCL_CF_E11019_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21378/full/800,/0/default.jpg"/>
+        <p>
+          sol. 8.
+          La spesa de’ libretti recati dal <rs type="person">padre Cancelliere</rs> è stata rimborsata qui a lui medesimo.
+        </p>
+        <p>
+          Il <persName ref="#DLCL_CF_PC0006">Padre Amici</persName> mi scrive che il <bibl type="print">Vossio</bibl> era finito di legare, e che quanto prima mi sarebbe stato inviato.
+          Tempo fà ebbi avviso da <placeName ref="#DLCL_CF_L0007">Bologna</placeName> per mezzo del <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina</persName> intorno al <bibl type="manuscript">Manoscritto,</bibl> ch’era stato comprato da’ <rs type="person">Padri</rs> di <orgName ref="#DLCL_CF_O0160">San Francesco</orgName> per la loro <orgName ref="#DLCL_CF_O0161">Libreria</orgName> a prezzo più alto di quel, che <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> mi scrisse.
+          Il concetto, che il <rs type="person">Padre Lettore</rs> stesso mi ha fatto formare di quell’Opera inedita, e originale, non puo non cagionarmi del rammarico, e dell’invidia.
+          Il <persName ref="#DLCL_CF_PC0831">Signor Casolari</persName> mi vorrebbe dare tutti in <bibl type="print">corpo</bibl> alcuni libri rimasi in sua mano: donde arguisco ch’è non sia professore di tal mercanzia.
+          Io non son lontano da fare il contratto; quantunque la maggior parte sieno in <orgName ref="#DLCL_CF_O0001">cotesta Libreria,</orgName> o presso di me.
+          Penso però non vi si trovino l’<bibl type="print">Efemeridi</bibl> del <persName ref="#DLCL_CF_PC0889">Manfredi.</persName>
+          Da lei bramo sopra ciò notizia, come anco se vi si stiano <persName ref="#DLCL_CF_PC0890">Vignola</persName> <bibl type="print">Prospettiva col Danti</bibl> fol.
+          <placeName ref="#DLCL_CF_L0007">Bologna.</placeName>
+          <persName ref="#DLCL_CF_PC0891">Kircker</persName> <bibl type="print">Musurgia</bibl> fol.
+          <placeName ref="#DLCL_CF_L0008">Roma</placeName> Vol. 2.
+          <bibl type="print"><foreign xml:lang="la">Grammatica Hebraica</foreign>.</bibl>
+          <placeName ref="#DLCL_CF_L0010"><foreign xml:lang="la">Patavij</foreign></placeName> in 8. <del rend="overstrike"><placeName ref="#DLCL_CF_L0010">Patavij</placeName></del>
+        </p>
+        <p>
+          Del <persName ref="#DLCL_CF_PC0646">Padre Maestro Greco</persName> è possibile che sia perita la memoria.
+          Io ho il <bibl type="print">Plinio</bibl> del <persName ref="#DLCL_CF_PC0636">Jenson</persName> tanto da lui bramato: e presto avrò la <bibl type="print">Bibbia</bibl> del <persName ref="#DLCL_CF_PC0636">Jenson</persName> medesimo, in carta, simile a cotesta, e con una miniaturina sul principio assai buona, benché non tanto come cotesta.
+          Se egli è vivo, e dell’istesso umore, e pronto a spendere, io lo servirò, purché non sia prevenuto da altri, co’ i quali si tratta in <placeName ref="#DLCL_CF_L0008">Roma</placeName> e per il <bibl type="print">Plinio,</bibl> e per quattro Tomi del <bibl type="print">Lirano</bibl> in <orgName ref="#DLCL_CF_O0109"><foreign xml:lang="la">domo Petri de Maximo</foreign>..</orgName>
+        </p><pb xml:id="DLCL_CF_E11019_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21379/full/800,/0/default.jpg"/>
+        <p>
+          Compiango il funesto caso, che nella morte del <persName ref="#DLCL_CF_PC0186">Signor Teseo dal Corno</persName> levò a <placeName ref="#DLCL_CF_L0002">Ravenna</placeName> un buon Gentiluomo, un buon Sacerdote, non un buon Letterato.
+          Sarebbe stato vantaggio della Patria ch’egli fosse stato ignorante affatto, e non tinto sì malamente del diletto dell’Istoria.
+          Qualunque scritto esca di costà, non meriterà risposta da Discepoli, e buoni Amici del <persName ref="#DLCL_CF_PC0009">Bacchini.</persName>
+        </p>
+        <p>
+          <bibl type="print">Le favole di Santa Maria�</bibl>� stanno nella 2.° parte pag. 138. e seguenti; e sono cotanto scempiate, che per conoscerle tali bastò la <bibl type="print">Critica</bibl> del <persName>Fortunio,</persName> il quale come un’apocrifa tradizione le riferisce.
+          Ma non sono alla fine di sì bassa lega i motivi del quadro, e dell’iscrizione consaputi.
+          Per il Monacato Camaldolese di <persName ref="#DLCL_CF_PC0119">Graziano</persName> stà<del rend="overstrike">nno</del> il <persName ref="#DLCL_CF_PC0224">Sabellico;</persName> il <persName ref="#DLCL_CF_PC0223">Tritemio</persName> ^con <persName ref="#DLCL_CF_PC0819">Santo Antonino,</persName> e il <persName ref="#DLCL_CF_PC0892">Panzirolo</persName> lo riconoscono Monaco di <placeName ref="#DLCL_CF_L0020">Classe.</placeName>
+          La Cronologia non vi si oppone, avendo esso toccato i tempi, ne’ quali furono i Camaldolesi introdotti in <placeName ref="#DLCL_CF_L0020">Classe.</placeName>
+          Laonde, se non è certo, almeno è probabile, ch’è sia stato de’ nostri: e non è evidente l’opposto, non togliendosi che in altro tempo sia stato in <placeName ref="#DLCL_CF_L0007">Bologna,</placeName> ed anco vi sia morto.
+          La maggior difficoltà è per conto di <persName ref="#DLCL_CF_PC0888">Gregorio Nono,</persName> il quale si fà de’ nostri, non già per la dimora in <placeName ref="#DLCL_CF_L0122">Camaldoli,</placeName> e nella Cella di quel Sacro Eremo, ma per essere stato Abate di <orgName ref="#DLCL_CF_O0162">San Silvestro del Monte Subasio</orgName> non lungi da <placeName ref="#DLCL_CF_L0064">Assisi.</placeName>
+          Vegga il <persName ref="#DLCL_CF_PC0656">Iacobilli</persName> e il <persName ref="#DLCL_CF_PC0132">Grandi nostro,</persName> il quale fu che mi persuase aggiunger nella pittura a <persName ref="#DLCL_CF_PC0119">Graziano</persName> il <persName ref="#DLCL_CF_PC0888">Papa Gregorio Nono.</persName>
+          La prudenza voleva non esporre alla <bibl type="print">Critica</bibl> il pensiero in una tela, la quale del pensiero
+        </p><pb xml:id="DLCL_CF_E11019_C2V_L" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21380/full/800,/0/default.jpg"/>
+        <p>
+          non puo rendere a riguardanti la ragione non trita.
+          Se <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> vorrà imbeversene, troverà da farsi onore, e da mantener la riputazione.
+        </p>
+        <p>
+          Ignoto è il Padre di Melchisedecco, ma non quel nome, che io pur mi ricordava di avervi letto, e di aver da que’ caratteri unicamente appreso il misterio ivi rappresentato.
+          Ora <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> con <persName ref="#DLCL_CF_PC0885">Signor Carlo</persName> pensi il modo di rendere i caratteri ben visibili, perché non fuggano un’altra volta, e non diano luogo a false interpretazioni.
+          Cavino bene gli avanzi delle lettere poste a piedi.
+          Sopra il quadro opposto dirò quanto prima il mio parere più distinto, poco avendo potuto nelle scorse settimane applicare per un’intenso dolor di capo.
+        </p>
+        <p> Accennai quell’iscrizione <foreign xml:lang="la"><hi rend="ul">Ursus Levita et
+              Abbas</hi></foreign> per rilevare ch’essa, ed altre simili antichità meritano esser
+          conservate. Per cagion di esempio quella del Altare di <persName ref="#DLCL_CF_PC0893"
+            >Sant’Eleucadio</persName> ci faceva intendere che quella Capella era sotto
+          l’invocazione del <rs type="person">medesimo Santo Arcivescovo,</rs> non di <persName ref="#DLCL_CF_PC0894">Santa
+            Felicola,</persName> come i nostri impropriamente la chiamavano. </p>
+        <p> La ringrazio delle lapidi osservate in <orgName>San Zaccheria,</orgName> e comunicatemi
+          con tanta diligenza. Concorro con lei in credere cosa rara la lapide di marmo colorito.
+          Ultimamente mi capitò con altri <bibl type="print">l’opuscolo</bibl> del <persName
+            ref="#DLCL_CF_PC0068">Marchese Maffei,</persName> il quale ho letto, e riletto,
+          spiacendomi che non si legga da chi potrebbe ritrarne incitamento, e profitto. È spediente
+          avvertirlo del V. osservato da lei nelle voci <hi rend="ul"><foreign xml:lang="la"
+              >Eutychio et Martyris.</foreign></hi> Ritorno all’<bibl type="print">Ursus�</bibl>�,
+          per confessar lo sbaglio, che mi fece credere durata, e passata ai tempi nostri
+          quell’iscrizione, di cui solo abbiamo </p><pb xml:id="DLCL_CF_E11019_C3R_L" n="3 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21381/full/800,/0/default.jpg"/>
+        <p> ne’ libri la memoria. Poco, o nulla giova, rinnovarla col pennello, o con l’intaglio di
+          ferro in pietra. Converrebbe imitar il carattere antico, la qual cosa è impossibile, ed
+          aggiungervi il <hi rend="ul"><foreign xml:lang="la">Restio</foreign></hi>. § Importerebbe
+          conservar la memoria dell’Altare di <persName ref="#DLCL_CF_PC0893"
+            >Sant’Eleucadio,</persName> quando gia non sia a quest’ora perita. </p>
+        <p> Non mi ricordo se io le abbia scritto che la famosa <orgName>Libreria d’Isoldi</orgName>
+          impinguata molto in <placeName ref="#DLCL_CF_L0007">Bologna,</placeName> mentr’era quivi
+            <rs type="person" ref="#DLCL_CF_PC1163">Uditore</rs> del <persName ref="#DLCL_CF_PC0610"
+            >Cardinale Grimaldi Legato,</persName> è stata ultimamente dal Padrone ancor vivente
+          venduta al <rs type="person">Papa</rs> per undici mila scudi, rimanendone finché vive
+          custode lo stesso <persName ref="#DLCL_CF_PC1163">Isoldi.</persName> Si contrattava un
+            <bibl type="print">corpo</bibl> del <persName ref="#DLCL_CF_PC0655">Lirano</persName> in
+            <orgName ref="#DLCL_CF_O0109"><foreign xml:lang="la"><hi rend="ul">Domo Petri de
+                Maximo</hi></foreign></orgName> da aggiungervi. Il <rs type="person">Libraio</rs> si
+          contentava di 60. scudi, se glien’esibivano 55. Quello è il Corpo più numeroso tra gli
+          antichi. Il <persName ref="#DLCL_CF_PC0547">Reverendissimo Tassis,</persName> ed io siamo
+          richiesti dell’<bibl type="print">Epistole</bibl> del <persName ref="#DLCL_CF_PC0258"
+            >Delfino</persName> con l’offerta di 50. scudi. Io mi son fissato sulli centocinquanta. </p>
+        
+        <closer>
+          <salute>Finisco abbracciandola caramente.</salute>
+          <salute>DVPMR</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName><date when-iso="1721-10-06">6. Ottobre 1721.</date></dateline>
+          <salute>Cordialissimo Servitore e Padre nel Signore Affettuosissimo</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+        </closer></div>
+    </body>
+   </text>
+</TEI>

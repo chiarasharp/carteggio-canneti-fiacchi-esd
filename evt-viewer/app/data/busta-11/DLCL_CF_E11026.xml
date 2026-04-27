@@ -1,0 +1,96 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11026">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20919/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21400/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11026">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 17 Aprile 1722)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">26</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1722-04-17"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>  <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>  <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11026_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21400/full/800,/0/default.jpg"/>
+        <opener>
+          <dateline>
+            <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+            <date when-iso="1722-04-17">17. Aprile 1722</date>
+          </dateline>
+        </opener>
+        <p>
+          [I] libri della nota trasmessavi stanno nelle mani del <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo,</persName> il quale pure è attento per l’esito de medesimi.
+          Occorrendovi trovar’ occasione approposito, potete intendervi col medesimo, o col <rs type="person">Padre Priore</rs> di <orgName ref="#DLCL_CF_O0165">San Damiano,</orgName> facendo venire quei, che accorrono secondo le congiunture.
+          Il <persName ref="#DLCL_CF_PC0891">Kircker</persName> <bibl type="print">Musurgia</bibl> mi accomoderò di darlo per sei scudi; siccome lascerò qualche paolo nel <bibl type="print">Vuillis.</bibl>
+          Così in altro negozio non si ha da guastare per bagattelle.
+        </p>
+        <p>
+          [Le] Cartepecore grandi da due libri in fogl.o scelte si pagano 14. baiocchi.
+          Vi ringrazio della notizia del soggetto della <bibl type="print">Satira,</bibl> di cui goderò aver’il nome preciso dell’Autore.
+          Con che di cuore mi confermo.
+        </p>
+        <p>
+          [Ho] avuto da <placeName ref="#DLCL_CF_L0065">Amsterdam</placeName> gli <bibl type="print">Annali Tipografici</bibl> del <persName ref="#DLCL_CF_PC0901">Maittaire:</persName> e intendo si stampi la 2.a parte.
+        </p>
+        
+        <closer>
+          <salute>Vostro Affezionatissimo e Cordialissimo sempre</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+        </closer>
+         
+        </div>
+    </body>
+   </text>
+</TEI>

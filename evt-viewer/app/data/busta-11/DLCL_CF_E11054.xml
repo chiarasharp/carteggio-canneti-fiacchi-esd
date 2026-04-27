@@ -70,7 +70,10 @@
          <revisionDesc status="created">
          <change when-iso="2025-12-22" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2025-12-31" who="#DLCL_CF_PS001">markup</change>
-      </revisionDesc>
+      
+         <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">correzione entità</change>
+</revisionDesc>
       </front>
       <body>
          <div type="transcription">
@@ -79,7 +82,7 @@
                <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
             </opener>
             <p>Grazie cordialissime per le notizie di 
-               <rs type="person" ref="#">uno delli due di Arborea,</rs> 
+               <rs type="person" ref="#DLCL_CF_PC0991" cert="unknown">uno delli due di Arborea,</rs> 
                ch’ebbe tre Vescovadi, e nella sua vecchia età fù viziosissimo, nulla si trova, e stimo impossibile trovarne; onde sopra costui diremo quel di 
                <persName ref="#DLCL_CF_PC0233">Dante:</persName> 
                <hi rend="underline">guarda, e passa</hi>; 

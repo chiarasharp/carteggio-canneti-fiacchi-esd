@@ -8,7 +8,7 @@
       <front>
          <fileDesc>
          <titleStmt>
-            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 01 Novembre 1722)</title>
+            <title xml:lang="it">Canneti a Fiacchi (Fabriano, 1 Novembre 1722)</title>
             <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
          </titleStmt>
          <publicationStmt>
@@ -70,7 +70,10 @@
          <change when-iso="2025-12-22" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2025-12-22" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
          <change when-iso="2025-12-31" who="#DLCL_CF_PS001">markup</change>
-      </revisionDesc>
+      
+         <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+  <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+</revisionDesc>
       </front>
       <body>
          <div type="transcription">
@@ -78,7 +81,7 @@
                         <opener>
                <salute><persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Amatissimo</salute>
             </opener>
-            <p>Da erudito, e valente Bibliotecario 
+            <p>Da erudito, e valente <rs type="person">Bibliotecario</rs> 
                <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> 
                si è bravamente portata nel ristretto giudicioso delle notizie di 
                <persName ref="#DLCL_CF_PC0969">Uguccione dalla Fagiuola.</persName> 
@@ -98,8 +101,8 @@
                nelle 
                <bibl type="print">Istorie di Siena,</bibl> 
                e nel Poema Istorico intitolato 
-               
-               <bibl type="manuscript"><foreign xml:lang="la">de Proęlijs Tuscię</foreign>,</bibl> 
+               <foreign xml:lang="la">
+                  <bibl type="manuscript">de Proęlijs Tuscię</bibl></foreign>, 
                di 
                <persName ref="#DLCL_CF_PC0977">Ranieri Granchi</persName> 
                Manoscritto antico, appresso di me. Tutta la fatica mia or consiste in estrarre da tanta copia quel poco, ch’è necessario al mio intento; e deve esser poco. Nuovamente le rendo mille grazie di tutto cuore, e mi rallegro del di lei valore.</p>

@@ -1,0 +1,129 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11023">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20916/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21393/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21394/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11023">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 27 Marzo 1722)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">23</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1722-03-27"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">conversione lacune in gap</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11023_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21393/full/800,/0/default.jpg"/>
+        <opener>
+          <dateline>
+            <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+            <date when-iso="1722-03-27">27 marzo 1722</date>
+          </dateline>
+        </opener>
+        <pb xml:id="DLCL_CF_E11023_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21394/full/800,/0/default.jpg"/>
+        <p> Dal <rs type="person">Padre Priore</rs> di <orgName ref="#DLCL_CF_O0165 #DLCL_CF_O0164"
+            cert="unknown">San Damiano</orgName> intendo l’esito, che prontamente la vostra
+          industria ha dato a due Tomi delle <bibl type="print">Opere</bibl> de’ <persName
+            ref="#DLCL_CF_PC0921">Pichi;</persName> del che vi ringrazio ben vivamente. Il medesimo
+          mi avvisa averne ricevuto per prezzo scudi sette, secondo il concordato. Ancor’io ho
+          avvertito più volte che la cartolazione non cammina nell’unir le <bibl type="print"
+            >Opere</bibl> del <persName>Mirandolano</persName> colla <bibl type="print"
+            >Cabala</bibl> del <persName ref="#DLCL_CF_PC0525">Reuclino:</persName> ma non ho mai
+          saputo indovinar la cagione dello sbaglio. Io mi son’acquietato sulla riflessione che
+          tutto è intiero, e in sostanza nulla vi manca. Se vi dà l’animo di vendere la <bibl
+            type="print">Musurgia</bibl> del <persName ref="#DLCL_CF_PC0891">Kirker</persName> per
+          65. paoli, tutto il di più, che ne potiate ritrarre, sia vostro. Di più ho da esitare =
+            <persName ref="#DLCL_CF_PC0889"><foreign xml:lang="la">Manfredij</foreign></persName>
+          <bibl type="print"><foreign xml:lang="la">Ephemerides</foreign></bibl> 4.° Vol. 2.
+            <foreign xml:lang="la">cum fig. in rustico paoli</foreign> 26. = <persName
+            ref="#DLCL_CF_PC0908">Zahn</persName>
+          <bibl type="print"><foreign xml:lang="la">Oculus artificialis</foreign></bibl> fol.
+            <placeName ref="#DLCL_CF_L0167"><foreign xml:lang="la">Norimbergę</foreign></placeName>
+          <foreign xml:lang="la">cum figur. in pergam. paoli</foreign> 40. = <bibl type="print"
+              ><foreign xml:lang="la">Grammatica Hebraica</foreign></bibl> 8. <placeName
+            ref="#DLCL_CF_L0010"><foreign xml:lang="la">Patavij</foreign></placeName> paoli 4. in
+          pergam. = <persName ref="#DLCL_CF_PC0909"><foreign xml:lang="la"
+            >Farnabij</foreign></persName>
+          <bibl type="print"><foreign xml:lang="la">Index Rhetoricus</foreign></bibl>
+          <placeName ref="#DLCL_CF_L0065">Amstelod</placeName> 12. pergam. paoli 2. = <persName
+            ref="#DLCL_CF_PC0902">Vitali</persName>
+          <bibl type="print"><foreign xml:lang="la">Lexicon Mathematicum</foreign></bibl> 4
+            <placeName ref="#DLCL_CF_L0008"><foreign xml:lang="la">Romę</foreign></placeName>
+          <foreign xml:lang="la">pergam. paoli</foreign> 20. = <persName ref="#DLCL_CF_PC0165"
+            >Valla</persName>
+          <bibl type="print"><foreign xml:lang="la">Elegantię</foreign></bibl> 8. <placeName
+            ref="#DLCL_CF_L0044"><foreign xml:lang="la">Lugduni</foreign></placeName> pergam. p. 4.
+          = <persName ref="#DLCL_CF_PC0910">Vvillis</persName>
+          <bibl type="print"><foreign xml:lang="la">Opera Omnia</foreign></bibl> 4. Vol. 2.
+            <placeName ref="#DLCL_CF_L0083">Genevę</placeName> figur. p. 30. = Una nota piena si va’
+          fruendo di altri molti libri, che son parte quì parte in <placeName ref="#DLCL_CF_L0002"
+            >Ravenna</placeName>
+        </p><p> – La <bibl type="print">Musurgia</bibl> è della buona stampa, cioè di <placeName
+            ref="#DLCL_CF_L0008">Roma</placeName> in pergam. usata, ben tenuta. Attenderò altre
+          notizie del <bibl type="print">Libre<gap reason="lost"/> Satirico,</bibl> per averne la chiave; e
+          desidero saper’ il nome del  <persName ref="#DLCL_CF_PC0922">Signor Marchese
+            Montalbani</persName> Autor del medesimo.
+        </p>
+        
+        <closer>
+          <salute>Io resto sempre più Vostro e Affezionatissimo di cuore</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+        </closer>
+      </div>
+    </body>
+   </text>
+</TEI>

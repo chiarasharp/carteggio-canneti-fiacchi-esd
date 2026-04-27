@@ -1,0 +1,169 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11006">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20899/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21340/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21341/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21342/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11006">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 17 Marzo 1721)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">6</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1721-03-17"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-26" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-01-30" who="#DLCL_CF_PS001">markup testo</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+    
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11006_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21340/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+        
+        <p>
+          Ricevo con sommo piacere l’Iscrizione di nuovo scoperta, la quale sul principio leggo:
+            <foreign xml:lang="la"><hi rend="ul">Ex naufragio</hi></foreign>. Manca il principio col
+          nome del marito, che a se, ed alla moglie stabilì in cotesto Porto di <placeName
+            ref="#DLCL_CF_L0020">Classe</placeName> la sepoltura, dopo giuntovi dal naufragio. Serve
+          ad illustrare la memoria del Porto medesimo di <placeName ref="#DLCL_CF_L0002"
+            >Ravenna,</placeName> al quale altresì spettano le altre rare Iscrizioni, che lasciai in
+            <placeName ref="#DLCL_CF_L0020">Classe</placeName> ove di più Navi intitolate dalle
+          false Deità si fà menzione. Questo Epitafio è sparso per l’ignoranza de’ Soldati, o dello
+            <rs type="person">Scarpellino,</rs> di più altri errori, oltre alli due da lei notati.
+          Manca in ultimo nella voce <foreign xml:lang="la"><hi rend="ul">Arabice</hi></foreign> l’A
+          del Dittongo. Doverebbe indi appresso leggersi <foreign xml:lang="la"><hi rend="ul"
+              >Coniugi Carissimæ</hi></foreign>. Può essere che il <foreign xml:lang="la"><hi
+              rend="ul">vivi</hi></foreign> riferiscasi al marito, ed alla moglie: e si trovano
+          appresso i Latini, ancor fuori delle Lapide certi simili passaggi. Per altro, nel pretto
+          rigore gramaticale doverebbe stare <foreign xml:lang="la"><hi rend="ul">vivus
+            pos</hi></foreign>. Non credo sia facile trovare in alcuno Autore la spiegazione delle
+          ultime lettere abbreviate. Se ne interrogherà <persName ref="#DLCL_CF_PC0056"
+            >Sancassani,</persName> farà subito francamente da Edipo al suo solito: non so’ con qual
+          felicità. Confesso poi giungermi cosa nuova che per la sepoltura di un Arcivescovo siasi
+          impiegata l’urna di un antico Gentile: né mai avrei creduto ciò verisimile. Nelle
+          Catacombe è cosa frequente trovare su’ una lapida stessa, al di fuori la rozza iscrizione
+          posta ad un Cristiano, e dalla parte di dentro un’altra di un’Etnico.
+        </p>
+        
+        <pb xml:id="DLCL_CF_E11006_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21341/full/800,/0/default.jpg"/>
+        
+        <p>
+          Nasceva di ciò la ragione dalla povertà, e dalla miseria, che accompagnavano i poveri
+          Cristiani nelle persecuzioni, appigliandosi a quelle pietre, che potevano avere, per
+          conservar le memorie de’ nomi de’ Martiri, e de’ Confessori. Ma qual motivo di servirsi di
+          un sasso de’ gentili potevano avere gli Eredi, e il Clero di un de’ maggiori, e più ricchi
+          Prelati della <orgName ref="#DLCL_CF_O0121">Chiesa</orgName> di Dio? Questa è una particolarità degnissima di riflessione. Io
+          pertanto non loderei che si segasse dall’arca l’iscrizione. Ma dirà Ella non potersi poi
+          vedere, ne leggere, ogni volta che conservata, ove stà, si rimetta al muro. La difficoltà
+          è grande. Nulladimeno amerei meglio guadagnar sito, e parte allontanar le arche dal muro,
+          e parte scavar’ il muro stesso, di maniera che dall’una, e dall’altra parte si guadagnasse
+          tanto luogo, che bastasse per appagar l’erudizione di chi volesse vedere i bassi rilievi,
+          e le iscrizioni, che stanno dietro. È troppo gran male che si perda, e si asconda la
+          facciata dietro di cotesta bellissima Arca riportata da <persName ref="#DLCL_CF_PC0051"
+            >Monsignor Ciampini.</persName> Di grazia me ne faccia fare uno schizzetto. Non posso
+          dire quanto mi consola l’attenzione di cotesto Padre Reverendissimo a riabbellire
+            la<orgName ref="#DLCL_CF_O0156"> Basilica di Classe,</orgName> e a ristorare l’antichità
+          di cui somma, e inarrivabile è la preziosità. Or che il ferro è caldo, lodo che si rivegga
+          l’arca condannata alla Cucina, da cui, quando altro non si potesse fare, tornerebbe conto
+          segare i bassi rilievi, che vi sono, e mettergli fissi nel muro di detta <orgName
+            ref="#DLCL_CF_O0005">Basilica,</orgName> donde è probabile fosse levata l’arca intiera,
+          come anco quella ch’è in <orgName ref="#DLCL_CF_O0156">Santa Maria in Orto,</orgName> e
+          più altre, che certo vi erano.
+        </p>
+        
+        <pb xml:id="DLCL_CF_E11006_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21342/full/800,/0/default.jpg"/>
+        
+        <p>
+          È più indegna la memoria della semplicità d’<rs type="person">uno de’ nostri Abati</rs>
+          di <placeName ref="#DLCL_CF_L0025">Bertinoro,</placeName> il quale dal portico della
+            <orgName ref="#DLCL_CF_O0121">Chiesa</orgName> levò il sepolcro di <persName
+            ref="#DLCL_CF_PC0895">Teodoro Arcivescovo,</persName> e lo condannò a conservare l’olio,
+          facendone due vasi, cioè uno del sepolcro, e l’altro del coperchio, ove stà scolpito il
+          nome dell’Arcivescovo rivoltato all’ingiù, e facendo fare di tavole i coperchi all’uno, e
+          all’altro. Il <persName ref="#DLCL_CF_PC0009">Padre Abate Bacchini,</persName> quando
+          preparava l’edizione dell’<bibl type="print">Agnello,</bibl> mi chiese notizia di quel
+          Sepolcro: io imbrogliai la risposta. Mi vergogno pensando non avere colà messa in
+          esecuzione l’idea di liberare dall’obbrobrio quei sassi. Sarà lodevole impresa ritoccare,
+          ma con giudicio, i musaici. Godo che sia stata collocata in sito opportuno la lapida della
+          Donazione. Nel metterla da principio nel muro io tengo per certo che non sia stata fatta
+          punto di riflessione all’Urna del <rs type="person">Donatore.</rs> Un cancello di ferro
+          starebbe bene al primo ingresso della <orgName ref="#DLCL_CF_O0121">Chiesa</orgName> per decoro, e guardia dalle bestie, e per
+          riverenza delle Capelle, che stanno lateralmente tra detto ingresso, e la porta maggiore.
+          In quel sito forse capirebbono le nostre lapide, che io raccolsi. Quella dell’<persName
+            ref="#DLCL_CF_PC0435">Argiride</persName> si potrebbe fissare nel muro sopra la porta
+          d’una delle Capelle. Oh quanto maggior conto si farà in avvenire dagli Eruditi
+          Oltramontani di cotesta <orgName ref="#DLCL_CF_O0005">Basilica!</orgName> Il <persName ref="#DLCL_CF_PC0129">Mabillon</persName>
+          ne scrive pochissimo, e male: né alcuno ne ha mostrata la stima, che merita, per non
+          essere tenuti con decoro i maggiori suoi ornamenti. Aspetto le altre risposte.
+        </p>
+        
+        <closer>
+          <salute>E con vero cuore abbracciandola resto.</salute>
+          <salute>DVPMR.</salute>
+          <dateline>
+            <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+            <date when-iso="1721-03-17">17. Marzo 1721.</date>
+          </dateline>
+          <salute>Affettuosissimo Servitore Cordialissimo</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+        </closer>
+      </div>
+    </body>
+   </text>
+</TEI>

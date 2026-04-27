@@ -1,0 +1,141 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11039">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20932/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21432/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21433/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21434/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11039">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 14 Settembre 1722)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">39</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1722-09-14"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-30" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+    
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">conversione lacune in gap</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb n="1 - Recto" xml:id="DLCL_CF_E11039_C1R_L" facs="https://www.cdc.classense.ra.it/iiif/2/21432/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+        <p>
+          Stò con impazienza aspettando tuttavia le Colonnette, se pure più speditamente non sono state inviate a <placeName ref="#DLCL_CF_L0030">Sinigaglia.</placeName>
+          Io le vidi trent’anni fà incirca.
+          Chi le vide nel mese scorso, mi conferma le specie, che hò conservata, della loro nobiltà, e bellezza.
+          Ringrazio il <persName ref="#DLCL_CF_PC0090">Padre Don Leandro</persName> dell’avviso dell’ordinazione della roba già fatta, e dell’arrivo in breve.
+        </p>
+        <p>
+          Replico oggi a <placeName ref="#DLCL_CF_L0028">Perugia</placeName> le premure per quel consaputo <bibl type="print">Calendario.</bibl>
+          Quantunque essendosi stabilito l’ordine da tenersi per cotesto di <persName ref="#DLCL_CF_PC0134">Sant’Andrea,</persName> l’altro è superfluo.
+          Benissimo ha <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> pensato che in concorrenza di due Officj, dell’Ordine, e della Chiesa Ravennate, il primo si debba preferire, e trasportar l’altro.
+        </p>
+        <p>
+          Ed io con buona pace di <persName ref="#DLCL_CF_PC0960">Monsignor Gamberucci</persName> dico che può farsi nuova <bibl type="print">Rubrica per l’Officio de’ Sette Dolori,</bibl> e comandarne la traslazione dopo la Pasqua, in caso che non possa celebrarsi dentro Quaresima: ma non può trasferirsi secondo la <bibl type="print">Rubrica,</bibl> che in oggi abbiamo, o sia di precetto, o nò.
+        </p>
+        <p>
+          Fuori degli otto <rs type="person">Dottori Latini,</rs> e <rs type="person">Greci,</rs> e delli due aggiunti <persName ref="#DLCL_CF_PC0911">San Tommaso,</persName> e <persName ref="#DLCL_CF_PC0961">San Bonaventura,</persName> a nessun’altro la Chiesa aveva determinata l’antif.a O Doctor col Credo.
+          Non avrei mai creduto che ciò si concedesse per <persName ref="#DLCL_CF_PC0364">Sant’Isidoro.</persName>
+          Appena il <persName ref="#DLCL_CF_PC1027">Padre Mier Benedettino Spagnuolo,</persName> attual Consultore de’ Sacri Riti in <placeName ref="#DLCL_CF_L0008">Roma</placeName> potè ottenere che per
+        </p><pb n="1 - Verso" xml:id="DLCL_CF_E11039_C1V_L" facs="https://www.cdc.classense.ra.it/iiif/2/21433/full/800,/0/default.jpg"/>
+        <p>
+          <persName ref="#DLCL_CF_PC0974">Sant’Anselmo</persName> col rito semidoppio si concedesse la Messa, e l’offic[io] ad instar di <persName ref="#DLCL_CF_PC0220">Sant’Ilario.</persName>
+          Così egli mi raccontò in diebus illis.
+        </p>
+        <p>
+          Del <persName ref="#DLCL_CF_PC1032">Padre Priore Conti</persName> non sento altra nuova, che quella mi dà <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> della sua venuta.
+          Riceverò la <bibl type="print">Scanzia Cinelliana XV.</bibl>
+          Non si scu[si] di non aver attitudine a contrattare.
+          È ciò vero, quanto è vero ch’Ella, come scusavasi una volta, non ha me[mo]ria.
+        </p>
+        <p>
+          La spesa della dozina in questo <orgName ref="#DLCL_CF_O0110">Monastero di San Sebastiano</orgName> è di sedici scudi l’anno: la dote è di 300. scudi.
+          Con altri cento sc[u]di si esce di tutte le altre spese, dell’acconcio, o arred<gap reason="lost"/> e della Sagra §.
+          A momenti si aspetta una <rs type="person">Zittella Nobile</rs> da <placeName ref="#DLCL_CF_L0035">Bergamo,</placeName> di <orgName ref="#DLCL_CF_O0174">Casa Soardi,</orgName> della quale vestij due anni fà la <rs type="person">Sorella.</rs>
+          Il luogo vi sarà per la <rs type="person">Figlia</rs> del <persName ref="#DLCL_CF_PC1014">Signor Landi,</persName> ogni volta che si determini a venire.
+          L’<rs type="person">Abadessa</rs> che fu eletta li 29. dello scorso mese, è da <placeName ref="#DLCL_CF_L0025">Bertinoro.</placeName>
+        </p>
+        <p>
+          Mi riverisca divotissimamente il <rs type="person" ref="#DLCL_CF_PC1012">Signor Canonico Teologo,</rs> e gli dica che rinnoverò le istanze per aver’ io la risposta da comunicargli, che non ho mai avuta.
+        </p>
+        <p>
+          Aspetto nuove de’ libri di <placeName ref="#DLCL_CF_L0005">Faenza,</placeName> e di <placeName ref="#DLCL_CF_L0007">Bologna.</placeName>
+          Ricordi al <persName ref="#DLCL_CF_PC0193">Reverendissimo Amigoni</persName> quei pochi, che furono contrattati.
+          Osservi se il <bibl type="print">Verulamio</bibl> è intiero.
+          Si paghino: lo stesso facciano del <bibl type="print">Libro</bibl> del <persName ref="#DLCL_CF_PC0208">Niccoli</persName> al
+        </p><pb n="2 - Recto" xml:id="DLCL_CF_E11039_C2R_L" facs="https://www.cdc.classense.ra.it/iiif/2/21434/full/800,/0/default.jpg"/>
+        <p>
+          <persName ref="#DLCL_CF_PC0006">Padre Amici.</persName>
+          Parmi che il prezzo sia di undici paoli, e mezzo.
+          Egli lo dirà.
+          Godo che il <bibl type="print">Luciano</bibl> abbia occupato il suo quartiere.
+        </p>
+        
+        <closer>
+          <salute>Con che resto <foreign xml:lang="la">toto cordis affectu</foreign>.</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1722-09-14">14. 7bre 1722.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Parz.mo Cordialissimo Servo Vero</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+        </closer>
+      
+      </div>
+    </body>
+   </text>
+</TEI>

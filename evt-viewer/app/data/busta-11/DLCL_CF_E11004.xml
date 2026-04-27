@@ -1,0 +1,138 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11004">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20897/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21333/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21334/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11004">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 21 Febbraio 1721)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">4</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1721-02-21"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-01-29" who="#DLCL_CF_PS001">markup testo</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+    
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11004_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21333/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+        <p> Pienamente risponder non posso alle due compitissime di VPMR, perché mi trovo in
+          angustia di tempo. Qualche cosa, che scriverò, servirà per principio di risposta. Mi son
+          chiarito che il <bibl type="print">Corpo</bibl> del <persName ref="#DLCL_CF_PC0655"
+            >Lirano</persName> acquistato non contiene opera diversa dalle <bibl type="print"
+            >Postille,</bibl> che nelle susseguenti edizioni accompagnano il Testo della <bibl type="print">Bibbia</bibl>
+          solito congiuntamente stamparsi unitamente colle <bibl type="print">Postille</bibl> medesime. Il carattere è simile
+          al <persName ref="#DLCL_CF_PC0172">Santo Agostino</persName>
+          <bibl type="print"><foreign xml:lang="la">de Civitate Dei</foreign></bibl> impresso nella
+          stampa medesima, e il margine è grande, com’Ella giudiciosamente si figura. Or che si è
+          trovato il Tomo, che mancava, io era in disposizione di farlo unire al primo Tomo, e
+          similmente congiungere due altri Tomi già rilegati, avendo osservato che in essi l’<rs
+            type="person">antico Legatore</rs> confuse l’ordine de’ Libri Canonici; affinché nulla
+          resti da desiderare in un <bibl type="print">Corpo</bibl> cotanto prezioso. Ma ecco scoperto un’altro diffetto.
+          Nell’accennato 2.° Tomo, ch’è giunto nuovamente, mancavano fin da principio due Carte, in
+          luogo del quale stà un foglio bianco. Pensai subito mandarlo a <placeName
+            ref="#DLCL_CF_L0008">Roma,</placeName> e farlo supplire colla penna; poiché nella
+            <orgName ref="#DLCL_CF_O0150">Casanatense</orgName> stà questa edizione, ed un’altro
+          <bibl type="print">Corpo</bibl> ve n’è venale, mancante della lettera dell’<persName ref="#DLCL_CF_PC0637"
+            >Aleriense,</persName> di cui mandai a <rs type="person" ref="#DLCL_CF_PC0002">Vostra
+            Paternità</rs> la copia. Questo venale stà in mano d’un <rs type="person">Libraio,</rs>
+          che ne chiede sessanta scudi (sarebber pochi, se non fosse diffettoso) e lo pagò 32. Il
+            <persName ref="#DLCL_CF_PC0296">Padre Abate Montanari</persName> lo volle pagare 25.,
+          avanti fosse comprato dal detto <rs type="person">Libraio.</rs> Ma torniamo al nostro. Ora
+          ho scoperto un’ </p><pb xml:id="DLCL_CF_E11004_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21334/full/800,/0/default.jpg"/>
+        <p>
+          altro <bibl type="print">Corpo</bibl> del <persName ref="#DLCL_CF_PC0655"
+            >Lirano</persName> mancante d’un Tomo, che avrò con uno poc<del rend="overstrike">o</del> di destrezza, e servirà per
+          compire il nostro. Di quel, che avvanzerà spero cavarne poi il rimborso di tutti, e due i
+          corpi. Vi voglion due buoni mesi di flemma. E spero pure aver’ altri libri rari. In
+            <placeName ref="#DLCL_CF_L0008">Roma</placeName> un <rs type="person">Zoccolante</rs> ha
+          la <bibl type="print">Bibbia</bibl> tradotta dal nostro <persName ref="#DLCL_CF_PC0822"
+            >Malermi</persName> della prima edizione 1477. ne ha potuto avere 10. doppie; persiste
+          in non volersene privare. Veda Ella in qual conto si ha da tenere il <bibl type="print"
+            >Leggendario</bibl> del <rs type="person" ref="#DLCL_CF_PC0822">medesimo,</rs> che
+          abbiamo stampato dal <persName ref="#DLCL_CF_PC0636">Jenson.</persName>
+        </p>
+        <p>
+          La <bibl
+            type="print">Bibbia</bibl> col <persName ref="#DLCL_CF_PC0655">Lirano</persName> in
+          gottico del 1468<del rend="overstrike">6</del>9, che ho acquistata, sarebbe da farne conto, se ha <bibl type="print"
+            >libri de’ Re,</bibl> mancandovi il rimanente del Vecchio Testamento, non facesse salto
+          al Testamento nuovo. Puo servire per copiarne le figure lasciate in bianco nel <bibl type="print">Corpo</bibl> della
+          prima edizione. Il Volgarizzamento delle <bibl type="print">Postille</bibl> del <persName
+            ref="#DLCL_CF_PC0655">Lirano</persName> sopra l’Apocalisse, che ho preso di
+          antichissima, e bella edizione, poco varia da cotesto del <bibl type="print"
+            >Gilberto,</bibl> del 1520., cioè stampato più di quarant’anni dapoi. Io penso che
+          difficilmente possa con sicurezza dirsi la stessa traduzione, ancora confrontando l’uno, e
+          l’altro, perché era cosa facile che gli stampatori, o i Correttori a cappriccio in quella
+          stagione del barbaro volgare alterassero qualche cosa, dovendo per altro stare attaccati
+          al testo latino di <persName ref="#DLCL_CF_PC0655">Niccolò di Lira.</persName> E per ora
+          basta. Mi dica dov’è stampata l’<bibl type="print">Opera de’ Traduttori</bibl> del
+            <persName ref="#DLCL_CF_PC0068">Marchese Maffei,</persName> quanto costa. Aggiunga se
+          nulla dall’<persName ref="#DLCL_CF_PC0828" cert="low">Abate del Giudice Casinense
+            Siciliano</persName> si è avuto in compenso del <bibl type="print">Fortunio.</bibl>
+          Consideri bene se i due Volumi in fogl.o e in 8.vo di <bibl type="print">Batista
+            Mantovano</bibl> sian veramente duplicati. Io penso che no.
+        </p><closer>
+          <salute>E resto tutto suo.</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName><date when-iso="1721-02-21">21 Febbraio 1721.</date></dateline>
+        </closer>
+      </div>
+    </body>
+   </text>
+</TEI>

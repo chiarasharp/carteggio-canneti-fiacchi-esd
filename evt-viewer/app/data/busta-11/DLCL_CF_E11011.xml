@@ -1,0 +1,201 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11011">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20904/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21354/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21355/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21356/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11011">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Valdicastro, 2 Luglio 1721)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">11</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1721-07-02"/>
+          <placeName ref="#DLCL_CF_L0004">Abbazia di Valdicastro, Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11011_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21354/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+        <p> Con felice vantaggio tentando di risvegliare un’addormentato, ricevo ad un tempo stesso
+          due risposte egualmente care. Dissi già che il buon’esempio vicino avrebbe giovato più
+          della mia voce. Mille grazie all’uno, e all’altro. Ho ricevuta adunque la nota de’ libri
+          da segnarsi nel <bibl type="print">Catalogo Fontaniniano.</bibl> Sopra di essa mi occorre
+          un dubbio che il <bibl type="print"><hi rend="ul">Trattato dello Stile</hi></bibl> del
+            <persName ref="#DLCL_CF_PC0709">Pallavicino</persName> a car. 29. non sia dell’edizione
+          3.za ivi descritta: e che parimenti noi non abbiamo costì l’edizione accresciuta delle
+            <bibl type="print"><hi rend="ul">Orazioni</hi></bibl> raccolte dal <persName
+            ref="#DLCL_CF_PC0856">Sansovino,</persName> e notata a car. 34. Che però io mi sono
+          ritenuto da segnare l’uno, e l’altro de sopradetti libri. Simil dubbio mi nasce sopra i
+          due <bibl type="print"><hi rend="ul">Orlandi</hi> Innamorati</bibl> alla pag. 48. </p>
+        
+        <p> Io per lo stesso riguardo non aveva segnato a pag. 83. le <bibl type="print">Lagrime di
+            San Pietro</bibl> del <persName ref="#DLCL_CF_PC0857">Tansillo,</persName> perché a noi
+          mancava l’edizione buona intiera ivi addotta. Ma questa appunto ora mi è venuta alle mani.
+          Che però, senza veruno scrupolo può farsi il segno a quel libro; che stà presso di me’
+          poco fà acquistato. </p>
+        
+        <p> Parmi altresì che noi non potiamo segnare a pag. 85. le <bibl type="print">Rime,</bibl>
+          e <bibl type="print">Prose</bibl> della <persName ref="#DLCL_CF_PC0858"
+            >Matraini,</persName> né a pag. 92. la <bibl type="print">Fiammetta,</bibl> e il <bibl
+            type="print">Filocopo,</bibl> né a pag. 93. gli <bibl type="print">Asolani;</bibl> per
+          non essere tali libri delle buone edizioni dal <persName ref="#DLCL_CF_PC0216"
+            >Fontanini,</persName> e da altri molti accreditate. </p>
+        
+        <p> Se io abbia il <bibl type="print">Commento</bibl> di <persName ref="#DLCL_CF_PC0687"
+            >Jerocle</persName> volgarizzato non me ne ricordo: ciò avviserò al mio ritorno. Delle
+            <bibl type="print">Opere</bibl> di <persName ref="#DLCL_CF_PC0099">Plutarco</persName>
+          non mi sovviene avere in <placeName ref="#DLCL_CF_L0004">Fabriano</placeName> altro che
+          gli <bibl type="print">Opuscoli Morali</bibl> in due Tomi in 4.to che da <rs type="person"
+            ref="#DLCL_CF_PC0002">Vostra Paternità</rs> mi furono mandati in cambio di altri libri. </p>
+        
+        <p>
+          Venghiamo ora ad un’altra piccola aggiunta di libri acquistati da me in un breve viaggetto..
+        </p>
+        
+        <pb xml:id="DLCL_CF_E11011_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21355/full/800,/0/default.jpg"/>
+        
+        <p> Pag. 49. <bibl type="print">L’Atamante Tragedia</bibl> degli <orgName
+            ref="#DLCL_CF_O0157">Accademici Catenati.</orgName> In <placeName ref="#DLCL_CF_L0158"
+            >Macerata</placeName> appresso <persName ref="#DLCL_CF_PC0859">Sebastiano
+            Martellini</persName> 1579. in 4.to </p>
+        
+        <p> Pag. 50. <hi rend="ul">da aggiungersi con la penna</hi>. <bibl type="print">Quintia
+            Tragedia</bibl> del <persName ref="#DLCL_CF_PC0860">Cavaliere Vincenzio
+            Panciatichi.</persName> In <placeName ref="#DLCL_CF_L0018">Fiorenza</placeName> per
+            <persName ref="#DLCL_CF_PC0816">Cosimo Giunti.</persName> 1600. in 8.vo </p>
+        
+        <p> Pag. 65. <bibl type="print">La Matrigna.</bibl> Commedia di <persName
+            ref="#DLCL_CF_PC0861">Giovanfrancesco Loredano il Vecchio.</persName> In <placeName
+            ref="#DLCL_CF_L0024">Venezia</placeName> alla <orgName ref="#DLCL_CF_O0166">Libreria via
+            della Speranza</orgName> 1601. in 8vo </p>
+        
+        <p> Pag. 68. <bibl type="print">Difesa del Pastorfido da quanto gli è stato scritto contro
+            dal Summo, e dal Malacreta con una risoluzione de’ dubbi del Beni,</bibl> per <persName
+            ref="#DLCL_CF_PC0862">Orlando Pescetti.</persName> <placeName ref="#DLCL_CF_L0144"
+            >Verona</placeName> per <persName ref="#DLCL_CF_PC0863">Angelo Tamo</persName> 1601. in
+          4.to </p>
+        
+        <p> Pag. 70. <hi rend="ul">in fine delle </hi><bibl type="print"><hi rend="ul">Poesie
+              Pastorali</hi></bibl><hi rend="ul"> da aggiungersi colla penna</hi>. <bibl
+            type="print">L’esilio amoroso Favola Boschereccia</bibl> di <persName
+            ref="#DLCL_CF_PC0864">Alessandro Calderoni da Faenza.</persName> In <placeName
+            ref="#DLCL_CF_L0013">Ferrara</placeName> per <persName ref="#DLCL_CF_PC0865">Vittorio
+            Baldini</persName> 1607. in 12. </p>
+        
+        <p>
+          <bibl type="print">La Pastorella Regia Favola Tragica Pastorale</bibl> di <persName
+            ref="#DLCL_CF_PC0866">Giovanmaria Guicciardi da Bagnacavallo.</persName> In <placeName ref="#DLCL_CF_L0013">Ferrara</placeName> per
+          <persName ref="#DLCL_CF_PC0865">Vittorio Baldini</persName> 1602. in 8. </p>
+        
+        <p>
+          <hi rend="ul">In fine del S.7</hi>. <bibl type="print">L’insidiata Nisa.
+          Favola Pescatoria</bibl> di <persName ref="#DLCL_CF_PC0867">GiovanPaolo Pocobelli.</persName>
+          In <placeName ref="#DLCL_CF_L0024">Venezia</placeName> per <persName ref="#DLCL_CF_PC0868">Angelo Salvatori</persName> 1623. in 12.
+          <hi rend="ul">Molte altre Opere Dramatiche si tralasciano, perché non può capirle il libro</hi>.
+        </p>
+        
+        <p>
+          Pag. 83. <bibl type="print">Lagrime di San Pietro�</bibl>�.
+          In <placeName ref="#DLCL_CF_L0024">Vinegia</placeName> appresso <persName ref="#DLCL_CF_PC0869">Barezzo Barezzi</persName> 1606. in 4.to
+        </p>
+        
+        <p>
+          Pag. 116. <bibl type="print">Sopra l’Impresa degli Accademici Umoristi Discorso</bibl> di <persName ref="#DLCL_CF_PC0870">Girolamo Aleandro�</persName>�.
+        </p>
+        
+        <p>
+          Son questi libri, che meco porto a Casa, di nuovo acquisto insieme con un Codice di cartapecora ben miniato, in cui stanno i <bibl type="manuscript">cinque libri delle Selve</bibl> di <persName ref="#DLCL_CF_PC0871">Stazio</persName> scritte a penna, con infine
+        </p>
+        
+        <pb xml:id="DLCL_CF_E11011_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21356/full/800,/0/default.jpg"/>
+        
+        <p>
+          aggiuntavi da mano diversa, e di un secolo più giovane <bibl type="manuscript">un’Elegia a Pio Secondo</bibl> di <persName ref="#DLCL_CF_PC0872">Gregorio da Città di Castello,</persName> la quale ho però anco stampata dentro il libro rarissimo de’ versi latini dello <rs type="person" ref="#DLCL_CF_PC0872">stesso Autore.</rs>
+        </p>
+        
+        <p>
+          Quanto alla ristampa degl’Istorici Greci, e Latini tradotti in volgar lingua, io loderei il generoso pensiero, se quelle traduzioni fossero tutte buone.
+          Ma essendo esse, almeno per la maggior parte, io dubito fortemente che non solo inutile, e di poco applauso, e di niuno spaccio sarebbe l’edizione, ma pregiudicherebbe a quella qualunque siasi stima, in cui ora sono con tanto guadagno de’ Librai que’ volgarizzamenti, e quelli massimamente, che con[tengo]no la Collana ideata dal <persName ref="#DLCL_CF_PC0879">Porcacchi.</persName>
+          Nulladimeno, quando a mente eminentissima paia diversamente, non mi ritiro da darvi mano.
+          E della stampa del <bibl type="print">Tasso</bibl> che si fà in <placeName ref="#DLCL_CF_L0018">Firenze,</placeName> che si pensa in <placeName ref="#DLCL_CF_L0007">Bologna?</placeName> Sommamente loderei che si applicasse a formare il <bibl type="print">Corpo de’ Critici Italiani,</bibl> il quale con un giudicioso Indice servirebbe a darci una compita Poetica esattamente disputata.
+        </p>
+        
+        <closer>
+          <salute>L’abbraccio caramente confermandomi.</salute>
+          <salute>DVPMR</salute>
+          <dateline><orgName ref="#DLCL_CF_O0002">Valdicastro</orgName><date when-iso="1721-07-02">2. Luglio 1721.</date></dateline>
+        </closer>
+        
+        <postscript>
+          <p>
+            In confidenza <persName ref="#DLCL_CF_PC0178">Il Padre Ferranti</persName> anderà per Ottobre a <placeName ref="#DLCL_CF_L0008">Roma.</placeName>
+            Rifletto che, se siamo in tempo, potrebbesi avere da <rs type="person">Monsignor Elemosiniere</rs> qualche liberale aiuto per la <rs type="person">Sorella del PD.M.A.</rs> nostro.
+          </p>
+        </postscript>
+        
+        <closer>
+          <salute>Par. Cordialissimo Servitore Vero</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+        </closer>
+        
+        </div>
+    </body>
+   </text>
+</TEI>

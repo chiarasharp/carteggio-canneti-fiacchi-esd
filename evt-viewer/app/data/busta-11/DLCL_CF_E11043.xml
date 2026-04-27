@@ -69,7 +69,10 @@
          <change when-iso="2025-12-20" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2025-12-22" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
          <change when-iso="2025-12-31" who="#DLCL_CF_PS001">markup</change>
-      </revisionDesc>
+        <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+      
+        <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+</revisionDesc>
       </front>
       <body>
          <div type="transcription">
@@ -89,7 +92,7 @@
                <orgName ref="#DLCL_CF_O0158">Chiesa di Ravenna,</orgName> 
                cui quelle Religiose sono avvezze. Così è sicura che sarà inteso da loro, e piacerà: altrimenti, usando maggior brevità, o lunghezza, o diverse abbreviature, corre pericolo che non si trovi tutto il gradimento. Lodo che 
                <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> 
-               aggiunga al Calendario gli officj di 
+               aggiunga al <bibl type="print">Calendario</bibl> gli officj di 
                <orgName ref="#DLCL_CF_O0178">San Mattia,</orgName> 
                e di 
                <orgName ref="#DLCL_CF_O0058">San Michele di Murano.</orgName> 
@@ -116,7 +119,7 @@
                      <placeName ref="#DLCL_CF_L0132">Camerini</placeName> 
                      minus princip. dup. mai. Maius. 18.</foreign></hi>
                   <foreign xml:lang="la">
-                     <persName ref="#DLCL_CF_PC1023"><hi rend="underline">Venantij</hi>Mart.</persName></foreign>
+                     <persName ref="#DLCL_CF_PC1023"><hi rend="underline">Venantij</hi> <persName ref="#DLCL_CF_PC1023">Mart.</persName></persName></foreign>
                <hi rend="underline">Patroni 
                   <foreign xml:lang="la">
                      <placeName ref="#DLCL_CF_L0132">Camerin.</placeName>

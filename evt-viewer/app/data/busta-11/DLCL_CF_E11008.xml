@@ -1,0 +1,175 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11008">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20902/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21349/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21350/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11008">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 23 Maggio 1721)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">8</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1721-05-23"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-02-03" who="#DLCL_CF_PS001">markup testo</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+    
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11008_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21349/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs>
+          </salute>
+        </opener>
+        <p>
+          Sull’idea delle notizie de’ libri compresi nel <bibl type="manuscript">Catalogo</bibl>
+          di <persName ref="#DLCL_CF_PC0216">Monsignor Fontanini</persName> a lei partecipata con
+          l’ordinario scorso, che io desidero, ora porto a <rs type="person">VPMR</rs> la nota di
+          que’ pochissimi, i quali ho acquistati, dopo ritornato a me il <bibl type="manuscript">Catalogo</bibl> medesimo. E son
+          questi 
+        </p>
+        
+        <p>
+          pag. 43. <bibl type="print">Annotazioni sopra la Gerusalemme Liberata</bibl> del
+            <persName ref="#DLCL_CF_PC0837">Martinelli.</persName> Il <bibl type="print">Goffredo
+            col Commento</bibl> di <persName ref="#DLCL_CF_PC0838">Paolo Beni.</persName> 
+        </p>
+        
+        <p>
+          pag. 110.
+            <hi rend="ul">nel fine del § III. aggiunto colla penna</hi>. <bibl type="print"
+            >Cronica</bibl> di <persName ref="#DLCL_CF_PC0839">Giovanni Carione</persName> tradotta
+          per <persName ref="#DLCL_CF_PC0840">Piero Lauro.</persName> <placeName
+            ref="#DLCL_CF_L0024">Venezia</placeName> per <persName ref="#DLCL_CF_PC0841">Michele
+            Tramezino</persName> 1548. in 8.vo <hi rend="ul">e nell’<bibl type="print">Indice</bibl> a <persName ref="#DLCL_CF_PC0840">Lauro Piero,</persName> si aggiunge 110</hi>.
+        </p>
+        
+        <p>
+          pag. 127.
+            <hi rend="ul">nel fine, a penna</hi>. La <bibl type="print">Morale Filosofia brevemente
+            descritta per due Filosofi Epitetto, e Aristotile;</bibl> e il <bibl type="print"
+            >Trattato di Plutarco dell’amor de’ Genitori verso i Figliuoli</bibl> Opere ridotte in
+          volgare da <persName ref="#DLCL_CF_PC0843">Giulio Ballino.</persName> in <placeName
+            ref="#DLCL_CF_L0024">Venezia</placeName> per <persName ref="#DLCL_CF_PC0844">Gio. Andrea
+            Valvassori</persName> 1565. in 8.vo <hi rend="ul">e nell’<bibl type="print">Indice,</bibl> a <persName ref="#DLCL_CF_PC0843">Ballino Giulio,</persName> si aggiunge</hi> 127.
+        </p>
+        
+        <p>
+          pag.
+          141. I tredici libri della <bibl type="print">Preparazione Evangelica.</bibl> 
+        </p>
+        
+        <p>
+          pag. 144.
+            <bibl type="print">Opere Spirituali</bibl> di <persName ref="#DLCL_CF_PC0845">Tommaso
+            Malleolo da Chempis.</persName> <hi rend="ul">in fine a penna</hi> e prima l’anno 1568.
+          appresso <persName ref="#DLCL_CF_PC0846">Gasparo,</persName> e <persName ref="#DLCL_CF_PC0847">Domenico della
+            Speranza.</persName> 
+        </p>
+        
+        <p>
+          Se altro di tempo in tempo si accrescerà, io non tralascerò di
+          prontamente darne avviso, quando con egual corrispondenza venga notificato a me ciò, che
+          costì si accresce. La qual vicendevole notizia è necessaria per non moltiplicare il
+          superfluo, ove manca il necessario.
+        </p>
+        
+        <pb xml:id="DLCL_CF_E11008_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21350/full/800,/0/default.jpg"/>
+        
+        <p>
+          Presi anco ultimamente le <bibl type="print">Rime</bibl> di <persName
+            ref="#DLCL_CF_PC0848">Ascanio Pignattello,</persName> le quali non sò se costì siano in
+            <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> oltre al <bibl type="print"
+            >Quadriregio</bibl> della prima edizione di <placeName ref="#DLCL_CF_L0028"
+            >Perugia</placeName> per <persName ref="#DLCL_CF_PC0849">Maestro Stefano Arns
+            Alemano</persName> 1481. fol. Sopra tutti è raro l’acquisto di <persName
+            ref="#DLCL_CF_PC0850"><foreign xml:lang="la"><hi rend="ul">Andreę Baccij</hi></foreign></persName> <bibl type="print"><foreign xml:lang="la"><hi rend="ul">Historia Vinorum</hi></foreign></bibl> fogl., che và nella <bibl type="print">Serie
+            della Storia Naturale.</bibl> Ed è pregiabile l’altra delle <bibl type="print">Opere di
+            Sinesio</bibl> Gr. Lat. della versione del <persName ref="#DLCL_CF_PC0120"
+            >Petavio,</persName> con le note del medesimo, che vanno fra <bibl type="print">Santi
+            Padri</bibl> in fol. 
+        </p>
+        
+        <p>
+          Con l’ordinario ultimo mi è giunto sotto una sola sopracoperta il
+            <bibl type="print">Catalogo stampato de’ libri</bibl> dell’<persName
+            ref="#DLCL_CF_PC0092">Argelati,</persName> che non sò se tuttavia si trattenga in
+            <placeName ref="#DLCL_CF_L0012">Modena,</placeName> o ritornato sia a <placeName
+            ref="#DLCL_CF_L0007">Bologna.</placeName> A nulla ciò serve, che a darmi la spesa di
+          quattro baiocchi. I libri son tutti quasi nuovi, ch’è quanto dire da facilmente trovarsi
+          ^da ognuno che abbia pronto il danaro, il quale io non ho. Vi sono segnati alcuni pochi
+          libri di stampe antichissime, e buone, con l’aggiunta <bibl type="print"><foreign
+              xml:lang="la"><hi rend="ul">Editio nitidissima, prestantissima</hi></foreign></bibl> e
+          che sò io, indizio di alta stima e di gran pretenzione. Può ancor’essere che tutti quei
+          pochi non gli abbia, e gli abbia aggiunti per vanità, essendo egli Uomo pien di bugie, e
+          capace di simili ostentazioni, e imposture. Con che abbracciandola senza perder di vista
+          anco il <rs type="person" ref="#DLCL_CF_PC0002">Carissimo Padre Bibliotecario</rs> degno
+          di tutti gli amplessi, resto.
+        </p>
+        
+        <closer>
+          <dateline>
+            <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+            <date when-iso="1721-05-23">23. Maggio 1721.</date>
+          </dateline>
+          <salute>D<rs type="person">VPMR</rs></salute>
+          <salute>Suo Pa. Cordialissimo Servitore</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+        </closer>
+        </div>
+    </body>
+   </text>
+</TEI>

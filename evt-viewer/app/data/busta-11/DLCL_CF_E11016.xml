@@ -1,0 +1,111 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11016">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20909/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21371/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11016">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 29 Agosto 1721)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">16</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1721-08-29"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11016_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21371/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+        
+        <p> Mercoledì il <persName ref="#DLCL_CF_PC0768">Padre Don Deodato Pedroni</persName> nel
+          partire di qua’ per la sua nuova stanza di <placeName ref="#DLCL_CF_L0025"
+            >Bertinoro</placeName> seco’ portò due Involti diretti a <rs type="person"
+            ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità,</rs> uno con dodici Cingoli
+          l’altro con quattro libri, che alla diligenza di lei raccomando perché con prima occasione
+          siano spediti a <placeName ref="#DLCL_CF_L0024">Venezia</placeName> al <persName
+            ref="#DLCL_CF_PC0547">Reverendissimo Abate Don Giovanni Benedetto Tassis,</persName>
+          senza spesa di porto, il quale farà <rs type="person" ref="#DLCL_CF_PC0002"
+            key="DLCL_CF_PC0002">Vostra Paternità</rs> pagare a mio conto, facendo fare nel
+          soprascritto <hi rend="ul">Franco di porto</hi>. Potrà soddisfare alla erudita curiosità
+          con vedere il Tomo 8. e 9. <bibl type="print">Della Biblioteca greca</bibl> di <persName
+            ref="#DLCL_CF_PC0679">Gio. Alberto Fabricio,</persName> e il Tomo p.° e 2.° dell’<bibl
+            type="print">Istoria Bibliotecaria</bibl> di <persName ref="#DLCL_CF_PC0899">Giovanni
+            Fabricio,</persName> ch’è Autor diverso dall’altro Fabricio sopramentovato. I primi due
+          Tomi li mando perché il Tomo IX. si renda più conforme all’ottavo nel cartello, e ambi
+          ritornino col Tomo X. già comprato. Parimenti gli altri due ritorneranno col Tomo 3.° e
+          4.to, già usciti, e nel cartello migliorati. Ora in <placeName ref="#DLCL_CF_L0008"
+            >Roma</placeName> non si usano più i cartelli di pelle, ma si tingono i libri con un
+          colore di durata, e vi si fanno in quel sito le lettere d’oro. Posso mostrar quì qualche
+          libro così finito egregiamente da’ famosi <orgName ref="#DLCL_CF_O0159">Libraj Pagliarini
+            Aretini.</orgName> Sarà opportuna la congiuntura della venuta del <rs type="person"
+            >Padre Cancelliere</rs> quà per mandarmi i dodici libretti di <placeName
+            ref="#DLCL_CF_L0005">Faenza</placeName> col libro di <bibl type="print">Santa Maria in
+            Cosmodin.</bibl> Mille cose avrei da dirle: ma temo che il moltiplicar queste specie in
+          tempo d’altra applicazione, riesca a lei di tedio, non di sollievo. </p>
+        
+        <closer>
+          <salute>Resto pertanto confermandomi di tutto cuore.</salute>
+          <salute>DVPMR la qual procuri da <placeName ref="#DLCL_CF_L0025">Bertinoro</placeName> i due involti</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1721-08-29">29 Agosto 1721.</date></dateline>
+          <salute>Affettuosissimo Servitore e Padre Cor. nel Signore</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+        </closer>
+      </div>
+    </body>
+   </text>
+</TEI>

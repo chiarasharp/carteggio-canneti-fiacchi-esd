@@ -1,0 +1,138 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11029">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20922/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21404/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21405/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21406/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11029">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 1 Maggio 1722)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">29</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1722-05-01"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+    
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">conversione lacune in gap</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">correzione entità</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11029_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21404/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+        <p>
+          Quando <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> della felice sua memoria viene assicurata di aver messo nel Bauulo, o nella borsa da viaggio il consaputo <bibl type="manuscript">Manoscritto,</bibl> io altresì tengo per certo di ritrovarlo un giorno in qualcheduna delle confusioni, ove giacciono i nostri libri, che non han luogo nelle scanzie; siccome alla mano mi venne, come l’avvisai, la seconda parte delle nostre storie.
+          Riceverò il <bibl type="print">Discorso</bibl> co’i libri di <placeName ref="#DLCL_CF_L0010">Padova,</placeName> ma non più il <bibl type="print">Platelio,</bibl> essendomi cessato il motivo del desiderio.
+          Impresa degna dell’accortezza del <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina</persName> sarebbe divertire il pensiero della stampa dell’<bibl type="print">Accademia,</bibl> perché i componimenti in gran parte non reggeranno alla critica dell’occhio più severa di quella dell’orecchio, e in parte scopriranno piu palese la propria debolezza.
+          Mi è stato scritto aver’il <rs type="person">Maestro del Seminario</rs> fatta un’<bibl type="print">Orazione</bibl> sopra <rs type="person">Monsignore,</rs> in cui esalta la nobiltà della famiglia, e gli Uomini illustri da quella usciti con certe annotazioni marginali.
+          <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> veda di averne copia, e mandarmela col <bibl type="print">Discorso,</bibl> e i libri in una cassettina.
+          In ogni caso mi basterebbe copia di quanto sopra ho accennato.
+          La spesa delle legature <placeName ref="#DLCL_CF_L0010">Padova</placeName>ne non può negarsi ch’è eccessiva: onde ce ne guarderemo in avvenire.
+        </p>
+        <p>
+          Il conto del <persName ref="#DLCL_CF_PC0923">Brocchi</persName> stà bene, e resta terminato col credito del <rs type="person">Libraro,</rs> in somma di scudi sette baiocchi 10.
+          Solleciterò la spedizione delle 50.
+          Cartepecore grandi, e 25. mezzane; colle quali verranno i Cingoli, e i due Tometti del <bibl type="print">Gelli.</bibl>
+          Il <persName ref="#DLCL_CF_PC0259">Padre Bianconi</persName> non partirà che verso il fine di Giugno.
+          Egli si porterà seco le <bibl type="print">Romane</bibl> per farne esito in <placeName ref="#DLCL_CF_L0007">Bologna</placeName> a quei, che scrivono i <bibl type="print">Privilegi de’ Dottorati;</bibl> e ne ricaverà il giusto prezzo, essendo già rase, e pulite per l’uso di scrivere.
+          Che si fà degli <bibl type="print">Annali</bibl> del <persName ref="#DLCL_CF_PC1089">Torelli?</persName> Non li lasci scappare..
+        </p><pb xml:id="DLCL_CF_E11029_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21405/full/800,/0/default.jpg"/>
+        <p>
+          Ottimamente, e con vantaggio è seguito il baratto delle Opere del <persName ref="#DLCL_CF_PC0696">Camilli,</persName> che sono obro<gap reason="lost"/> e di poco pregio nel libro del <bibl type="print">Governo de’ Principi</bibl> attribuito comunemente a <persName ref="#DLCL_CF_PC0911">San Tommaso d’Acquino.</persName>
+          Ed io ne godo, perché considero questo cambio come un’opportuna congiuntura a’ cambj divisati col <persName ref="#DLCL_CF_PC0625">Padre Reggente Pugnetti.</persName>
+          Nulla pertanto d<gap reason="lost"/> della perdita delle <bibl type="print">Api</bibl> del <persName ref="#DLCL_CF_PC0513">Rucellai</persName> in 8.vo, ch’era libro tra nostri raro, perché intiero, contenendo alcuni versi, che sono stati levati nelle altre edizioni, e in quella son cancellati colla penna, in maniera però che comodamente si leggono.
+          Sia detto ciò per avvertenza, ed erudizione, non per aggiungere scrupoli, nè pusillanimità.
+          <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> Operi con franchezza.
+        </p>
+        <p>
+          Penso che le 300.
+          Epistole, che si dice siano per aggiungersi alla nuova edizione del nostro <bibl type="print">Delfino</bibl> fossero portate in <placeName ref="#DLCL_CF_L0037">Francia</placeName> dal <persName ref="#DLCL_CF_PC0129">Mabillon,</persName> se è vero che il fu <persName ref="#DLCL_CF_PC0924">Padre Abate Zanardi</persName> a di lui istanza facesse copia di tutte, o d’una parte delle <bibl type="print">inedite di San Michele,</bibl> ove è da sapere che vi stanno in quella Biblioteca duplicate, per esservisi trasportati anco i <bibl type="manuscript">Volumi Manoscritti del Monastero delle Carceri.</bibl>
+          Nell’Itinerario il suddetto <persName ref="#DLCL_CF_PC0129">Mabillon</persName> porta lo squarcio d’una dell’<bibl type="print">Epistole stampate,</bibl> il qual’era stato tralasciato; e scuopre, e riempie la lacuna.
+          Dal qualcaso può apprendersi quanto saviamente discorrano coloro, i quali vorrebbono che si dassero fuori <gap reason="lost"/> le <bibl type="print">Lettere</bibl> di <persName ref="#DLCL_CF_PC0177">Ambrogio,</persName> per non pubblicare alcune cose degne di biasimo; come se non fossero moltiplicati i Manoscritti forse intorno a venti copie, uno de quali il <bibl type="manuscript">Pez nel primo Tomo del Tesoro degli Anedoti</bibl> ci fà sapere trovarsi nella <orgName ref="#DLCL_CF_O0167">Biblioteca Elettorale</orgName> di <placeName ref="#DLCL_CF_L0168">Monaco in Baviera.</placeName>
+          Se poi veramente si faccia o no’ la ristampa accresciuta, lo dirà il tempo.
+          Non mi spiace il pensiero dell’edizione in <placeName ref="#DLCL_CF_L0037">Francia</placeName> dell’<bibl type="print">Epistole Ambrosiane;</bibl> e vi farò le dovute riflessioni sopra
+        </p><pb xml:id="DLCL_CF_E11029_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21406/full/800,/0/default.jpg"/>
+        <p>
+          Considero che i Libri di <placeName ref="#DLCL_CF_L0010">Padova</placeName> si potrebbono consegnare al <persName ref="#DLCL_CF_PC0154">Reverendissimo Magni</persName> cortesissimo in favorir tutti, e me distintamente.
+        </p>
+        <p>
+          La risposta sopra la difficoltà di <placeName ref="#DLCL_CF_L0025">Bertinoro</placeName> non arriva a tempo.
+          Non v’ha dubbio che i Regolari son tenuti a far l’officio della Dedicazione della Cattedrale.
+          Per ogni Eremo (se non erro) la nota il <bibl type="print">Calendario di Monte Corona.</bibl>
+          O per obbligo, o per consuetudine noi la celebriamo: ciò posto, devesi antiporre, come festa particolare, alle feste universali di rito eguale.
+        </p>
+        <p>
+          Le <rs type="person">Monache Cisterciensi</rs> di <orgName ref="#DLCL_CF_O0169">Santa Giuliana di Perugia</orgName> sono soggette al <rs type="person">Vescovo:</rs> procurerò copia del <bibl type="print">loro Calendario,</bibl> al ritorno da <placeName ref="#DLCL_CF_L0008">Roma</placeName> del <persName ref="#DLCL_CF_PC0163">Padre Mastri.</persName>
+          I <rs type="person">loro Capellani</rs> recitano le messe conformi all’officio delle Monache: così fan quì i Confessori di quattro Monasteri Benedettini dipendenti dall’Ordinario, ma tutti col <bibl type="print">Messale Romano,</bibl> e perciò quasi sempre celebrando la Messa de’ communi.
+          Serva allegramente le <rs type="person">Monache di Sant’Andrea.</rs>
+          Ritornato che sia a <placeName ref="#DLCL_CF_L0008">Roma</placeName> il <persName ref="#DLCL_CF_PC0925">Reverendissimo Valmori,</persName> manderò la licenza da confermare.
+          Il <persName ref="#DLCL_CF_PC0676">Padre Grilli</persName> è incomodato da mossa di bile con dolori, che l’obbligano al letto, ma senza febbre, ed io sento lo stesso incomodo, ma più mite.
+        </p>
+        
+        <closer>
+          <salute>Resto confermandomi senza fine.</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1722-05-01">primo Maggio 1722.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Affettuosissimo Servitore e <persName>Padre</persName> Cordialissimo nel Signore</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+        </closer>
+      </div>
+    </body>
+   </text>
+</TEI>

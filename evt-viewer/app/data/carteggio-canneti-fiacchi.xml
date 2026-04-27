@@ -209,7 +209,7 @@
    <xi:include href="busta-10/DLCL_CF_E10132.xml"/>
    <xi:include href="busta-10/DLCL_CF_E10133.xml"/>
    <milestone xml:id="DLCL_CF_E11" unit="busta" n="11"/>
-   <!-- <xi:include href="busta-11/DLCL_CF_E11001.xml"/>
+   <xi:include href="busta-11/DLCL_CF_E11001.xml"/>
    <xi:include href="busta-11/DLCL_CF_E11003.xml"/>
    <xi:include href="busta-11/DLCL_CF_E11004.xml"/>
    <xi:include href="busta-11/DLCL_CF_E11005.xml"/>
@@ -246,7 +246,7 @@
    <xi:include href="busta-11/DLCL_CF_E11037.xml"/>
    <xi:include href="busta-11/DLCL_CF_E11038.xml"/>
    <xi:include href="busta-11/DLCL_CF_E11039.xml"/>
-   <xi:include href="busta-11/DLCL_CF_E11040.xml"/> -->
+   <xi:include href="busta-11/DLCL_CF_E11040.xml"/>
    <xi:include href="busta-11/DLCL_CF_E11041.xml"/>
    <xi:include href="busta-11/DLCL_CF_E11042.xml"/>
    <xi:include href="busta-11/DLCL_CF_E11043.xml"/>

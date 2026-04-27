@@ -1,0 +1,98 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11018">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20911/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21376/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11018">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 19 Settembre 1721)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">18</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1721-09-19"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">conversione lacune in gap</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">aggiunta annotazione marginale</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11018_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21376/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+        <p>
+          Ricevei ieri il libro del <bibl type="print">Grassi</bibl> con l’involto de’ dodici libretti di <placeName ref="#DLCL_CF_L0005">Faenza,</placeName> che sollecitamente dal <placeName ref="#DLCL_CF_L0179">Massaccio</placeName> mi ha spedito, avanti il di lui arrivo il <rs type="person">Padre Cancelliere.</rs>
+          Accennandomi esso avere per di lei ordine comprati questi libriccini, farò a lui il rimborso dello speso, per minore incomodo di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità,</rs> dalla quale aspetto con impazienza avviso del ricapito degl’involtini consegnati al <persName ref="#DLCL_CF_PC0768">Padre Don Deodato,</persName> e della spedizione di uno d’essi a <placeName ref="#DLCL_CF_L0024">Venezia</placeName> al <persName ref="#DLCL_CF_PC0547">Reverendissimo Tassis,</persName> Uomo, che essendo di sommissima puntualità, altrettanta ne esigge da chi tratta seco: quantunque egli in ciò costituisca nel genere umano una specie distinta, e unica.
+        </p>
+        <p> Non mi scordo dello studio da farsi sopra il Disegno dell’antico frammento. Preveggo di
+          non poter’ altro concludere se non che nel risarcirlo, una qualche volta sia stato
+          guastato. Ma se ciò si ammette, qual fede me<gap reason="lost"/> tutta quanta essa è l’anticaglia? Che è
+          stato di quello <foreign xml:lang="la"><hi rend="ul">Ursus Levita et Abbas</hi></foreign>?
+          Se è stato scartato, e obbligato a ceder luogo a nuovi pensieri, è gran male. Mi è venuto
+          il <bibl type="print">Libretto de’ Traduttori</bibl> del <persName ref="#DLCL_CF_PC0068"
+            >Marchese Scipione Maffei.</persName> L’aggiunta intorno alle Iscrizione, ove
+          attentamente si legga, può farne innamorare un cuor di sasso. Ed è possibile che quando
+          anco sia di pietra il cuore, non si accenda allo scritto, al parlare, all’esempio di sì
+          erudito <rs type="person">Cavaliere</rs> venuto costà per vedere que’ Marmi? </p>
+        
+        <closer>
+          <salute>Resto abbracciandola caramente.</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1721-09-19">19. 7bre 1721.</date></dateline>
+          <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+        <p>[[Che nuove del <persName ref="#DLCL_CF_PC0328">Vossio?</persName>]]</p>
+      </div>
+    </body>
+   </text>
+</TEI>

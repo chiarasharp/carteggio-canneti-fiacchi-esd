@@ -1,0 +1,149 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11013">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20906/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21362/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21363/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21364/full/800,/0/default.jpg"/>
+    <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/21365/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11013">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 1 Agosto 1721)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">13</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1721-08-01"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">conversione lacune in gap</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11013_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21362/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+        <p>
+          Benché moltissime siano le lettere, e alcune importanti, che ricercano da me in quest’ordinario la risposta, comincio dalla carissima di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> con esprimerle il godimento provato per essere stimata plausibile l’interpretazione mia delle lettere greche sovraposte alla luce del Musaico nostro, corrispondente alli caratteri latini dell’iscrizione situata a piè della stessa Croce.
+        </p>
+        <p>
+          Noi adunque così leggeremo, finché altri legga meglio di noi, col vantaggio di avere finora corretti gli abbagli dell’<persName ref="#DLCL_CF_PC0852">Acquedotti,</persName> di <persName ref="#DLCL_CF_PC0051">Ciampini,</persName> e di qualunque altro interprete di quelle lettere.
+          Ma il contento mi cresce dalla speranza datami di poter’ avere l’intero, esatto disegno.
+          Né dubito punto che la premura di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> non possa ottenerlo, e disporre in oltre le cose in maniera che se ne faccia anco per <placeName ref="#DLCL_CF_L0020">Classe</placeName> un’altro in pittura, co’ suoi colori.
+          Questo vivo desiderio non mi toglie però la gelosia della salute di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità,</rs> e del <rs type="person">Pittore,</rs> che può in questi mesi, e nell’autunno correre grave pericolo.
+          Badi a me, che l’anno passato previdi la malattia del nostro <persName ref="#DLCL_CF_PC0090">Don Leandro.</persName>
+          Non differisca più oltre mandarmi i nomi de quattro Arcivescovi, che stanno in faccia alla Tribuna tra le finestre.
+          Noi gli scoprimmo quella mattina, quando mi pareva altresì che sopra il capo di Melchisedecco si fosse scoperto il di lui nome.
+          Quando in quel sito non siano dapoi cadute le pietruzze, bisogna dire che non vi si vedendo ora il detto nome, né pur vi si vedesse in quella scoperta,
+        </p><pb xml:id="DLCL_CF_E11013_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21363/full/800,/0/default.jpg"/>
+        <p>
+          e che la memoria mia siasi in ciò confusa.
+          L’Agnello adunque allora osservato fu quel, che mi diede il lume per l’interpretazione, la quale tenni, e tengo per sola, e incontrovertibile: massimamente ora che osservo la tavola, il vaso, e i pani essere nella stessa maniera figurati nel musaico di <orgName ref="#DLCL_CF_O0029">San Vitale,</orgName> ove sta il nome <hi rend="ul">Melchisedec</hi> § sopra la di Lui figura.
+          Mi sappia anco dire <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> se in quel Quadro nostro siavi dal lato destro una mano da alto: mi par di sì, onde da principio dubitai fosse quella mano che scrisse sul muro <hi rend="ul">Mene tehecel</hi> § Vi stà nel disegno cattivo di <persName ref="#DLCL_CF_PC0051">Ciampini.</persName>
+        </p>
+        <p>
+          Quanto alle pecore, mi è cara la notizia che nell’arco al di fuori se ne veggano sei anco a mano destra, e in tutto siano dodici.
+          Rifletto che l’interpretazione di <persName ref="#DLCL_CF_PC0051">Ciampini</persName> sopra le pecore è fatta al rovescio.
+          Egli riconobbe nelle dodici dentro alla tribuna i <rs type="person">dodici Appostoli,</rs> e i fedeli nelle altre effigiate nell’arco fuor d’essa tribuna.
+          Ma io più tosto son di parere che trà pini le dodici esprimano il gregge de’ Fedeli di <placeName ref="#DLCL_CF_L0002">Ravenna</placeName> rivolto a seguire, ed ascoltare il suo <persName ref="#DLCL_CF_PC0081">Santo Pastore Apollinare</persName> venuto a predicare costì Gesù Cristo manifestato per Messia dall’Eterno Padre, singolarmente nel misterio della Trasfigurazione ivi parte istoricamente, parte simbolicamente rappresentato.
+          Le altre dodici Pecore di sopra, e al di fuori espresse più acconciamente possono dirsi simboli de’ <rs type="person">dodici Appostoli,</rs> che da <placeName ref="#DLCL_CF_L0161">Gerusalemme,</placeName> e <placeName ref="#DLCL_CF_L0162">Betlemme</placeName>
+        </p><pb xml:id="DLCL_CF_E11013_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21364/full/800,/0/default.jpg"/>
+        <p>
+          escono ad unirsi a Cristo, di cui rendono testimonianza i quattro Evangeli dimostrati in cotesto musaico coll’immagine notissima de quattro animali di <persName ref="#DLCL_CF_PC0880">Ezechiello.</persName>
+          Nell’altro quadro al corno dell’Evangelio la memoria confusamente mi rappresentava che le figure in parte fossero di Cherici vestiti di cotta lunga talare, e simile a nostri camici: ma se sono di Donne diademate, converrà applicare la mente al misterio, che alla fine non può essere altro che la decantata concessione de’ privilegi.
+          Mi pare che una delle figure tenga in mano certo istromento, ch’è dubbio se sia un turibolo, oppure un vaso di acqua benedetta.
+          Ottimo consiglio è distinguere agli occhi eruditi l’antico sincero dal supplimento conghietturale aggiunto per conservare l’antico stesso, e per appagare la vista del volgo.
+        </p>
+        <p>
+          Sento con particolar consolazione adempiti i comuni voti colla restituzione del sepolcro di <persName ref="#DLCL_CF_PC0895">Teodoro.</persName>
+          Gran fato di quel sasso! Alla storia segreta de sepolcri appartiene sapere se nell’ultima mossa sieno stati aperti, e che vi sia stato trovato.
+        </p>
+        <p>
+          Aspetto con impazienza la risposta del <persName ref="#DLCL_CF_PC0646">Padre Maestro Greco,</persName> anco per mia regola in una nuova scoperta d’altri libri antichi, delli quali ho la nota in mano, e di altre, che sono in buona speranza.
+          Ho bisogno che riscaldi l’attenzione con quell’oro, che mostrava essere pronto §.
+        </p><pb xml:id="DLCL_CF_E11013_C2V_L" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21365/full/800,/0/default.jpg"/>
+        <p> Il <bibl type="print">Florido Sabino</bibl> da me acquistato è di perfetta
+          conservazione, e di margin<gap reason="lost"/> sufficiente, e intierissimo. Torni a vedere se cotesto
+          comprende tutto pienamente quel, che nel titolo promette. Primo ha <bibl type="print"
+              ><foreign xml:lang="la"><hi rend="ul">de Iuris Civilis
+            Inte</hi></foreign>rpretabus</bibl> pagine in tutto 206. poscia con distinta
+          cartolazione <bibl type="print"><foreign xml:lang="la"><hi rend="ul">de Iul. Cęs. pr.
+                tantia,</hi> et S<hi rend="ul">uccisivarum Lectionum</hi></foreign></bibl> pagine
+          314. e finalmente senza numeri di pagine un’<bibl type="print">Inno Greco, e Latino</bibl>
+          di <persName ref="#DLCL_CF_PC0881">Callimaco,</persName> con l’<bibl type="print"
+            >Indice</bibl> diffuso nell’ultimo. </p>
+        <p>
+          Mando in quest’ordinario la fede delle Messe al <persName ref="#DLCL_CF_PC0006">Padre Amici.</persName>
+          Raccomando la spedizione del <bibl type="print">Vossio.</bibl>
+        </p>
+        
+        <closer>
+          <salute>Arrivederci, <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> mio.</salute>
+          <salute>L’abbraccio caramente; e re<gap reason="lost"/> DVPMR</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName><date when-iso="1721-08-01">primo Agosto 1721.</date></dateline>
+        </closer>
+        
+        <postscript>
+          <p><foreign xml:lang="la">Or. linguę latinę calumniatores</foreign> pag. 209.</p>
+        </postscript>
+        
+        <closer>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+        </closer>
+        
+        </div>
+    </body>
+   </text>
+</TEI>

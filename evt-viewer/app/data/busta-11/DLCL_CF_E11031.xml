@@ -1,0 +1,180 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11031">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20924/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21409/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21410/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21411/full/800,/0/default.jpg"/>
+    <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/21412/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11031">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 13 Maggio 1722)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">31</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1722-05-13"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-30" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+    
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">conversione lacune in gap</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb n="1 - Recto" xml:id="DLCL_CF_E11031_C1R_L" facs="https://www.cdc.classense.ra.it/iiif/2/21409/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+        <p>
+          Rimando la nota de’ libri scelti dal <persName ref="#DLCL_CF_PC0954">Signor Zanotti,</persName> che riverisco di tutto cuore, e con pienezza di stima.
+          Ne’ prezzi parmi di aver’ osservata la discretezza: onde resta che il Compratore o accetti, o rifiuti la compra, non essendovi luogo ad altra diminuzione.
+          Sono bensì pronto a facilitare il contratto con dare tutti i libri descritti per dieci scudi contanti, e cento Messe da celebrarsi, o farsi celebrare col termine fino al principio del futuro Novembre.
+          Ecco servito con tutta puntualità il <persName ref="#DLCL_CF_PC0954">Signor Zanotti.</persName>
+          Quando mai in qualche libro gli sembri non del tutto agevole il prezzo, confido che in altri lo riconoscerà più che facile.
+        </p>
+        <p>
+          Godo che lungi da’ nostri alveari non siano volate a mellificar le Api intiere.
+          Tali però io credo non sieno le stampate da i <orgName ref="#DLCL_CF_O0146">Volpi.</orgName>
+          <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> applichi al confronto.
+          La castratura (se ben mi ricordo) consiste in pochi versi, i quali descrivono i Frati intenti alle loro questuazioni.
+        </p>
+        <p>
+          Con prima occasione, che sarà sollecita, e pronta, spedirò le Cartepecore al <rs type="person">Doganiere</rs> di <placeName ref="#DLCL_CF_L0030">Sinigaglia.</placeName>
+          Ma ecco, mentre scrivo, arriva il <rs type="person">Mercante,</rs> che mi dice esservi oggi occasione d’un <rs type="person">Mulattiere,</rs> per cui la spedisce con lettera ad un <rs type="person">suo Corrispondente,</rs> dandogli ordine di trasmetterle prontamente per Barca a <placeName ref="#DLCL_CF_L0002">Ravenna,</placeName> per ricapito al <persName ref="#DLCL_CF_PC0194">Signor Matteo Munghini.</persName>
+          Il prezzo delle Cartepecore grandi è di s. 7. delle mezzane s. 5. il porto a <placeName ref="#DLCL_CF_L0030">Sinigaglia</placeName> bai. 10. in tutto s. 12:10 Or’essendovi questo assegnamento, non accade dare il danaro de’ Cingoli a <persName ref="#DLCL_CF_PC0313">Paolino,</persName> ma il prezzo di essi s. 1:44. favorisca consegnarlo al <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli.</persName>
+          Ieri l’altro partì di quà Frate Gio.
+          Battista Converso per <placeName ref="#DLCL_CF_L0016">Bagnacavallo</placeName> sua Patria, al quale consegnai la dozina di Cingoli, co’ i due tometti del <bibl type="print">Gelli,</bibl> e uno straccio d’anticaglia..
+        </p><pb n="1 - Verso" xml:id="DLCL_CF_E11031_C1V_L" facs="https://www.cdc.classense.ra.it/iiif/2/21410/full/800,/0/default.jpg"/>
+        <p>
+          Nella lettera, che gli accompagna, rinchiusi la <bibl type="manuscript" ref="#DLCL_CF_PC1008">nota de’ libri di antica edizione,</bibl> che stanno presso di me, raccomandando al <rs type="person" ref="#DLCL_CF_PC1008">Fratello</rs> che giunto a <placeName ref="#DLCL_CF_L0016">Bagnacavallo</placeName> mandasse a lei per primo congiuntura il tutto.
+          Al ritorno passerà per costà; e allora la prego rimandarmi la nota sopradetta.
+          Degli altri fogli copiati dagli <bibl type="print">Annali Tipografici</bibl> già ho scritto che li tenga.
+          Non son’ altro che una scelta di edizioni antiche mandatemi per saggio.
+          Ora ho il libro, di cui posso dire che contiene quel, che l’<rs type="person">Autore,</rs> stando ne’ suoi paesi ha potuto vedere.
+          Vi manca la metà di quei, che ho appresso di me.
+          Promette la seconda parte.
+          Può dirsi che abbiamo l’abbozzo di un’opera grande.
+          Merita lode il <persName ref="#DLCL_CF_PC0901">Maittaire,</persName> per essere il primo a darci un’idea necessaria, descritta con giudicio, diligenza, e modestia singolare.
+        </p>
+        <p>
+          Mi rallegro dell’aggiunta, fattasi alla <orgName ref="#DLCL_CF_O0001">Libreria</orgName> delle <bibl type="print">Orazioni Consistoriali</bibl> di <persName ref="#DLCL_CF_PC0504">Clemente XI.,</persName> le quali potranno collocarsi tra i <bibl type="print">Santi Padri,</bibl> e del 3.° tomo della <bibl type="print">Difesa della Bolla Unigenitus.</bibl>
+          Ma <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> non mi ha mai risposto se la <orgName ref="#DLCL_CF_O0001">Libreria</orgName> ha la <bibl type="print">Storia</bibl> del <persName ref="#DLCL_CF_PC0886">Varchi,</persName> in maniera che per duplicato possa considerarsi l’esemplare da me comprato.
+        </p>
+        <p>
+          Il <bibl type="print">Quintiliano</bibl> del <persName ref="#DLCL_CF_PC0636">Jenson</persName> 1471. è riferito dal <bibl type="print">Maittaire</bibl> alla pag. 93. con questa Annotazione = <bibl type="print">Quintilianum</bibl> eloquentiae fontem ab eruditissimo <persName ref="#DLCL_CF_PC0928">Omnibono Leoniceno</persName> emendatum M.
+          <persName ref="#DLCL_CF_PC0636">Nicolaus Jenson Gallicus</persName> viventibus posterique miro impressit artificio: anno MCCCCLXXI.
+          Maij die XXI.
+          Deo gratias – Omnibon.
+          Leonicenus in sua ad <persName ref="#DLCL_CF_PC0929">Moysen de Bufarelis</persName> episcopum <placeName ref="#DLCL_CF_L0180">Belumnensem</placeName> epistola sic conqueritur – qui tertio ante anno Librum ipsum auditoribus nostris exponere aggressus ita – vitiatum repereram – Videtur forsan innuere aliquam editionem, quae praecessunt; nescio aneam, quę ex officina <persName ref="#DLCL_CF_PC0684">Sweynh.</persName> et <persName ref="#DLCL_CF_PC0685">Pann.</persName> anno superiore prodierat.
+          In hac <bibl type="print">Quintiliani</bibl> editione cap. 6. lib. 6. ad pagine finem admissus est error unius integrę lineę omissę [Praecipiam igitur, ne, quod effici non potest, aggrediamur, vitimus et communia]
+        </p><pb n="2 - Recto" xml:id="DLCL_CF_E11031_C2R_L" facs="https://www.cdc.classense.ra.it/iiif/2/21411/full/800,/0/default.jpg"/>
+        <p>
+          La scoperta del <bibl type="print">Codice Bavaro</bibl> dell’<bibl type="print">Epistole</bibl> di <persName ref="#DLCL_CF_PC0177">Ambrogio</persName> fatta dal <persName ref="#DLCL_CF_PC0912">Pez</persName> non porta motivo di gelosia, né intoppo, assicurandoci egli stesso quella essere la <bibl type="print">Raccolta</bibl> fatta da <persName ref="#DLCL_CF_PC0930">Michele Monaco,</persName> della quale ho il registro dalla <orgName ref="#DLCL_CF_O0025">Vaticana,</orgName> e da altre Biblioteche.
+        </p>
+        <p>
+          Sia a cuore di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> l’intraprendere contratto col <persName ref="#DLCL_CF_PC0625">Padre Maestro Pugnetti,</persName> e concluderlo.
+          Del <bibl type="manuscript">Virgilio Manoscritto in pergamena,</bibl> io gli dissi che l’averei stimato due scudi; egli mi replicò che a lui costava una doppia.
+          E veramente si può tanto apprezzare, ed anco più.
+        </p>
+        <p>
+          Omai non mi tormenta, com’era solito, il prurito de’ libri: assai ho ne tre anni ultimamente scorsi grattata questa scabie.
+          Mi rimane ora il tormento di dover finire il pagamento del debito.
+          <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> stimoli il suo <rs type="person" ref="#DLCL_CF_PC0003">Padre Abate</rs> a valersi delle spedizioni dal suo garbatissimo <rs type="person">Fratello</rs> proposte, e delle ordinazioni per <placeName ref="#DLCL_CF_L0038">Olanda,</placeName> e <placeName ref="#DLCL_CF_L0118">Germania.</placeName>
+          Egli che ha fatta intagliar la memoria della dote, la spenda.
+          Lo riscaldi coll’esempio del <persName ref="#DLCL_CF_PC0391">Reverendissimo Gasparini,</persName> colla traccia, ch’è veramente data alla <orgName ref="#DLCL_CF_O0001">nostra Libreria,</orgName> in materia dei Biblici, e de’ Padri.
+          Quanto però al paragone di <orgName ref="#DLCL_CF_O0108">San Michele,</orgName> io appello ad un’esatto confronto.
+          Non sò persuadermi che quella <orgName ref="#DLCL_CF_O0108">Libreria</orgName> sia ne’ pur’ al pari della nostra provveduta de’ Padri moderni.
+          Delle antiche edizioni promiscuamente può esser che maggiore sia colà il numero de’ Volumi.
+          Lo esorti che voglia associarsi per la Biblioteca di trentatre Volumi, alla quale io non posso applicare.
+          Già da <placeName ref="#DLCL_CF_L0024">Venezia</placeName> n’ebbi io ancora l’invito segreto.
+          Lodo sommamente l’associazione, e la stimo necessaria, non che profittevole.
+        </p>
+        <p>
+          Della famosa vendita delle <bibl type="print">Epistole</bibl> del <persName ref="#DLCL_CF_PC0258">Delfino</persName> fatta in <placeName ref="#DLCL_CF_L0017">Parigi</placeName> per cento doppie, ho inteso che
+        </p><pb n="2 - Verso" xml:id="DLCL_CF_E11031_C2V_L" facs="https://www.cdc.classense.ra.it/iiif/2/21412/full/800,/0/default.jpg"/>
+        <p>
+          il contratto seguì per viglietti, che portavano la detta somma, ma in effetto valevano quel, che uno ne poteva ricavare.
+          Non si è trovato finora chi veramente voglia dare cinquanta scudi.
+          Se vera istoria fosse quella delli 100. zecchini in <placeName ref="#DLCL_CF_L0017">Parigi</placeName> si saprebbe dove abbia a far capo chi vuole levargli, e dare il libro.
+          La stimo una favola.
+          E se a me capita l’occasione di 25. zecchini, è probabil cosa che io mi privi del libro.
+          Col <persName ref="#DLCL_CF_PC0391">Padre Abate Gasparini</persName> bisognerebbe trattare per aver’ un corpo colà duplicato dell’<bibl type="manuscript">Epistole</bibl> a penna dello stesso <persName ref="#DLCL_CF_PC0258">Delfino.</persName>
+          Chi ha la bor[sa] in mano, vi pensi.
+          A me cascano le braccia, non tanto per mancanza a me del danaro, quanto per vedere che in altri manca, ed è spento l’affetto.
+          Che faranno gli altri <rs type="person">Successori?</rs> Facciano ciò, che vogliono.
+          Non vò perde<gap reason="lost"/> perciò la pace, né inquietar me, né gli altri.
+        </p>
+       
+        <closer>
+          <salute>L’abbraccio caramente, e mi confermo.</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1722-05-13">13. Maggio 1722.</date> due giorni prima della spedizione della posta, che seguirà il dì 15.</dateline>
+          <salute>Chi ha tempo non aspetti t[empo]. DVPMR</salute>
+        </closer>
+        
+        <postscript>
+          <p>Metta in ordine la nota di coteste antiche edizioni, per inviarmela al ritorno di Frate Gio.
+            Battista, insieme co’ i fogli trasmessi per lui medesimo.
+            E de’ libri di <placeName ref="#DLCL_CF_L0010">Padova</placeName> non sento nuova, se siano andati a <placeName ref="#DLCL_CF_L0003">Pesaro,</placeName> dove intendo bensì essere capitato prigione <persName ref="#DLCL_CF_PC0955">Monsignore Martorelli.</persName>
+            Ecco ove certi irregolari cervelli vanno a finire.</p>
+        </postscript>
+        
+        <closer>
+          <salute>Affettuosissimo Servitore e Cordialissimo Padre nel <persName>Signor</persName>e</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+        </closer>
+        
+      </div>
+    </body>
+   </text>
+</TEI>

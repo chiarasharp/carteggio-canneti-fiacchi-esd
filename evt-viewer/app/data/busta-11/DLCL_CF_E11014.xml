@@ -1,0 +1,119 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11014">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20907/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21366/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21367/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11014">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 18 Agosto 1721)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">14</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1721-08-18"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">conversione lacune in gap</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11014_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21366/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+        <p>
+          Anche in un quartuccio di foglio scriva <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità,</rs> purché mi scriva.
+          Godo sommamente che all’antico sito sia ritornata l’Urna dell’<persName ref="#DLCL_CF_PC0895">Arcivescovo di Ravenna Teodoro.</persName>
+          Cotesto marmo goda l’onore di star nel comune Conditorio (mi servo della voce latina, non avendola pronta nella lingua nostra) de’ Pontefici Ravennati, ove molto più meriterebbono riposare le sue ossa per la santa ed eroica azione, con cui sottomise cotesta gran Chiesa, dopo non breve scisma, alla Santa Sedia Romana.
+          Io dubitavo che il marmo greco, per essere assai poroso, non potesse facilmente purgarsi dal sudiciume penetrante dell’olio, di cui è stato per tanti anni sporcamente intriso.
+        </p>
+        
+        <p>
+          Resto persuaso sempre più che egualmente siano perfette, e intiere le due nostre copie del <bibl type="print">Florido,</bibl> con questa differenza che sia deformata dal tarlo cotesta della <orgName ref="#DLCL_CF_O0001">Libreria.</orgName>
+          Se potesse vendersi almeno per dodici paoli, sostituirei l’altra poc’anzi da me acquistata.
+        </p>
+        <p>
+          Ho fatta riflessione a quattro Arcivescovi del Musaico: e attesa la brevità del pontificato di <persName ref="#DLCL_CF_PC0062">Ursicino,</persName> al quale si attribuisce la fabbrica della <orgName ref="#DLCL_CF_O0005">Basilica Classense,</orgName> tengo ch’essa fosse cominciata, e tirata avanti a tempi d’<persName ref="#DLCL_CF_PC0061">Ecclesio,</persName> poscia di ordine d’esso <persName ref="#DLCL_CF_PC0062">Ursicino</persName> finita da <persName ref="#DLCL_CF_PC0882">Giuliano detto l’Argentario,</persName> e insieme ornata del musaico, senza apporsi il titolo di Santo ad ambidue gli Arcivescovi o vivi, o poco prima defonti; siccome Santi s’intitolano Severo, di cui era grande, e speciale il culto nella città di <placeName ref="#DLCL_CF_L0020">Classe,</placeName> ad <persName ref="#DLCL_CF_PC0063">Orso</persName> venerato distintamente per la memoria
+        </p>
+        <pb xml:id="DLCL_CF_E11014_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21367/full/800,/0/default.jpg"/>
+        <p>
+          della <orgName ref="#DLCL_CF_O0158">Basilica Orsiana</orgName> da lui edificata.
+          Osservo che, secondo il costume di quell’età né <persName ref="#DLCL_CF_PC0061">Santo Ecclesio,</persName> né <persName ref="#DLCL_CF_PC0062">Santo Ursicino</persName> si rappresentano con la <orgName ref="#DLCL_CF_O0005">Chiesa di Classe</orgName> in mano; perché (credo io) né l’uno, né l’altro la compì; ma comune ad ambi fù il pregio dell’averla fabbricata.
+          In pochi giorni con queste, ed altre operazioni posso mettere in ordine una Dissertazione, che tutti corregga gli errori di <persName ref="#DLCL_CF_PC0051">Ciampini,</persName> e degli altri Scrittori, che d’esso musaico han fatta menzione, e pongo in lume buono, e proprio la verità delle cose rappresentate.
+          Nulla però si può fare senza il disegno intiero, ed esatto delle figure, poco importando una rigo<gap reason="lost"/> misura geometrica: poscia che non si ha a trattare di architettura, ma d’interpretazione iconologica.
+        </p>
+        
+        <closer>
+          <salute>E ciò basti per ora, con caramente salutarla di cuore.</salute>
+          <salute>DVPMR</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName><date when-iso="1721-08-18">18. Agosto 1721.</date></dateline>
+        </closer>
+        
+        <postscript>
+          <p>
+            Il titolo del libretto in dodici copie da mandarsi per prima occasione è il seguente <bibl type="print">Della Maniera di conversare con Dio.</bibl>
+            <placeName ref="#DLCL_CF_L0005">Faenza</placeName> per l’<persName ref="#DLCL_CF_PC0883">Archi.</persName> 1718. in 12. = Il danaro si levi dal <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli.</persName>
+          </p>
+        </postscript>
+        
+        <closer>
+          <salute>Affettuosissimo Servo e Padre <gap reason="lost"/></salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+        </closer>
+        
+        </div>
+    </body>
+   </text>
+</TEI>

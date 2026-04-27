@@ -1,0 +1,99 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11027">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20920/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21401/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11027">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 20 Aprile 1722)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">27</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1722-04-20"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+    
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11027_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21401/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Bibliotecario Amatissimo</rs>
+          </salute>
+        </opener>
+        <p>
+          Trà i libri nostri, che costi lasciai ultimamente, alcuni altri vi erano che io aveva destinato dovessero venirmi appresso a trovare in <placeName ref="#DLCL_CF_L0004">Fabriano.</placeName>
+          Ora mi ricordo di un <bibl type="manuscript">Manoscritto in carta,</bibl> ove stanno certe nostre <bibl type="manuscript">Costituzioni,</bibl> o <bibl type="manuscript">Decreti Capitolari,</bibl> e in oltre della Seconda parte delle nostre <bibl type="manuscript">Storie Camaldolesi.</bibl>
+          L’uno, e l’altro si compiaccia mandarmi con prima occasione.
+        </p>
+        <p>
+          Ringrazj il Signore Iddio che ha messa in sicuro la salute del <persName ref="#DLCL_CF_PC0259">Padre Bianconi,</persName> non essendo degenerata in vera punta la spuria, come temeva il <rs type="person">Medico,</rs> o non essendosi scoperta peggiore di quel, che apparve sul principio.
+          Appunto mi manda a dire che solleciti a far venire la roba per vestirlo da estate, pensando di trovarsi in <placeName ref="#DLCL_CF_L0007">Bologna</placeName> per la Pentecoste alla messa novella del suo <rs type="person">Fratello minore.</rs>
+          Ieri fu stabilito il contratto de <bibl type="manuscript">due Messali,</bibl> <bibl type="manuscript">un Breviario,</bibl> e <bibl type="manuscript">un Lezionario antichi in pergamena.</bibl>
+          Ma chi anderà a <placeName ref="#DLCL_CF_L0165">Montalboddo?</placeName> Ah cattivo!
+        </p>
+        
+        <closer>
+          <salute>Con tuttociò mi confermo, e di cuore.</salute>
+          <salute>DVPMR</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1722-04-20">20. Aprile 1722.</date></dateline>
+          <salute>Al <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina</persName> i miei teneri rispetti.</salute>
+          <salute>Cordialissimo servitore e Padre Affezionatissimo nel Signore</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+        </closer>
+      
+      </div>
+    </body>
+   </text>
+</TEI>

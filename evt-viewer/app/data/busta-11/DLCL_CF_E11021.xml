@@ -1,0 +1,146 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11021">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20914/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21387/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21388/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21389/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11021">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 17 Ottobre 1721)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">21</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1721-10-17"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11021_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21387/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+        <p>
+          Se non fossero effetti di amore, ch’è passione di natura timida, e sollecita, <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> averebbe motivo di abominare i miei pronostici, ed io vorrei seco gareggiare in detestarli.
+          Perché non sempre possono esser felici, e pur troppo si vanno avverando, lasciamoli da parte.
+          Questo è indubitato ch’è necessaria a lei tuttavia una buona, e continua cautela per un pezzo avvenire, non fermandosi né pur l’inverno intiere le giornate nell’aria micidiale di <placeName ref="#DLCL_CF_L0020">Classe,</placeName> ove basterà di quando in quando, ed anche ogni giorno dare, senza fermarvisi un’occhiata, e lasciarvi la direzione di quanto anderà occorrendo fino al compimento dell’opera.
+        </p>
+        <p>
+          Ebbi lettera da <placeName ref="#DLCL_CF_L0003">Pesaro</placeName> del <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli,</persName> che altri avvisi mi prometteva del suo avvicinamento, con dubbio però che la stagione fosse per impedire il progresso oltre a <placeName ref="#DLCL_CF_L0159">Fossombrone.</placeName>
+          Quest’ultimo ordinario nulla più mi ha recato di nuovo; e Lunedì ho necessità di partire indispensabilmente da <placeName ref="#DLCL_CF_L0004">Fabriano.</placeName>
+          Temo pertanto di non rivedere il <persName ref="#DLCL_CF_PC0003">Reverendissimo Galamini,</persName> né il <rs type="person" ref="#DLCL_CF_PC0121">Padre Lettore,</rs> se essi almeno giunti quà non si prendono l’incomodo di passare a <orgName ref="#DLCL_CF_O0002">Valdicastro,</orgName> ove alcuni affari mi terranno confinato.
+        </p>
+        <p>
+          La ringrazio della spedizione fatta al <persName ref="#DLCL_CF_PC0547">Reverendissimo Tassis.</persName>
+          Si faccia rimborsare la spesa del porto dal <rs type="person" ref="#DLCL_CF_PC0121">Padre Lettore,</rs> al di lui ritorno.
+        </p>
+        
+        <pb xml:id="DLCL_CF_E11021_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21388/full/800,/0/default.jpg"/>
+        <p>
+          Per il <persName ref="#DLCL_CF_PC0646">Padre Maestro Greco,</persName> oltre i quattro Tomi del <bibl type="print">Lirano</bibl> più volte accennati, e il <bibl type="print">Plinio</bibl> del <persName ref="#DLCL_CF_PC0636">Jenson,</persName> 
+          vi sarà da servirlo della <bibl type="print">Bibbia</bibl> del <rs type="person" ref="#DLCL_CF_PC0636">medesimo stampatore</rs> <placeName ref="#DLCL_CF_L0024"><foreign xml:lang="la">Venetijs</foreign></placeName> 1476., 
+          che stimo sia della stessa edizione della nostra bellissima in pergamena, se non che questa è in carta, ben conservata, con una miniaturina dell’Eterno Padre in principio, e tutte le lettere iniziali miniate senz’oro, di rosso, e azzurro.
+          Così può acquistare il <bibl type="print">Plinio,</bibl> e la <bibl type="print">Bibbia</bibl> da lui sospirati.
+          Potremo ancor dargli cotesto <bibl type="print">Quaresimale</bibl> di <persName ref="#DLCL_CF_PC0887">Roberto de Licio,</persName> avendone io avuto ora un’altro dell’istessa stampa di <placeName ref="#DLCL_CF_L0001">Cremona,</placeName> alquanto più ornato, e più bello.
+        </p>
+        <p> Ho di nuovo acquisto due esemplari del <rs type="person" ref="#DLCL_CF_PC0898">Maestro
+            delle Sentenze,</rs> uno stampato da <persName ref="#DLCL_CF_PC0897">Vendelino de
+            Spira</persName> in <placeName ref="#DLCL_CF_L0024">Venezia</placeName> 1477. in 4.to
+          grande; ed uno <bibl type="manuscript">Manoscritto in pergamena</bibl> in fogl.o avanti il
+            <hi rend="ul">1400</hi>. Nel <bibl type="print">Fontanini</bibl> alla pag. 50., ove del
+            <persName ref="#DLCL_CF_PC0479">Giraldi</persName> si riferi[sce] la sola Tragedia <bibl
+            type="print">Orbecche,</bibl> ho aggiunto in margine: <hi rend="ul">Le Tragedie di
+            </hi><persName ref="#DLCL_CF_PC0479"><hi rend="ul">Gio. Battista Giraldi
+            Cintio</hi></persName><hi rend="ul">, cioè </hi><bibl type="print"><hi rend="ul"
+              >Orbecche</hi></bibl><hi rend="ul">, </hi><bibl type="print"><hi rend="ul"
+            >Altile</hi></bibl><hi rend="ul">, </hi><bibl type="print"><hi rend="ul"
+            >Didone</hi></bibl><hi rend="ul">, </hi><bibl type="print"><hi rend="ul"
+              >Antivalomeni</hi></bibl><hi rend="ul">, </hi><bibl type="print"><hi rend="ul"
+              >Cleopatra</hi></bibl><hi rend="ul">, </hi><bibl type="print"><hi rend="ul"
+              >Arrenopia</hi></bibl><hi rend="ul">, </hi><bibl type="print"><hi rend="ul"
+              >Eufimia</hi></bibl><hi rend="ul">, </hi><bibl type="print"><hi rend="ul"
+            >Epitia</hi></bibl><hi rend="ul">, </hi><bibl type="print"><hi rend="ul"
+            >Selene</hi></bibl><hi rend="ul"> in </hi><placeName ref="#DLCL_CF_L0024"><hi rend="ul"
+              >Venezia</hi></placeName><hi rend="ul"> appresso </hi><persName ref="#DLCL_CF_PC0903"
+              ><hi rend="ul">Giulio Cesare Cagnaccini</hi></persName><hi rend="ul"> 1582. in
+            8.vo</hi> Martedì mi favorì di questo raro libro il <persName ref="#DLCL_CF_PC0232"
+            >Signor Boccolini</persName> venuto qua per dar mano a farmi avere gli accennati libri
+          antichi, ed altri, ch’erano in <placeName ref="#DLCL_CF_L0004">Fabriano,</placeName> dove
+          provo la disgrazia, che sempre mi accompagna di non poter trattare da me, ma di dovermi
+          valere del mezzo altrui, mercè del troppo concetto, che hanno, e del sospetto della mia
+          cognizione, la qual pure è pochiss[ima]. </p><pb xml:id="DLCL_CF_E11021_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21389/full/800,/0/default.jpg"/>
+        <p>
+          Per rinforzarla, aspetto un Libro nuovo da <placeName ref="#DLCL_CF_L0065">Amsterdam,</placeName> motivato dal <persName ref="#DLCL_CF_PC0068">Marchese Maffei</persName> nell’<bibl type="print">Opuscolo de’ Traduttori</bibl> (o li quanto scarso, e digiuno!) cioè gli <bibl type="print">Annali Tipografici</bibl> del <persName ref="#DLCL_CF_PC0901">Maittaire.</persName>
+          Benché in <placeName ref="#DLCL_CF_L0024">Venezia</placeName> sia insorta una fierissima tempesta contro l’<bibl type="print">Istoria</bibl> del <persName ref="#DLCL_CF_PC0886">Varchi</persName> proibita con severissime pene dalla Repubblica, una copia ne ho avuta altrove, e l’attendo in breve.
+        </p>
+        <p>
+          Il suddetto <persName ref="#DLCL_CF_PC0232">Boccolini</persName> mi ha letti alcuni pezzi della sua <bibl type="print">Biblioteca della Marca, e dell’Umbria,</bibl> di cui è vicino a terminare il primo Tomo.
+          Non mi sovviene che in tale sfera di libri noi abbiamo altrettanto di buono.
+          È opera piena, castigata, ricca di rarissime notizie, distesa con uno stile proprio, dolce, e degno di tutta la Lode.
+          Finisco la visita, con cui troppo ho annoiato il <rs type="person">Convalescente:</rs> ma sò che questi discorsi a lui saranno più soavi degli altri.
+          Un’abbraccio ben tenero comune al <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina.</persName>
+        </p>
+      
+        <closer>
+          <salute>Resto senza fine.</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1721-10-17">17. Ottobre 1721.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Affettuosissimo Servitore e Cordialissimo Padre nel Signore</salute> 
+          <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+        
+      </div>
+    </body>
+   </text>
+</TEI>

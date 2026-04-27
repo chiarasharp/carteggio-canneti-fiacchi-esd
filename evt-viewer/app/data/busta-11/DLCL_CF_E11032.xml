@@ -1,0 +1,144 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11032">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20925/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21413/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21414/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21415/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11032">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 22 Maggio 1722)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">32</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1722-05-22"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-30" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+    
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">conversione lacune in gap</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">correzione entità</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb n="1 - Recto" xml:id="DLCL_CF_E11032_C1R_L" facs="https://www.cdc.classense.ra.it/iiif/2/21413/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+        <p>
+          Unitamente con <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità,</rs> che ne ha l'incomodo, rendo grazie al <persName ref="#DLCL_CF_PC0006">Padre Amici</persName> nostro Compitissimo, per gli avvisi a me partecipati.
+          È mancato un’Uomo di gusto singolare nella morte del <persName ref="#DLCL_CF_PC0498">Padre Adami,</persName> la quale per altro potiamo pienamente credere che al medesimo abbia recato l’eterno riposo, oltre al fine della grave indisposizione, in cui era caduto.
+          Non so’ figurarmi ch’egli avesse libri degni del nostro desiderio: con tutto ciò Ella potrebbe, come da se, prenderne notizia.
+          Confusamente parmi ch’esso mi mostrasse una volta il <bibl type="print">Concilio di Trento</bibl> coll’autentica del sigillo, e sottoscrizione, la qual manca nel nostro; e cotesto in tal caso vendendosi, si potrebbe in quello rinvestire il prezzo.
+          L’Opera del <persName ref="#DLCL_CF_PC0216">Fontanini</persName> del <bibl type="print">Dominio della sede Apostolica sopra Parma, e Piacenza</bibl> io l’ho donatami dall’<rs type="person" ref="#DLCL_CF_PC0216">Autore,</rs> e legata dalli <orgName ref="#DLCL_CF_O0159">Pagliarini</orgName> di <placeName ref="#DLCL_CF_L0008">Roma.</placeName>
+          Prenderò l’altra del <persName ref="#DLCL_CF_PC1019">Nicoli,</persName> quando sia a prezzo discreto, rimettendone a <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> il giudicio.
+          Godo che il <persName ref="#DLCL_CF_PC0926">Padre Don Cerbonio</persName> sia Priore dell’<orgName ref="#DLCL_CF_O0168">Eremo</orgName> di <placeName ref="#DLCL_CF_L0007">Bologna,</placeName> e pensi di proseguir la fabbrica di quella Chiesa.
+          Mi ricordi riverentissimo Servitore al suddetto <persName ref="#DLCL_CF_PC0006">Padre Amici.</persName>
+          Si potrebbe intendere se i libri del <persName ref="#DLCL_CF_PC0498">Padre Adami</persName> si diano per Messe.
+          Non mi ricordo bene se il <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina</persName> per me abbia tempo fà preso il <bibl type="print">Bellarmino in Psalmos</bibl> per 13. paoli, come avevane fatto il patto: mi pare che dal <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli</persName> gli fà somministrato il danaro.
+          Se così stà, sarà il libro in di lei mano: nel qual caso mi favorisca procurarne l’esito per 13. messe, non avendone io presentemente bisogno.
+          E della <bibl type="print">Musurgia</bibl>
+        </p><pb n="1 - Verso" xml:id="DLCL_CF_E11032_C1V_L" facs="https://www.cdc.classense.ra.it/iiif/2/21414/full/800,/0/default.jpg"/>
+        <p>
+          che si è fatto? Se è capitata in mano a <persName ref="#DLCL_CF_PC0004">Marozzi,</persName> converrà invigilare e badare che non vengano a sparire i libri, e i danari ad un tempo medesimo.
+        </p>
+        <p>
+          Mi spiace della mala soddisfazione del <persName ref="#DLCL_CF_PC0011">Signor Volpi</persName> per conto del <bibl type="print">Lessico Matema<gap reason="lost"/>.</bibl>
+          Se questo ha patito nel viaggio, a me non tocca il danno, né il pensi[ero] essendo trasferito il dominio nel compratore, seguita che sia la spedizione secondo il di lui ordine.
+          Nulladimeno antepongo all’interesse il servizio, e la soddisfazione dell’Amico.
+          <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> ritenga il migliore tra nostri libri, e mandi a lui l’altro de’ nostri due esemplari.
+          Per <gap reason="lost"/> altro, che ha patito, si faccia mandare il nuovo <bibl type="print">Petrarca</bibl> legato, e <gap reason="lost"/> <persName ref="#DLCL_CF_PC0518">Signor Don Gaetano</persName> per il soprapiù faccia celebrar quelle messe secondo <gap reason="lost"/> mia applicazione, che potrà, e stimerà proprio.
+        </p>
+        <p>
+          Or ch’è cessato il Vaiuolo, e ogni malanno, potrebbe <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> procurarsi un poco di sollievo, venendo con <persName ref="#DLCL_CF_PC1008">Frate Giovanni Batista,</persName> anco a cavallo.
+          Fino a <placeName ref="#DLCL_CF_L0003">Pesaro</placeName> non è gran viaggio.
+          Da <placeName ref="#DLCL_CF_L0003">Pesaro</placeName> se n’andrebbe al <placeName ref="#DLCL_CF_L0179">Massaccio,</placeName> o al <placeName>Monte <gap reason="lost"/></placeName> e poi quà.
+          Sarebbe qui per la festa del <persName ref="#DLCL_CF_PC0017">Padre San Romualdo,</persName> e subito anderessim<gap reason="lost"/> a <placeName ref="#DLCL_CF_L0051">Nocera,</placeName> dove si fà un’insignissimo triduo per <persName ref="#DLCL_CF_PC0752">San Rinaldo.</persName>
+          Alla processione vi averà luogo la Religione nostra, assistendo al Sacro Corpo incorrot<gap reason="lost"/> <rs type="person">quattro Abati Mitrati,</rs> e i Monaci in due ali in corolla [o cocolla?] colle torce.
+          Vi saranno due Cardinali, Vescovi, Prelati, e mezzo mondo.
+          Io ho assicurata l’abitazione ne’ Filippini, ove vi sarà luogo per tutti i nostri.
+          Le altre case son tutte impegnate
+        </p><pb n="2 - Recto" xml:id="DLCL_CF_E11032_C2R_L" facs="https://www.cdc.classense.ra.it/iiif/2/21415/full/800,/0/default.jpg"/>
+        <p>
+          per la foresteria.
+          Il <rs type="person" ref="#DLCL_CF_PC1030">Duca di Modena</rs> ha mandata una cedola di 150. scudi per limosina.
+          Vegga il libretto in 8.vo della <bibl type="print">Traslazione di San Giovanni di Lodi</bibl> dell’<persName ref="#DLCL_CF_PC0927">Armanni;</persName> e mi trascriva e mandi subito quel, che ivi stà scritto degli Abati, che furono a quella funzione, affinche serva di regola.
+        </p>
+        <p>
+          Il nostro <persName ref="#DLCL_CF_PC0673">Don Giovanni</persName> è perfettamente guarito, essendosi sgravato dalle materie, ed impurità di cotesta aria più grossa.
+          Tutto si rinvigorì, e fi<gap reason="lost"/>i di star male al sentir cessato il pericolo di dover partire di quà, ove stà così volentieri, che non può esprimersi la sua soddisfazione.
+          In questo luogo, che pare un’angolo del mondo egli ha veduto una copia grande delle antiche edizioni appresso i Domenicani, e tanti bellissimi <bibl type="manuscript">Manoscritti appresso i Silvestrini,</bibl> che basterebbono ad accreditare in tal genere qualunque delle Città di <placeName ref="#DLCL_CF_L0008">Roma</placeName>gna.
+          Gli restano da vedere i libri pare stimabili de’ <rs type="person">Minori Osservanti.</rs>
+          La <orgName>Libreria de’ Domenicani</orgName> fu fabbricata appunto nel principio della Stampa; ond’Ella si figuri com’è provveduta.
+          E qui, essendo fuor di mano, non vi son capitati uccellatori: e in oggi ha ormai ognuno aperti gli occhi.
+        </p>
+        <closer>
+          <salute>Resto caramente abbracciandola.</salute>
+          <salute>DVPMR</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1722-05-22">22. Maggio 1722.</date></dateline>
+        </closer>
+        
+        <postscript>
+          <p>Col <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli</persName> m’intenderò a dirittura.</p>
+        </postscript>
+        
+        <closer>
+          <salute>Affettuosissimo Servitore e Carissimo Padre nel Signore</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+        </closer>
+        
+      </div>
+    </body>
+   </text>
+</TEI>

@@ -70,7 +70,12 @@
          <change when-iso="2025-12-22" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2025-12-22" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
          <change when-iso="2025-12-31" who="#DLCL_CF_PS001">markup</change>
-      </revisionDesc>
+        <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+      
+        <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">conversione lacune in gap</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">correzione entità</change>
+</revisionDesc>
       </front>
       <body>
          <div type="transcription">
@@ -91,7 +96,7 @@
                ch’è tra’ i nostri, in 4.to (delle quali 
                <bibl type="manuscript">facezie Domenica mi arrivò un antico Manoscritto</bibl> 
                insieme con un 
-               <bibl type="manuscript">Valerio Massimo in pergamena in fol. con miniature nobilissimo</bibl>) 
+               <bibl type="manuscript">Valerio Massimo in pergamena in fol. con miniature nobilissimo)</bibl> 
                nè trovo certi 
                <bibl type="print">Opuscoli</bibl> 
                del 
@@ -185,7 +190,7 @@
                <persName ref="#DLCL_CF_PC0969">Uguccione della Fagiuola.</persName> 
                Or se ne desiderano altre di 
                <hi rend="underline">
-                  <persName ref="#">Pietro d’Arborea</persName></hi> 
+                  <persName ref="#DLCL_CF_PC0991" cert="unknown">Pietro d’Arborea</persName></hi> 
                e di 
                <persName ref="#DLCL_CF_PC1004">un’altro 
                   <hi rend="underline">Arborea</hi>.</persName>
@@ -194,7 +199,7 @@
                <placeName ref="#DLCL_CF_L0176">Oristagni</placeName> 
                è Città principale di 
                <placeName ref="#DLCL_CF_L0177">Sardigna.</placeName> 
-               Il primo fu Vescovo di tre Vescovati; l’altro fu Giudice, o Princ[...] e fece ammazzare venti mila Catalani. Nelle 
+               Il primo fu Vescovo di tre Vescovati; l’altro fu Giudice, o Princ<gap reason="lost"/> e fece ammazzare venti mila Catalani. Nelle 
                <bibl type="print">Istorie di Pisa,</bibl> 
                o 
                <bibl type="print">di Genova</bibl> 
@@ -212,7 +217,7 @@
                <persName ref="#DLCL_CF_PC0193">Reverendissimo Amigoni</persName> 
                mi scrisse che averebbe trasmessi a lei i libri consaputi: ma non ne ho più nuova: molto meno del trattato da farsi col 
                <persName ref="#DLCL_CF_PC0625">Padre Reggente Pugnetti.</persName></p>
-            <p>A rivederci un’altro ordinario. Resto abbracciandola.</p>
+            <p>A rivederci <persName>un’altro</persName> ordinario. Resto abbracciandola.</p>
             <closer>
                <salute>DVPMR</salute>
                <dateline><placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1722-11-20">20. 9bre 1722.</date></dateline>

@@ -1,0 +1,183 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11035">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20928/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21418/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21419/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21420/full/800,/0/default.jpg"/>
+    <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/21421/full/800,/0/default.jpg"/>
+    <graphic n="3r" url="https://www.cdc.classense.ra.it/iiif/2/21422/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11035">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 3 Luglio 1722)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">35</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1722-07-03"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-30" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+    
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">conversione lacune in gap</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">correzione entità</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb n="1 - Recto" xml:id="DLCL_CF_E11035_C1R_L" facs="https://www.cdc.classense.ra.it/iiif/2/21418/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+        <p>
+          Quanto prima <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> averà da <placeName ref="#DLCL_CF_L0028">Perugia</placeName> il <bibl type="print">Calendario delle Monache di Santa Giuliana dell’Ordine Cisterciense.</bibl>
+          Per la fiera di <placeName ref="#DLCL_CF_L0030">Sinigaglia</placeName> riceverò la Cassetta de’ libri, insieme colla <bibl type="manuscript">Nota delle antiche edizioni</bibl> fatta dal garbatissimo nostro <persName ref="#DLCL_CF_PC0873">Calogerà,</persName> e da lei, e con quelle carte ancora, che contengono quei pochi libri stampati fino al 1500., i quali stanno appresso di me.
+          Altra copia non ne hò.
+          Sommamente mi sarà grato l’uno, e l’altro indice.
+          Spero di accrescere quanto prima il mio.
+          È stato qui meco dieci giorni il <persName ref="#DLCL_CF_PC0178">Reverendissimo Ferranti,</persName> che molto ha acquistato di salute in questa dimora, e nella prima uscita dopo il suo pericoloso male.
+          Abbiam concertato di fare insieme il viaggio di <placeName ref="#DLCL_CF_L0165">Monte Alboddo.</placeName>
+          Ma per que’ libri, e per altri, de’ quali si contratta in <placeName ref="#DLCL_CF_L0028">Perugia,</placeName> e in <placeName ref="#DLCL_CF_L0170">Ascoli</placeName> ho bisogno di danaro, massimamente dopo pagate le Cartepecore in somma di scudi dodici, bai. 10. compreso un paolo del porto di esse a <placeName ref="#DLCL_CF_L0030">Sinigaglia.</placeName>
+          Il debito mio era di sc. sette bai. 50.
+          Resto pertanto creditore di sc. cinque per conto delle Cartepecore: alla qual somma aggiungansi s. 1:44. prezzo de’ cingoli, sarà il mio avere in tutto s. 6:44. i quali mi sarà caro avere in fiera di <placeName ref="#DLCL_CF_L0030">Sinigaglia.</placeName>
+          Che se per conto mio vi fosse qualche altra piccola spesa, non vorrei si defalcasse da detta somma: Avvisato rimetterò prontamente per altra via.
+        </p>
+        <p>
+          Le Opere del <persName ref="#DLCL_CF_PC0900">Gelli,</persName> ch’ella desidera sapere, son le seguenti. = <bibl type="print">Dialogi del Gello.</bibl> in <placeName ref="#DLCL_CF_L0018">Fiorenza</placeName> per il <persName ref="#DLCL_CF_PC0936">Doni</persName> 1546. in 4. = Ma son questi compresi, e fanno il principio nel seguente libro = I <bibl type="print">Capricci del Bottaio.</bibl> in <placeName ref="#DLCL_CF_L0018">Fiorenza</placeName> appresso <persName ref="#DLCL_CF_PC0905">Lorenzo Torrentino</persName> 1551. in 8. = Quinta Impressione accresciuta, e riformata. = <bibl type="print">La Circe.</bibl> in <placeName ref="#DLCL_CF_L0018">Firenze</placeName> appresso <persName ref="#DLCL_CF_PC0905">Lorenzo Torrentino</persName> 1549. in 8., e. 1550. = Son le migliori edizioni..
+        </p><pb n="1 - Verso" xml:id="DLCL_CF_E11035_C1V_L" facs="https://www.cdc.classense.ra.it/iiif/2/21419/full/800,/0/default.jpg"/>
+        <p>
+          = Tutte le <bibl type="print">Lezioni fatte nell’Accademia Fiorentina.</bibl>
+          In <placeName ref="#DLCL_CF_L0018">Firenze</placeName> appresso <persName ref="#DLCL_CF_PC0905">Lorenzo Torrentino</persName> 1551. in 8. = Son dodici Lezioni. = Lettura sopra lo Infe[rno] di <persName ref="#DLCL_CF_PC0233">Dante</persName> letta nell’Accademia Fiorentina, nel Consolato di Mes.
+          Guido Guidi e di Agnolo Borghini. in <placeName ref="#DLCL_CF_L0018">Firenze</placeName> appresso <persName ref="#DLCL_CF_PC0942">Bartolommeo Sermartelli</persName> 155<gap reason="lost"/> in 8. = Dedica il <persName ref="#DLCL_CF_PC0900">Gelli</persName> la suddetta sua <bibl type="print">prima Lettura</bibl> al Molto Magnifico Mes.
+          <persName ref="#DLCL_CF_PC0943">Giuseppe Bernardini</persName> Gentiluomo Lucchese.
+          Si contiene in essa una <bibl type="print">Ora[zione] del Gelli fatta nell’Accademia sopra la esposizione di Dante,</bibl> e <bibl type="print">dodici sue Lezioni sopra lo Inferno</bibl> del medesimo <persName ref="#DLCL_CF_PC0233">Dante.</persName> = <bibl type="print">Lettura seconda sop[ra] lo Inferno di Dante letta nel Consolato d’Agnolo Borghini.</bibl> in <placeName ref="#DLCL_CF_L0018">Fiorenza</placeName> ap[presso] <persName ref="#DLCL_CF_PC0905">Lorenzo Torrentino</persName> 1555. in 8. = Dedica questa a <persName ref="#DLCL_CF_PC0944">Lorenzo Pasquali.</persName>
+          Si con<gap reason="lost"/> in essa l’<bibl type="print">Orazione in principio della sua seconda Lettura,</bibl> e <bibl type="print">dieci sue Le[zioni]</bibl> = <bibl type="print">Lettura terza sopra lo Inferno di Dante; nel Consolato d’Antonio Landi.</bibl>
+          In <placeName ref="#DLCL_CF_L0018">[Fio]renza</placeName> appresso <persName ref="#DLCL_CF_PC0905">Lorenzo Torrentino.</persName> 1556. in 8. = La dedica al <persName>Signore Alvero A<gap reason="lost"/></persName> croce.
+          Si contiene in essa l’<bibl type="print">Orazione�</bibl>� e <bibl type="print">nove sue lezioni</bibl> = Lettura quarta sopra lo Inferno § nel Consolato di Mes.
+          Lelio <persName ref="#DLCL_CF_PC1089">Torelli.</persName>
+          In <placeName ref="#DLCL_CF_L0018">Fiorenza</placeName> [ap]presso <persName ref="#DLCL_CF_PC0905">Lorenzo Torrentino</persName> 1558. in 8. = La dedica a <persName ref="#DLCL_CF_PC0945">Filippo del Migliore.</persName> <gap reason="lost"/> contengono in essa <bibl type="print">dieci Lezioni</bibl> = La sesta lettura sopra lo Inferno § e<gap reason="lost"/> Consolato di Mes.
+          Lionardo Tanci.
+          In <placeName ref="#DLCL_CF_L0018">Fiorenza</placeName> appresso <persName ref="#DLCL_CF_PC0905">Lorenzo Torrentino</persName> in <gap reason="lost"/> La dedica a <persName ref="#DLCL_CF_PC0946">Tommaso Baroncelli;</persName> e si contengono in essa <bibl type="print">dieci Lezioni.</bibl> = <bibl type="print">Le[zione] settima sopra lo Inferno §. nel Consolato di Maestro Tommaso Ferrini.</bibl>
+          I[n] <placeName ref="#DLCL_CF_L0018">Fiorenza</placeName> appresso <persName ref="#DLCL_CF_PC0905">Lorenzo Torrentino</persName> 1565. in 8. = La dedica a <persName>Lattanzio Co<gap reason="lost"/>si;</persName> e si contengono in essa <bibl type="print">dieci Lezioni.</bibl> = Ripongasi a suo luogo la = <bibl type="print">Le[zione] quinta sopra lo Inferno�</bibl>� In <placeName ref="#DLCL_CF_L0018">Fiorenza</placeName> in 8. = L’<bibl type="print">Ecuba</bibl> tragedia di <persName ref="#DLCL_CF_PC0947">Euripide</persName>
+        </p><pb n="2 - Recto" xml:id="DLCL_CF_E11035_C2R_L" facs="https://www.cdc.classense.ra.it/iiif/2/21420/full/800,/0/default.jpg"/>
+        <p>
+          tradotta in lingua volgare. in 8. = La <bibl type="print">Sporta Commedia.</bibl> in <placeName ref="#DLCL_CF_L0018">Firenze</placeName> appresso <persName ref="#DLCL_CF_PC0814">Bernardo Giunti.</persName> 1550. in 8. = <bibl type="print">Lo Errore.</bibl> in <placeName ref="#DLCL_CF_L0018">Firenze</placeName> nella <orgName ref="#DLCL_CF_O0172">Stamperia de’ Giunti</orgName> 1603. in 8.vo = <bibl type="print">Trattato de’ colori degli occhi</bibl> di <persName ref="#DLCL_CF_PC0948">Simone Porzio</persName> tradotto in volgare. in <placeName ref="#DLCL_CF_L0018">Firenze</placeName> appresso <persName ref="#DLCL_CF_PC0905">Lorenzo Torrentino</persName> 1551. in 8. = <bibl type="print">Se l’Uomo diventa buono, o cattivo volontariamente Disputa</bibl> del <persName ref="#DLCL_CF_PC0948">Porzio</persName> tradotta.
+          In <placeName ref="#DLCL_CF_L0018">Fiorenza</placeName> appresso <persName ref="#DLCL_CF_PC0905">Lorenzo Torrentino</persName> 1551. in 8.vo = <bibl type="print">Disputa del Porzio § sopra quella Fanciulla della Magna, la quale visse due anni, o più senza mangiare, e senza bere,</bibl> tradotta.
+          In <placeName ref="#DLCL_CF_L0018">Firenze</placeName> in 8. = <bibl type="print">La vita di Alfonso da Este Duca di Ferrara</bibl> scritta dal <persName ref="#DLCL_CF_PC0197">Vescovo Giovio.</persName>
+          Tradotta. in <placeName ref="#DLCL_CF_L0018">Firenze</placeName> 1553. in 8. =
+        </p>
+        <p>
+          Attendo nuova dell’esito della <bibl type="print">Musurgia,</bibl> quando segua senza i temuti pericoli.
+          In tal caso può mandarsi ancora il <persName ref="#DLCL_CF_PC0908">Zahn</persName> <bibl type="print">Oculus Artificialis.</bibl>
+          Una simile copia ne tiene il <persName ref="#DLCL_CF_PC0178">Reverendissimo Ferranti,</persName> con cui ne ho parlato.
+          La tiene per la <orgName ref="#DLCL_CF_O0001">Libreria</orgName> col <bibl type="print">Corso Matematico</bibl> del <persName ref="#DLCL_CF_PC0951">de Chales,</persName> e altri Libri.
+          Mi avvisi la conclusione dell’affare col <persName ref="#DLCL_CF_PC0011">Volpi di Padova.</persName>
+          Il prezzo del <bibl type="print">Zahn</bibl> è di 40. paoli, almeno 38.
+        </p>
+        <p>
+          Ho pensato, e penso più che mai avere <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> maggior cognizione di me intorno a prezzi, che corrono de’ libri.
+          Io mi son regolato più sul prezzo, che mi costano, che sul valore loro.
+          <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> adunque risolva quel, che le pare più spediente.
+          Quando de’ libri della nota mandata vogliano i tre Soggetti pagare il prezzo già scritto di scudi sette contanti, li dia; non ostanti le riflessioni in contrario.
+          Se si vuol godere il comodo di farvi entrar le Messe, prendano tutti i libri da principio descritti per dieci scudi (se non erro) e per cento Messe.
+          Ma risolvano presto.
+          In ordine ad altri, rimetto ogni arbitrio a lei..
+        </p><pb n="2 - Verso" xml:id="DLCL_CF_E11035_C2V_L" facs="https://www.cdc.classense.ra.it/iiif/2/21421/full/800,/0/default.jpg"/>
+        <p>
+          Io non conosco in me abilità, né confidenza per entrare con cotesto <rs type="person">Padre Reverendissimo</rs> sopra materie di spese di libri.
+          Quando l’avessi, proporrei che si prendessero da me il <bibl type="print">Plinio,</bibl> il <persName ref="#DLCL_CF_PC0129">Mabillon</persName> <bibl type="print">de Re Diplomatica,</bibl> e tanti altri libri insigni; affinche io col danaro potessi applicare a far’ altri acquisti d’importanza.
+          Via sù <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> si faccia animo; ed entri da se a parlare a favor della <orgName ref="#DLCL_CF_O0001">Biblioteca di Classe.</orgName>
+          E delli due Tomi del <bibl type="print">Bollando</bibl> che nuova vi è? Si fà un’altra Società per la ristampa in tre Tomi di <bibl type="print">Sant’Ambrosio,</bibl> e per altre Opere, del che m’imagino averà a lei scritto il <persName ref="#DLCL_CF_PC0093">Padre Lettore Onestini.</persName>
+          Ella ne parli con franchezza.
+          Io non posso applicarvi.
+          Non si scordi di procurare i tre Tomi del <bibl type="print">Pedrusi,</bibl> de’ quali parlai, e scrissi al <persName ref="#DLCL_CF_PC0529">Signore Conte Vincenzio Piazza,</persName> e in oltre pregai il <persName ref="#DLCL_CF_PC0952">Signore Conte Paolo Biancoli</persName> che mandasse a levargli, e li facesse venire.
+          Di grazia si attenda a questo interesse.
+          Non è da trascurare l’altro degli <bibl type="print">Annali</bibl> del <persName ref="#DLCL_CF_PC1089">Torelli.</persName>
+          Merita anco [at]tenzione il <bibl type="print">Sinodo</bibl> di <persName ref="#DLCL_CF_PC0055">Monsignor Gambi,</persName> e molto più <bibl type="manuscript">i due Tomi manoscritti delle Poesie</bibl> di <persName ref="#DLCL_CF_PC0553">Clemente IX.</persName> con generosità spontanea offerti da <rs type="person">Monsignore Arcivescovo.</rs>
+        </p>
+        <p>
+          Dopo scritto il rimanente, partì ier mattina il <persName ref="#DLCL_CF_PC0259">Padre Bianconi</persName> per <placeName ref="#DLCL_CF_L0007">Bologna.</placeName>
+          Gli ho consegnato un Libro in 4.to da mandare a lei.
+          Contiene un’<bibl type="print">Orazione</bibl> di <persName ref="#DLCL_CF_PC0953">Girolamo Balbi Vescovo</persName> di <orgName ref="#DLCL_CF_O0173">Gurc,</orgName> assai diffusa, e in oltre il rarissimo <bibl type="print">Opuscolo proibito, de Coronatione,</bibl> del quale evvi in <orgName ref="#DLCL_CF_O0001">cotesta Libreria</orgName> un’altra edizione in 8.vo di <placeName ref="#DLCL_CF_L0044">Lione,</placeName> del Gri<gap reason="lost"/> <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> collazioni le due edizioni dell’<bibl type="print">Operetta de Coronatione:</bibl> e quando <gap reason="lost"/> sia differenza, tenga i due <bibl type="print">Opuscoli</bibl> del <persName ref="#DLCL_CF_PC0953">Balbi,</persName> facendogli legare uniti, separandosi però dagli altri due, con cui stanno legati.
+          Un di questi è imperfetto: l’altro consideri Ella in qual conto debba tenersi.
+        </p>
+        <p>
+          La prima fermata del <persName ref="#DLCL_CF_PC0259">Padre Bianconi</persName> doveva essere in <placeName ref="#DLCL_CF_L0165">Monte Alboddo</placeName> appresso il <persName>Signore Antoni<gap reason="lost"/></persName>
+        </p><pb n="3 - Recto" xml:id="DLCL_CF_E11035_C3R_L" facs="https://www.cdc.classense.ra.it/iiif/2/21422/full/800,/0/default.jpg"/>
+        <p>
+          Nipote del <persName ref="#DLCL_CF_PC0178">Padre Abate Ferranti,</persName> da cui dipende l’acquisto de’ consaputi libri.
+          Improvvisamente però feci risoluzione di mandare col detto <persName ref="#DLCL_CF_PC0259">Padre Don Benedetto</persName> il <persName ref="#DLCL_CF_PC0676">Padre Lettore Grilli,</persName> che aspetto dimani di ritorno colla nota diligente di quel, che avrà osservato.
+          Ecco il primo incomodo, che ha avuto questo buon Religoso, per supplire le parti dell’Amico suo indocile, il quale però ne paga la pena condannato a fatiche antigeniali.
+          Staremo a vedere se potrà supplire le veci altrui nella Compilazione delle <bibl type="print">Notizie Genealogiche</bibl> de’ <persName ref="#DLCL_CF_PC0121">Guiccioli.</persName>
+          Io stò male in ordine per cagione de’ caldi, massimamente da che mi trovo in una lunga purga, e dopo fatta una cavata di sangue, il quale da dodici anni in quà non mi era stato toccato.
+        </p>
+        <p>
+          Dell’affare col <persName ref="#DLCL_CF_PC0625">Padre Reggente Pugnetti,</persName> sopra di che scrissi minutamente, rimettendomi a lei, purche si facesse qualche cosa; io non sento altra nuova.
+          L’<bibl type="print">Opuscolo de Coronatione</bibl> è una rarità da dargli.
+          L’altro l’ho avuto di fresco col <bibl type="print">Trattato in fol. de Iubileo</bibl> del <persName ref="#DLCL_CF_PC0956">Benzoni,</persName> e con una <bibl type="manuscript">Rettorica di Cicerone in cartapecora manoscritto.</bibl>
+          A pezzi, e bocconi ho scritta la presente con uno stento non ordinario, e una svogliatezza infinita.
+          Mi riverisca il <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli,</persName> al quale scriverò in tutti i modi ben presto.
+          Rimando la nota de’ libri.
+        </p>
+        
+        <closer>
+          <salute>E resto confermandomi.</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1722-07-03">3. Luglio 1722.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Cordialissimo Servitore e Padre affezionatissimo nel Signore</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+        </closer>
+      
+      </div>
+    </body>
+   </text>
+</TEI>

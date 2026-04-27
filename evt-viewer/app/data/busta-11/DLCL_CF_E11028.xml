@@ -1,0 +1,113 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11028">
+   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20921/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21402/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21403/full/800,/0/default.jpg"/>
+  </facsimile>
+   <text type="letter" xml:id="DLCL_CF_E11028">
+      <front>
+         <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 27 Aprile 1722)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">28</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+         <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1722-04-27"/>
+          <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+         <revisionDesc status="created">
+      <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+    
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+  <change when-iso="2026-04-27" who="#DLCL_CF_PS001">conversione lacune in gap</change>
+</revisionDesc>
+      </front>
+      <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11028_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21402/full/800,/0/default.jpg"/>
+        <opener>
+          <salute>
+            <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Osservandissimo</rs>
+          </salute>
+        </opener>
+        <p>
+          A caso mi è venuto alle mani il tomo secondo delle <bibl type="print">Storie Camaldolesi,</bibl> il quale io credeva rimasto costì.
+          Non sò se lo stesso sbaglio siasi da me preso intorno al <bibl type="manuscript">Manoscritto delle Costituzioni Camaldolesi.</bibl>
+          Attendo che <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> mi sciolga il nodo.
+          In questo mentre la prego trascrivermi quanto di <placeName ref="#DLCL_CF_L0009">Cesena,</placeName> e de’ <placeName ref="#DLCL_CF_L0009">Cesena</placeName>ti scrivono <persName ref="#DLCL_CF_PC0202">Sidonio Apollinare,</persName> e il di lui Commentatore <persName ref="#DLCL_CF_PC0907">Sirmondo,</persName> valendosi del doppio indice dell’uno, e dell’altro.
+        </p>
+        <p>
+          Gli <bibl type="print">Annali Tipografici</bibl> si stendono dal principio dell’Arte trovata fino a tutto l’Anno 1500.
+          Per farvi un’aggiunta, converrebbe abbracciar tutto quel tempo.
+          In questo mentre riceverò quella nota, ch’era vicina al fine sul mio partire, come mi disse il carissimo <persName ref="#DLCL_CF_PC0873">Padre Calogerà</persName> che di cuore saluto.
+        </p>
+        <p>
+          Una volta ebbi di costà le <bibl type="print">Canzonette sopra la Passione del Signore</bibl> date fuori (se non erro) dal <persName ref="#DLCL_CF_PC0073">Brunori.</persName>
+          Suppongo siano in <orgName ref="#DLCL_CF_O0001">Libreria:</orgName> nel qual caso penso donar questa copia a <persName ref="#DLCL_CF_PC0906">Monsignor Ercolani</persName> qui Governatore, bravo Poeta, con cui vado stringendo amicizia.
+          Ho sotto gli occhi un’<bibl type="print">Opera</bibl> di esso composta di Sonetti, e Canzoni in lode della Madre Santissima.
+          Alcune di queste composizioni stanno tra le <bibl type="print">Rime degli Arcadi.</bibl>
+          Dica al <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina</persName> che le legga attentamente, e me ne scriva il suo candido sentimento.
+          Lo riverisco ben caramente.
+          Nel <bibl type="print">Teologico</bibl> ho incontrato de’ sentimenti duri, e arditi..
+        </p><pb xml:id="DLCL_CF_E11028_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21403/full/800,/0/default.jpg"/>
+        <p>
+          Si ricordi che ha <bibl type="manuscript">Libri Antichi duplicati</bibl> euvi il <bibl type="manuscript">Quaresima[le]</bibl> di <persName ref="#DLCL_CF_PC0887">Roberto da Lecce.</persName>
+          Se cotesti <rs type="person">Padri dal Corno</rs> volessero il <bibl type="manuscript">Plinio,</bibl> il <bibl type="manuscript">Quintiliano</bibl> per li dieci scudi già pattuiti col <persName ref="#DLCL_CF_PC0646">Greco,</persName> glieli <gap reason="lost"/> e si può far di meno di rivelar la carta mancante non essendovi di ciò obbligo ne’ libri vecchi.
+          Insieme co’ i libri di <gap reason="lost"/>dava, e altri mi mandi anche il nostro <bibl type="print">Platelia.</bibl>
+        </p>
+        
+        <closer>
+          <salute>Co[sì] che mi confermo, abbracciandola <foreign xml:lang="">toto cordis affectu</foreign>.</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1722-04-27">27. Aprile 172[2.]</date></dateline>
+          <salute>Affezionatissimo Servitore e Padre Cordialissimo nel Signore</salute>
+          <signed>
+            <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
+          </signed>
+        </closer>
+      
+      </div>
+    </body>
+   </text>
+</TEI>
