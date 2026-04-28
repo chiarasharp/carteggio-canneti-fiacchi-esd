@@ -1,46 +1,56 @@
-# Edizione Scientifica Digitale Carteggio Canneti Fiacchi
+# Edizione Scientifica Digitale — Carteggio Canneti-Fiacchi
 
-## Starting the application
+EVT 2.0 viewer for the digital edition of the correspondence between Pietro Canneti
+(1659–1730) and Mariangelo Fiacchi (1688–1777), Camaldolese monks involved in the
+formation of the Biblioteca Classense in Ravenna (1711–1730).
 
-1. Move into `evt-viewer` folder
+Part of the **DigiLetClass** project, funded by PNRR-CHANGES (Spoke 3: Cultural Heritage).
 
-    ```bash
-    cd evt-viewer
-    ```
-2. Check the `nvm` version (it should be `0.39.1`):
+---
 
-   ```bash
-   nvm --version
-   ```
-   **Expected output:**
+## Repository structure
 
-   ```plaintext
-   0.39.1
-   ```
-2. Set Node.js to version 14:
+```
+carteggio-canneti-fiacchi-esd/
+├── evt-viewer/          # EVT 2.0 application
+│   ├── app/
+│   │   ├── data/        # converted TEI/XML
+│   │   └── config/      # EVT configuration
+└── README.md
+```
 
-   ```bash
-   nvm use 14
-   ```
-   **Expected output:**
+Data source: [`carteggio-canneti-fiacchi-data`](https://github.com/chiarasharp/carteggio-canneti-fiacchi-data)
 
-   ```plaintext
-   Now using node v14.x.x (npm v6.x.x)
-   ```
-3. Install the dependencies:
+---
 
-   ```bash
-   npm install
-   npm install --only=dev
-   ```
-4. Start the project:
+## Development setup
 
-   ```bash
-   npm run start
-   ```
+```bash
+cd evt-viewer
+nvm use 14
+npm install
+npm install --only=dev
+npm start        
+```
 
-Software dell'edizione digitale del carteggio intercorso negli anni 1711-1730 tra i bibliotecari Pietro Canneti (1659-1730) e Mariangelo Fiacchi (1688-1777), oggi conservato presso la Biblioteca Classense di Ravenna. Basato su [EVT 2.0](https://github.com/evt-project/evt-viewer).
+Requirements: Node.js 14 (via nvm), npm 6.
 
-Il progetto è finanziato dall’Unione Europea - NextGenerationEU a valere sul Piano Nazionale di Ripresa e Resilienza (PNRR) – Missione 4 Istruzione e ricerca – Componente 2 Dalla ricerca all’impresa – Investimento Investimento 1.3, Avviso D.D. 341 del 15/03/2022, dal titolo: Cultural Heritage Active Innovation for Sustainable Society, codice proposta PE0000020 CUP [J33C22002850006].
+---
+
+## Corpus
+
+| Busta | Letters | Status |
+|---|---|---|
+| Busta 10 | E10001–E10133 | Complete |
+| Busta 11 | E11001–E11060 | Published — markup complete |
+| Busta 11 | E11061–E11141 | Stubs only — not yet published |
+
+---
 
 ![Testata PNRR](testata-pnrr.png "Testata PNRR")
+
+Il progetto è finanziato dall'Unione Europea - NextGenerationEU a valere sul Piano
+Nazionale di Ripresa e Resilienza (PNRR) – Missione 4 Istruzione e ricerca –
+Componente 2 Dalla ricerca all'impresa – Investimento 1.3, Avviso D.D. 341 del
+15/03/2022, Cultural Heritage Active Innovation for Sustainable Society,
+codice proposta PE0000020 CUP [J33C22002850006].
