@@ -1,12 +1,12 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11029">
-   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20922/manifest">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20922/manifest">
     <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21404/full/800,/0/default.jpg"/>
     <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21405/full/800,/0/default.jpg"/>
     <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21406/full/800,/0/default.jpg"/>
   </facsimile>
-   <text type="letter" xml:id="DLCL_CF_E11029">
-      <front>
-         <fileDesc>
+  <text type="letter" xml:id="DLCL_CF_E11029">
+    <front>
+      <fileDesc>
       <titleStmt>
         <title xml:lang="it">Canneti a Fiacchi (Fabriano, 1 Maggio 1722)</title>
         <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
@@ -32,7 +32,7 @@
         </msDesc>
       </sourceDesc>
     </fileDesc>
-         <profileDesc>
+    <profileDesc>
       <correspDesc>
         <correspAction type="sent">
           <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
@@ -55,7 +55,7 @@
         <xi:include href="../../entities/orgs.xml"/>
       </particDesc>
     </profileDesc>
-         <revisionDesc status="created">
+    <revisionDesc status="created">
       <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
       <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
       <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
@@ -65,8 +65,8 @@
   <change when-iso="2026-04-27" who="#DLCL_CF_PS001">conversione lacune in gap</change>
   <change when-iso="2026-04-27" who="#DLCL_CF_PS001">correzione entità</change>
 </revisionDesc>
-      </front>
-      <body>
+    </front>
+    <body>
       <div type="transcription">
         <pb xml:id="DLCL_CF_E11029_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21404/full/800,/0/default.jpg"/>
         <opener>
@@ -78,7 +78,7 @@
           Quando <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> della felice sua memoria viene assicurata di aver messo nel Bauulo, o nella borsa da viaggio il consaputo <bibl type="manuscript">Manoscritto,</bibl> io altresì tengo per certo di ritrovarlo un giorno in qualcheduna delle confusioni, ove giacciono i nostri libri, che non han luogo nelle scanzie; siccome alla mano mi venne, come l’avvisai, la seconda parte delle nostre storie.
           Riceverò il <bibl type="print">Discorso</bibl> co’i libri di <placeName ref="#DLCL_CF_L0010">Padova,</placeName> ma non più il <bibl type="print">Platelio,</bibl> essendomi cessato il motivo del desiderio.
           Impresa degna dell’accortezza del <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina</persName> sarebbe divertire il pensiero della stampa dell’<bibl type="print">Accademia,</bibl> perché i componimenti in gran parte non reggeranno alla critica dell’occhio più severa di quella dell’orecchio, e in parte scopriranno piu palese la propria debolezza.
-          Mi è stato scritto aver’il <rs type="person">Maestro del Seminario</rs> fatta un’<bibl type="print">Orazione</bibl> sopra <rs type="person">Monsignore,</rs> in cui esalta la nobiltà della famiglia, e gli Uomini illustri da quella usciti con certe annotazioni marginali.
+          Mi è stato scritto aver’il <rs type="person">Maestro del Seminario</rs> fatta un’<bibl type="print">Orazione</bibl> sopra Monsignore, in cui esalta la nobiltà della famiglia, e gli Uomini illustri da quella usciti con certe annotazioni marginali.
           <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> veda di averne copia, e mandarmela col <bibl type="print">Discorso,</bibl> e i libri in una cassettina.
           In ogni caso mi basterebbe copia di quanto sopra ho accennato.
           La spesa delle legature <placeName ref="#DLCL_CF_L0010">Padova</placeName>ne non può negarsi ch’è eccessiva: onde ce ne guarderemo in avvenire.
@@ -127,12 +127,12 @@
           <salute>Resto confermandomi senza fine.</salute>
           <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1722-05-01">primo Maggio 1722.</date></dateline>
           <salute>DVPMR</salute>
-          <salute>Affettuosissimo Servitore e <persName>Padre</persName> Cordialissimo nel Signore</salute>
+          <salute>Affettuosissimo Servitore e Padre Cordialissimo nel Signore</salute>
           <signed>
             <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
           </signed>
         </closer>
       </div>
     </body>
-   </text>
+  </text>
 </TEI>

@@ -1,13 +1,13 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10008">
-   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20640/manifest">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20640/manifest">
       <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/20839/full/800,/0/default.jpg"/>
       <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/20840/full/800,/0/default.jpg"/>
       <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/20841/full/800,/0/default.jpg"/>
       <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/20842/full/800,/0/default.jpg"/>
    </facsimile>
-   <text type="letter" xml:id="DLCL_CF_E10008">
-      <front>
-         <fileDesc>
+  <text type="letter" xml:id="DLCL_CF_E10008">
+    <front>
+      <fileDesc>
          <titleStmt>
             <title xml:lang="it">Canneti a Fiacchi (Perugia, 3 Luglio 1714)</title>
             <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
@@ -39,7 +39,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-         <profileDesc>
+      <profileDesc>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
@@ -62,7 +62,7 @@
             <xi:include href="../../entities/orgs.xml"/>
          </particDesc>
       </profileDesc>
-         <revisionDesc status="created">
+      <revisionDesc status="created">
          <change when-iso="2024-01-22" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2024-01-29" who="#DLCL_CF_PS001">correzioni</change>
          <change when-iso="2024-04-16" who="#DLCL_CF_PS001">riferimenti stampe</change>
@@ -71,8 +71,8 @@
          <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
          <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni errori markup</change>
       </revisionDesc>
-      </front>
-      <body>
+    </front>
+    <body>
          <div type="transcription">
             <pb xml:id="DLCL_CF_E10008_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/20839/full/800,/0/default.jpg"/>
             
@@ -100,7 +100,7 @@
                ne’ pur’ mi lascian luogo a sperare di poter’emendare il fatto. 
                Che però il pensiero non sà dove rivolgersi, per appagare la divota convenienza, 
                che a’ piccoli frammenti destinati al <persName ref="#DLCL_CF_PC0041">Signor Cellesi,</persName> 
-               al <persName ref="#DLCL_CF_PC0006">Padre Amici,</persName> e ad <rs type="person">un'altra riguardevole persona.</rs> 
+               al <persName ref="#DLCL_CF_PC0006">Padre Amici,</persName> e ad <rs type="person">un’altra riguardevole persona.</rs> 
                Scriverò col primo ordinario al <rs type="person" ref="#DLCL_CF_PC0006">Padre suddetto,</rs> studiando di raddolcire la nuova, come meglio sarà possibile.  
             </p>
             
@@ -151,7 +151,7 @@
                e lo raccomandi al <rs type="person">padre Camerlingo,</rs> il quale in ogni caso di non esser’a tempo, potrà inviarlo a <placeName ref="#DLCL_CF_L0003">Pesaro,</placeName> 
                di dove si trova occasione per <placeName ref="#DLCL_CF_L0028">Perugia.</placeName> 
                Gli altri libri di <placeName ref="#DLCL_CF_L0023">Foligno</placeName> venuti da <placeName ref="#DLCL_CF_L0003">Pesaro</placeName> furon colà da me osservati; 
-               ma non avvertij che ve ne fossero degl'imperfetti; trattone il <bibl type="print" ref="#DLCL_CF_BS0014 #DLCL_CF_BS0015">Sansovino della Casa Orsina,</bibl> dal quale, 
+               ma non avvertij che ve ne fossero degl’imperfetti; trattone il <bibl type="print" ref="#DLCL_CF_BS0014 #DLCL_CF_BS0015">Sansovino della Casa Orsina,</bibl> dal quale, 
                e dall’altro potrà farne comporre uno Tomo intiero. 
                L’altro <bibl type="print" xml:id="DLCL_CF_E10008_N001">esemplare del Boezio</bibl> del <persName ref="#DLCL_CF_PC0047">Tanzo</persName> 
                (benché cosa di niun pregio) mi pare lo mettessi tra nostri. 
@@ -230,5 +230,5 @@
             </note>
          </div>
       </body>
-   </text>
+  </text>
 </TEI>

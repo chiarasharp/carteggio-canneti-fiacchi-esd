@@ -1,13 +1,13 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10001">
-   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20633/manifest">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20633/manifest">
       <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/24771/full/800,/0/default.jpg"/>
       <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/20816/full/800,/0/default.jpg"/>
       <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/24832/full/800,/0/default.jpg"/>
       <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/24833/full/800,/0/default.jpg"/>
    </facsimile>
-   <text type="letter" xml:id="DLCL_CF_E10001">
-      <front>
-         <fileDesc>
+  <text type="letter" xml:id="DLCL_CF_E10001">
+    <front>
+      <fileDesc>
          <titleStmt>
             <title xml:lang="it">Canneti a Fiacchi (Ribano, 31 Ottobre 1711)</title>
             <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
@@ -38,14 +38,14 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <incipit>Con la gratissima lettera di V.P. ricevo la nota de' libri di Faenza e insieme la certa notizia...</incipit>
+                     <incipit>Con la gratissima lettera di V.P. ricevo la nota de’ libri di Faenza e insieme la certa notizia...</incipit>
                   </msItem>
                </msContents>
             </msDesc>
             <xi:include href="../../entities/prints.xml"/>
          </sourceDesc>
       </fileDesc>
-         <profileDesc>
+      <profileDesc>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
@@ -60,7 +60,7 @@
             <language ident="it"/>
          </langUsage>        
       </profileDesc>
-         <revisionDesc status="created">
+      <revisionDesc status="created">
          <change when-iso="2024-01-02" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2024-01-29" who="#DLCL_CF_PS001">correzioni</change>
          <change when-iso="2024-04-16" who="#DLCL_CF_PS001">correzioni e riferimenti stampe</change>
@@ -69,8 +69,8 @@
          <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
 
       </revisionDesc>
-      </front>
-      <body>
+    </front>
+    <body>
          <div type="transcription">
             
             <pb xml:id="DLCL_CF_E10001_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/24771/full/800,/0/default.jpg"/>
@@ -81,8 +81,8 @@
             
             <p>
                Con la gratissima lettera di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> 
-               ricevo la nota de' libri di <placeName ref="#DLCL_CF_L0005" key="DLCL_CF_L0005">Faenza</placeName> 
-               e insieme la certa notizia dell'offerta già fatta dal mio <persName ref="#DLCL_CF_PC0004" key="DLCL_CF_PC0004">Marozzi.</persName> 
+               ricevo la nota de’ libri di <placeName ref="#DLCL_CF_L0005" key="DLCL_CF_L0005">Faenza</placeName> 
+               e insieme la certa notizia dell’offerta giÃ  fatta dal mio <persName ref="#DLCL_CF_PC0004" key="DLCL_CF_PC0004">Marozzi.</persName> 
                Con questo lume ora potrò regolarmi nel rispondere alla richiesta di dieci scudi. 
                Mi spiace che ancora non siano giunti i <bibl type="manuscript" ref="#DLCL_CF_BM0001 #DLCL_CF_BM0002">due Manoscritti del Quadriregio;</bibl> 
                perché non avrò costì l’ozio, che qui posso godere, per collazionarli con lo stampato. 
@@ -130,5 +130,5 @@
             
          </div>
       </body>
-   </text>
+  </text>
 </TEI>

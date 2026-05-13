@@ -1,19 +1,13 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10126">
-   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20758/manifest">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20758/manifest">
         <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21307/full/800,/0/default.jpg"/>
         <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/25239/full/800,/0/default.jpg"/>
         <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/25240/full/800,/0/default.jpg"/>
         <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/25241/full/800,/0/default.jpg"/>
     </facsimile>
-   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/21308/manifest">
-        <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21309/full/800,/0/default.jpg"/>
-        <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/25242/full/800,/0/default.jpg"/>
-    </facsimile>
-   <text>
-      
-        <group>
-            <text type="letter" xml:id="DLCL_CF_E10126_L">
-            <front><fileDesc>
+  <text type="letter" xml:id="DLCL_CF_E10126">
+    <front>
+      <fileDesc>
             <titleStmt>
                 <title xml:lang="it">Canneti a Fiacchi (Fabriano, 16 Settembre 1720)</title>
                 <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
@@ -45,7 +39,7 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-      <profileDesc>
+        <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
@@ -68,7 +62,7 @@
                 <xi:include href="../../entities/orgs.xml"/>
             </particDesc>
         </profileDesc>
-      <revisionDesc status="created">
+        <revisionDesc status="created">
             <change when-iso="2024-09-03" who="#DLCL_CF_PS001">creato</change>
             <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
             <change when-iso="2024-11-24" who="#DLCL_CF_PS001">nuove trascrizioni</change>
@@ -76,8 +70,8 @@
          <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
          <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni errori markup</change>
         </revisionDesc>
-   </front>
-                <body>
+    </front>
+    <body>
                     <div type="transcription">
                         <pb xml:id="DLCL_CF_E10126_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21307/full/800,/0/default.jpg"/>
                         
@@ -132,134 +126,5 @@
                         
                     </div>
                 </body>
-            
-         </text>
-            <text type="attachment" xml:id="DLCL_CF_E10126_A01">
-            <front><fileDesc>
-            <titleStmt>
-                <title xml:lang="it">Canneti a Fiacchi (Fabriano, 16 Settembre 1720)</title>
-                <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="main">Carteggio Canneti Fiacchi</title>
-                <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
-                <biblScope unit="letter">126</biblScope>
-            </seriesStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <country key="IT">Italia</country>
-                        <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
-                        <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                        <repository></repository>
-                        <collection></collection>
-                        <idno></idno>
-                        <altIdentifier>
-                            <idno></idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-      <profileDesc>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
-                    <date when-iso="1720-09-16"/>
-                    <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="it"/>
-            </langUsage>
-            <settingDesc>
-                <xi:include href="../../entities/places.xml"/>
-            </settingDesc>
-            <particDesc>
-                <xi:include href="../../entities/people/cited-people.xml"/>
-                <xi:include href="../../entities/people/staff.xml"/>
-                <xi:include href="../../entities/orgs.xml"/>
-            </particDesc>
-        </profileDesc>
-      <revisionDesc status="created">
-            <change when-iso="2024-09-03" who="#DLCL_CF_PS001">creato</change>
-            <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
-            <change when-iso="2024-11-24" who="#DLCL_CF_PS001">nuove trascrizioni</change>
-<change when-iso="2025-08-22" who="#DLCL_CF_PS001">correzioni</change>
-         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
-         <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni errori markup</change>
-        </revisionDesc>
-   </front>
-                <body>
-                    <div type="transcription">
-                        
-                        <pb xml:id="DLCL_CF_E10126_A01_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21309/full/800,/0/default.jpg"/>
-                        
-                        <p>
-                            <bibl type="print">Compilazione de’ Privilegi della Casa Meniconi</bibl> fol. 
-                            Dono alla <orgName ref="#DLCL_CF_O0001">Libreria di Classe.</orgName>
-                        </p>
-                        
-                        <p>
-                            <bibl type="print">Registro delle Posizioni delle Cause sopra i privilegi della Famiglia Sacrati</bibl> in 4to a detta <orgName ref="#DLCL_CF_O0001">Libreria.</orgName>
-                        </p>
-                        
-                        <p>
-                            Involto sigillato da mandarsi a <placeName ref="#DLCL_CF_L0040">Imola.</placeName>
-                        </p>
-                        
-                        <p>
-                            Involto da mandarsi a <placeName ref="#DLCL_CF_L0024">Venezia</placeName> / con pagare il porto, notando a conto nostro la spesa.
-                        </p>
-                        
-                        <p>
-                            <bibl type="print">Bibbia antica sciolta</bibl> / da esitare. Mi costa s. 1 : 10.
-                        </p>
-                        
-                        <p>
-                            <bibl type="print">Plinio Antico</bibl> / da esitare per quel, che si può.
-                        </p>
-                        
-                        <p>
-                            <persName ref="#DLCL_CF_PC0777">Vitellionis</persName> <bibl type="print">Optica</bibl> da legare, e metter tra’ nostri libri.
-                        </p>
-                        
-                        <p>
-                            <persName ref="#DLCL_CF_PC0647">Perotti</persName> <bibl type="print">Grammatica</bibl> da legare, e metter tra nostri libri.
-                        </p>
-                        
-                        <p>
-                            <persName ref="#DLCL_CF_PC0789">Giustino</persName> <bibl type="print">Istorico Antico</bibl> da legare, e metter come sopra.
-                        </p>
-                        
-                        <p>
-                            <bibl type="print">Quintiliano</bibl> fol. Antico, da metter tra nostri libri.
-                        </p>
-                        
-                        <p>
-                            <bibl type="print">Istoria di Cingoli</bibl> / da legare, e mettere come sopra.
-                        </p>
-                        
-                        <p>
-                            <bibl type="print">Vita S. Caroli</bibl> da legare, e rimandare.
-                        </p>
-                        
-                        <pb xml:id="DLCL_CF_E10126_A01_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/25242/full/800,/0/default.jpg"/>
-                        
-                    </div>
-                </body>
-            
-         </text>
-        </group>
-    
-   </text>
+  </text>
 </TEI>

@@ -1,11 +1,11 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11052">
-   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20945/manifest">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20945/manifest">
       <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21460/full/800,/0/default.jpg"/>
       <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21461/full/800,/0/default.jpg"/>
    </facsimile>
-   <text type="letter" xml:id="DLCL_CF_E11052">
-      <front>
-         <fileDesc>
+  <text type="letter" xml:id="DLCL_CF_E11052">
+    <front>
+      <fileDesc>
          <titleStmt>
             <title xml:lang="it">Canneti a Fiacchi (Fabriano, 30 Novembre 1722)</title>
             <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001"><persName ref="#DLCL_CF_PC0991">Pietro</persName> Canneti</author>
@@ -42,7 +42,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-         <profileDesc>
+      <profileDesc>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
@@ -65,7 +65,7 @@
             <xi:include href="../../entities/orgs.xml"/>
          </particDesc>
       </profileDesc>
-         <revisionDesc status="created">
+      <revisionDesc status="created">
          <change when-iso="2025-12-22" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2025-12-22" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
          <change when-iso="2025-12-31" who="#DLCL_CF_PS001">markup</change>
@@ -73,8 +73,8 @@
       
         <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
 </revisionDesc>
-      </front>
-      <body>
+    </front>
+    <body>
          <div type="transcription">
             <pb xml:id="DLCL_CF_E11052_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21460/full/800,/0/default.jpg"/>
             <opener>
@@ -149,5 +149,5 @@
             </closer>
          </div>
       </body>
-   </text>
+  </text>
 </TEI>

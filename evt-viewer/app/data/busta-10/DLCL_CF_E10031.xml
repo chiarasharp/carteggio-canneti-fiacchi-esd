@@ -1,13 +1,13 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10031">
-   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20663/manifest">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20663/manifest">
       <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21046/full/800,/0/default.jpg"/>
       <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21047/full/800,/0/default.jpg"/>
       <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21048/full/800,/0/default.jpg"/>
       <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/24809/full/800,/0/default.jpg"/>
    </facsimile>
-   <text type="letter" xml:id="DLCL_CF_E10031">
-      <front>
-         <fileDesc>
+  <text type="letter" xml:id="DLCL_CF_E10031">
+    <front>
+      <fileDesc>
          <titleStmt>
             <title xml:lang="it">Canneti a Fiacchi (Perugia, 1 Febbraio 1716)</title>
             <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
@@ -39,7 +39,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-         <profileDesc>
+      <profileDesc>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
@@ -62,7 +62,7 @@
             <xi:include href="../../entities/orgs.xml"/>
          </particDesc>
       </profileDesc>
-         <revisionDesc status="created">
+      <revisionDesc status="created">
          <change when-iso="2024-02-20" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
          <change when-iso="2024-09-26" who="#DLCL_CF_PS001">correzioni</change>
@@ -70,8 +70,8 @@
          <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
 
       </revisionDesc>
-      </front>
-      <body>
+    </front>
+    <body>
          <div type="transcription">
             <pb xml:id="DLCL_CF_E10031_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21046/full/800,/0/default.jpg"/>
             
@@ -98,7 +98,7 @@
                il <persName ref="#DLCL_CF_PC0249">Becmano</persName> delle <bibl type="print">Origini della Lingua Latina,</bibl> 
                degno di stima eziandio per essere stato dello <persName ref="#DLCL_CF_PC0250" cert="unknown">Scioppio</persName> il maggior critico del secolo passato. 
                In vece di cotal libro, dia Ella al <rs type="person">Padre lettore</rs> 
-               il <persName ref="#DLCL_CF_PC0235">Possevino</persName> <bibl type="print">dell'Onore,</bibl> e ciò ch’egli vuole di più. 
+               il <persName ref="#DLCL_CF_PC0235">Possevino</persName> <bibl type="print">dell’Onore,</bibl> e ciÃ² châegli vuole di piÃ¹. 
                Tengo poi per indubitato che dentro all’involto io vi troverò il <bibl type="manuscript">Catalogo de’ nostri libri,</bibl> 
                al quale per finirlo non mancava che il lavoro di quattr’ore, fino dal Novembre passato. 
             </p>
@@ -183,5 +183,5 @@
             </postscript>
          </div>
       </body>
-   </text>
+  </text>
 </TEI>

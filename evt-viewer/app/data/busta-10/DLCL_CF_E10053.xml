@@ -1,13 +1,13 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10053">
-   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20685/manifest">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20685/manifest">
       <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21115/full/800,/0/default.jpg"/>
       <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21116/full/800,/0/default.jpg"/>
       <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21117/full/800,/0/default.jpg"/>
       <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/25079/full/800,/0/default.jpg"/>
    </facsimile>
-   <text type="letter" xml:id="DLCL_CF_E10053">
-      <front>
-         <fileDesc>
+  <text type="letter" xml:id="DLCL_CF_E10053">
+    <front>
+      <fileDesc>
          <titleStmt>
             <title xml:lang="it">Canneti a Fiacchi (Perugia, 23 Marzo 1717)</title>
             <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
@@ -39,7 +39,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-         <profileDesc>
+      <profileDesc>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
@@ -62,15 +62,15 @@
             <xi:include href="../../entities/orgs.xml"/>
          </particDesc>
       </profileDesc>
-         <revisionDesc status="created">
+      <revisionDesc status="created">
          <change when-iso="2024-04-16" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2024-09-11" who="#DLCL_CF_PS001">correzioni</change>
          <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
          <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
 
       </revisionDesc>
-      </front>
-      <body>
+    </front>
+    <body>
          <div type="transcription">
             <pb xml:id="DLCL_CF_E10053_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21115/full/800,/0/default.jpg"/>
             
@@ -158,7 +158,7 @@
             <p>
                Il <persName ref="#DLCL_CF_PC0425">Signor Giuseppe Sangermano Corvo</persName> mi chiede i libri di sua ragione 
                che io lasciai a <rs type="person" ref="#DLCL_CF_PC0002">Vostra Paternità</rs> in consegna: son legali. 
-               Favorisca spedirglieli a <placeName ref="#DLCL_CF_L0008">Roma</placeName> per qualche Vetturale, con l'<bibl type="religious">extrahat del Sant’Officio.</bibl> 
+               Favorisca spedirglieli a <placeName ref="#DLCL_CF_L0008">Roma</placeName> per qualche Vetturale, con l’<bibl type="religious">extrahat del SantâOfficio.</bibl> 
             </p>
             
             <p>
@@ -199,5 +199,5 @@
             </postscript>
          </div>
       </body>
-   </text>
+  </text>
 </TEI>

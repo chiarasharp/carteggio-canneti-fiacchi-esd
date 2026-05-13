@@ -1,15 +1,15 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
   xml:id="DLCL_CF_E11005">
-   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20898/manifest">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20898/manifest">
     <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21335/full/800,/0/default.jpg"/>
     <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21336/full/800,/0/default.jpg"/>
     <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21337/full/800,/0/default.jpg"/>
     <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/21338/full/800,/0/default.jpg"/>
     <graphic n="3r" url="https://www.cdc.classense.ra.it/iiif/2/21339/full/800,/0/default.jpg"/>
   </facsimile>
-   <text type="letter" xml:id="DLCL_CF_E11005">
-      <front>
-         <fileDesc>
+  <text type="letter" xml:id="DLCL_CF_E11005">
+    <front>
+      <fileDesc>
       <titleStmt>
         <title xml:lang="it">Canneti a Fiacchi (Fabriano, 24 Febbraio 1721)</title>
         <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
@@ -37,7 +37,7 @@
         </msDesc>
       </sourceDesc>
     </fileDesc>
-         <profileDesc>
+    <profileDesc>
       <correspDesc>
         <correspAction type="sent">
           <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
@@ -60,7 +60,7 @@
         <xi:include href="../../entities/orgs.xml"/>
       </particDesc>
     </profileDesc>
-         <revisionDesc status="created">
+    <revisionDesc status="created">
       <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
       <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
       <change when-iso="2026-01-26" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
@@ -70,8 +70,8 @@
     
       <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
 </revisionDesc>
-      </front>
-      <body>
+    </front>
+    <body>
       <div type="transcription">
         <pb xml:id="DLCL_CF_E11005_C1R_L" n="1 - Recto"
           facs="https://www.cdc.classense.ra.it/iiif/2/21335/full/800,/0/default.jpg"/>
@@ -136,7 +136,7 @@
           del <persName ref="#DLCL_CF_PC0129">Mabillon</persName> sia la nostra. 
           Mi stupij che per
           otto scudi mi fossero dati que’ due Tomi; quando cinque scudi almeno sono stati pagati gli
-          altri Tomi de’ <persName>San</persName>ti Padri de’ <rs type="person">Monaci di San Mauro.</rs> 
+          altri Tomi de’ Santi Padri de’ <rs type="person">Monaci di San Mauro.</rs> 
           Ma io penso che
           l’agevolezza provenisse dall’esser cotesta l’edizione più antica, e meno considerata in
           paragone della seconda. 
@@ -266,12 +266,12 @@
               ref="#DLCL_CF_PC0676">Padre Grilli</persName> i miei cordialissimi rispetti.</p>
         </postscript>
         <closer>
-          <salute>Affezionatissimo Servitore Cordialissimo Padre nel <persName>Signor</persName>e</salute>
+          <salute>Affezionatissimo Servitore Cordialissimo Padre nel Signore</salute>
           <signed>
             <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>
           </signed>
         </closer>
       </div>
     </body>
-   </text>
+  </text>
 </TEI>

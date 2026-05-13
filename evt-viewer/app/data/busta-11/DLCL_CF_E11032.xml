@@ -1,12 +1,12 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11032">
-   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20925/manifest">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20925/manifest">
     <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21413/full/800,/0/default.jpg"/>
     <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21414/full/800,/0/default.jpg"/>
     <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21415/full/800,/0/default.jpg"/>
   </facsimile>
-   <text type="letter" xml:id="DLCL_CF_E11032">
-      <front>
-         <fileDesc>
+  <text type="letter" xml:id="DLCL_CF_E11032">
+    <front>
+      <fileDesc>
       <titleStmt>
         <title xml:lang="it">Canneti a Fiacchi (Fabriano, 22 Maggio 1722)</title>
         <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
@@ -32,7 +32,7 @@
         </msDesc>
       </sourceDesc>
     </fileDesc>
-         <profileDesc>
+    <profileDesc>
       <correspDesc>
         <correspAction type="sent">
           <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
@@ -55,7 +55,7 @@
         <xi:include href="../../entities/orgs.xml"/>
       </particDesc>
     </profileDesc>
-         <revisionDesc status="created">
+    <revisionDesc status="created">
       <change when-iso="2025-06-30" who="#DLCL_CF_PS001">creato</change>
       <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
       <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
@@ -65,8 +65,8 @@
   <change when-iso="2026-04-27" who="#DLCL_CF_PS001">conversione lacune in gap</change>
   <change when-iso="2026-04-27" who="#DLCL_CF_PS001">correzione entità</change>
 </revisionDesc>
-      </front>
-      <body>
+    </front>
+    <body>
       <div type="transcription">
         <pb n="1 - Recto" xml:id="DLCL_CF_E11032_C1R_L" facs="https://www.cdc.classense.ra.it/iiif/2/21413/full/800,/0/default.jpg"/>
         <opener>
@@ -75,7 +75,7 @@
           </salute>
         </opener>
         <p>
-          Unitamente con <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità,</rs> che ne ha l'incomodo, rendo grazie al <persName ref="#DLCL_CF_PC0006">Padre Amici</persName> nostro Compitissimo, per gli avvisi a me partecipati.
+          Unitamente con <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra PaternitÃ ,</rs> che ne ha l’incomodo, rendo grazie al <persName ref="#DLCL_CF_PC0006">Padre Amici</persName> nostro Compitissimo, per gli avvisi a me partecipati.
           È mancato un’Uomo di gusto singolare nella morte del <persName ref="#DLCL_CF_PC0498">Padre Adami,</persName> la quale per altro potiamo pienamente credere che al medesimo abbia recato l’eterno riposo, oltre al fine della grave indisposizione, in cui era caduto.
           Non so’ figurarmi ch’egli avesse libri degni del nostro desiderio: con tutto ciò Ella potrebbe, come da se, prenderne notizia.
           Confusamente parmi ch’esso mi mostrasse una volta il <bibl type="print">Concilio di Trento</bibl> coll’autentica del sigillo, e sottoscrizione, la qual manca nel nostro; e cotesto in tal caso vendendosi, si potrebbe in quello rinvestire il prezzo.
@@ -140,5 +140,5 @@
         
       </div>
     </body>
-   </text>
+  </text>
 </TEI>

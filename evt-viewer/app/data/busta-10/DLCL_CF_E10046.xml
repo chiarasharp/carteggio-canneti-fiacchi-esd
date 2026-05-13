@@ -1,5 +1,5 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10046">
-   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20678/manifest">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20678/manifest">
       <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21092/full/800,/0/default.jpg"/>
       <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21093/full/800,/0/default.jpg"/>
       <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21094/full/800,/0/default.jpg"/>
@@ -7,9 +7,9 @@
       <graphic n="3r" url="https://www.cdc.classense.ra.it/iiif/2/24823/full/800,/0/default.jpg"/>
       <graphic n="3v" url="https://www.cdc.classense.ra.it/iiif/2/24824/full/800,/0/default.jpg"/>
    </facsimile>
-   <text type="letter" xml:id="DLCL_CF_E10046">
-      <front>
-         <fileDesc>
+  <text type="letter" xml:id="DLCL_CF_E10046">
+    <front>
+      <fileDesc>
          <titleStmt>
             <title xml:lang="it">Canneti a Fiacchi (Perugia, 22 Dicembre 1716)</title>
             <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
@@ -41,7 +41,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-         <profileDesc>
+      <profileDesc>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
@@ -64,7 +64,7 @@
             <xi:include href="../../entities/orgs.xml"/>
          </particDesc>
       </profileDesc>
-         <revisionDesc status="created">
+      <revisionDesc status="created">
          <change when-iso="2024-04-04" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2024-09-05" who="#DLCL_CF_PS001">correzioni</change>
          <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
@@ -72,8 +72,8 @@
          <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
 
       </revisionDesc>
-      </front>
-      <body>
+    </front>
+    <body>
          <div type="transcription">
             <pb xml:id="DLCL_CF_E10046_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21092/full/800,/0/default.jpg"/>
             
@@ -337,5 +337,5 @@
             </postscript>
          </div>
       </body>
-   </text>
+  </text>
 </TEI>

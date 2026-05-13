@@ -1,21 +1,13 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10035">
-   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20667/manifest">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20667/manifest">
       <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21058/full/800,/0/default.jpg"/>
       <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21059/full/800,/0/default.jpg"/>
       <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21062/full/800,/0/default.jpg"/>
       <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/24811/full/800,/0/default.jpg"/>
    </facsimile>
-   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/23170/manifest">
-      <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/23171/full/800,/0/default.jpg"/>
-      <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/23172/full/800,/0/default.jpg"/>
-      <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/24812/full/800,/0/default.jpg"/>
-      <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/24813/full/800,/0/default.jpg"/>
-   </facsimile>
-   <text>
-      
-      <group>
-         <text type="letter" xml:id="DLCL_CF_E10035_L">
-            <front><fileDesc>
+  <text type="letter" xml:id="DLCL_CF_E10035">
+    <front>
+      <fileDesc>
          <titleStmt>
             <title xml:lang="it">Canneti a Fiacchi (Perugia, 14 Luglio 1716)</title>
             <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
@@ -78,8 +70,8 @@
          <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
 
       </revisionDesc>
-   </front>
-            <body>
+    </front>
+    <body>
                <div type="transcription">
                   <pb xml:id="DLCL_CF_E10035_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21058/full/800,/0/default.jpg"/>
                   
@@ -167,133 +159,5 @@
                   </postscript>
                </div>
             </body>
-         
-         </text>
-         <text type="attachment" xml:id="DLCL_CF_E10035_A01">
-            <front><fileDesc>
-         <titleStmt>
-            <title xml:lang="it">Canneti a Fiacchi (Perugia, 14 Luglio 1716)</title>
-            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
-         </titleStmt>
-         <publicationStmt>
-            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
-            </availability>
-         </publicationStmt>
-         <seriesStmt>
-            <title type="main">Carteggio Canneti Fiacchi</title>
-            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
-            <biblScope unit="letter">35</biblScope>
-         </seriesStmt>
-         <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <country key="IT">Italia</country>
-                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
-                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                  <repository></repository>
-                  <collection></collection>
-                  <idno></idno>
-                  <altIdentifier>
-                     <idno></idno>
-                  </altIdentifier>
-               </msIdentifier>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <correspDesc>
-            <correspAction type="sent">
-               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
-               <date when-iso="1716-07-14"/>
-               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
-            </correspAction>
-            <correspAction type="received">
-               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
-            </correspAction>
-         </correspDesc>
-         <langUsage>
-            <language ident="it"/>
-         </langUsage>
-         <settingDesc>
-            <xi:include href="../../entities/places.xml"/>
-         </settingDesc>
-         <particDesc>
-            <xi:include href="../../entities/people/cited-people.xml"/>
-            <xi:include href="../../entities/people/staff.xml"/>
-            <xi:include href="../../entities/orgs.xml"/>
-         </particDesc>
-      </profileDesc>
-      <revisionDesc status="created">
-         <change when-iso="2024-02-22" who="#DLCL_CF_PS001">creato</change>
-         <change when-iso="2024-03-21" who="#DLCL_CF_PS001">correzioni</change>
-         <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
-         <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
-         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
-
-      </revisionDesc>
-   </front>
-            <body>
-               <div type="transcription">
-            
-               <pb xml:id="DLCL_CF_E10035_A01_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/23171/full/800,/0/default.jpg"/>
-            
-               <p>
-                  <cit>
-                     <quote>
-                        La sera delli <date when-iso="1716-06-23">23 giugno 1716</date> esposto, conforme al solito, alla venerazione de’ Divoti 
-                        il corpo prodigiosamente incorrotto della <persName ref="#DLCL_CF_PC0272">Beata Chiara</persName> da <placeName ref="#DLCL_CF_L0069">Montefalco,</placeName> 
-                        fu veduto il piede destro gonfio dalla banda del calcagno; 
-                        è nel sinistro piede parimente verso il calcagno vi era come un’escoriazione della grossezza circa di un Giulio, 
-                        e di più sulla pianta di esso piede sinistro fu osservato un altro rossore verso, e sotto le dita. 
-                        Tutto si vide; ed osservò e dalle Monache, e dalle persone di fuori, ch’erano concorse alla venerazione del sagro Corpo. 
-                        Affermano in oltre l’<rs type="person">Abbadessa,</rs> la <rs type="person">Vicaria,</rs> e le <rs type="person">Sagristane,</rs> 
-                        che in occasione di aver allora toccato per ragione del loro officio le mani del detto beato Corpo, le aveano ritrovate calde, come di corpo vivo. 
-                        Finalmente le medesime <rs type="person">Abbadessa,</rs> <rs type="person">vicaria,</rs> e <persName ref="#DLCL_CF_PC0276">suor Lucia Lucrezia Agatonij,</persName> 
-                        una delle Sagristane affermano aver trovato il capo con lo stesso calore. 
-                        Nel riporre poi le susseguente mattina dentro la cassa il sagro corpo, era cessato il grande parte il tumore di sopra descritto; 
-                        il quale il dì 2 luglio, essendosi aperta la cassa alla presenza del <persName ref="#DLCL_CF_PC0277">Padre Giovanni Valerio Agatonii</persName> 
-                        Prete della <orgName ref="#DLCL_CF_O0045">Congregazione dell’Oratorio di Montefalco,</orgName> 
-                        e Vicario Foraneo di <rs type="person">Monsignore Vescovo</rs> di <placeName ref="#DLCL_CF_L0068">Spoleto,</placeName> si trovò del tutto cessato. 
-                        E così era cessato il rossore al calcagno sinistro, a riserva d’alcun piccolo rossoretto sulla pianta d’esso piede. 
-                        Del che tutto si fece atto pubblico dall’<persName ref="#DLCL_CF_PC0278">Anselmi</persName> Cancelliere Foraneo. 
-                     </quote>
-                  </cit> 
-
-                  </p>
-                  
-                  <pb xml:id="DLCL_CF_E10035_A01_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/23172/full/800,/0/default.jpg"/>
-                  
-                  <p>
-                     <cit>
-                        <quote>
-                           Si crede che questi segni si riferiscano alle stragi, che nelle città di <placeName ref="#DLCL_CF_L0068">Spoleto,</placeName> 
-                           di <placeName ref="#DLCL_CF_L0028">Perugia,</placeName> e altrove ha fatto, va facendo la morte, dopo che non ancor’era finito l’altro flagello della fame. 
-                           Altre volte l’ebollizione del sangue, e altre mozioni miracolose dello stesso Corpo della <persName ref="#DLCL_CF_PC0272">Beata Chiara</persName> 
-                           hanno presagito calamità alla Patria, e al Cristianesimo; 
-                           come si ha dalla <bibl type="print">Vita</bibl> sua scritta dal <persName ref="#DLCL_CF_PC0279">Piergili</persName> paragrafo 3 capitolo 18 
-                           e si accenna dal <persName ref="#DLCL_CF_PC0280">Bozio</persName> <bibl type="print"><foreign xml:lang="la">de Signis Ecclesiae</foreign>.</bibl> 
-                        </quote>
-                     </cit>
-                  </p>
-                  
-                  <p>       
-                     La soprascritta notizia è tratta, quasi colle stesse parole, 
-                     da una lettera del detto <persName ref="#DLCL_CF_PC0277">Padre Agatonij</persName> Vicario Foraneo di <placeName ref="#DLCL_CF_L0069">Montefalco</placeName> 
-                     sua Patria scritta al <persName ref="#DLCL_CF_PC0281">Padre Orazio Canauli</persName> Preposito 
-                     dell’<orgName ref="#DLCL_CF_O0046">Oratorio di Perugia</orgName> in data delli <date when-iso="1716-07-09">9 Luglio 1716</date>
-                  </p>
-                  
-                  <pb xml:id="DLCL_CF_E10035_A01_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/24812/full/800,/0/default.jpg"/>
-                  
-                  <pb xml:id="DLCL_CF_E10035_A01_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/24813/full/800,/0/default.jpg"/>
-                  
-               </div>
-            </body>
-         
-         </text>
-      </group>
-   
-   </text>
+  </text>
 </TEI>

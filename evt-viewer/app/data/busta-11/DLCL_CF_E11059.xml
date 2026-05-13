@@ -1,12 +1,12 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11059">
-   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20952/manifest">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20952/manifest">
       <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21478/full/800,/0/default.jpg"/>
       <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21479/full/800,/0/default.jpg"/>
       <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21480/full/800,/0/default.jpg"/>
    </facsimile>
-   <text type="letter" xml:id="DLCL_CF_E11059">
-      <front>
-         <fileDesc>
+  <text type="letter" xml:id="DLCL_CF_E11059">
+    <front>
+      <fileDesc>
          <titleStmt>
             <title xml:lang="it">Canneti a Fiacchi (Fabriano, 29 Gennaio 1723)</title>
             <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
@@ -43,7 +43,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-         <profileDesc>
+      <profileDesc>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
@@ -66,7 +66,7 @@
             <xi:include href="../../entities/orgs.xml"/>
          </particDesc>
       </profileDesc>
-         <revisionDesc status="created">
+      <revisionDesc status="created">
          <change when-iso="2025-12-22" who="#DLCL_CF_PS001">creato</change>
          <change when-iso="2025-12-28" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
          <change when-iso="2025-12-31" who="#DLCL_CF_PS001">markup</change>
@@ -74,8 +74,8 @@
       
         <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
 </revisionDesc>
-      </front>
-      <body>
+    </front>
+    <body>
          <div type="transcription">
             <pb xml:id="DLCL_CF_E11059_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21478/full/800,/0/default.jpg"/>
             <opener>
@@ -157,7 +157,7 @@
                mi faccia provvedere del 
                <bibl type="print">Tomo</bibl> 
                <hi rend="ul"><persName ref="#DLCL_CF_PC0991">Guidi Panciroli</persName></hi>
-               § riferito sull'ultimo del Tometto 6.°, e del primo volume del 
+               Â§ riferito sull’ultimo del Tometto 6.Â°, e del primo volume del 
                <bibl type="print">Giornale Oltramontano;</bibl> 
                e non si scordi. Raro era dianzi il 
                <bibl type="print">detto libro</bibl> 
@@ -174,7 +174,7 @@
                in 
                <placeName ref="#DLCL_CF_L0136">Ancona,</placeName> 
                ma era veramente da 
-               <persName ref="#DLCL_CF_L0173">San Genesio</persName> 
+               <placeName ref="#DLCL_CF_L0173">San Genesio</placeName> 
                Terra nobile di questa 
                <orgName ref="#DLCL_CF_O0176">Diocesi di Camerino)</orgName> 
                fratello di 
@@ -252,5 +252,5 @@
             </closer>
          </div>
       </body>
-   </text>
+  </text>
 </TEI>

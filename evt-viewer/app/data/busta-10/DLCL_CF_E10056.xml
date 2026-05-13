@@ -1,21 +1,13 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E10056">
-   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20688/manifest">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20688/manifest">
       <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21122/full/800,/0/default.jpg"/>
       <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21123/full/800,/0/default.jpg"/>
       <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21124/full/800,/0/default.jpg"/>
       <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/21125/full/800,/0/default.jpg"/>
    </facsimile>
-   <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/21126/manifest">
-      <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21127/full/800,/0/default.jpg"/>
-      <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21128/full/800,/0/default.jpg"/>
-      <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21129/full/800,/0/default.jpg"/>
-      <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/21130/full/800,/0/default.jpg"/>
-   </facsimile>
-   <text>
-      
-      <group>
-         <text type="letter" xml:id="DLCL_CF_E10056_L">
-            <front><fileDesc>
+  <text type="letter" xml:id="DLCL_CF_E10056">
+    <front>
+      <fileDesc>
          <titleStmt>
             <title xml:lang="it">Canneti a Fiacchi (Perugia, 18 Maggio 1717)</title>
             <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
@@ -79,8 +71,8 @@
          <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
          <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni errori markup</change>
       </revisionDesc>
-   </front>
-            <body>
+    </front>
+    <body>
                <div type="transcription">
                   <pb xml:id="DLCL_CF_E10056_L_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21122/full/800,/0/default.jpg"/>
                   
@@ -214,7 +206,7 @@
                      </p>
                      
                      <p>
-                        [<foreign xml:lang="la"><persName ref="#DLCL_CF_PC0462">Jo(annes) [Fischerus</persName>' To. 14 Bibl. Roc.] 
+                        [<foreign xml:lang="la"><persName ref="#DLCL_CF_PC0462">Jo(annes) [Fischerus</persName>’ To. 14 Bibl. Roc.] 
                            Roffensis Ep. scripsit contra <persName ref="#DLCL_CF_PC0463">Lutheri</persName> errores articulos a <persName ref="#DLCL_CF_PC0592">Leone X</persName> damnatus</foreign>.
                      </p>
                      
@@ -245,244 +237,5 @@
                   
                </div>
             </body>
-         
-         </text>
-         <text type="attachment" xml:id="DLCL_CF_E10056_A01">
-            <front><fileDesc>
-         <titleStmt>
-            <title xml:lang="it">Canneti a Fiacchi (Perugia, 18 Maggio 1717)</title>
-            <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
-         </titleStmt>
-         <publicationStmt>
-            <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
-            </availability>
-         </publicationStmt>
-         <seriesStmt>
-            <title type="main">Carteggio Canneti Fiacchi</title>
-            <title type="subseries" ref="#DLCL_CF_E10" key="DLCL_CF_E10">Busta 10</title>
-            <biblScope unit="letter">56</biblScope>
-         </seriesStmt>
-         <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <country key="IT">Italia</country>
-                  <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
-                  <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
-                  <repository></repository>
-                  <collection></collection>
-                  <idno></idno>
-                  <altIdentifier>
-                     <idno></idno>
-                  </altIdentifier>
-               </msIdentifier>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <correspDesc>
-            <correspAction type="sent">
-               <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
-               <date when-iso="1717-05-18"/>
-               <placeName ref="#DLCL_CF_L0028" key="DLCL_CF_L0028">Perugia</placeName>
-            </correspAction>
-            <correspAction type="received">
-               <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
-            </correspAction>
-         </correspDesc>
-         <langUsage>
-            <language ident="it"/>
-         </langUsage>
-         <settingDesc>
-            <xi:include href="../../entities/places.xml"/>
-         </settingDesc>
-         <particDesc>
-            <xi:include href="../../entities/people/cited-people.xml"/>
-            <xi:include href="../../entities/people/staff.xml"/>
-            <xi:include href="../../entities/orgs.xml"/>
-         </particDesc>
-      </profileDesc>
-      <revisionDesc status="created">
-         <change when-iso="2024-04-18" who="#DLCL_CF_PS001">creato</change>
-         <change when-iso="2024-09-11" who="#DLCL_CF_PS001">correzioni</change>
-         <change when-iso="2024-10-01" who="#DLCL_CF_PS001">correzioni</change>
-         <change when-iso="2024-11-04" who="#DLCL_CF_PS001">group element</change>
-         <change when-iso="2024-11-22" who="#DLCL_CF_PS001">correzioni</change>
-         <change when-iso="2025-10-30" who="#DLCL_CF_PS001">aggiornamento URL IIIF da Unibo a CDC</change>
-         <change when-iso="2026-01-09" who="#DLCL_CF_PS001">correzioni errori markup</change>
-      </revisionDesc>
-   </front>
-            <body>
-               <div type="transcription">
-                  <pb xml:id="DLCL_CF_E10056_A01_C1R" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21127/full/800,/0/default.jpg"/>
-               
-                  <p>
-                     <persName ref="#DLCL_CF_PC0448">Susanna</persName> figlia 'maggiore' di <persName ref="#DLCL_CF_PC0446">Lodovico</persName> 
-                     Marchese di <placeName ref="#DLCL_CF_L0058">Mantova</placeName> vien promessa a <persName ref="#DLCL_CF_PC0449">Galeazzo Sforza,</persName> 
-                     ma dopo esser stata scoperta alquanto offesa nella spalla gli fu preposta l’altra figlia 
-                     di <persName ref="#DLCL_CF_PC0446">Ludovico</persName> <persName ref="#DLCL_CF_PC0450">Dorotea</persName> e la prima si fece Monaca. 
-                     anno 1470 <persName ref="#DLCL_CF_PC0068">Maffei</persName> pagina <bibl type="print">795.</bibl> 
-                  </p>
-               
-                  <p>
-                     <persName ref="#DLCL_CF_PC0491">Barbara</persName> Figlia di <persName ref="#DLCL_CF_PC0446">Ludovico</persName> 
-                     sposata con <persName ref="#DLCL_CF_PC0452">Eberardo</persName> conte di <placeName ref="#DLCL_CF_L0097">Vitimberga.</placeName> 
-                     anno 1474, pagina <bibl type="print">796.</bibl> 
-                  </p>
-               
-                  <p>
-                     <persName ref="#DLCL_CF_PC0450">Dorotea</persName> moglie di <persName ref="#DLCL_CF_PC0449">Galeazzo</persName> Duca di <placeName ref="#DLCL_CF_L0027">Milano</placeName> 
-                     avvelenata, avvanti il 1476, pagina <bibl type="print">797.</bibl> 
-                  </p>
-               
-                  <pb xml:id="DLCL_CF_E10056_A01_C1V" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21128/full/800,/0/default.jpg"/>
-               
-                  <p>
-                     <persName ref="#DLCL_CF_PC0068">Maffei</persName> 
-                  </p>
-               
-                  <p>
-                     <persName ref="#DLCL_CF_PC0442">Gio. Francesco,</persName> Mogl. <persName ref="#DLCL_CF_PC0445">Paola Malat.</persName> 
-                  </p>
-               
-                  <p>
-                     <persName ref="#DLCL_CF_PC0441">Gio. Lucido</persName> <persName ref="#DLCL_CF_PC0455">Carlo</persName> 
-                     <persName ref="#DLCL_CF_PC0446">Lodovico</persName><space quantity="8" unit="chars"/><persName ref="#DLCL_CF_PC0456">Margherita</persName> 
-                     <persName ref="#DLCL_CF_PC0447">Alessandro</persName> 
-                  </p>
-               
-                  <p>
-                     <persName ref="#DLCL_CF_PC0451">Mogl. Barbara</persName><space quantity="4" unit="chars"/>di <persName ref="#DLCL_CF_PC0457">Leonello</persName> di 
-                  </p>
-      
-                  <p>
-                     di <placeName ref="#DLCL_CF_L0098">Brandemb.</placeName><space quantity="8" unit="chars"/><placeName ref="#DLCL_CF_L0013">Ferrara</placeName> 
-                  </p>
-                  
-                  <p>
-                     |
-                  </p>
-               
-                  <p>
-                     <persName ref="#DLCL_CF_PC0485">Rodolfo</persName> <persName ref="#DLCL_CF_PC0486">Francesco Card.</persName> 
-                     <persName ref="#DLCL_CF_PC0487">Federico</persName><space quantity="4" unit="chars"/><persName ref="#DLCL_CF_PC0450">Dorotea</persName>
-                     <space quantity="4" unit="chars"/><persName ref="#DLCL_CF_PC0489">Lodov.</persName> 
-                     <persName ref="#DLCL_CF_PC0490" cert="high" xml:id="DLCL_CF_E10056_N001">Giov. Fed.</persName> 
-                     <persName ref="#DLCL_CF_PC0469">Cecilia</persName><space quantity="4" unit="chars"/><persName ref="#DLCL_CF_PC0491">Barbara</persName>
-                     <space quantity="8" unit="chars"/><persName ref="#DLCL_CF_PC0448">Susanna</persName><space quantity="4" unit="chars"/><persName ref="#DLCL_CF_PC0492">Paola</persName> 
-                  </p>
-               
-                  <p>
-                     <persName ref="#DLCL_CF_PC0488">Margherita</persName> di<space quantity="8" unit="chars"/><persName ref="#DLCL_CF_PC0449">Galeazzo</persName>
-                     <space quantity="8" unit="chars"/>Co. Vittemb.<space quantity="2" unit="chars"/>Monaca<space quantity="4" unit="chars"/>Co. Tirolo 
-                  </p>
-                  
-                  <p>
-                     di <placeName ref="#DLCL_CF_L0099">Baviera</placeName><space quantity="8" unit="chars"/><surname>Sforza</surname> 
-                  </p>
-                  
-                  <pb xml:id="DLCL_CF_E10056_A01_C2R" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21129/full/800,/0/default.jpg"/>
-                  
-                  <p>
-                     <gap reason="illegible"/>[...]di di <persName ref="#DLCL_CF_PC0445">Paola Malatesta Maffei</persName> pagina <bibl type="print">749</bibl> anno 1410. 
-                  </p>
-                  
-                  <p>
-                     Anno 1407. 
-                     <foreign xml:lang="la">Mortuus <persName ref="#DLCL_CF_PC0453">Franciscus</persName> <persName ref="#DLCL_CF_PC0442">Pater Jo. Francisci</persName> qui tum duodennus erat. 
-                        Posser.</foreign> in <bibl type="print">Gonzaga Libro V</bibl> pagina 484 et 485. 
-                  </p>
-                  
-                  <p>
-                     Anno 1410 
-                     <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0442">Jo. Francisco</persName> traditur in matrimonium <persName ref="#DLCL_CF_PC0445">Paula Malatesta</persName> 
-                        Pandolfi Birixiae Dom. filia anno nata 16. Posser. Ibidem pagina</foreign> <bibl type="print">497.</bibl> 
-                  </p>
-               
-                  <p>
-                     Anno 1414. 
-                     <foreign xml:lang="la">Nascitur <persName ref="#DLCL_CF_PC0442">Jo. Francisco</persName> et Paulae <persName ref="#DLCL_CF_PC0446">Ludovicus</persName> Posser. 
-                        Ibidem pagina</foreign> <bibl type="print">501.</bibl> 
-                  </p>
-                  
-                  <p>
-                     <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0445">Paulae</persName> virtutes Ibidem pagina</foreign> <bibl type="print">535.</bibl> 
-                  </p>
-                  
-                  <p>
-                     Anno 1432. 
-                     <del rend="overstrike">vol. 3</del> 
-                     <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0454">Sigismondus Imperator</persName> Nabiam venit et <placeName ref="#DLCL_CF_L0058">Mantuam,</placeName> 
-                        ubi <persName ref="#DLCL_CF_PC0442">Jo. Franciscum</persName> <placeName ref="#DLCL_CF_L0058">Mantuae</placeName> 
-                        Marchionem primum dicitet quatuor <gap reason="illegible"/>[...] ipsi concedit 
-                        [vidi de hoc <persName ref="#DLCL_CF_PC0068">Maffej</persName> id. pagina</foreign> <bibl type="print">756</bibl>] 
-                  </p>
-                  
-                  <p>
-                     Anno 1433 
-                     <foreign xml:lang="la"><placeName ref="#DLCL_CF_L0008">Roma</placeName> rediens <placeName ref="#DLCL_CF_L0058">Mantuae</placeName> 
-                        <persName ref="#DLCL_CF_PC0442">Jo. Franciscum</persName> corona Caesareae Literae de hoc datae anno 1433. 
-                        22.septembris Ibidem pagina</foreign> <bibl type="print">538.</bibl> <bibl type="print">539.</bibl> <bibl type="print">540.</bibl> <bibl type="print">541.</bibl> 
-                  </p>
-                  
-                  <pb xml:id="DLCL_CF_E10056_A01_C2V" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21130/full/800,/0/default.jpg"/>
-                  
-                  <p>
-                     <foreign xml:lang="la">
-                        <persName ref="#DLCL_CF_PC0442">Jo. Francisci</persName> filij equites creati a <persName ref="#DLCL_CF_PC0454">Sigismundo,</persName> 
-                     nempe <persName ref="#DLCL_CF_PC0446">Ludovicus,</persName> <persName ref="#DLCL_CF_PC0455">Carolus,</persName> et <persName ref="#DLCL_CF_PC0447">Alexander.</persName> 
-                        <persName ref="#DLCL_CF_PC0441">Jo. Lucidus</persName> ejusdem filius ordine Quartus pridem Ecclesiastico instituto as<gap reason="illegible"/>[...]verat, 
-                        ideoque omissus est. ibidem pagina
-                     </foreign> <bibl type="print">541.</bibl> 
-                  </p>
-               
-                  <p>
-                     <foreign xml:lang="la">
-                        <persName ref="#DLCL_CF_PC0446">Ludovico</persName> <persName ref="#DLCL_CF_PC0442">Jo. Francisci</persName> 
-                        Primogenito <persName ref="#DLCL_CF_PC0451">Barbara</persName> Marchionis Electoris Bandeburgensis filia desponsata est. Ibidem pagina
-                     </foreign> <bibl type="print">541.</bibl> 
-                     [<foreign xml:lang="la">Quae in novembr. <placeName ref="#DLCL_CF_L0058">Mantuam</placeName> 
-                        debeo acta <persName ref="#DLCL_CF_PC0068">Maffei</persName> pag.</foreign> <bibl type="print">757</bibl>' 
-                  </p>
-                  
-                  <p>
-                     Anno 1436. 3. Novembr. 
-                     <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0446">Ludovicus</persName> Primogenitus a Patre ex haeredatur. Ibidem pagina</foreign> <bibl type="print">545.</bibl> 
-                  </p>
-                  
-                  <p>
-                     <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0455">Carolus</persName> Secundo genitus praeponitur <persName ref="#DLCL_CF_PC0446">Ludovico.</persName> Ibidem</foreign> 
-                  </p>
-                  
-                  <p>
-                     <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0442">Jo. Franciscus</persName> moritur anno 1444</foreign>. 
-                     <bibl type="print">Campana</bibl> <gap reason="illegible"/>[...] pagina <bibl type="print">23</bibl> 
-                     <persName ref="#DLCL_CF_PC0068">Maffei</persName> pagina <bibl type="print">767.</bibl> 
-                  </p>
-                  
-                  <p>
-                     <persName ref="#DLCL_CF_PC0456">Margherita</persName> dal <bibl type="print">Campana</bibl> pagina <bibl type="print">23</bibl> 
-                     vien fatta sorella di <persName ref="#DLCL_CF_PC0442">Gio. Francesco,</persName> e dal <persName ref="#DLCL_CF_PC0068">Maffei</persName> nell’albero figliuola. 
-                  </p>
-                  
-                  <p>
-                     <foreign xml:lang="la"><persName ref="#DLCL_CF_PC0456">Margarita</persName> fil. <persName ref="#DLCL_CF_PC0442">Jo. Francisco</persName> 
-                        anno 1436 in matrimonium traditur <persName ref="#DLCL_CF_PC0457">Leonello Nicolai Estensis</persName> 
-                        Marchese <placeName ref="#DLCL_CF_L0013">Ferrariae</placeName> <persName ref="#DLCL_CF_PC0068">Maffei</persName> pagina</foreign> 
-                     <del rend="overstrike">756</del> <bibl type="print">758.</bibl>
-                  </p>
-   
-               </div>
-               <div type="notes">
-                  <note type="bibliography" resp="#DLCL_CF_PS003" target="DLCL_CF_E10056_N001">
-                     Probabilmente Canneti ha sbagliato nome. 
-                  </note>
-               </div>
-            </body>
-         
-         </text>
-      </group>
-   
-   </text>
+  </text>
 </TEI>
