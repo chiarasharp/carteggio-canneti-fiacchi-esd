@@ -523,6 +523,17 @@ angular.module('evtviewer.dataHandler')
 			};
 
 			var elementForLabel = nodeElem.getElementsByTagName(contentForLabelDef.replace(/[<>]/g, ''));
+			// If multiple persName elements with xml:lang, prefer 'it', then no lang, then first
+			if (elementForLabel && elementForLabel.length > 1 && contentForLabelDef === '<persName>') {
+				var preferred = null;
+				for (var li = 0; li < elementForLabel.length; li++) {
+					var lang = elementForLabel[li].getAttribute('xml:lang');
+					if (lang === 'it') { preferred = elementForLabel[li]; break; }
+					if (!lang && !preferred) { preferred = elementForLabel[li]; }
+				}
+				if (!preferred) { preferred = elementForLabel[0]; }
+				elementForLabel = [preferred];
+			}
 			if (elementForLabel && elementForLabel.length > 0) {
 				var parsedLabel = evtParser.parseXMLElement(elementForLabel[0], elementForLabel[0], { skip: '<evtNote><persName><orgName><placeName>' });
 				el.label = parsedLabel ? parsedLabel.innerHTML : elId;
@@ -549,9 +560,21 @@ angular.module('evtviewer.dataHandler')
 				el.label = elId;
 			}
 
+			// Check if this entity has multiple persName children with xml:lang
+			var persNameChildren = [];
+			angular.forEach(nodeElem.childNodes, function(c) {
+				if (c.nodeType === 1 && c.tagName === 'persName') { persNameChildren.push(c); }
+			});
+			var hasMultiLangPersName = persNameChildren.length > 1 && persNameChildren.some(function(c) { return c.getAttribute('xml:lang'); });
+
 			angular.forEach(nodeElem.childNodes, function (child) {
 
 				if (child.nodeType === 1) {
+					// Skip non-Italian persName when multiple language variants exist
+					if (hasMultiLangPersName && child.tagName === 'persName') {
+						var lang = child.getAttribute('xml:lang');
+						if (lang && lang !== 'it') { return; }
+					}
 					if (child.tagName === 'msIdentifier') {
 						// Special handling for msIdentifier - group all children together
 						if (child.children && child.children.length > 0) {
