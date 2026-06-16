@@ -1,0 +1,87 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11110">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21643/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21644/full/800,/0/default.jpg"/>
+    <graphic n="1v" url=""/>
+    <graphic n="2r" url=""/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11110">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 7 Aprile 1724)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">110</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1724-04-07"/>
+          <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">aggiornamento teiHeader</change>
+      <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+    </revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+         <pb xml:id="DLCL_CF_E11110_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21644/full/800,/0/default.jpg"/>         <opener>
+           <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+         </opener><p>Con questo ordinario, e nel tempo stesso ricevo due carissime di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> una delli 25. l’altra del dì 29. del Marzo poc’anzi caduto. Nella prima veggo una lista di danaro, la quale bellissima sarebbe, se fosse Ella libera dal pensiero di esiggerne ancora una buona parte. Il contratto Veneto è concluso in forma tale, che può starvi bene il compratore; e se fosse calato abbasso, male vi sarebbe stato il venditore. Le lire 45. serviranno per aggiustare i conti col <persName ref="#DLCL_CF_PC0011">Volpi</persName> di <placeName ref="#DLCL_CF_L0010">Padova.</placeName> Darò l’ordine, tosto che da lui io abbia ricevuta la lista del suo avere. E col prossimo ordinario, gli renderò grazie dell’<bibl type="manuscript">Indice</bibl> dello <persName ref="#DLCL_CF_PC1103">Smith.</persName> Intanto sentirò se <persName ref="#DLCL_CF_PC0906">Monsignor Ercolani</persName> è ancor di talento di comprare le <bibl type="print">Opere</bibl> di <persName ref="#DLCL_CF_PC1001">Marsilio Ficino.</persName> Or venghiamo al <persName ref="#DLCL_CF_PC0986">Buonarrigo.</persName></p><p>Né questo Monsignore, né <persName ref="#DLCL_CF_PC1040">Monsignor Torregiani,</persName> né il <persName ref="#DLCL_CF_PC0015">Signor Pagliarini</persName> si acquieteranno alla risposta da lui data al <persName ref="#DLCL_CF_PC0730">Padre Don Angelo,</persName> col quale essi non han trattato. E’ giustizia che egli metta fuora le polize d’obbligo, a tenore della propria Notificazione, e secondo l’uso delle Società; e che siano distinte, perché io possa loro consegnarle, che le vogliono onninamente; siccome le voglio io, per uscir dell’impegno preso co’ i suddetti Signori, e liberare <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità,</rs> o il <persName ref="#DLCL_CF_PC0730">Padre Don Angelo,</persName> che per mio conto han fatto lo sborso. Faccia <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> parlare alto al <persName ref="#DLCL_CF_PC0986">Buonarrigo,</persName> con avvertirlo che in altra maniera avrà de’ disgusti ben sonori. Tutto il servizio, ch’io potrei fargli</p><pb xml:id="DLCL_CF_E11110_C1V_L" n="1 - Verso" facs=""/><p>sarebbe ripigliare li 24. paoli sborsati per le tre copie del 2.° Tomo che non si vede uscire. Ringrazio Dio, che non mi sono ingolfato molto in trovargli degli Associati. Questo caso mi servirà di lezione per simili decorrenze. Di grazia mi cavi di questo fastidio.</p><p>Delle <bibl type="print">lettere</bibl> del <persName ref="#DLCL_CF_PC0141">Bembo</persName> volgari io ne ho due corpi, cioè quello stampato dal <persName ref="#DLCL_CF_PC0856">Sansovino,</persName> e riferito dal <bibl type="print">Fontanini</bibl> pag. 37. ma nel tomo primo vi mancano due carte dell’indice. Dell’altro, stampato da <persName ref="#DLCL_CF_PC1123">Gualtero Scotto,</persName> non ho che il tomo 1. e il 4.° Sono differenti nel tomo 1. l’una, e l’altra edizione, perché quella dello <bibl type="print">Scotto</bibl> è un’altra cosa diversa dal tomo 1. del <bibl type="print">Sansovino,</bibl> e in sostanza è quel tomo medesimo, che in 4.to fu nobilmente dato fuori la prima volta in <placeName ref="#DLCL_CF_L0008">Roma</placeName> dal <persName ref="#DLCL_CF_PC1124">Dorico</persName> in 4.to Non era a me noto, che in <orgName ref="#DLCL_CF_O0001">cotesta libreria</orgName> vi fosse né l’una, né l’altra edizione. Per mia regola <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> mi avvisi ciò, che vi è di <bibl type="print">lettere</bibl> del <persName ref="#DLCL_CF_PC0141">Bembo.</persName> A me pare che vi vorrebbe l’uno, e l’altro corpo, non meno che quel primo Tomo solamente dato in luce dal <persName ref="#DLCL_CF_PC1124">Dorico,</persName> sopraccennato.</p><p>Spero che in mie mani resterà la <bibl type="print">Storia</bibl> di <persName ref="#DLCL_CF_PC1113">Niceta Coniate,</persName> e di <persName ref="#DLCL_CF_PC1117">Niceforo Gregora,</persName> che presentemente sta presso di me, ben conservata; ed è dell’edizione portata dal <persName ref="#DLCL_CF_PC0216">Fontanini.</persName></p><p>Della <bibl type="manuscript">regia lettera</bibl> di <placeName ref="#DLCL_CF_L0046">Spagna</placeName> non ho veduta la traduzione; e me ne consolo. Per altro era solito l’<rs type="person">Autore</rs> mandarmi fino i sospiri suoi, quando uscivano in luce. Lo compatisco; perché per lo più ne riceveva dalla mia ingenuità poca soddisfazione, non essendo io capace di adulare, in ciò, che pecca, la di lui buona volontà.</p><pb xml:id="DLCL_CF_E11110_C2R_L" n="2 - Recto" facs=""/><p>Intorno al <bibl type="print">Corio,</bibl> rimetto a lei tutto l’affare. Saprà Ella usar sua industria, per metterne un’esemplare ben perfetto in <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> e ricavare dagli avanzi il rimborso della spesa; come ancor vorrei facesse del <bibl type="print">Baldelli,</bibl> potendo dare il duplicato primo Tomo a qualcuno de’ tanti Teologi Morali del paese. È libro raro, e val più degli altri Moralisti, come l’avvisai; e non ha connessione necessaria col 2.° Tomo; onde per uno studio particolare serve ugualmente che se fosse compito il corpo.</p><p>In mano di un bravo legatore riuscirebbe sciogliere il <bibl type="print">Leggendario,</bibl> rilegarlo, e rimettervi la stessa coperta. Ma è lavoro da eccellente maestro.</p><p>Un’altra copia dell’edizione della <bibl type="print">Concordia delle Orazioni Militari</bibl> ho io quì. Essendo posteriore all’altra del <bibl type="print">Giolito,</bibl> che dicesi accresciuta, può essere, che abbia nuovi accrescimenti. Sarebbe bene farne far confronto. La settimana passata si ebbe il bambace finissimo da <placeName ref="#DLCL_CF_L0028">Perugia,</placeName> non essendovene in <placeName ref="#DLCL_CF_L0004">Fabriano;</placeName> ed ora si stan lavorando i guanti per il <persName ref="#DLCL_CF_PC0885">Signor Onestini.</persName> Avanti di partir di qua, manderò le parole da scriversi nel <bibl type="manuscript">Manoscritto del Riccobaldo.</bibl> E l’<bibl type="print">opuscolo</bibl> del <persName ref="#DLCL_CF_PC0995">Carranti</persName> è egli trascritto? Il <bibl type="manuscript">catalogo</bibl> dello <persName ref="#DLCL_CF_PC1103">Smith</persName> mandatomi da <placeName ref="#DLCL_CF_L0010">Padova</placeName> resta a disposizione di lei, o del <persName ref="#DLCL_CF_PC0873">Padre Calogerà,</persName> che caramente riverisco, pregandolo altamente di assistenza per farmi ottenere quanto giustamente chiedo dal <persName ref="#DLCL_CF_PC0986">Buonarrigo.</persName></p><pb xml:id="DLCL_CF_E11110_C2V_L" n="2 - Verso" facs=""/><p>Un’altro negozio grandissimo ho riserbato per ultimo. Mi sento ispirato a mandare alla <orgName ref="#DLCL_CF_O0001">Libreria</orgName> il famoso <bibl type="print">Plinio,</bibl> anco per liberarmi dalle tentazioni di chi vi fa l’amore, e in qualche congiuntura potrebbe farmi cadere. Ma ciò non posso fare, senza il rimborso di 24. scudi, che a me costa. Altrettanto credito ha cotesta Cassa degli Spoglj con questo Monastero per due pianete mandate dalla b.m. del <persName ref="#DLCL_CF_PC0393">Padre Bolognini.</persName> A <rs type="person">Padre Reverendissimo</rs> scrissi, che il Monastero non avea modo di pagare; ed è verissimo. Potrebbe il <rs type="person">Padre Abate</rs> dare a’ libri per riscossi li s. 24. e all’uscita spesi altri s. 24. nel <bibl type="print">Plinio,</bibl> che in tal caso manderò. Io poi o ne farò un sacrificio, come nel partir da <placeName ref="#DLCL_CF_L0025">Bertinoro,</placeName> donai a quella Sagristia una pianeta di damasco paonazza, che costava s. 25. non essendovi danaro da pagarla; ovvero mi prenderò qualche credito, che vi resta per difficoltà di esiggere. <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> la discorra col <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli;</persName> e se le dà l’animo, faccia far questo acquisto alla <orgName ref="#DLCL_CF_O0001">Libreria;</orgName> e così presto goderà di veder due tomi ben grossi, che vagliono dieci volte più di quel, che son pagati; e farebbono onore alla Biblioteca di un Re, assicurandosi, che non passino ad altre mani. Con tenero affetto abbracciandola, resto.</p><p>DVPMR. <placeName ref="#DLCL_CF_L0004">Fabriano</placeName> 3. Aprile 1724.</p><p>Cordialissimo Servitore Affezionatissimo Vero</p><p><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></p><p>110bis (FATTO)</p><pb xml:id="DLCL_CF_E11110_C1R_L" n="1 - Recto" facs=""/><p><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></p><p>Dalla gratissima sua ^del dì primo, intendo quanto ha operato <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> nel disporre l’esito de’ libri in quella descritti, per prezzo di sc. cinque, e la proposta del <rs type="person">Compratore</rs> di dare li tre altri libri ivi notati, in baratto, e di pagare il rimanente in <placeName ref="#DLCL_CF_L0024">Venezia,</placeName> in contanti.</p><p>Al prezzo de’ libri nostri nulla replico, perché è da lei tassato: per altro è vantaggioso non poco a chi compra.</p>         <closer>
+           <salute>I tre libri proposti per baratto, si posson prendere, per maggiormente far goder vantaggio al <rs type="person">Compratore.</rs> Per altro il Girone non è dell’edizione stimata; gli altri due son cose da non tenersi in gran conto. Non è però da stendersi nel prezzo più in là, di quindici paoli. Gli altri 35. paoli mi contento bensì prendergli in <placeName ref="#DLCL_CF_L0024">Venezia;</placeName> il che pure ridonda in altro utile di chi contratta con noi. Né altro occorrendomi in risposta alla sua lettera, senza fine di tutto cuore mi confermo.</salute>
+           <dateline>DVPMR <placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1724-04-07">7. Aprile 1724.</date></dateline>
+           <salute>Cordialissimo Servitore Affezionatissimo</salute>
+           <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+         </closer></div>
+    </body>
+  </text>
+</TEI>

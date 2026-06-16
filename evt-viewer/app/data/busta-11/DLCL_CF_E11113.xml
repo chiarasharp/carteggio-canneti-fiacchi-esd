@@ -1,0 +1,87 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11113">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21650/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21651/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21652/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21653/full/800,/0/default.jpg"/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11113">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Faenza, 14 Maggio 1724)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">113</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1724-05-14"/>
+          <placeName ref="#DLCL_CF_L0005" key="DLCL_CF_L0005">Faenza</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">aggiornamento teiHeader</change>
+      <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+    </revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+         <pb xml:id="DLCL_CF_E11113_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21651/full/800,/0/default.jpg"/>         <opener>
+           <salute>Molto Reverendo Padre mio Signore Osservandissimo</salute>
+         </opener><p>Ier l’altro in <placeName ref="#DLCL_CF_L0109">Savignano</placeName> lasciai consegnata a <persName ref="#DLCL_CF_PC0043">Frate Pietro</persName> una cassetta, con dentro il famoso, e insigne <bibl type="print">Plinio</bibl> in due tomi, un <bibl type="manuscript">Sant’Agostino de Civitate Dei Manoscritto in pergamena, in foglio,</bibl> tre Tomi di antiche edizioni della <bibl type="print">Somma</bibl> di <persName ref="#DLCL_CF_PC0911">San Tommaso,</persName> con un <bibl type="manuscript">Manoscritto de’ Fasti d’Ovidio in carta ordinaria;</bibl> e se altro vi cape, che ora non mi sovvenga. Di ciò mi ricordo che il 4.to Tomo della <bibl type="print">Somma</bibl> non vi ebbe luogo, e che i libri a viva forza vi furono ficcati dentro dal nostro <persName ref="#DLCL_CF_PC0044">Pancaldi,</persName> il quale non rifinava di dire, che stando così strettamente collocati, non vi era pericolo che nel viaggio si movessero, e patissero: ma con tutto ciò resto col timore che la collocazione sforzata, e violenta abbia pregiudicato al <bibl type="print">Plinio,</bibl> ancor prima di moversi: e non aspetto nuove migliori. Promise <persName ref="#DLCL_CF_PC0043">Frate Pietro</persName> levar la Cassetta Sabbato. Quà giunto ieri ebbi subito dal <rs type="person">Padre Priore</rs> di <orgName ref="#DLCL_CF_O0048">Sant’Ippolito</orgName> il bel libro donato a <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> dall’<persName ref="#DLCL_CF_PC1045">Eminente Bentivoglio,</persName> che mi servirò in qualchè ora di sollievo tra le noie, ch’Ella ben sà portar seco il tempo del Capitolo. Passato che sia questo, persisto nel pensiero di venire a <placeName ref="#DLCL_CF_L0002">Ravenna,</placeName> a riveder la Città, il <orgName ref="#DLCL_CF_O0158">Duomo,</orgName> la <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> i miei Figliuoli col Padre</p><pb xml:id="DLCL_CF_E11113_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21652/full/800,/0/default.jpg"/><p><persName ref="#DLCL_CF_PC0730">Don Angelo,</persName> che tutti caramente riverisco, ringraziandogli de’ loro amorevoli voti per me. Io però gli assicuro di essere per me scarico di ogni desiderio, e disegno, rassegnato a vivere, dove alla Divina provvidenza piacerà, quel poco tempo di vita, che mi rimane. È genio, e interesse del mio amore raccomandar la di lei persona al <rs type="person">nuovo Abate.</rs> Ho avuto molto caro rivedere il <persName ref="#DLCL_CF_PC0954">Signor Zanotti,</persName> e discorrer seco. Abbiam fatta d’accordo una gran mormorazione di lei, della sua abilità e del suo stile epistolare, presente il <persName ref="#DLCL_CF_PC0054">Padre Lettore Fiori.</persName> Era[...] altresì a sentire, e ad approvare il <persName ref="#DLCL_CF_PC0178">Reverendissimo Ferranti,</persName> che meco l’abbraccia ben caramente.</p><p>Mando il <bibl type="print">Lattanzio,</bibl> che non ha potuto meglio pulirsi in <placeName ref="#DLCL_CF_L0008">Roma.</placeName> Non sò se le macchie rimase, e le rappazzature gli permetteranno coprirsi con la decantata legatura Tedesca. Sò bene, che non mi pare più meritevole della sopravesta di velluto.</p><p>Il <persName ref="#DLCL_CF_PC0547">Reverendissimo Tassis</persName> mi dice non avere ricevuta la <bibl type="print">Difesa del Venerabile Cardinale Tommasi,</bibl> e non averne bisogno: onde resterà la mandata, da esitarsi a bai. 30. sciolta. In</p><pb xml:id="DLCL_CF_E11113_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21653/full/800,/0/default.jpg"/><p><orgName ref="#DLCL_CF_O0001">Libreria</orgName> Ella dovrà collocare il <bibl type="print">Plinio</bibl> e gli altri libri collocar tra’ nostri. Mi riverisca il <persName ref="#DLCL_CF_PC0090">Padre Don Leandro,</persName> al quale scriverò con maggior comodo. Intanto mi confermo, senza fine. <placeName ref="#DLCL_CF_L0005">Faenza</placeName> 5. Maggio 1724.</p><p>DVPMR</p><p>Cordialissimo Servitore Affezionatissimo Vero</p><p><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></p><p>Nota in lapis rosso [Spedizione del <bibl type="print">Lattanzio</bibl> 5 Maggio 1724]</p><p>Sulla busta [Al <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs> Il <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo Fiacchi Bibliotecario</persName></p><p>Con un libro</p><p><placeName ref="#DLCL_CF_L0020">Classe</placeName> Ravenna]</p><p>113 bis (FATTO)</p><pb xml:id="DLCL_CF_E11113_C1R_L" n="1 - Recto" facs=""/><p><persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Amatissimo</p><p>Unitamente con questa, riceverà <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> il paio di guanti da regalare il <persName ref="#DLCL_CF_PC0885">Signor Onestini.</persName> Son de’ più fini, e della miglior usanza, che in oggi si costumi. Questo affare è finito, ma non così è compito, né sciolto l’altro del <persName ref="#DLCL_CF_PC0986">Buonarrigo,</persName> essendo io partito da <placeName ref="#DLCL_CF_L0004">Fabriano,</placeName> senza poter’ esiggere li sedici paoli anticipatamente pagati, per il 2.° Tomo del <bibl type="print">Tasso,</bibl> a nome de’ <persName ref="#DLCL_CF_PC0906">Monsignori Ercolani,</persName> e <persName ref="#DLCL_CF_PC1040">Torregiani.</persName> Vogliono la cauzione della Ricevuta del <rs type="person">Libraio;</rs> ed han tutta la ragione. Io non posso esiggerla, perché seco non ho trattato: e tocca a farmi avere dette cauzioni, a chi ha sborsato a colui il danaro. <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> badi efficacemente a farmi usar questa giustizia. Io son pronto ad impiegarvi l’autorità di un Cavaliere capace di far mortificare il <persName ref="#DLCL_CF_PC0986">Buonarrigo:</persName> ma è necessario che <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> mi scifri una volta come è andato il pagamento, e per mano di chi. Prescindendo dall’interesse, io ho troppo forte impegno di mandare a quei Prelati le ricevute, o di restituire loro, anzi di ricuperare io la moneta, e dichiarar’ essi sciolti da ogn’ impegno di quella sciagurata Società. Ma nell’impegno stesso mi trovo col <persName ref="#DLCL_CF_PC0015">Signor Pagliarini,</persName> il qual di più ha rimesso a me l’intiero pagamento delli 16. paoli. Sicché resta sopra le mie spalle egualmente il peso di soddisfare a tutti e tre colla cauzione della</p><pb xml:id="DLCL_CF_E11113_C1V_L" n="1 - Verso" facs=""/>         <closer>
+           <dateline>Ricevuta. Stringa <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> il discorso sopra ciò col <rs type="person">Padre Priore</rs> e col <persName ref="#DLCL_CF_PC0873">Padre Calogierà,</persName> in maniera che si concluda. Resto confermandomi con tutto lo spirito. <placeName ref="#DLCL_CF_L0005">Faenza</placeName> <date when-iso="1724-05-14">14. Maggio 1724.</date></dateline>
+           <salute>DVPMR</salute>
+           <salute>Parz.mo Cordialissimo Servitore</salute>
+           <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+         </closer></div>
+    </body>
+  </text>
+</TEI>

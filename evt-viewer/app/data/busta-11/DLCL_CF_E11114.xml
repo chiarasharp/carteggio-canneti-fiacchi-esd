@@ -1,0 +1,93 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11114">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21657/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21658/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21659/full/800,/0/default.jpg"/>
+    <graphic n="2r" url=""/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11114">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Foligno, 19 Giugno 1724)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">114</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1724-06-19"/>
+          <placeName ref="#DLCL_CF_L0023" key="DLCL_CF_L0023">Foligno</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-26" who="#DLCL_CF_PS001">aggiornamento teiHeader</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11114_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21658/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Amatissimo</salute>
+        </opener>
+        <p>Dal <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli</persName> sentirà nuove della spesa de’ libri di <placeName ref="#DLCL_CF_L0037">Francia,</placeName> che risolvo far tutta in una volta, e in uno sborso. Ella mi aiuti con l’esazioni del denaro del <bibl type="print">Petrarca,</bibl> e con proccurar l’esito di altri duplicati. Da questo <persName ref="#DLCL_CF_PC1127">Zanpiccoli</persName> sento vi sia da sperar poco, attesa la sua strettezza. Più tosto tenti appresso il <persName ref="#DLCL_CF_PC1126">Signor Conte Laderchi,</persName> il quale in <placeName ref="#DLCL_CF_L0005">Faenza</placeName> me ne parlò, presente il <persName ref="#DLCL_CF_PC0769">Signore Cavaliere dalla Torre</persName> che divotamente riverisco.</p>
+        <p>Mi mandi con sollecitudine la <bibl type="manuscript">lista de’ libri</bibl> del <persName ref="#DLCL_CF_PC0034">Verat[ti].</persName> Ho sotto le unghie in camera la prima preda più afferrata, un libro <bibl type="manuscript">in pergamena in fogl. Manoscritto del sec. XIV., che contiene gli Evangelj delle Messe di tutto l’anno,</bibl> secondo il rito antichissimo di aver distinti i libri degli Evangelj, dell’<bibl type="manuscript">Epistole,</bibl> i Lezionarj, i Passionarj § e i due primi si porgevano rispettivamente da’ Vescovi a’ Diaconi, e Soddiaconi nell’ordinazione. All’<placeName>Avellana</placeName> un simile ne vidi dell’Epistole, che non potei avere, quando</p>
+        <pb xml:id="DLCL_CF_E11114_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21659/full/800,/0/default.jpg"/>
+                <closer>
+          <dateline>cavai gli altri preziosi pezzi. Sarà andato l’<bibl type="manuscript">Epistolario con le lettere del Delfino,</bibl> e altri libri migliori nelle mani di <persName ref="#DLCL_CF_PC0689">Monsignor Passionei</persName> per grazia del <persName ref="#DLCL_CF_PC0035">Padre Buti,</persName> che diede mano al saccheggio. Ho scritto a <placeName ref="#DLCL_CF_L0023">Foligno</placeName> per aver la lettera di <persName ref="#DLCL_CF_PC0013">Muratori.</persName> Dell’<rs type="person">Antagonista</rs> sentirà il risorgimento, e la gloria del <rs type="person">Padre Lettore</rs> suddetto. L’abbraccio caramente e resto. <placeName ref="#DLCL_CF_L0043">Forlì</placeName> <date when-iso="1724-06-19">19. Giugno 1724.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Parz.mo Cordialissimo Servitore</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

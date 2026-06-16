@@ -1,0 +1,102 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11091">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21577/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21578/full/800,/0/default.jpg"/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11091">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (19 Luglio 1723)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">91</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1723-07-19"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione, markup struttura e entità</change>
+      <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11091_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21578/full/800,/0/default.jpg"/>
+        
+        <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+          <dateline><date when-iso="1723-07-19">19. Luglio 1723.</date></dateline>
+        </opener>
+        
+        <p>Due righe in fretta. Alla <bibl type="print">memoria Farnesiana</bibl> aggiunga <hi
+            rend="ul">V.Cl.</hi> avanti il nome del <rs type="person" ref="#DLCL_CF_PC0529">Signor
+            Conte,</rs> e così in superlativo grado avra<del rend="overstrike">e</del>mo espressa la
+          letteratura. Ne aspetto subito due copie. Vorrei che <rs type="person"
+            ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> mi facesse con somma
+          accuratezza la copia dell’Iscrizione, ch’è nella Pieve di <placeName ref="#DLCL_CF_L0016"
+            >Bagnacavallo,</placeName> e stà nel <bibl type="print">Fabri</bibl> par. 2.
+            all’<persName ref="#DLCL_CF_PC1072">Arcivescovo <hi rend="ul"><foreign xml:lang="la"
+                >Deusdedit</foreign></hi>.</persName> Scrivo al <persName ref="#DLCL_CF_PC1073"
+            >Padre Abate Mauri</persName> che la chiami: ed ella non ricusi fa quel breve viaggetto.
+            L’<persName ref="#DLCL_CF_PC0244">Arisi</persName> nella sua <bibl type="print">Cremona
+            Litterata</bibl> che le <bibl type="print">note del Lambecio alla Storia di
+            Mantova</bibl> del <persName ref="#DLCL_CF_PC0483">Platina</persName> non oltrepassano
+          il primo libro; come dunque arrivano alle cose di <persName ref="#DLCL_CF_PC1047"
+            >Sordello?</persName></p>
+        
+        <p>Il danaro fu sborsato al <rs type="person">Signore SforzaCosta</rs> fin dal principio di Giugno. Questi scrisse ordine a persona, che non l’ebbe, essendo partita di là. L’ha rinnovato ad altri, dopo il ritorno da <placeName ref="#DLCL_CF_L0158">Macerata.</placeName> Tutte le cose vogliono il suo tempo; e certi casi sono inevitabili. E de’ rimbrotti di certi capi d’asino bisogna far quel conto, che meritano. La ringrazio del favore del <persName ref="#DLCL_CF_PC1074">Signor Vincenzio</persName> garbatissimo.</p>
+        
+        <p>La nota de’ libri doveva andare al <rs type="person">Padre Reggente,</rs> che l’aspetta. Glien’ha <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> trasmesso il duplicato? Me lo avvisi. Le tane de’ grilli sono lontane. Li pugnetti non vi entrano. A rivedererci un’altr’ordinario.</p>
+        
+        <p>Le raccomando le copie delle strisce del Dittico.</p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

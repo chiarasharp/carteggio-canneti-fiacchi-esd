@@ -1,0 +1,95 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11116">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21664/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21665/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21666/full/800,/0/default.jpg"/>
+    <graphic n="2r" url=""/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11116">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Forlì, 3 Luglio 1724)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">116</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1724-07-03"/>
+          <placeName ref="#DLCL_CF_L0043" key="DLCL_CF_L0043">Forlì</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-26" who="#DLCL_CF_PS001">aggiornamento teiHeader</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11116_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21665/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        <p>Essendovi pericolo che le lire di <placeName ref="#DLCL_CF_L0037">Francia</placeName> crescano sopra il valore ora corrente, <persName ref="#DLCL_CF_PC0216">Monsignore Fontanini</persName> con tutta premura mi sollecita, a far fare il pagamento per li nove Tomi del <bibl type="print">Martene,</bibl> affinche di pregiudicio alla borsa non riesca la dilazione. Penso pertanto di scrivere Giovedì prossimo al <persName ref="#DLCL_CF_PC0093">Padre Lettore Onestini</persName> che faccia lo sborso di scudi venticinque bai. 12 ½, e nello stesso tempo al <persName ref="#DLCL_CF_PC0069">Reverendissimo Guidotti</persName> che gli somministri il danaro. Così resterà assicurato il pagamento delle lire 150. col vantaggio, che ora corre, per tutta l’opera, o corpo di essa, secondo il consiglio del <persName ref="#DLCL_CF_PC1148">Padre Devitry Gesuita,</persName> il quale scrive ch’ei medesimo fà in tal maniera in <placeName ref="#DLCL_CF_L0008">Roma</placeName> il pagamento intiero anticipato, dovendosegli credere, per essere Franzese. Intanto io tengo pronti in buona moneta scudi trentadue bai. 5., che tanto importa l’intiera rimessa, lcompresi gli scudi sei bai. 92 ½ del compimento del valore degli <bibl type="print">Analetti Mabilloniani,</bibl> e <bibl type="print">Spicilegio Dacheriano.</bibl> Starò sull’avviso per rimetter detta somma a <placeName ref="#DLCL_CF_L0007">Bologna</placeName> al <persName ref="#DLCL_CF_PC1074">Signor Vincenzio Fiacchi,</persName> il quale è sì cortese per favorirmi; ovvero manderò costà il danaro a <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità,</rs> alla quale non mancheranno occasioni pronte, e sicure per farlo passare a <placeName ref="#DLCL_CF_L0007">Bologna.</placeName> Frattanto <persName ref="#DLCL_CF_PC0216">Monsignore Fontanini</persName> si soddisfà, con far legare all’Olandese detti libri, esibendosi il <persName ref="#DLCL_CF_PC0093">Padre Lettore Onestini</persName> apparecchiato a pagar le ligature. Mi valerò dunque de’ di lei favori.</p>
+        <pb xml:id="DLCL_CF_E11116_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21666/full/800,/0/default.jpg"/>
+        <p>Scrivendo al <persName ref="#DLCL_CF_PC0730">Padre Don Angelo,</persName> me lo riverisca ben caramente, e da lui intenda, se in <placeName ref="#DLCL_CF_L0024">Venezia</placeName> può aversi la <bibl type="print">Storia</bibl> del <persName ref="#DLCL_CF_PC0886">Varchi,</persName> e a qual prezzo. Mi incaricò il <persName ref="#DLCL_CF_PC1126">Signor Conte Laderchi</persName> di proccurargliela.</p>
+        <p>Al <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli</persName> i miei cordialissimi rispetti. Gli dica che non si è potuto sapere se questo <rs type="person">Governatore</rs> abbia mai scritta alla Legazione l’informazione sopra l’affare del <rs type="person">Contadino di Schiova, e Compagno.</rs> Ora tocca al <rs type="person">Padre Camerlengo</rs> intendere se l’informazione sia venuta, e insistere nel proseguimento della Causa; il che è necessario per reprimer le temerità del <rs type="person">Daziere,</rs> non abbastanza mortificato. Col <rs type="person">Governatore</rs> non si può trattare, per esser una bestia poco ragionevole, da cui tutti si tengono lontani.</p>
+        <p>Occorrendomi far consegnare qualchè cosa in fiera di <placeName ref="#DLCL_CF_L0030">Sinigaglia,</placeName> lo prego trovarmi persona, e avvisare a chi si possa colà far capo, fino a qual tempo.</p>
+                <closer>
+          <dateline>Suppongo arrivato, o vicino ad arrivare alla patria il <persName ref="#DLCL_CF_PC1033">Signor Conte Luigi Settecastelli,</persName> sopra cui si scaricheranno tutti i pesi dell’economia, e della direzione della famiglia. Spero che in ciò abbia a fare spiccar’ il suo talento. Resto abbracciandola di tutto cuore. <placeName ref="#DLCL_CF_L0043">Forlì</placeName> <date when-iso="1724-07-03">3. Luglio 1724.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Cordialissimo Servo Vostro Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

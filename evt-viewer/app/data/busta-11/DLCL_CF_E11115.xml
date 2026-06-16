@@ -1,0 +1,110 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11115">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21660/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21661/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21662/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21663/full/800,/0/default.jpg"/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11115">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Forlì, 26 Giugno 1724)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">115</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1724-06-26"/>
+          <placeName ref="#DLCL_CF_L0043" key="DLCL_CF_L0043">Forlì</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+  <change when-iso="2026-05-29" who="#DLCL_CF_PS001">aggiornamento struttura</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11115_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21661/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        <p>Ricevo la nota de’ consaputi libri; intorno alla quale è da rilevare, che i tre Tomi del <bibl type="print">Paracelso,</bibl> per cagione de’ sigilli, e altre superstizioni, che per entro vi stanno, son da computarsi tra’ libri superstiziosi, soliti eccettuarsi anco nelle amplissime licenze concedute dalla <orgName ref="#DLCL_CF_O0011">Suprema Congregazione del Sant’Officio.</orgName> In quanto a’ libri imperfetti, e le <bibl type="print">Efemeridi</bibl> vecchie; questi arrivano, questi arrivano al numero di quindici ^anzi 17. e vi si può aggiungere, per essere scompagnato, il Tomo primo del <bibl type="print">Gineceo Chimico,</bibl> in tutto n.° 18. da valutarsi a peso di carta. Gli altri son di numero 32. Crederei che al più potessero tra tutti pagarsi dieci scudi, quando non possano aversi per meno; la metà almeno in libri, e la metà in contanti, in caso che il baratto non sia tutto di libri.</p>
+        <p>Approvo che si dia il tomo del <bibl type="print">Suarez,</bibl> il <bibl type="print">Giansenio,</bibl> il <bibl type="print">Baldelli.</bibl> Vi sono a[nco] il <bibl type="print">Platelio,</bibl> il <bibl type="print">Genet,</bibl> e altri. Rimetto a lei il trattato, e la conclusione di esso; perché <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> vi ha dell’abilità, né basta che l’umiltà sua contradica alla verità, e all’opinione comune. Il <bibl type="print">Platelio</bibl> ben legato a me costò quattro scudi; e lo comprai dal fu <persName ref="#DLCL_CF_PC0392">Padre Lettore Giusti.</persName> In oggi potrebbe valutarsi meno. Sentirò volentieri quel, che avrà Ella operato in questo affare; siccome son curioso d’intendere come a spendere sia disposto il <persName ref="#DLCL_CF_PC1126">Signor Conte Laderchi.</persName> In <placeName ref="#DLCL_CF_L0043">Forlì,</placeName> per quanto mi vien detto, si pens[...] ad acquistare i libri con pochissimi baiocchi.</p>
+        <p>Ieri ebbi l’onore d’inchinarmi all’<rs type="person">Emerito Legato,</rs> che degnossi di onorarmi in forma distinta. Cade il tempo opportuno di riscuotere il danaro del <bibl type="print">Petrarca.</bibl> Già il <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli</persName> me lo dà per riscosso. Per la rimessa a <placeName ref="#DLCL_CF_L0008">Roma</placeName> ho tentato presso il <rs type="person">Signore Sforza Costa</rs> in <placeName ref="#DLCL_CF_L0004">Fabriano;</placeName> e attendo risposta</p>
+        <pb xml:id="DLCL_CF_E11115_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21662/full/800,/0/default.jpg"/>
+        <p>con animo di mandare il contante, per la fiera, a <placeName ref="#DLCL_CF_L0030">Sinigaglia.</placeName></p>
+        <p>Se da <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> io non avessi avuto motivo di proccurare la lettera da <placeName ref="#DLCL_CF_L0023">Foligno,</placeName> scritta colà per isbaglio dal <persName ref="#DLCL_CF_PC0013">Signor Muratori,</persName> Essa vi sarebbe forse rimasa in un cantone di quella posta per suo strano fato morta, e seppellita. Ieri l’ebbi di là; ed è in data del dì 11. Maggio, in risposta, con molte scuse, ad una mia di più mesi avanti. Ringrazio <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> del lume datomi perché dentro vi è un capitolo, o paragrafo importante, mercè del quale mi riuscirà tranquillare le agitazioni di molti cuori, comporre una gran differenza, e far molto bene.</p>
+        <p>Mi mandi una distinta nota delle <bibl type="print">Opere</bibl> dell’<persName ref="#DLCL_CF_PC1138">Aldrovandi,</persName> senza però scrivere l’anno, il luogo, né la stampa. Vuol’essere, e basta un’indicolo de’ titoli §.</p>
+        <p>Vorrei mettermi a leggere il libro contro al <persName ref="#DLCL_CF_PC1122">Bagnari,</persName> creduto <persName ref="#DLCL_CF_PC1133">Lazzarini;</persName> e però più che mai desidero il libretto di detto <persName ref="#DLCL_CF_PC1122">Bagnari</persName> <bibl type="print">contra l’Emanuele Gesuita.</bibl> Se costì trovasene da comprar per pochi baiocchi un esemplare, me lo mandi. Procuri altresì di sapere di certo se il Bagnari è informato del libro scrittogli contro, e dell’equivoco preso da’ Gesuiti, e di tutto il successo. Sarà cosa curiosa intendere quel, ch’ei ne dice.</p>
+        <p>Riceverei i due libri da lei inviatimi con la lettera del <persName ref="#DLCL_CF_PC0784">Signore Conte Luigi,</persName> cui forse con troppa cautela mi sono astenuto, dopo la morte del <persName ref="#DLCL_CF_PC0775">Conte Giuseppe</persName> di scrivergli, supponendolo o in viaggio, o partito; il che per avventura non sarà vero. Ultimamente inviai una lettera a <placeName ref="#DLCL_CF_L0008">Roma</placeName> al <rs type="person">Signor Cavaliere della Branca</rs> di lui Zio materno, e che seco abitava sotto il medesimo tetto. Mi conservi l’amor suo, e presso il Signore Iddio lo eserciti al santo altare; mentre col contraccambio mi rassegno caramente.</p>
+        <closer>
+          <dateline><placeName ref="#DLCL_CF_L0043">Forlì</placeName> <date when-iso="1724-06-26">26. Giugno 1724.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Cordialissimo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+        <pb xml:id="DLCL_CF_E11115_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21663/full/800,/0/default.jpg"/>
+        <p><persName ref="#DLCL_CF_PC1139">Jansenij</persName> <bibl type="print">Concordia Evangelica</bibl> fol. s. 1: 20.</p>
+        <p><persName ref="#DLCL_CF_PC1140">Suarez</persName> <bibl type="print">de Schismate Anglicano</bibl> fol. s. 1: 30.</p>
+        <p><persName ref="#DLCL_CF_PC1101">Baldelli</persName> <bibl type="print">Theologia Moralis</bibl> fol. s. 1: 50.</p>
+        <p><persName ref="#DLCL_CF_PC1141">Platelij</persName> <bibl type="print">Theologicus cursus</bibl> in 8. vol. 5 s. 3.</p>
+        <p><persName ref="#DLCL_CF_PC1142">Bagatta</persName> <bibl type="print">Admiranda Orbis Christiani</bibl> fol. vol. 2 s. 1:50.</p>
+        <p><persName ref="#DLCL_CF_PC1143">Caussinus (Nich.)</persName> <bibl type="print">de Eloquentia Sacra et Humana</bibl> 4 s. 90 90.</p>
+        <p><persName ref="#DLCL_CF_PC1144">Sfondrati</persName> <bibl type="print">Nodus Predestinationis</bibl> 4 s. 50.</p>
+        <p><persName ref="#DLCL_CF_PC0803">Nizolij</persName> <bibl type="print">Thesaurus Ciceron.</bibl> fol. <persName ref="#DLCL_CF_PC0581">Ald.</persName> s. 1.</p>
+        <p><bibl type="print">Dominio Temporale della Santa Sede in Comacchio</bibl> fol. vol. 2. s. 2.</p>
+        <p><persName ref="#DLCL_CF_PC0718">Genet</persName> <bibl type="print">Cursus Theologicus Moralis Paris</bibl> 12. Vol. 7. s. 3. 50.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

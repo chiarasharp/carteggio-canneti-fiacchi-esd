@@ -1,0 +1,128 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11066">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20959/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21494/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21495/full/800,/0/default.jpg"/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11066">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 12 Marzo 1723)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">66</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1723-03-12"/>
+          <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione, markup struttura e entità</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11066_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21494/full/800,/0/default.jpg"/>
+        
+        <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        
+        <p>
+          Io sono finalmente libero dal penoso pensiero di aspettare il consaputo riscontro del <bibl type="print">Quadriregio.</bibl> Dopo quattro mesi vengo con quest’ordinario avvisato non essersi trovata nel <bibl type="print">Codice Bolognese</bibl> altra alterazione, oltre a quella, che avanti mi era stata descritta, e copiata. Così ex nihilo nascitur historia, e una storia di sì lunga durata. Può compensare la pena passata il gusto della speranza datami di avere sotto gli occhi il Codice medesimo, donde ha origine la Controversia intorno al <rs type="person">vero Autore</rs> del <bibl type="print">Quadriregio.</bibl>
+        </p>
+        
+        <p>
+          Mi significa il <persName ref="#DLCL_CF_PC0146">Signor Giuseppe</persName> che il <bibl type="manuscript">Fior di Virtù Manoscritto</bibl> del <persName ref="#DLCL_CF_PC1042">Signor Senese Ranuzzi</persName> comincia:    
+          <cit>
+            <quote>
+              <hi rend="ul">Io ho facto come colui che in uno grandissimo prato de fiori. che ellege
+                tutti li più belli per fare una grelanda. E per cio voglio che questa mia picola
+                opereta. habia nome fiore de vertu</hi> §
+              </quote>
+            </cit>
+          sotto quasi immediatamente: 
+          <cit>
+            <quote>
+              <hi rend="ul">amore Benivolentia e dilectione sono quasi una cosa: come pruova
+                </hi><persName ref="#DLCL_CF_PC0911"><hi rend="ul">Fra Thomaso</hi></persName><hi
+                rend="ul"> nella sua Somma</hi> §
+              </quote>
+            </cit>
+           Il fine è questo: 
+          <cit>
+            <quote>
+              <hi rend="ul">Alexandro dice: el
+                non è cosa al mondo che tanto farà apreriare l’huomo: quanto fa li belli costumi.
+                Finis.</hi>
+            </quote>
+          </cit>
+        </p>
+        
+        <p>
+          Si prenda l’incomodo di collazionare queste parole col principio, e fine di cotesta antica edizione, di cui per altro conservo la notizia, e descrizione da <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> mandatami sul principio di questo anno.
+        </p>
+        
+        <pb xml:id="DLCL_CF_E11066_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21495/full/800,/0/default.jpg"/>
+        
+        <p>
+          Ho pagato quì scudi tre e bai. 14. per il <persName ref="#DLCL_CF_PC0069">Padre Don Aurelio Maestro de’ Novizzi</persName> di <orgName ref="#DLCL_CF_O0006">San Michele.</orgName> <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> si serva in <placeName ref="#DLCL_CF_L0024">Venezia</placeName> di lire trentina sol. otto con dar’ordine di pagare a chi occorre detta somma, scrivendone allo stesso <rs type="person" ref="#DLCL_CF_PC0069">Padre Maestro.</rs> A molte lettere aspetto risposta: onde senza stendermi più oltre, mi ristringo; confermandomi.
+        </p>
+        
+        <closer>
+          <salute>DVPMR.</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1723-03-12">12. Marzo 1723.</date></dateline>
+          <salute>Par. Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

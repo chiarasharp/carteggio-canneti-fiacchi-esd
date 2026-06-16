@@ -1,0 +1,101 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11132">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21716/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21717/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21718/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21719/full/800,/0/default.jpg"/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11132">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Forlì, 9 Ottobre 1724)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">132</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1724-10-09"/>
+          <placeName ref="#DLCL_CF_L0043" key="DLCL_CF_L0043">Forlì</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-26" who="#DLCL_CF_PS001">aggiornamento teiHeader</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11132_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21717/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        <p>Iersera tornando, dopo una passeggiata fuor della Città, al Monastero, [Ivi] vidi finalmente consolato con la venuta del <persName ref="#DLCL_CF_PC0784">Signor Conte Luigi,</persName> e del <rs type="person">Signor Cavaliere della Branca,</rs> a quali si erano aggiunti i <persName ref="#DLCL_CF_PC1152">Signori Conti Alessandri,</persName> <persName ref="#DLCL_CF_PC1153">Castracani,</persName> e <persName ref="#DLCL_CF_PC1033">Settecastelli.</persName> Oggi intorno alle venti ore han preso il cammino verso <placeName ref="#DLCL_CF_L0094">Meldola,</placeName> lasciando in forse il loro ritorno per questa medesima strada.</p>
+        <p>Dal <rs type="person">sopradetto Signor Conte</rs> ho ricevuto il consaputo involto, che mi è stato carissimo, con entrovi quanto Ella mi descrive. È necessario, che il <persName ref="#DLCL_CF_PC0090">Padre Don Leandro</persName> m’informi che cosa significhi nella vita trasmessami la distinzione delle parole, e periodi, e squarci lineati; e da chi siano state suggerite le notizie, che poi sono state confusamente poste insieme. In una parola mi comparisce a prima vista un’embrione, composto di cose sciapite. Rivederò questi fogli, e saprò dire se siano capaci di ricevere forma migliore.</p>
+        <p>Non essendo io in istato di poter’ acquistare i <bibl type="print">Secoli Benedettini,</bibl> quella raccolta delle prefazioni, delle quali io avea necessità, mi riesce preziosissima; né dopo l’edizione dell’<bibl type="print">Epistole</bibl> di <persName ref="#DLCL_CF_PC0177">Ambrogio</persName> scappata da’ torchi di <placeName ref="#DLCL_CF_L0037">Francia,</placeName> eravi cosa più capace del mio desiderio, e del mio gradimento, attesa la necessità dell’erudizione cotanto ampia, e profittevole al lavoro delle Annotazioni. Iddio benedica chi è stato da lui ispirato a dar fuori quel libro. Mi è cara l’<bibl type="print">Opera</bibl> del <persName ref="#DLCL_CF_PC1091">Padre Antonio da Venezia,</persName> per cui metterò mano a celebrar le 14. Messe.</p>
+        <pb xml:id="DLCL_CF_E11132_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21718/full/800,/0/default.jpg"/>
+        <p>Questa copia a me basta, perché il <persName ref="#DLCL_CF_PC1096">Padre Maestro Minghetti</persName> per altra via n’è già provveduto. Scriverò al <persName ref="#DLCL_CF_PC1062">Signor Canonico Gagliardi.</persName> Parmi che la stampa del <persName ref="#DLCL_CF_PC0011">Volpi</persName> se ne vada in declinazione, non solo per li ca[rat]teri, e per la carta, ma ancora per le materie deboli, e minute che si prendono ivi ad imprimere.</p>
+        <p>Godo che siano compite le <bibl type="print">Prose Fiorentine</bibl> che riceverò legate dal nostro diligente <persName ref="#DLCL_CF_PC0313">Paolino.</persName> Alla compra delle <bibl type="print">traduzioni</bibl> del <persName ref="#DLCL_CF_PC0875">Salvini</persName> penserò un’altra volta.</p>
+        <p>Certissima e indubitata era la nuova dell’<bibl type="print">officio di Santa Brigida,</bibl> che ieri in tutte le chiese di <placeName ref="#DLCL_CF_L0043">Forlì</placeName> si celebrò col nuovo rito doppio. Ma, se <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> non si vale di altro mezzo per aver da <placeName ref="#DLCL_CF_L0008">Roma</placeName> il decreto, non gliel manderà sollecitamente il <persName ref="#DLCL_CF_PC0088">nostro Onestini,</persName> ch’è in viaggio per <placeName ref="#DLCL_CF_L0078">Montecassino,</placeName> e per <placeName ref="#DLCL_CF_PC0178">Napoli.</placeName></p>
+        <p>Al <persName ref="#DLCL_CF_PC0178">Reverendissimo’ Ferranti</persName> tirerò io ancora un colpo per gli quattro Tomi del <bibl type="print">deChales</bibl> col primo ordinario. A <rs type="person" ref="#DLCL_CF_PC1154">cotesto Arcivescovo</rs> di <orgName ref="#DLCL_CF_O0195">Edessa</orgName> <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> mostri l’<bibl type="manuscript">Aristofane greco Manoscritto.</bibl> Senza dubbio il <bibl type="print">Plinio</bibl> è una rarissima maraviglia. Quando giungerà la nota de’ libri per il cambio del <bibl type="print">Lirano,</bibl> saprò dire se son cosa da applicarvi. Il cambio starebbe bene con un de’ <bibl type="manuscript">Corpi delle lettere Manoscritte</bibl> del <persName ref="#DLCL_CF_PC0258">Delfino.</persName> Il duplicato a loro è superfluo, a noi manca; e alla fine resterebbe dentro la Religione. Finisca pure <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> il suo Calendario; ma non si scordi di farmi l’intierissima nota de’ libri, che desidero, e ben distinta.</p>
+        <pb xml:id="DLCL_CF_E11132_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21719/full/800,/0/default.jpg"/>
+        <p>Le promisi avvisarla tosto che vi fosse nuovo avviso intorno alla persona del <rs type="person">Padre Mastri Seniore.</rs> Ora sciolgo la promessa, con significarle ch’egli è ottavo Abate Sopranumerario della professa nostra. Il breve si è quì avuto di buon’ora questa mattina. Egli ebbe i di lei favori in <placeName ref="#DLCL_CF_L0009">Cesena,</placeName> dove glieli trasmisi, dopo aver letta la copia. Sta la materia per farsi onore con un discorso nell’<orgName>Accademia de’ Concilj</orgName> poco fà eretta in <placeName ref="#DLCL_CF_L0003">Pesaro.</placeName> Il <persName ref="#DLCL_CF_PC1108">Padre Camerlengo Severo</persName> non ha tuttavia ricevute le corone da Bagno. Giunte che siano, la servirà puntualmente. Ben tornato il nostro <persName ref="#DLCL_CF_PC0676">Grillo.</persName> Gli raccomando il <bibl type="print">Paruta;</bibl> e tocca a lei esiggere.</p>
+        <p>A momenti aspetto il <persName ref="#DLCL_CF_PC0174">Padre Folegatti</persName> nel di lui viaggio per <placeName ref="#DLCL_CF_L0107">Torino.</placeName> Ecco l’occasione per mandare l’<bibl type="print">Artemidoro.</bibl> Se Vostra Paternità non sà di certo ch’ei siasi per portare anco a <placeName ref="#DLCL_CF_L0002">Ravenna,</placeName> procuri di mandar quà il libro, o a <placeName ref="#DLCL_CF_L0005">Faenza,</placeName> perché gli sia colà consegnato. Si dia le mani attorno per pronta occasione.</p>
+                <closer>
+          <dateline>Più d’una risposta è restata a lei nella penna. Glielo accenno, perché la scuota, e faccia uscir fuori quel, che ancor non è calato sulla carta. Il <persName ref="#DLCL_CF_PC0093">Padre Lettore Onestini</persName> mi avverte, che la tela è sua e costì ha da fermarsi, senza passare più in là. Finisco abbracciandola con tutto ‘l cuore. <placeName ref="#DLCL_CF_L0043">Forlì</placeName> <date when-iso="1724-10-09">9. Ottobre 1724.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Cordialissimo Servitore Vero Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

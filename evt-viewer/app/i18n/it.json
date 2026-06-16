@@ -116,7 +116,7 @@
 		"ENTITY_TYPE_RELATION": "Nome di relazione",
 		"ENTITY_TYPE_BIBL": "Opera",
 		"ENTITY_TYPE_PRINT": "Opera a Stampa",
-        "ENTITY_TYPE_MANUSCRIPT": "Manoscritto",
+		"ENTITY_TYPE_MANUSCRIPT": "Manoscritto",
 		"GENERIC": "Lista generica",
 		"LIST": "Lista",
 		"NO_ELEMENTS": "Nessun elemento in questa lista",
@@ -179,13 +179,13 @@
 		"TEXT_OF_VERSION_NOT_AVAILABLE": "Il testo della versione {{version}} non è disponibile.",
 		"TEXT_OF_WITNESS_NOT_AVAILABLE": "Il testo del testimone {{witness}} non è disponibile.",
 		"TRY_DIFFERENT_BROWSER_OR_CONTACT_DEVS": "Prova ad utilizzare un browser differente oppure contatta gli sviluppatori.",
-		        "NO_MAP_AVAILABLE": "Mappa non disponibile",
-        "LOAD_OCCURRENCES": "Carica Occorrenze",
-        "REFERENCE_COUNT_INFO": "{{count}} riferimenti",
-        "NO_REFERENCE_DATA": "Entità non identificata",
-        "NO_REFERENCE_DATA_DESC": "Entità non ancora identificata.",
-        "CONTACT_BUTTON": "Aiutaci a identificarla",
-        "NO_REFERENCE_DATA_NOTE": ""
+		"NO_MAP_AVAILABLE": "Mappa non disponibile",
+		"LOAD_OCCURRENCES": "Carica Occorrenze",
+		"REFERENCE_COUNT_INFO": "{{count}} riferimenti",
+		"NO_REFERENCE_DATA": "Entità non identificata",
+		"NO_REFERENCE_DATA_DESC": "Entità non ancora identificata.",
+		"CONTACT_BUTTON": "Aiutaci a identificarla",
+		"NO_REFERENCE_DATA_NOTE": ""
 	},
 	"NAMED_ENTITIES": {
 		"MORE_INFO": "Informazioni aggiuntive",
@@ -249,7 +249,8 @@
 		"msItem": "Opera",
 		"copist": "Copista",
 		"sameAs": "Link esterno",
-		"dlclId": "ID progetto"
+		"dlclId": "ID progetto",
+		"altName": "Altri nomi"
 	},
 	"ATTRIBUTE_NAMES": {
 		"type": "Tipo",
@@ -429,15 +430,14 @@
 	"SELECTS": {
 		"CLEAR": "Cancella Selezione",
 		"CLEAR_SELECTION": "Cancella Selezione",
-			"MULTIPLE_OPTIONS_SELECTED": "Più opzioni selezionate",
-	"MULTIPLE_SELECTION": "Selezione Multipla",
-	"MULTIPLE_REFERENCES": "Riferimenti multipli",
-	"MULTIPLE_REFERENCES_COUNT": "Riferimenti multipli ({{count}})",
-	"THIS_REFERENCE_INCLUDES": "Questo riferimento include {{count}} fonti:",
-
-	"NAMED_ENTITIES": "Named Entities",
-	"SELECT_NAMED_ENTITIES": "Seleziona entità",
-	"SELECTED_COUNT": "selezionate",
+		"MULTIPLE_OPTIONS_SELECTED": "Più opzioni selezionate",
+		"MULTIPLE_SELECTION": "Selezione Multipla",
+		"MULTIPLE_REFERENCES": "Riferimenti multipli",
+		"MULTIPLE_REFERENCES_COUNT": "Riferimenti multipli ({{count}})",
+		"THIS_REFERENCE_INCLUDES": "Questo riferimento include {{count}} fonti:",
+		"NAMED_ENTITIES": "Named Entities",
+		"SELECT_NAMED_ENTITIES": "Seleziona entità",
+		"SELECTED_COUNT": "selezionate",
 		"NO_SELECTION": "Nessuna Selezione",
 		"OPEN_TO_SELECT_ELEMENT": "Apri il selettore per scegliere un elemento da selezionare.",
 		"OTHER_ENTITIES": "Altre Entità",

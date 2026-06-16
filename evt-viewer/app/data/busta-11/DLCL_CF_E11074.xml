@@ -1,0 +1,125 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11074">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20967/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21510/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21511/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21512/full/800,/0/default.jpg"/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11074">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 30 Aprile 1723)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">74</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1723-04-30"/>
+          <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-27" who="#DLCL_CF_PS001">trascrizione, markup struttura e entità</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        
+        <pb xml:id="DLCL_CF_E11074_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21510/full/800,/0/default.jpg"/>
+        
+        <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre Signore Mio Osservandissimo</rs></salute>
+        </opener>
+        
+        <p>
+          Non accade che intorno a <persName ref="#DLCL_CF_PC1047">Sordello Mantovano</persName> <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> faccia altra ricerca, fuori dell’<bibl type="print">Istoria Mantovana</bibl> del <persName ref="#DLCL_CF_PC0483">Platina</persName> (se pur questi ne parla) Abbastanza ne son’informato dal <persName ref="#DLCL_CF_PC0033">Crescimbeni</persName> ne’ <bibl type="print">Commentarj,</bibl> ove cita l’<persName ref="#DLCL_CF_PC1048">Agnelli.</persName></p>
+        <p>Bensì vorrei che senza indugio <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> osservasse se l’<persName ref="#DLCL_CF_PC0127">Orlandi</persName> nel suo nuovo <bibl type="print">Libro delle cose Tipografiche</bibl> apporti le edizioni del <bibl type="print">Quadriregio</bibl> di <persName ref="#DLCL_CF_PC0823">Federico Frezzi</persName> negli anni 1481. in <placeName ref="#DLCL_CF_L0028">Perugia.</placeName> 1494. in <placeName ref="#DLCL_CF_L0007">Bologna.</placeName> 1501. in <placeName ref="#DLCL_CF_L0024">Venezia.</placeName> 1508. in <placeName ref="#DLCL_CF_L0018">Firenze</placeName> e 1511. in <placeName ref="#DLCL_CF_L0024">Venezia,</placeName> riportando le parole precise dell’<persName ref="#DLCL_CF_PC0127">Orlandi.</persName> Ciò aspetto per l’ordinario primo. Insieme desidero che Vostra Paternità mi mandi il libro colla prima spedizione. Se mi piacerà, lo terrò; e rimborserò la spesa, perché costì si provvegga di altra copia; quando nò, lo rimanderò. Ma penso che non ritornerà; perché, benché cattivi, certi libri bisogna avergli tutti. Certamente dell’altro libro degli <bibl type="print">Scrittori</bibl>
+        </p>
+        
+        <pb xml:id="DLCL_CF_E11074_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21511/full/800,/0/default.jpg"/>
+        
+        <p>
+          <bibl type="print">Bolognesi</bibl> io ho cavato per la Prefazione del <bibl type="print">Quadriregio</bibl> notizie recondite, che fanno risalto; siccome gli spropositi stessi mi fanno giuoco, ancorché all’<rs type="person">Autore</rs> costino assai cari.
+        </p>
+        
+        <p>
+          Attendo le tre copie del primo Tomo del <bibl type="print">Tasso.</bibl> Mi avvisi se avremo sicuramente il 2.° Sommamente mi spiace che si tronchi l’edizione di un Corpo così riguardevole. Il povero <persName ref="#DLCL_CF_PC0146">Mauro</persName> è sfortunato.
+        </p>
+        <p>
+          I ferri, co’ i quali <persName ref="#DLCL_CF_PC0004">Marozzi</persName> indorò il <bibl type="print">Vossio</bibl> nuov<gap reason="illegible"/>[...] legato sono del <orgName ref="#DLCL_CF_O0005">Monastero?</orgName> ove sono andati. Vi era la Cifra di <placeName ref="#DLCL_CF_L0020">Classe.</placeName>
+        </p>
+        
+        <p>
+          Sento che <persName ref="#DLCL_CF_PC0613">Frate Giuseppe Antonio</persName> ha ripugnanza a fare il disegno in concorrenza. Sarà poco danno restar privi noi de’ suoi favori. 
+        </p>
+        
+        <closer>
+          <salute>Con che caramente mi confermo.</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1723-04-30">30. Aprile 1723.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Cordialissimo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+        
+        <pb xml:id="DLCL_CF_E11074_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21512/full/800,/0/default.jpg"/>
+        
+        <postscript>
+          <p>
+            <persName ref="#DLCL_CF_PC0906">Monsignore Ercolani</persName> desidera l’<bibl type="print">Indice de’ Trattati</bibl> delli due Tomi di <persName ref="#DLCL_CF_PC1001">Marsilio Ficino,</persName> e la notizia della Stampa. È stato fuori, onde prima non si è data risposta.</p>
+          <p>Mandi presto l’<persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Orlandi.</persName> L’involto col rimanente § ancor dorme in <placeName ref="#DLCL_CF_L0003">Pesaro.</placeName> Quella negligenza quanto dura!
+          </p>
+          <p>
+            Faccia metter mano alla Copia della <bibl type="print">Traduzione del Riccobaldi,</bibl> da <bibl type="print">Carlo Magno</bibl> fino al fine, alle spese del <persName ref="#DLCL_CF_PC0013">Signor Muratori.</persName>
+          </p>
+        </postscript>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

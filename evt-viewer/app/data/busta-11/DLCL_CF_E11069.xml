@@ -1,0 +1,89 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11069">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20962/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21498/full/800,/0/default.jpg"/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11069">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 2 Aprile 1723)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">69</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1723-04-02"/>
+          <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione, markup struttura e entità</change>
+    </revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11069_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21498/full/800,/0/default.jpg"/>
+        
+        <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        
+        <p>
+          Ancor quando vi è poco tempo, si scrive, e si scrive così: Ho ricevute nel Sabbato Santo congiuntamente due risposte di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità,</rs> una delle quali (o’ scandalo) a sei mie lettere. Coll’arrivo dell’Alleluia, giunsero le Colonnette: io le manderò dirette al <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli;</persName> e con esse vi sarà lo stame (glielo dica, e lo riverisca). Ma quando si manderanno a <placeName ref="#DLCL_CF_L0003">Pesaro,</placeName> anche per Uomo a posta? Quando il <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> mi assicuri che il tal giorno sarà in <placeName ref="#DLCL_CF_L0003">Pesaro</placeName> il <bibl type="manuscript">Manuscritto Bolognese,</bibl> che mi manda il <persName ref="#DLCL_CF_PC0146">Signore Giuseppe Mauro:</persName> questa condizione è indispensabile, perché voglio che il Messo me lo porti; e se nel tempo stesso può avere da <placeName ref="#DLCL_CF_L0024">Venezia</placeName> il <bibl type="print">Decembrio</bibl> di <placeName ref="#DLCL_CF_L0010">Padova,</placeName> che ho dato ordine si consegni al <persName ref="#DLCL_CF_PC0585">Poletti,</persName> e questi a lei lo mandi, più volentieri spedirò la Cassetta delle Colonnette. A lei tocca darsi le mani dattorno. E se altro ha da inviarmi, lo metta in ordine. È disgrazia dello spaccio dell’<bibl type="print">Opera</bibl> del <persName ref="#DLCL_CF_PC0088">Signore Calbi</persName> che io sia in paese, ove né pur’ una copia è possibile trovar da vedere. Resto, rimettendomi ad altr’Ordinario. (e così finisce la lettera)
+        </p>
+        
+        <closer>
+          <salute>DVPMR. <placeName ref="#DLCL_CF_L0004">Fabriano</placeName> 29. Marzo 1723.</salute>
+          <salute>Cordialissimo Servo Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

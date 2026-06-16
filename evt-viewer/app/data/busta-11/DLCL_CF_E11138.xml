@@ -1,0 +1,95 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11138">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21736/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21737/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21738/full/800,/0/default.jpg"/>
+    <graphic n="2r" url=""/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11138">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (...luogo, ...anno)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">138</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso=""/>
+          <placeName ref="" key=""/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11138_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21737/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        <p><placeName ref="#DLCL_CF_L0043">Forlì</placeName> 4. xbre 1724.</p>
+        <p>Rendo cordiali grazie all’<rs type="person">autor</rs> del <bibl type="print">Calendario</bibl> per la copia, di cui accuso la ricevuta. Avviserò quanto prima di quante altre occorrerà quì provvedersi, perché poi Ella le mandi con opportuna occasione.</p>
+        <p>L’evidenza dimostra agli occhi, quanto bravo sia <persName ref="#DLCL_CF_PC0313">Paolino</persName> nel mettere l’oro sulla carta pecora: altre volte ho veduta la tintura sua verde nelle stesse pergamene: onde è fuor di dubbio, che saprà egli accompagnare la legatura del primo tomo della <bibl type="print">Biblioteca Sicula.</bibl></p>
+        <p>Per prima occasione le spedirò gli Autori, che trattano del <bibl type="print">Moto dell’Acque</bibl> in tre tomi, in 4.to ma vi mancano le Tavole V. VI. e VIII. da legarsi in fine del 2.° Tomo. Ho scritto a <placeName ref="#DLCL_CF_L0007">Bologna,</placeName> che si mandino a lei costà, a dirittura le dette tre Tavole. Si contenterà Ella di riceverle, come anco i tre tomi, e aspettare, che tutto sia arrivato, avanti di far mettere mano alla legatura.</p>
+        <p>Si guardi <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> di non proporre spesa di libri, oltre alli 60. scudi dell’affitto, assegnato per dote della Libreria. Faccia cadere nella somma sopradetta, ed entrare il Volume ultimo degli <bibl type="print">Atti de’ Bollandisti,</bibl> e il tomo V. degli <bibl type="print">Annali Benedettini</bibl> del <persName ref="#DLCL_CF_PC0129">Mabillon,</persName> costì necessario per compire il Corpo, e per</p>
+        <pb xml:id="DLCL_CF_E11138_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21738/full/800,/0/default.jpg"/>
+        <p>avere in esso descritti, e rifiniti i principj del nostro ordine.</p>
+        <p>Aspetto di ritorno da <placeName ref="#DLCL_CF_L0157">Civitella</placeName> il <rs type="person">Padre Camerlengo mio,</rs> cui al ritorno consegnerò la sacchetta, e il danaro, da dare al <persName ref="#DLCL_CF_PC1090">Balassi;</persName> né tralascerò di raccomandargli la spedizione delle altre corone, da farsi con cautela somma, ed infinita, anteponendo il genere feminino al masculino.</p>
+        <p>La ringrazio del Decreto contra le buone feste, copiato. Cordialmente abbraccio il <persName ref="#DLCL_CF_PC0090">Padre Don Leandro,</persName> e riverisco il <persName ref="#DLCL_CF_PC0007">Padre Lettore, e Predicatore Collina</persName> che io con altrettanto desiderio qui aspetto nel ritorno. Ma prima aspetto il <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Bibliotecario.</rs></p>
+        <p>Da <placeName ref="#DLCL_CF_L0024">Venezia</placeName> ho ricevuti, già con tutta esattezza accompagnati da’ tomi susseguenti i due, del <bibl type="print">Pez,</bibl> e della <bibl type="print">Biblioteca Greca.</bibl> Do ordine, che siano pagate altre undici lire al <persName ref="#DLCL_CF_PC0873">Padre Calogerà.</persName> Sentiremo i conti. Attendo la nota di là, di que’ libri per messe. Proponga colà due <bibl type="print">Ceremoniali de’ Vescovi</bibl> dell’ottima edizione Vaticana 1651. in 4. cum figur. Il <persName ref="#DLCL_CF_PC0178">Padre Abate Ferranti</persName> mi disse, anzi mi scrive, uno essergli costato in <placeName ref="#DLCL_CF_L0024">Venezia</placeName> lire 30. sciolto. <bibl type="print">De Trimestribus</bibl> quid? <bibl type="print">De Lyrano</bibl> quid? In [Tu?] autem Domine miserere nobis.</p>
+        <p>Id scire abs te velim quid caussę sit, quod 16. die Ianuar. et 9. Octobr. <bibl type="print">Officium del Padre Romualdo</bibl> non sit persolverdum?</p>
+        <p>Suppongo abbia ricevuto le lire 50. e datane parte al <persName ref="#DLCL_CF_PC0044">Padre Pancaldi</persName></p>
+      </div>
+    </body>
+  </text>
+</TEI>

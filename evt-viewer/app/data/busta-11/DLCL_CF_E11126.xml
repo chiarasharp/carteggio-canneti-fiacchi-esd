@@ -1,0 +1,103 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11126">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21697/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21698/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21699/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21700/full/800,/0/default.jpg"/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11126">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (...luogo, ...anno)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">126</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso=""/>
+          <placeName ref="" key=""/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11126_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21698/full/800,/0/default.jpg"/>
+                <opener>
+          <salute>Amatissimo <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName></salute>
+        </opener>
+        <p>Messe Libri</p>
+        <p>Ricevo la carissima sua, e rispondo subito in fretta. Ho ricevuto ben condizionate le casse de’ libri, che rimanderò vote, con le corde, al nostro <persName ref="#DLCL_CF_PC0313">Paolino.</persName> Intorno a’ libri del 1400. me ne mandi l’indicolo, come altresì de’ codici a penna.</p>
+        <p>Quanto al foglio, che manca nel Vol. 3. si prenda l’incomodo di farlo venire, scrivendone al <persName ref="#DLCL_CF_PC1160">Padre Fattorini</persName> a <placeName ref="#DLCL_CF_L0018">Firenze,</placeName> che pur nel partire mi fece grandi esibizioni. Feci comprare coteste <bibl type="print">Prose</bibl> nel Marzo prossimo passato per mano del <persName ref="#DLCL_CF_PC1161">Padre Gherardi</persName> allora Camerlingo degli Angioli.</p>
+        <p>Un cordialissimo saluto al <persName ref="#DLCL_CF_PC0730">Padre Don Angelo.</persName> Manderò il Tomo XI. della <bibl type="print">Biblioteca Greca</bibl> del <persName ref="#DLCL_CF_PC0679">Fabricio,</persName> perché uniforme si leghi il XII. che intanto favorisca comprare per me sciolto. Delle tre comedie, chieste, io non ne ho veruna, né saprei donde cavarle. Dell’<bibl type="print">Istoria delle Perucche</bibl> ho la prima versione stampata in <placeName ref="#DLCL_CF_PC0679">Benevento,</placeName> fatta dal <persName ref="#DLCL_CF_PC1162">Bovicelli,</persName> dalla <placeName ref="#DLCL_CF_L0188">Fratta di Perugia.</placeName> Le due copie del <bibl type="print">Merighi</bibl> sono all’ordine.</p>
+        <p>Martedì arrivarono i libri da <placeName ref="#DLCL_CF_L0008">Roma.</placeName> I miei sette Tomi sono legati sommamente bene; la stampa, e la carta non son perfette al pari della legatura. Atteso l’ordine di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> spedirò subito, che sia la giornata libera da timor di pioggia, i libri di esso <persName ref="#DLCL_CF_PC0730">Padre Don Angelo.</persName> Attendo il volume del <bibl type="print">Mabillone</bibl> in 4.to legato: intendo dello stampato in <placeName ref="#DLCL_CF_L0150">Trento.</placeName></p>
+        <pb xml:id="DLCL_CF_E11126_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21699/full/800,/0/default.jpg"/>
+        <p>Scrivendo a <placeName ref="#DLCL_CF_L0018">Firenze,</placeName> ordini anco per me (se ne sono usc[…] altri Tomi di <bibl type="print">prose</bibl> dell’<persName ref="#DLCL_CF_PC0875">Abate Antonmaria Salvini,</persName> oltre i due a lei mandati, e i due tomi de’ <bibl type="print">Discorsi,</bibl> che già ho quì. Ma vengano a lei sciolti. E <persName ref="#DLCL_CF_PC0313">Paolino</persName> gli accompagnerà nella legatura?</p>
+        <p>Io avea scritto fin qui Lunedì sera; ma non potei compire la lettera. Era io stanco per la fatica, durata in quel giorno intorno a rivedere, e collazionare il primo libro dell’<bibl type="print">Epistole</bibl> di <persName ref="#DLCL_CF_PC0177">Ambrogio.</persName> L’<bibl type="print">edizione</bibl> di <placeName ref="#DLCL_CF_L0037">Francia</placeName> non ha che 16. lettere a <persName ref="#DLCL_CF_PC0254">Papa Eugenio,</persName> e la mia Raccolta ne ha 33. E più copiosa in tutto, di un terzo, oltre che nelle stampate mancano i pezzi più importanti, più rari, più plausibili. A buon conto io son libero da’ riguardi di non pubblicar le miserie de’ nostri e di quei tempi. Si uscirà allegramente, senza dubbio, in luce.</p>
+        <p>Ier mattina per due ore e più fu qui a discorrere il <persName ref="#DLCL_CF_PC0296">Reverendissimo Montanari;</persName> e venne a dar per conclusa la cessione dello Spoglio <persName ref="#DLCL_CF_PC0614">Celini,</persName> a favor di questo Monastero. Era tutto gioviale, e disinvolto. Manderà lei, subito che sian tornati i Confalonieri.</p>
+        <p>Mi spiace che il libro non sia arrivato in tempo. Veda di spin-</p>
+        <pb xml:id="DLCL_CF_E11126_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21700/full/800,/0/default.jpg"/>
+        <p>-gerlo dietro al <persName ref="#DLCL_CF_PC0336">Padre Franchetti,</persName> o in altra maniera sicura. Ma e della legatura arcisolennissima del <bibl type="print">Lattanzio,</bibl> che si fà?</p>
+        <p>Io loderei, che le giunte nel <bibl type="print">Calendario</bibl> si mettessero a lor’ luogo. Abbiam l’esempio di <orgName ref="#DLCL_CF_O0013">Monte Corona,</orgName> dove stanno inseriti gli <bibl type="print">officj</bibl> particolari di ciascheduno Eremo, ma succintamente. Mi pare che io una volta gliene mandai una copia. Ancor’io manderò i pochi officj di <placeName ref="#DLCL_CF_L0043">Forlì.</placeName></p>
+        <p>Subito che sarà tempo sereno, manderò i libri da trasmettere a <placeName ref="#DLCL_CF_L0024">Venezia,</placeName> col <bibl type="print">Lirano</bibl> per contrasoma. Stia allegramente. A rivederci. Intanto l’abbraccio di tutto cuore.</p>
+        <p>DVPMR. <placeName ref="#DLCL_CF_PC0824">Forlì</placeName> 13. 7bre 1724.</p>
+        <p>Un caro saluto a <persName ref="#DLCL_CF_PC0824">Frate Ferdinando.</persName> Le tavole serviranno al bisogno.</p>
+                <closer>
+          <salute>Cordialissimo Servitore Vero Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

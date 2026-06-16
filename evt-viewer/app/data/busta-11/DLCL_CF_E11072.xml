@@ -1,0 +1,108 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11072">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20965/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21506/full/800,/0/default.jpg"/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11072">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 19 Aprile 1723)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">72</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1723-04-19"/>
+          <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-27" who="#DLCL_CF_PS001">trascrizione, markup struttura e entità</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11072_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21506/full/800,/0/default.jpg"/>
+        
+        <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre Signore Mio Osservandissimo</rs></salute>
+        </opener>
+        
+        <p>
+          Quell’<rs type="person">Uomo,</rs> che di costà doveva arrivare Sabbato li 10. a sera in <placeName ref="#DLCL_CF_L0003">Pesaro,</placeName> non vi si trovò giunto che il martedì 13. alle ore 24. in circa. Sà Iddio quando potrò avere il <bibl type="manuscript">Codice Bolognese.</bibl> Frattanto ho finita la mia <bibl type="print">Prefazione, o Dissertazione,</bibl> e già si stà facendone la copia, per mandarla a <placeName ref="#DLCL_CF_L0023">Foligno,</placeName> donde poi sollecitamente si avrà la stampa intiera del <bibl type="print">Quadriregio,</bibl> che non può essere, se non un grosso volume.
+        </p>
+        
+        <p>
+          Godo che siano arrivate le tre Copie del <bibl type="print">Tasso,</bibl> che suppongo legate ancora, e bene. Le riceverò col <bibl type="print">2° Supplemento.</bibl> Dell’<bibl type="print">Enfant</bibl> non sento nuova, né del <bibl type="print">Decembrio.</bibl> Scriva a questo <rs type="person">Padre Lettore,</rs> e lo solleciti a presto rimandare il <bibl type="print">Paruta,</bibl> o per meglio dire a far la copia del frontispizio, perché ritorni il libro.
+        </p>
+        
+        <p>
+          Coll’ordinario prossimo scriverò sopra il <bibl type="print">Ficino</bibl> di <placeName ref="#DLCL_CF_L0010">Padova,</placeName> in tempo che <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> potrà dare colà la risposta per il contratto. <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> nulla mi dice della legatura del <bibl type="manuscript">Manoscritto geografico</bibl> a lei lasciato in custodia. Mi preme, per esservi delle carte disgiunte. 
+        </p>
+        
+        <closer>
+          <salute>Resto confermandomi</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1723-04-19">19. Aprile 1723.</date></dateline>
+          <salute>DVPMR.</salute>
+        </closer>
+        
+        <postscript>
+          <p>
+            Parmi incredibile che col mezzo di <persName ref="#DLCL_CF_PC0313">Paolino</persName> non si trovi costì da esitare il <persName ref="#DLCL_CF_PC0216">Fontanini</persName> <bibl type="print">sopra lo Stato di Parma.</bibl> Vi applichi; e troverà §. Aspetto tuttavia da <placeName ref="#DLCL_CF_L0008">Roma</placeName> il <bibl type="print">Libro di Risposta</bibl> contra l’iniquo <persName ref="#DLCL_CF_PC0436">Laderchi.</persName> Che ne dice il <persName ref="#DLCL_CF_PC0336">Padre Franchetti?</persName> È informato?
+          </p>
+        </postscript>
+        
+        <closer>
+          <salute>Cordialissimo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

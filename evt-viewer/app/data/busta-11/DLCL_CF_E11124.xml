@@ -1,0 +1,107 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11124">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21689/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21690/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21691/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21692/full/800,/0/default.jpg"/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11124">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Forlì, 16 Agosto 1724)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">124</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1724-08-16"/>
+          <placeName ref="#DLCL_CF_L0043" key="DLCL_CF_L0043">Forlì</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-26" who="#DLCL_CF_PS001">aggiornamento teiHeader</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11124_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21690/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        <p>Figurandomi di presto aver’a rivedere <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> sospesi la risposta a due ultime sue carissime: ma poiché infino ad ora sono andate deluse le mie speranze, né sò come fondatamente immaginare quando sia Ella per favorirmi, risolvo rispondere, e scrivere quanto mi occorre.</p>
+        <p>In congiuntura di godere, con singolare mio contento, dell’onore compartitomi dal gentilissimo <persName ref="#DLCL_CF_PC1033">Signore Conte Luigi Settecastelli,</persName> ricevei l’involtino da lei speditomi, che mi fu molto caro. Rimanderò il libretto <bibl type="print">Anchora Sauciatorum,</bibl> il quale per andar corredato delle annotazioni del <rs type="person">Medico Ferrarese,</rs> merita di essere anteposto all’<bibl type="print">edizione</bibl> primiera di <placeName ref="#DLCL_CF_L0187">Lipsia.</placeName> Io credeva che in detto Opuscolo si trattasse dello Stittico, usato dal fu <persName ref="#DLCL_CF_PC0034">Dottor Veratti,</persName> e lavorato da <persName ref="#DLCL_CF_PC0343">Frate Bartolommeo,</persName> che in sostanza è un Estratto della pietra matite, fatto con lo spirito di vino: ma nello scorrere l’operetta non l’ho incontrato.</p>
+        <p>Ho qui schierati i nostri libri, per formarli nelle scanzie sode. Affine di stabilirne l’ordine, mi è necessario avere cotesti altri nostri libri, che non sono, rispettivamente alla <orgName ref="#DLCL_CF_O0001">Biblioteca Classense,</orgName> duplicati. Mi favorisca incassarli tutti, o stampati, o Manoscritti con gli Opuscoli § E se fossero anco in rerum natura quei certi librettini, o fogli, intorno alle cose di <placeName ref="#DLCL_CF_L0037">Francia,</placeName> ch’erano triplicati, la prego aggiungervegli. Le Casse, che non sono nostre, si rimanderanno puntualmente. Tra gli altri verrà il <bibl type="print">Boldeti.</bibl></p>
+        <p>Per lo contrario manderò costà il corpo del <bibl type="print">Lirano,</bibl> da rilegare con diligenza, per esitarlo vantaggiosamente, dopo che sarà ben rivestito, e rilavato dove bisogna, e supplito con la penna in un foglio, e in tutta una prefazione, che manca,</p>
+        <pb xml:id="DLCL_CF_E11124_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21691/full/800,/0/default.jpg"/>
+        <p>per essere state levate tutte le carte, che mancano, da questo corpo, e trasportate a compir cotesto altro corpo della <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> Suppongo ch’Ella abbia Soggetto capace di far bene il servizio colla penna, almeno sufficientemente.</p>
+        <p>Ben distintamente la ringrazio della copia della censura, che meritamente fa il <persName ref="#DLCL_CF_PC0013">Murator[i]</persName> contro il perfido <persName ref="#DLCL_CF_PC0436">Laderchi.</persName> È bella, perché inveisce acremente contra le cavillazioni del Calunniatore: ma non calca mai tanto, quanto colui merita.</p>
+        <p>Non sò pensar’altro, se non che più non si trovi l’<bibl type="print">Istoria</bibl> del <persName ref="#DLCL_CF_PC0886">Varchi,</persName> per non intendere avviso del prezzo. È stato gran vantaggio comprare il Corpo delli nove Tomi del <bibl type="print">Martene</bibl> per 25. scudi e bai mentre in <placeName ref="#DLCL_CF_L0024">Venezia</placeName> tre soli tomi si valutano scudi quindici. Anco il <persName ref="#DLCL_CF_PC0132">Reverendissimo Grandi,</persName> a mia imitazione ha fatto lo stesso sborso anticipato. Mi scrive in oltre di aver comprato il vasto corpo del <bibl type="print">Bollando,</bibl> i <bibl type="print">Secoli Benedettini,</bibl> e altri libri molti, a segno che è spogliato affatto di danaro.</p>
+        <p>Parmi averla pregata per sapere quanto in <placeName ref="#DLCL_CF_L0024">Venezia</placeName> si pagherà il 4.° Tomo degli <bibl type="print">Anecdoti</bibl> del <persName ref="#DLCL_CF_PC0912">Pez.</persName></p>
+        <p>Io non ho mai chiesto, né dato assenso all’<persName ref="#DLCL_CF_PC1093">Albrizzi,</persName> perché mi ponga al ruolo de’ suoi Associati. Ora positivamente fo istanza di esserne raso, perché l’Accademia dell’Onor Letterario è quì scomunicata, con tutti i suoi Compastori, come una ridicola, e fantastica impostura.</p>
+        <p>O povero Zoppo <persName ref="#DLCL_CF_PC1159">Budrioli,</persName> se non si rifà della spesa della stampa della <bibl type="print">Raccolta Poetica!</bibl> Sarà altro danno, che quello ebbe mesi sono, quando fatto precedere un finto Lacchè dell’<persName ref="#DLCL_CF_PC0981">Eccellentissimo Recanati,</persName> che voleva passare, prendere un rinfresco, e</p>
+        <pb xml:id="DLCL_CF_E11124_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21692/full/800,/0/default.jpg"/>
+        <p>non fermarsi, fu messo in impegno di andare con uno sterzo ad incontrar Sua Eccellenza mentre i ghiottoni orditori della scena si godettero una lauta merenda, alla barba del <persName ref="#DLCL_CF_PC1159">Budrioli.</persName></p>
+        <p>Stà bene che per 20. paoli siano stati esitati i quattro consaputi libri per paoli 20. Ma riflettendo ben bene sopra l’<bibl type="print">Agostini delle Medaglie,</bibl> e il <bibl type="print">Tesoro del Patini,</bibl> io dubito che ognun di questi vaglia 20. paoli. Se il <persName ref="#DLCL_CF_L0043">Signore Zanotti</persName> ha impegno, non occorre discorrere più oltre: altrimenti si prenda informazione; o se è presa, si regoli con la medesima, dato un poco di difalco.</p>
+        <p>Quanto al <bibl type="print">Platelio,</bibl> manderò i due tometti, perché costì facciasi nel Tomo in foglio copia delle giunte, e annotazioni con carattere miglior del mio.</p>
+        <p>Mi avvisi se i due tometti de’ <bibl type="print">Discorsi del Cardinale Orsini,</bibl> ora Santo Pontefice siano posti nella Libreria. Io ne ho due altri tomi, mandatimi dall’Autore.</p>
+        <p>Ebbi l’involtino dal <persName ref="#DLCL_CF_PC0105">Padre Camerlengo Giorgini.</persName> De’ libri <persName ref="#DLCL_CF_PC0034">Veratti</persName> di ultimo acquisto scelga i duplicati, e mandi tutti gli altri. Ma di essi duplicati, che restano, si compiaccia trasmettermi una schietta lista, per mio governo.</p>
+                <closer>
+          <salute>Penso che una Scanzia basterà per quei, che rimangono. Si compiaccia far disfare l’altra migliore, e mandarla colle tavole, che ha da provveder <persName ref="#DLCL_CF_PC0029">Frate Ferdinando,</persName> e con le Casse. La carta è piena; e il caldo mi ammazza. L’abbraccio di tutto cuore; e senza fine mi confermo.</salute>
+          <dateline>DVPMR. <placeName ref="#DLCL_CF_L0043">Forlì</placeName> <date when-iso="1724-08-16">16. Agosto 1724.</date></dateline>
+          <salute>Cordialissimo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

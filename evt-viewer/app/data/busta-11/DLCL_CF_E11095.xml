@@ -1,0 +1,147 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11095">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21591/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21592/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21593/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21597/full/800,/0/default.jpg"/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11095">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 12 Novembre 1723)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">95</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1723-11-12"/>
+          <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione, markup struttura e entità</change>
+      <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11095_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21592/full/800,/0/default.jpg"/>
+        
+        <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        
+        <p>Spedisco questa mattina al <persName ref="#DLCL_CF_PC0121">Padre Lettore
+            Guiccioli</persName> una Cassetta, dentro la quale stanno <bibl type="manuscript">cinque
+            codici antichi,</bibl> da consegnarsi a <rs type="person" ref="#DLCL_CF_PC0002"
+            key="DLCL_CF_PC0002">Vostra Paternità,</rs> insieme con tre pelli di capretto rosse. I
+          manoscritti son questi; in primo luogo quel di <placeName ref="#DLCL_CF_L0007"
+            >Bologna,</placeName> del <bibl type="manuscript">Quadriregio,</bibl> attribuito al
+          Malpighi, in foglio. Questo sommamente sia alla di lei diligenza raccomandato, perché con
+          le debite cautele vada nelle mani del <persName ref="#DLCL_CF_PC0007">Padre Lettore
+            Collina</persName> a Bologna. Gli altri sono, <bibl type="manuscript">due testi diversi
+            del Quadriregio medesimo,</bibl> e <bibl type="manuscript">due Canzonieri, uno di
+            Niccola da Montefalco, l’altro di Lorenzo Spirito Perugini,</bibl> de quali tutti parla
+          il <persName ref="#DLCL_CF_PC0033">Crescimbeni,</persName> e parlano altri; ed io ne
+          scrivo nella mia <bibl type="print">Dissertazione Apologetica,</bibl> già mandata allo <rs
+            type="person">stampatore.</rs> Due libri hanno necessità di essere rilegati, cioè il
+            <bibl type="manuscript">Quadriregio col nome di Federico Vescovo di Foligno,</bibl> e il
+            <bibl type="manuscript">Canzoniere dello Spirito, intitolato</bibl> *[manca il <gap
+            reason="illegible"/>[…]olo, e vi si <gap reason="illegible"/>[…]era] <bibl
+            type="manuscript">Fenice.</bibl> In tutti i modi <rs type="person" ref="#DLCL_CF_PC0002"
+            key="DLCL_CF_PC0002">Vostra Paternità</rs> li faccia rilegar subito, con lasciarvi <del
+            rend="overstrike">sul principio</del> una, o due carte bianche sul principio, dove
+          bisogna farvi il titolo, e qualche memoria. Ma al <bibl type="print">Quadriregio</bibl>
+          non si manchi di conservar’ attaccati i due pezzi, o carte di pergamena, uno sul
+          principio, l’altro sul fine. Importa sommamente quello, ch’è sul fine, perché con
+          inchiostro dilavato, <foreign xml:lang="la">et <hi rend="ul">pene fugientibus
+            literis</hi></foreign> vi sta scritta una memoria ben considerabile dell’anno 1489, se
+          ben mi ricordo, da me riportata nella <bibl type="print">Dissertazione.</bibl> Mando
+          apposta tre pelli; la 3.a servirà per</p>
+        
+        <pb xml:id="DLCL_CF_E11095_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21593/full/800,/0/default.jpg"/>
+        
+        <p>quelle <bibl type="manuscript">ottave Cosmografiche Manoscritte di un Dati,</bibl> scritte con inchiostro lucido scuro, e miniate, che lasciai costì, e sono in pericolo <gap reason="illegible"/>[…] rendersi mancanti, per esservi qualche carta staccata. Il <gap reason="illegible"/>[…] <bibl type="manuscript">Cosmografico</bibl> intendo sia conservato tra’ nostri libri a parte altri due vadano, o ritornino alla <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> la qual penso che mercè della di lei disinvoltura, troverà modo di spendere per le legature, alle quali non è poco che io contribuisca i capre<gap reason="illegible"/>[…] Gli altri due, vadano essi pure a trovarsi luogo in Libreria, ove devono star pronti a farsi vedere da chi avrà letto il Quadriregio ora ristampato, e la mia <bibl type="print">Dissertazione.</bibl> Il <bibl type="manuscript">Canzoniere del Montefalco</bibl> stà bene nella sua antica legatura, ancor sufficiente. Dell’altro <bibl type="manuscript">testo del Quadriregio, senza nome di autore,</bibl> mi rimetto.</p>
+        
+        <p><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> avrà
+          ricevuto il <bibl type="manuscript">Codice</bibl> in cartapecora, tornato da <placeName
+            ref="#DLCL_CF_L0012">Modena,</placeName> e rimandato dal <persName ref="#DLCL_CF_PC0007"
+            >Padre Lettore Collina,</persName> <bibl type="manuscript">Opera del Granchi Pisano,
+              <foreign xml:lang="la"><hi rend="ul">de Proelis Tusciae</hi></foreign>.</bibl> Quello
+          rimetta trà nostri libri. Che si fece della Copia del <bibl type="print">Rico</bibl><gap
+            reason="illegible"/>[…]</p>
+        
+        <p>Sento che Ella abbia la <bibl type="print">Ristampa della perfetta poesia,</bibl> e altre
+          copie da mandarmi. Le aspetto, e vi aggiunga, come in prestito, qu<gap reason="illegible"
+          />[…] <bibl type="print">Faballo.</bibl> Vorrei sapere se in <orgName ref="#DLCL_CF_O0001"
+            >cotesta Libreria</orgName> siavi il <bibl type="print"><hi rend="ul"
+            >Merc[urio]</hi></bibl><hi rend="ul"> di </hi><persName ref="#DLCL_CF_PC1078"><hi
+              rend="ul">Vittorio Sciri</hi>,</persName> di quale stampa, in quanti Tomi. Mi mandi le
+          misure</p>
+        
+        <pb xml:id="DLCL_CF_E11095_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21597/full/800,/0/default.jpg"/>
+        
+        <p>dell’altezza, e larghezza de’ mezzi fogli (che comunemente diciamo foglj) di cotesto Conio. In fretta l’abbraccio col <persName ref="#DLCL_CF_PC0730">Padre Don Angelo,</persName> cui scriverò Lunedì prossimo. Intanto al solito mi confermo.</p>
+        
+        <closer>
+          <salute>DVPMR.</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1723-11-12">12. 9bre 1723.</date></dateline>
+        </closer>
+        
+        <postscript>
+          <p>Il <persName ref="#DLCL_CF_PC0625">Padre Reggente Pugnetti</persName> è ancora in <placeName ref="#DLCL_CF_L0048">Fano?</placeName></p>
+        </postscript>
+
+        <closer>
+          <salute>Cordialissimo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -58,7 +58,7 @@
       <change when-iso="2025-06-18" who="#DLCL_CF_PS001">creato</change>
       <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
       <change when-iso="2026-01-23" who="#DLCL_CF_PS001">markup</change>
-      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
     
       <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
   <change when-iso="2026-04-27" who="#DLCL_CF_PS001">conversione lacune in gap</change>
@@ -81,7 +81,7 @@
               principio della stampa fino alla primavera dell’anno 1472 impressi in <placeName ref="#DLCL_CF_L0008">Roma</placeName> dalli <rs type="person" ref="#DLCL_CF_PC0684 #DLCL_CF_PC0685">due Tedeschi</rs> introduttori della
               nuova arte in <orgName ref="#DLCL_CF_O0109">casa Massimi.</orgName> Stà questa <bibl type="print">lettera</bibl>
               in fronte all’ultimo Volume delle <bibl type="print">Postille</bibl> del <persName ref="#DLCL_CF_PC0655">Lirano,</persName> che contiene l’<bibl type="print">Epistole</bibl> di <persName ref="#DLCL_CF_PC0826">San Paolo,</persName> e le altre
-                <bibl type="print">Canoniche con l’Apocalisse.</bibl> Un’altra lettera niente meno
+                <bibl type="print">Canoniche con l’Apocalisse.</bibl> Un’altra <bibl type="print">lettera</bibl> niente meno
               curiosa del <rs type="person" ref="#DLCL_CF_PC0637">medesimo Vescovo</rs> è in fronte a
               tutta l’Opera, avanti alle <bibl type="print">Postille</bibl> sopra la <bibl type="print">Genesi:</bibl> ma questa io stimo infinitamente per la notizia
               dell’edizioni infino a quell’ora seguite, e col distinto numero delle copie. Li mille

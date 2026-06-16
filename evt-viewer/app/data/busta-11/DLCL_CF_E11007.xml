@@ -59,7 +59,7 @@
       <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
       <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
       <change when-iso="2026-02-02" who="#DLCL_CF_PS001">markup testo</change>
-      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
     
       <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
 </revisionDesc>
@@ -78,7 +78,7 @@
             ref="#DLCL_CF_O0005">Basilica di Classe;</orgName> ed io il provo, per cui non ha egli
           più cuore, né pensiero alcuno, dopo avermi mossa la scialiva colla prima notizia della
           ristorazione delle Antichità. Iddio gli perdoni la sua barbarie inumana. Almeno per mezzo
-          di <rs type="person">VPMR</rs> mi dia contezza della legatura del <bibl type="print"
+          di VPMR mi dia contezza della legatura del <bibl type="print"
             >Vossio</bibl> a lui commessa. Non vi è tempo da perdere, volendolo io ricevere per la
           fiera di <placeName ref="#DLCL_CF_L0030">Sinigaglia.</placeName> Quanto alla nota de’
           libri descritti nel <bibl type="manuscript">Catalogo</bibl> di <persName

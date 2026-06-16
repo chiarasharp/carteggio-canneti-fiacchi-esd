@@ -1,0 +1,96 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11103">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21618/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21619/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21620/full/800,/0/default.jpg"/>
+    <graphic n="2r" url=""/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11103">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 18 Febbraio 1724)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">103</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1724-02-18"/>
+          <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-26" who="#DLCL_CF_PS001">aggiornamento teiHeader</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11103_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/20997/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        <p>Sempre più mi si accresce il concetto della buona Economia del <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Bibliotecario.</rs> Ben venuto lo zecchino, e buon viaggio a’ libri esitati. In due volte, ch’è stato il <persName ref="#DLCL_CF_PC0259">Padre Bianconi</persName> alla bottega del <rs type="person">mercante di pelli,</rs> cui io avea premurosamente parlato, non si è finito di accozzarne insieme cinquanta: perché ne mancano delle pergamene, per arrivare a tal numero: onde spero di potere presto spedirle con un’altra cassetta di libri. Senza dubbio vi si usa molta diligenza, scegliendole da parecchie migliaia. Vi sarà il <bibl type="print">Leggendario,</bibl> ma non il <bibl type="print">Lirano,</bibl> conoscendone men pronto l’Esito, e tenendone trattato in altra parte, con animo di lasciarlo a chi primo offerirà prezzo ragionevole. Questo sarebbe intiero, se per compire cotesto altro già applicato alla <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> non ne avessi levato un foglio, e tutta la <bibl type="print">seconda Dedicatoria,</bibl> tre essendo le <bibl type="print">lettere</bibl> del <rs type="person" ref="#DLCL_CF_PC0637">Vescovo di Aleria.</rs> Cotesto Corpo, levato da <placeName ref="#DLCL_CF_L0023">Foligno,</placeName> era più nitido e pulito, ma non intiero, come questo messo insieme, e cavato da due altre Librerie. I tre tomi del <bibl type="print">Lacerda</bibl> sono intieri, e ben conservati; né vi si può opporre difetto veruno. Più espressamente ripeto non essersi scoperta mancanza nel <bibl type="print">Lirano,</bibl> fuorché di un foglio, in luogo del quale ne stà uno antico della stessa carta, ma bianco, levato da cotesto altro <bibl type="print">Lirano,</bibl> e della <bibl type="print">2.a Dedicatoria,</bibl> che mancava in cotesto medesimo: ma il <persName ref="#DLCL_CF_PC0093">Padre Lettore Onestini</persName> ha osservato mancare in <placeName ref="#DLCL_CF_L0008">Roma</placeName> in un ‘ltro corpo. Qualche macchia d’acqua vi è, che</p>
+        <pb xml:id="DLCL_CF_E11103_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/20997/full/800,/0/default.jpg"/>
+        <p>non parmi bastevole a guastarne il contratto.</p>
+        <p>L’<bibl type="manuscript">Indice</bibl> dello <persName ref="#DLCL_CF_PC1103">Smith</persName> mi par, che possa servire in caso di volere far vendi[ta] di que’ libri; così vi si scorge l’attenzione a lodargli, e a tacere la qualità de’ caratteri gottici. È un bell’indice; e lo terrò tra le cose care. Non vi si legge però il nostro <bibl type="print">Lattanzio</bibl> di <orgName ref="#DLCL_CF_O0175">Subiaco,</orgName> né l’edizione in pergamena del <bibl type="print">Plinio</bibl> in due gran tomi, con tanto insigni ornamenti di vaghe miniature fine, e quel, che più importa con l’aggiunta delle <bibl type="manuscript">Annotazioni, e dell’Indice copioso a penna.</bibl> E [...]te cose abbiam noi, che non ha quell’Inglese, degne di notificarsi, perché pellegrine. Comunque sia, <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> faccia un bel <bibl type="manuscript">catalogo di tutti cotesti libri,</bibl> con le osservazioni addattate. Io manderò quanto prima la nota di quei, che stan quì presso di me. Poi risolveremo se debba stamparsi, o nò.</p>
+        <p>Poco male sarebbe aspettare ancor’ un’altro poco di tempo il 2.° Tomo del <bibl type="print">Tasso,</bibl> e poi averlo. Così è. Per tre soli si è rimesso il danaro, per il <persName ref="#DLCL_CF_PC0015">Signore Paglarini,</persName> da cui l’hò avuto; e per li due Prelati, <persName ref="#DLCL_CF_PC0906">Ercolani</persName> e <persName ref="#DLCL_CF_PC1040">Torregiani,</persName> da quali mi è stato contato il prezzo solamente del primo Tomo. Se il <persName ref="#DLCL_CF_PC0986">Buonarrigo</persName> non si fosse arenato, io avrei fatti associare altri.</p>
+                <closer>
+          <dateline>L’acquisto del <bibl type="print">Faballi</bibl> mi è stato arcicarissimo. A misura del godimento, grazie al buon cuore, che l’ha felicemente proccurato. Resto abbracciandola con tutto l’animo. <placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1724-02-18">18. Febbraio 1724.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Cordialissimo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

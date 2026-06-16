@@ -1,0 +1,124 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11075">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20968/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21513/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21514/full/800,/0/default.jpg"/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11075">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 7 Maggio 1723)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">75</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1723-05-07"/>
+          <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-27" who="#DLCL_CF_PS001">trascrizione, markup struttura e entità</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        
+        <pb xml:id="DLCL_CF_E11075_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21513/full/800,/0/default.jpg"/>
+        
+        <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre Signore Mio Osservandissimo</rs></salute>
+        </opener>
+        
+        <p> Finalmente ieri arrivò l’involto de’ libri, col <bibl type="manuscript">Manoscritto
+            Bolognese,</bibl> colle tre copie delle due <bibl type="print">Filosofie</bibl> del
+            <persName ref="#DLCL_CF_PC0088">Signor Calbi,</persName> e colle <bibl type="print"
+            >Osservazioni Critiche</bibl> del <persName ref="#DLCL_CF_PC0981">Recanati.</persName>
+            <foreign xml:lang="la"><hi rend="ul">Deo gratias</hi></foreign>. Mi avvisi se le copie
+          suddette mi vengono mandate dall’Autore, per soddisfare alle mie parti. Mille grazie a <rs
+            type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> delle
+            <bibl type="print">Osservazioni</bibl> suddette, le quali possono a me riuscire utili;
+          come ora mi sono assai care. Ammiro la flemma Veneziana, la qual non lascia perdere il
+          peso a’ colpi, che vengono scaricati sopra il <bibl type="print">Lenfant.</bibl> Ora si
+          rimette in attenzione il desiderio per ricevere i tre <bibl type="print">Tassi</bibl> (de’
+          quali subito mi avvisi quanto importa per ciascheduno la legatura) il <bibl type="print"
+            >Supplemento,</bibl> e la <bibl type="print">Continuazione de’ due Giornali,</bibl> il
+            <bibl type="print">Decembrio,</bibl> e la <bibl type="print">Raccolta</bibl> (per cui
+          farò ringraziare il <persName>Signor Avvocato Succi)</persName> con l’<bibl type="print"
+            >Opera Tipografica</bibl> dell’<persName ref="#DLCL_CF_PC0127">Orlandi,</persName>
+          intorno alla quale scrissi a lei colle ultime. Se altro non vuole che sapere in oggi il
+          mio umore sopra il <bibl type="print">Decembrio,</bibl> resti informata che io me ne
+          pentij, dopo aver saputo che si aggira in materie di pedanteria, quando io mi era figurato
+          che fosse una miniera dell’Istoria Letteraria de’ suoi tempi. </p>
+        
+        <p>
+          Ma e che fa quel <persName ref="#DLCL_CF_PC1038">Signor Melerio</persName> di <placeName ref="#DLCL_CF_L0054">Parma?</placeName> Perché non si sente nuova delli tre ultimi <bibl type="print">Tomi Pedrusiani?</bibl>
+        </p>
+        
+        <p>
+          Del <persName ref="#DLCL_CF_PC1047">Sordello</persName> non accade darmi relazione per conto di ciò, che ne scrive l’<persName ref="#DLCL_CF_PC1048">Agnelli Maffei.</persName> Se ne ha l’estratto nelli <bibl type="print">Commentarj</bibl> del <persName ref="#DLCL_CF_PC0033">Crescimbeni,</persName> tra i Poeti Provenzali, nella qual lingua poetò il <persName ref="#DLCL_CF_PC1047">Mantovano Sordello.</persName> Mi sarà caro qualche passo del <bibl type="print">Platina,</bibl> ristringendo in breve il rimanente.
+        </p>
+        
+        <pb xml:id="DLCL_CF_E11075_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21514/full/800,/0/default.jpg"/>
+        
+        <p>
+          Coll’arrivo del Lino, e altro di costà spedito a <placeName ref="#DLCL_CF_L0030">Sinigaglia</placeName> si mandò al <persName ref="#DLCL_CF_PC0475">Signor Paolo Sgherri</persName> da spedire poi a <placeName ref="#DLCL_CF_L0002">Ravenna</placeName> a <persName ref="#DLCL_CF_PC0029">Frate Ferdinando</persName> il bauletto. Di grazia sollecitamente se ne faccia diligenza, perché ognuno possa aver ciò, che gli tocca, cioè il <persName ref="#DLCL_CF_PC0730">Padre Don Angelo</persName> il bauletto medesimo, <persName ref="#DLCL_CF_PC0810">Frate Lorenzo</persName> certo panno e il Tomo X. della <bibl type="print">Biblioteca Greca</bibl> possa inviarsi da <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> a <placeName ref="#DLCL_CF_L0024">Venezia</placeName> al <persName ref="#DLCL_CF_PC0547">Reverendissimo Tassis.</persName>
+        </p>
+        
+        <closer>
+          <salute>Con che resto confermandomi di tutto cuore.</salute>
+          <salute>DVPMR.</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1723-05-07">7. Maggio 1723.</date></dateline>
+          <salute>Cordialissimo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

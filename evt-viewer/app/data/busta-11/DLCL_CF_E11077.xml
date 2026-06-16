@@ -1,0 +1,134 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11077">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20970/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21517/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21518/full/800,/0/default.jpg"/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11077">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 17 Maggio 1723)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">77</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1723-05-17"/>
+          <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-27" who="#DLCL_CF_PS001">trascrizione, markup struttura e entità</change>
+    </revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11077_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21517/full/800,/0/default.jpg"/>
+        
+        <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre Signore Mio Osservandissimo</rs></salute>
+        </opener>
+        
+        <p> Giudiciosamente <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra
+            Paternità</rs> mi ha mandate le notizie dello stato di <placeName ref="#DLCL_CF_L0007"
+            >Bologna</placeName> nel 1430., appunto quanto mi erano d’uopo per aggiungere in
+          pochissime parole la spiegazione delle parole del <rs type="person" ref="#DLCL_CF_PC1049"
+            >Copista:</rs> <foreign xml:lang="la"><hi rend="ul">in tempore populi</hi></foreign>.
+          Mirabilmente giovami il <bibl type="manuscript">Codice Bolognese;</bibl> il quale, se
+          fosse arrivato in tempo di servirsene per fermare il testo (già stampato) oh quante
+          migliori lezioni ci avrebbe suggerite; benché scorrettissimo sia, e assai malmenato! In
+            <placeName ref="#DLCL_CF_L0023">Foligno,</placeName> in <placeName ref="#DLCL_CF_L0028"
+            >Perugia,</placeName> e nell’<placeName ref="#DLCL_CF_L0041">Umbria</placeName> corre la
+          voce <hi rend="ul">Orche</hi> a significar le spalle. Tutti i testi, e le stampe l’hanno
+          una volta descrivendo <persName ref="#DLCL_CF_PC1051">Achitofele</persName> appeso alle
+          forche, col capo pendente verso una delle <hi rend="ul">orche</hi>. E il <bibl
+            type="manuscript">Codice Bolognese</bibl> è unico ad aver detto vocabolo nel descriver
+          le spalle col petto d’argento della Statua di <persName ref="#DLCL_CF_PC1052"
+            >Nabucco;</persName> onde due volte vi ha il Vocabolo proprio
+            dell’<placeName>Umbria.</placeName> </p>
+        
+        <p>
+          Ho necessità di sapere se il <persName ref="#DLCL_CF_PC1053">Marini</persName> nell’<bibl type="print">Adone</bibl> sia tutto nell’Amore di senso, e di Voluttà. <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità,</rs> che ne ha licenza, riconosca l’idea, quanto basta a chiarire il mio dubbio.
+        </p>
+        
+        <p>
+          Il <persName ref="#DLCL_CF_PC1041">Padre Martene</persName> nel primo delli tre Tomi di una sua <bibl type="print">nuova Collezione</bibl> ha già stampate 700. lettere in circa di <persName ref="#DLCL_CF_PC0177">Ambrogio,</persName> e d’altri ad <persName ref="#DLCL_CF_PC0177">Ambrogio,</persName> e le <bibl type="print">Prefazioni.</bibl> Si scusa che non era informato della mia Raccolta; e un gran <rs type="person">Letterato Italiano</rs> si affatica per persuadermelo. Peggio; il <persName ref="#DLCL_CF_PC0132">Padre Abate Grandi</persName> nel riveder questa mia, si oscura, e non
+        </p>
+        
+        <pb xml:id="DLCL_CF_E11077_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21518/full/800,/0/default.jpg"/>
+        
+        <p>
+          disprezza più tanto le apprensioni del numero maggiore de’ <gap reason="illegible"/>[…]. Con tutto ciò non dispero. A ragione adunque io ho lasciato dormir più anni quest’Opera. Non basta risvegliarsi, quando altri vi mette mano; perché tuttavia si dubita che sarà inevitabile lo scandalo de’ nostri. In confidenza a lei sola, ed al <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli</persName> solo nella stessa maniera.
+        </p>
+        
+        <p>
+          Presto anderà la rimessa, anzi si manderà costà la poliza al <persName ref="#DLCL_CF_PC0194">Signore Munghini.</persName> De’ Capretti che è stato? Vagliono dieci scudi Rom<gap reason="illegible"/>[...]. Se il <persName ref="#DLCL_CF_PC0011">Signore Volpi</persName> li rimettesse al <persName ref="#DLCL_CF_PC0194">Signor Munghini,</persName> manderei di me<gap reason="illegible"/>[…] questa somma. Scriva Ella subito a <placeName ref="#DLCL_CF_L0010">Padova.</placeName> 
+        </p>
+        
+        <closer>
+          <salute>Resto abbracciandola caramente.</salute> 
+        </closer>
+        
+        <postscript>
+          <p>
+            Aspetto risposta intorno a’ libri di <placeName ref="#DLCL_CF_L0054">Parma,</placeName> ed alle Copie per <placeName ref="#DLCL_CF_L0012">Modena.</placeName> Un cordialissimo saluto alli <rs type="person">due Fratelli,</rs> ed al <persName ref="#DLCL_CF_PC0873">Padre Calogerà.</persName>
+          </p>
+        </postscript>
+        
+        <closer>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1723-05-17">17. Maggio 1723.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Cordialissimo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

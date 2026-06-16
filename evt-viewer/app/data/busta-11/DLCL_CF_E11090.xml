@@ -1,0 +1,109 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11090">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21575/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21576/full/800,/0/default.jpg"/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11090">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 16 Luglio 1723)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">90</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1723-07-16"/>
+          <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione, markup struttura e entità</change>
+      <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+    </revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11090_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/20984/full/800,/0/default.jpg"/>
+        
+        <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        
+        <p>Per servire <rs type="person">un’Amico,</rs> desidero due notizie: cioè intorno alle
+            <bibl type="print"><foreign xml:lang="la"><hi rend="ul">Horae
+            Subsecivae</hi></foreign></bibl> del <persName ref="#DLCL_CF_PC1071"
+          >Bisciola,</persName> libro che parmi sia in <orgName ref="#DLCL_CF_O0001">cotesta
+            Libreria.</orgName> Se ne chiede l’edizione, il numero de’ Tomi §</p>
+        
+        <p>L’altra notizia è sopra gli Autori ristampati in <placeName ref="#DLCL_CF_L0024"
+            >Venezia</placeName>
+          <foreign xml:lang="la"><hi rend="ul">ad Usum Delphini</hi></foreign>, per sapere quali, e
+          quanti siano, di che stampa, in quanti volumi. Ciò potrà sapere dal <persName
+            ref="#DLCL_CF_PC0730">Padre Don Angelo,</persName> se si trova colà.</p>
+        
+        <p>Desidero sapere se abbia Ella usata diligenza alcuna per mettere in buona forma i Tomi del <bibl type="print">P. Platina</bibl> mandati di quà, se altri esemplari ve ne siano in <orgName ref="#DLCL_CF_O0001">Libreria.</orgName></p>
+        
+        <p>Occorrendo di quà mandar qualche cosa a <placeName ref="#DLCL_CF_L0002">Ravenna,</placeName> mi avvisi se in fiera di <placeName ref="#DLCL_CF_L0030">Sinigaglia</placeName> vi siano Mercanti di costà, a quali possa farsi capo.</p>
+        
+        <p> Il <persName ref="#DLCL_CF_PC0625">Padre Reggente Pugnetti</persName> attende la nota.
+          Indrizzi le lettere per lui a <placeName ref="#DLCL_CF_L0159"><hi rend="ul"
+              >Fossombrone</hi></placeName><hi rend="ul"> per le </hi><placeName
+            ref="#DLCL_CF_L0183"><hi rend="ul">Fratte</hi>.</placeName> </p>
+        
+        <closer>
+          <salute>Resto caramente abbracciandola.</salute>
+          <salute>DVPMR.</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1723-07-16">16. Luglio 1723.</date></dateline>
+          <salute>Parz.mo Cordialissimo Servitore</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

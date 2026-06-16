@@ -59,7 +59,7 @@
       <change when-iso="2025-12-19" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
       <change when-iso="2026-01-23" who="#DLCL_CF_PS001">aggiornamento testo da Word</change>
       <change when-iso="2026-02-03" who="#DLCL_CF_PS001">markup testo</change>
-      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
     
       <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
 </revisionDesc>
@@ -75,7 +75,7 @@
         <p>
           Sull’idea delle notizie de’ libri compresi nel <bibl type="manuscript">Catalogo</bibl>
           di <persName ref="#DLCL_CF_PC0216">Monsignor Fontanini</persName> a lei partecipata con
-          l’ordinario scorso, che io desidero, ora porto a <rs type="person">VPMR</rs> la nota di
+          l’ordinario scorso, che io desidero, ora porto a VPMR la nota di
           que’ pochissimi, i quali ho acquistati, dopo ritornato a me il <bibl type="manuscript">Catalogo</bibl> medesimo. E son
           questi 
         </p>
@@ -163,7 +163,7 @@
             <placeName ref="#DLCL_CF_L0004">Fabriano</placeName>
             <date when-iso="1721-05-23">23. Maggio 1721.</date>
           </dateline>
-          <salute>D<rs type="person">VPMR</rs></salute>
+          <salute>DVPMR</salute>
           <salute>Suo Pa. Cordialissimo Servitore</salute>
           <signed>
             <persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName>

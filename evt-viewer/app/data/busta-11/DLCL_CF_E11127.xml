@@ -1,0 +1,93 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11127">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21701/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21702/full/800,/0/default.jpg"/>
+    <graphic n="1v" url=""/>
+    <graphic n="2r" url=""/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11127">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Forlì, 16 Settembre 1724)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">127</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1724-09-16"/>
+          <placeName ref="#DLCL_CF_L0043" key="DLCL_CF_L0043">Forlì</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+  <change when-iso="2026-05-29" who="#DLCL_CF_PS001">aggiornamento struttura</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11127_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21702/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        <p>Dal latore della presente riceverà <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> una Cassetta con entrovi i tre Tomi sciolti della <bibl type="print">nuova Collezione di antichi munumenti,</bibl> de’ <persName ref="#DLCL_CF_PC1041">Padri Martene,</persName> e <persName ref="#DLCL_CF_PC1135">Durand,</persName> da trasmettersi a <placeName ref="#DLCL_CF_L0024">Venezia</placeName> al <persName ref="#DLCL_CF_PC0873">Padre Calogerà,</persName> insieme con l’<bibl type="print">Indice de’ libri proibiti,</bibl> similmente sciolto, e la tela, che tiene involti essi libri, e gli altri seguenti, cioè Tomi VI. del <bibl type="print">Lirano,</bibl> <bibl type="print">Sant’Atanasio sopra l’Epistole di San Paolo,</bibl> della traduzione del <persName ref="#DLCL_CF_PC0824">Persona,</persName> (e questi 7. Tomi son da legare) in oltre il Tomo 3.° del <bibl type="print">Tesoro degli anecdoti</bibl> del <persName ref="#DLCL_CF_PC0912">Pez,</persName> e il Tomo XI. della <bibl type="print">Biblioteca greca,</bibl> da mandare a <placeName ref="#DLCL_CF_L0024">Venezia;</placeName> siccome due Copie delle <bibl type="print">Poesie</bibl> dell’<persName ref="#DLCL_CF_PC0824">Abate Merighi.</persName> Troverà pure due pelli rosse. Il Vetturino è pagato, o sarà pagato al ritorno, portando avviso, che Vostra Paternità abbia ricevuto tutto ben condizionato. E rimettendomi ad altra per la posta del primo ordinario, con tutto lo spirito mi confermo.</p>
+        <closer>
+          <dateline><placeName ref="#DLCL_CF_L0043">Forlì</placeName> <date when-iso="1724-09-16">16. 7bre 1724.</date></dateline>
+          <salute>DVPMR.</salute>
+          <salute>Cordialissimo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+        <p>Se occorre valersi della Cassa, Corda, e Incerata, per servire il <persName ref="#DLCL_CF_PC0730">Padre Don Angelo,</persName> se ne serva</p>
+        <p>Nota sul margine interno [Se sono in ordine mi mandi col ritorno del Vetturino i <bibl type="print">Trimestri</bibl> e il tomo in 4.to del <bibl type="print">Mabillone.</bibl> Non mando […] <bibl type="print">Martene,</bibl> ma […] dello <bibl type="print">Spicilegio</bibl> e degli <bibl type="print">Analetti.</bibl>]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

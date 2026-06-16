@@ -1,0 +1,98 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11130">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21710/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21711/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21712/full/800,/0/default.jpg"/>
+    <graphic n="2r" url=""/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11130">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Forlì, 1 Ottobre 1724)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">130</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1724-10-01"/>
+          <placeName ref="#DLCL_CF_L0043" key="DLCL_CF_L0043">Forlì</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-26" who="#DLCL_CF_PS001">aggiornamento teiHeader</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11130_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21711/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        <p>Riceveremo adunque da <placeName ref="#DLCL_CF_L0024">Venezia</placeName> la nota de’ libri per Messe. <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> può ordinare per 14. messe l’uno, due corpi della nuova <bibl type="print">Opera</bibl> del <persName ref="#DLCL_CF_PC1091">Padre Antonio da Venezia</persName> <bibl type="print">contro al Picenino;</bibl> che uno ne prenderò per me, un’altro ne darò al <persName ref="#DLCL_CF_PC1096">Padre Maestro Minghetti.</persName></p>
+        <p>In proposito del <bibl type="print">Picenino,</bibl> scriva al <persName ref="#DLCL_CF_PC0730">Padre Don Angelo,</persName> perché procuri trovarmi i tre libri di quel perfido <rs type="person" ref="#DLCL_CF_PC1155">Settario,</rs> impugnati nella sopraccennata Opera; e me li compri, se sono a prezzo ragionevole, avvertendo, che io ho la licenza di tenergli, e leggergli.</p>
+        <p>Delli tre tomi della <bibl type="print">Mistica Città di Dio</bibl> in lingua Spagnuola, stampati in fogl.o appunto sarà bene tenere il corpo migliore. <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> batta il <persName ref="#DLCL_CF_PC0178">Padre Abate Ferranti,</persName> per avere da lui i quattro Tomi del <bibl type="print">Corso Matematico</bibl> del <persName ref="#DLCL_CF_PC0951">Padre de Chales.</persName> Mi disse mesi sono, che voleva mandargli alla libreria. Sarà un’opera santa cavarglieli di mano; perché il di lui fratello prete stà nelle insidie per tirargli a se; come faceva per le colonnette, che già erano in di lui mani; e sò io quanto ci volle per riaverle.</p>
+        <p>Mi rallegro del gustoso trattenimento, che <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> gode in riordinare la libreria del <rs type="person">Signore Cardinale</rs> e dell’applicazione alla stampa del <bibl type="print">Calendario:</bibl> ma non vorrei ch’ella perciò si scordasse di sollecitar la sua venuta quà, né di presto mandarmi gl’Indicoli de’ nostri libri, duplicati, Manoscritti, antichi impressi, e di quanto in somma è restato costì.</p>
+        <p>Avendo pure il tomo delle prefazioni, e altri <bibl type="print">opuscoli</bibl> del <persName ref="#DLCL_CF_PC0129">Mabillone,</persName> e i trimestri, accresciuti degli officj nuovi. Tra le spighe lasciate indietro nella continua messe delle cose bibliotecarie, vi è la legatura del <bibl type="print">Lattanzio Sublacense,</bibl> e l’altra del <bibl type="print">Corio,</bibl> delle quali sos-</p>
+        <pb xml:id="DLCL_CF_E11130_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21712/full/800,/0/default.jpg"/>
+        <p>-piro intendere nuove.</p>
+        <p>Mando l’<bibl type="print">Indice de’ libri proibiti,</bibl> da trasmettere a <placeName ref="#DLCL_CF_L0024">Venezia.</placeName> E le ricordo il frontispizio del <bibl type="print">Paruta,</bibl> che due anni àa io raccomandai al <persName ref="#DLCL_CF_PC0676">Padre Lettore Grilli.</persName></p>
+                <closer>
+          <dateline>Non si scordi di prevenirmi con l’avviso, quando siano per venire i Signori, <rs type="person">Cavaliere de la Branca,</rs> e <rs type="person" ref="#DLCL_CF_PC1033">Conte Settecastelli,</rs> perché senza tal lume si troveranno in una casa piccola le cose all’oscuro. Resto abbracciandola caramente. <placeName ref="#DLCL_CF_L0043">Forlì</placeName> <date when-iso="1724-10-01">primo Ottobre 1724.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Cordialissimo Servitore Vero Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

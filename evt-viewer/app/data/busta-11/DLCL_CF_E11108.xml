@@ -1,0 +1,101 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11108">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/21001/manifest">
+    <graphic n="1r" url=""/>
+    <graphic n="1v" url=""/>
+    <graphic n="2r" url=""/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11108">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (...luogo, ...anno)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">108</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso=""/>
+          <placeName ref="" key=""/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-29" who="#DLCL_CF_PS001">aggiornamento struttura</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11108_C1R_L" n="1 - Recto" facs=""/>
+                <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        <p>Ancorché assai preziosa venga da <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> riputata l’<bibl type="print">Antologia Greca,</bibl> ancor maggiore di quel, ch’Ella pensa, è la sua preziosità, per essere intiera, e non mancante della lettera del <persName ref="#DLCL_CF_PC1118">Lascari,</persName> nel fine. La macchia d’acqua nera può dirsi un neo in un bel corpo: e se pur’ offendesse la superstiziosa delicatezza di qualcheduno, non è difficile il levarla affatto, in occasione di rilegare il libro. Povero <bibl type="print">Corio</bibl> indebitamente strappazzato per lacero, e sporco! Io compatirei chi in tal maniera lo maltrattasse, avanti di prendersi l’incomodo di aprirlo, mentre comparisce tanto male in arnese con quei cartonacci logori, che sembra uscito dalla bottega di un pizzicagnolo. Ma che, dopo averlo ben considerato, e fattane la notomia, un Bibliotecario ne scriva sì vituperosamente, è una maraviglia. Ma io non vo’ discorrere sopra ciò, né ribattere le di lei esaggerazioni. Io l’ho preso con animo di servire a <orgName ref="#DLCL_CF_O0001">cotesta Libreria,</orgName> perché di due esemplari mancanti se ne formi uno intiero, e compito, contentandomi del rimborso della spesa, che pur agevolmente, e con vantaggio ritrarsi dal solo rimasuglio de’ fogli, che auvanzano. Or se non puo riuscire l’intento, Ella riponga pure tra’ libri di mio uso il <bibl type="print">Corio</bibl> mandato, quando ancor quattro altre carte manchino, oltre i due quinternetti, osservati da principio. Il difetto nuovamente scoperto non mi fa pentire della compra, né della spesa. Certi libri antichi, e buoni sono da stimarsi, ancorché mancanti; e torna il conto prendergli, per unirgli</p>
+        <pb xml:id="DLCL_CF_E11108_C1V_L" n="1 - Verso" facs=""/>
+        <p>ad altro simile esemplare, che si trovi similmente difettoso. Moltissimi di questi innesti mi son passati per le mani. Or dirò di uno, anzi due solamente. Da <placeName ref="#DLCL_CF_L0028">Perugia,</placeName> da <placeName ref="#DLCL_CF_L0023">Foligno,</placeName> e in <placeName ref="#DLCL_CF_L0004">Fabriano</placeName> ho avute tre copie della prima, e più rara edizione del <bibl type="print">Quadriregio,</bibl> in <placeName ref="#DLCL_CF_L0028">Perugia</placeName> 1481., tutte e tre mancanti. Di tre ne ho fatte legar due intiere; una delle quali ho mandata ora a lei, da collocar nella Libreria.</p>
+        <p>Per questo fine presi il <bibl type="print">Leggendario,</bibl> che parimente ho mandato. Se chi lo desidera, vuol rimborsarmi la spesa di soli 12. paoli, che vi ho impiegato, si serva.</p>
+        <p>Il <bibl type="print">Lacerda sopra Virgilio</bibl> fu da me preso in una soma di libri, sopra i quali il numero, il tempo, il prezzo non permisero farvi diligente ricerca. Mi parvero i tre Tomi, per entro di una stampa sola: almeno è simile, se è differente. <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> si prenda qualche arbitrio per fermare il contratto.</p>
+        <p>Il maggior dubbio mio batteva sopra il <bibl type="print">Petrarca</bibl> per la carta, veramente vile, e sporca; e perciò mandai di esso due corpi, persuadendomi che l’uno facesse fede all’altro vicendevolmente della verità, che non trovasi di carta, come né pur di stampa, diversa. Godo sommamente, che a <rs type="person">Sua Eminenza</rs> sia piaciuto il corpo, ora rivestito alla francese e suppongo sia quel, che non era stato tocco dal ferro ne’ margini d’ogni intorno. Mi piace l’esito fatto dal <bibl type="print">Clemente Alessandrino,</bibl> e delle <bibl type="print">Prose</bibl> del <persName ref="#DLCL_CF_PC0141">Bembo.</persName></p>
+        <pb xml:id="DLCL_CF_E11108_C2R_L" n="2 - Recto" facs=""/>
+        <p>Il <persName ref="#DLCL_CF_PC0013">Muratori</persName> applica a tutti i mestieri con quel suo versatile ingegno, e con quella sua facilissima penna, che di quanto mette in carta, nulla cancella. Una volta per molti mesi girò nelle missioni per lo <orgName ref="#DLCL_CF_O0197">Stato di Modena,</orgName> col <persName ref="#DLCL_CF_PC0396">Segneri giovane:</persName> ora si è accompagnato col <persName ref="#DLCL_CF_PC1120">Badia</persName> celebre Predicatore nel libro, di cui <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> mi dà contezza. Godo, che meglio abbia impiegato l’ingegno di quel, che fece tempo fà, impugnando le ragioni della Santa Sede, e ultimamente dedicando le <bibl type="print">Antichità Estensi</bibl> al <persName ref="#DLCL_CF_PC1083">Re Giorgio d’Inghilterra.</persName></p>
+        <p>Aspetto nuova della spedizione del libro sciolto al <persName ref="#DLCL_CF_PC0547">Reverendissimo Tassis,</persName> e del piccolo <bibl type="print">Tasso</bibl> al nostro <persName ref="#DLCL_CF_PC0146">Mauro,</persName> con ricordargli le giuste mie premure presso il <persName ref="#DLCL_CF_PC0986">Buonarrigo.</persName> Nulla mi dice Ella del <bibl type="manuscript">Ciceroncino Manoscritto in pergamena;</bibl> né delle due edizioni d’<persName ref="#DLCL_CF_PC0581">Aldo,</persName> massimamente del <bibl type="print">Lattanzio,</bibl> assai stimata. E del <bibl type="print">Baldelli</bibl> che si fa? Si mette in libreria, e si esita il tomo scompagnato, che per altro non comparisce tale a prima vista? Tengasi conto delle due edizioni del <bibl type="print">Quadriregio,</bibl> che nella <bibl type="print">Dissertazione</bibl> si nominano, come esistenti nella <orgName ref="#DLCL_CF_O0001">libreria Classense,</orgName> appunto nella maniera, che si accennano li <bibl type="manuscript">due Codici del medesimo,</bibl> e il <bibl type="manuscript">Canzoniere del Montefalco.</bibl> I due <bibl type="print">Opuscoli</bibl> del <persName ref="#DLCL_CF_PC0129">Mabillon</persName> restino tra i nostri libri.</p>
+        <p>Della <bibl type="print">Ristampa della Perfetta Poesia,</bibl> già pagata, che è stato? Me ne dia nuova, senza mandarla qua. Con che abbracciandola, e seco il <persName ref="#DLCL_CF_PC0730">Padre Don Angelo,</persName> resto.</p>
+                <closer>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> 24 Marzo 1724</dateline>
+          <salute>DVPMR.</salute>
+          <salute>Parz.mo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+        <p>Nota sul margine superiore di c. 2r [Il <rs type="person">Padre Lettore</rs> si scandalizza de’ vituperi da lei scritti contra il <bibl type="print">Corio;</bibl> e pensa ch’ella scherzi; non potendo essere comparso lacero, né sporco, se non si è lacerato, e imbrattato nel viaggio; il che pur non si crede. Egli per altro avrebbe motivo di ramaricarsi, quando si poco si prezzassero gli acquisti dalla di lui industria. Per aggiustare i conti con questo Monsignore vorrei le ricevute de’ paoli, o lire 16. per <persName ref="#DLCL_CF_PC0906">Monsignore Ercolani,</persName> per <persName ref="#DLCL_CF_PC1040">Monsignore Torregiani,</persName> e per il <persName ref="#DLCL_CF_PC0015">Signor Pagliarini</persName> di <placeName ref="#DLCL_CF_L0023">Foligno,</placeName> per nome <persName ref="#DLCL_CF_PC0015">Giustiniano.</persName> Mi avvisi se costì vi sono le <bibl type="print">Orazioni Militari</bibl> raccolte dal <persName ref="#DLCL_CF_PC1121">Remigio.</persName> Quanto alla legatura del <bibl type="print">Lattanzio,</bibl> siamo in libertà! Ma non vorrei che il lavoro Tedesco fosse un di que’ miracoli, che comparano al primo vedersi le carte dorate di]</p>
+        <p>Nota sul margine superiore di c. 1v [nuova invenzione, venute trenta anni fà in circa da <placeName ref="#DLCL_CF_L0118">Germania.</placeName> E poi vorrei sapere quale, e quanto viaggio ha da fare il <bibl type="print">Lattanzio,</bibl> per andare a farsi far’ un vestito alla Tedesca.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,96 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11109">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21640/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21641/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21642/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21005/full/800,/0/default.jpg"/>
+    <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/21006/full/800,/0/default.jpg"/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11109">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 27 Marzo 1724)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">109</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1724-03-27"/>
+          <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-26" who="#DLCL_CF_PS001">aggiornamento teiHeader</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11109_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21003/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        <p>Dopo scritta l’ultima mia nel precedente ordinario, ho fatti certi conti per interessi, che mi correvano con questo <rs type="person">Monsignore Governatore.</rs> L’intiero loro aggiustamento richiede, che io consegni al medesimo due polize di obbligo del <persName ref="#DLCL_CF_PC0986">Buonarrigo</persName> per sedici lire l’una, che confessi aver ricevute da <persName ref="#DLCL_CF_PC0906">Monsignor Giuseppe Ercolani,</persName> e da <persName ref="#DLCL_CF_PC1040">Monsignor Torregiani,</persName> come Associati per la stampa del <bibl type="print">Corpo delle Opere</bibl> del <persName ref="#DLCL_CF_PC0979">Tasso,</persName> a tenor della Notificazione stampata di esso <persName ref="#DLCL_CF_PC0986">Buonarrigo;</persName> con esprimer di non avere finora consegnato se non il primo Tomo, e di esser tenuto a dare per detto danaro ricevuto anche il secondo Tomo. Unitamente <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> mi favorisca ancora della terza poliza per il <persName ref="#DLCL_CF_PC0015">Signore Giustiniano Pagliarini</persName> da <placeName ref="#DLCL_CF_L0023">Foligno.</placeName> Io sopra ciò ne scrissi a lei nel sopradetto ordinario antecedente; ma la premura somma con tutto ciò mi spinge a scriverne nuovamente, perché più al vivo considero la necessità di questa cautela. Ella adunque mi favorisca con tutta sollecitudine, con impiegarvi, se occorre, l’efficace opera del nostro <persName ref="#DLCL_CF_PC0730">Padre Don Angelo,</persName> il quale caramente riverisco.</p>
+        <p>Per le legature ho data in nota la spesa di bai. 40; la qual’è poca, se si attende il dispendio del porto in detti due esemplari del <persName ref="#DLCL_CF_PC0979">Tasso,</persName> e in altro, per Monsignore. <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> mi mandi la ricevuta del nostro <persName ref="#DLCL_CF_PC0923">Brocchi,</persName> per bai. 60. pagati per tre legature del primo Tomo delle <bibl type="print">Opere</bibl> del <bibl type="print">Tasso,</bibl> stampate dal <persName ref="#DLCL_CF_PC0986">Buonarrigo,</persName> in 4.to grande, a ragione di bai. 20. l’una, come</p>
+        <pb xml:id="DLCL_CF_E11109_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21004/full/800,/0/default.jpg"/>
+        <p>danaro da me ricevuto per di lei mani.</p>
+        <p>Mi è arrivato il <bibl type="print">Comentario del Beni sopra il Tasso,</bibl> che viene ad essere duplicato; e sarebbe ben fatto esitarlo, avanti che si ristampi.</p>
+                <closer>
+          <salute>Ho lettera dal <persName ref="#DLCL_CF_PC0784">Signor Conte Luigi,</persName> che mi scrive creder lei; che il <bibl type="print">Lattanzio</bibl> di <orgName ref="#DLCL_CF_O0175">Subiaco</orgName> debba aver la palma sopra ogni altro libro stampato in <orgName ref="#DLCL_CF_O0001">cotesta Biblioteca;</orgName> ma non si sottoscrive a tal giudicio, in riguardo del <bibl type="print">Plinio,</bibl> [...] egli ha replicatamente veduto, e ammirato. Altro non mi sovviene; e però teneramente abbracciandola mi confermo.</salute>
+          <dateline>DVPMR. <placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1724-03-27">27. Marzo 1724.</date></dateline>
+          <salute>Cordialissimo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

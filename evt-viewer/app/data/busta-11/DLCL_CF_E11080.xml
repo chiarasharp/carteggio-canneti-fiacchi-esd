@@ -1,0 +1,172 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11080">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20973/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21523/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21524/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21525/full/800,/0/default.jpg"/>
+    <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/21526/full/800,/0/default.jpg"/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11080">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 24 Maggio 1723)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">80</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1723-05-24"/>
+          <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-05-27" who="#DLCL_CF_PS001">trascrizione, markup struttura e entità</change>
+    </revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        
+        <pb xml:id="DLCL_CF_E11080_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21523/full/800,/0/default.jpg"/>
+        
+        <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Bibliotecario mio Amatissimo</rs></salute>
+        </opener>
+        
+        <p>
+          Sarà un atto proprio della clemenza di cotesto <rs type="person">Signor Cardinal Legato,</rs> se l’<rs type="person">Eminenza Sua</rs> si degnerà di dar luogo nella <orgName>sua Libreria</orgName> alla <bibl type="print">Risposta</bibl> del <persName ref="#DLCL_CF_PC0074">Bertini</persName> al famoso <persName ref="#DLCL_CF_PC0075">Giampagolo Luccardesi;</persName> come io presi ardire d’inviarglielo con tale speranza. <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> mi metta a piedi di <rs type="person">Sua Eminenza</rs> con tutto ‘l pienissimo ossequio, che mi pregio di professare al raro, e sublime suo Merito.
+        </p>
+        
+        <p> La passione dell’indegno <persName ref="#DLCL_CF_PC0436">Laderchi</persName> viene da un
+          motivo forte, e capace di trasportare alla pazzia, ed alla malignità estrema un’Uomo di
+          poca levatura, com’è egli, e sfornito di cristiana umiltà. Presume colui che il
+          Cardinalato al servo di Dio conferito, fosse prima destinato ad esso Impostore; e per
+          maneggio del <persName ref="#DLCL_CF_PC0431">Tommasi,</persName> e de’ suoi parziali,
+          venisse a lui tolto. Questo fu il principio del diabolico furore di <persName
+            ref="#DLCL_CF_PC0436">Laderchi:</persName> e il <persName>Signore Cardinale Albani S.
+            Clemente</persName> l’ha detto all’<persName ref="#DLCL_CF_PC1055">Abate
+            Fontanini.</persName> Già egli si figurava di mettere in fronte a suoi <bibl
+            type="print">Annali,</bibl> come il <persName ref="#DLCL_CF_PC0059">Baronio:</persName>
+            <foreign xml:lang="la"><hi rend="ul">Auctore Jacobo Laderchio S.R.E.
+            Cardinali</hi></foreign>. </p>
+        
+        <pb xml:id="DLCL_CF_E11080_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21524/full/800,/0/default.jpg"/>
+        
+        <p>
+          E veramente sarebbesi veduto
+        </p>
+        
+        <p><hi rend="ul"> Di porpora vestito il </hi><rs type="person" ref="#DLCL_CF_PC0436"><hi
+              rend="ul">Ruomagnuolo</hi>,</rs> </p>
+        
+        <p> s’egli non s’impacciava col <persName ref="#DLCL_CF_PC0124">Tillemont.</persName> Questo
+          fu il suo <foreign xml:lang="la"><hi rend="ul">lapis offensionis</hi></foreign>, che lo
+          fece poi andare da un pericolo in un’altro, e diede occasione alle <bibl type="print"><hi
+              rend="ul"><foreign xml:lang="la">Nugae Laderchiane</foreign></hi>.</bibl> Le doglianze
+          de’ <rs type="person">Parenti di Tillemont</rs> scritta al <rs type="person">Gran
+            Duca</rs> fecero che questi lo abbandonasse; quando per altro prima lo stimava,
+          portandolo il famoso Fede unto da i regali, segno che quel <rs type="person">Principe</rs>
+          disse al <persName ref="#DLCL_CF_PC0913">Canonico Mozi</persName> che <persName
+            ref="#DLCL_CF_PC0436">Laderchi</persName>
+          <hi rend="ul">sarebbe stato Cardinale.</hi> Né tal detto era in aria perché il buon
+          <persName ref="#DLCL_CF_PC0504">Papa Clemente</persName> ne faceva stima; per es<gap reason="illegible"/>[…]
+          Continuatore degli <bibl type="print">Annali Ecclesiastici.</bibl> In somma se le <bibl
+            type="print">Nugae</bibl> non iscappavano fuora tre anni prima che i <rs type="person"
+            >tre Regolari</rs> si coprissero di rosso ammanto, si vedeva certamente quel fanatico
+          sedere <hi rend="ul"><foreign xml:lang="la">cum Senatoribus terr</foreign></hi><gap reason="illegible"/>[…] </p>
+        
+        <p>
+          Il povero <rs type="person">Papa</rs> ne sentì un gran dispiacere: ma la soggezione che aveva al pubblico, e senza difficoltà si prendeva, <gap reason="illegible"/>[…]
+        </p>
+        
+        <pb xml:id="DLCL_CF_E11080_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21525/full/800,/0/default.jpg"/>
+        
+        <p>astrinse a mutar pensiero. Gli permise la seconda edizione della <bibl type="print"><hi
+              rend="ul">Lettera al Cavalier Fiorentino</hi>:</bibl> ma credendosi che la condanna
+          pre^cedente cadesse sulla sola maladicenza, si levò questa, e vi si lasciarono l’<hi
+            rend="ul">eresie</hi>, che sono da tre, e maiuscole assai. In oltre per pietà gli diede
+          un vacabile di dieci scudi il mese, che l’anno passato ebbe licenza di vendere, per far
+          copiare gli <bibl type="print">Annali.</bibl> Ma la <bibl type="print">Difesa</bibl> gli
+          ha rovinati anche i nuovi disegni di rimettersi in sella per via di zelo, non pensando che </p>
+        
+        <p>
+          <hi rend="ul">Su le ruine a fabbricarsi il regno</hi>. </p>
+        
+        <p>
+          Essa è stata con sommo applauso ricevuta universalmente da tutti, e la forza della medesima congiunta al rumore suscitato contro allo scellerato <rs type="person">Autore</rs> ha fatto una tale impressione anco ne’ suoi fautori, e parziali, tra quali i <persName ref="#DLCL_CF_PC0665">Cardinali Fabroni,</persName> e <persName ref="#DLCL_CF_PC0914">Belluga,</persName> che l’han lasciato in abbandono, vergognandosi ognuno della sua amicizia. Di più teme che i suoi <rs type="person">Confratelli</rs> della <orgName ref="#DLCL_CF_O0182">Chiesa Nuova</orgName> lo caccino via.
+        </p>
+        
+        <pb xml:id="DLCL_CF_E11080_C2V_L" n="2 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21526/full/800,/0/default.jpg"/>
+        
+        <p>onde è stato dal <rs type="person">Padre Segretario dell’Indice</rs> per farsi Consultore
+          di quella <orgName ref="#DLCL_CF_O0012">Sacra Congregazione;</orgName> il quali gli ha
+          risposto che tocca al <rs type="person">Papa</rs> e che il posto da lui ambito gli
+          suffragherebbe a stare in <placeName ref="#DLCL_CF_L0008">Roma,</placeName> non ad impedir
+          che fosse discacciato dalla sua Cong. Se si accosterà per tale impiego al <rs
+            type="person">Papa,</rs> non può aspettarsi che di dover tornare bagnato; come
+          ultimamente gli accade per aver fatto flebilmente rappresentare le <hi rend="ul"
+            >persecuzioni</hi> avute nel passato, e anco nel presente Pontificato: poiche Nostro
+          Signore rispose che del passato non sà; ma che nel suo presente <persName
+            ref="#DLCL_CF_PC0436">Laderchi</persName> è <hi rend="ul">persecutore, </hi>non <hi
+            rend="ul">perseguitato</hi>. So che andò al <rs type="person">Papa</rs> un lungo
+          memoriale contro di lui perché non bastando che sia represso nella Difesa, e convinto per
+          impostore, malvagio, ed asino, sia anco gastigato un sì grande pubblico ardimento, contra
+          cui parlò fin da principio a Sua Santità il suddetto <persName>Cardinale Albani</persName>
+          in nome eziandio di 22. Porporati. Non ho ancor’inteso il fine. Mancando la carta finisco
+          abbracciandola caramente. </p>
+        
+        <closer>
+          <salute>DVPMR.</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1723-05-24">24. Maggio 1723.</date></dateline>
+          <salute>Cordialissimo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

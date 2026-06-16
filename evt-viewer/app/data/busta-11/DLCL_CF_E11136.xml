@@ -1,0 +1,95 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11136">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21731/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21732/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21733/full/800,/0/default.jpg"/>
+    <graphic n="2r" url=""/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11136">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Forlì, 7 Novembre 1724)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">136</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1724-11-07"/>
+          <placeName ref="#DLCL_CF_L0043" key="DLCL_CF_L0043">Forlì</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-26" who="#DLCL_CF_PS001">aggiornamento teiHeader</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11136_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21732/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        <p>Hò attentamente osservato il libro già mandatomi da <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> che io stimo certamente sia la prima edizione di <persName ref="#DLCL_CF_PC0357">Servio</persName> sopra Virgilio, non riportata ne’ suoi <bibl type="print">annali tipografici</bibl> dal <persName ref="#DLCL_CF_PC0901">Maittaire.</persName> Per questo riguardo può considerarsi per una, non obvia, anticaglia: ma se vogliamo badare al <bibl type="print">Fabricio</bibl> nella <bibl type="print">Biblioteca Latina</bibl> tom. 2. non è cosa da farne gran conto, mettendo lui in discredito tutti i <bibl type="manuscript">Servij antichi Manoscritti</bibl> a quali la prima edizione và strettamente unita, e biasimando ogni altra stampa più vecchia di quella di <persName ref="#DLCL_CF_PC0248">Enrico Stefano.</persName> Questa ei crede che contenga l’opera veramente di <persName ref="#DLCL_CF_PC0357">Servio;</persName> li codici tutti, e le più antiche edizioni altro non siano che miscee confuse, e prese da diversi autori, dove si trova citato Servio medesimo.</p>
+        <p>Tutte queste dottrine però non servono all’intento di <persName ref="#DLCL_CF_PC0313">Paolino,</persName> il quale né pur si cura d’impararle. Al proposito suo adunque, senz’altri preamboli, dirò, che, non ostante l’ammaestramento del <bibl type="print">Fabricio,</bibl> prenderò il libro, quando</p>
+        <pb xml:id="DLCL_CF_E11136_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21733/full/800,/0/default.jpg"/>
+        <p>possa aversi con baratto de’ nostri duplicati, sopra che mi rimetto al <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Bibliotecario,</rs> fino alla somma di paoli 22. Ma non mi sento d’impiegarvi danaro effettivo.</p>
+        <p>Dal <persName ref="#DLCL_CF_PC0784">Signor Conte Luigi</persName> riceverà <bibl type="manuscript">copia della memoria da’ nostri scritta sul Mombrizio di Firenze.</bibl> Più pesante è quella, che il <persName ref="#DLCL_CF_PC1041">Martene</persName> nel 3.° tomo della sua <bibl type="print">Collezione,</bibl> poco fà uscito dalle stampe , dà del prezzo del nostro <bibl type="manuscript">Delfino</bibl> Hinc tantus ille studiosorum virorum ardor eam (editionem) ubi se se praebet occasio, coemendi (rarissima enim est) ut nullo parcant auro, argentum vero plena manu disseminent, quo vel unum exemplar consequi valeant: ad eo ut nuper cum <placeName ref="#DLCL_CF_L0017">Parisijs</placeName> hastae unicum subijceretur, mille Gallicis libris in pubblica accetione venundatum sit; tametsi non omnes <bibl type="manuscript">Delphini</bibl> epistolas §</p>
+        <p>Sia come si voglia, più del loro <bibl type="print">Mombrizio,</bibl> per la rarità io stimo il nostro <bibl type="print">Plinio,</bibl> e più il <bibl type="print">Lattanzio,</bibl> di cui non posso aver nuove; né giova dimandarne. Resto perciò.</p>
+                <closer>
+          <dateline>DVPMR. <placeName ref="#DLCL_CF_L0043">Forlì</placeName> <date when-iso="1724-11-07">7. 9bre 1724.</date></dateline>
+          <salute>Cordialissimo Servitore vero Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

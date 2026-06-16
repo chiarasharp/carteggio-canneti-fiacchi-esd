@@ -1,0 +1,134 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11073">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20966/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21507/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21508/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21509/full/800,/0/default.jpg"/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11073">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 26 Aprile 1723)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">73</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1723-04-26"/>
+          <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-27" who="#DLCL_CF_PS001">trascrizione, markup struttura e entità</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11073_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21507/full/800,/0/default.jpg"/>
+        
+        <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre Signore Mio Osservandissimo</rs></salute>
+        </opener>
+        
+        <p>
+          Godo molto che siano state conosciute per quel, che veramente sono le Colonnette, tutte belle, nobili, preziose, benché già si sapeva ancora da chi le comprò quanto sopravanzino le due piccole di diaspro fino da stimarsi più di tutte le altre di alabastro insieme. Rimane che si metta mano a’ disegni, e si pensi a trovar pietre, che nel prezzo, e colori accompagnino coteste parti dell’opera principali già mandate. Al <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli</persName> ho scritto i sentimenti del <rs type="person">Benefattore</rs> diretti a far bene quel, che si ha da fare per onor di Dio, e decoro della nostra Casa. Le colonne piccole di alabastro, se non servono nella figura loro, serviranno in cornicette, o in altro, secondo il disegno, che sarà prescelto.
+        </p>
+        
+        <p>
+          Ancora non si lascia vedere l’Involto lasciato, e tardi giunto in <placeName ref="#DLCL_CF_L0003">Pesaro.</placeName> In tanto ho finita la Prefazione del <bibl type="print">Quadriregio,</bibl> e iermattina la mandai per un Servitore di casa a <placeName ref="#DLCL_CF_L0023">Foligno;</placeName> ma ritornerà per far subito far la copia. Iddio disponga intanto che arrivi il <bibl type="manuscript">Codice Bolognese,</bibl> dal quale spero di aver a ricavare altri aiuti pel mio intendimento.
+        </p>
+        
+        <p>
+          Il <bibl type="print">Decembrio</bibl> è in mano, o era del <persName ref="#DLCL_CF_PC0585">Poletti</persName> con ordine d’inviarlo a <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità.</rs> Avrei caro venisse colle tre Copie del <bibl type="print">Tasso,</bibl> e i <bibl type="print">Supplementi;</bibl> purche non si perda occasione buona, che possa capitare. Ma e del <bibl type="print">Giornale</bibl> vi sono nuove che sia per continuarsi? Mi spiacerebbe se non si tirasse innanzi. Per legare i <bibl type="manuscript">due Manoscritti Rituali in pergamena</bibl> manderò certi capretti belli ancor più delle capre, se potrò avergli, perché
+        </p>
+        
+        <pb xml:id="DLCL_CF_E11073_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21508/full/800,/0/default.jpg"/>
+        
+        <p>
+          ne fanno pochi, o pur delle capre solite. Vi è in mezzo al <bibl type="print">Breviario</bibl> un’antica memoria del <orgName ref="#DLCL_CF_O0180">Monistero delle Vergini</orgName> di <placeName ref="#DLCL_CF_L0004">Fabriano,</placeName> e <rs type="person">suo Fondatore.</rs> La trovi, e me ne mandi copia.
+        </p>
+        
+        <p> Non faccia leggere i due Tomi del <bibl type="print">P. Platina,</bibl> se non trova
+          prima il modo di barattare in <placeName ref="#DLCL_CF_L0007">Bologna</placeName> i fogli
+          difettuosi per macchie, o rotture §. Allora sarà bene far legare il <bibl
+            type="manuscript">Manoscritto Geografico.</bibl> Intanto per occasione <hi rend="ul"
+            >sicura</hi> mandi il Manoscritto diretto al <persName ref="#DLCL_CF_PC0013">Signor
+            Muratori.</persName> Per lui è da copiare l’<bibl type="print">Opuscolo</bibl> del
+            <persName ref="#DLCL_CF_PC0995">Carranti</persName> stampato appunto nel 1500. Intorno
+          all’altro si trascriva in <placeName ref="#DLCL_CF_L0002">Ravenna</placeName> il
+          Manoscritto in quella parte, che comanderà <persName ref="#DLCL_CF_PC0013"
+            >Muratori</persName> medesimo; ma non mandisi. A me è accaduto che siasi perduto per la
+          strata il Tomo 4.to delle <bibl type="print">Opere</bibl> del <persName
+            ref="#DLCL_CF_PC0328">Vossio,</persName> per la troppa facilità mia in volerlo
+          imprestare a chi è stato troppo ardito in chiederlo. Ma questo è nulla in paragone di
+          un’altro intrigo, di cui ora mi convien’osservare sommo silenzio. Sì tutto si rimedierà.
+          Intanto ringrazio Dio, che mi conserva l’animo affatto superiore a tali disgrazie per
+          altro sensibilissime. </p>
+        
+        <p>
+          Sta bene che facciasi la rimessa a <placeName ref="#DLCL_CF_L0001">Cremona;</placeName> ma non mi piace che vi entri sp[esa]. L’interesse è più mio, che di altri: e non vorrei, dopo mandata la nota dell’importo della roba, avere ora il rossore di chiedere la spesa della rimessa; tanto più che trattasi del <rs type="person">Benefattor</rs> delle Colonnette. Uscito che io sia di questo imbarazzo tanto fastidioso, non vi rientro mai più.
+        </p>
+        
+        <pb xml:id="DLCL_CF_E11073_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21509/full/800,/0/default.jpg"/>
+        
+        <p>
+          Se nell’<bibl type="print">Istorie di Mantova</bibl> del <persName ref="#DLCL_CF_PC0483">Platina,</persName> o d’altri Ella trova notizie di <persName ref="#DLCL_CF_PC1047">Sordello,</persName> me le mandi in subito in breve estratto, accennando l’<rs type="person">Autore,</rs> e il luogo § Ma più care mi saranno, se verranno dal <bibl type="print">Platina.</bibl>
+        </p>
+        
+        <closer>
+          <salute>Resto abbracciandola caramente.</salute>
+          <dateline> <placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1723-04-26">26. Aprile 1723.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Cordialissimo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

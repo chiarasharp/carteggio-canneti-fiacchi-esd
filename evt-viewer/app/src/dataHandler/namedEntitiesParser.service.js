@@ -567,6 +567,24 @@ angular.module('evtviewer.dataHandler')
 			});
 			var hasMultiLangPersName = persNameChildren.length > 1 && persNameChildren.some(function(c) { return c.getAttribute('xml:lang'); });
 
+			// Collect non-Italian persName variants into altName field
+			if (hasMultiLangPersName) {
+				angular.forEach(persNameChildren, function(pn) {
+					var lang = pn.getAttribute('xml:lang');
+					if (lang && lang !== 'it') {
+						var parsedAlt = evtParser.parseXMLElement(pn, pn, { skip: '<evtNote><persName><orgName><placeName>' });
+						if (el.content['altName'] === undefined) {
+							el.content['altName'] = [];
+							el.content._indexes.push('altName');
+						}
+						el.content['altName'].push({
+							text: parsedAlt ? parsedAlt.innerHTML : pn.textContent,
+							attributes: { lang: lang }
+						});
+					}
+				});
+			}
+
 			angular.forEach(nodeElem.childNodes, function (child) {
 
 				if (child.nodeType === 1) {

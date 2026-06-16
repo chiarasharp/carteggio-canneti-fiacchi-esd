@@ -1,0 +1,149 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11083">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21530/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21531/full/551,800/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21532/full/613,800/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21533/full/530,800/0/default.jpg"/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11083">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 11 Giugno 1723)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">83</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1723-06-11"/>
+          <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-27" who="#DLCL_CF_PS001">trascrizione, markup struttura e entità</change>
+    </revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11083_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21531/full/551,800/0/default.jpg"/>
+        
+        <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre Signore Mio Osservandissimo</rs></salute>
+        </opener>
+        
+        <p>Sig.R.nò io non voglio ripigliar più il pensiero di scrivere quel, che una volta ho scritto, con verità, e senza calore, né caricatura di quel <rs type="person" ref="#DLCL_CF_PC0436">Pseudo-Cardinale:</rs> né voglio prendermi soggezione di parentele, né di cabale cortigianesche. Ma se poi si ricercherà ben’ addentro, si avverà la parentela essere della natura delle visioni Laderchiane fondate sul non covelle. Più case vi sono di quel cognome; ed una non ha che far con l’altra. Sò che vi è una famiglia imparentata con gli <orgName ref="#DLCL_CF_O0183">Albergati;</orgName> ma quella non ha prodotto il <rs type="person">Grande Analista.</rs> Costui era bensì parente del savio, ed erudito <persName ref="#DLCL_CF_PC0018">Canonico Rondinini</persName> b. m. Con tuttociò mi era lecito, trattando con lui, dir tutta la verità sopra il <rs type="person">Soggetto</rs> ricevuta con sensata approvazione del <rs type="person">Parente medesimo,</rs> il quale, se fosse vivo, non dissentirebbe ora da me nel ridersi di <persName ref="#DLCL_CF_PC0436">Sua Eminenza Laderchiana.</persName> <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> rifaccia la narrativa, come vuole, e la mostri senza mio nome. Così in voce faccia con il <rs type="person">Signor Cardinale</rs> un bel complimento sopra il <bibl type="print">Libro</bibl> del <persName ref="#DLCL_CF_PC0074">Bertini.</persName> Ho riso ben molto, e rido sopra codesto <rs type="person">Signor Abate</rs> la cui faccenderia, e stima non ha maggior’ estensione geografica di quel, che porti la Città, e il Territorio, o al più la Legarcione di <placeName ref="#DLCL_CF_L0002">Ravenna.</placeName> Io lo metto tra’ le creature, che gli Scolastici chiamano, possibili. Già senza pensare a lui, si è scritto a <placeName ref="#DLCL_CF_L0017">Parigi</placeName> per aver l’<bibl type="print">edizione Ambrosiana.</bibl></p>
+        
+        <p>Il falso zelo dell’<rs type="person" ref="#DLCL_CF_PC0436">Impostore</rs> attaccò <persName ref="#DLCL_CF_PC0124">Tillemont</persName> sopra i Martiri, che pretese avesse egli diminuiti di numero, e lo scomunicò come Eretico. In somma lo trattò, com’ora ha fatto, <persName ref="#DLCL_CF_PC0129">Mabillone:</persName> onde i Parenti se ne risentirono. La sua illusione consiste sempre in apprendere per Novatori gli Eruditi, e i Critici</p>
+        
+        <pb xml:id="DLCL_CF_E11083_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21532/full/613,800/0/default.jpg"/>
+        
+        <p>e gl’Illustratori dell’antichità, ma dopo la lor morte: onde sempre <foreign
+            xml:lang="la"><hi rend="ul">crepa[t] heresim, hereticos, novatores</hi></foreign> e
+          imperversa da pazzo, rifuggendo le istesse inezie. Non è da dubitare che <persName
+            ref="#DLCL_CF_PC0216">Fontanini</persName> è tra i primi nella lista de’ Novatori
+          formata da lui.</p>
+        
+        <p>Sono i Bolognesi così ben trattati nella <bibl type="print">Dissertazione,</bibl> che l<rs type="person">’Autore</rs> potrà essere censurato o per artificio in volersegli accattivare, o per affettazione di aperta parzialità. Non posso negare di avervi messo dello studio. Se io avessi mano nell’interesse della stampa, ne esibirei una copia al nostro <persName ref="#DLCL_CF_PC0730">Padre Don Angelo</persName> ma uscita l’opera, in qualche modo sarà servito.</p>
+        
+        <p>La principal cura nel far la copia delle Strisce dell’antica Pianeta deve battere in
+          u[na] particolare accuratezza d’imitare la forma de’ caratteri; perché da questa si possa
+          giudicar dell’età. Tenue suppongo che sarà la spesa: né è necessario che sia la copia di
+          eguale grandezza, e misura. Il <bibl type="print">Suaresio</bibl> veramente scrive solo
+            <foreign xml:lang="la">de <hi rend="ul">Vestibus literatis in musivis
+            antiquis</hi></foreign>; e di quei di <placeName ref="#DLCL_CF_L0002"
+            >Ravenna</placeName> una sola vol[ta] in genere; della pianeta dittica classense nulla
+          affatto. Ho bensì trovato che nel <bibl type="print">Glossario Latino</bibl> pienamente ne
+          parla il <persName ref="#DLCL_CF_PC0022">Ducange</persName> approvando ch’essa fosse un
+          dittico particolare. Convien dire che davanti, e sulle spalle del Celebrante alcun’altro
+          Ministro leggesse dal presbiterio i nomi nella casula, tessuti insieme con quelle
+          immagini.</p>
+        
+        <p>Si sgombri <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> il capo dalla favola volgare, o dalla visione che alcun <rs type="person">Monaco Franzese</rs> abbia scritto quel, ch’ella accenna della nostra <orgName ref="#DLCL_CF_O0005">Basilica Classense.</orgName> Tutto lo scrivere batte in quel, che ha veduto nel <bibl type="print">viaggio Italico</bibl> dell’ottimo <persName ref="#DLCL_CF_PC0129">Mabillon.</persName> La ringrazio della Copia tratta dal <bibl type="manuscript">Breviario membranaceo,</bibl> veramente stimabile assai. La notizia era incognita a’ Fabrianesi.</p>
+        
+        <pb xml:id="DLCL_CF_E11083_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21533/full/530,800/0/default.jpg"/>
+        
+        <p>Non basta che i Libri siano pronti al viaggio: bisogna che si muovano. E non si moveranno
+          senza impulso. Per me aspetterei fino alla fiera di <placeName ref="#DLCL_CF_L0030"
+            >Sinigaglia:</placeName> ma chi sospira per avere il <bibl type="print">Tasso,</bibl>
+          non vorrebbe tanta dilazione. Avvisi intanto la spesa della legatura. Attendo nuova del
+            <bibl type="print">Panciroli</bibl> da <placeName ref="#DLCL_CF_L0172"
+            >Bolzano.</placeName> Ma sopra tutto mi preme aver notizia del Bauletto, ch’è stato
+          ahime trascurato. Vi son dentro i <bibl type="manuscript">due Manoscritti</bibl> che ho
+          citati nella <bibl type="print">Dissertazione;</bibl> benché tali <hi rend="ul">carte
+            vecchie</hi> siano poco stimate dal <rs type="person">Faentino Impostore,</rs> per non
+          essere <hi rend="ul">Vallicellane</hi>. Col passato ordinario toccai ch’erano stati
+          consegnati al <persName ref="#DLCL_CF_PC1038">Signor Mellerio</persName> i tre ultimi Tomi
+          del <bibl type="print">Museo Farnese.</bibl> Giunti che siano, e legati, a tutti e otto si
+          potrà mettere questa Memoria: <foreign xml:lang="la"><orgName ref="#DLCL_CF_O0001"><hi
+                rend="ul">Bibliothecae Classensis</hi></orgName></foreign>; <foreign xml:lang="la"
+              ><hi rend="ul">ex munificentia </hi><persName ref="#DLCL_CF_PC1057"><hi rend="ul"
+                >Ser.mi Francisci Parmae, et Plac. Ducis</hi></persName><hi rend="ul">; procurante
+              </hi><persName ref="#DLCL_CF_PC0529"><hi rend="ul">Com. Vincentio Piazza
+              Patricio</hi></persName><hi rend="ul"> antique <del rend="overstrike"
+                >nobilitatis</del> originis Ravennate nunc </hi><persName ref="#DLCL_CF_PC1058"><hi
+                rend="ul">Ser.mi Principis Antonij Farnesij</hi></persName><hi rend="ul"> Cubiculi
+              Praefecto</hi></foreign>. <del rend="overstrike">benché più mi piacerebbe <hi
+              rend="ul">Patricio nobili origine Ravennate</hi></del>. Loderei ancora che si
+          stampasse, come accennai, e s’incollasse il biglietto nell’ultimo margine del
+          frontispizio; onde rimanesse il mio nome coperto, che sta scritto ne’ cinque Tomi già
+          legati. Mi sarà grato intender presto finita cotesta faccenda, altre non mancando da
+          applicare. Caramente l’abbraccio col <persName ref="#DLCL_CF_PC0730">Padre Don
+            Angelo:</persName> e di cuore mi confermo.</p>
+        
+        <p>[Il <rs type="person">Padre Abate</rs> di <orgName ref="#DLCL_CF_O0100">Casamari,</orgName> Trappense, passando colà per <orgName ref="#DLCL_CF_O0051">Monte Cassino</orgName> il <persName ref="#DLCL_CF_PC0811">Padre Tinti,</persName> mi ha mandato a salutare accennando ch’egli era Monaco Casinense una volta, ed è stato in <orgName ref="#DLCL_CF_O0029">San Vitale,</orgName> ed è Piacentino. Desidero sapere chi egli sia, e come si chiamava.]</p>
+        
+        <closer>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1723-06-11">11. Giugno 1723.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Cordialissimo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

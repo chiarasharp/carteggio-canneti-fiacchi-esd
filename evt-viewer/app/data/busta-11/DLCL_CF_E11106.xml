@@ -1,0 +1,109 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11106">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21628/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21629/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21630/full/800,/0/default.jpg"/>
+    <graphic n="2r" url=""/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11106">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 6 Marzo 1724)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">106</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1724-03-06"/>
+          <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+  <change when-iso="2026-05-29" who="#DLCL_CF_PS001">aggiornamento struttura</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11106_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21629/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        <p>Dopo essersi trattenuta nella Dogana di <placeName ref="#DLCL_CF_L0030">Sinigaglia</placeName> ben due settimane, finalmente la prima Cassetta arrivò a <placeName ref="#DLCL_CF_L0003">Pesaro;</placeName> dell’altra non ho per anco nuova alcuna. Me ne duole, perché il tempo passa, e può così anche passar la congiuntura dell’esito del <bibl type="print">Petrarca,</bibl> e del <bibl type="print">Lacerda.</bibl> Come io son fortunato per conto de’ libri, nel trovar’ opportunità di farne compra, così poco mi riesce incontrar le occasioni di sbrigarmi de’ duplicati. Io non avrei mai creduto che il duplicato corpo del <bibl type="print">Lirano</bibl> tanto mi dormisse nelle mani, senza potermi né pur rifare della spesa fatta nel metterlo insieme.</p>
+        <p>Non sò se tra’ libri, veruno possa trovarsi più raro della 3.a parte dell’Istoria di <placeName ref="#DLCL_CF_L0028">Perugia</placeName> del <persName ref="#DLCL_CF_PC1110">Pellini.</persName> Le prime due sono ancor’esse rare, ma la terza è più rara della rarità medesima. Quattro, o cinque copie se ne trovano in <placeName ref="#DLCL_CF_L0028">Perugia,</placeName> custodite con somma gelosia, ancorché tutte sieno imperfette, e quà e là mancanti, e di tutte, mettendole insieme, non possa arrivarsi a comporne un’esemplare intiero, il quale si crede non trovarsi al mondo. <rs type="person">Un’amico mio,</rs> il quale entra da per tutto, ed ha comodo di metter le mani su quanti libri si scuoprono in quella Città, da gran tempo ha commissione dall’<persName ref="#DLCL_CF_PC0318">Apostolo Zeno</persName> di trovare una 3.a parte del <bibl type="print">Pellini;</bibl> e non ha potuto mai servirlo: e so’ che da vero desidera compiacerlo. Si conclude adunque, che il desiderio di quel libro è un desiderio vano. In Perugia non v’è modo di soddisfarlo; e in <placeName ref="#DLCL_CF_L0024">Venezia,</placeName> dove fu stampato, sono state inutili le diligenze, più volte replicate.</p>
+        <p>Delle <bibl type="print">Opere</bibl> di <persName ref="#DLCL_CF_PC0153">Cicerone</persName> in 8.vo della stampa di <persName ref="#DLCL_CF_PC0581">Aldo,</persName> tutte ben conservate, mando annessa la nota, ove vedrà descritti undici Tomi che stanno presso di me. Poiché è vicino il tempo d’incassare i libri, cedo alla tentazione, per allegge</p>
+        <pb xml:id="DLCL_CF_E11106_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21630/full/800,/0/default.jpg"/>
+        <p>rire l’ingombro, e son pronto a privarmene per un giusto, e ragionevole prezzo, che io crederei potesse esser di sei scudi. Mi rimetto però all’informazione, che’lla potrà prenderne. La maggior parte (e in particolare li tre Tomi delle <bibl type="print">Orazioni)</bibl> affatto compagni, l’ebbi dal <persName ref="#DLCL_CF_PC0011">Volpi,</persName> che ben mi ricorda aver megli venduti a caro prezzo. Tutti, fuorché uno, sono ben legati, con legatura in cartapecora buona, e compagna.</p>
+        <p>Non poteva <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> recarmi nuova di costà, che tanto grata mi fosse, quanto è quella del ritorno alla patria del <persName ref="#DLCL_CF_PC0769">Signore Cavaliere dalla Torre</persName> mio Signore, col <persName ref="#DLCL_CF_PC1112">Signore Tommaso di lui Fratello.</persName> La ringrazio ben distintamente, e la prego rinnovare a cotesto <rs type="person" ref="#DLCL_CF_PC0769">Letterato Cavaliere</rs> il mio ossequioso rispetto, e presentargli le mie cordialissime congratulazioni corrispondenti alla singolare stima, e servitù, che a lui professo, e alla sua Casa.</p>
+        <p>Scrivendo al <persName ref="#DLCL_CF_PC0056">Signor Dottore Sancassani,</persName> me lo riverisca cordialmente, assicurandolo, che io non posso con indifferenza intendere i suoi successi. Le brighe, più che altrove, sono pericolose in <placeName ref="#DLCL_CF_L0049">Lombardia,</placeName> e bisogna guardarsi anco da quelle che vertono in materia di lettere.</p>
+        <p>Il bellissimo <bibl type="print">Boezio,</bibl> da me acquistato, accrescerà a cotesta <orgName ref="#DLCL_CF_O0001">Libreria</orgName> il numero di que’ libri, che s’intitolano Opera Omnia; e sono un de’ capi, che illustrano le Biblioteche.</p>
+        <p>Di quelle scelte di libri, segnati col prezzo loro, per il <persName ref="#DLCL_CF_PC0981">Signor Abate Recanati,</persName> e per l’altro Dilettante di quelle parti, non si è poi inteso altro? Resto caramente abbracciandola, e confermandomi.</p>
+        <closer>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1724-03-06">6. Marzo 1724.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Cordialissimo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+        <p>[+ c. 1r]</p>
+        <p>Typis <persName ref="#DLCL_CF_PC0581">Aldi.</persName> in 8.vo</p>
+        <p><bibl type="print">Ciceronis Orationes,</bibl> cum correctionibus <persName ref="#DLCL_CF_PC1082">Pauli Manutij</persName> Pars 1.2.3., omnes impresse anno 1559. Vol. 3.</p>
+        <p><bibl type="print">Epistola ad Atticum,</bibl> cum correctionibus <persName ref="#DLCL_CF_PC1082">Pauli Manutij</persName> 1554.</p>
+        <p><bibl type="print">Rhetoricorum,</bibl> corrigente <persName ref="#DLCL_CF_PC1082">Paulo Manutio Aldi Filio</persName> 1554.</p>
+        <p><bibl type="print">De Oratore. Orator. De claris Oratoribus.</bibl> corrigente § utsup. 1554.</p>
+        <p><bibl type="print">De Officijs. Cato Maior.</bibl> § 1555.</p>
+        <p><bibl type="print">De Philosophia.</bibl> corrigente <persName ref="#DLCL_CF_PC1082">Paulo Manutio.</persName> 1552. Volum. 2.</p>
+        <p><bibl type="print">Epistola Familiares.</bibl> <persName ref="#DLCL_CF_PC1082">Pauli Manutij</persName> Adnotationes in margine. Eiusdem <persName ref="#DLCL_CF_PC1082">Manutij</persName> Scholia 1558.</p>
+        <p>In <bibl type="print">Epistolas Ciceronis ad Atticum</bibl> <persName ref="#DLCL_CF_PC1082">Pauli Manutij</persName> Commentarius 1547.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

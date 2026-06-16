@@ -1,0 +1,111 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11061">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/2/20954/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21484/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21485/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21486/full/800,/0/default.jpg"/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11061">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 12 Febbraio 1723)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">61</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1723-02-12"/>
+          <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione, markup struttura e entità</change>
+    </revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11061_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21484/full/800,/0/default.jpg"/>
+        
+        <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        
+        </opener>
+        
+        <p>
+          Le due compitissime di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> ricevo in quest’ordinario, quanto Ella si è incomodata trascrivere da’ <bibl type="print">Bollandisti</bibl> intorno a <persName ref="#DLCL_CF_PC0987">Santa Francesca Romana.</persName> Dalla fatica per me sofferta sempre più riconosco la finezza dell’amor suo: ma spiacemi che questa non corrisponda al bisogno mio, per cui unicamente sarebbe bastato il passo, intorno all’umiltà, che il <persName ref="#DLCL_CF_PC0339">Rinaldi</persName> nel <bibl type="print">Compendio volgare de’ suoi Annali</bibl> scrive aver’ avuto ordine la <rs type="person" ref="#DLCL_CF_PC0987">Santa</rs> d’inculcare, per parte di Dio, al <rs type="person" ref="#DLCL_CF_PC0254">Papa.</rs> Ciò conferirebbe ad illustrare un pezzo della <bibl type="print">prima Epistola</bibl> del <persName ref="#DLCL_CF_PC0177">nostro Ambrogio</persName> ad <persName ref="#DLCL_CF_PC0254">Eugenio IV.,</persName> che si aggira intorno alla necessità di questa santa virtù. Se adunque non trovasi negli <bibl type="print">Atti</bibl> di <persName ref="#DLCL_CF_PC0987">Santa Francesca</persName> espressa la visione del comando ricevuto al Signore, e della relazione fattane al <rs type="person" ref="#DLCL_CF_PC0254">Papa,</rs> <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> cessi pur dalla fatica, per la quale vivissimamente la ringrazio. Così distintamente rendo grazie al <persName ref="#DLCL_CF_PC0730">Padre Don Angelo</persName> per l’applicazione a procurar la consaputa <bibl type="print">Opera</bibl> di <persName ref="#DLCL_CF_PC0988">Angelo Decembrio.</persName>
+        </p>
+        
+        <p>Con l’ordinario venturo prossimo scriverò a <rs type="person">cotesto Reverendissimo</rs> intorno alli due Tomi del <bibl type="print">Luglio Bollandiano,</bibl> e avviserò che sono spediti. Non si scordi Ella della nuova edizione del <bibl type="print">Panciroli.</bibl> Aprendosi ora il passo della navigazione di <placeName ref="#DLCL_CF_L0037">Francia,</placeName> potrà benissimo il <persName ref="#DLCL_CF_PC0093">Padre Lettore Onestini</persName> far venire il 5.° Tomo degli <bibl type="print">Annali Benedettini.</bibl> Il trattato di questo per la stampa</p>
+        
+        <pb xml:id="DLCL_CF_E11061_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21485/full/800,/0/default.jpg"/>
+        
+        <p>dell’<bibl type="print">Epistole Ambrosiane</bibl> in <placeName ref="#DLCL_CF_L0037">Francia</placeName> si risolse in un’idea di buon cuore. Oggi otto scriverò al <persName ref="#DLCL_CF_PC0529">Signor Conte Vincenzio Piazza</persName> a <placeName ref="#DLCL_CF_L0054">Parma,</placeName> secondo il concertato, per la consegna delli tre Tomi: e goderò sentire che l’efficace opera del <persName ref="#DLCL_CF_PC0713">Signor Abate Busetti</persName> aggiunga alla <orgName ref="#DLCL_CF_O0001">Biblioteca nostra</orgName> il Tomo della <bibl type="print">Legazione</bibl> di <placeName ref="#DLCL_CF_L0054">Parma.</placeName> Manderò quanto prima la memoria da scriversi nel <bibl type="manuscript">Volume Manoscritto</bibl> donato da <persName ref="#DLCL_CF_PC0590">Monsignor Crispi.</persName> Era una specie di grande edificazione il ritiro a <placeName ref="#DLCL_CF_L0020">Classe.</placeName> E di quelle lapidi che si fà? Voglia Iddio che non capitino male!</p>
+        
+        <p>Il <bibl type="print">Romei</bibl> per se stesso è libro, anco appresso i dilettanti di Cavalleria, tenuti in <gap reason="illegible"/>[…] pregio, almeno per essere obvio: aggiungendosi il diffetto delle tarme non <gap reason="illegible"/>[...] da curarsene. La Vita di <persName ref="#DLCL_CF_PC1037">Sant’Eusebio</persName> forse sarà nel principio del <gap reason="illegible"/>[…] <bibl type="print">Bollandiano.</bibl> Io faceva conto del <bibl type="print">Verulamio</bibl> segnato per otto paoli, con l’oggetto di farne cambio in libri di molto maggior valore. Mancato questo, di cui si innamora il <rs type="person">Padre Abate,</rs> non v’è cosa degna di applicazione. Riceverò volentieri la copia della <bibl type="print">Filosofia Morale</bibl> del <persName ref="#DLCL_CF_PC0088">Signor Calbi.</persName> Ma se è di sesto compagno dell’<bibl type="print">altra Filosofia</bibl> del <rs type="person">medesimo,</rs> vorrei che la legatura dell’una, e dell’altra fossero perfettamente simili. Della prima ne ho anco<gap reason="illegible"/>[...] certe copie: onde restituirei subito l’esemplare, che si ricevesse per tal’ offerta.</p>
+        
+        <p>
+          <persName ref="#DLCL_CF_PC0254">Eugenio IV.</persName> nella sua fuga da <placeName ref="#DLCL_CF_L0008">Roma</placeName> giunto a <placeName ref="#DLCL_CF_L0139">Livorno,</placeName> indi a <placeName ref="#DLCL_CF_L0075">Pisa,</placeName> non vi fece che brevissima dimora: onde non sò come il <rs type="person">Confessore</rs> di <persName ref="#DLCL_CF_PC0987">Santa Francesca</persName></p>
+        
+        <pb xml:id="DLCL_CF_E11061_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21486/full/800,/0/default.jpg"/>
+        
+        <p>
+          potesse andare colà da <placeName ref="#DLCL_CF_L0008">Roma</placeName> a trovarlo, dopo che in <placeName ref="#DLCL_CF_L0008">Roma</placeName> erasi inteso l’arrivo del <rs type="person">Papa</rs> a quella Città. Noi siamo tormentati da un gran freddo; e mi sento la testa costipata; onde a poco più altro posso attendere, che a riveder la <bibl type="manuscript">copia dell’Epistole</bibl> da mandar’ a <rs type="person">Revisori;</rs> nel che non perdesi tempo; e già è fatta più della metà del lavoro. Riverisco il <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli,</persName> che sarà subito servito.
+        </p>
+        
+        <closer>
+          <salute>Resto di cuore confermandomi.</salute>
+          <salute>DVPMR.</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1723-02-12">12. Febbraio 1723.</date></dateline>
+          <salute>Cordialissimo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,105 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11099">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21604/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21605/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21606/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21607/full/800,/0/default.jpg"/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11099">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 31 Gennaio 1724)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">99</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1724-01-31"/>
+          <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione, markup struttura e entità</change>
+      <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+    </revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11099_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21605/full/800,/0/default.jpg"/>
+        
+        <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        
+        <p>Ancora si sta in aspettazione di occasioni per <placeName ref="#DLCL_CF_L0003">Pesaro.</placeName> Verranno le 50. Cartepecore belle, e scelte, co’ i libri: ma non sò se potremo aver cosa perfetta e squisita con dieci, o dodici baiocchi, parendomi che sempre siansi pagate quattordici baiocchi le cartepecore scelte. Manderò a chiamare il <rs type="person">mercante,</rs> per ritrarne tutto il vantaggio possibile. Vi si aggiungerà la pelle stessa di capra. Intanto godrò intendere come riescano in opera le pelli similmente rosse di capretto, già mandate l’altra volta.</p>
+        
+        <p>Al <persName ref="#DLCL_CF_PC1033">Signor Conte Settecastelli</persName> consegnai il <bibl type="print">Lattanzio</bibl> di <orgName ref="#DLCL_CF_O0175">Subiaco,</orgName> da portare seco a <placeName ref="#DLCL_CF_L0008">Roma.</placeName> Il motivo di mandarlo colà, è per vedere, se possono levarsegli certe macchie in alcune poche carte, e aggiustare l’ultima carta un poco mancante sul principio. Per altro è un libro insignissimo, e il più raro, che finora [si]asi acquistato per <orgName ref="#DLCL_CF_O0001">cotesta libreria,</orgName> a segno che potrà competere col <bibl type="print">Pli[nio]</bibl> nel suo genere, e prevalere almeno nella rarità! Il prezzo esibito conv<gap reason="illegible"/>[…]e la qualità del volume. Si aggiunge, che i <rs type="person">Monaci</rs> di <orgName ref="#DLCL_CF_O0175">Subiaco,</orgName> ove sono altre antichità riguardevoli, tengono in una stima distinta il <bibl type="print">Lattanzio</bibl> colà stampato. Il <persName ref="#DLCL_CF_PC0579">Montfaucon,</persName> che attentamente penetrò da per tutto mostra di non averlo veduto, e ne scrive perciò confusamente, ma come di una grande rarità! Lo farò legar bene. Crederei proprio aggiungervi un’altro ornamento materiale, che valesse ad imprimerne il concetto anco negl’ignoranti, e contribuisse a far tenere nel dovuto conto le antiche edizioni. Vi vorrebbe una borsa, o sopracoperta nobile, da fermarsi con bottoncini, anche d’oro. Vi era costì certo velluto alquanto maltenuto. La discorra con <persName ref="#DLCL_CF_PC0029">Frate Ferdinando.</persName> Ho veduto così conservarsi il <bibl type="print">Decamerone</bibl></p>
+        
+        <pb xml:id="DLCL_CF_E11099_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21606/full/800,/0/default.jpg"/>
+        
+        <p>del 1527 in <placeName ref="#DLCL_CF_L0008">Roma</placeName> presso il <persName ref="#DLCL_CF_PC0663">Marchese Alessandro Capponi</persName> nella sua piccola ma scelta libreria. Con tale apparato, o col chi <gap reason="illegible"/>[...] nel sito geloso de’ Manoscritti, come sarà possibile che non acquisti altissimo concetto? E pur’ a me non costa, che dodici paoli. Ma vale più del <bibl type="print">Decamerone.</bibl> Fu incognito all’<persName ref="#DLCL_CF_PC1145">Iseo,</persName> al <persName ref="#DLCL_CF_PC1146">Cellario,</persName> e a quanti hanno scritto sopra <bibl type="print">Lattanzio.</bibl></p>
+        
+        <p>Non mi ricordo di avere avuta precisa, e sicura notizia, che il <bibl type="manuscript">Manoscritto in pergamena del Poema di Frate Ranieri Grandi de prelijs Tusciae</bibl> sia capitato in mano di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità,</rs> cui per mezzo del <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina</persName> dovea rimandarlo il <persName ref="#DLCL_CF_PC0013">Signore Muratori,</persName> e che sia stato riposto tra’ libri di nostro uso. Altro ora non ho da aggiungere.</p>
+        
+        <p>Al <rs type="person">Padre Priore</rs> i miei riverentissimi rispetti. Gli dica, che non ho la lettera sua aspettata in quest’ordinario. Al <persName ref="#DLCL_CF_PC0730">Padre Don Angelo</persName> un cordialissimo saluto, e gli suggerisca che faccia aver, da parte mia, all’<persName ref="#DLCL_CF_PC1093">Albrizzi</persName> la seguente notizia. La Città di <placeName ref="#DLCL_CF_L0051">Nocera</placeName> nell’<placeName ref="#DLCL_CF_L0041">Umbria</placeName> a tempi nostri gareggia c[on] l’antica gloria dell’altra <placeName ref="#DLCL_CF_L0052">Nocera, detta de’ Pagani,</placeName> Città del <orgName ref="#DLCL_CF_O0043">Regno di Nap[oli]</orgName> imperroche se vanta questa tra’ suoi Vescovi l’insigne Istorico <persName ref="#DLCL_CF_PC0197">Paolo Giovio,</persName> quella, dopo avere avuto al suo pastoral governo per molti anni il celebre <persName ref="#DLCL_CF_PC0602">Monsignore Marco Battaglini</persName> autore degli <bibl type="print">Annali del Sacerdozio, e dell’Imperio</bibl> descritti [oltre a più opere] per tutto il secolo decimo settimo, presentemente venera nella sua sedia Vescovale <persName ref="#DLCL_CF_PC0740">Monsignor Alessandro Borgia</persName> succeduto al <persName ref="#DLCL_CF_PC0602">Battaglini,</persName> nel passar, che quegli fece, al Vescovado di <placeName ref="#DLCL_CF_L0009">Cesena.</placeName> Ha esso illustrata la sua patria <placeName ref="#DLCL_CF_L0186">Velletri,</placeName> con l’opera seguente: <bibl type="print">Istoria della Chiesa, e Città di Velletri</bibl> Descritta in quattro libri e dedicata all’eminentissimo e Reverendissimo Principe il <persName ref="#DLCL_CF_PC1097">Signore Cardinale Don Bernardo Conti</persName> fratello del Santissimo Padre e Signor nostro <persName>Papa Inno</persName></p>
+        
+        <pb xml:id="DLCL_CF_E11099_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21607/full/800,/0/default.jpg"/>
+        
+        <p><persName ref="#DLCL_CF_PC1098">cenzo XIII.</persName> da <persName ref="#DLCL_CF_PC0740">Alessandro Borgia</persName> Vescovo di <placeName ref="#DLCL_CF_L0051">Nocera.</placeName> In <placeName ref="#DLCL_CF_L0051">Nocera</placeName> 1723. per <persName ref="#DLCL_CF_PC1099">[Antonio] Mariotti</persName> Stampator Vescovale. in 4.gr.</p>
+        
+        <closer>
+          <salute>Abbracciandola di tutto cuore, resto.</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1724-01-31">31. Gennaio 1724.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Cordialissimo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

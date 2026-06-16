@@ -1,0 +1,100 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11135">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21727/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21728/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21729/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21730/full/800,/0/default.jpg"/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11135">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Roma, 30 Ottobre 1724)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">135</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1724-10-30"/>
+          <placeName ref="#DLCL_CF_L0008" key="DLCL_CF_L0008">Roma</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-26" who="#DLCL_CF_PS001">aggiornamento teiHeader</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11135_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21728/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        <p>Ricevo alle due di notte la carissima di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> dopo che Sabbato sera dal <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli,</persName> o dal <rs type="person">Padre Camerlingo mio</rs> mi erano stati consegnati i tre involtini, e il libro in foglio. Le <bibl type="print">Prose Fiorentine</bibl> (e non mica Toscane come a caratteri d’oro stà sulla schiena de’ libretti) sono ben legate, a segno che sempre più mi cresce il concetto del nostro <persName ref="#DLCL_CF_PC0313">Paolino.</persName> Me ne rallegro perciò col <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo,</persName> che n’è il direttore; e vorrei che questi egualmente fosse felice nel mettere sulla buona strada lo <persName ref="#DLCL_CF_PC1014">Stampatore Landi,</persName> levandolo dal vecchio sucidume di que’ caratteri bolsi e guasti, co’ i quali stampa gli Avvisi. Per l’anno santo si riduca a penitenza. Ho veduto il Sinodo, intorno alla cui legatura travaglia, e tanto ha da travagliare <persName ref="#DLCL_CF_PC0313">Paolino;</persName> e similmente ho veduto il <bibl type="print">libriccicolo sopra l’Angelo Custode,</bibl> ove alquanto alterato leggesi il panegirico del <persName ref="#DLCL_CF_PC0396">Segneri,</persName> senza esservi nominato l’autore, come vi è nominato il <persName ref="#DLCL_CF_PC1095">Padre Albertini,</persName> altro Gesuita.</p>
+        <p>Una bella rarità è l’altra opera, tradotta dal <persName ref="#DLCL_CF_PC0824">Persona,</persName> che <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> da <placeName ref="#DLCL_CF_L0031">Comacchio</placeName> ha ricevuta, da inviarmi. Il <bibl type="print">Sant’Atanasio</bibl> dell’<rs type="person" ref="#DLCL_CF_PC082">istesso Traduttore</rs> potrà legarsi, quando il Libraio sia spedito, e libero da’ lavori più importanti. Ma non vorrei che andasse in lungo il <bibl type="print">Lirano,</bibl> premendomi che sia supplito, e legato per il principio de’ pellegrinaggi dell’anno santo, sperando io che possa capitare occasione di venderlo bene a qualche Oltramontano, il quale vada in cerca di simili anticaglie.</p>
+        <p>Non ho avuto tanto di tempo libero, che basti per considerare il tomo in</p>
+        <pb xml:id="DLCL_CF_E11135_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21729/full/800,/0/default.jpg"/>
+        <p>foglio, avanti di risolverne la compra, o rimandarlo a <persName ref="#DLCL_CF_PC0313">Paolino.</persName> Ciò, che in due giorni non si è fatto, presto si farà; né mancherà occasione di rimandarlo in caso che il libro non mi soddisfaccia. Ho inteso: il prezzo è determinato; ne’ altro rimane che deliberare sopra il volerlo o no! Ma nulla mi scrive <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> sopra certo cambio de’ <bibl type="print">Testi Civili.</bibl></p>
+        <p>Il ritorno a <placeName ref="#DLCL_CF_L0024">Venezia</placeName> del <persName ref="#DLCL_CF_PC0730">Padre Don Angelo</persName> darà moto alle nostre faccende, sapendo perciò il ritoccarle, aspettando l’Angelo, che muova le acque.</p>
+        <p>Mi rallegro ch’Ella abbiasi goduto, benché per breve tempo, il <persName ref="#DLCL_CF_PC1094">Padre Sandi.</persName> Che gran Libreria sarà mai quella di <orgName ref="#DLCL_CF_O0191">Santa Giustina,</orgName> se l’accrescimento da lui solo fatto alla medesima giunge ad una somma, che si può credere bastante a fare una insigne Biblioteca. Gran lezione di umiltà per noi! Senza dubbio il <bibl type="print">Lattanzio</bibl> di <orgName ref="#DLCL_CF_O0175">Subiaco</orgName> è un pezzo mirabile. Dove stà ora? Ho un batticuore, che mi dice non doversi mandar lontano, per assicurarsi da ogni pericolo. Il Plinio dello Spira, che abbiamo, non è insigne per la stampa sola, ma più per essere in pergamena, per aver le miniature, e per trovarsi arricchito dell’unico ornamento delle Annotazioni, che certamente sono di un <rs type="person">Veneziano,</rs> o di quelle parti; e son buone.</p>
+        <p>L’altro giorno m’inquietai nel cercare il <bibl type="manuscript">Sant’Agostino De Civitate Dei Manoscritto in pergamena</bibl> in fogl.o. Mi sovvenne poi, che lo mandai costà con due edizioni antiche della stessa opera. Tutto qui bramo presso di me, in</p>
+        <pb xml:id="DLCL_CF_E11135_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21730/full/800,/0/default.jpg"/>
+        <p>sieme con ogni altro nostro libro, che non sia da vendersi, e alienarsi come veramente duplicato. Ella si serva della notizia, per andarmi mandando detti volumi alle occasioni.</p>
+                <closer>
+          <dateline>Io preveggo pur troppo, che la di lei venuta si differirà verso le feste di Natale. Almeno venga, quando che sia, con l’indice da me desiderato. Penso che allora sarà partito il <rs type="person">Padre Priore</rs> per <placeName ref="#DLCL_CF_L0008">Roma;</placeName> ora come ora non è per mettersi in viaggio. Mi rallegro de’ vantaggi di salute del <persName ref="#DLCL_CF_PC0676">Padre Lettore Grilli,</persName> e caramente lo riverisco, come resto senza fine. <placeName ref="#DLCL_CF_L0043">Forlì</placeName> <date when-iso="1724-10-30">30. Ottobre 1724.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Cordialissimo Servitore Vero Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

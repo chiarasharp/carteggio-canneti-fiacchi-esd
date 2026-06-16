@@ -1,0 +1,105 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11088">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21563/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21564/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21565/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21567/full/800,/0/default.jpg"/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11088">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 5 Luglio 1723)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">88</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1723-07-05"/>
+          <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-28" who="#DLCL_CF_PS001">trascrizione, markup struttura e entità</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11088_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/20982/full/800,/0/default.jpg"/>
+         
+        <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        
+        <p>Ho finito ora di scrivere al <persName ref="#DLCL_CF_PC0625">Padre M. Pugnetti,</persName> il quale stà aspettando da <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> la nota de’ duplicati. Mi dà speranza di mandarmi sotto gli occhi alcuni libri, ed ancora di venir quà in persona, ove più facilmente si potrebbe concordare qualche baratto. Se Ella subito manderà la lista, ciò potrebbe sollecitare. Ho genio al <persName ref="#DLCL_CF_PC1068">Vida</persName> in cartapecora magnificamente stampato, per essere mio paesano. Per questo pure desidero le <bibl type="print">Orazioni</bibl> del <persName ref="#DLCL_CF_PC1056">Faballi,</persName> e del <persName ref="#DLCL_CF_PC1067">Vezzioli,</persName> che vanno tra’ Cremonesi egualmente, per essere stati Maestri di Umanità in <placeName ref="#DLCL_CF_L0001">Cremona.</placeName> Non capisco come siavi costì chi ne faccia tanta stima. Per vincerla, io posso dare in baratto una copia, che ho quà delle <bibl type="print">Orazioni</bibl> del <persName ref="#DLCL_CF_PC1068">Vida,</persName> le quali <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> avrà comodo di mostrargli in cotesto altro esemplare stampato in carta turchina. Il <persName ref="#DLCL_CF_PC0095">Canonico Guidarelli</persName> stimava altissimamente quel libro, di cui io gli feci un dono di altra 3.a copia, e diceva non aver il mondo cosa euguale, né migliore dopo <bibl type="print">Cicerone.</bibl> Io lo manderò subito: e <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> vi può aggiunger qualche altro libro, e (riuscendo il contratto) far rilegare l’altro diviso. Fiorivano tutti al tempo del <bibl type="print">Vida</bibl> medesimo, allorché <placeName ref="#DLCL_CF_L0001">Cremona</placeName> contò un prodigioso numero di Valentuomini nella prosa, e nel verso latino, e tanti che potè movere invidia ad altre maggiori Città.</p>
+        
+        <pb xml:id="DLCL_CF_E11088_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/20982/full/800,/0/default.jpg"/>
+        
+        <p>Sabbato mattina si fece co’ <persName ref="#DLCL_CF_PC0906">Monsignor Ercolani</persName> un lungo discorso intorno a’ disegni. Subito fu riprovato il più grande, che porta le sei colonne in vet<gap reason="illegible"/>[…] Di quello del <persName ref="#DLCL_CF_PC0885">Signor Carlo</persName> disse che si conosceva esser <rs type="person">un Pittore,</rs> e mi [fa] lezione soprà la differenza del disegnar de’ Pittori, e degli Architetti concludendo esser propria di questi il fondare, di quelli l’ornare. Le eccezioni principali del bel Disegnino sono l’esser tisico nel corpo, per le colonne tirate troppo lunghe, e troppo tozzo nel coperchio, o cap<gap reason="illegible"/>[...] basso. Ha lodato il metter le colonne in angolo: onde portata quella maniera di collocar le colonne nel disegno più piccolo di <persName ref="#DLCL_CF_PC0613">Frate Giuseppe A[ntonio]</persName> vien questo preferito agli altri. Sopra tutto piace il grande arco in me<gap reason="illegible"/>[…].</p>
+        
+        <p>Porterò il secondo, nel quale è singolare il ripiego necessario di trovar luog<gap reason="illegible"/>[…] alla Croce. E questo leva la colomba circondata da’ raggi, chiusa in tutti e tre gli altri. Vien biasimato quel pensiero, che non ha chiaroscuro, né verisimilitudine, non approvandosi i raggi, dove <gap reason="illegible"/>[…] luce da una finestra dietro non faccia fondamento di verità. <gap reason="illegible"/>[…] secondo disegno si leva dal tisico, e riesce meglio, se non dà nel <gap reason="illegible"/>[tor…]</p>
+        
+        <p>Quel, ch’è indispensabile per risolvere, è che si mandi una misura del <gap reason="illegible"/>[…] del Tabernacolo, per tutte le dimensioni, anco dell’altezza, a cui <gap reason="illegible"/>[...] arrivare, e de’ Candelieri. Si loderebbe che la 3.a colonna da a<gap reason="illegible"/>[…] i lati si metta dietro in angolo in veduta. Si mandi la misura g<gap reason="illegible"/>[…]</p>
+        
+        <pb xml:id="DLCL_CF_E11088_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21567/full/800,/0/default.jpg"/>
+        
+        <p>delle Colonne, col colore delle medesime, non le avendo quì vedute Monsignore tenga tutto in se, e nel <rs type="person">Padre Lettore,</rs> e non lasci traggirare all’altro <rs type="person">Architetto,</rs> comunicante solo al <rs type="person">Pittore.</rs> Ma come si ha da deliberare intoro a’ colori delle pietre? Monsignore si augura poter discorrere al tavolino, e determinare, e far fare il modello co’ i colori; e loderebbe ancora esporlo, e sentire come vien gradito. Egli, che molto intende, parla così. Che dobbiam dire noi, i quali non siamo architetti? Quel paragrafo perché non si trova modo di metterlo sotto la considerazione di chi ne ha necessità? Evvi qui <rs type="person">Artefice</rs> capace di far il modello.</p>
+        
+        <p>Mi dia nuova del <bibl type="print">Panciroli.</bibl></p>
+        
+        <closer>
+          <salute>Resto abbracciandola caramente.</salute>
+          <salute>DVPMR.</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1723-07-05">5. Luglio 1723.</date></dateline>
+          <salute>Cordialissimo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,98 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11120">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21677/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21678/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21679/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/22945/full/800,/0/default.jpg"/>
+    <graphic n="2v" url="https://www.cdc.classense.ra.it/iiif/2/22946/full/800,/0/default.jpg"/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11120">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Forlì, 17 Luglio 1724)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">120</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1724-07-17"/>
+          <placeName ref="#DLCL_CF_L0043" key="DLCL_CF_L0043">Forlì</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+  <change when-iso="2026-05-29" who="#DLCL_CF_PS001">aggiornamento struttura</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11120_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21678/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Amatissimo</salute>
+        </opener>
+        <p>Eccole il nostro <persName ref="#DLCL_CF_PC1108">Don Severo,</persName> che viene ad abbracciarla. Spero di avere ancor’io presto una tal consolazione in congiuntura di far la scelta di questi libri del fu <persName ref="#DLCL_CF_PC0614">Reverendissimo’ Celini,</persName> per trasportare costà quei, che non sono in cotesta Libreria.</p>
+        <p>Quando io fui costì a svernare, si ricorda <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> ch’ebbi ordine [dal <persName ref="#DLCL_CF_PC0003">Reverendissimo Galamini</persName>] di far venire i Tomi, che ultimamente uscirono, de’ <bibl type="print">Bollandisti,</bibl> e che ce l’intendemmo col <persName ref="#DLCL_CF_PC0093">Padre Lettore Onestini,</persName> il qual ne avea trattato col <rs type="person">Bibliotecario Gesuita</rs> del <orgName ref="#DLCL_CF_O0194">Collegio Romano?</orgName> Anzi si discorse di far venire unitamente il 5.° Tomo degli <bibl type="print">Annali Benedettini,</bibl> e congiuntamente presentar tutto al <persName ref="#DLCL_CF_PC0003">Reverendissimo Galamini,</persName> e di tutto ricevere il danaro. Com’è andato l’affare in dimenticanza? Parmi ora tempo di vedere se il <rs type="person" ref="#DLCL_CF_PC0093">Padre Lettore suddetto</rs> può avergli, avanti di partire, e far che scriva essere arrivati §, come a me sono giunti lo <bibl type="print">Spicilegio,</bibl> e gli <bibl type="print">Analetti</bibl> in quel tempo ordinati, e dall’interrompimento</p>
+        <pb xml:id="DLCL_CF_E11120_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21679/full/800,/0/default.jpg"/>
+        <p>del commercio ritardati. Ella vi applichi, e da vero.</p>
+        <p>Entrano ora le vacanze. Implacabilmente assedi, anzi assalti il <persName ref="#DLCL_CF_PC0676">Grillo,</persName> perché finisca il lavoro del frontispizio del <bibl type="print">Paruta;</bibl> e gli dica che dovrebbe vergognarsi: ma i grilli non cangiano mai colore, come i granchi, che almeno arrossiscono dopo morte. Ella mi aiuterà quì a mettere in ordine i nostri libri; e vi sarà molto che discorrere con pace, e con quiete. Intanto senza fine resto.</p>
+        <closer>
+          <dateline><placeName ref="#DLCL_CF_L0043">Forlì</placeName> <date when-iso="1724-07-17">17. Luglio 1724.</date></dateline>
+          <salute>DVPMR.</salute>
+          <salute>Cordialissimo Servitore Vostro Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+        <p>P.S. Ricevo la sua del dì 16. In risposta serva il <persName ref="#DLCL_CF_PC0034">Signor Veratti,</persName> come ci vuole, anco in riguardo dell’amicizia cordiale col <rs type="person">suo Genitore.</rs> Gli dia i libri, e mandi li sei scudi levandogli dal <rs type="person">Padre Camerlengo.</rs> Il <persName ref="#DLCL_CF_PC1041">Martene</persName> prende un granchio. <persName ref="#DLCL_CF_PC0177">Ambrogio</persName> da fanciullo si vestì Monaco;</p>
+        <pb xml:id="DLCL_CF_E11120_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/22945/full/800,/0/default.jpg"/>
+        <p>e altro non dicono le lettere a chi le intende. Sta dissimulato che altri raccogliesse le lettere; e <persName ref="#DLCL_CF_PC0216">Fontanini</persName> vorrebbe farmi credere ch’ei non ne sapesse nulla.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,92 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11101">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21613/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21614/full/800,/0/default.jpg"/>
+    <graphic n="1v" url=""/>
+    <graphic n="2r" url=""/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11101">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (...luogo, ...anno)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">101</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso=""/>
+          <placeName ref="" key=""/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+  <change when-iso="2026-05-29" who="#DLCL_CF_PS001">aggiornamento struttura</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11101_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21614/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        <p>Finalmente vengo assicurato, che la <bibl type="print">Teologia Morale</bibl> del <persName ref="#DLCL_CF_PC1101">Baldelli</persName> consiste in due soli tomi, non essendo uscito il terzo, nella prefazione indicato, e promesso. Il prezzo è di quattro scudi. Confermo la donazione, che (almeno in parte ne fò alla <orgName ref="#DLCL_CF_O0001">Libreria,</orgName> bastandomi quel, che si ricaverà dal duplicato primo tomo, da mettersi a mio conto. Sento la fortuna destinata al <bibl type="print">Lattanzio</bibl> dell’edizione di <orgName ref="#DLCL_CF_O0175">Subiaco:</orgName> ne scrivo al <persName ref="#DLCL_CF_PC0093">Padre Lettore Onestini,</persName> affinché sospenda ogni qualunque impegno per la legatura, solleciti la ripulitura, e risarcimento del libro, e senz’altro indugio lo rimandi. Alla sopraveste si penserà dappoi, né s’inquieteranno i <rs type="person">Tabernacolisti</rs> cotanto fissi alla loro unica faccenda. Già ho scritto, che non si può sperare lavoro perfetto nel rame dorato, quando sia fatto in <placeName ref="#DLCL_CF_L0002">Ravenna,</placeName> e che la provisione del lapislazulo, e d’altre pietre fine è molto scarsa. Ho ordinati i guanti subito. Intanto <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> renda in mio nome grazie ben grandi al <persName ref="#DLCL_CF_PC0885">Signore Carlo Onestini</persName> per la copia delle strisce della pianeta dittica, che ricevo con pienissima mia soddisfazione, riconoscendosi nel lavoro l’accurata diligenza, che vi è stata usata. Altrettanta farò che ne abbia il <rs type="person">Segretario de’ soprascritti,</rs> e che sia più ubbidiente all’ordine strettissimo, che non senza rimproveri più volte io gli avea dati. Ma il poveretto in cinque mesi di Noviziato a <orgName ref="#DLCL_CF_O0013">MonteCorona</orgName> finì di perdere l’udito, e con l’udito segl’ingrosso il cervello. Resto confermandomi con tutto lo spirito. <placeName ref="#DLCL_CF_L0004">Fabriano</placeName> 11. Febbraio 1724.</p>
+                <closer>
+          <salute>DVPMR</salute>
+          <salute>Cordialissimo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+        <p>Nota aggiunta sul margine interno [Mi vien dubbio, che la vaghezza delle coperte de’ <bibl type="print">Messali</bibl> sia sull’aria, e sull’arteficio medesimo, con cui i tedeschi fanno le carte indorate. Queste al primo […]</p>
+        <p>Nota aggiunta in fine [Un <rs type="person">Signor Letterato,</rs> che quì per suo uso si diletta di legarsi i proprj libri, desidera sapere come si dia il lustro alli colori sopra le carte]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

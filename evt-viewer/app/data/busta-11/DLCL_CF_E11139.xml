@@ -1,0 +1,97 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11139">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21739/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21740/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21741/full/800,/0/default.jpg"/>
+    <graphic n="2r" url=""/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11139">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (...luogo, ...anno)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">139</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso=""/>
+          <placeName ref="" key=""/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11139_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21740/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        <p><placeName ref="#DLCL_CF_L0043">Forlì</placeName> 8. Dicembre 1724.</p>
+        <p>Per una delle solite Dadine riceverà <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> un’involto con entro i Tre Tomi della <bibl type="print">Raccolta degli Autori del Moto dell’acque,</bibl> da legarsi da <persName ref="#DLCL_CF_PC0313">Paolino</persName> nostro. Ma, prima di mettere mano alla legatura, si aspettino le Tavole VI. e VI. e VIII. che mancano in fine del Tomo 2.°, dove hanno da collocarsi con le altre, per la spiegazione del <persName ref="#DLCL_CF_PC1088">Guglielmini,</persName> nelle cui opere sono esse indicate. Con l’ordinario di iersera ebbi sopra ciò avviso dal <persName ref="#DLCL_CF_PC0006">Padre Filippo Amici,</persName> che il <persName ref="#DLCL_CF_PC0831">Signore Casolari</persName> avea scritto per esse al suo Corrispondente di <placeName ref="#DLCL_CF_L0018">Firenze.</placeName></p>
+        <p>Di giorno in giorno aspetto le poche copie della mia <bibl type="print">Dissertazione</bibl> per mandarne una, da dar da leggere in Libreria. Ho altresì da inviare costà presto il tomo 4.° delle <bibl type="print">Opere</bibl> di <persName ref="#DLCL_CF_PC0328">Gerardo Gio. Vossio,</persName> da legarsi compagno degli altri cinque tomi. È in <placeName ref="#DLCL_CF_L0043">Italia,</placeName> e, nello <placeName ref="#DLCL_CF_L0185">Stato della Chiesa,</placeName> vicino a noi; ma dee andar prima a <placeName ref="#DLCL_CF_L0023">Foligno,</placeName> in compagnia di molte droghe, seco venute a dirittura da <placeName ref="#DLCL_CF_L0065">Amsterdam.</placeName> Si è scoperto un <bibl type="print">Delfino</bibl> tra certi sassi. Preghi Dio che venga nelle nostre reti. Lo baratteremo, o venderemo l’anno venturo Santo a qualchè Oltremontano, se prima sarà nostro. Il libro è roso dalla metà in giù nel margine superiore, o da’ topi, o dalle tarme.</p>
+        <pb xml:id="DLCL_CF_E11139_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21741/full/800,/0/default.jpg"/>
+        <p>Mi fu esibito giorni sono l’intiero corpo de’ <bibl type="print">Secoli Agostiniani</bibl> del <persName ref="#DLCL_CF_PC1089">Torelli</persName> per 20. scudi; e si avrebbero per assai meno ma e cotesto corpo degli <bibl type="print">Agostiniani di San Niccolò,</bibl> di cui si parlò tre anni sono con <persName ref="#DLCL_CF_PC0313">Paolino,</persName> è egli intiero? Quanto ne vogliono? Lo darebbero per baratto da’ libri?</p>
+        <p>Desidero notizia se tra’ duplicati vi son costì libri buoni, e quali, e distintamente di erudizione. E mi risponda subito.</p>
+        <p>Quando sarà <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> in ordine per venire? Un cordialissimo saluto al <rs type="person" ref="#DLCL_CF_PC0007">Padre Predicatore</rs> e al <persName ref="#DLCL_CF_PC0676">Padre Lettore Grilli.</persName></p>
+        <p>Il <rs type="person">Papa</rs> ha messo in uso per la sua persona il color paonazzo nell’avvento, e vuole usare il nero per le messe di Requiem quando prima si costumava nell’una e nell’altra occasione il colore rosso; così farà del verde, in cambio del quale il <rs type="person">Papa</rs> vestiva il bianco. Intorno a ciò è uscito un libro; e l’avrò. Anco il <persName ref="#DLCL_CF_PC0024">Rocca</persName> fece un’opuscolo sopra il verde solamente. L’abbraccio caramente, e resto.</p>
+        <p>DVPMR.</p>
+        <p>Alla <rs type="person">Donna</rs> faccia dare il suo dovere; e si noti a mio conto.</p>
+                <closer>
+          <salute>Cordialissimo Servitore Vero Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

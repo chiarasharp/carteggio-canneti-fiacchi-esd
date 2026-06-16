@@ -1,0 +1,101 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11128">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21703/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21704/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21705/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21706/full/800,/0/default.jpg"/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11128">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Forlì, 18 Settembre 1724)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">128</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1724-09-18"/>
+          <placeName ref="#DLCL_CF_L0043" key="DLCL_CF_L0043">Forlì</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-26" who="#DLCL_CF_PS001">aggiornamento teiHeader</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11128_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21704/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        <p>Rispondo alla carissima di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> ieri recatami dal <rs type="person">Vetturino,</rs> rimanendomi tuttavia desiderio della di lei risposta ad altra precedentemente scrittale mercoledì per la posta. Godo adunque dell’avviso della cassetta felicemente giunta in di lei mani. L’<bibl type="print">indice de’ libri proibiti</bibl> a caso restò indietro; lo manderò con prima occasione. Se arriverà costà in tempo, potrà congiungersi alli tre tomi dello <bibl type="print">Spicilegio,</bibl> all’altro degli <bibl type="print">Analetti,</bibl> alle due copie delle <bibl type="print">poesie Merighiane,</bibl> e alla tela, che devono andare a <placeName ref="#DLCL_CF_L0024">Venezia</placeName> al <persName ref="#DLCL_CF_PC0730">Padre Don Angelo,</persName> di sua ragione. Unitamente si spediscano i tomi legati del <bibl type="print">Pez,</bibl> e della <bibl type="print">Biblioteca Greca</bibl> per me.</p>
+        <p>In ordine a questi due, io non ho preso impegno, né col <persName ref="#DLCL_CF_PC1134">Recurti</persName> per mezzo del <persName ref="#DLCL_CF_PC0547">Reverendissimo Tassis,</persName> né a dirittura col <persName ref="#DLCL_CF_PC0585">Poletti:</persName> solo intesi dall’uno, e dall’altro che si pretendevano 40. lire del <bibl type="print">tomo</bibl> 4.to sciolto. Io metto, per mezzo di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> l’affare in mano del <persName ref="#DLCL_CF_PC1041">Padre Calogerà,</persName> colla speranza di riportare vantaggio. Quanto alla legatura, raccomando, che il 4.° tomo suddetto sia ben battuto (cosa che in <placeName ref="#DLCL_CF_L0024">Venezia</placeName> non si vuole intendere) per altro sia similissima la legatura e il cartello. I tre altri tomi mi furono provveduti dal <persName ref="#DLCL_CF_PC0547">Reverendissimo Tassis,</persName> il quale credo si valesse del <persName ref="#DLCL_CF_PC1134">Recurti.</persName> Potrà saper ciò facilmente il <persName ref="#DLCL_CF_PC0730">Padre Don Angelo</persName> dall’istesso Padre Abate, con destrezza. Quanto all’altro volume 12. della <bibl type="print">Biblioteca Greca,</bibl> si accompagni pure col undecimo, che mando: ancor’esso mi fu comprato dal <rs type="person" ref="#DLCL_CF_PC0547">detto Reverendissimo,</rs> e penso uscito dalla bottega del <persName ref="#DLCL_CF_PC1134">Recurti.</persName></p>
+        <p>Oltre al pochissimo residuo de’ conti col <persName ref="#DLCL_CF_PC0730">Padre Don Angelo,</persName> che <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> mi mandò,</p>
+        <pb xml:id="DLCL_CF_E11128_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21705/full/800,/0/default.jpg"/>
+        <p>io ho speso per vettura della Cassetta de’ libri da <placeName ref="#DLCL_CF_L0008">Roma</placeName> a <placeName ref="#DLCL_CF_PC0547">Forlì</placeName> di peso ll. 158. scudi tre bai. 10. pagati a Scassino Vetturale, in ragione in circa di bai. 2. per libbra. E più Bai. 70. nella cassetta, bai. 20. nella corda, e incerata. E bai. 30. al <rs type="person">Vetturino</rs> per porto da <placeName ref="#DLCL_CF_PC0547">Forlì</placeName> a <placeName ref="#DLCL_CF_L0002">Ravenna;</placeName> in tutto Scudi quattro bai. 30. De’ quali sarò creditore per la metà, cioè di sc. due bai. 15., essendo stato il peso in circa la metà per ciascheduno. Se poi a <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> occorre valersi della cassetta per servizio del medesimo <persName ref="#DLCL_CF_PC0730">Don Angelo,</persName> se ne serva pure, e resti in di lui proprietà. Non è cotesta quella ch’è venuta di <placeName ref="#DLCL_CF_L0008">Roma,</placeName> ma un’altra più grande. Farò di più pagare in <placeName ref="#DLCL_CF_L0024">Venezia</placeName> un zecchino all’istesso Padre, che si valuta s. 22. (ma dopo l’interrompimento d’una camminata, ritornato trovo mandatomi da <placeName ref="#DLCL_CF_L0005">Faenza</placeName> il zecchino). Si rimetterà a suo tempo dunque il danaro. Passiamo ad altro.</p>
+        <p>Compitissimo sarebbe il <bibl type="print">Lirano</bibl> mandato, se da esso io non avessi levata la prefazione, che vi manca, e il foglio, per rendere perfetto il corpo, ch’è in <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> Ora si metta mano a supplirlo con la penna in carattere stampatello, avvertendo, che vi è un foglio bianco di carta antica in un tomo; ed è quel, che fu levato da altro di cotesti Volumi della biblioteca. Io penso che sarà bene far la legatura alla franzese; perché in tal forma comparisca bene per venderlo. Pure sentirò il parer di lei, e del Legatore.</p>
+        <pb xml:id="DLCL_CF_E11128_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21706/full/800,/0/default.jpg"/>
+        <p>Il <bibl type="print">Sant’Atanasio</bibl> è una grande rarità. Vostra Paternità veda quel, che ne scrivono i <rs type="person">Giornalisti,</rs> ove trattano del <persName ref="#DLCL_CF_L0006">Persona.</persName> Si leghi in pelle rossa, con oro sul corpo, e altrove, come si usa nelle legature alla franzese. Raccomando usar diligenza per levar le macchie, se è possibile, a detto libro, e a quelli del <bibl type="print">Lirano.</bibl></p>
+        <p>La stampa della Collezione del <bibl type="print">Martene</bibl> non è fina, ma non è indegna, come quella degli <bibl type="print">Analetti,</bibl> e dello <bibl type="print">Spicilegio.</bibl> Si può tollerare. Il <persName ref="#DLCL_CF_PC1136">Montalant</persName> è la vergogna della nazione: così ha detto in <placeName ref="#DLCL_CF_L0008">Roma</placeName> un <rs type="person">Gentiluomo</rs> del <persName ref="#DLCL_CF_PC1137">Cardinale Polignac</persName> all’<persName ref="#DLCL_CF_PC1156">Andreoli,</persName> il quale si arrossisce nel distribuire agli Associati le copie.</p>
+        <p>A <persName ref="#DLCL_CF_PC0313">Paolino</persName> dica che sia diligente; e aspetto legato il tomo di <placeName ref="#DLCL_CF_L0150">Trento.</placeName></p>
+                <closer>
+          <salute>Crederei che indiscreto non fosse il prezzo di tre scudi per il primo Tomo della <bibl type="print">Roma Subterranea,</bibl> e di due scudi per il 2.° dell’<bibl type="print">Ughelli.</bibl> Contien l’uno e l’altro materie, che stanno bene ancora separati. Mi confermo sempre più, e di cuore.</salute>
+          <dateline><placeName ref="#DLCL_CF_L0043">Forlì</placeName> <date when-iso="1724-09-18">18. 7bre 1724.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Cordialissimo Servitore Affezionatissimo Vero</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

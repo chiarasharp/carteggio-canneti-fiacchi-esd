@@ -1,0 +1,93 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11104">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21621/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21622/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21623/full/800,/0/default.jpg"/>
+    <graphic n="2r" url=""/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11104">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (...luogo, ...anno)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">104</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso=""/>
+          <placeName ref="" key=""/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11104_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21622/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        <p>Si è terminata la scelta delle cinquanta cartapecore, che dentro questa settimana s’incamineranno a <placeName ref="#DLCL_CF_L0003">Pesaro.</placeName> Il mercante non volea lasciarle per meno di 65. paoli; e per verità vagliono benissimo tal prezzo: ma con lo sborso pronto del danaro ho goduto il vantaggio, pagandole sei scudi, in tre zecchini effettivi. Quando il nostro <persName ref="#DLCL_CF_PC0313">Paolino</persName> gli abbia in ordine, potrà contargli al <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli,</persName> dovendo io fare una rimessa a <placeName ref="#DLCL_CF_L0024">Venezia.</placeName></p>
+        <p>Mi è capitato un Tomo in fogl. di tutte le <bibl type="print">Opere</bibl> di <persName ref="#DLCL_CF_PC1107">Boezio,</persName> della stampa <orgName ref="#DLCL_CF_O0193">Enricpetrina</orgName> di <placeName ref="#DLCL_CF_L0042">Basilea.</placeName> Mi avvisi, se questo tomo è in <orgName ref="#DLCL_CF_O0001">libreria.</orgName> Or che il vento seconda lo spaccio, non si scordi dell’<bibl type="print">Effemeridi Manfrediane</bibl> del <bibl type="print">Lessico Matematico,</bibl> e di simili altri duplicati.</p>
+        <p>Quanto più considero il <bibl type="manuscript">Catalogo</bibl> dello <persName ref="#DLCL_CF_PC1103">Smith,</persName> mi comparisce per una frasca, che inviti i Compratori all’acquisto di cotanto rara, scelta, e preziosa raccolta.</p>
+        <pb xml:id="DLCL_CF_E11104_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21623/full/800,/0/default.jpg"/>
+        <p>Altro non sovvenendomi da scrivere, mi confermo per sempre. <placeName ref="#DLCL_CF_L0004">Fabriano</placeName> 21. Febbraio 1724.</p>
+        <p>Il <persName ref="#DLCL_CF_PC1033">Signor Conte Settecastelli</persName> mi assicura che sono in viaggio [da] <placeName ref="#DLCL_CF_L0017">Parigi</placeName> a <placeName ref="#DLCL_CF_L0008">Roma</placeName> due copie de primi tre Tomi della nuova <bibl type="print">Raccolta</bibl> del <persName ref="#DLCL_CF_PC1041">Martene,</persName> una delle quali è p[er] me. Vengono di vanguardia. All’arrivo mi converrà sborsare cento lire di <placeName ref="#DLCL_CF_L0037">Francia</placeName> per l’associazione, con obbligo poi di pagarne altre 50., quando si avrà il restante delli nove Tomi. Subito, che a <placeName ref="#DLCL_CF_L0008">Roma</placeName> sarà giunta la nuova edizione in tre Tomi in fogl. degli <bibl type="print">Anecdoti</bibl> del <persName ref="#DLCL_CF_PC0129">Mabillon,</persName> e dello <bibl type="print">Scipicilegio Dacheriano,</bibl> vi sarà pur da pagar la seconda metà dell’associazione. Veda caro <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo,</persName> se ho bisogno di danaro. Il <persName ref="#DLCL_CF_PC1055">Signore Abate Fontanini</persName> fa’ le maraviglie di tante mie spese private, e di tanto amore a <orgName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">cotesta Libreria.</orgName></p>
+                <closer>
+          <salute>Cordialissimo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,101 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11097">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21598/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21599/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21600/full/800,/0/default.jpg"/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11097">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Venezia, 24 Gennaio 1724)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">97</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1724-01-24"/>
+          <placeName ref="#DLCL_CF_L0024" key="DLCL_CF_L0024">Venezia</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione, markup struttura e entità</change>
+      <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11097_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21599/full/800,/0/default.jpg"/>
+        
+        <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        
+        <p>Sommamente mi rallegro con <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> della recuperata salute, e la ringrazio della consolazione recatami colla nuova di suo pugno. Attenda a stabilirsi, ed a risolutamente tenersi lontano da tutto ciò che può esserle di pregiudicio notabile, riflettendo che l’ubbidienza stessa non intende mai di recarglielo. A lei tocca guardarsene.</p>
+        
+        <p>Or via, si metta mano a legare i <bibl type="manuscript">due Quadriregi,</bibl> e il <bibl type="manuscript">Canzoniere dello Spirito Manoscritto</bibl> nelle pelli mandate; e vi lasci sul principio due o tre carte, da farvi i titoli, e una memoria. Da <placeName ref="#DLCL_CF_L0007">Bologna</placeName> intesi, ch’era arrivato l’<bibl type="manuscript">altro Quadriregio, attribuito falsamente al Malpighi.</bibl> Ebbi i <bibl type="print">Calendari;</bibl> subito gli esitai (altri non ne fan bisogno) diedi ordine pel pagamento di s. 1:44 al <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli.</persName> Così ricevei l’<bibl type="print">Orlandi,</bibl> e le <bibl type="print">Tragedie</bibl> del <rs type="person">buon Zoccolante.</rs> Ho cominciato a leggere il <bibl type="print">Faballi.</bibl> Trovo che già presso stanno le <bibl type="print">Orazioni</bibl> del <persName ref="#DLCL_CF_PC1079">Zava Cremonese,</persName> contra cui scrivono il <persName ref="#DLCL_CF_PC1056">Faballo,</persName> e il <persName ref="#DLCL_CF_PC1067">Veziolo.</persName> Se sarà possibile, staranno questi tre Autori ben’accoppiati insieme.</p>
+        
+        <p>I conti camminano bene. Alla fine crescono i libri, non la borsa. Dal <persName ref="#DLCL_CF_PC0178">Reverendissimo Ferranti</persName> sentirò il pensier suo, sopra il provveder de’ <bibl type="print">Giornali;</bibl> e avviserò. Ad ogni cenno manderò il <bibl type="print">Corio,</bibl> e il <bibl type="print">Petrarca,</bibl> a quali saranno anco uniti i due tomi del <bibl type="print">Baldelli Gesuita,</bibl> e altri libri. Intorno al <bibl type="print">Calepino</bibl> del <persName ref="#DLCL_CF_PC1080">Passeracci,</persName> e lo <bibl type="print">Scherno degli Dei,</bibl> sarà ben ch’ella scriva al <persName ref="#DLCL_CF_PC0093">Padre Lettore Onestini.</persName> Da <placeName ref="#DLCL_CF_L0017">Parigi</placeName> ancor si aspetta la <bibl type="print">Raccolta</bibl> del <persName ref="#DLCL_CF_PC1041">Martene:</persName> intanto nulla può deliberarsi dell’<bibl type="print">Epistole Ambrogiane.</bibl> In quanto al <bibl type="print">Paruta,</bibl> il <persName ref="#DLCL_CF_PC0676">Padre Lettore Grilli</persName> ha preso tempo per tutto ‘l mese venturo. Le Immagini del Padre</p>
+        
+        <pb xml:id="DLCL_CF_E11097_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21600/full/800,/0/default.jpg"/>
+        
+        <p><persName ref="#DLCL_CF_PC0017">San Romualdo</persName> verranno innanzi, co’ i libri. Manderò presto la memoria da scriversi sul <bibl type="manuscript">Codice donato</bibl> da <rs type="person">Monsignore Arciverscovo</rs> Giova spesare, che trovo gradimento, pari a quel, che grandissimo ha mostrato il <persName ref="#DLCL_CF_PC0529">Signore Conte Vincenzio Piazza.</persName> Fin qui in fretta a tutto ‘l contenuto della dolcissima sua.</p>
+        
+        <p>Un’altra volta mi dica qualche cosa del <bibl type="print">Pancirolo</bibl> in foglio, ristampato, e del modo di recuperar l’anticipato pagamento del 2.° Tomo del <bibl type="print">Tasso.</bibl> Io son in disborso di 24. paoli; né so come esiggergli dagli Associati, che pur si dolgono al vedere andata in fumo la continuazione dell’impresa.</p>
+        
+        <p>Con gli altri libri, manderò il <bibl type="print">Tasso</bibl> del <persName ref="#DLCL_CF_PC1081">Castello,</persName> figurato, in 12., che il <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina</persName> mi chiede, da rimandare al <persName ref="#DLCL_CF_PC0986">Buonarrigo.</persName> Ma io lasciai al <rs type="person">Padre Lettore</rs> stesso il <bibl type="print">Commento</bibl> del <persName ref="#DLCL_CF_PC0838">Beni,</persName> ch’esso mandò a <placeName ref="#DLCL_CF_L0024">Venezia,</placeName> per rimetterne in mano nostra un’altro esemplare più nuovo, e fresco <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> si prenda di ciò pensiero; perché alla fine tutti questi interessi sono interessi di <orgName ref="#DLCL_CF_O0001">cotesta Libreria.</orgName> L’abbraccio per fine tenerissimamente, col nostro <persName ref="#DLCL_CF_PC0730">Padre Don Angelo.</persName></p>
+        
+       <closer>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1724-01-24">24. Gennaio 1724.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Cordialissimo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

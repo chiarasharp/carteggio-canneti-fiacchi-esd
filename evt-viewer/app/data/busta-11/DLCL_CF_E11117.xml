@@ -1,0 +1,92 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11117">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21667/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21668/full/800,/0/default.jpg"/>
+    <graphic n="1v" url=""/>
+    <graphic n="2r" url=""/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11117">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (...luogo, ...anno)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">117</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso=""/>
+          <placeName ref="" key=""/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11117_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21668/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        <p>Io sono uomo nuovo in questa Città; né posso valermi di due Monaci quì rimasi per trovare il rigiro del danaro, essendo persone all’affare poco approposito. Del <persName ref="#DLCL_CF_PC1149">Lacchini</persName> non penso esser bene il servirmi, atteso certo credito, ch’egli pretende contro del Monastero; onde potrebbe nascer pericolo di rappresaglia. Per uscir di queste difficoltà risolvo mandare per il messo il danaro sigillato al <rs type="person">Padre Camerlengo,</rs> che lo consegni a <persName ref="#DLCL_CF_PC1150">Frate Sante,</persName> giacché egli è per partire presto verso <placeName ref="#DLCL_CF_L0008">Roma.</placeName> Per altra occasione mi riservo i favori di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> e del <persName ref="#DLCL_CF_PC1074">Signor Vincenzio</persName> suo fratello.</p>
+        <p>Già con l’ultima mia raccomandai a <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> le mie premure intorno alla <bibl type="print">Storia</bibl> del <persName ref="#DLCL_CF_PC0886">Varchi,</persName> per servire il <persName ref="#DLCL_CF_PC1126">Signore Conte Laderchi.</persName> In quanto agli altri libri, che desidera il <persName ref="#DLCL_CF_PC0954">Signore Zanotti,</persName> concedo la libertà di dargli tutti e tre per 20. paoli, quando non possa arrivarsi alli 25. o 26. ch’Ella desidera con tanto affetto. Ho ricevuto il giornale 35.° la ringrazio. Attendo nuova dell’arrivo del <bibl type="print">Panziroli.</bibl> Pel rimanente scrivo a dirittura al <persName ref="#DLCL_CF_PC0121">Padre Lettore Guiccioli;</persName> e con tutto l’affetto mi confermo.</p>
+        <p><placeName>Forlì</placeName> 6. Luglio 1724.</p>
+        <p>DVPMR</p>
+        <p>Le ricordo l’esito de’ libri, che ebbi dal <persName ref="#DLCL_CF_PC0831">Casolari</persName> di <placeName ref="#DLCL_CF_L0007">Bologna,</placeName> <bibl type="print">Effemeridi,</bibl> <bibl type="print">Lessico Matematico</bibl> §.</p>
+                <closer>
+          <salute>Cordialissimo Servitore Vostro Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

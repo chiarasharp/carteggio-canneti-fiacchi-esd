@@ -1,0 +1,95 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11107">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21633/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21634/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21635/full/800,/0/default.jpg"/>
+    <graphic n="2r" url=""/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11107">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 20 Marzo 1724)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">107</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1724-03-20"/>
+          <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-26" who="#DLCL_CF_PS001">aggiornamento teiHeader</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11107_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21001/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        <p>Con l’ultima sua delli 8. corrente <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> si addossò il debito di compire in un’altro ordinario la piena risposta a due mie, appresso le quali mi avvisava pure di aver già ricevute le due Cassette di libri: ma quel benedetto ordinario ancor non arriva, per cui Ella resti libera da’ que’ disturbi, che allora gl’impedirono terminar la lettera cominciata. Parmi intanto vederla tutta in applicazione per la nuova legatura del <bibl type="print">Corio,</bibl> cui, oltre i due quinternetti, parmi altresì che mancassero due altre carte. Così la veggo ancor da lontano in faccende per l’esito meditato de’ consaputi libri, e tra qualché intoppo, facile ad insorgere inter os, et offam, quando facile ci figuriamo la riuscita de’ nostri disegni.</p>
+        <p>Mi è capitata la <bibl type="print">Historia degl’Imperatori Greci</bibl> descritta da <persName ref="#DLCL_CF_PC1113">Niceta Coniate,</persName> il quale comincia dall’imperio di <persName ref="#DLCL_CF_PC1115">Giovanni Conneno,</persName> dove lascia il <persName ref="#DLCL_CF_PC1116">Zonara.</persName> Alla quale si è aggiunta l’<bibl type="print">Historia</bibl> di <persName ref="#DLCL_CF_PC1117">Niceforo Gregora,</persName> amendue tradotte da <persName ref="#DLCL_CF_PC1066">M. Lodovico Dolce.</persName> <placeName ref="#DLCL_CF_L0024">Vinegia</placeName> per il <persName ref="#DLCL_CF_PC0161">Giolito</persName> 1569. in 4. Vorrei di certo intendere, se costì in <orgName ref="#DLCL_CF_O0001">Libreria</orgName> siavi il suddetto <bibl type="print">Zonara,</bibl> come pare che indichi l’<bibl type="print">indice</bibl> del <persName ref="#DLCL_CF_PC0216">Fontanini,</persName> lineato.</p>
+        <p>Sentirò volentieri che il piccolo <bibl type="print">Tasso</bibl> del <persName ref="#DLCL_CF_PC1081">Castello</persName> sia passato alle mani del <persName ref="#DLCL_CF_PC0007">Padre Lettore Collina,</persName> perché ei possa rompere i suoi nodi col <persName ref="#DLCL_CF_PC0986">Buonarrigo.</persName> Ma ancor mi preme il pensiero di saper come ha d’andar l’interesse delli 24. paoli, pagati per di lei mani, con l’obbligo a quel <rs type="person">Libraio</rs> di dare il 2.° Tomo agli Associati <persName ref="#DLCL_CF_PC0906">Monsignor Ercolani,</persName> <persName ref="#DLCL_CF_PC1040">Monsignore Torregiani,</persName> <persName>Signor Paglia</persName></p>
+        <pb xml:id="DLCL_CF_E11107_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21001/full/800,/0/default.jpg"/>
+                <closer>
+          <dateline><persName ref="#DLCL_CF_PC0015">rini.</persName> Mi conservi il suo amore, e preghi il Signore Iddio per me, che teneramente l’abbraccio, confermandomi senza fine. <placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1724-03-20">20. Marzo 1724.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Cordialissimo Servitore Vero</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

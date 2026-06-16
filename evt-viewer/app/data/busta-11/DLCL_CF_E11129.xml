@@ -1,0 +1,97 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11129">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21707/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21708/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21709/full/800,/0/default.jpg"/>
+    <graphic n="2r" url=""/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11129">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Ribano, 25 Settembre 1724)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">129</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1724-09-25"/>
+          <placeName ref="#DLCL_CF_L0006" key="DLCL_CF_L0006">Ribano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-26" who="#DLCL_CF_PS001">aggiornamento teiHeader</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11129_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21708/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        <p>A goccia a goccia si distillano i favori di <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> per divenire più cari. Aspetterò dunque il residuo dell’intiera risposta col comodo suo opportuno. Intanto godo della spedizione da lei fatta a <placeName ref="#DLCL_CF_L0024">Venezia,</placeName> e della speranza datami di soggiungere altro al <persName ref="#DLCL_CF_PC0730">Padre Don Angelo</persName> con l’ordinario di dimani.</p>
+        <p>Non mi sono scordato di avvisare il prezzo delle due Copie delle <bibl type="print">poesie Merighiane:</bibl> di esse fo un dono al suddetto <persName ref="#DLCL_CF_PC0730">Padre Don Angelo.</persName> Da lui riceverò volentieri la lista de’ libri, che si offeriscono per messe; e lo bramo ben copioso, per poterne far partecipe il <persName ref="#DLCL_CF_PC1096">Padre Maestro Minghetti,</persName> il quale ieri si raccomandò grandemente che li trovassi libri per Messe, non avendo egli limosine, e tenendo con diversi di questi Preti credito di Messe per libri duplicati, ch’egli ha dati loro. Quando il numero sia grande, me ne farei onore ancora con un <rs type="person">Padre Esprovinciale Zoccolante,</rs> che ha quì fatta una galante Libreria. Vi potrebbe essere il rigiro, alla di lei venuta, per cavare dall’uno e dall’altro qualchè buon libro. Venga pur la nota, e non sia scarsa.</p>
+        <pb xml:id="DLCL_CF_E11129_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21709/full/800,/0/default.jpg"/>
+        <p>Al <persName ref="#DLCL_CF_PC0110">Padre Filippo</persName> manderò la fede delle Messe, già da gran tempo celebrate.</p>
+        <p>La risposta del <persName ref="#DLCL_CF_PC0296">Padre Abate Montanari</persName> porta la difficoltà del po</p>
+        <pb xml:id="DLCL_CF_E11129_CO_L" n="o" facs=""/>
+        <p>numero de’ fratelli, insufficiente al bisogno, e si rimette al di lui ritorno. Non mancano occasioni, particolarmente di Donne, che di costà vengono a <placeName ref="#DLCL_CF_L0043">Forlì.</placeName> Di grazia veda di sapere quando cotesti due Signori siano per portarsi quà, massimamente se la caduta cadesse in giorno di cibi magni; perché appena può aversi quì pesce, se pur viene, in altra maniera, che mandando a comprarlo avanti giorno: e in conserva non abbiamo più neve. Mi avvisi in tempo il giorno.</p>
+                <closer>
+          <dateline>Vorrei sapere, se abbiamo la <bibl type="print">Dimostrazione Evangelica</bibl> dell’<persName ref="#DLCL_CF_PC0404">Uezio,</persName> e di quale stampa. Non si scordi dell’indice intiero de’ duplicati nostri, e de’ nostri Codici di antiche edizioni, e de’ Manoscritti. Ho replicato ieri per la posta a <placeName ref="#DLCL_CF_L0006">Ribano</placeName> sopra la di lei venuta, di cui pure parlai qui a bocca. Addio. Resto con tutto ‘l cuore. <placeName ref="#DLCL_CF_L0043">Forlì</placeName> <date when-iso="1724-09-25">25. 7bre 1724.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Cordialissimo Servitore Vero Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

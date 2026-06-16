@@ -1,0 +1,93 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11131">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21713/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21714/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21715/full/800,/0/default.jpg"/>
+    <graphic n="2r" url=""/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11131">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Firenze, 4 Ottobre 1724)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">131</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1724-10-04"/>
+          <placeName ref="#DLCL_CF_L0018" key="DLCL_CF_L0018">Firenze</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-26" who="#DLCL_CF_PS001">aggiornamento teiHeader</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11131_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21714/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        <p>Il <persName ref="#DLCL_CF_PC1096">Padre Maestro Minghetti</persName> mi significa aver lettera dal suo <rs type="person">Padre Procuratore Generale,</rs> che lo avvisa essere stato elevato al rito doppio l’<bibl type="print">Officio di Santa Brigida per la Chiesa Universale.</bibl> Servirà la notizia per celebrar detto Officio nella prossima Domenica, e per disporlo, come doppio, nel Calendario dell’anno seguente. A <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> non sarà difficile aver da <placeName ref="#DLCL_CF_L0008">Roma</placeName> copia del <bibl type="print">Decreto,</bibl> per farlo stampare al solito.</p>
+        <p>La dilazione del viaggio del <persName ref="#DLCL_CF_PC1033">Signor Conte Settecastelli,</persName> tirata innanzi anco per aspettar la licenza di condur seco <persName ref="#DLCL_CF_PC0029">Frate Ferdinando,</persName> ora mi fà presagire che in quest’anno non sia per farsi altro, atteso il tempo turbato, e il fresco, potendosi temere l’incontro di nevi, e freddi nell’apennino, e tra le balze di que’ Santuarj, dove non possono esser che di grave incomodo, anco le piogge. Nuovamente, e più che mai desidero avviso preventivo, mentre si stà lavorando intorno alle nuove finestre di questo tugurio; oltre di che certe provvisioni di frutti, e d’altro mi sono state consumate da altre foresterie sopravenute. E questa è una Città scarsissima d’ogni grazia di Dio. In somma mi trovo in oggi sprovveduto di tutto.</p>
+        <pb xml:id="DLCL_CF_E11131_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21715/full/800,/0/default.jpg"/>
+                <closer>
+          <dateline>Quel <rs type="person">Signor N.</rs> di cui non mi ricordo il nome, Bolognese, che mi diede per messe il <bibl type="print">Vossio,</bibl> e poi quell’altra ragunata di libri, de quali ci rimane tuttavia una parte da esitare de’ duplicati, ha mandata quà un’altra lista, ma non a m[…] a dirittura. Io ho adocchiato 4. Tomi di Autori, che hanno scritto in <bibl type="print">materia di Acque,</bibl> stampato in <placeName ref="#DLCL_CF_L0018">Firenze,</placeName> il <bibl type="print">Cristiano Istruito,</bibl> di <placeName ref="#DLCL_CF_L0018">Firenze</placeName> per 30. paoli; e alcuni altri pochi libri. Ma vorrebbe la metà in contanti; cosa, che non riuscirà per essere i libri di prezzo alto assai. Se si accomoderà, come le altre volte, potremo aiutarci, dando per messe cotesti nostri duplicati meno esitabili. Il nostro <persName ref="#DLCL_CF_PC0676">Grillo</persName> sarà tornato alle sue tane; me lo riverisca di cuore; come mi confermo nell’istessa maniera. <placeName ref="#DLCL_CF_L0043">Forlì</placeName> <date when-iso="1724-10-04">4. Ottobre 1724.</date></dateline>
+          <salute>DVPMR</salute>
+          <salute>Cordialissimo Servitore Vero Affettuosissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

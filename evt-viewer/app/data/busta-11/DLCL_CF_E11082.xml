@@ -1,0 +1,114 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11082">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21528/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21529/full/536,800/0/default.jpg"/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11082">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (1723)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">82</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1723"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-27" who="#DLCL_CF_PS001">trascrizione, markup struttura e entità</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11082_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21529/full/536,800/0/default.jpg"/>
+        
+        <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre Signore Mio Osservandissimo</rs></salute>
+        </opener>
+        
+        <p>[<bibl type="print"><foreign xml:lang="la">Orationes</foreign></bibl>
+          <persName ref="#DLCL_CF_PC1056"><foreign xml:lang="la">Faballo
+            Cremonensis</foreign>.</persName> <placeName ref="#DLCL_CF_L0001"><foreign xml:lang="la"
+              >Cremonae</foreign></placeName>
+          <foreign xml:lang="la">in Palatio</foreign>. 8.</p>
+        
+        <p>alle quali seguono altre due di un’<rs type="person">altro Cremonese</rs>]</p>
+        
+        <p>Mi consolò nel viglietto la nuova della ricuperata salute; più mi avrebbe consolato gli effetti colla frequenza delle lettere. Dal <persName ref="#DLCL_CF_PC0529">Signor Conte Vincenzo Piazza</persName> ho avviso che sono stati consegnati i Tre Tomi del <bibl type="print">Pedrusi</bibl> al <persName ref="#DLCL_CF_PC1038">Mellerio.</persName> Il <rs type="person">Cavalier</rs> desidera una memoria a lui vantaggiosa da apporsi negli otto Tomi, e mi ricorda che io gliel’ho accordata. Ne manderò la formula; e potrebbe farsi colla stampa. Mi rimane la pena del Bauletto. Da <placeName ref="#DLCL_CF_L0008">Roma</placeName> ho ricevuto due Tomi delle <bibl type="print">Opere</bibl> del <persName ref="#DLCL_CF_PC0024">Rocca,</persName> parte delle quali erano prima Inedite. Or dunque sono cotesti pochi tometti superflui, e duplicati. Il <bibl type="print">Corpo</bibl> del <persName ref="#DLCL_CF_PC0655">Lirano</persName> dell’edizione de’ <orgName ref="#DLCL_CF_O0109">Massimi</orgName> ora sta in Camera nostra intiero, e da farne esito. Vi è l’<bibl type="print">Epistola a Paolo II.</bibl> colla nota de’ libri fino a quel tempo stampati. Non vedo l’involto de’ <bibl type="print">Tassi,</bibl> e di ciò, che gli accompagn; né si parla più di colonnette, né di tabernacoli, né de’ tabernacolisti.</p>
+        
+        <p><persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</persName> mi mandò una volta quel che il <persName ref="#DLCL_CF_PC1005">Vanderlinden</persName> scrive di <persName ref="#DLCL_CF_PC1006">Gentile da Foligno;</persName> ma non saprei ora dove trovarlo. Basterebbe un brevissimo transunto, con quel, che ne scrive il <persName ref="#DLCL_CF_PC0071">Mandosio,</persName> se quegli fui un de’ Medici Pontificij.</p>
+        
+        <p> In 48. ore, oltre tutte le altre faccende ho letto il <bibl type="manuscript">Zibaldone
+            Laderchiano Manoscritto,</bibl> e la <bibl type="print">Difesa stampata;</bibl> questa
+          con gran godimento, l’altro con nausea (per nulla dir dell’orrore) intollerabile. <hi
+            rend="ul"><foreign xml:lang="la">Res loquitur</foreign></hi>. A buon mercato ha avute le
+          sue quel <rs type="person" ref="#DLCL_CF_PC0436">Fariseo;</rs> ma forse non anderà così,
+          quando usciranno i <rs type="person">Monaci di San Mauro</rs> in difesa del loro <persName
+            ref="#DLCL_CF_PC0129">Mabillon.</persName> Una lunghissima lettera scrivo a <placeName
+            ref="#DLCL_CF_L0008">Roma;</placeName> e mi spiace non poterne far copia. </p>
+        
+        <closer>
+          <salute>Resto confermandomi <hi rend="ul"><foreign xml:lang="la">toto cordis
+                affectu</foreign></hi>.</salute>
+          <salute>DVPMR.</salute>
+        </closer>
+        
+        <postscript>
+          <p>Il <persName ref="#DLCL_CF_PC0547">Reverendissimo Tassis</persName> nuovamente stride.</p>
+        </postscript>
+        
+        <closer>
+          <salute>Cordialissimo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

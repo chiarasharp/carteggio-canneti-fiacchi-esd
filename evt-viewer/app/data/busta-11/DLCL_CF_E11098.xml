@@ -1,0 +1,104 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11098">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21601/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21602/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21603/full/800,/0/default.jpg"/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11098">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Fabriano, 28 Gennaio 1724)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">98</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1724-01-28"/>
+          <placeName ref="#DLCL_CF_L0004" key="DLCL_CF_L0004">Fabriano</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">aggiornamento IIIF da Unibo a CDC</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione, markup struttura e entità</change>
+      <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11098_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/20992/full/800,/0/default.jpg"/>
+        
+        <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        
+        <p>Sto aspettando occasione di <rs type="person">Vetturale</rs> per <placeName ref="#DLCL_CF_L0003">Pesaro:</placeName> tosto che sia trovata, gli farò consegnare il <bibl type="print">Corio</bibl> (nel quale mancano i quinternetti L. M. maiuscoli, o sia del secondo alfabeto) e i due Tomi delle <bibl type="print">Opere</bibl> del <persName ref="#DLCL_CF_PC0025">Petrarca.</persName> Anzi penso di mandare l’uno, e l’altro esemplare, che sta appresso di me, affinche il <rs type="person">Compratore</rs> resti persuaso, che certe macchie fosche, le qual s’incontrano nelle carte, non son difetto particolare di un’esemplare solo, ma di tutti; e posso affermare, che altre copie dell’opera stessa da me vedute hanno la stessissima maladizione. Il carattere non è piccolo, ma né pur’è grande. Qualunque siasi, niun’altra edizione è stata fatta, prima, né poi, fuorche questa di <placeName ref="#DLCL_CF_L0042">Basilea,</placeName> nella stampa <orgName ref="#DLCL_CF_O0193">Enricpetrina,</orgName> di tutte le <bibl type="print">Opere</bibl> del <persName ref="#DLCL_CF_PC0025">Petrarca.</persName> Vi aggiungerò, come accennai, il <bibl type="print">Baldelli</bibl> in due tomi; e mi conte[nterò], che a conto mio si ponga quel prezzo, che potrà ricavarsi dal primo tomo, il qual verrà ad essere duplicato. Vi metterò in oltre il <persName ref="#DLCL_CF_PC0129">Mabillon</persName> <bibl type="print">de cultu Sanctorum ignotorum;</bibl> e perché io non hò che la 2.a edizione corretta, l’accompagnerò colla prima, in lingua franzese, tradotta dal latino.</p>
+        
+        <p>Ho ricevuti i favori del <rs type="person">Padre Camerlengo;</rs> gli risponderò subito che i suoi ordinari saranno eseguiti. Intanto lo riverisca, col <persName ref="#DLCL_CF_PC0730">Padre Don Angelo.</persName></p>
+        
+        <pb xml:id="DLCL_CF_E11098_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/20992/full/800,/0/default.jpg"/>
+        
+        <p>Questa mattina è partito per <placeName ref="#DLCL_CF_L0036">Gubbio</placeName> il <persName ref="#DLCL_CF_PC1033">Signor Conte Luigi Settecastelli.</persName> Ivi si accompagnerà con il <rs type="person">Signor Cavaliere della Branca</rs> suo Zio, e sollecitamente passerà a <placeName ref="#DLCL_CF_L0008">Roma.</placeName> Ha lasciato molto desiderio di se e grand’edificazione se’ suoi costumi veramente rari, e mirabile per tanta bontà, e saviezza in età così fresca. Gli ho consegnato il rarissimo <bibl type="print">Lattanzio</bibl> di <orgName ref="#DLCL_CF_O0175">Subiaco,</orgName> da far legare in [<placeName ref="#DLCL_CF_L0008">Roma</placeName>]. Ieri vidi un libro legato colà dal <persName ref="#DLCL_CF_PC0015">Pagliarini</persName> in vitello d’[<placeName ref="#DLCL_CF_L0038">Olanda</placeName>] che arriva alla somma finezza delle legature più insigni ol[tra]montane. Se capiterà nuova intorno al <bibl type="print">Lacerda,</bibl> ava<gap reason="illegible"/>[…] che si offerisca occasione di trasporto per <placeName ref="#DLCL_CF_L0003">Pesaro,</placeName> vi s’includerà questo ancora. È ben tenuto.</p>
+        
+        <closer>
+          <salute>Resto di tutto cuore confermandomi.</salute>
+          <dateline><placeName ref="#DLCL_CF_L0004">Fabriano</placeName> <date when-iso="1724-01-28">28. Gennaio 1724.</date></dateline>
+          <salute>DVPMR</salute>
+        </closer>
+        
+        <postscript>
+          <p>Sono indifferente a dar l’uno, o l’altro esemplare delle <bibl type="print">Opere</bibl> del <persName ref="#DLCL_CF_PC0025">Petrarca.</persName></p>
+        </postscript>
+
+        <closer>
+          <salute>Cordialissimo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

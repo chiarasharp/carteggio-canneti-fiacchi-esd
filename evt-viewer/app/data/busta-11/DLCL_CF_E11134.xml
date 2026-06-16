@@ -1,0 +1,101 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11134">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21723/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21724/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21725/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21726/full/800,/0/default.jpg"/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11134">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (Forlì, 24 Ottobre 1724)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">134</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso="1724-10-24"/>
+          <placeName ref="#DLCL_CF_L0043" key="DLCL_CF_L0043">Forlì</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-26" who="#DLCL_CF_PS001">aggiornamento teiHeader</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11134_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21724/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo</persName> Carissimo</salute>
+        </opener>
+        <p>Mando il <rs type="person">mio Padre Camerlengo</rs> a visitare il <persName ref="#DLCL_CF_PC0676">Padre Lettore Grilli,</persName> per mia parte, con ferma fiducia, che egli abbia a recarmi della sua buona salute nuove migliori. Ringrazio intanto ben vivamente <rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Vostra Paternità</rs> di quelle, che mi ha trasmesso con la sua ultima, al solito cortese e cordiale.</p>
+        <p>Caro mi è stato l’avviso della compra del 4.to tomo del <bibl type="print">Pez,</bibl> seguita con vantaggio, mercè della sagacità del nostro <persName ref="#DLCL_CF_PC0730">Padre Don Angelo,</persName> il quale godo che si sollevi con la villeggiatura in questa bellissima stagione.</p>
+        <p>Non ho veduto il breve dell’Indulgenza per la recitazione in ginocchio dell’Ave Maria. Bensì ho inteso che sia conceduta a chi inginocchiato la reciterà, senza distinguere i giorni di Domenica, né il tempo pasquale. Ancora per l’avanti vi era un’indulgenza simile; e in riguardo di essa si costumava da’ <rs type="person">Padri</rs> dell’<orgName ref="#DLCL_CF_O0046">Oratorio di Perugia</orgName> inginocchiarsi sempre, e indistintamente alla recitazione dell’Ave Maria ne’ tre tempi, che si usa suonarne il segno ogni giorno.</p>
+        <p>La Rubrica, che in certe messe prescrive l’orazione Ecclesię, ovvero l’altra pro Papa, non c’insegna per questo, che le due Collette ivi prescritte contengano la medesima preghi=</p>
+        <pb xml:id="DLCL_CF_E11134_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21725/full/800,/0/default.jpg"/>
+        <p>era, come contiene l’istessa supplica a Dio la sopradetta Ecclesię, che si comprende nell’altra Acunctis. Vana pertanto è la riflessione, e chimerico lo scrupolo di chi altramente pensa e discorre. Regola generale è non doversi metafisicare sopra le rubriche, ma osservarle ad litteram, e secondo le dichiarazioni autorevoli, e le osservazioni fondate.</p>
+        <p>Crederei che il <persName ref="#DLCL_CF_PC0923">Libraio Brocchi,</persName> se non altri potesse affacciarsi a proporre la <bibl type="print">Somma</bibl> a <rs type="person">Monsignore Arcivescovo.</rs> È cosa giusto da lui ma altri forse non mancherà per fare tal servizio. Credo che sarà a miglior mercato l’<bibl type="print">edizione</bibl> di <placeName ref="#DLCL_CF_L0010">Padova;</placeName> ma non è poi <bibl type="print">edizione</bibl> di <placeName ref="#DLCL_CF_L0037">Francia.</placeName> Costò 10. scudi: potrebbe darsi per ultimo prezzo, a otto. Io la baratterei nelli tre tomi in foglio dell’<bibl type="print">Oudin,</bibl> de’ quali ho necessità. Veda quel, che può farsi in <placeName ref="#DLCL_CF_L0024">Venezia,</placeName> quando l’esito costì non riesca.</p>
+        <p>Mando il tomo 2.° dell’<bibl type="print">Ughelli,</bibl> la cui vendita rimetto a lei pro arbitrio. Delle Corone sentirà il <rs type="person">Padre Camerlengo;</rs> se pur già non sono arrivate.</p>
+        <p>Al ritorno può mandarmi le <bibl type="print">Prose Fiorentine,</bibl> i <bibl type="print">Trimestri,</bibl> il <bibl type="print">Sant’Atanasio</bibl> rilegato, et si quid aliud. Essendovi luogo,</p>
+        <pb xml:id="DLCL_CF_E11134_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21726/full/800,/0/default.jpg"/>
+        <p>vi aggiunga il <bibl type="manuscript">Poema de Praelijs Tusciae Manoscritto antico,</bibl> e altri simili, o stampati non duplicati.</p>
+                <closer>
+          <salute>Nel 2.° tomo di <bibl type="print">Paracelso,</bibl> in fine vi mancano più carte, forse perché contengono i sigilli. Ma perché la libreria può tenere il libro intiero, ancora con tali sigilli, desidero poter compire il tomo. Ne accenni al <persName ref="#DLCL_CF_PC0873">Padre Calogerà</persName> il mio pensiero. Resto per fine abbracciandola caramente.</salute>
+          <dateline>DVPMR. <placeName ref="#DLCL_CF_L0043">Forlì</placeName> <date when-iso="1724-10-24">24. Ottobre 1724.</date></dateline>
+          <salute>Cordialissimo Servitore Affezionatissimo Vero</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

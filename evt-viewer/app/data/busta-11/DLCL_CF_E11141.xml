@@ -1,0 +1,100 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="DLCL_CF_E11141">
+  <facsimile sameAs="https://www.cdc.classense.ra.it/iiif/21746/manifest">
+    <graphic n="1r" url="https://www.cdc.classense.ra.it/iiif/2/21747/full/800,/0/default.jpg"/>
+    <graphic n="1v" url="https://www.cdc.classense.ra.it/iiif/2/21748/full/800,/0/default.jpg"/>
+    <graphic n="2r" url="https://www.cdc.classense.ra.it/iiif/2/21749/full/800,/0/default.jpg"/>
+    <graphic n="2v" url=""/>
+  </facsimile>
+  <text type="letter" xml:id="DLCL_CF_E11141">
+    <front>
+      <fileDesc>
+      <titleStmt>
+        <title xml:lang="it">Canneti a Fiacchi (...luogo, ...anno)</title>
+        <author ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LUDI: Laboratorio di Documentazione e Informazione</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Carteggio Canneti Fiacchi</title>
+        <title type="subseries" ref="#DLCL_CF_E11" key="DLCL_CF_E11">Busta 11</title>
+        <biblScope unit="letter">141</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="IT">Italia</country>
+            <settlement ref="#DLCL_CF_L0002" key="DLCL_CF_L0002">Ravenna</settlement>
+            <institution ref="#DLCL_CF_O0001" key="DLCL_CF_O0001">Istituzione Biblioteca Classense</institution>
+            <repository/>
+            <collection/>
+            <idno/>
+            <altIdentifier>
+              <idno/>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Pietro Canneti</persName>
+          <date when-iso=""/>
+          <placeName ref="" key=""/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Mariangelo Fiacchi</persName>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="it"/>
+      </langUsage>
+      <settingDesc>
+        <xi:include href="../../entities/places.xml"/>
+      </settingDesc>
+      <particDesc>
+        <xi:include href="../../entities/people/cited-people.xml"/>
+        <xi:include href="../../entities/people/staff.xml"/>
+        <xi:include href="../../entities/orgs.xml"/>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc status="created">
+      <change when-iso="2025-11-26" who="#DLCL_CF_PS001">creato</change>
+      <change when-iso="2026-03-17" who="#DLCL_CF_PS001">correzione paragrafi</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">trascrizione</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup entità</change>
+      <change when-iso="2026-05-26" who="#DLCL_CF_PS001">markup struttura</change>
+  <change when-iso="2026-05-28" who="#DLCL_CF_PS001">aggiornamento IIIF</change>
+</revisionDesc>
+    </front>
+    <body>
+      <div type="transcription">
+        <pb xml:id="DLCL_CF_E11141_C1R_L" n="1 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21747/full/800,/0/default.jpg"/>
+                <opener>
+          <salute><rs type="person" ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Molto Reverendo Padre mio Signore Osservandissimo</rs></salute>
+        </opener>
+        <p><placeName ref="#DLCL_CF_L0043">Forlì</placeName> 27. Dicembre 1724.</p>
+        <p>Ora sì è disperato il caso di poter quì vedere il <persName ref="#DLCL_CF_PC0002" key="DLCL_CF_PC0002">Padre Don Mariangelo.</persName> Ei non vuol venire, e due volte si è servito dello specioso pretesto della carità fraterna per non moversi. O che duro cuore porta in petto! Giustamente è corrisposto da altri: e, se non viene a <placeName ref="#DLCL_CF_L0043">Forlì,</placeName> se ne stia tra le zanzare l’estate, sotto la nebbia l’inverno in <placeName ref="#DLCL_CF_L0002">Ravenna.</placeName> Ci stia. Ma a che serve in mio prò tal vendetta? Or via. Perdono il trascorso, ancor senza speranza di emenda, e di più gli riauguro tutte le benedizioni nelle correnti sante feste, nel principio dell’anno, e in ogni tempo, ringraziandolo de’ suoi cortesi annunzj. Il medesimo officio stendasi a tutti gli <rs type="person">altri Padri:</rs> che sì cortesemente mi hanno favorito, e distintamente al povero <persName ref="#DLCL_CF_PC0676">Padre Lettore Grilli,</persName> cui dal Signore Iddio con tutto ‘l cuore prego perfetta salute, e al <persName ref="#DLCL_CF_PC0873">Padre Calogerà,</persName> che di me si ricorda in <placeName ref="#DLCL_CF_L0024">Venezia.</placeName></p>
+        <p>Mà il <persName ref="#DLCL_CF_PC0730">Padre Don Angelo</persName> veramente và a <placeName ref="#DLCL_CF_L0160">Vicenza?</placeName> Me ne spiace, perché gli affarj delle Bibliotecarie applicazioni perdono un buon corrispondente. Gli propose Ella il baratto del <bibl type="print">Lenfant</bibl> in altri nostri libri? E di que’ duplicati? E di quegli altri per Messe? E costì vi sono il <bibl type="print">Teatro Chimico,</bibl> l’<bibl type="print">Efemeridi Manfrediane,</bibl> né vi è chi pensi a barattarli, o venderli!</p>
+        <p>Or via su! facciasi scrivere <bibl type="manuscript">un’indicolo de’ libri nostri,</bibl> che rimangono; dico, de’ libri, e basta, non degli autori. L’aspetto. Me lo mandi a pezzi a pezzi.</p>
+        <pb xml:id="DLCL_CF_E11141_C1V_L" n="1 - Verso" facs="https://www.cdc.classense.ra.it/iiif/2/21748/full/800,/0/default.jpg"/>
+        <p>Con la venuta del <persName ref="#DLCL_CF_PC0246">Padre Don Abondio</persName> mi mandi qualcheduno de’ libri […] ti de’ nostri. E mi sarà caro intendere se duplicati siano […] <bibl type="print">Giornali di Roma.</bibl></p>
+        <p>Mi son capitati da comprare i tre tomi delle <bibl type="print">Orazioni</bibl> di <persName ref="#DLCL_CF_PC0153">Cicerone,</persName> volgarizzate dal <persName ref="#DLCL_CF_PC0236">Fausto da Longiano,</persName> un solo de’ quali riferisce <persName ref="#DLCL_CF_PC0216">Fontanini</persName> pag. 36., ove in margine ho aggiunto: Le Orazioni di Cicerone tradotte dal Fausto, e divise in Giudiciali, Deliberative e Dimostrative, della stampa quì notata, sono in tre tomi. Nel detto libro osservo la solita linea ____ al tomo ivi descritto. E seg[ue] che esso sta in <orgName ref="#DLCL_CF_O0001">Libreria.</orgName> Mi accerti subito se ciò è vero, o no. L’<bibl type="print">Opera</bibl> suddetta ^di <persName ref="#DLCL_CF_PC0216">Monsignor Fontanini</persName> di fresco è stata ristampata in <placeName>Cesena</placeName>16, unitavi la <bibl type="print">Biblioteca Ecclesiastica</bibl> del <persName ref="#DLCL_CF_PC0129">Mabillon,</persName> tratta dal suo libro degli <bibl type="print">S[…] Monastici,</bibl> e il <bibl type="print">Catalogo degli Storici d’Italia</bibl> del <persName ref="#DLCL_CF_PC0874">Langlet.</persName></p>
+        <p>Ho ricevuta la copia legata della mia <bibl type="print">Dissertazione.</bibl> Aspetterò le altre. Fa’ da per tutto gran fracasso; un grande onore gli fanno i […]lignati nella <bibl type="print">Dedicatoria del Poema al Papa,</bibl> e nella prefazione ove citano l’applauso ad essa fatto dall’<persName ref="#DLCL_CF_PC0875">Abate Anton Maria Salvini.</persName> Ciò, che più importa, si è il darsi per vinto <persName ref="#DLCL_CF_PC0876">Bottazzoni</persName> con una lettera scritta al <persName ref="#DLCL_CF_PC0015">Pagliarini</persName> di <placeName ref="#DLCL_CF_L0023">Foligno,</placeName> e convinto della verità. L’<persName ref="#DLCL_CF_PC0127">Orlandi</persName> è un pazzo; e gli stanno bene le sferzate che ha ricevute, se pur le sente al vivo, come merita. [Chi] leggerà tutta l’<bibl type="print">operetta,</bibl> conoscerà che ho letto qualchè cosa.</p>
+        <pb xml:id="DLCL_CF_E11141_C2R_L" n="2 - Recto" facs="https://www.cdc.classense.ra.it/iiif/2/21749/full/800,/0/default.jpg"/>
+        <p>Di grazia vedasi presto ciò, che si può fare de’ <bibl type="print">Secoli Agostiniani.</bibl> Posso averne altrove un’altro corpo per 150. Messe. Ciò può servire per qualchè regola. So’ che in <orgName ref="#DLCL_CF_O0001">Libreria</orgName> non vi è il <bibl type="print">Passerini sopra il Sesto:</bibl> contuttociò ho caro esitarlo, perché il decoro di una Libreria famosa richiede il corpo intiero delle Opere del <rs type="person">celebre autore,</rs> dell’edizione di <placeName ref="#DLCL_CF_L0008">Roma,</placeName> da dove mi venne questo di <placeName ref="#DLCL_CF_L0024">Venezia</placeName> ben legato in pergamena, nuovo, quando io l’aspettava stampato in <placeName ref="#DLCL_CF_L0008">Roma</placeName> stessa.</p>
+        <p>Rimanderò i due <bibl type="print">Giornali Oltramontani.</bibl> In somma mi avveggo, che le ristampe in qualche cosa di notabile non arrivano alle loro prime loro edizioni. Mi sarà poi caro intendere se il <persName ref="#DLCL_CF_PC0877">Pavino</persName> ha ristampato, e come, tutto il <bibl type="print">Bellarmino.</bibl> Che fà mai nel nuovo frontispizio del VI. Tomo quel ceffo del <persName ref="#DLCL_CF_PC1085">Cerusico Melli?</persName> O che ridicola adulazione! È cosa degna del <orgName>Museo de’ Compastori dell’Onore letterario.</orgName> Quante pazzie a dì nostri fà la birba, introdotta nelle lettere! Finisco abbracciandola caramente, e riverendo il <rs type="person">Padre Camerlengo</rs> degnissimo.</p>
+        <p>DVPMR.</p>
+        <p>Il <persName ref="#DLCL_CF_PC0878">Padre Generale de’ Domenicani (ora Eminentissimo) Pipia</persName> ha scritto sopra la <bibl type="print">Dissertazione</bibl> con tali espressioni all’<orgName ref="#DLCL_CF_O0119">Accademia di Foligno,</orgName> in mio vantaggio; che io non posso dispensarmi da scrivere a <rs type="person">Sua Eminenza.</rs> <bibl type="print">Calendari</bibl> ne mandi quà cinque. Uno ne dia al <persName ref="#DLCL_CF_PC1084">Padre Don Fridiano.</persName> Io ne pagherò sei.</p>
+                <closer>
+          <salute>Cordialissimo Servitore Affezionatissimo</salute>
+          <signed><persName ref="#DLCL_CF_PC0001" key="DLCL_CF_PC0001">Don Pietro Canneti</persName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>
