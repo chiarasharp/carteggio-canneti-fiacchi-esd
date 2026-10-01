@@ -10,7 +10,7 @@
  *
  * @requires $rootScope
  * @requires $timeout
- * @requires $routeParams
+ * @requires $location
  * @requires $q
  * @requires evtviewer.core.config
  * @requires evtviewer.communication.evtCommunication
@@ -24,8 +24,8 @@
 **/
 angular.module('evtviewer.interface')
 
-    .service('evtInterface', ['$rootScope', '$timeout', 'evtTranslation', 'evtCommunication', 'evtCriticalApparatusParser', 'evtCriticalParser', 'evtPinnedElements', 'config', '$routeParams', 'parsedData', 'evtReading', '$q',
-        function ($rootScope, $timeout, evtTranslation, evtCommunication, evtCriticalApparatusParser, evtCriticalParser, evtPinnedElements, config, $routeParams, parsedData, evtReading, $q) {
+    .service('evtInterface', ['$rootScope', '$timeout', 'evtTranslation', 'evtCommunication', 'evtCriticalApparatusParser', 'evtCriticalParser', 'evtPinnedElements', 'config', '$location', 'parsedData', 'evtReading', '$q',
+        function ($rootScope, $timeout, evtTranslation, evtCommunication, evtCriticalApparatusParser, evtCriticalParser, evtPinnedElements, config, $location, parsedData, evtReading, $q) {
             var mainInterface = {};
 
             /**
@@ -248,7 +248,10 @@ angular.module('evtviewer.interface')
                                 }
                             }
 
-                            mainInterface.updateParams($routeParams);
+                            // Use $location.search() instead of $routeParams: at boot time $routeParams
+                            // can still hold its stale injection-time value if ngRoute hasn't resolved
+                            // the initial route yet, which drops the 'd'/'p' params on deep-links/refresh.
+                            mainInterface.updateParams($location.search());
 
                             var promises = [];
 

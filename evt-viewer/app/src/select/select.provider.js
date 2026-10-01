@@ -311,11 +311,18 @@ angular.module('evtviewer.select')
 						}, function(newFilter, oldFilter) {
 							if (newFilter !== oldFilter) {
 								vm.optionList = formatOptionList(parsedData.getDocuments());
-								// Optionally, reset selected document if the current one is no longer in the filtered list
-								// var currentDoc = evtInterface.getState('currentDoc');
-								// if (!vm.optionList.find(doc => doc.value === currentDoc)) {
-								//     vm.selectOption(vm.optionList[0]); // Select the first document in the filtered list
-								// }
+
+								// If the current document is already part of the filtered list
+								// (e.g. the filter was just derived from it via a deep-link), keep it
+								// selected instead of forcing the first option of the list.
+								var currentDoc = evtInterface.getState('currentDoc');
+								var currentDocInList = vm.optionList.filter(function(doc) {
+									return doc.value === currentDoc;
+								})[0];
+								if (currentDocInList) {
+									vm.selectOption(currentDocInList);
+									return;
+								}
 
 								// Select the first document in the filtered list
 								if (vm.optionList.length > 0) {
