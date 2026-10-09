@@ -41,9 +41,8 @@ Requirements: Node.js 14 (via nvm), npm 6.
 
 | Busta | Letters | Status |
 |---|---|---|
-| Busta 10 | E10001–E10133 | Complete |
-| Busta 11 | E11001–E11060 | Published — markup complete |
-| Busta 11 | E11061–E11141 | Stubs only — not yet published |
+| Busta 10 | E10001–E10133 (129 letters) | Complete |
+| Busta 11 | E11001–E11141 (139 letters) | Complete |
 
 ---
 
